@@ -57,8 +57,17 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           pattern: uf-*
-          path: data/
-          merge-multiple: true
+          path: _artefatos/
+          merge-multiple: false   # cada artefato em _artefatos/uf-{UF}/
+
+      - name: Posicionar dados por UF
+        run: |
+          # cada artefato contém imoveis.{csv,json,toon} da UF; mover para data/{UF}/
+          for d in _artefatos/uf-*/; do
+            uf=$(basename "$d" | sed 's/^uf-//')
+            mkdir -p "data/$uf"
+            cp "$d"* "data/$uf/" 2>/dev/null || echo "artefato vazio: $uf"
+          done
 
       - name: Gerar status consolidado
         run: |
