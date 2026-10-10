@@ -31,7 +31,7 @@ JSON:
 ```python
 import json, urllib.request
 d = json.load(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/xnetinho/caixa-csv-probe/master/data/PB/imoveis.json"))
+    "https://raw.githubusercontent.com/xnetinho/caixa-imoveis/master/data/PB/imoveis.json"))
 for im in d["imoveis"]:
     print(im["id"], im["cidade"], im["preco"], im["desconto"])
 ```
