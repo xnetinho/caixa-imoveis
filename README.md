@@ -1,5 +1,8 @@
 # Caixa CSV → JSON + TOON
 
+![pipeline](https://github.com/xnetinho/caixa-imoveis/actions/workflows/atualizar.yml/badge.svg)
+![probe](https://github.com/xnetinho/caixa-imoveis/actions/workflows/probe.yml/badge.svg)
+
 Baixa diariamente, via GitHub Actions, os **CSVs oficiais de imóveis da Caixa Econômica Federal** (todas as 27 UFs) e publica em `data/{UF}/`:
 
 | Arquivo | Conteúdo |

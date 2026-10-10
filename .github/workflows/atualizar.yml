@@ -3,7 +3,7 @@ name: Atualizar dados Caixa (CSV -> JSON + TOON)
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: '37 12 * * *'   # diário 09:37 BRT
+    - cron: '37 12 * * *'   # TODO: ajustar pós-medicao do horario de publicacao da Caixa
 
 permissions:
   contents: write
@@ -15,10 +15,12 @@ concurrency:
 jobs:
   # 1 UF por job => 1 IP do pool de runners por UF. Verificado em produção:
   # o Radware bloqueia requisições em sequência do MESMO IP (1ª passa, resto
-  # 302), mas de IPs diferentes todas passam (probe 9/9 e matrix 27/27).
+  # 302), mas de IPs diferentes todas passam (probe 9/9 e matrix 25/27).
   baixar-uf:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+      ufs_falhas: ${{ steps.falhas.outputs.lista }}
     strategy:
       fail-fast: false
       max-parallel: 27
@@ -45,15 +47,73 @@ jobs:
           path: data/${{ matrix.uf }}/
           retention-days: 1
 
-  consolidar:
+      - name: Registrar falha da UF
+        if: failure()
+        id: falha
+        run: echo "uf=${{ matrix.uf }}" >> $GITHUB_OUTPUT
+
+    # Coletar a lista de UFs que falharam precisa de um job à parte (matrix
+    # não agrega outputs por si só).
+  coletar-falhas:
     needs: baixar-uf
+    if: always()
+    runs-on: ubuntu-latest
+    outputs:
+      ufs_falhas: ${{ steps.lista.outputs.ufs }}
+    steps:
+      - name: Listar UFs que falharam na 1a rodada
+        id: lista
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          ufs=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs?per_page=100" \
+            --jq '[.jobs[] | select(.name | startswith("baixar-uf (")) | select(.conclusion == "failure") | .name | capture("baixar-uf \\((?<uf>[A-Z]{2})\\)").uf]')
+          echo "Falhas: $ufs"
+          if [ "$ufs" = "[]" ]; then ufs='["zz"]'; fi   # placeholder p/ matrix não-vazia
+          echo "ufs=$ufs" >> $GITHUB_OUTPUT
+
+  # Segunda rodada: reprocessa APENAS as UFs que falharam, em runners
+  # (e portanto IPs) novos do pool.
+  retry-uf:
+    needs: coletar-falhas
+    if: needs.coletar-falhas.outputs.ufs_falhas != '[]'
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    if: always()   # consolida mesmo com UFs individuais falhando
+    strategy:
+      fail-fast: false
+      max-parallel: 27
+      matrix:
+        uf: ${{ fromJSON(needs.coletar-falhas.outputs.ufs_falhas) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Retry — baixar e converter ${{ matrix.uf }}
+        run: python3 scripts/pipeline.py ${{ matrix.uf }}
+
+      - name: Upload do resultado da UF (retry)
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: uf-${{ matrix.uf }}
+          path: data/${{ matrix.uf }}/
+          retention-days: 1
+
+  consolidar:
+    needs: [baixar-uf, retry-uf]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
-      - name: Baixar artefatos das UFs que passaram
+      - name: Baixar artefatos das UFs que passaram (1a rodada + retry)
         uses: actions/download-artifact@v4
         with:
           pattern: uf-*
@@ -62,7 +122,6 @@ jobs:
 
       - name: Posicionar dados por UF
         run: |
-          # cada artefato contém imoveis.{csv,json,toon} da UF; mover para data/{UF}/
           for d in _artefatos/uf-*/; do
             uf=$(basename "$d" | sed 's/^uf-//')
             mkdir -p "data/$uf"
@@ -88,7 +147,7 @@ jobs:
           for uf in ufs_ok:
               j = json.load(open(f'data/{uf}/imoveis.json', encoding='utf-8'))
               status[uf] = {'ok': True, 'total': j['total'],
-                            'gerado_em': j['gerado_em']}
+                            'data_geracao_caixa': j.get('data_geracao_caixa')}
           for uf in falhas:
               status[uf] = {'ok': False,
                             'erro': 'sem dados nesta execução (arquivos anteriores preservados)'}
@@ -118,7 +177,3 @@ jobs:
           else
             echo "Nenhuma mudança de conteúdo — sem commit."
           fi
-
-      - name: Falhar se nenhuma UF passou
-        if: ${{ needs.baixar-uf.result == 'failure' }}
-        run: exit 1

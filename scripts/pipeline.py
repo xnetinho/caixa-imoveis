@@ -40,6 +40,10 @@ RETRY_MAX = 4         # tentativas por UF com backoff (Radware desafia IP após
 RETRY_BACKOFF_S = 20  # poucas requisições — cada job do matrix usa IP próprio,
                       # o retry cobre desafios transitórios
 CSV_SIGNATURE = b"Lista de Im"  # prefixo ASCII do título (encoding cp1252)
+# Linha de título (cp1252): " Data de geração:;09/10/2026;;..."
+# Busca direto nos BYTES: "Data de gera\xe7\xe3o:;DD/MM/AAAA"
+DATA_GERACAO_RE = re.compile(
+    rb"Data de gera\xe7\xe3o:;\s*(\d{2}/\d{2}/\d{4})")
 
 UFS = ["AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS",
        "MG", "PA", "PB", "PR", "PE", "PI", "RJ", "RN", "RS", "RO", "RR", "SC",
@@ -206,7 +210,13 @@ def processar(raw_bytes: bytes, uf: str):
 
     if not imoveis:
         raise ValueError("nenhum imóvel extraído (CSV vazio ou bloqueado)")
-    return imoveis, chaves_vistas
+
+    # Data de geração oficial do CSV (linha de título, ex.: "Data de geração:;09/10/2026")
+    m = DATA_GERACAO_RE.search(raw_bytes)
+    data_geracao = m.group(1).decode("ascii") if m else None
+    if not data_geracao:
+        raise ValueError("data de geração da Caixa ausente no CSV (layout mudou?)")
+    return imoveis, chaves_vistas, data_geracao
 
 
 # ── TOON (Token-Oriented Object Notation, forma tabular) ──────────────────────
@@ -226,12 +236,12 @@ def toon_cell(v) -> str:
     return s
 
 
-def gerar_toon(uf, imoveis, chaves, gerado_em, fonte):
+def gerar_toon(uf, imoveis, chaves, data_geracao, fonte):
     chaves = [c for c in chaves if c != "id"] or list(imoveis[0].keys())
     campos = ["id"] + chaves
     linhas = [
-        f"meta{{uf,gerado_em,total,fonte}}:",
-        f"  {uf},{toon_cell(gerado_em)},{len(imoveis)},{fonte}",
+        f"meta{{uf,data_geracao_caixa,total,fonte}}:",
+        f"  {uf},{toon_cell(data_geracao)},{len(imoveis)},{fonte}",
         f"imoveis[{len(imoveis)}]{{{','.join(campos)}}}:",
     ]
     for im in imoveis:
@@ -253,7 +263,7 @@ def rodar_uf(uf: str, status: dict):
                 raise ValueError(f"HTTP {code}")
             with open(tmp_csv, "rb") as f:
                 raw = f.read()
-            imoveis, chaves = processar(raw, uf)  # valida conteúdo
+            imoveis, chaves, data_geracao = processar(raw, uf)  # valida conteúdo
         except ValueError as e:
             last_err = str(e)
             if tentativa < RETRY_MAX:
@@ -271,17 +281,19 @@ def rodar_uf(uf: str, status: dict):
         with open(os.path.join(uf_dir, "imoveis.json"), "w", encoding="utf-8") as f:
             json.dump({
                 "uf": uf,
-                "gerado_em": agora_br(),
+                # Data oficial de geração do CSV pela CAIXA (não a hora da coleta)
+                "data_geracao_caixa": data_geracao,
+                "coletado_em": agora_br(),
                 "fonte": f"{BASE}/Lista_imoveis_{uf}.csv",
                 "total": len(imoveis),
                 "colunas": chaves,
                 "imoveis": imoveis,
             }, f, ensure_ascii=False, indent=1)
         with open(os.path.join(uf_dir, "imoveis.toon"), "w", encoding="utf-8") as f:
-            f.write(gerar_toon(uf, imoveis, chaves, agora_br(),
+            f.write(gerar_toon(uf, imoveis, chaves, data_geracao,
                                f"{BASE}/Lista_imoveis_{uf}.csv"))
         status[uf] = {"ok": True, "total": len(imoveis),
-                      "bytes_csv": len(raw), "gerado_em": agora_br()}
+                      "bytes_csv": len(raw), "gerado_em": data_geracao}
         print(f"[{uf}] ✅ {len(imoveis)} imóveis ({len(raw):,} bytes)")
         shutil.rmtree(tmpdir, ignore_errors=True)
         return True
