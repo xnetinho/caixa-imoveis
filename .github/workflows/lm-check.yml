@@ -1,0 +1,12 @@
+name: Last-Modified check
+on: workflow_dispatch
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for uf in PB SP BA MG MS; do
+            echo "== $uf =="
+            curl -sI --max-time 60 "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_${uf}.csv" | tr -d '\r' | grep -iE "^(HTTP|last-modified|etag|content-length|date)"
+            sleep 2
+          done
