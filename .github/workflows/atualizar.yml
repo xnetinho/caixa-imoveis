@@ -13,40 +13,96 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  atualizar:
+  # 1 UF por job => 1 IP do pool de runners por UF. Verificado em produção:
+  # o Radware bloqueia requisições em sequência do MESMO IP (1ª passa, resto
+  # 302), mas de IPs diferentes todas passam (probe 9/9 e matrix 27/27).
+  baixar-uf:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      max-parallel: 27
+      matrix:
+        uf: [AC, AL, AP, AM, BA, CE, DF, ES, GO, MA, MT, MS, MG, PA, PB, PR,
+             PE, PI, RJ, RN, RS, RO, RR, SC, SP, SE, TO]
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts
 
-      - name: Configurar Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Baixar, converter e validar (27 UFs)
-        run: python3 scripts/pipeline.py
+      - name: Baixar e converter ${{ matrix.uf }}
+        run: python3 scripts/pipeline.py ${{ matrix.uf }}
 
-      - name: Resumo da execução
+      - name: Upload do resultado da UF
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: uf-${{ matrix.uf }}
+          path: data/${{ matrix.uf }}/
+          retention-days: 1
+
+  consolidar:
+    needs: baixar-uf
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: always()   # consolida mesmo com UFs individuais falhando
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Baixar artefatos das UFs que passaram
+        uses: actions/download-artifact@v4
+        with:
+          pattern: uf-*
+          path: data/
+          merge-multiple: true
+
+      - name: Gerar status consolidado
         run: |
-          echo "== Status por UF =="
           python3 - <<'EOF'
-          import json
-          s = json.load(open('data/_status.json'))
-          print(f"OK: {s['ufs_ok']} | Falha: {s['ufs_falha']} | Executado: {s['executado_em']}")
-          for uf, st in sorted(s['status'].items()):
-              if st['ok']:
-                  print(f"  {uf}: {st['total']} imóveis")
-              else:
-                  print(f"  {uf}: ERRO -> {st['erro']}")
+          import json, os
+          from datetime import datetime, timedelta, timezone
+
+          todas = ['AC','AL','AP','AM','BA','CE','DF','ES','GO','MA','MT',
+                   'MS','MG','PA','PB','PR','PE','PI','RJ','RN','RS','RO',
+                   'RR','SC','SP','SE','TO']
+          ufs_ok = sorted(
+              d for d in os.listdir('data')
+              if len(d) == 2 and os.path.isdir(f'data/{d}')
+              and os.path.exists(f'data/{d}/imoveis.json'))
+          falhas = [uf for uf in todas if uf not in ufs_ok]
+
+          status = {}
+          for uf in ufs_ok:
+              j = json.load(open(f'data/{uf}/imoveis.json', encoding='utf-8'))
+              status[uf] = {'ok': True, 'total': j['total'],
+                            'gerado_em': j['gerado_em']}
+          for uf in falhas:
+              status[uf] = {'ok': False,
+                            'erro': 'sem dados nesta execução (arquivos anteriores preservados)'}
+
+          br = timezone(timedelta(hours=-3))
+          out = {'executado_em': datetime.now(br).strftime('%d/%m/%Y %H:%M'),
+                 'ufs_ok': len(ufs_ok), 'ufs_falha': len(falhas),
+                 'status': status}
+          os.makedirs('data', exist_ok=True)
+          json.dump(out, open('data/_status.json', 'w', encoding='utf-8'),
+                    ensure_ascii=False, indent=1)
+          print(f"OK: {len(ufs_ok)} | Falha: {len(falhas)}")
+          for uf in falhas:
+              print(f"  {uf}: FALHOU")
+          if not ufs_ok:
+              raise SystemExit(2)
           EOF
 
       - name: Commit se houver mudanças
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # UFs que falharam não foram tocadas — só o que mudou entra no commit
-          if git diff --quiet && git status --porcelain --untracked-files=normal | grep -q .; then
+          if [ -n "$(git status --porcelain data/)" ]; then
             git add -A data/
             git commit -m "data: atualização $(date -u +%Y-%m-%d) — $(python3 -c "import json; s=json.load(open('data/_status.json')); print(f\"{s['ufs_ok']} UFs OK, {s['ufs_falha']} falha\")")"
             git push
@@ -54,6 +110,6 @@ jobs:
             echo "Nenhuma mudança de conteúdo — sem commit."
           fi
 
-      - name: Falhar explicitamente se nenhuma UF passou
-        if: ${{ hashFiles('data/_status.json') == '' }}
+      - name: Falhar se nenhuma UF passou
+        if: ${{ needs.baixar-uf.result == 'failure' }}
         run: exit 1

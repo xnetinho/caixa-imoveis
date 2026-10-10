@@ -34,8 +34,11 @@ from datetime import datetime, timedelta, timezone
 BR_TZ = timezone(timedelta(hours=-3))
 BASE = "https://venda-imoveis.caixa.gov.br/listaweb"
 DATA_DIR = "data"
-DELAY_S = 3          # pausa entre UFs — civilidade com o portal
+DELAY_S = 3          # pausa entre tentativas de retry
 TIMEOUT_S = 120
+RETRY_MAX = 4         # tentativas por UF com backoff (Radware desafia IP após
+RETRY_BACKOFF_S = 20  # poucas requisições — cada job do matrix usa IP próprio,
+                      # o retry cobre desafios transitórios
 CSV_SIGNATURE = b"Lista de Im"  # prefixo ASCII do título (encoding cp1252)
 
 UFS = ["AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS",
@@ -239,16 +242,27 @@ def gerar_toon(uf, imoveis, chaves, gerado_em, fonte):
 # ── EXECUÇÃO POR UF ────────────────────────────────────────────────────────────
 
 def rodar_uf(uf: str, status: dict):
+    """Baixa a UF com retry/backoff. Sucesso só depois de validado."""
     tmpdir = tempfile.mkdtemp(prefix=f"caixa_{uf}_")
     tmp_csv = os.path.join(tmpdir, "raw.csv")
-    try:
+    last_err = None
+    for tentativa in range(1, RETRY_MAX + 1):
         code, err = baixar(uf, tmp_csv)
-        if err or code != "200":
-            status[uf] = {"ok": False, "erro": f"HTTP {code} {err or ''}".strip()}
-            return False
-        with open(tmp_csv, "rb") as f:
-            raw = f.read()
-        imoveis, chaves = processar(raw, uf)
+        try:
+            if code != "200":
+                raise ValueError(f"HTTP {code}")
+            with open(tmp_csv, "rb") as f:
+                raw = f.read()
+            imoveis, chaves = processar(raw, uf)  # valida conteúdo
+        except ValueError as e:
+            last_err = str(e)
+            if tentativa < RETRY_MAX:
+                wait = RETRY_BACKOFF_S * tentativa
+                print(f"[{uf}] tentativa {tentativa}/{RETRY_MAX} falhou "
+                      f"({last_err}) — aguardando {wait}s")
+                time.sleep(wait)
+                continue
+            break
 
         uf_dir = os.path.join(DATA_DIR, uf)
         os.makedirs(uf_dir, exist_ok=True)
@@ -269,13 +283,13 @@ def rodar_uf(uf: str, status: dict):
         status[uf] = {"ok": True, "total": len(imoveis),
                       "bytes_csv": len(raw), "gerado_em": agora_br()}
         print(f"[{uf}] ✅ {len(imoveis)} imóveis ({len(raw):,} bytes)")
-        return True
-    except ValueError as e:
-        status[uf] = {"ok": False, "erro": str(e)}
-        print(f"[{uf}] ❌ {e} — arquivos anteriores PRESERVADOS")
-        return False
-    finally:
         shutil.rmtree(tmpdir, ignore_errors=True)
+        return True
+    # esgotou as tentativas
+    status[uf] = {"ok": False, "erro": last_err or "falha"}
+    print(f"[{uf}] ❌ {status[uf]['erro']} — arquivos anteriores PRESERVADOS")
+    shutil.rmtree(tmpdir, ignore_errors=True)
+    return False
 
 
 def main():
