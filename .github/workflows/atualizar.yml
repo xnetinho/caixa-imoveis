@@ -1,0 +1,59 @@
+name: Atualizar dados Caixa (CSV -> JSON + TOON)
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '37 12 * * *'   # diário 09:37 BRT
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-dados
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Baixar, converter e validar (27 UFs)
+        run: python3 scripts/pipeline.py
+
+      - name: Resumo da execução
+        run: |
+          echo "== Status por UF =="
+          python3 - <<'EOF'
+          import json
+          s = json.load(open('data/_status.json'))
+          print(f"OK: {s['ufs_ok']} | Falha: {s['ufs_falha']} | Executado: {s['executado_em']}")
+          for uf, st in sorted(s['status'].items()):
+              if st['ok']:
+                  print(f"  {uf}: {st['total']} imóveis")
+              else:
+                  print(f"  {uf}: ERRO -> {st['erro']}")
+          EOF
+
+      - name: Commit se houver mudanças
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # UFs que falharam não foram tocadas — só o que mudou entra no commit
+          if git diff --quiet && git status --porcelain --untracked-files=normal | grep -q .; then
+            git add -A data/
+            git commit -m "data: atualização $(date -u +%Y-%m-%d) — $(python3 -c "import json; s=json.load(open('data/_status.json')); print(f\"{s['ufs_ok']} UFs OK, {s['ufs_falha']} falha\")")"
+            git push
+          else
+            echo "Nenhuma mudança de conteúdo — sem commit."
+          fi
+
+      - name: Falhar explicitamente se nenhuma UF passou
+        if: ${{ hashFiles('data/_status.json') == '' }}
+        run: exit 1

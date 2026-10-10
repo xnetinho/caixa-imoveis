@@ -1,31 +1,55 @@
-# Probe — Viabilidade de download do CSV da Caixa no GitHub Actions
+# Caixa CSV → JSON + TOON
 
-Testa, **de dentro de um runner do GitHub Actions (IP de datacenter Azure)**, se o download direto dos CSVs oficiais funciona:
+Baixa diariamente, via GitHub Actions, os **CSVs oficiais de imóveis da Caixa Econômica Federal** (todas as 27 UFs) e publica em `data/{UF}/`:
+
+| Arquivo | Conteúdo |
+|---|---|
+| `data/{UF}/imoveis.csv` | CSV original, bytes intactos (Windows-1252) |
+| `data/{UF}/imoveis.json` | UTF-8, campos canonizados (id, preco, desconto como número, etc.) |
+| `data/{UF}/imoveis.toon` | [TOON](https://github.com/toon-format/toon) (Token-Oriented Object Notation) — tabular, 30–60% menos tokens que JSON, ideal para LLM |
+
+Sempre **a versão mais recente** (nomes fixos, sobrescreve) + `data/_status.json` com o resultado da última execução.
+
+Fonte: `https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_{UF}.csv`
+
+## Robustez (portal protegido por Radware Bot Manager)
+
+- **Download com `curl` puro** (sem UA de navegador): padrão comprovado por probe (9/9 UFs OK em runner do GitHub Actions + IP residencial). Headers "estilo navegador" são bloqueados (CAPTCHA).
+- **Validação de conteúdo antes de gravar**: assinatura "Lista de Im", cabeçalho reconhecível e ≥1 imóvel. UF bloqueada/falha **não sobrescreve** os arquivos bons.
+- **Colunas dinâmicas**: mapeadas pelo nome do cabeçalho (normalizado). Se a Caixa mudar o layout, colunas desconhecidas são preservadas como `extra_*` — nada quebra, nada se perde.
+- **ID confiável**: extraído do link do imóvel (a coluna de ID pode vir em notação científica no Excel).
+- Delay de 3s entre UFs; falha total (0/27) derruba o job em vez de commitar lixo.
+
+## Workflows
+
+- **Atualizar dados Caixa** (`atualizar.yml`) — diário 09:37 BRT + manual (`workflow_dispatch`). Baixa, converte, valida e commita apenas se houver mudança.
+- **Probe** (`probe.yml`) — diagnóstico de viabilidade (9 UFs, 2 modos de download, sem commit). Desative removendo o `schedule:` quando não quiser mais medir.
+
+## Uso dos dados
+
+JSON:
+```python
+import json, urllib.request
+d = json.load(urllib.request.urlopen(
+    "https://raw.githubusercontent.com/xnetinho/caixa-csv-probe/master/data/PB/imoveis.json"))
+for im in d["imoveis"]:
+    print(im["id"], im["cidade"], im["preco"], im["desconto"])
+```
+
+TOON (formato):
+```
+meta{uf,gerado_em,total,fonte}:
+  PB,10/10/2026 17:21,684,https://...
+imoveis[684]{id,uf,cidade,bairro,endereco,preco,valor_avaliacao,desconto,financiamento,descricao,modalidade,link}:
+  8444420618601,PB,ALHANDRA,LOT ASA BRANCA,"RUA VIA DE ACESSO 01, N. SN, LT 16, QD A",68240.92,130000,47.51,Não,"Casa, ...",Venda Direta Online,https://...
+```
+
+## Estrutura
 
 ```
-https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_{UF}.csv
+.github/workflows/atualizar.yml   # pipeline diário
+.github/workflows/probe.yml        # probe de viabilidade
+scripts/pipeline.py                # download + parse + JSON + TOON
+data/{UF}/imoveis.{csv,json,toon}  # dados (sempre a versão mais recente)
+data/_status.json                  # status da última execução
 ```
-
-## Por quê
-O portal usa Radware Bot Manager. Confirmamos que o download funciona do IP residencial/ISP do usuário (inclusive com `curl` puro), mas IP de datacenter + requisição sem JavaScript pode ser desafiado com CAPTCHA (`validate.perfdrive.com`). Este probe fecha essa dúvida **com evidência real antes de investir na automação completa**.
-
-## O que ele faz
-- Matrix de 9 UFs (PB, SP, RJ, MG, BA, RS, PR, SC, CE), cada uma em job paralelo
-- 2 tentativas por UF: (T1) `curl` puro, (T2) headers estilo navegador com `Referer`
-- **Validação de conteúdo**: procura a assinatura "Lista de Im..." no arquivo — não confia só no HTTP 200 (Radware devolve 200 com HTML de CAPTCHA)
-- Log mostra: HTTP code, tamanho, tipo de arquivo, título/header/1ª linha de imóvel e total de linhas
-- **Não commita nada** (permissions: read) — é 100% de medição
-
-## Como testar
-1. Crie um repositório **público** novo (ex.: `caixa-csv-probe`)
-2. Copie `.github/workflows/probe.yml`
-3. Aba **Actions → Probe - Viabilidade download CSV Caixa → Run workflow**
-4. Leia o log de cada UF: `VEREDICTO: OK` ou `BLOQUEADO`
-
-## Como interpretar
-- **Todas OK** → GitHub Actions viável; partimos pra automação completa (27 UFs → JSON+TOON)
-- **Blokqueadas parcialmente** → adotar retry/delay entre UFs no pipeline real
-- **Todas BLOQUEADAS** → plano B: **self-hosted runner** na sua VM (mesma conta GitHub, dados ainda publicados no repo, mas o download sai do seu IP)
-
-## Limpeza
-O schedule roda 1x/dia apenas enquanto você quiser medir; desative deletando o arquivo ou removendo o `schedule:` do frontmatter.
