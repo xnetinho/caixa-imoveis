@@ -3,7 +3,8 @@ name: Atualizar dados Caixa (CSV -> JSON + TOON)
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: '37 12 * * *'   # TODO: ajustar pós-medicao do horario de publicacao da Caixa
+    - cron: '5 1 * * *'   # 22:05 BRT — Caixa publica o CSV ~22:00 BRT
+                          # (last-modified 01:00:16 GMT medido em 10/10/2026)
 
 permissions:
   contents: write
@@ -70,11 +71,11 @@ jobs:
           ufs=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs?per_page=100" \
             --jq '[.jobs[] | select(.name | startswith("baixar-uf (")) | select(.conclusion == "failure") | .name | capture("baixar-uf \\((?<uf>[A-Z]{2})\\)").uf]')
           echo "Falhas: $ufs"
-          if [ "$ufs" = "[]" ]; then ufs='["zz"]'; fi   # placeholder p/ matrix não-vazia
           echo "ufs=$ufs" >> $GITHUB_OUTPUT
 
   # Segunda rodada: reprocessa APENAS as UFs que falharam, em runners
-  # (e portanto IPs) novos do pool.
+  # (e portanto IPs) novos do pool. PULADO se nenhuma falhou (evita job
+  # fantasma marcando o run como failure).
   retry-uf:
     needs: coletar-falhas
     if: needs.coletar-falhas.outputs.ufs_falhas != '[]'
