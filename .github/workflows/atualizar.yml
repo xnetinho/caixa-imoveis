@@ -14,157 +14,43 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # 1 UF por job => 1 IP do pool de runners por UF. Verificado em produção:
-  # o Radware bloqueia requisições em sequência do MESMO IP (1ª passa, resto
-  # 302), mas de IPs diferentes todas passam (probe 9/9 e matrix 25/27).
-  baixar-uf:
+  atualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    outputs:
-      ufs_falhas: ${{ steps.falhas.outputs.lista }}
-    strategy:
-      fail-fast: false
-      max-parallel: 27
-      matrix:
-        uf: [AC, AL, AP, AM, BA, CE, DF, ES, GO, MA, MT, MS, MG, PA, PB, PR,
-             PE, PI, RJ, RN, RS, RO, RR, SC, SP, SE, TO]
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-        with:
-          sparse-checkout: scripts
 
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Baixar e converter ${{ matrix.uf }}
-        run: python3 scripts/pipeline.py ${{ matrix.uf }}
-
-      - name: Upload do resultado da UF
-        if: success()
-        uses: actions/upload-artifact@v4
-        with:
-          name: uf-${{ matrix.uf }}
-          path: data/${{ matrix.uf }}/
-          retention-days: 1
-
-      - name: Registrar falha da UF
-        if: failure()
-        id: falha
-        run: echo "uf=${{ matrix.uf }}" >> $GITHUB_OUTPUT
-
-    # Coletar a lista de UFs que falharam precisa de um job à parte (matrix
-    # não agrega outputs por si só).
-  coletar-falhas:
-    needs: baixar-uf
-    if: always()
-    runs-on: ubuntu-latest
-    outputs:
-      ufs_falhas: ${{ steps.lista.outputs.ufs }}
-    steps:
-      - name: Listar UFs que falharam na 1a rodada
-        id: lista
-        env:
-          GH_TOKEN: ${{ github.token }}
+      # MODO GERAL (padrão): baixa 1 único CSV (Lista_imoveis_geral.csv,
+      # Brasil inteiro, ~7.7MB), divide por UF e grava
+      # data/{UF}/imoveis.{csv,json,toon}. 1 chamada ao servidor da Caixa
+      # em vez de 27 — elimina o bloqueio Radware de requisições em
+      # sequência do mesmo IP (verificado: 1ª passa, demais 302).
+      # Fallback: se o CSV geral falhar, downloads por UF no mesmo job.
+      - name: Baixar, dividir por UF e converter
         run: |
-          set -euo pipefail
-          ufs=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs?per_page=100" \
-            --jq '[.jobs[] | select(.name | startswith("baixar-uf (")) | select(.conclusion == "failure") | .name | capture("baixar-uf \\((?<uf>[A-Z]{2})\\)").uf]')
-          echo "Falhas: $ufs"
-          echo "ufs=$ufs" >> $GITHUB_OUTPUT
+          if python3 scripts/pipeline.py geral; then
+            echo "MODO=geral" >> $GITHUB_ENV
+          else
+            echo "CSV geral falhou — fallback: downloads por UF"
+            python3 scripts/pipeline.py || exit 1
+            echo "MODO=ufs" >> $GITHUB_ENV
+          fi
 
-  # Segunda rodada: reprocessa APENAS as UFs que falharam, em runners
-  # (e portanto IPs) novos do pool. PULADO se nenhuma falhou (evita job
-  # fantasma marcando o run como failure).
-  retry-uf:
-    needs: coletar-falhas
-    if: needs.coletar-falhas.outputs.ufs_falhas != '[]'
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    strategy:
-      fail-fast: false
-      max-parallel: 27
-      matrix:
-        uf: ${{ fromJSON(needs.coletar-falhas.outputs.ufs_falhas) }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          sparse-checkout: scripts
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Retry — baixar e converter ${{ matrix.uf }}
-        run: python3 scripts/pipeline.py ${{ matrix.uf }}
-
-      - name: Upload do resultado da UF (retry)
-        if: success()
-        uses: actions/upload-artifact@v4
-        with:
-          name: uf-${{ matrix.uf }}
-          path: data/${{ matrix.uf }}/
-          retention-days: 1
-
-  consolidar:
-    needs: [baixar-uf, retry-uf]
-    if: always()
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Baixar artefatos das UFs que passaram (1a rodada + retry)
-        uses: actions/download-artifact@v4
-        with:
-          pattern: uf-*
-          path: _artefatos/
-          merge-multiple: false   # cada artefato em _artefatos/uf-{UF}/
-
-      - name: Posicionar dados por UF
-        run: |
-          for d in _artefatos/uf-*/; do
-            uf=$(basename "$d" | sed 's/^uf-//')
-            mkdir -p "data/$uf"
-            cp "$d"* "data/$uf/" 2>/dev/null || echo "artefato vazio: $uf"
-          done
-
-      - name: Gerar status consolidado
+      - name: Resumo
         run: |
           python3 - <<'EOF'
-          import json, os
-          from datetime import datetime, timedelta, timezone
-
-          todas = ['AC','AL','AP','AM','BA','CE','DF','ES','GO','MA','MT',
-                   'MS','MG','PA','PB','PR','PE','PI','RJ','RN','RS','RO',
-                   'RR','SC','SP','SE','TO']
-          ufs_ok = sorted(
-              d for d in os.listdir('data')
-              if len(d) == 2 and os.path.isdir(f'data/{d}')
-              and os.path.exists(f'data/{d}/imoveis.json'))
-          falhas = [uf for uf in todas if uf not in ufs_ok]
-
-          status = {}
-          for uf in ufs_ok:
-              j = json.load(open(f'data/{uf}/imoveis.json', encoding='utf-8'))
-              status[uf] = {'ok': True, 'total': j['total'],
-                            'data_geracao_caixa': j.get('data_geracao_caixa')}
-          for uf in falhas:
-              status[uf] = {'ok': False,
-                            'erro': 'sem dados nesta execução (arquivos anteriores preservados)'}
-
-          br = timezone(timedelta(hours=-3))
-          out = {'executado_em': datetime.now(br).strftime('%d/%m/%Y %H:%M'),
-                 'ufs_ok': len(ufs_ok), 'ufs_falha': len(falhas),
-                 'status': status}
-          os.makedirs('data', exist_ok=True)
-          json.dump(out, open('data/_status.json', 'w', encoding='utf-8'),
-                    ensure_ascii=False, indent=1)
-          print(f"OK: {len(ufs_ok)} | Falha: {len(falhas)}")
-          for uf in falhas:
-              print(f"  {uf}: FALHOU")
-          if not ufs_ok:
-              raise SystemExit(2)
+          import json
+          s = json.load(open('data/_status.json'))
+          print(f"Modo: {s.get('modo')} | OK: {s['ufs_ok']} | Falha: {s['ufs_falha']} | Executado: {s['executado_em']}")
+          for uf, st in sorted(s['status'].items()):
+              if st.get('ok'):
+                  print(f"  {uf}: {st.get('total', st.get('gerado_em'))}")
+              else:
+                  print(f"  {uf}: {st.get('erro', 'FALHOU')}")
           EOF
 
       - name: Commit se houver mudanças
@@ -173,7 +59,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ -n "$(git status --porcelain data/)" ]; then
             git add -A data/
-            git commit -m "data: atualização $(date -u +%Y-%m-%d) — $(python3 -c "import json; s=json.load(open('data/_status.json')); print(f\"{s['ufs_ok']} UFs OK, {s['ufs_falha']} falha\")")"
+            git commit -m "data: atualização $(date -u +%Y-%m-%d) [$MODE] — $(python3 -c "import json; s=json.load(open('data/_status.json')); print(f\"{s['ufs_ok']} UFs OK, {s['ufs_falha']} falha\")")"
             git push
           else
             echo "Nenhuma mudança de conteúdo — sem commit."

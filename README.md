@@ -13,7 +13,7 @@ Baixa diariamente, via GitHub Actions, os **CSVs oficiais de imóveis da Caixa E
 
 Sempre **a versão mais recente** (nomes fixos, sobrescreve) + `data/_status.json` com o resultado da última execução.
 
-Fonte: `https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_{UF}.csv`
+Fonte: `https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_geral.csv` (Brasil inteiro em **1 arquivo**, ~7,7 MB / ~21k imóveis — 1 chamada ao servidor em vez de 27, eliminando o bloqueio Radware de requisições sequenciais). Fallback: downloads por UF (`Lista_imoveis_{UF}.csv`) se o geral falhar.
 
 ## Robustez (portal protegido por Radware Bot Manager)
 

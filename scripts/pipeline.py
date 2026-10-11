@@ -33,6 +33,7 @@ from datetime import datetime, timedelta, timezone
 
 BR_TZ = timezone(timedelta(hours=-3))
 BASE = "https://venda-imoveis.caixa.gov.br/listaweb"
+CSV_GERAL = f"{BASE}/Lista_imoveis_geral.csv"   # Brasil inteiro em 1 arquivo
 DATA_DIR = "data"
 DELAY_S = 3          # pausa entre tentativas de retry
 TIMEOUT_S = 120
@@ -166,19 +167,12 @@ def extrair_id(link: str, fallback: str):
     return t if t.isdigit() else None
 
 
-def processar(raw_bytes: bytes, uf: str):
-    """Valida e converte o CSV. Levanta ValueError se o conteúdo for lixo."""
-    if CSV_SIGNATURE not in raw_bytes:
-        raise ValueError("assinatura 'Lista de Im' ausente (CAPTCHA/bloqueio?)")
-    if len(raw_bytes) < 500:
-        raise ValueError(f"arquivo muito pequeno: {len(raw_bytes)} bytes")
-
-    texto = raw_bytes.decode("cp1252", errors="replace")
-    linhas = texto.replace("\r", "").split("\n")
+def processar_linhas(linhas, uf):
+    """Parse de linhas de CSV (com header na posição 0 da lista).
+    Retorna (imoveis, chaves). Levanta ValueError se layout desconhecido."""
     hidx = achar_header(linhas)
     if hidx is None:
         raise ValueError("cabeçalho não reconhecido (layout mudou?)")
-
     mapa, cols = mapear_colunas(linhas[hidx])
 
     imoveis, chaves_vistas = [], []
@@ -207,7 +201,20 @@ def processar(raw_bytes: bytes, uf: str):
         if not chaves_vistas:
             chaves_vistas = [c for _, c in mapa]
         imoveis.append(obj)
+    return imoveis, chaves_vistas
 
+
+def processar(raw_bytes: bytes, uf: str):
+    """Valida e converte o CSV. Levanta ValueError se o conteúdo for lixo."""
+    if CSV_SIGNATURE not in raw_bytes:
+        raise ValueError("assinatura 'Lista de Im' ausente (CAPTCHA/bloqueio?)")
+    if len(raw_bytes) < 500:
+        raise ValueError(f"arquivo muito pequeno: {len(raw_bytes)} bytes")
+
+    texto = raw_bytes.decode("cp1252", errors="replace")
+    linhas = texto.replace("\r", "").split("\n")
+
+    imoveis, chaves_vistas = processar_linhas(linhas, uf)
     if not imoveis:
         raise ValueError("nenhum imóvel extraído (CSV vazio ou bloqueado)")
 
@@ -249,7 +256,107 @@ def gerar_toon(uf, imoveis, chaves, data_geracao, fonte):
     return "\n".join(linhas) + "\n"
 
 
-# ── EXECUÇÃO POR UF ────────────────────────────────────────────────────────────
+# ── EXECUÇÃO: MODO GERAL (1 download, split por UF) ───────────────────────────
+
+def rodar_geral(status: dict):
+    """Baixa o CSV único do Brasil inteiro e divide por UF.
+    1 chamada ao servidor da Caixa em vez de 27 — reduz drasticamente o
+    risco de bloqueio Radware. UF sem imóveis no arquivo é simplesmente
+    pulada (não sobrescreve nada)."""
+    tmpdir = tempfile.mkdtemp(prefix="caixa_geral_")
+    tmp_csv = os.path.join(tmpdir, "geral.csv")
+    last_err = None
+    for tentativa in range(1, RETRY_MAX + 1):
+        r = subprocess.run(
+            ["curl", "-sS", "--max-time", str(TIMEOUT_S),
+             "-o", tmp_csv, "-w", "%{http_code}", CSV_GERAL],
+            capture_output=True, text=True)
+        code = r.stdout.strip()
+        try:
+            if r.returncode != 0:
+                raise ValueError(f"curl falhou: {r.stderr.strip()[:120]}")
+            if code != "200":
+                raise ValueError(f"HTTP {code}")
+            with open(tmp_csv, "rb") as f:
+                raw = f.read()
+            # valida o CSV geral: assinatura + data de geração da Caixa
+            if CSV_SIGNATURE not in raw or len(raw) < 500:
+                raise ValueError("assinatura ausente (CAPTCHA/bloqueio?)")
+            m = DATA_GERACAO_RE.search(raw)
+            if not m:
+                raise ValueError("data de geração da Caixa ausente (layout?)")
+            data_geracao = m.group(1).decode("ascii")
+        except ValueError as e:
+            last_err = str(e)
+            if tentativa < RETRY_MAX:
+                wait = RETRY_BACKOFF_S * tentativa
+                print(f"[GERAL] tentativa {tentativa}/{RETRY_MAX} falhou "
+                      f"({last_err}) — aguardando {wait}s")
+                time.sleep(wait)
+                continue
+            print(f"[GERAL] ❌ {last_err} — NADA sobrescrito")
+            shutil.rmtree(tmpdir, ignore_errors=True)
+            return False
+        break
+
+    # parse único (reusa processar linha a linha via arquivo dividido por UF)
+    texto = raw.decode("cp1252", errors="replace")
+    linhas = texto.replace("\r", "").split("\n")
+    hidx = achar_header(linhas)
+    if hidx is None:
+        print("[GERAL] ❌ cabeçalho não reconhecido — NADA sobrescrito")
+        shutil.rmtree(tmpdir, ignore_errors=True)
+        return False
+
+    header_linha = linhas[hidx]
+    por_uf = {uf: [header_linha] for uf in UFS}
+    por_uf_bytes = {}  # linhas originais cp1252 por UF p/ CSV fiel
+    raw_linhas = texto.split("\n")
+    for linha in raw_linhas[hidx + 1:]:
+        if not linha.strip():
+            continue
+        cols = split_linha(linha)
+        uf = (cols[1] if len(cols) > 1 else "").strip().upper()
+        if uf not in por_uf:
+            continue
+        por_uf[uf].append(linha)
+
+    ok = 0
+    for uf in UFS:
+        imoveis, chaves = processar_linhas(por_uf[uf], uf)
+        if not imoveis:
+            print(f"[{uf}] sem imóveis no CSV geral — anterior preservado")
+            continue
+        uf_dir = os.path.join(DATA_DIR, uf)
+        os.makedirs(uf_dir, exist_ok=True)
+        # CSV por UF: título + data + header + linhas da UF (cp1252 fiel)
+        with open(os.path.join(uf_dir, "imoveis.csv"), "w",
+                  encoding="cp1252", errors="replace") as f:
+            f.write(texto.split("\n")[1] + "\n")          # título/data
+            f.write("\n".join(por_uf[uf]) + "\n")
+        with open(os.path.join(uf_dir, "imoveis.json"), "w", encoding="utf-8") as f:
+            json.dump({
+                "uf": uf,
+                "data_geracao_caixa": data_geracao,
+                "coletado_em": agora_br(),
+                "fonte": CSV_GERAL,
+                "total": len(imoveis),
+                "colunas": chaves,
+                "imoveis": imoveis,
+            }, f, ensure_ascii=False, indent=1)
+        with open(os.path.join(uf_dir, "imoveis.toon"), "w", encoding="utf-8") as f:
+            f.write(gerar_toon(uf, imoveis, chaves, data_geracao, CSV_GERAL))
+        status[uf] = {"ok": True, "total": len(imoveis),
+                      "gerado_em": data_geracao}
+        print(f"[{uf}] ✅ {len(imoveis)} imóveis")
+        ok += 1
+
+    shutil.rmtree(tmpdir, ignore_errors=True)
+    print(f"[GERAL] {ok} UFs processadas de {CSV_GERAL}")
+    return ok > 0
+
+
+# ── EXECUÇÃO POR UF (fallback: download individual) ──────────────────────────
 
 def rodar_uf(uf: str, status: dict):
     """Baixa a UF com retry/backoff. Sucesso só depois de validado."""
@@ -305,8 +412,35 @@ def rodar_uf(uf: str, status: dict):
 
 
 def main():
-    alvo = sys.argv[1:] or UFS
-    alvo = [uf.upper() for uf in alvo if uf.upper() in UFS]
+    modo = "geral"
+    args = sys.argv[1:]
+    if args and args[0] == "geral":
+        args = args[1:]
+    alvo = [uf.upper() for uf in args if uf.upper() in UFS]
+
+    if not args or modo == "geral" and not alvo:
+        # MODO GERAL: 1 download do Brasil inteiro, split por UF
+        print(f"=== Pipeline Caixa CSV→JSON+TOON (modo geral) | {agora_br()} ===")
+        status = {}
+        ok = rodar_geral(status)
+        os.makedirs(DATA_DIR, exist_ok=True)
+        if ok:
+            with open(os.path.join(DATA_DIR, "_status.json"), "w", encoding="utf-8") as f:
+                json.dump({
+                    "executado_em": agora_br(),
+                    "modo": "geral",
+                    "ufs_ok": sum(1 for s in status.values() if s.get("ok")),
+                    "ufs_falha": len(UFS) - sum(1 for s in status.values() if s.get("ok")),
+                    "status": {uf: status.get(uf, {"ok": False,
+                             "erro": "não processada"}) for uf in UFS},
+                }, f, ensure_ascii=False, indent=1)
+        print(f"=== Fim (modo geral): {'OK' if ok else 'FALHOU'} ===")
+        if not ok:
+            sys.exit(1)
+        return
+
+    # MODO POR UF: downloads individuais (fallback / execução seletiva)
+    alvo = alvo or UFS
     print(f"=== Pipeline Caixa CSV→JSON+TOON | {agora_br()} | UFs: {len(alvo)} ===")
     status = {}
     ok = 0
@@ -320,6 +454,7 @@ def main():
     with open(os.path.join(DATA_DIR, "_status.json"), "w", encoding="utf-8") as f:
         json.dump({
             "executado_em": agora_br(),
+            "modo": "ufs",
             "ufs_ok": ok,
             "ufs_falha": len(alvo) - ok,
             "status": status,
