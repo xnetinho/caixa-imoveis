@@ -1,9 +1,9 @@
 {
  "uf": "ES",
- "data_geracao_caixa": "09/10/2026",
- "coletado_em": "11/10/2026 00:37",
- "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_ES.csv",
- "total": 40,
+ "data_geracao_caixa": "08/10/2026",
+ "coletado_em": "11/10/2026 00:40",
+ "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_geral.csv",
+ "total": 44,
  "colunas": [
   "id",
   "uf",
@@ -20,20 +20,6 @@
  ],
  "imoveis": [
   {
-   "id": "8555512115314",
-   "uf": "ES",
-   "cidade": "CACHOEIRO DE ITAPEMIRIM",
-   "bairro": "WALDIR FURTADO AMORIM",
-   "endereco": "RUA WILSON DALFIOR SANTIAGO, N. 11 A 23, Apto 704, TORRE B",
-   "preco": 152400.0,
-   "valor_avaliacao": 254000.0,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 74.12 de área total, 56.82 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555512115314"
-  },
-  {
    "id": "10208964",
    "uf": "ES",
    "cidade": "CACHOEIRO DE ITAPEMIRIM",
@@ -46,6 +32,20 @@
    "descricao": "Galpão, 0.00 de área total, 10480.15 de área privativa, 11602.38 de área do terreno.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10208964"
+  },
+  {
+   "id": "8555512115314",
+   "uf": "ES",
+   "cidade": "CACHOEIRO DE ITAPEMIRIM",
+   "bairro": "WALDIR FURTADO AMORIM",
+   "endereco": "RUA WILSON DALFIOR SANTIAGO, N. 11 A 23, Apto 704, TORRE B",
+   "preco": 254000.0,
+   "valor_avaliacao": 254000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 74.12 de área total, 56.82 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555512115314"
   },
   {
    "id": "8444427665559",
@@ -74,6 +74,20 @@
    "descricao": "Apartamento, 84.78 de área total, 67.20 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701324906"
+  },
+  {
+   "id": "8787714785460",
+   "uf": "ES",
+   "cidade": "CARIACICA",
+   "bairro": "JARDIM DE ALAH",
+   "endereco": "RUA TREZE, N. 160, Apto 203, BL 07",
+   "preco": 121875.74,
+   "valor_avaliacao": 190000.0,
+   "desconto": 35.86,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 59.40 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714785460"
   },
   {
    "id": "8787715513277",
@@ -244,20 +258,6 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10258757"
   },
   {
-   "id": "8104600002929",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "FAZENDA GUAXINDIBA",
-   "endereco": "RUA MINAS GERAIS, N. 250, Apto 402, BL 20 SETOR A2",
-   "preco": 132000.0,
-   "valor_avaliacao": 220000.0,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 50.70 de área total, 43.70 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8104600002929"
-  },
-  {
    "id": "8444430177268",
    "uf": "ES",
    "cidade": "SERRA",
@@ -342,18 +342,46 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444423093552"
   },
   {
-   "id": "8555504879629",
+   "id": "8787718639905",
    "uf": "ES",
    "cidade": "SERRA",
-   "bairro": "JARDIM ATLANTICO",
-   "endereco": "RUA DOUTOR PEDRO FEU ROSA, N. SN, Apto 703, BL 03",
-   "preco": 147071.31,
-   "valor_avaliacao": 190000.0,
-   "desconto": 22.6,
+   "bairro": "PRAIA DA BALEIA",
+   "endereco": "AVENIDA DESEMBARGADOR ANTONIO JOSE MIGUEL FEU ROSA, N. 395, Apto 104, BL 22",
+   "preco": 213764.76,
+   "valor_avaliacao": 302500.0,
+   "desconto": 29.34,
    "financiamento": "Não",
-   "descricao": "Apartamento, 79.22 de área total, 47.00 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 77.50 de área total, 55.69 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555504879629"
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718639905"
+  },
+  {
+   "id": "8787716762033",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "PRAIA DA BALEIA",
+   "endereco": "AVENIDA DESEMBARGADOR ANTONIO JOSE MIGUEL FEU ROSA, N. 395, Apto 402, BL 12",
+   "preco": 188493.21,
+   "valor_avaliacao": 260000.0,
+   "desconto": 27.51,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 62.36 de área total, 42.47 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716762033"
+  },
+  {
+   "id": "8787718666228",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "PRAIA DA BALEIA",
+   "endereco": "AVENIDA DES. A. JOSE M. FEU ROSA, N. 395, Apto 503, BL 20",
+   "preco": 203896.87,
+   "valor_avaliacao": 237000.0,
+   "desconto": 13.97,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 62.36 de área total, 42.47 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718666228"
   },
   {
    "id": "8787705083717",
@@ -426,6 +454,20 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717612930"
   },
   {
+   "id": "8555504879629",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "JARDIM ATLANTICO",
+   "endereco": "RUA DOUTOR PEDRO FEU ROSA, N. SN, Apto 703, BL 03",
+   "preco": 190000.0,
+   "valor_avaliacao": 190000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 79.22 de área total, 47.00 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555504879629"
+  },
+  {
    "id": "8555518085956",
    "uf": "ES",
    "cidade": "SERRA",
@@ -480,6 +522,20 @@
    "descricao": "Apartamento, 62.36 de área total, 42.47 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716384640"
+  },
+  {
+   "id": "8104600002929",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "FAZENDA GUAXINDIBA",
+   "endereco": "RUA MINAS GERAIS, N. 250, Apto 402, BL 20 SETOR A2",
+   "preco": 239169.7,
+   "valor_avaliacao": 220000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 50.70 de área total, 43.70 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8104600002929"
   },
   {
    "id": "8787718248868",
@@ -552,20 +608,6 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155532800019"
   },
   {
-   "id": "8444406079073",
-   "uf": "ES",
-   "cidade": "VILA VELHA",
-   "bairro": "COQUEIRAL DE ITAPARICA",
-   "endereco": "AVENIDA SANTA LEOPOLDINA, N. 1200, Apto 302, BL 320",
-   "preco": 184800.0,
-   "valor_avaliacao": 308000.0,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 51.90 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406079073"
-  },
-  {
    "id": "1444415324443",
    "uf": "ES",
    "cidade": "VILA VELHA",
@@ -578,6 +620,20 @@
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 2004.00 de área do terreno.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415324443"
+  },
+  {
+   "id": "8444406079073",
+   "uf": "ES",
+   "cidade": "VILA VELHA",
+   "bairro": "COQUEIRAL DE ITAPARICA",
+   "endereco": "AVENIDA SANTA LEOPOLDINA, N. 1200, Apto 302, BL 320",
+   "preco": 330000.0,
+   "valor_avaliacao": 308000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 51.90 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406079073"
   }
  ]
 }
