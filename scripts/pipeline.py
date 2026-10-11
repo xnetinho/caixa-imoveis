@@ -297,7 +297,13 @@ def rodar_geral(status: dict):
             print(f"[GERAL] ❌ {last_err} — NADA sobrescrito")
             shutil.rmtree(tmpdir, ignore_errors=True)
             return False
+        # sucesso: data_geracao válida
         break
+    else:
+        # loop esgotado sem break (defesa extra)
+        print(f"[GERAL] ❌ {last_err or 'falha'} — NADA sobrescrito")
+        shutil.rmtree(tmpdir, ignore_errors=True)
+        return False
 
     # parse único (reusa processar linha a linha via arquivo dividido por UF)
     texto = raw.decode("cp1252", errors="replace")
@@ -307,6 +313,31 @@ def rodar_geral(status: dict):
         print("[GERAL] ❌ cabeçalho não reconhecido — NADA sobrescrito")
         shutil.rmtree(tmpdir, ignore_errors=True)
         return False
+
+    # ── DETECÇÃO DE MUDANÇA: comparar com a data já publicada no repo ──
+    status_path = os.path.join(DATA_DIR, "_status.json")
+    data_atual_repo = None
+    if os.path.exists(status_path):
+        try:
+            with open(status_path, encoding="utf-8") as f:
+                data_atual_repo = json.load(f).get("data_geracao_caixa")
+        except Exception:
+            pass
+    # fallback: ler de um JSON de UF se _status não tiver
+    if not data_atual_repo:
+        pb = os.path.join(DATA_DIR, "PB", "imoveis.json")
+        if os.path.exists(pb):
+            try:
+                with open(pb, encoding="utf-8") as f:
+                    data_atual_repo = json.load(f).get("data_geracao_caixa")
+            except Exception:
+                pass
+
+    if data_atual_repo and data_geracao <= data_atual_repo:
+        print(f"[GERAL] CSV da Caixa ({data_geracao}) não é mais recente que o "
+              f"publicado ({data_atual_repo}) — nada a fazer.")
+        shutil.rmtree(tmpdir, ignore_errors=True)
+        return "sem_mudanca"
 
     header_linha = linhas[hidx]
     por_uf = {uf: [header_linha] for uf in UFS}
@@ -424,11 +455,24 @@ def main():
         status = {}
         ok = rodar_geral(status)
         os.makedirs(DATA_DIR, exist_ok=True)
+        if ok == "sem_mudanca":
+            print("=== Fim (modo geral): SEM MUDANÇA (CSV da Caixa é o mesmo) ===")
+            return  # sucesso; workflow não commita nada
         if ok:
+            # data de geração efetivamente publicada agora
+            dg_pub = None
+            pb = os.path.join(DATA_DIR, "PB", "imoveis.json")
+            if os.path.exists(pb):
+                try:
+                    with open(pb, encoding="utf-8") as f:
+                        dg_pub = json.load(f).get("data_geracao_caixa")
+                except Exception:
+                    pass
             with open(os.path.join(DATA_DIR, "_status.json"), "w", encoding="utf-8") as f:
                 json.dump({
                     "executado_em": agora_br(),
                     "modo": "geral",
+                    "data_geracao_caixa": dg_pub,
                     "ufs_ok": sum(1 for s in status.values() if s.get("ok")),
                     "ufs_falha": len(UFS) - sum(1 for s in status.values() if s.get("ok")),
                     "status": {uf: status.get(uf, {"ok": False,

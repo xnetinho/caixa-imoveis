@@ -3,8 +3,14 @@ name: Atualizar dados Caixa (CSV -> JSON + TOON)
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: '5 1 * * *'   # 22:05 BRT — Caixa publica o CSV ~22:00 BRT
-                          # (last-modified 01:00:16 GMT medido em 10/10/2026)
+    # Varredura de 2h: o pipeline é idempotente — se a data_geracao_caixa do
+    # CSV for <= à publicada, sai sem tocar em nada. Só commita quando a
+    # Caixa publica de fato um CSV novo. Cobertura total do dia, imune a
+    # atrasos do scheduler (que podem ser de horas no pico noturno).
+    - cron: '7 1,3,5,7,9,11,13,15,17,19,21,23 * * *'
+      # 22:07, 00:07, 02:07 ... 20:07 BRT — a publicação da Caixa (~22:00 BRT)
+      # é capturada na primeira varredura seguinte, de madrugada (baixa carga
+      # no scheduler do GitHub), e as demais não fazem nada.
 
 permissions:
   contents: write
