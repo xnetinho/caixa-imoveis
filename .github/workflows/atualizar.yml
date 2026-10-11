@@ -31,13 +31,14 @@ jobs:
       # sequência do mesmo IP (verificado: 1ª passa, demais 302).
       # Fallback: se o CSV geral falhar, downloads por UF no mesmo job.
       - name: Baixar, dividir por UF e converter
+        id: pipeline
         run: |
           if python3 scripts/pipeline.py geral; then
-            echo "MODO=geral" >> $GITHUB_ENV
+            echo "modo=geral" >> "$GITHUB_OUTPUT"
           else
             echo "CSV geral falhou — fallback: downloads por UF"
             python3 scripts/pipeline.py || exit 1
-            echo "MODO=ufs" >> $GITHUB_ENV
+            echo "modo=ufs" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Resumo
@@ -59,7 +60,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ -n "$(git status --porcelain data/)" ]; then
             git add -A data/
-            git commit -m "data: atualização $(date -u +%Y-%m-%d) [$MODE] — $(python3 -c "import json; s=json.load(open('data/_status.json')); print(f\"{s['ufs_ok']} UFs OK, {s['ufs_falha']} falha\")")"
+            git commit -m "data: atualização $(date -u +%Y-%m-%d) [${{ steps.pipeline.outputs.modo }}] — $(python3 -c "import json; s=json.load(open('data/_status.json')); print(f\"{s['ufs_ok']} UFs OK, {s['ufs_falha']} falha\")")"
             git push
           else
             echo "Nenhuma mudança de conteúdo — sem commit."
