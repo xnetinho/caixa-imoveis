@@ -1,14 +1,7 @@
 name: Atualizar dados Caixa (CSV -> JSON + TOON)
 
 on:
-  workflow_dispatch:
-    inputs:
-      forca:
-        description: 'Forçar reprocessamento mesmo sem CSV novo (1 = sim)'
-        required: false
-        default: '0'
-        type: choice
-        options: ['0', '1']
+  workflow_dispatch: {}
   schedule:
     # Varredura de 2h: o pipeline é idempotente — se a data_geracao_caixa do
     # CSV for <= à publicada, sai sem tocar em nada. Só commita quando a
@@ -29,8 +22,8 @@ concurrency:
 jobs:
   atualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 350   # 1a carga: ~21k enderecos, OSM 1 req/s = ~6h;
-                           # varreduras seguintes sao rapidas (cache resolve)
+    timeout-minutes: 30   # varreduras normais duram ~1min; enriquecimento de
+                          # novos imoveis e incremental (poucos por dia)
     steps:
       - uses: actions/checkout@v4
 
@@ -47,8 +40,6 @@ jobs:
       - name: Baixar, dividir por UF e converter
         id: pipeline
         env:
-          # workflow_dispatch com input "forca" reprocessa mesmo sem CSV novo
-          FORCA: ${{ github.event.inputs.forca || '0' }}
           # Chave Google Maps (SECRET do repo) — nunca logada, nunca commitada.
           # OSM (grátis) é a 1ª fonte; Google só como fallback com limite diário.
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
