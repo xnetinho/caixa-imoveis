@@ -5,7 +5,7 @@ geo.py — Enriquecimento de coordenadas (geocoding) para o pipeline Caixa.
 Estratégia de custo (Google Geocoding custa US$5/1.000, free tier 10k/mês):
   1. CACHE PERSISTENTE (data/_geocache.json): endereço normalizado -> {lat,lng}.
      Imóveis repetidos ou que voltam ao CSV NÃO geram novas consultas.
-  2. OSM/Nominatim PRIMEIRO (gratuito, 1 req/s com User-Agent próprio).
+  2. OSM/Nominatim PRIMEIRO (gratuito, 1 req/s, UA mobile aleatório por request).
   3. GOOGLE SÓ COMO FALLBACK, com limite diário (GEO_LIMITE_GOOGLE, default 1500)
      — estourou, os pendentes ficam para a próxima varredura.
 
@@ -27,7 +27,26 @@ GOOGLE_URL = "https://maps.googleapis.com/maps/api/geocode/json"
 OSM_DELAY_S = 1.05          # política Nominatim: máx 1 req/s
 GEO_LIMITE_GOOGLE = int(os.environ.get("GEO_LIMITE_GOOGLE", "1500"))
 GOOGLE_KEY = os.environ.get("GOOGLE_MAPS_API_KEY", "")  # via secret, nunca commitado
-UA = "caixa-imoveis-pipeline/1.0 (github.com/xnetinho/caixa-imoveis)"
+# Pool de User-Agents mobile genéricos — um é sorteado por REQUEST (não por
+# execução) para evitar fingerprint fixo de automação nos provedores de geocode.
+# Modelos Android reais de várias marcas/versões.
+UA_POOL = [
+    "Mozilla/5.0 (Linux; Android 10; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 11; SM-A528B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 12; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 11; Redmi Note 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 12; moto g(60)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 10; LM-Q730) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 11; M2012K11AC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 12; SM-A325F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
+]
+
+
+def _ua_aleatorio() -> str:
+    import random
+    return random.choice(UA_POOL)
 
 _cache = None
 
@@ -70,7 +89,7 @@ def salvar_cache() -> None:
 # ── provedores ────────────────────────────────────────────────────────────────
 
 def _get_json(url: str, timeout=20):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    req = urllib.request.Request(url, headers={"User-Agent": _ua_aleatorio()})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return json.loads(r.read().decode())
 
