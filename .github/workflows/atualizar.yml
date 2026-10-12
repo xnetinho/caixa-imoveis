@@ -29,7 +29,8 @@ concurrency:
 jobs:
   atualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 350   # 1a carga: ~21k enderecos, OSM 1 req/s = ~6h;
+                           # varreduras seguintes sao rapidas (cache resolve)
     steps:
       - uses: actions/checkout@v4
 
