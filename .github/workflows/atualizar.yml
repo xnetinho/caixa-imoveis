@@ -48,6 +48,10 @@ jobs:
         env:
           # workflow_dispatch com input "forca" reprocessa mesmo sem CSV novo
           FORCA: ${{ github.event.inputs.forca || '0' }}
+          # Chave Google Maps (SECRET do repo) — nunca logada, nunca commitada.
+          # OSM (grátis) é a 1ª fonte; Google só como fallback com limite diário.
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          GEO_LIMITE_GOOGLE: '1500'   # teto/dia p/ proteção de custo
         run: |
           if python3 scripts/pipeline.py geral; then
             echo "modo=geral" >> "$GITHUB_OUTPUT"

@@ -233,6 +233,12 @@ def toon_cell(v) -> str:
         return "null"
     if isinstance(v, bool):
         return "true" if v else "false"
+    if isinstance(v, dict):
+        # geo = {lat, lng, fonte} -> "lat,lng;fonte" (compacto p/ TOON)
+        if "lat" in v:
+            return f"{v.get('lat')},{v.get('lng')};{v.get('fonte','')}"
+        return '"' + json.dumps(v, ensure_ascii=False,
+                                separators=(",", ":")).replace('"', '""') + '"'
     if isinstance(v, int):
         return str(v)
     if isinstance(v, float):
@@ -362,6 +368,15 @@ def rodar_geral(status: dict):
             continue
         uf_dir = os.path.join(DATA_DIR, uf)
         os.makedirs(uf_dir, exist_ok=True)
+        # ── GEO: enriquece ESTA UF antes de escrever (cache→OSM→Google) ──────
+        try:
+            import geo
+            s = geo.enriquecer(imoveis)
+            if s["novas_osm"] or s["novas_google"]:
+                print(f"[GEO/{uf}] cache: {s['do_cache']} | OSM: {s['novas_osm']} "
+                      f"| Google: {s['novas_google']} | pendentes: {s['pendentes']}")
+        except Exception as e:
+            print(f"[GEO/{uf}] ⚠️ falha (dados saem sem geo): {e}")
         # CSV por UF: título + data + header + linhas da UF (cp1252 fiel)
         with open(os.path.join(uf_dir, "imoveis.csv"), "w",
                   encoding="cp1252", errors="replace") as f:
