@@ -3,13 +3,13 @@
 ![pipeline](https://github.com/xnetinho/caixa-imoveis/actions/workflows/atualizar.yml/badge.svg)
 ![probe](https://github.com/xnetinho/caixa-imoveis/actions/workflows/probe.yml/badge.svg)
 
-Baixa diariamente, via GitHub Actions, os **CSVs oficiais de imóveis da Caixa Econômica Federal** (todas as 27 UFs) e publica em `data/{UF}/`:
+Baixa diariamente, via GitHub Actions, os **CSVs oficiais de imóveis da Caixa Econômica Federal** e publica:
 
 | Arquivo | Conteúdo |
 |---|---|
-| `data/{UF}/imoveis.csv` | CSV original, bytes intactos (Windows-1252) |
-| `data/{UF}/imoveis.json` | UTF-8, campos canonizados (id, preco, desconto como número, etc.) |
-| `data/{UF}/imoveis.toon` | [TOON](https://github.com/toon-format/toon) (Token-Oriented Object Notation) — tabular, 30–60% menos tokens que JSON, ideal para LLM |
+| `data/imoveis.{csv,json,toon}` | **Global (Brasil inteiro)** — todos os ~21k imóveis em um só dataset (cada imóvel com campo `uf`) |
+| `data/{UF}/imoveis.{csv,json,toon}` | Por estado (27 UFs) |
+| `data/_status.json` | Status da última execução (por UF + global) |
 
 Sempre **a versão mais recente** (nomes fixos, sobrescreve) + `data/_status.json` com o resultado da última execução.
 

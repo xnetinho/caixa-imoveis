@@ -353,6 +353,7 @@ def rodar_geral(status: dict):
         por_uf[uf].append(linha)
 
     ok = 0
+    todos_imoveis = []   # dataset global (todas as UFs, com o campo uf)
     for uf in UFS:
         imoveis, chaves = processar_linhas(por_uf[uf], uf)
         if not imoveis:
@@ -379,8 +380,34 @@ def rodar_geral(status: dict):
             f.write(gerar_toon(uf, imoveis, chaves, data_geracao, CSV_GERAL))
         status[uf] = {"ok": True, "total": len(imoveis),
                       "gerado_em": data_geracao}
+        todos_imoveis.extend(imoveis)
         print(f"[{uf}] ✅ {len(imoveis)} imóveis")
         ok += 1
+
+    # ── GLOBAIS: dataset do Brasil inteiro direto em data/ ────────────────────
+    if todos_imoveis:
+        os.makedirs(DATA_DIR, exist_ok=True)
+        # CSV global = o arquivo original baixado, bytes intactos (cp1252)
+        shutil.copyfile(tmp_csv, os.path.join(DATA_DIR, "imoveis.csv"))
+        chaves_global = sorted({c for im in todos_imoveis for c in im})
+        with open(os.path.join(DATA_DIR, "imoveis.json"), "w", encoding="utf-8") as f:
+            json.dump({
+                "uf": "BR",
+                "data_geracao_caixa": data_geracao,
+                "coletado_em": agora_br(),
+                "fonte": CSV_GERAL,
+                "total": len(todos_imoveis),
+                "ufs": ok,
+                "colunas": chaves_global,
+                "imoveis": todos_imoveis,
+            }, f, ensure_ascii=False, indent=1)
+        # TOON global: tabular única com todas as UFs (campo uf em cada linha)
+        with open(os.path.join(DATA_DIR, "imoveis.toon"), "w", encoding="utf-8") as f:
+            f.write(gerar_toon("BR", todos_imoveis, chaves_global,
+                               data_geracao, CSV_GERAL))
+        status["BR"] = {"ok": True, "total": len(todos_imoveis),
+                        "gerado_em": data_geracao}
+        print(f"[BR] ✅ global: {len(todos_imoveis)} imóveis em {ok} UFs")
 
     shutil.rmtree(tmpdir, ignore_errors=True)
     print(f"[GERAL] {ok} UFs processadas de {CSV_GERAL}")
