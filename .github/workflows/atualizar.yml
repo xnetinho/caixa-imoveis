@@ -1,7 +1,14 @@
 name: Atualizar dados Caixa (CSV -> JSON + TOON)
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      forca:
+        description: 'Forçar reprocessamento mesmo sem CSV novo (1 = sim)'
+        required: false
+        default: '0'
+        type: choice
+        options: ['0', '1']
   schedule:
     # Varredura de 2h: o pipeline é idempotente — se a data_geracao_caixa do
     # CSV for <= à publicada, sai sem tocar em nada. Só commita quando a
@@ -38,6 +45,9 @@ jobs:
       # Fallback: se o CSV geral falhar, downloads por UF no mesmo job.
       - name: Baixar, dividir por UF e converter
         id: pipeline
+        env:
+          # workflow_dispatch com input "forca" reprocessa mesmo sem CSV novo
+          FORCA: ${{ github.event.inputs.forca || '0' }}
         run: |
           if python3 scripts/pipeline.py geral; then
             echo "modo=geral" >> "$GITHUB_OUTPUT"

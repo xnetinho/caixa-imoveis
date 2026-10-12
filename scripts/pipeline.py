@@ -333,7 +333,8 @@ def rodar_geral(status: dict):
             except Exception:
                 pass
 
-    if data_atual_repo and data_geracao <= data_atual_repo:
+    if data_atual_repo and data_geracao <= data_atual_repo \
+            and os.environ.get("FORCA") != "1":
         print(f"[GERAL] CSV da Caixa ({data_geracao}) não é mais recente que o "
               f"publicado ({data_atual_repo}) — nada a fazer.")
         shutil.rmtree(tmpdir, ignore_errors=True)
