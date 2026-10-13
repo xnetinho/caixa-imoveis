@@ -10,14 +10,10 @@ on:
   workflow_dispatch:
     inputs:
       uf:
-        description: 'UF alvo (vazio = todas)'
+        description: 'UF alvo (ex.: PB; vazio = todas)'
         required: false
         default: ''
-        type: choice
-        options:
-          - ''
-          - AC, AL, AP, AM, BA, CE, DF, ES, GO, MA, MT, MS, MG, PA, PB, PR
-          - PE, PI, RJ, RN, RS, RO, RR, SC, SP, SE, TO
+        type: string
       limite_osm:
         description: 'Teto de consultas OSM nesta execução (evita estourar o job)'
         required: false
