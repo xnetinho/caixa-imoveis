@@ -1,0 +1,64 @@
+name: Enriquecer geodata (manual)
+
+# Workflow MANUAL dedicado ao enriquecimento de coordenadas.
+# Operação potencialmente longa (OSM a 1 req/s): primeira carga de ~21k
+# endereços pode levar horas. O workflow de automação (atualizar.yml) também
+# enriquece incrementalmente os imóveis NOVOS de cada varredura; este aqui
+# serve para cargas completas ou retomadas manuais.
+
+on:
+  workflow_dispatch:
+    inputs:
+      uf:
+        description: 'UF alvo (ex.: PB; vazio = todas)'
+        required: false
+        default: ''
+        type: string
+      limite_osm:
+        description: 'Teto de consultas OSM nesta execução (evita estourar o job)'
+        required: false
+        default: '20000'
+        type: string
+      limite_google:
+        description: 'Teto de consultas Google nesta execução'
+        required: false
+        default: '1500'
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-dados
+  cancel-in-progress: false
+
+jobs:
+  enriquecer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Enriquecer coordenadas
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          GEO_LIMITE_GOOGLE: ${{ github.event.inputs.limite_google }}
+          GEO_LIMITE_OSM: ${{ github.event.inputs.limite_osm }}
+          GEO_FILTRO_UF: ${{ github.event.inputs.uf }}
+        run: python3 scripts/geo_enriquecer.py
+
+      - name: Commit se houver mudanças
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git add -A data/
+            git commit -m "geo: enriquecimento $(date -u +%Y-%m-%d) — $(python3 -c "import json; s=json.load(open('data/_geo_status.json')); print(f\"{s['do_cache']} cache, {s['novas_osm']} OSM, {s['novas_google']} Google, {s['pendentes']} pendentes\")")"
+            git push
+          else
+            echo "Nenhuma mudança — sem commit."
+          fi

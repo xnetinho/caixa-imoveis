@@ -1,0 +1,67 @@
+name: Probe - Viabilidade download CSV Caixa
+
+on:
+  workflow_dispatch: {}   # dispara manualmente na aba Actions
+  schedule:
+    - cron: '23 12 * * *' # 1x/dia, 09:23 BRT (horário fora de picos)
+
+permissions:
+  contents: read          # probe é read-only: NÃO commita nada
+
+concurrency:
+  group: probe-csv
+  cancel-in-progress: true
+
+env:
+  # Mesma URL que funciona no navegador do usuário
+  BASE: https://venda-imoveis.caixa.gov.br/listaweb
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        uf: [PB, SP, RJ, MG, BA, RS, PR, SC, CE]  # amostra: 2 grandes, NE, S
+    steps:
+      - name: Probe ${{ matrix.uf }}
+        run: |
+          set -euo pipefail
+          URL="$BASE/Lista_imoveis_${{ matrix.uf }}.csv"
+          echo "== Baixando: $URL"
+          # T1: curl puro (o que passou na máquina do usuário)
+          code=$(curl -sS -o raw_t1.csv -w '%{http_code}' --max-time 120 "$URL" || echo ERR)
+          size=$(stat -c%s raw_t1.csv 2>/dev/null || echo 0)
+          kind=$(file -b raw_t1.csv 2>/dev/null || echo '?')
+          echo "T1 curl-puro   -> HTTP $code | $size bytes | $kind"
+          # T2: headers estilo navegador
+          code2=$(curl -sS -o raw_t2.csv -w '%{http_code}' --max-time 120 \
+            -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
+            -H "Referer: https://venda-imoveis.caixa.gov.br/sistema/download-lista.asp" \
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" \
+            "$URL" || echo ERR)
+          size2=$(stat -c%s raw_t2.csv 2>/dev/null || echo 0)
+          kind2=$(file -b raw_t2.csv 2>/dev/null || echo '?')
+          echo "T2 navegador   -> HTTP $code2 | $size2 bytes | $kind2"
+          # Validação de conteúdo: é CSV real da Caixa ou lixo de CAPTCHA?
+          verdict="BLOQUEADO"
+          for f in raw_t1.csv raw_t2.csv; do
+            if [ -s "$f" ] && grep -qa "Lista de Im" "$f"; then
+              verdict="OK ($f)"
+              break
+            fi
+          done
+          echo "VEREDICTO: $verdict"
+          # Detalhe do conteúdo (se veio CSV): primeiras linhas no log
+          if [ "$verdict" != "BLOQUEADO" ]; then
+            cp raw_t1.csv best.csv 2>/dev/null || cp raw_t2.csv best.csv
+            echo "-- L1 (título):"; iconv -f WINDOWS-1252 -t UTF-8 best.csv 2>/dev/null | sed -n '2p' | cut -c1-100
+            echo "-- L2 (header):"; iconv -f WINDOWS-1252 -t UTF-8 best.csv 2>/dev/null | sed -n '3p' | cut -c1-120
+            echo "-- L3 (1º imóvel):"; iconv -f WINDOWS-1252 -t UTF-8 best.csv 2>/dev/null | sed -n '4p' | cut -c1-160
+            echo "-- Total de linhas: $(wc -l < best.csv)"
+          fi
+          # Falha o job se bloqueado — é isso que queremos medir
+          if [ "$verdict" = "BLOQUEADO" ]; then
+            echo "::warning::UF ${{ matrix.uf }} BLOQUEADA (CAPTCHA/Radware) — ver log"
+          fi
