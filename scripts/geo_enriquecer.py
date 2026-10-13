@@ -1,25 +1,12 @@
 #!/usr/bin/env python3
-"""
-geo_enriquecer.py — Enriquecimento de coordenadas sob demanda.
-
-Lê os JSONs publicados em data/ (UFs + global), enriquece os imóveis que
-ainda não têm geo (cache → OSM → Google), regrava JSONs e TOONs alterados
-e atualiza o cache. Não baixa nada da Caixa — só geodata.
-
-Env:
-  GEO_FILTRO_UF        UF alvo (vazio = todas)
-  GEO_LIMITE_OSM       teto de consultas OSM nesta execução (default 20000)
-  GEO_LIMITE_GOOGLE    teto de consultas Google (default 1500)
-  GOOGLE_MAPS_API_KEY  chave via secret
-"""
 
 import json
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import geo  # noqa: E402  (reusa cache/provedores)
-import pipeline  # noqa: E402  (reusa gerar_toon)
+import geo
+import pipeline
 
 DATA_DIR = "data"
 UF_LISTA = ["AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT",
@@ -47,9 +34,8 @@ def regravar_toon(p, doc):
 def main():
     filtro = os.environ.get("GEO_FILTRO_UF", "").strip().upper()
     geo.GEO_LIMITE_GOOGLE = int(os.environ.get("GEO_LIMITE_GOOGLE", "1500"))
-    limite_osm = int(os.environ.get("GEO_LIMITE_OSM", "20000"))
+    geo.GEO_LIMITE_OSM = int(os.environ.get("GEO_LIMITE_OSM", "2000"))
 
-    # 1. carrega docs das UFs alvo
     docs = []
     for uf in UF_LISTA:
         if filtro and uf != filtro:
@@ -58,9 +44,8 @@ def main():
         if os.path.exists(p):
             docs.append((uf, carregar(p)))
         else:
-            print(f"[{uf}] sem imoveis.json — pulando")
+            print(f"[{uf}] sem imoveis.json")
 
-    # 2. seleciona imóveis SEM geo (ou pendentes), por chave de endereço única
     fila, vistos = [], set()
     for _, doc in docs:
         for im in doc["imoveis"]:
@@ -68,32 +53,31 @@ def main():
             if k in vistos:
                 continue
             tem_geo = isinstance(im.get("geo"), dict) and im["geo"].get("lat")
-            pendente = im.get("geo_pendente")
-            if tem_geo or pendente is False:
-                if tem_geo:
-                    # repovoa o cache com o que já tem geo (caso cache vazio)
-                    geo.carregar_cache()[k] = im["geo"]
+            if tem_geo:
+                geo.carregar_cache()[k] = im["geo"]
+                continue
+            if im.get("geo_pendente") is False:
                 continue
             if im.get("endereco") and im.get("cidade"):
                 vistos.add(k)
                 fila.append(im)
-    print(f"[GEO] {len(fila)} endereços únicos a enriquecer "
-          f"(limite OSM: {limite_osm}, Google: {geo.GEO_LIMITE_GOOGLE})")
 
-    # 3. enriquece respeitando limites
-    stats_total = {"novas_osm": 0, "novas_google": 0, "do_cache": 0,
+    print(f"[GEO] {len(fila)} enderecos unicos a enriquecer "
+          f"(Google: {geo.GEO_LIMITE_GOOGLE}, OSM: {geo.GEO_LIMITE_OSM})")
+
+    stats_total = {"novas_google": 0, "novas_osm": 0, "do_cache": 0,
                    "pendentes": 0, "sem_endereco": 0}
     processados = 0
     for im in fila:
-        if stats_total["novas_osm"] >= limite_osm:
-            print(f"[GEO] limite OSM alcançado — restante fica pendente")
+        if geo._google_hoje >= geo.GEO_LIMITE_GOOGLE \
+                and geo._osm_hoje >= geo.GEO_LIMITE_OSM:
+            print("[GEO] limites alcancados")
             break
         s = geo.enriquecer([im])
         processados += 1
         for k in stats_total:
             stats_total[k] += s[k]
 
-    # 4. aplica o geo resultante a TODAS as ocorrências (por chave de endereço)
     cache = geo.carregar_cache()
 
     for uf, doc in docs:
@@ -108,13 +92,11 @@ def main():
                     and im.get("endereco") and im.get("cidade"):
                 im["geo_pendente"] = True
                 mudou = True
-        p_json = os.path.join(DATA_DIR, uf, "imoveis.json")
-        salvar(p_json, doc)
+        salvar(os.path.join(DATA_DIR, uf, "imoveis.json"), doc)
         regravar_toon(os.path.join(DATA_DIR, uf, "imoveis.toon"), doc)
         if mudou:
-            print(f"[{uf}] JSON/TOON regravados")
+            print(f"[{uf}] regravado")
 
-    # 5. global (quando sem filtro)
     gp = os.path.join(DATA_DIR, "imoveis.json")
     if os.path.exists(gp) and not filtro:
         gdoc = carregar(gp)
