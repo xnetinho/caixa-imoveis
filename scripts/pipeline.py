@@ -200,9 +200,9 @@ def gerar_toon(uf, imoveis, chaves, data_geracao, fonte):
     chaves = [c for c in chaves if c != "id"] or list(imoveis[0].keys())
     campos = ["id"] + chaves
     linhas = [
-        f"meta{ uf,data_geracao_caixa,total,fonte} :",
+        f"meta{{uf,data_geracao_caixa,total,fonte}}:",
         f"  {uf},{toon_cell(data_geracao)},{len(imoveis)},{fonte}",
-        f"imoveis[{len(imoveis)}]{ {','.join(campos)}} :",
+        f"imoveis[{len(imoveis)}]{{{','.join(campos)}}}:",
     ]
     for im in imoveis:
         linhas.append("  " + ",".join(toon_cell(im.get(c)) for c in campos))
