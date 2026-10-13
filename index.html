@@ -128,22 +128,22 @@
   <div class="filters">
     <select id="ufFilter"><option value="">Todos os estados</option></select>
     <div class="row">
-      <input id="cityFilter" type="text" placeholder="Cidade">
-      <input id="bairroFilter" type="text" placeholder="Bairro">
+      <select id="cidadeFilter"><option value="">Todas as cidades</option></select>
+      <select id="bairroFilter"><option value="">Todos os bairros</option></select>
     </div>
     <select id="modalidadeFilter"><option value="">Todas as modalidades</option></select>
-    <div class="row">
-      <input id="minPreco" type="number" placeholder="Preço mín. R$" min="0">
-      <input id="maxPreco" type="number" placeholder="Preço máx. R$" min="0">
-    </div>
-    <div class="row">
-      <input id="minDesconto" type="number" placeholder="Desconto mín. %" min="0" max="100" step="0.01">
-      <input id="maxDesconto" type="number" placeholder="Desconto máx. %" min="0" max="100" step="0.01">
-    </div>
     <select id="financiamentoFilter">
       <option value="">Financiamento: qualquer</option>
       <option value="sim">Aceita financiamento</option>
       <option value="nao">Não aceita financiamento</option>
+    </select>
+    <select id="ordenarFilter">
+      <option value="">Ordenar: padrão</option>
+      <option value="preco_asc">Preço (menor → maior)</option>
+      <option value="preco_desc">Preço (maior → menor)</option>
+      <option value="desconto_desc">Maior desconto</option>
+      <option value="desconto_asc">Menor desconto</option>
+      <option value="cidade_asc">Cidade (A–Z)</option>
     </select>
   </div>
   <div class="stats" id="stats">—</div>
@@ -337,6 +337,23 @@ async function loadData(){
     modSel.appendChild(o);
   });
 
+  // popula filtros de cidade e bairro
+  const cidadeSel = $("cidadeFilter");
+  [...new Set(allFeatures.map(f=>f.properties.cidade).filter(Boolean))].sort()
+    .forEach(c=>{
+      const o = document.createElement("option");
+      o.value = c; o.textContent = c;
+      cidadeSel.appendChild(o);
+    });
+
+  const bairroSel = $("bairroFilter");
+  [...new Set(allFeatures.map(f=>f.properties.bairro).filter(Boolean))].sort()
+    .forEach(b=>{
+      const o = document.createElement("option");
+      o.value = b; o.textContent = b;
+      bairroSel.appendChild(o);
+    });
+
   $("subTitle").textContent =
     `${allFeatures.length.toLocaleString("pt-BR")} imóveis com localização · ` +
     `${total.toLocaleString("pt-BR")} no dataset · ${doc.data_geracao_caixa||""}`;
@@ -359,28 +376,29 @@ function turfBounds(coords){
   return [minLng,minLat,maxLng,maxLat];
 }
 
-/* ============ filtros ============ */
+/* ============ filtros e ordenação ============ */
+const SORT_FNS = {
+  preco_asc: (a,b)=>(a.properties.preco||0)-(b.properties.preco||0),
+  preco_desc: (a,b)=>(b.properties.preco||0)-(a.properties.preco||0),
+  desconto_desc: (a,b)=>(b.properties.desconto||0)-(a.properties.desconto||0),
+  desconto_asc: (a,b)=>(a.properties.desconto||0)-(b.properties.desconto||0),
+  cidade_asc: (a,b)=>(a.properties.cidade||"").localeCompare(b.properties.cidade||"","pt-BR"),
+};
+
 function applyFilters(){
   const uf = $("ufFilter").value;
-  const cidade = $("cityFilter").value.trim().toLowerCase();
-  const bairro = $("bairroFilter").value.trim().toLowerCase();
+  const cidade = $("cidadeFilter").value;
+  const bairro = $("bairroFilter").value;
   const modalidade = $("modalidadeFilter").value;
-  const minP = parseFloat($("minPreco").value);
-  const maxP = parseFloat($("maxPreco").value);
-  const minD = parseFloat($("minDesconto").value);
-  const maxD = parseFloat($("maxDesconto").value);
   const fin = $("financiamentoFilter").value;
+  const ordem = $("ordenarFilter").value;
 
   filtered = allFeatures.filter(f=>{
     const p = f.properties;
     if (uf && p.uf !== uf) return false;
-    if (cidade && !(p.cidade||"").toLowerCase().includes(cidade)) return false;
-    if (bairro && !(p.bairro||"").toLowerCase().includes(bairro)) return false;
+    if (cidade && p.cidade !== cidade) return false;
+    if (bairro && p.bairro !== bairro) return false;
     if (modalidade && p.modalidade !== modalidade) return false;
-    if (!isNaN(minP) && (p.preco||0) < minP) return false;
-    if (!isNaN(maxP) && (p.preco||0) > maxP) return false;
-    if (!isNaN(minD) && (p.desconto||0) < minD) return false;
-    if (!isNaN(maxD) && (p.desconto||0) > maxD) return false;
     if (fin){
       const fv = (p.financiamento||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
       if (fin === "sim" && fv !== "sim") return false;
@@ -388,6 +406,8 @@ function applyFilters(){
     }
     return true;
   });
+
+  if (SORT_FNS[ordem]) filtered = filtered.slice().sort(SORT_FNS[ordem]);
 
   $("stats").textContent =
     `Mostrando ${filtered.length.toLocaleString("pt-BR")} imóveis` +
@@ -400,18 +420,11 @@ function applyFilters(){
 }
 
 $("ufFilter").addEventListener("change", applyFilters);
+$("cidadeFilter").addEventListener("change", applyFilters);
+$("bairroFilter").addEventListener("change", applyFilters);
 $("modalidadeFilter").addEventListener("change", applyFilters);
 $("financiamentoFilter").addEventListener("change", applyFilters);
-$("cityFilter").addEventListener("input", debounce(applyFilters, 300));
-$("bairroFilter").addEventListener("input", debounce(applyFilters, 300));
-$("minPreco").addEventListener("input", debounce(applyFilters, 500));
-$("maxPreco").addEventListener("input", debounce(applyFilters, 500));
-$("minDesconto").addEventListener("input", debounce(applyFilters, 500));
-$("maxDesconto").addEventListener("input", debounce(applyFilters, 500));
-
-function debounce(fn, ms){
-  let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); };
-}
+$("ordenarFilter").addEventListener("change", applyFilters);
 
 /* ============ lista de resultados ============ */
 function renderResults(){
