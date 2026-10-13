@@ -4,29 +4,10 @@ import json
 import os
 import random
 import re
-import socket
 import sys
 import time
 import urllib.parse
 import urllib.request
-
-_getaddrinfo_original = socket.getaddrinfo
-
-
-def _getaddrinfo_ipv4_primeiro(host, port, family=0, type=0, proto=0, flags=0):
-    """Força resolução IPv4 quando possível. Evita o problema de
-    'happy eyeballs' ausente no urllib: se a rota IPv6 estiver quebrada
-    (comum em sandboxes/containers), o urllib tenta o primeiro endereço
-    retornado (IPv6, nesta versão do resolver) e fica ~20-25s travado até
-    expirar o timeout antes de cair para IPv4 — multiplicado por centenas
-    de chamadas geo, isso sozinho explica timeouts de job no CI."""
-    try:
-        return _getaddrinfo_original(host, port, socket.AF_INET, type, proto, flags)
-    except socket.gaierror:
-        return _getaddrinfo_original(host, port, family, type, proto, flags)
-
-
-socket.getaddrinfo = _getaddrinfo_ipv4_primeiro
 
 DATA_DIR = "data"
 CACHE_PATH = os.path.join(DATA_DIR, "_geocache.json")
@@ -193,6 +174,7 @@ def enriquecer(imoveis, rotulo=""):
     prefixo = f"[GEO{'/' + rotulo if rotulo else ''}]"
     log(f"{prefixo} início: {total} imóveis | limites hoje: "
         f"Google {_google_hoje}/{GEO_LIMITE_GOOGLE}, OSM {_osm_hoje}/{GEO_LIMITE_OSM}")
+    cota_google_avisada = _google_hoje >= GEO_LIMITE_GOOGLE
 
     for i, im in enumerate(imoveis, 1):
         if not (im.get("endereco") and im.get("cidade")):
@@ -209,8 +191,16 @@ def enriquecer(imoveis, rotulo=""):
             stats["do_cache"] += 1
             continue
 
+        google_tentado = False
         r = None
-        if GOOGLE_KEY and _google_hoje < GEO_LIMITE_GOOGLE:
+        if GOOGLE_KEY and _google_hoje >= GEO_LIMITE_GOOGLE:
+            if not cota_google_avisada:
+                cota_google_avisada = True
+                log(f"{prefixo} ⚠️ cota diária do Google esgotada "
+                    f"({_google_hoje}/{GEO_LIMITE_GOOGLE}) — itens restantes ficam "
+                    f"PENDENTES para o próximo ciclo (não acionam OSM por isso)")
+        elif GOOGLE_KEY:
+            google_tentado = True
             r = geocode_google(im)
             _google_hoje += 1
             if r:
@@ -225,10 +215,12 @@ def enriquecer(imoveis, rotulo=""):
                         f"| google_status={_google_status_contagem}")
                 continue
 
-        if r is None and _osm_hoje < GEO_LIMITE_OSM:
+        if r is None and (google_tentado or not GOOGLE_KEY) and _osm_hoje < GEO_LIMITE_OSM:
             if _osm_hoje == 0:
-                log(f"{prefixo} ⚠️ entrando no fallback OSM (Google esgotado/falhou "
-                    f"para este item) — status Google até agora: {_google_status_contagem}")
+                motivo = "sem chave Google configurada" if not GOOGLE_KEY \
+                    else "Google falhou neste item (status real, não cota)"
+                log(f"{prefixo} ⚠️ entrando no fallback OSM ({motivo}) "
+                    f"— status Google até agora: {_google_status_contagem}")
             espera = OSM_DELAY_S - (time.time() - _ultima_osm)
             if espera > 0:
                 time.sleep(espera)
