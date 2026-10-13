@@ -128,9 +128,23 @@
   <div class="filters">
     <select id="ufFilter"><option value="">Todos os estados</option></select>
     <div class="row">
-      <input id="cityFilter" type="text" placeholder="Cidade (ex.: João Pessoa)">
+      <input id="cityFilter" type="text" placeholder="Cidade">
+      <input id="bairroFilter" type="text" placeholder="Bairro">
+    </div>
+    <select id="modalidadeFilter"><option value="">Todas as modalidades</option></select>
+    <div class="row">
+      <input id="minPreco" type="number" placeholder="Preço mín. R$" min="0">
       <input id="maxPreco" type="number" placeholder="Preço máx. R$" min="0">
     </div>
+    <div class="row">
+      <input id="minDesconto" type="number" placeholder="Desconto mín. %" min="0" max="100" step="0.01">
+      <input id="maxDesconto" type="number" placeholder="Desconto máx. %" min="0" max="100" step="0.01">
+    </div>
+    <select id="financiamentoFilter">
+      <option value="">Financiamento: qualquer</option>
+      <option value="sim">Aceita financiamento</option>
+      <option value="nao">Não aceita financiamento</option>
+    </select>
   </div>
   <div class="stats" id="stats">—</div>
   <div id="results"></div>
@@ -314,6 +328,15 @@ async function loadData(){
     ufSel.appendChild(o);
   });
 
+  // popula filtro de modalidade
+  const modSel = $("modalidadeFilter");
+  const mods = [...new Set(allFeatures.map(f=>f.properties.modalidade).filter(Boolean))].sort();
+  mods.forEach(m=>{
+    const o = document.createElement("option");
+    o.value = m; o.textContent = m;
+    modSel.appendChild(o);
+  });
+
   $("subTitle").textContent =
     `${allFeatures.length.toLocaleString("pt-BR")} imóveis com localização · ` +
     `${total.toLocaleString("pt-BR")} no dataset · ${doc.data_geracao_caixa||""}`;
@@ -340,12 +363,29 @@ function turfBounds(coords){
 function applyFilters(){
   const uf = $("ufFilter").value;
   const cidade = $("cityFilter").value.trim().toLowerCase();
+  const bairro = $("bairroFilter").value.trim().toLowerCase();
+  const modalidade = $("modalidadeFilter").value;
+  const minP = parseFloat($("minPreco").value);
   const maxP = parseFloat($("maxPreco").value);
+  const minD = parseFloat($("minDesconto").value);
+  const maxD = parseFloat($("maxDesconto").value);
+  const fin = $("financiamentoFilter").value;
 
   filtered = allFeatures.filter(f=>{
-    if (uf && f.properties.uf !== uf) return false;
-    if (cidade && !(f.properties.cidade||"").toLowerCase().includes(cidade)) return false;
-    if (!isNaN(maxP) && (f.properties.preco||0) > maxP) return false;
+    const p = f.properties;
+    if (uf && p.uf !== uf) return false;
+    if (cidade && !(p.cidade||"").toLowerCase().includes(cidade)) return false;
+    if (bairro && !(p.bairro||"").toLowerCase().includes(bairro)) return false;
+    if (modalidade && p.modalidade !== modalidade) return false;
+    if (!isNaN(minP) && (p.preco||0) < minP) return false;
+    if (!isNaN(maxP) && (p.preco||0) > maxP) return false;
+    if (!isNaN(minD) && (p.desconto||0) < minD) return false;
+    if (!isNaN(maxD) && (p.desconto||0) > maxD) return false;
+    if (fin){
+      const fv = (p.financiamento||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+      if (fin === "sim" && fv !== "sim") return false;
+      if (fin === "nao" && fv !== "nao") return false;
+    }
     return true;
   });
 
@@ -360,8 +400,14 @@ function applyFilters(){
 }
 
 $("ufFilter").addEventListener("change", applyFilters);
+$("modalidadeFilter").addEventListener("change", applyFilters);
+$("financiamentoFilter").addEventListener("change", applyFilters);
 $("cityFilter").addEventListener("input", debounce(applyFilters, 300));
+$("bairroFilter").addEventListener("input", debounce(applyFilters, 300));
+$("minPreco").addEventListener("input", debounce(applyFilters, 500));
 $("maxPreco").addEventListener("input", debounce(applyFilters, 500));
+$("minDesconto").addEventListener("input", debounce(applyFilters, 500));
+$("maxDesconto").addEventListener("input", debounce(applyFilters, 500));
 
 function debounce(fn, ms){
   let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); };
@@ -435,7 +481,10 @@ function selectImovel(id){
       <dt>Financiamento</dt><dd>${esc(p.financiamento||"—")}</dd>
       ${p.descricao?`<dt>Descrição</dt><dd>${esc(p.descricao)}</dd>`:""}
     </dl>
-    <a class="btn" href="${esc(p.link||"#")}" target="_blank" rel="noopener">Ver na Caixa →</a>
+    <div class="row" style="display:flex;gap:8px">
+      <a class="btn" href="${esc(p.link||"#")}" target="_blank" rel="noopener" style="flex:1">Ver na Caixa →</a>
+      <a class="btn" href="https://venda-imoveis.caixa.gov.br/editais/matricula/${esc(p.uf)}/${esc(p.id)}.pdf" target="_blank" rel="noopener" style="flex:1">Baixar matrícula</a>
+    </div>
 
     <div>
       <div class="section-title">Street View</div>
@@ -490,16 +539,24 @@ function ensureLayers(){
 }
 
 /* ============ POIs (Overpass → Photon) ============ */
+async function fetchJSON(url, opts={}, ms=9000){
+  const c = new AbortController();
+  const t = setTimeout(()=>c.abort(), ms);
+  try {
+    const r = await fetch(url, {...opts, signal: c.signal});
+    if (!r.ok) throw new Error("HTTP "+r.status);
+    return await r.json();
+  } finally { clearTimeout(t); }
+}
+
 async function poiFromOverpass(lat, lng){
-  const query = `[out:json][timeout:20];(` +
+  const query = `[out:json][timeout:15];(` +
     `node["amenity"](around:1200,${lat},${lng});` +
     `node["shop"](around:800,${lat},${lng});` +
     `);out center 60;`;
   for (const base of [OVERPASS_URL, OVERPASS_MIRROR]){
     try {
-      const r = await fetch(base, {method:"POST", headers:{"Content-Type":"application/x-www-form-urlencoded"}, body:"data="+encodeURIComponent(query)});
-      if (!r.ok) throw new Error("HTTP "+r.status);
-      const d = await r.json();
+      const d = await fetchJSON(base, {method:"POST", headers:{"Content-Type":"application/x-www-form-urlencoded"}, body:"data="+encodeURIComponent(query)});
       return (d.elements||[]).filter(e=>e.lat!=null && e.lon!=null).map(e=>{
         const t = e.tags||{};
         const kind = t.amenity || t.shop || "outro";
@@ -511,13 +568,18 @@ async function poiFromOverpass(lat, lng){
   return null;
 }
 
+const POI_KEYS = new Set([
+  "amenity","shop","tourism","leisure","healthcare","public_transport",
+  "historic","office","sport","railway","aeroway","natural","craft","man_made"
+]);
 async function poiFromPhoton(lat, lng){
-  const url = `https://photon.komoot.io/reverse?lat=${lat}&lon=${lng}&radius=1500&limit=50`;
+  const url = `https://photon.komoot.io/reverse?lat=${lat}&lon=${lng}&radius=1500&limit=80`;
   try {
-    const r = await fetch(url);
-    if (!r.ok) throw new Error("HTTP "+r.status);
-    const d = await r.json();
-    return (d.features||[]).map(x=>{
+    const d = await fetchJSON(url);
+    return (d.features||[]).filter(x=>{
+      const k = x.properties?.osm_key;
+      return POI_KEYS.has(k);
+    }).map(x=>{
       const p = x.properties||{};
       const kind = p.osm_value || p.type || p.osm_key || "outro";
       const [lon2, lat2] = x.geometry?.coordinates || [lng, lat];
@@ -530,8 +592,8 @@ async function poiFromPhoton(lat, lng){
 
 async function loadPOIs(lat, lng){
   const box = $("poiBox");
-  let features = await poiFromOverpass(lat, lng);
-  if (!features) features = await poiFromPhoton(lat, lng);
+  let features = await poiFromPhoton(lat, lng);          // Photon primeiro: rápido e estável
+  if (!features || !features.length) features = await poiFromOverpass(lat, lng);
   if (!features){ box.innerHTML = '<div class="empty">Falha ao buscar POIs (serviços indisponíveis).</div>'; return; }
   if (!features.length){ box.innerHTML = '<div class="empty">Nenhum POI próximo encontrado.</div>'; return; }
 
