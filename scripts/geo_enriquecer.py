@@ -98,18 +98,25 @@ def main():
             print(f"[{uf}] regravado")
 
     gp = os.path.join(DATA_DIR, "imoveis.json")
-    if os.path.exists(gp) and not filtro:
+    if os.path.exists(gp):
         gdoc = carregar(gp)
+        mudou_global = False
         for im in gdoc["imoveis"]:
             g = cache.get(geo.chave_geo(im))
-            if g:
+            if g and im.get("geo") != g:
                 im["geo"] = g
                 im["geo_pendente"] = False
-            elif im.get("endereco") and im.get("cidade"):
+                mudou_global = True
+            elif not g and im.get("geo_pendente") is not True \
+                    and im.get("endereco") and im.get("cidade"):
                 im["geo_pendente"] = True
-        salvar(gp, gdoc)
-        regravar_toon(os.path.join(DATA_DIR, "imoveis.toon"), gdoc)
-        print("[BR] global regravado")
+                mudou_global = True
+        if mudou_global:
+            salvar(gp, gdoc)
+            regravar_toon(os.path.join(DATA_DIR, "imoveis.toon"), gdoc)
+            print("[BR] global regravado")
+        else:
+            print("[BR] global sem mudanças")
 
     with open(os.path.join(DATA_DIR, "_geo_status.json"), "w",
               encoding="utf-8") as f:
