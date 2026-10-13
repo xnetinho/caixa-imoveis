@@ -40,6 +40,9 @@
   .panel-head .sub{font-size:12px;color:var(--muted)}
   .close{float:right;background:none;border:none;color:var(--muted);font-size:18px;cursor:pointer}
   .close:hover{color:var(--txt)}
+  .share{float:right;background:none;border:none;color:var(--muted);cursor:pointer;font-size:16px;padding:2px;margin-right:10px;line-height:1}
+  .share:hover{color:var(--txt)}
+  .share svg{display:block}
 
   .filters{padding:10px 16px;border-bottom:1px solid var(--line);flex-shrink:0;display:flex;flex-direction:column;gap:8px}
   .filters select,.filters input{
@@ -154,6 +157,9 @@
 <aside id="detail">
   <div class="d-head">
     <button class="close" id="detailClose" title="Fechar">×</button>
+    <button class="share" id="shareBtn" title="Compartilhar">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+    </button>
     <h2 id="dTitle">—</h2>
   </div>
   <div class="d-body" id="dBody"></div>
@@ -193,6 +199,8 @@ let selectedId = null;
 let poiSourceAdded = false;
 let routeSourceAdded = false;
 let originMarker = null;   // marcador de origem da rota
+let mapLoaded = false;
+let pendingDeepLink = null;
 
 const $ = id => document.getElementById(id);
 const fmtBRL = v => v == null ? "—" : "R$ " + v.toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2});
@@ -267,6 +275,9 @@ function initMap(){
     });
     map.on("mouseenter","imovel-points", ()=> map.getCanvas().style.cursor="pointer");
     map.on("mouseleave","imovel-points", ()=> map.getCanvas().style.cursor="");
+
+    mapLoaded = true;
+    if (pendingDeepLink){ const id = pendingDeepLink; pendingDeepLink = null; openImovel(id); }
   });
 
   map.on("click", e => {
@@ -360,6 +371,7 @@ async function loadData(){
 
   applyFilters();
   fitAll();
+  if (deepLinkId) openImovel(deepLinkId);
 }
 
 function fitAll(){
@@ -692,6 +704,35 @@ function setOrigin(lat, lng){
 $("closeBtn").addEventListener("click", ()=> $("panel").classList.add("collapsed"));
 $("toggleBtn").addEventListener("click", ()=> $("panel").classList.remove("collapsed"));
 $("detailClose").addEventListener("click", ()=> $("detail").classList.remove("open"));
+
+/* ============ compartilhar ============ */
+$("shareBtn").addEventListener("click", shareImovel);
+
+async function shareImovel(){
+  const f = allFeatures.find(x=>x.properties.id===selectedId);
+  if (!f) return;
+  const url = new URL(location.href);
+  url.search = "";
+  url.searchParams.set("imovel", selectedId);
+  const shareUrl = url.toString();
+  const title = `Imóvel ${selectedId} — ${f.properties.cidade}/${f.properties.uf}`;
+  const text = `${f.properties.cidade} — ${f.properties.bairro||""} · ${fmtBRL(f.properties.preco)}`;
+  if (navigator.share){
+    try { await navigator.share({title, text, url: shareUrl}); return; }
+    catch(e){ if (e && e.name === "AbortError") return; }
+  }
+  try { await navigator.clipboard.writeText(shareUrl); toast("Link copiado!"); }
+  catch(e){ toast("Não foi possível compartilhar o link."); }
+}
+
+/* ============ deep-link (?imovel=ID) ============ */
+const deepLinkId = new URLSearchParams(location.search).get("imovel");
+function openImovel(id){
+  const f = allFeatures.find(x=>x.properties.id===id);
+  if (!f) return;
+  if (!mapLoaded && map){ pendingDeepLink = id; return; }
+  flyTo(id);
+}
 
 /* ============ boot ============ */
 initMap();
