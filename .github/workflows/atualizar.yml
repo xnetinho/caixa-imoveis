@@ -3,14 +3,7 @@ name: Atualizar dados Caixa (CSV -> JSON + TOON)
 on:
   workflow_dispatch: {}
   schedule:
-    # Varredura de 2h: o pipeline é idempotente — se a data_geracao_caixa do
-    # CSV for <= à publicada, sai sem tocar em nada. Só commita quando a
-    # Caixa publica de fato um CSV novo. Cobertura total do dia, imune a
-    # atrasos do scheduler (que podem ser de horas no pico noturno).
     - cron: '7 1,3,5,7,9,11,13,15,17,19,21,23 * * *'
-      # 22:07, 00:07, 02:07 ... 20:07 BRT — a publicação da Caixa (~22:00 BRT)
-      # é capturada na primeira varredura seguinte, de madrugada (baixa carga
-      # no scheduler do GitHub), e as demais não fazem nada.
 
 permissions:
   contents: write
@@ -22,8 +15,7 @@ concurrency:
 jobs:
   atualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 30   # varreduras normais duram ~1min; enriquecimento de
-                          # novos imoveis e incremental (poucos por dia)
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -31,19 +23,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      # MODO GERAL (padrão): baixa 1 único CSV (Lista_imoveis_geral.csv,
-      # Brasil inteiro, ~7.7MB), divide por UF e grava
-      # data/{UF}/imoveis.{csv,json,toon}. 1 chamada ao servidor da Caixa
-      # em vez de 27 — elimina o bloqueio Radware de requisições em
-      # sequência do mesmo IP (verificado: 1ª passa, demais 302).
-      # Fallback: se o CSV geral falhar, downloads por UF no mesmo job.
       - name: Baixar, dividir por UF e converter
         id: pipeline
-        env:
-          # Chave Google Maps (SECRET do repo) — nunca logada, nunca commitada.
-          # OSM (grátis) é a 1ª fonte; Google só como fallback com limite diário.
-          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
-          GEO_LIMITE_GOOGLE: '1500'   # teto/dia p/ proteção de custo
         run: |
           if python3 scripts/pipeline.py geral; then
             echo "modo=geral" >> "$GITHUB_OUTPUT"
@@ -59,6 +40,9 @@ jobs:
           import json
           s = json.load(open('data/_status.json'))
           print(f"Modo: {s.get('modo')} | OK: {s['ufs_ok']} | Falha: {s['ufs_falha']} | Executado: {s['executado_em']}")
+          d = s.get('diff') or {}
+          if d:
+              print(f"Diff: {d.get('novos')} novos | {d.get('removidos')} removidos")
           for uf, st in sorted(s['status'].items()):
               if st.get('ok'):
                   print(f"  {uf}: {st.get('total', st.get('gerado_em'))}")
@@ -66,14 +50,46 @@ jobs:
                   print(f"  {uf}: {st.get('erro', 'FALHOU')}")
           EOF
 
-      - name: Commit se houver mudanças
+      - name: Commit dos dados
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ -n "$(git status --porcelain data/)" ]; then
             git add -A data/
-            git commit -m "data: atualização $(date -u +%Y-%m-%d) [${{ steps.pipeline.outputs.modo }}] — $(python3 -c "import json; s=json.load(open('data/_status.json')); print(f\"{s['ufs_ok']} UFs OK, {s['ufs_falha']} falha\")")"
+            git commit -m "data: atualização $(date -u +%Y-%m-%d) [${{ steps.pipeline.outputs.modo }}] — $(python3 -c "import json; s=json.load(open('data/_status.json')); d=s.get('diff') or {}; print(f\"{s['ufs_ok']} UFs, +{d.get('novos',0)} novos, -{d.get('removidos',0)} removidos\")")"
             git push
           else
             echo "Nenhuma mudança de conteúdo — sem commit."
+          fi
+
+  geo-incremental:
+    needs: atualizar
+    if: needs.atualizar.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Enriquecer apenas o que falta geo
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          GEO_LIMITE_GOOGLE: '800'
+          GEO_LIMITE_OSM: '900'
+        run: python3 scripts/geo_enriquecer.py
+
+      - name: Commit do geo
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git pull --rebase origin master || true
+            git add -A data/
+            git commit -m "geo: incremental $(date -u +%Y-%m-%d) — $(python3 -c "import json; s=json.load(open('data/_geo_status.json')); print(f\"{s.get('novas_google',0)} google, {s.get('novas_osm',0)} osm, {s.get('pendentes',0)} pendentes\")")"
+            git push
+          else
+            echo "geo: nada mudou — sem commit."
           fi

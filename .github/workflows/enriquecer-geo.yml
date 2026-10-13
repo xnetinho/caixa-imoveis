@@ -33,7 +33,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: enriquecer-geo
+  group: atualizar-dados
   cancel-in-progress: false
 
 jobs:

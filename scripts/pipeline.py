@@ -280,7 +280,6 @@ def rodar_geral(status: dict):
         return "sem_mudanca"
     header_linha = linhas[hidx]
     por_uf = {uf: [header_linha] for uf in UFS}
-    por_uf_bytes = {}                                              
     raw_linhas = texto.split("\n")
     for linha in raw_linhas[hidx + 1:]:
         if not linha.strip():
@@ -290,8 +289,20 @@ def rodar_geral(status: dict):
         if uf not in por_uf:
             continue
         por_uf[uf].append(linha)
+
+    ids_anteriores = set()
+    gp = os.path.join(DATA_DIR, "imoveis.json")
+    if os.path.exists(gp):
+        try:
+            with open(gp, encoding="utf-8") as f:
+                for im in json.load(f).get("imoveis", []):
+                    ids_anteriores.add(im.get("id"))
+        except Exception:
+            pass
+
     ok = 0
-    todos_imoveis = []                                                  
+    novos_ids, removidos_ids = [], sorted(ids_anteriores)
+    todos_imoveis = []
     for uf in UFS:
         imoveis, chaves = processar_linhas(por_uf[uf], uf)
         if not imoveis:
@@ -299,17 +310,9 @@ def rodar_geral(status: dict):
             continue
         uf_dir = os.path.join(DATA_DIR, uf)
         os.makedirs(uf_dir, exist_ok=True)
-        try:
-            import geo
-            s = geo.enriquecer(imoveis)
-            if s["novas_osm"] or s["novas_google"]:
-                print(f"[GEO/{uf}] cache: {s['do_cache']} | OSM: {s['novas_osm']} "
-                      f"| Google: {s['novas_google']} | pendentes: {s['pendentes']}")
-        except Exception as e:
-            print(f"[GEO/{uf}] ⚠️ falha (dados saem sem geo): {e}")
         with open(os.path.join(uf_dir, "imoveis.csv"), "w",
                   encoding="cp1252", errors="replace") as f:
-            f.write(texto.split("\n")[1] + "\n")                       
+            f.write(texto.split("\n")[1] + "\n")
             f.write("\n".join(por_uf[uf]) + "\n")
         with open(os.path.join(uf_dir, "imoveis.json"), "w", encoding="utf-8") as f:
             json.dump({
@@ -328,7 +331,13 @@ def rodar_geral(status: dict):
         todos_imoveis.extend(imoveis)
         print(f"[{uf}] ✅ {len(imoveis)} imóveis")
         ok += 1
+
     if todos_imoveis:
+        ids_atuais = {im.get("id") for im in todos_imoveis if im.get("id")}
+        novos_ids = sorted(ids_atuais - ids_anteriores)
+        removidos_ids = sorted(ids_anteriores - ids_atuais)
+        print(f"[DIFF] novos: {len(novos_ids)} | removidos: {len(removidos_ids)}")
+
         os.makedirs(DATA_DIR, exist_ok=True)
         shutil.copyfile(tmp_csv, os.path.join(DATA_DIR, "imoveis.csv"))
         chaves_global = sorted({c for im in todos_imoveis for c in im})
@@ -349,6 +358,11 @@ def rodar_geral(status: dict):
         status["BR"] = {"ok": True, "total": len(todos_imoveis),
                         "gerado_em": data_geracao}
         print(f"[BR] ✅ global: {len(todos_imoveis)} imóveis em {ok} UFs")
+
+    status["_diff"] = {"novos": len(novos_ids),
+                      "removidos": len(removidos_ids),
+                      "novos_ids": novos_ids[:200],
+                      "removidos_ids": removidos_ids[:200]}
     shutil.rmtree(tmpdir, ignore_errors=True)
     print(f"[GERAL] {ok} UFs processadas de {CSV_GERAL}")
     return ok > 0
@@ -412,16 +426,17 @@ def main():
         os.makedirs(DATA_DIR, exist_ok=True)
         if ok == "sem_mudanca":
             print("=== Fim (modo geral): SEM MUDANÇA (CSV da Caixa é o mesmo) ===")
-            return                                      
+            return
         if ok:
             dg_pub = None
-            pb = os.path.join(DATA_DIR, "PB", "imoveis.json")
-            if os.path.exists(pb):
+            gp = os.path.join(DATA_DIR, "imoveis.json")
+            if os.path.exists(gp):
                 try:
-                    with open(pb, encoding="utf-8") as f:
+                    with open(gp, encoding="utf-8") as f:
                         dg_pub = json.load(f).get("data_geracao_caixa")
                 except Exception:
                     pass
+            diff = status.pop("_diff", {})
             with open(os.path.join(DATA_DIR, "_status.json"), "w", encoding="utf-8") as f:
                 json.dump({
                     "executado_em": agora_br(),
@@ -429,6 +444,7 @@ def main():
                     "data_geracao_caixa": dg_pub,
                     "ufs_ok": sum(1 for s in status.values() if s.get("ok")),
                     "ufs_falha": len(UFS) - sum(1 for s in status.values() if s.get("ok")),
+                    "diff": diff,
                     "status": {uf: status.get(uf, {"ok": False,
                              "erro": "não processada"}) for uf in UFS},
                 }, f, ensure_ascii=False, indent=1)
