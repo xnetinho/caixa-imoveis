@@ -437,13 +437,14 @@ def main():
                 except Exception:
                     pass
             diff = status.pop("_diff", {})
+            ufs_ok = sum(1 for uf in UFS if status.get(uf, {}).get("ok"))
             with open(os.path.join(DATA_DIR, "_status.json"), "w", encoding="utf-8") as f:
                 json.dump({
                     "executado_em": agora_br(),
                     "modo": "geral",
                     "data_geracao_caixa": dg_pub,
-                    "ufs_ok": sum(1 for s in status.values() if s.get("ok")),
-                    "ufs_falha": len(UFS) - sum(1 for s in status.values() if s.get("ok")),
+                    "ufs_ok": ufs_ok,
+                    "ufs_falha": len(UFS) - ufs_ok,
                     "diff": diff,
                     "status": {uf: status.get(uf, {"ok": False,
                              "erro": "não processada"}) for uf in UFS},
