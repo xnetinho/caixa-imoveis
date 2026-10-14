@@ -131,7 +131,7 @@ jobs:
           if [ -n "$(git status --porcelain data/ .github/state/)" ]; then
             git pull --rebase origin master || true
             git add -A data/ .github/state/
-            git commit -m "geo: enriquecimento $(date -u +%Y-%m-%d) — $(python3 -c "import json; s=json.load(open('.github/state/_geo_daily.json')); print(f\"{s.get('google_calls',0)} google hoje\")")"
+            git commit -m "geo: enriquecimento $(date -u +%Y-%m-%d)"
             git push
           else
             echo "geo: nada mudou — sem commit."
