@@ -384,8 +384,7 @@ async function loadData(uf){
     return;
   }
 
-  const imoveis = doc.imoveis || [];
-  const total = imoveis.length;
+  const imoveis = doc.imoveis || [];  const total = imoveis.length;
   allFeatures = [];
   for (const im of imoveis){
     const g = im.geo;
@@ -403,6 +402,37 @@ async function loadData(uf){
         fonte: g.fonte || null
       }
     });
+  }
+
+  // se não encontrou o imovel no dataset selecionado mas temos deepLink, tenta fallback global
+  if (deepLinkId && !allFeatures.some(f=>f.properties.id===deepLinkId)){
+    try {
+      const r = await fetch("data/imoveis.json", {cache:"no-store"});
+      if (r.ok){
+        const gdoc = await r.json();
+        for (const im of (gdoc.imoveis||[])){
+          if (im.id !== deepLinkId) continue;
+          const g = im.geo;
+          if (!g || g.lat==null || g.lng==null) continue;
+          const cat = categoriaTipo(im.tipo);
+          allFeatures.push({
+            type:"Feature",
+            geometry:{type:"Point", coordinates:[g.lng, g.lat]},
+            properties:{
+              id: im.id, uf: im.uf, cidade: im.cidade, bairro: im.bairro,
+              endereco: im.endereco, preco: im.preco, valor_avaliacao: im.valor_avaliacao,
+              desconto: im.desconto, modalidade: im.modalidade, descricao: im.descricao,
+              link: im.link, financiamento: im.financiamento, tipo: im.tipo,
+              tipo_cat: cat, tipo_icon: "tipo-"+cat, tipo_label: TIPO_LABEL[cat],
+              fonte: g.fonte || null
+            }
+          });
+          // sincroniza filtro de UF para mostrar o imóvel
+          uf = im.uf;
+          break;
+        }
+      }
+    } catch(e){ console.warn("fallback global", e); }
   }
 
   // filtro de UF = seletor de dados (lista estática de 27 UFs)
@@ -817,6 +847,7 @@ async function shareImovel(){
   const url = new URL(location.href);
   url.search = "";
   url.searchParams.set("imovel", selectedId);
+  if (f.properties.uf) url.searchParams.set("uf", f.properties.uf);
   const shareUrl = url.toString();
   const title = `Imóvel ${selectedId} — ${f.properties.cidade}/${f.properties.uf}`;
   const text = `${f.properties.cidade} — ${f.properties.bairro||""} · ${fmtBRL(f.properties.preco)}`;
@@ -829,7 +860,9 @@ async function shareImovel(){
 }
 
 /* ============ deep-link (?imovel=ID) ============ */
-const deepLinkId = new URLSearchParams(location.search).get("imovel");
+const params = new URLSearchParams(location.search);
+const deepLinkId = params.get("imovel");
+const deepLinkUf = (params.get("uf") || "").toUpperCase();
 function openImovel(id){
   const f = allFeatures.find(x=>x.properties.id===id);
   if (!f) return;
@@ -856,6 +889,7 @@ async function detectUfByIp(){
 async function boot(){
   let uf = "";
   try { uf = localStorage.getItem("caixa_uf") || ""; } catch(e){}
+  if (deepLinkUf && UFS.includes(deepLinkUf)) uf = deepLinkUf;
   if (!uf){
     $("subTitle").textContent = "Detectando seu estado…";
     uf = await detectUfByIp();
