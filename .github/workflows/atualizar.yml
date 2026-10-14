@@ -100,10 +100,11 @@ jobs:
           fi
 
   geocode:
-    # Roda apenas quando houve dados novos, respeitando a cota DIÁRIA
-    # (GEO_LIMITE_GOOGLE, default 800) persistida em .github/state/_geo_daily.json.
+    # Roda a cada ciclo para esvaziar a fila de pendentes. O freio é a cota
+    # DIÁRIA (GEO_LIMITE_GOOGLE, default 800) persistida em
+    # .github/state/_geo_daily.json — não o "por execução". Quando a cota do dia
+    # acaba, os ciclos seguintes viram no-op (sem chamar API).
     needs: consolidar
-    if: needs.consolidar.outputs.changed == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
