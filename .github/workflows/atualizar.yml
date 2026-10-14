@@ -97,7 +97,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
+      # ref: master garante o commit que o job `consolidar` acabou de pushar
+      # (o checkout padrão pegaria o SHA do início do run, sem os dados novos).
       - uses: actions/checkout@v4
+        with:
+          ref: master
 
       - uses: actions/setup-python@v5
         with:
