@@ -60,15 +60,14 @@ jobs:
 
       - name: Juntar dados por-UF e consolidar o dataset global
         run: |
-          for f in $(find artifacts -name imoveis.json); do
-            d=$(dirname "$f")
-            uf=$(basename "$d")
+          for d in artifacts/uf-*; do
+            uf=${d#artifacts/uf-}
             mkdir -p "data/$uf"
             cp "$d/imoveis.json" "data/$uf/imoveis.json"
             cp "$d/imoveis.csv"  "data/$uf/imoveis.csv"  2>/dev/null || true
             cp "$d/imoveis.toon" "data/$uf/imoveis.toon" 2>/dev/null || true
           done
-          FRESH_UFS=$(find artifacts -name imoveis.json -printf '%h\n' | xargs -n1 basename | sort -u | paste -sd, -)
+          FRESH_UFS=$(ls -d artifacts/uf-* | sed 's#artifacts/uf-##' | sort | paste -sd, -)
           echo "UFs frescas: $FRESH_UFS"
           FRESH_UFS="$FRESH_UFS" python3 scripts/consolidar.py
 
