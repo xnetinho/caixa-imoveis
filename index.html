@@ -140,9 +140,17 @@
     <select id="ufFilter"><option value="">Todos os estados</option></select>
     <div class="row">
       <select id="cidadeFilter"><option value="">Todas as cidades</option></select>
-      <select id="bairroFilter"><option value="">Todos os bairros</option></select>
+      <select id="bairroFilter" disabled><option value="">Todos os bairros</option></select>
     </div>
     <select id="modalidadeFilter"><option value="">Todas as modalidades</option></select>
+    <select id="tipoFilter">
+      <option value="">Todos os tipos</option>
+      <option value="apartamento">Apartamento</option>
+      <option value="casa">Casa</option>
+      <option value="terreno">Terreno</option>
+      <option value="comercial">Comercial</option>
+      <option value="outros">Outros</option>
+    </select>
     <select id="financiamentoFilter">
       <option value="">Financiamento: qualquer</option>
       <option value="sim">Aceita financiamento</option>
@@ -212,6 +220,10 @@ const TIPO_LABEL = {
   apartamento: "Apartamento", casa: "Casa", terreno: "Terreno",
   comercial: "Comercial", outros: "Outros",
 };
+const TIPO_EMOJI = {
+  apartamento: "🏢", casa: "🏠", terreno: "🌳",
+  comercial: "🏬", outros: "📍",
+};
 const categoriaTipo = t => TIPO_CAT[t] || "outros";
 
 const POI_ICONS = {
@@ -255,29 +267,24 @@ function toast(msg, ms=3000){
 }
 
 /* ícones de marcador desenhados em canvas (sem dependência externa) */
-function makeMarkerIcon(color, shape){
+function makeMarkerIcon(color, emoji){
+  const s = 24;
   const c = document.createElement("canvas");
-  c.width = 22; c.height = 22;
+  c.width = s; c.height = s;
   const ctx = c.getContext("2d");
-  if (shape === "square"){
-    ctx.beginPath(); ctx.rect(5,5,12,12);
-  } else {
-    ctx.beginPath(); ctx.arc(11,11,8,0,2*Math.PI);
-  }
+  ctx.beginPath(); ctx.arc(s/2, s/2, 9, 0, 2*Math.PI);
   ctx.fillStyle = color; ctx.fill();
   ctx.lineWidth = 2; ctx.strokeStyle = "#0f172a"; ctx.stroke();
-  if (shape === "square"){
-    ctx.fillStyle = "#0f172a"; ctx.fillRect(9,9,4,4);
-  } else {
-    ctx.beginPath(); ctx.arc(11,11,3,0,2*Math.PI);
-    ctx.fillStyle = "#ffffff"; ctx.fill();
-  }
+  ctx.font = "12px system-ui,'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif";
+  ctx.textAlign = "center"; ctx.textBaseline = "middle";
+  ctx.fillStyle = "#0f172a";
+  ctx.fillText(emoji, s/2, s/2 + 0.5);
   return c;
 }
 
 function buildLegend(){
   $("legendTipos").innerHTML = Object.entries(TIPO_COLORS).map(([cat,color])=>
-    `<div class="lg"><span class="dot" style="background:${color}"></span>${TIPO_LABEL[cat]}</div>`).join("");
+    `<div class="lg"><span class="dot" style="background:${color}"></span>${TIPO_EMOJI[cat]} ${TIPO_LABEL[cat]}</div>`).join("");
   const pois = ["school","hospital","pharmacy","restaurant","supermarket","fuel","bank"];
   $("legendPois").innerHTML = pois.map(k=>
     `<div class="lg"><span class="sq" style="background:${corPOI(k)}"></span>${k}</div>`).join("");
@@ -306,7 +313,7 @@ function initMap(){
     });
 
     for (const [cat,color] of Object.entries(TIPO_COLORS)){
-      if (!map.hasImage("tipo-"+cat)) map.addImage("tipo-"+cat, makeMarkerIcon(color));
+      if (!map.hasImage("tipo-"+cat)) map.addImage("tipo-"+cat, makeMarkerIcon(color, TIPO_EMOJI[cat]));
     }
 
     map.addLayer({
@@ -430,24 +437,8 @@ async function loadData(uf){
       modSel.appendChild(o);
     });
 
-  // popula filtros de cidade e bairro
-  const cidadeSel = $("cidadeFilter");
-  cidadeSel.innerHTML = '<option value="">Todas as cidades</option>';
-  [...new Set(allFeatures.map(f=>f.properties.cidade).filter(Boolean))].sort()
-    .forEach(c=>{
-      const o = document.createElement("option");
-      o.value = c; o.textContent = c;
-      cidadeSel.appendChild(o);
-    });
-
-  const bairroSel = $("bairroFilter");
-  bairroSel.innerHTML = '<option value="">Todos os bairros</option>';
-  [...new Set(allFeatures.map(f=>f.properties.bairro).filter(Boolean))].sort()
-    .forEach(b=>{
-      const o = document.createElement("option");
-      o.value = b; o.textContent = b;
-      bairroSel.appendChild(o);
-    });
+  populateCidades("");
+  populateBairros("");
 
   const dataTxt = doc.atualizado_em || doc.data_geracao_caixa || "";
   $("subTitle").textContent =
@@ -466,6 +457,34 @@ async function loadData(uf){
   applyFilters();
   fitAll();
   if (deepLinkId) openImovel(deepLinkId);
+}
+
+function populateCidades(modalidade){
+  const sel = $("cidadeFilter");
+  sel.innerHTML = '<option value="">Todas as cidades</option>';
+  const feats = modalidade ? allFeatures.filter(f=>f.properties.modalidade===modalidade) : allFeatures;
+  [...new Set(feats.map(f=>f.properties.cidade).filter(Boolean))].sort()
+    .forEach(c=>{
+      const o = document.createElement("option");
+      o.value = c; o.textContent = c;
+      sel.appendChild(o);
+    });
+}
+
+function populateBairros(cidade){
+  const sel = $("bairroFilter");
+  sel.innerHTML = '<option value="">Todos os bairros</option>';
+  if (!cidade){ sel.disabled = true; return; }
+  sel.disabled = false;
+  const mod = $("modalidadeFilter").value;
+  let feats = allFeatures.filter(f=>f.properties.cidade===cidade);
+  if (mod) feats = feats.filter(f=>f.properties.modalidade===mod);
+  [...new Set(feats.map(f=>f.properties.bairro).filter(Boolean))].sort()
+    .forEach(b=>{
+      const o = document.createElement("option");
+      o.value = b; o.textContent = b;
+      sel.appendChild(o);
+    });
 }
 
 function fitAll(){
@@ -495,6 +514,7 @@ function applyFilters(){
   const cidade = $("cidadeFilter").value;
   const bairro = $("bairroFilter").value;
   const modalidade = $("modalidadeFilter").value;
+  const tipo = $("tipoFilter").value;
   const fin = $("financiamentoFilter").value;
   const ordem = $("ordenarFilter").value;
 
@@ -503,6 +523,7 @@ function applyFilters(){
     if (cidade && p.cidade !== cidade) return false;
     if (bairro && p.bairro !== bairro) return false;
     if (modalidade && p.modalidade !== modalidade) return false;
+    if (tipo && p.tipo_cat !== tipo) return false;
     if (fin){
       const fv = (p.financiamento||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
       if (fin === "sim" && fv !== "sim") return false;
@@ -524,9 +545,15 @@ function applyFilters(){
 }
 
 $("ufFilter").addEventListener("change", e => setUf(e.target.value));
-$("cidadeFilter").addEventListener("change", applyFilters);
+$("cidadeFilter").addEventListener("change", e => { populateBairros(e.target.value); applyFilters(); });
 $("bairroFilter").addEventListener("change", applyFilters);
-$("modalidadeFilter").addEventListener("change", applyFilters);
+$("modalidadeFilter").addEventListener("change", e => { 
+  const m = e.target.value;
+  populateCidades(m);
+  populateBairros("");
+  applyFilters();
+});
+$("tipoFilter").addEventListener("change", applyFilters);
 $("financiamentoFilter").addEventListener("change", applyFilters);
 $("ordenarFilter").addEventListener("change", applyFilters);
 
