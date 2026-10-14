@@ -150,10 +150,9 @@ def main():
         log("[BR] data/imoveis.json não existe — pulando")
     log(f"[FASE 5/5] fim: {time.time()-t0:.1f}s")
 
-    with open(os.path.join(DATA_DIR, "_geo_status.json"), "w",
-              encoding="utf-8") as f:
-        json.dump(stats_total, f, ensure_ascii=False, indent=1)
-    log(f"[GEO] TUDO CONCLUÍDO: {stats_total} | tempo total: {time.time()-t_total:.1f}s")
+    log(f"[GEO] TUDO CONCLUÍDO: {stats_total} | cota Google restante hoje: "
+        f"{geo.cota_restante_google()}/{geo.GEO_LIMITE_GOOGLE} | "
+        f"tempo total: {time.time()-t_total:.1f}s")
 
 
 if __name__ == "__main__":

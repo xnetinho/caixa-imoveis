@@ -15,12 +15,13 @@ concurrency:
 jobs:
   baixar:
     # Um worker por UF: cada runner faz 1 download (curl puro), espalhando as
-    # requisições por IPs distintos — evita o bloqueio Radware de requisições
-    # sequenciais de um mesmo IP que motivou a migração para o CSV "geral".
+    # requisições por IPs distintos. max-parallel: 6 limita o burst para o
+    # Radware não marcar o tráfego vindo do ASN do GitHub.
     runs-on: ubuntu-latest
     timeout-minutes: 10
     strategy:
       fail-fast: false
+      max-parallel: 6
       matrix:
         uf: [AC, AL, AP, AM, BA, CE, DF, ES, GO, MA, MT, MS, MG, PA, PB, PR,
              PE, PI, RJ, RN, RS, RO, RR, SC, SP, SE, TO]
@@ -59,7 +60,7 @@ jobs:
 
       - name: Juntar dados por-UF e consolidar o dataset global
         run: |
-          find artifacts -name imoveis.json | while read -r f; do
+          for f in $(find artifacts -name imoveis.json); do
             d=$(dirname "$f")
             uf=$(basename "$d")
             mkdir -p "data/$uf"
@@ -67,16 +68,18 @@ jobs:
             cp "$d/imoveis.csv"  "data/$uf/imoveis.csv"  2>/dev/null || true
             cp "$d/imoveis.toon" "data/$uf/imoveis.toon" 2>/dev/null || true
           done
-          python3 scripts/consolidar.py
+          FRESH_UFS=$(find artifacts -name imoveis.json -printf '%h\n' | xargs -n1 basename | sort -u | paste -sd, -)
+          echo "UFs frescas: $FRESH_UFS"
+          FRESH_UFS="$FRESH_UFS" python3 scripts/consolidar.py
 
       - name: Commit dos dados
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain data/)" ]; then
+          if [ -n "$(git status --porcelain data/ .github/state/)" ]; then
             git pull --rebase origin master || true
-            git add -A data/
-            git commit -m "data: atualização $(date -u +%Y-%m-%d) [ufs] — $(python3 -c "import json; s=json.load(open('data/_status.json')); print(f\"{s['ufs_ok']} UFs, {s.get('data_geracao_caixa')}\")")"
+            git add -A data/ .github/state/
+            git commit -m "data: atualização $(date -u +%Y-%m-%d) [ufs] — $(python3 -c "import json; s=json.load(open('.github/state/_status.json')); print(f\"{s['ufs_ok']} UFs\")")"
             git push
           else
             echo "Nenhuma mudança de conteúdo — sem commit."

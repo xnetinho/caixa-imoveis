@@ -1,10 +1,11 @@
-name: Enriquecer geodata (manual)
+name: Enriquecer geodata
 
-# Workflow MANUAL dedicado ao enriquecimento de coordenadas.
-# Operação potencialmente longa (OSM a 1 req/s): primeira carga de ~21k
-# endereços pode levar horas. O workflow de automação (atualizar.yml) também
-# enriquece incrementalmente os imóveis NOVOS de cada varredura; este aqui
-# serve para cargas completas ou retomadas manuais.
+# Geocodifica os endereços ainda sem coordenadas, respeitando a cota DIÁRIA
+# (GEO_LIMITE_GOOGLE, default 800) — o contador diário fica em
+# .github/state/_geo_daily.json e zera ao virar o dia.
+#
+# Disparo: automaticamente após cada atualização de dados (workflow_run),
+# e manualmente (workflow_dispatch) para cargas completas/retomadas.
 
 on:
   workflow_dispatch:
@@ -15,7 +16,7 @@ on:
         default: ''
         type: string
       limite_osm:
-        description: 'Teto de consultas OSM nesta execução (evita estourar o job)'
+        description: 'Teto de consultas OSM nesta execução'
         required: false
         default: '20000'
         type: string
@@ -24,21 +25,22 @@ on:
         required: false
         default: '800'
         type: string
-  schedule:
-    # 1x/dia, 09:30 BRT — depois da varredura do CSV (a cada 2h), até a cota.
-    - cron: '30 12 * * *'
+  workflow_run:
+    workflows: ["Atualizar dados Caixa (CSV -> JSON + TOON)"]
+    types: [completed]
 
 permissions:
   contents: write
 
 concurrency:
-  group: atualizar-dados
+  group: enriquecer-geo
   cancel-in-progress: false
 
 jobs:
   enriquecer:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
@@ -49,8 +51,8 @@ jobs:
       - name: Enriquecer coordenadas
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
-          GEO_LIMITE_GOOGLE: ${{ github.event.inputs.limite_google || '800' }}
-          GEO_LIMITE_OSM: ${{ github.event.inputs.limite_osm || '20000' }}
+          GEO_LIMITE_GOOGLE: ${{ vars.GEO_LIMITE_GOOGLE || github.event.inputs.limite_google || '800' }}
+          GEO_LIMITE_OSM: ${{ vars.GEO_LIMITE_OSM || github.event.inputs.limite_osm || '20000' }}
           GEO_FILTRO_UF: ${{ github.event.inputs.uf }}
         run: python3 scripts/geo_enriquecer.py
 
@@ -58,10 +60,11 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain data/)" ]; then
-            git add -A data/
-            git commit -m "geo: enriquecimento $(date -u +%Y-%m-%d) — $(python3 -c "import json; s=json.load(open('data/_geo_status.json')); print(f\"{s['do_cache']} cache, {s['novas_osm']} OSM, {s['novas_google']} Google, {s['pendentes']} pendentes\")")"
+          if [ -n "$(git status --porcelain data/ .github/state/)" ]; then
+            git pull --rebase origin master || true
+            git add -A data/ .github/state/
+            git commit -m "geo: enriquecimento $(date -u +%Y-%m-%d) — $(python3 -c "import json; s=json.load(open('.github/state/_geo_daily.json')); print(f\"{s.get('google_calls',0)} google hoje\")")"
             git push
           else
-            echo "Nenhuma mudança — sem commit."
+            echo "geo: nada mudou — sem commit."
           fi

@@ -113,6 +113,14 @@
     background:var(--panel);border:1px solid var(--line);color:var(--txt);
     padding:10px 16px;border-radius:10px;font-size:13px;display:none;box-shadow:0 4px 16px rgba(0,0,0,.4)
   }
+  #legend{
+    position:absolute;left:10px;bottom:24px;z-index:9;background:var(--panel);
+    border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:11px;
+    max-width:200px;box-shadow:0 4px 12px rgba(0,0,0,.4)
+  }
+  #legend .lg{display:flex;align-items:center;gap:6px;margin:3px 0;color:var(--muted)}
+  #legend .dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;border:1px solid var(--line)}
+  #legend .sq{width:9px;height:9px;border-radius:2px;flex-shrink:0;border:1px solid var(--line)}
 
   @media(max-width:640px){
     #panel,#detail{width:calc(100vw - 20px)}
@@ -167,19 +175,44 @@
 
 <div class="toast" id="toast"></div>
 
+<div id="legend">
+  <div class="section-title">Tipos de imóvel</div>
+  <div id="legendTipos"></div>
+  <div class="section-title" style="margin-top:8px">POIs</div>
+  <div id="legendPois"></div>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script>
 "use strict";
 
 /* ============ configuração ============ */
-const DATA_URLS = [
-  "data/imoveis.json",
-  "https://cdn.jsdelivr.net/gh/xnetinho/caixa-imoveis@master/data/imoveis.json",
-];
+const RAW_BASE = "https://raw.githubusercontent.com/xnetinho/caixa-imoveis/master";
 const STYLE_URL = "https://tiles.openfreemap.org/styles/liberty";
 const OSRM_URL = "https://router.project-osrm.org/route/v1/driving/";
 const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
 const OVERPASS_MIRROR = "https://overpass.kumi.systems/api/interpreter";
+
+const UFS = ["AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG",
+             "PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO"];
+
+// tipificação dos imóveis (derivada do campo `tipo` no JSON)
+const TIPO_CAT = {
+  apartamento: "apartamento", casa: "casa", terreno: "terreno",
+  predio: "comercial", loja: "comercial", sala: "comercial",
+  comercial: "comercial", galpao: "comercial",
+  gleba: "outros", "gleba urbana": "outros", "imovel rural": "outros",
+  sobrado: "outros",
+};
+const TIPO_COLORS = {
+  apartamento: "#8b5cf6", casa: "#22c55e", terreno: "#f59e0b",
+  comercial: "#38bdf8", outros: "#94a3b8",
+};
+const TIPO_LABEL = {
+  apartamento: "Apartamento", casa: "Casa", terreno: "Terreno",
+  comercial: "Comercial", outros: "Outros",
+};
+const categoriaTipo = t => TIPO_CAT[t] || "outros";
 
 const POI_ICONS = {
   school:"🎓", hospital:"🏥", clinic:"⚕️", pharmacy:"💊", doctors:"🩺",
@@ -189,12 +222,22 @@ const POI_ICONS = {
   place_of_worship:"⛪", kindergarten:"🧸", university:"🏛️", parking:"🅿️",
   marketplace:"🧺", dentist:"🦷", veterinary:"🐾"
 };
+const POI_COLORS = {
+  school:"#8b5cf6", university:"#8b5cf6", kindergarten:"#8b5cf6",
+  hospital:"#ef4444", clinic:"#ef4444", doctors:"#ef4444", dentist:"#ef4444",
+  pharmacy:"#f472b6", veterinary:"#f472b6",
+  restaurant:"#f97316", cafe:"#f97316", fast_food:"#f97316", bar:"#f97316",
+  supermarket:"#22c55e", convenience:"#22c55e", marketplace:"#22c55e",
+  fuel:"#eab308", bank:"#38bdf8", atm:"#38bdf8",
+  police:"#64748b", fire_station:"#ef4444", post_office:"#64748b",
+  bus_station:"#64748b", place_of_worship:"#a3e635", parking:"#64748b",
+};
+const corPOI = kind => POI_COLORS[kind] || "#f59e0b";
 
 /* ============ estado global ============ */
 let map;
 let allFeatures = [];      // imóveis com geo (Feature[])
 let filtered = [];         // após filtros
-let imoveisByUf = {};
 let selectedId = null;
 let poiSourceAdded = false;
 let routeSourceAdded = false;
@@ -209,6 +252,35 @@ const fmtPct = v => v == null ? "—" : (typeof v === "number" ? v.toLocaleStrin
 function toast(msg, ms=3000){
   const t = $("toast"); t.textContent = msg; t.style.display = "block";
   clearTimeout(t._h); t._h = setTimeout(()=>t.style.display="none", ms);
+}
+
+/* ícones de marcador desenhados em canvas (sem dependência externa) */
+function makeMarkerIcon(color, shape){
+  const c = document.createElement("canvas");
+  c.width = 22; c.height = 22;
+  const ctx = c.getContext("2d");
+  if (shape === "square"){
+    ctx.beginPath(); ctx.rect(5,5,12,12);
+  } else {
+    ctx.beginPath(); ctx.arc(11,11,8,0,2*Math.PI);
+  }
+  ctx.fillStyle = color; ctx.fill();
+  ctx.lineWidth = 2; ctx.strokeStyle = "#0f172a"; ctx.stroke();
+  if (shape === "square"){
+    ctx.fillStyle = "#0f172a"; ctx.fillRect(9,9,4,4);
+  } else {
+    ctx.beginPath(); ctx.arc(11,11,3,0,2*Math.PI);
+    ctx.fillStyle = "#ffffff"; ctx.fill();
+  }
+  return c;
+}
+
+function buildLegend(){
+  $("legendTipos").innerHTML = Object.entries(TIPO_COLORS).map(([cat,color])=>
+    `<div class="lg"><span class="dot" style="background:${color}"></span>${TIPO_LABEL[cat]}</div>`).join("");
+  const pois = ["school","hospital","pharmacy","restaurant","supermarket","fuel","bank"];
+  $("legendPois").innerHTML = pois.map(k=>
+    `<div class="lg"><span class="sq" style="background:${corPOI(k)}"></span>${k}</div>`).join("");
 }
 
 /* ============ mapa ============ */
@@ -233,6 +305,10 @@ function initMap(){
       clusterRadius:55
     });
 
+    for (const [cat,color] of Object.entries(TIPO_COLORS)){
+      if (!map.hasImage("tipo-"+cat)) map.addImage("tipo-"+cat, makeMarkerIcon(color));
+    }
+
     map.addLayer({
       id:"clusters", type:"circle", source:"imoveis", filter:["has","point_count"],
       paint:{
@@ -251,15 +327,12 @@ function initMap(){
       paint:{"text-color":"#ffffff"}
     });
     map.addLayer({
-      id:"imovel-points", type:"circle", source:"imoveis", filter:["!",["has","point_count"]],
-      paint:{
-        "circle-color":"#22c55e","circle-radius":6,
-        "circle-stroke-width":1.5,"circle-stroke-color":"#0f172a"
+      id:"imovel-points", type:"symbol", source:"imoveis", filter:["!",["has","point_count"]],
+      layout:{
+        "icon-image":["get","tipo_icon"],
+        "icon-size":0.9,
+        "icon-allow-overlap":true,
       }
-    });
-    map.addLayer({
-      id:"imovel-hover", type:"circle", source:"imoveis", filter:["!",["has","point_count"]],
-      paint:{"circle-color":"#ffffff","circle-radius":9,"circle-opacity":0.4}
     });
 
     map.on("click","clusters", e => {
@@ -292,11 +365,16 @@ function initMap(){
 }
 
 /* ============ carregamento dos dados ============ */
-async function loadData(){
+function dataUrls(uf){
+  const rel = uf ? `data/${uf}/imoveis.json` : "data/imoveis.json";
+  return [rel, `${RAW_BASE}/${rel}`];
+}
+
+async function loadData(uf){
   let doc = null;
-  for (const url of DATA_URLS){
+  for (const url of dataUrls(uf)){
     try {
-      const r = await fetch(url, {cache:"force-cache"});
+      const r = await fetch(url, {cache:"no-store"});
       if (!r.ok) throw new Error("HTTP "+r.status);
       doc = await r.json();
       break;
@@ -305,18 +383,18 @@ async function loadData(){
     }
   }
   if (!doc) {
-    $("subTitle").textContent = "Erro: não foi possível carregar data/imoveis.json";
-    $("stats").textContent = "Falha ao carregar os dados.";
+    $("subTitle").textContent = "Erro: não foi possível carregar os dados.";
+    $("stats").textContent = "Falha ao carregar.";
     return;
   }
 
   const imoveis = doc.imoveis || [];
   const total = imoveis.length;
   allFeatures = [];
-  imoveisByUf = {};
   for (const im of imoveis){
     const g = im.geo;
     if (!g || g.lat == null || g.lng == null) continue;
+    const cat = categoriaTipo(im.tipo);
     allFeatures.push({
       type:"Feature",
       geometry:{type:"Point", coordinates:[g.lng, g.lat]},
@@ -324,32 +402,37 @@ async function loadData(){
         id: im.id, uf: im.uf, cidade: im.cidade, bairro: im.bairro,
         endereco: im.endereco, preco: im.preco, valor_avaliacao: im.valor_avaliacao,
         desconto: im.desconto, modalidade: im.modalidade, descricao: im.descricao,
-        link: im.link, financiamento: im.financiamento,
+        link: im.link, financiamento: im.financiamento, tipo: im.tipo,
+        tipo_cat: cat, tipo_icon: "tipo-"+cat, tipo_label: TIPO_LABEL[cat],
         fonte: g.fonte || null
       }
     });
-    imoveisByUf[im.uf] = (imoveisByUf[im.uf]||0)+1;
   }
 
-  // popula filtro de UF
+  // filtro de UF = seletor de dados (lista estática de 27 UFs)
   const ufSel = $("ufFilter");
-  Object.keys(imoveisByUf).sort().forEach(uf=>{
-    const o = document.createElement("option");
-    o.value = uf; o.textContent = `${uf} (${imoveisByUf[uf]})`;
-    ufSel.appendChild(o);
-  });
+  if (ufSel.options.length <= 1){
+    UFS.forEach(u=>{
+      const o = document.createElement("option");
+      o.value = u; o.textContent = u;
+      ufSel.appendChild(o);
+    });
+  }
+  ufSel.value = uf || "";
 
   // popula filtro de modalidade
   const modSel = $("modalidadeFilter");
-  const mods = [...new Set(allFeatures.map(f=>f.properties.modalidade).filter(Boolean))].sort();
-  mods.forEach(m=>{
-    const o = document.createElement("option");
-    o.value = m; o.textContent = m;
-    modSel.appendChild(o);
-  });
+  modSel.innerHTML = '<option value="">Todas as modalidades</option>';
+  [...new Set(allFeatures.map(f=>f.properties.modalidade).filter(Boolean))].sort()
+    .forEach(m=>{
+      const o = document.createElement("option");
+      o.value = m; o.textContent = m;
+      modSel.appendChild(o);
+    });
 
   // popula filtros de cidade e bairro
   const cidadeSel = $("cidadeFilter");
+  cidadeSel.innerHTML = '<option value="">Todas as cidades</option>';
   [...new Set(allFeatures.map(f=>f.properties.cidade).filter(Boolean))].sort()
     .forEach(c=>{
       const o = document.createElement("option");
@@ -358,6 +441,7 @@ async function loadData(){
     });
 
   const bairroSel = $("bairroFilter");
+  bairroSel.innerHTML = '<option value="">Todos os bairros</option>';
   [...new Set(allFeatures.map(f=>f.properties.bairro).filter(Boolean))].sort()
     .forEach(b=>{
       const o = document.createElement("option");
@@ -365,9 +449,19 @@ async function loadData(){
       bairroSel.appendChild(o);
     });
 
+  const dataTxt = doc.atualizado_em || doc.data_geracao_caixa || "";
   $("subTitle").textContent =
     `${allFeatures.length.toLocaleString("pt-BR")} imóveis com localização · ` +
-    `${total.toLocaleString("pt-BR")} no dataset · ${doc.data_geracao_caixa||""}`;
+    `${total.toLocaleString("pt-BR")} no dataset · ${dataTxt}`;
+
+  if (!allFeatures.length){
+    $("stats").textContent = total > 0
+      ? `Esta seleção tem ${total.toLocaleString("pt-BR")} imóveis, mas nenhum ainda geolocalizado.`
+      : "Nenhum imóvel encontrado.";
+    $("results").innerHTML = '<div class="empty">Nenhum imóvel com localização nesta seleção. Troque o estado ou escolha "Todos os estados".</div>';
+    if (map && map.getSource("imoveis")) map.getSource("imoveis").setData({type:"FeatureCollection", features:[]});
+    return;
+  }
 
   applyFilters();
   fitAll();
@@ -398,7 +492,6 @@ const SORT_FNS = {
 };
 
 function applyFilters(){
-  const uf = $("ufFilter").value;
   const cidade = $("cidadeFilter").value;
   const bairro = $("bairroFilter").value;
   const modalidade = $("modalidadeFilter").value;
@@ -407,7 +500,6 @@ function applyFilters(){
 
   filtered = allFeatures.filter(f=>{
     const p = f.properties;
-    if (uf && p.uf !== uf) return false;
     if (cidade && p.cidade !== cidade) return false;
     if (bairro && p.bairro !== bairro) return false;
     if (modalidade && p.modalidade !== modalidade) return false;
@@ -431,7 +523,7 @@ function applyFilters(){
   renderResults();
 }
 
-$("ufFilter").addEventListener("change", applyFilters);
+$("ufFilter").addEventListener("change", e => setUf(e.target.value));
 $("cidadeFilter").addEventListener("change", applyFilters);
 $("bairroFilter").addEventListener("change", applyFilters);
 $("modalidadeFilter").addEventListener("change", applyFilters);
@@ -551,7 +643,7 @@ function ensureLayers(){
   if (!poiSourceAdded){
     map.addSource("pois", {type:"geojson", data:{type:"FeatureCollection", features:[]}});
     map.addLayer({id:"poi-layer", type:"circle", source:"pois",
-      paint:{"circle-radius":5,"circle-color":"#f59e0b","circle-stroke-width":1,"circle-stroke-color":"#0f172a"}});
+      paint:{"circle-radius":5,"circle-color":["get","color"],"circle-stroke-width":1,"circle-stroke-color":"#0f172a"}});
     poiSourceAdded = true;
   }
   if (!routeSourceAdded){
@@ -586,7 +678,7 @@ async function poiFromOverpass(lat, lng){
         const t = e.tags||{};
         const kind = t.amenity || t.shop || "outro";
         return { type:"Feature", geometry:{type:"Point", coordinates:[e.lon, e.lat]},
-          properties:{ name: t.name||t.brand||kind, kind } };
+          properties:{ name: t.name||t.brand||kind, kind, color: corPOI(kind) } };
       });
     } catch(e){ console.warn("overpass", base, e); }
   }
@@ -609,7 +701,7 @@ async function poiFromPhoton(lat, lng){
       const kind = p.osm_value || p.type || p.osm_key || "outro";
       const [lon2, lat2] = x.geometry?.coordinates || [lng, lat];
       return { type:"Feature", geometry:{type:"Point", coordinates:[lon2, lat2]},
-        properties:{ name: p.name||kind, kind } };
+        properties:{ name: p.name||kind, kind, color: corPOI(kind) } };
     });
   } catch(e){ console.warn("photon", e); }
   return null;
@@ -734,9 +826,37 @@ function openImovel(id){
   flyTo(id);
 }
 
+/* ============ seletor de UF / geo-IP / boot ============ */
+function setUf(uf){
+  try { localStorage.setItem("caixa_uf", uf); } catch(e){}
+  loadData(uf);
+}
+
+async function detectUfByIp(){
+  try {
+    const d = await fetchJSON("https://ipwho.is/");
+    if (d.country_code !== "BR") return "";
+    const rc = (d.region_code || "").toUpperCase();
+    return UFS.includes(rc) ? rc : "";
+  } catch(e){ console.warn("geo-ip", e); }
+  return "";
+}
+
+async function boot(){
+  let uf = "";
+  try { uf = localStorage.getItem("caixa_uf") || ""; } catch(e){}
+  if (!uf){
+    $("subTitle").textContent = "Detectando seu estado…";
+    uf = await detectUfByIp();
+    if (uf){ try { localStorage.setItem("caixa_uf", uf); } catch(e){} }
+  }
+  loadData(uf);
+}
+
 /* ============ boot ============ */
 initMap();
-loadData();
+buildLegend();
+boot();
 </script>
 </body>
 </html>

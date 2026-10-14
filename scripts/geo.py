@@ -8,14 +8,18 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from datetime import datetime, timedelta, timezone
 
 DATA_DIR = "data"
-CACHE_PATH = os.path.join(DATA_DIR, "_geocache.json")
+STATE_DIR = ".github/state"
+CACHE_PATH = os.path.join(STATE_DIR, "_geocache.json")
+DAILY_PATH = os.path.join(STATE_DIR, "_geo_daily.json")
 GOOGLE_URL = "https://maps.googleapis.com/maps/api/geocode/json"
 OSM_URL = "https://nominatim.openstreetmap.org/search"
 OSM_DELAY_S = 1.1
-GEO_LIMITE_GOOGLE = int(os.environ.get("GEO_LIMITE_GOOGLE", "1500"))
-GEO_LIMITE_OSM = int(os.environ.get("GEO_LIMITE_OSM", "2000"))
+BR_TZ = timezone(timedelta(hours=-3))
+GEO_LIMITE_GOOGLE = int(os.environ.get("GEO_LIMITE_GOOGLE", "800"))
+GEO_LIMITE_OSM = int(os.environ.get("GEO_LIMITE_OSM", "20000"))
 GOOGLE_KEY = os.environ.get("GOOGLE_MAPS_API_KEY", "")
 LOG_CADA_N = int(os.environ.get("GEO_LOG_CADA_N", "50"))
 
@@ -45,6 +49,7 @@ UF_NOME = {
 _cache = None
 _google_hoje = 0
 _osm_hoje = 0
+_dia_atual = None
 _ultima_osm = 0.0
 _google_status_contagem = {}
 _google_tempo_total = 0.0
@@ -83,6 +88,21 @@ def _limpar_endereco(s):
     return s
 
 
+def reaplicar_geo(imoveis, cache=None):
+    """Reaplica o geo do cache a uma lista de imóveis (sem chamadas de API).
+    Retorna o número de imóveis cujo geo foi efetivamente (re)atribuído."""
+    if cache is None:
+        cache = carregar_cache()
+    n = 0
+    for im in imoveis:
+        g = cache.get(chave_geo(im))
+        if g and im.get("geo") != g:
+            im["geo"] = g
+            im["geo_pendente"] = False
+            n += 1
+    return n
+
+
 def carregar_cache():
     global _cache
     if _cache is not None:
@@ -100,9 +120,43 @@ def carregar_cache():
 
 
 def salvar_cache():
-    os.makedirs(DATA_DIR, exist_ok=True)
+    os.makedirs(STATE_DIR, exist_ok=True)
     with open(CACHE_PATH, "w", encoding="utf-8") as f:
         json.dump(_cache, f, ensure_ascii=False, indent=0, sort_keys=True)
+
+
+def _data_hoje():
+    return datetime.now(BR_TZ).strftime("%Y-%m-%d")
+
+
+def carregar_diario():
+    """Carrega o contador diário de chamadas. Se o dia virou, zera.
+    O limite NÃO fica aqui: vem da env var a cada execução."""
+    global _google_hoje, _osm_hoje, _dia_atual
+    _dia_atual = _data_hoje()
+    if os.path.exists(DAILY_PATH):
+        try:
+            with open(DAILY_PATH, encoding="utf-8") as f:
+                d = json.load(f)
+            if d.get("date") == _dia_atual:
+                _google_hoje = int(d.get("google_calls") or 0)
+                _osm_hoje = int(d.get("osm_calls") or 0)
+                return
+        except Exception:
+            pass
+    _google_hoje = 0
+    _osm_hoje = 0
+
+
+def salvar_diario():
+    os.makedirs(STATE_DIR, exist_ok=True)
+    with open(DAILY_PATH, "w", encoding="utf-8") as f:
+        json.dump({"date": _dia_atual, "google_calls": _google_hoje,
+                   "osm_calls": _osm_hoje}, f, ensure_ascii=False, indent=1)
+
+
+def cota_restante_google():
+    return max(0, GEO_LIMITE_GOOGLE - _google_hoje)
 
 
 def geocode_google(im):
@@ -166,6 +220,7 @@ def geocode_osm(im):
 
 def enriquecer(imoveis, rotulo=""):
     global _google_hoje, _osm_hoje, _ultima_osm, _osm_tempo_total
+    carregar_diario()
     cache = carregar_cache()
     stats = {"novas_google": 0, "novas_osm": 0, "do_cache": 0,
              "pendentes": 0, "sem_endereco": 0}
@@ -249,9 +304,10 @@ def enriquecer(imoveis, rotulo=""):
                 f"pend={stats['pendentes']} | {time.time()-t_inicio:.0f}s")
 
     salvar_cache()
+    salvar_diario()
     dur = time.time() - t_inicio
     log(f"{prefixo} fim: {stats} | {dur:.0f}s total "
-        f"(google: {_google_tempo_total:.1f}s em {_google_hoje} chamadas, "
-        f"osm: {_osm_tempo_total:.1f}s em {_osm_hoje} chamadas) "
+        f"(google: {_google_tempo_total:.1f}s em {_google_hoje}/{GEO_LIMITE_GOOGLE} chamadas, "
+        f"osm: {_osm_tempo_total:.1f}s em {_osm_hoje}/{GEO_LIMITE_OSM}) "
         f"| status Google observados: {_google_status_contagem}")
     return stats

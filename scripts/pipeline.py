@@ -21,6 +21,7 @@ Saída por UF (sempre a versão mais recente, nomes fixos):
 """
 import json
 import os
+import random
 import re
 import shutil
 import subprocess
@@ -31,8 +32,8 @@ import unicodedata
 from datetime import datetime, timedelta, timezone
 BR_TZ = timezone(timedelta(hours=-3))
 BASE = "https://venda-imoveis.caixa.gov.br/listaweb"
-CSV_GERAL = f"{BASE}/Lista_imoveis_geral.csv"                                
 DATA_DIR = "data"
+STATE_DIR = ".github/state"
 DELAY_S = 3                                           
 TIMEOUT_S = 120
 RETRY_MAX = 4                                                                 
@@ -131,6 +132,11 @@ def extrair_id(link: str, fallback: str):
         return m.group(1)
     t = (fallback or "").strip()
     return t if t.isdigit() else None
+def extrair_tipo(descricao: str):
+    """'Casa, 65.47 de área...' -> 'casa' (primeiro token antes da vírgula,
+    normalizado). Retorna None se vazio."""
+    t = (descricao or "").split(",", 1)[0].strip()
+    return norm(t) if t else None
 def processar_linhas(linhas, uf):
     """Parse de linhas de CSV (com header na posição 0 da lista).
     Retorna (imoveis, chaves). Levanta ValueError se layout desconhecido."""
@@ -153,6 +159,7 @@ def processar_linhas(linhas, uf):
             else:
                 obj[chave] = v if v else None
         obj["id"] = extrair_id(obj.get("link") or "", str(obj.get("id") or ""))
+        obj["tipo"] = extrair_tipo(obj.get("descricao"))
         if obj.get("desconto") is None and obj.get("preco")                and obj.get("valor_avaliacao") and obj["valor_avaliacao"] > obj["preco"]:
             obj["desconto"] = round(
                 (1 - obj["preco"] / obj["valor_avaliacao"]) * 100, 2)
@@ -207,165 +214,6 @@ def gerar_toon(uf, imoveis, chaves, data_geracao, fonte):
     for im in imoveis:
         linhas.append("  " + ",".join(toon_cell(im.get(c)) for c in campos))
     return "\n".join(linhas) + "\n"
-def rodar_geral(status: dict):
-    """Baixa o CSV único do Brasil inteiro e divide por UF.
-    1 chamada ao servidor da Caixa em vez de 27 — reduz drasticamente o
-    risco de bloqueio Radware. UF sem imóveis no arquivo é simplesmente
-    pulada (não sobrescreve nada)."""
-    tmpdir = tempfile.mkdtemp(prefix="caixa_geral_")
-    tmp_csv = os.path.join(tmpdir, "geral.csv")
-    last_err = None
-    for tentativa in range(1, RETRY_MAX + 1):
-        r = subprocess.run(
-            ["curl", "-sS", "--max-time", str(TIMEOUT_S),
-             "-o", tmp_csv, "-w", "%{http_code}", CSV_GERAL],
-            capture_output=True, text=True)
-        code = r.stdout.strip()
-        try:
-            if r.returncode != 0:
-                raise ValueError(f"curl falhou: {r.stderr.strip()[:120]}")
-            if code != "200":
-                raise ValueError(f"HTTP {code}")
-            with open(tmp_csv, "rb") as f:
-                raw = f.read()
-            if CSV_SIGNATURE not in raw or len(raw) < 500:
-                raise ValueError("assinatura ausente (CAPTCHA/bloqueio?)")
-            m = DATA_GERACAO_RE.search(raw)
-            if not m:
-                raise ValueError("data de geração da Caixa ausente (layout?)")
-            data_geracao = m.group(1).decode("ascii")
-        except ValueError as e:
-            last_err = str(e)
-            if tentativa < RETRY_MAX:
-                wait = RETRY_BACKOFF_S * tentativa
-                print(f"[GERAL] tentativa {tentativa}/{RETRY_MAX} falhou "
-                      f"({last_err}) — aguardando {wait}s")
-                time.sleep(wait)
-                continue
-            print(f"[GERAL] ❌ {last_err} — NADA sobrescrito")
-            shutil.rmtree(tmpdir, ignore_errors=True)
-            return False
-        break
-    else:
-        print(f"[GERAL] ❌ {last_err or 'falha'} — NADA sobrescrito")
-        shutil.rmtree(tmpdir, ignore_errors=True)
-        return False
-    texto = raw.decode("cp1252", errors="replace")
-    linhas = texto.replace("\r", "").split("\n")
-    hidx = achar_header(linhas)
-    if hidx is None:
-        print("[GERAL] ❌ cabeçalho não reconhecido — NADA sobrescrito")
-        shutil.rmtree(tmpdir, ignore_errors=True)
-        return False
-    status_path = os.path.join(DATA_DIR, "_status.json")
-    data_atual_repo = None
-    if os.path.exists(status_path):
-        try:
-            with open(status_path, encoding="utf-8") as f:
-                data_atual_repo = json.load(f).get("data_geracao_caixa")
-        except Exception:
-            pass
-    if not data_atual_repo:
-        pb = os.path.join(DATA_DIR, "PB", "imoveis.json")
-        if os.path.exists(pb):
-            try:
-                with open(pb, encoding="utf-8") as f:
-                    data_atual_repo = json.load(f).get("data_geracao_caixa")
-            except Exception:
-                pass
-    if data_atual_repo and data_geracao <= data_atual_repo            and os.environ.get("FORCA") != "1":
-        print(f"[GERAL] CSV da Caixa ({data_geracao}) não é mais recente que o "
-              f"publicado ({data_atual_repo}) — nada a fazer.")
-        shutil.rmtree(tmpdir, ignore_errors=True)
-        return "sem_mudanca"
-    header_linha = linhas[hidx]
-    por_uf = {uf: [header_linha] for uf in UFS}
-    raw_linhas = texto.split("\n")
-    for linha in raw_linhas[hidx + 1:]:
-        if not linha.strip():
-            continue
-        cols = split_linha(linha)
-        uf = (cols[1] if len(cols) > 1 else "").strip().upper()
-        if uf not in por_uf:
-            continue
-        por_uf[uf].append(linha)
-
-    ids_anteriores = set()
-    gp = os.path.join(DATA_DIR, "imoveis.json")
-    if os.path.exists(gp):
-        try:
-            with open(gp, encoding="utf-8") as f:
-                for im in json.load(f).get("imoveis", []):
-                    ids_anteriores.add(im.get("id"))
-        except Exception:
-            pass
-
-    ok = 0
-    novos_ids, removidos_ids = [], sorted(ids_anteriores)
-    todos_imoveis = []
-    for uf in UFS:
-        imoveis, chaves = processar_linhas(por_uf[uf], uf)
-        if not imoveis:
-            print(f"[{uf}] sem imóveis no CSV geral — anterior preservado")
-            continue
-        uf_dir = os.path.join(DATA_DIR, uf)
-        os.makedirs(uf_dir, exist_ok=True)
-        with open(os.path.join(uf_dir, "imoveis.csv"), "w",
-                  encoding="cp1252", errors="replace") as f:
-            f.write(texto.split("\n")[1] + "\n")
-            f.write("\n".join(por_uf[uf]) + "\n")
-        with open(os.path.join(uf_dir, "imoveis.json"), "w", encoding="utf-8") as f:
-            json.dump({
-                "uf": uf,
-                "data_geracao_caixa": data_geracao,
-                "coletado_em": agora_br(),
-                "fonte": CSV_GERAL,
-                "total": len(imoveis),
-                "colunas": chaves,
-                "imoveis": imoveis,
-            }, f, ensure_ascii=False, indent=1)
-        with open(os.path.join(uf_dir, "imoveis.toon"), "w", encoding="utf-8") as f:
-            f.write(gerar_toon(uf, imoveis, chaves, data_geracao, CSV_GERAL))
-        status[uf] = {"ok": True, "total": len(imoveis),
-                      "gerado_em": data_geracao}
-        todos_imoveis.extend(imoveis)
-        print(f"[{uf}] ✅ {len(imoveis)} imóveis")
-        ok += 1
-
-    if todos_imoveis:
-        ids_atuais = {im.get("id") for im in todos_imoveis if im.get("id")}
-        novos_ids = sorted(ids_atuais - ids_anteriores)
-        removidos_ids = sorted(ids_anteriores - ids_atuais)
-        print(f"[DIFF] novos: {len(novos_ids)} | removidos: {len(removidos_ids)}")
-
-        os.makedirs(DATA_DIR, exist_ok=True)
-        shutil.copyfile(tmp_csv, os.path.join(DATA_DIR, "imoveis.csv"))
-        chaves_global = sorted({c for im in todos_imoveis for c in im})
-        with open(os.path.join(DATA_DIR, "imoveis.json"), "w", encoding="utf-8") as f:
-            json.dump({
-                "uf": "BR",
-                "data_geracao_caixa": data_geracao,
-                "coletado_em": agora_br(),
-                "fonte": CSV_GERAL,
-                "total": len(todos_imoveis),
-                "ufs": ok,
-                "colunas": chaves_global,
-                "imoveis": todos_imoveis,
-            }, f, ensure_ascii=False, indent=1)
-        with open(os.path.join(DATA_DIR, "imoveis.toon"), "w", encoding="utf-8") as f:
-            f.write(gerar_toon("BR", todos_imoveis, chaves_global,
-                               data_geracao, CSV_GERAL))
-        status["BR"] = {"ok": True, "total": len(todos_imoveis),
-                        "gerado_em": data_geracao}
-        print(f"[BR] ✅ global: {len(todos_imoveis)} imóveis em {ok} UFs")
-
-    status["_diff"] = {"novos": len(novos_ids),
-                      "removidos": len(removidos_ids),
-                      "novos_ids": novos_ids[:200],
-                      "removidos_ids": removidos_ids[:200]}
-    shutil.rmtree(tmpdir, ignore_errors=True)
-    print(f"[GERAL] {ok} UFs processadas de {CSV_GERAL}")
-    return ok > 0
 def rodar_uf(uf: str, status: dict):
     """Baixa a UF com retry/backoff. Sucesso só depois de validado."""
     tmpdir = tempfile.mkdtemp(prefix=f"caixa_{uf}_")
@@ -382,9 +230,9 @@ def rodar_uf(uf: str, status: dict):
         except ValueError as e:
             last_err = str(e)
             if tentativa < RETRY_MAX:
-                wait = RETRY_BACKOFF_S * tentativa
+                wait = RETRY_BACKOFF_S * tentativa + random.uniform(0, 5)
                 print(f"[{uf}] tentativa {tentativa}/{RETRY_MAX} falhou "
-                      f"({last_err}) — aguardando {wait}s")
+                      f"({last_err}) — aguardando {wait:.1f}s")
                 time.sleep(wait)
                 continue
             break
@@ -414,45 +262,8 @@ def rodar_uf(uf: str, status: dict):
     shutil.rmtree(tmpdir, ignore_errors=True)
     return False
 def main():
-    modo = "geral"
     args = sys.argv[1:]
-    if args and args[0] == "geral":
-        args = args[1:]
     alvo = [uf.upper() for uf in args if uf.upper() in UFS]
-    if not args or modo == "geral" and not alvo:
-        print(f"=== Pipeline Caixa CSV→JSON+TOON (modo geral) | {agora_br()} ===")
-        status = {}
-        ok = rodar_geral(status)
-        os.makedirs(DATA_DIR, exist_ok=True)
-        if ok == "sem_mudanca":
-            print("=== Fim (modo geral): SEM MUDANÇA (CSV da Caixa é o mesmo) ===")
-            return
-        if ok:
-            dg_pub = None
-            gp = os.path.join(DATA_DIR, "imoveis.json")
-            if os.path.exists(gp):
-                try:
-                    with open(gp, encoding="utf-8") as f:
-                        dg_pub = json.load(f).get("data_geracao_caixa")
-                except Exception:
-                    pass
-            diff = status.pop("_diff", {})
-            ufs_ok = sum(1 for uf in UFS if status.get(uf, {}).get("ok"))
-            with open(os.path.join(DATA_DIR, "_status.json"), "w", encoding="utf-8") as f:
-                json.dump({
-                    "executado_em": agora_br(),
-                    "modo": "geral",
-                    "data_geracao_caixa": dg_pub,
-                    "ufs_ok": ufs_ok,
-                    "ufs_falha": len(UFS) - ufs_ok,
-                    "diff": diff,
-                    "status": {uf: status.get(uf, {"ok": False,
-                             "erro": "não processada"}) for uf in UFS},
-                }, f, ensure_ascii=False, indent=1)
-        print(f"=== Fim (modo geral): {'OK' if ok else 'FALHOU'} ===")
-        if not ok:
-            sys.exit(1)
-        return
     alvo = alvo or UFS
     print(f"=== Pipeline Caixa CSV→JSON+TOON | {agora_br()} | UFs: {len(alvo)} ===")
     status = {}
@@ -462,8 +273,8 @@ def main():
             ok += 1
         if i < len(alvo) - 1:
             time.sleep(DELAY_S)
-    os.makedirs(DATA_DIR, exist_ok=True)
-    with open(os.path.join(DATA_DIR, "_status.json"), "w", encoding="utf-8") as f:
+    os.makedirs(STATE_DIR, exist_ok=True)
+    with open(os.path.join(STATE_DIR, "_status.json"), "w", encoding="utf-8") as f:
         json.dump({
             "executado_em": agora_br(),
             "modo": "ufs",
@@ -473,6 +284,7 @@ def main():
         }, f, ensure_ascii=False, indent=1)
     print(f"=== Fim: {ok}/{len(alvo)} UFs OK ===")
     if ok == 0:
-        sys.exit(1)                                                     
+        sys.exit(1)
+
 if __name__ == "__main__":
     main()

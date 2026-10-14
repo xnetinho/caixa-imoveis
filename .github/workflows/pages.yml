@@ -25,9 +25,16 @@ jobs:
 
       - uses: actions/configure-pages@v5
 
+      - name: Preparar artefato (só index.html + data/)
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp .nojekyll _site/ 2>/dev/null || true
+          cp -r data _site/data
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
       - id: deployment
         uses: actions/deploy-pages@v4
