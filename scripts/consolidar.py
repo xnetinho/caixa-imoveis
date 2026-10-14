@@ -41,7 +41,8 @@ def _fresh_ufs():
     return {u for u in raw.replace(",", " ").split() if u in UFS}
 
 
-def _datas_publicadas():
+def _publicadas():
+    """Retorna {uf: (data_geracao_caixa, total)} do global publicado, ou None."""
     gp = os.path.join(DATA_DIR, "imoveis.json")
     if not os.path.exists(gp):
         return None
@@ -51,9 +52,10 @@ def _datas_publicadas():
         return None
     ufs = doc.get("ufs")
     if isinstance(ufs, list) and ufs:
-        return {u.get("uf"): u.get("data_geracao_caixa") for u in ufs}
+        return {u.get("uf"): (u.get("data_geracao_caixa"), u.get("total"))
+                for u in ufs}
     dg = doc.get("data_geracao_caixa")
-    return {uf: dg for uf in UFS} if dg else None
+    return {uf: (dg, None) for uf in UFS} if dg else None
 
 
 def main():
@@ -64,6 +66,7 @@ def main():
     ufs_meta = []
     status = {}
     novas_por_uf = {}
+    fresh_totais = {}
 
     for uf in UFS:
         p = os.path.join(DATA_DIR, uf, "imoveis.json")
@@ -86,6 +89,7 @@ def main():
 
         if fresh is None or uf in fresh:
             status[uf] = {"ok": True, "total": len(imoveis), "gerado_em": dg}
+            fresh_totais[uf] = len(imoveis)
             if dg:
                 novas_por_uf[uf] = dg
         else:
@@ -100,12 +104,17 @@ def main():
         print("[CONSOLIDAR] nenhum dado por-UF encontrado — abortando")
         sys.exit(1)
 
-    # guarda de "sem mudança": só reescreve se alguma UF fresca for mais nova
-    publicadas = _datas_publicadas()
+    # guarda de "sem mudança": só reescreve se alguma UF fresca tiver data mais
+    # nova OU total diferente do publicado (novos imóveis sem trocar a data).
+    publicadas = _publicadas()
     mudou = publicadas is None
     if not mudou:
-        mudou = any(novas_por_uf.get(uf, "") > publicadas.get(uf, "")
-                    for uf in novas_por_uf)
+        for uf, tot in fresh_totais.items():
+            dg_ant, tot_ant = publicadas.get(uf, (None, None))
+            if (novas_por_uf.get(uf, "") > (dg_ant or "")) or \
+               (tot_ant is not None and tot != tot_ant):
+                mudou = True
+                break
     if not mudou and os.environ.get("FORCA") != "1":
         print("[CONSOLIDAR] nenhuma UF trouxe dados mais recentes — nada a fazer.")
         print("changed=false")
