@@ -108,6 +108,7 @@ def main():
                     for uf in novas_por_uf)
     if not mudou and os.environ.get("FORCA") != "1":
         print("[CONSOLIDAR] nenhuma UF trouxe dados mais recentes — nada a fazer.")
+        print("changed=false")
         return
 
     chaves = sorted({c for im in todos for c in im})
@@ -136,6 +137,7 @@ def main():
 
     print(f"[CONSOLIDAR] {ufs_ok}/{len(UFS)} UFs frescas | {len(todos)} imóveis | "
           f"{atualizado_em}")
+    print("changed=true")
 
 
 if __name__ == "__main__":
