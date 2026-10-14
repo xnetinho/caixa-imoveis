@@ -143,19 +143,8 @@
       <select id="bairroFilter" disabled><option value="">Todos os bairros</option></select>
     </div>
     <select id="modalidadeFilter"><option value="">Todas as modalidades</option></select>
-    <select id="tipoFilter">
-      <option value="">Todos os tipos</option>
-      <option value="apartamento">Apartamento</option>
-      <option value="casa">Casa</option>
-      <option value="terreno">Terreno</option>
-      <option value="comercial">Comercial</option>
-      <option value="outros">Outros</option>
-    </select>
-    <select id="financiamentoFilter">
-      <option value="">Financiamento: qualquer</option>
-      <option value="sim">Aceita financiamento</option>
-      <option value="nao">Não aceita financiamento</option>
-    </select>
+    <select id="tipoFilter"><option value="">Todos os tipos</option></select>
+    <select id="financiamentoFilter"><option value="">Financiamento: qualquer</option></select>
     <select id="ordenarFilter">
       <option value="">Ordenar: padrão</option>
       <option value="preco_asc">Preço (menor → maior)</option>
@@ -427,18 +416,9 @@ async function loadData(uf){
   }
   ufSel.value = uf || "";
 
-  // popula filtro de modalidade
-  const modSel = $("modalidadeFilter");
-  modSel.innerHTML = '<option value="">Todas as modalidades</option>';
-  [...new Set(allFeatures.map(f=>f.properties.modalidade).filter(Boolean))].sort()
-    .forEach(m=>{
-      const o = document.createElement("option");
-      o.value = m; o.textContent = m;
-      modSel.appendChild(o);
-    });
-
-  populateCidades("");
-  populateBairros("");
+  // zera filtros (novo dataset) e monta as opções recursivas
+  for (const d of FILTERS) $(d.id).value = "";
+  refreshFilterOptions();
 
   const dataTxt = doc.atualizado_em || doc.data_geracao_caixa || "";
   $("subTitle").textContent =
@@ -457,34 +437,6 @@ async function loadData(uf){
   applyFilters();
   fitAll();
   if (deepLinkId) openImovel(deepLinkId);
-}
-
-function populateCidades(modalidade){
-  const sel = $("cidadeFilter");
-  sel.innerHTML = '<option value="">Todas as cidades</option>';
-  const feats = modalidade ? allFeatures.filter(f=>f.properties.modalidade===modalidade) : allFeatures;
-  [...new Set(feats.map(f=>f.properties.cidade).filter(Boolean))].sort()
-    .forEach(c=>{
-      const o = document.createElement("option");
-      o.value = c; o.textContent = c;
-      sel.appendChild(o);
-    });
-}
-
-function populateBairros(cidade){
-  const sel = $("bairroFilter");
-  sel.innerHTML = '<option value="">Todos os bairros</option>';
-  if (!cidade){ sel.disabled = true; return; }
-  sel.disabled = false;
-  const mod = $("modalidadeFilter").value;
-  let feats = allFeatures.filter(f=>f.properties.cidade===cidade);
-  if (mod) feats = feats.filter(f=>f.properties.modalidade===mod);
-  [...new Set(feats.map(f=>f.properties.bairro).filter(Boolean))].sort()
-    .forEach(b=>{
-      const o = document.createElement("option");
-      o.value = b; o.textContent = b;
-      sel.appendChild(o);
-    });
 }
 
 function fitAll(){
@@ -510,28 +462,67 @@ const SORT_FNS = {
   cidade_asc: (a,b)=>(a.properties.cidade||"").localeCompare(b.properties.cidade||"","pt-BR"),
 };
 
-function applyFilters(){
-  const cidade = $("cidadeFilter").value;
-  const bairro = $("bairroFilter").value;
-  const modalidade = $("modalidadeFilter").value;
-  const tipo = $("tipoFilter").value;
-  const fin = $("financiamentoFilter").value;
-  const ordem = $("ordenarFilter").value;
+const finNorm = p => (p.financiamento||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+const FILTERS = [
+  { id:"cidadeFilter",        key:"cidade",     ph:"Todas as cidades",        val:p=>p.cidade },
+  { id:"bairroFilter",        key:"bairro",     ph:"Todos os bairros",        val:p=>p.bairro, dep:"cidade" },
+  { id:"modalidadeFilter",    key:"modalidade", ph:"Todas as modalidades",    val:p=>p.modalidade },
+  { id:"tipoFilter",          key:"tipo",       ph:"Todos os tipos",          val:p=>p.tipo_cat, order:Object.keys(TIPO_COLORS), label:v=>TIPO_LABEL[v] },
+  { id:"financiamentoFilter", key:"fin",        ph:"Financiamento: qualquer", val:finNorm, order:["sim","nao"], label:v=>v==="sim"?"Aceita financiamento":"Não aceita financiamento" },
+];
 
-  filtered = allFeatures.filter(f=>{
-    const p = f.properties;
-    if (cidade && p.cidade !== cidade) return false;
-    if (bairro && p.bairro !== bairro) return false;
-    if (modalidade && p.modalidade !== modalidade) return false;
-    if (tipo && p.tipo_cat !== tipo) return false;
-    if (fin){
-      const fv = (p.financiamento||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
-      if (fin === "sim" && fv !== "sim") return false;
-      if (fin === "nao" && fv !== "nao") return false;
+function readSelections(){
+  return Object.fromEntries(FILTERS.map(d => [d.key, $(d.id).value]));
+}
+// passa por todos os filtros exceto `exceptKey` (a própria faceta ignora a si mesma)
+function passes(sel, p, exceptKey){
+  for (const d of FILTERS){
+    if (d.key === exceptKey) continue;
+    const v = sel[d.key];
+    if (v && d.val(p) !== v) return false;
+  }
+  return true;
+}
+function optionEl(value, text){
+  const o = document.createElement("option");
+  o.value = value; o.textContent = text; return o;
+}
+
+// Recursivo: cada dropdown só lista valores que ainda existem dados os outros filtros.
+// Como todo valor oferecido tem ≥1 imóvel compatível, trocar por outro valor oferecido
+// nunca invalida os demais — nenhum estado impossível é alcançável.
+function refreshFilterOptions(){
+  const sel = readSelections();
+  for (const d of FILTERS){
+    const el = $(d.id);
+    if (d.dep && !sel[d.dep]){          // ex.: bairro depende de cidade
+      sel[d.key] = "";
+      el.disabled = true;
+      el.innerHTML = ""; el.appendChild(optionEl("", d.ph));
+      continue;
     }
-    return true;
-  });
+    el.disabled = false;
+    const counts = new Map();
+    for (const f of allFeatures){
+      const p = f.properties;
+      if (!passes(sel, p, d.key)) continue;
+      const v = d.val(p);
+      if (v) counts.set(v, (counts.get(v)||0) + 1);
+    }
+    const vals = [...counts.keys()].sort(d.order
+      ? (a,b)=>d.order.indexOf(a)-d.order.indexOf(b)
+      : (a,b)=>a.localeCompare(b,"pt-BR"));
+    el.innerHTML = ""; el.appendChild(optionEl("", d.ph));
+    for (const v of vals) el.appendChild(optionEl(v, `${d.label?d.label(v):v} (${counts.get(v)})`));
+    el.value = sel[d.key] || "";
+  }
+}
 
+function applyFilters(){
+  const sel = readSelections();
+  filtered = allFeatures.filter(f => passes(sel, f.properties));
+
+  const ordem = $("ordenarFilter").value;
   if (SORT_FNS[ordem]) filtered = filtered.slice().sort(SORT_FNS[ordem]);
 
   $("stats").textContent =
@@ -545,16 +536,9 @@ function applyFilters(){
 }
 
 $("ufFilter").addEventListener("change", e => setUf(e.target.value));
-$("cidadeFilter").addEventListener("change", e => { populateBairros(e.target.value); applyFilters(); });
-$("bairroFilter").addEventListener("change", applyFilters);
-$("modalidadeFilter").addEventListener("change", e => { 
-  const m = e.target.value;
-  populateCidades(m);
-  populateBairros("");
-  applyFilters();
-});
-$("tipoFilter").addEventListener("change", applyFilters);
-$("financiamentoFilter").addEventListener("change", applyFilters);
+for (const d of FILTERS){
+  $(d.id).addEventListener("change", ()=>{ refreshFilterOptions(); applyFilters(); });
+}
 $("ordenarFilter").addEventListener("change", applyFilters);
 
 /* ============ lista de resultados ============ */
