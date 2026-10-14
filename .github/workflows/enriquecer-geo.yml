@@ -22,8 +22,11 @@ on:
       limite_google:
         description: 'Teto de consultas Google nesta execução'
         required: false
-        default: '1500'
+        default: '800'
         type: string
+  schedule:
+    # 1x/dia, 09:30 BRT — depois da varredura do CSV (a cada 2h), até a cota.
+    - cron: '30 12 * * *'
 
 permissions:
   contents: write
@@ -46,8 +49,8 @@ jobs:
       - name: Enriquecer coordenadas
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
-          GEO_LIMITE_GOOGLE: ${{ github.event.inputs.limite_google }}
-          GEO_LIMITE_OSM: ${{ github.event.inputs.limite_osm }}
+          GEO_LIMITE_GOOGLE: ${{ github.event.inputs.limite_google || '800' }}
+          GEO_LIMITE_OSM: ${{ github.event.inputs.limite_osm || '20000' }}
           GEO_FILTRO_UF: ${{ github.event.inputs.uf }}
         run: python3 scripts/geo_enriquecer.py
 

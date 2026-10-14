@@ -36,11 +36,19 @@ def regravar_toon(p, doc):
                                     doc["data_geracao_caixa"], doc["fonte"]))
 
 
+def _env_int(nome, default):
+    v = (os.environ.get(nome) or "").strip()
+    try:
+        return int(v) if v else default
+    except ValueError:
+        return default
+
+
 def main():
     t_total = time.time()
     filtro = os.environ.get("GEO_FILTRO_UF", "").strip().upper()
-    geo.GEO_LIMITE_GOOGLE = int(os.environ.get("GEO_LIMITE_GOOGLE", "1500"))
-    geo.GEO_LIMITE_OSM = int(os.environ.get("GEO_LIMITE_OSM", "2000"))
+    geo.GEO_LIMITE_GOOGLE = _env_int("GEO_LIMITE_GOOGLE", 800)
+    geo.GEO_LIMITE_OSM = _env_int("GEO_LIMITE_OSM", 20000)
     log(f"[FASE 1/5] carregamento | filtro_uf={filtro or '(todas)'} | "
         f"chave_google={'presente' if geo.GOOGLE_KEY else 'AUSENTE'} | "
         f"limites: Google={geo.GEO_LIMITE_GOOGLE} OSM={geo.GEO_LIMITE_OSM}")

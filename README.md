@@ -3,7 +3,7 @@
 ![pipeline](https://github.com/xnetinho/caixa-imoveis/actions/workflows/atualizar.yml/badge.svg)
 ![probe](https://github.com/xnetinho/caixa-imoveis/actions/workflows/probe.yml/badge.svg)
 
-Baixa diariamente, via GitHub Actions, os **CSVs oficiais de imóveis da Caixa Econômica Federal**, publica como JSON/TOON, enriquece com **coordenadas geográficas** e serve um **mapa interativo** no GitHub Pages.
+Baixa periodicamente, via GitHub Actions, os **CSVs oficiais de imóveis da Caixa Econômica Federal**, publica como JSON/TOON, enriquece com **coordenadas geográficas** e serve um **mapa interativo** no GitHub Pages.
 
 ## O que é publicado
 
@@ -18,7 +18,11 @@ Baixa diariamente, via GitHub Actions, os **CSVs oficiais de imóveis da Caixa E
 
 Sempre **a versão mais recente** (nomes fixos, sobrescreve).
 
-Fonte: `https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_geral.csv` (Brasil inteiro em **1 arquivo**, ~7,7 MB / ~21k imóveis — 1 chamada ao servidor em vez de 27, eliminando o bloqueio Radware de requisições sequenciais). Fallback: downloads por UF (`Lista_imoveis_{UF}.csv`) se o geral falhar.
+Fonte: `https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_{UF}.csv` — um arquivo por UF (27 no total). O download é **paralelizado em workers** (matrix do GitHub Actions), cada um baixando uma UF com `curl` puro, espalhando as requisições por IPs distintos e evitando o bloqueio Radware.
+
+> **Por que não o arquivo "geral"?** A Caixa mantém `Lista_imoveis_geral.csv` desatualizado
+> (ficou dias congelado enquanto os por-UF seguiam atualizando). Por isso o pipeline usa os
+> CSVs por-UF como fonte de verdade.
 
 ## Estrutura dos dados
 
@@ -50,9 +54,10 @@ Após a geocodificação, ganha dois campos extras:
 
 ## Workflows
 
-- **Atualizar dados Caixa** (`atualizar.yml`) — a cada 2h + manual (`workflow_dispatch`). Baixa, converte, valida e commita apenas se houver mudança. Em seguida roda a **geocodificação incremental** dos imóveis novos.
-- **Enriquecer geodata** (`enriquecer-geo.yml`) — manual, para cargas completas ou retomadas de geocodificação (parâmetros: UF alvo, tetos de cota Google/OSM).
+- **Atualizar dados Caixa** (`atualizar.yml`) — a cada 2h + manual (`workflow_dispatch`). Baixa os 27 CSVs por-UF em **workers paralelos** (matrix), consolida no dataset global e commita apenas se houver mudança.
+- **Enriquecer geodata** (`enriquecer-geo.yml`) — **1x/dia** (cron) + manual. Geocodifica os imóveis sem coordenadas até a cota diária (Google `800` por padrão, OSM como fallback), cobrindo o passivo aos poucos e os imóveis novos de cada dia.
 - **Probe** (`probe.yml`) — diagnóstico de viabilidade (9 UFs, 2 modos de download, sem commit).
+- **Deploy GitHub Pages** (`pages.yml`) — publica `index.html` + `data/` a cada push na `master`.
 
 ## Mapa interativo (GitHub Pages)
 
@@ -68,8 +73,9 @@ Após a geocodificação, ganha dois campos extras:
 
 ### Como publicar
 
-1. Habilite **GitHub Pages** no repositório: *Settings → Pages → Source: deploy from branch → `master` → `/ (root)`*.
-2. O arquivo `.nojekyll` na raiz evita que o Jekyll ignore os `data/_*.json`.
+1. Habilite **GitHub Pages** no repositório: *Settings → Pages → Source: GitHub Actions*.
+2. O workflow `pages.yml` publica o site a cada push na `master`.
+3. O arquivo `.nojekyll` na raiz evita que o Jekyll ignore os `data/_*.json`.
 
 O mapa lê `data/imoveis.json` por caminho relativo (funciona no Pages a partir da raiz); há fallback via jsDelivr para `https://cdn.jsdelivr.net/gh/xnetinho/caixa-imoveis@master/data/imoveis.json`.
 
@@ -88,10 +94,12 @@ for im in d["imoveis"]:
 ## Estrutura
 
 ```
-.github/workflows/atualizar.yml     # pipeline diário (CSV→JSON/TOON + geo incremental)
-.github/workflows/enriquecer-geo.yml # geocodificação manual (carga completa/retomada)
+.github/workflows/atualizar.yml      # baixa CSVs por-UF (matrix) e consolida o global
+.github/workflows/enriquecer-geo.yml # geocodificação diária (1x/dia, cota 800)
 .github/workflows/probe.yml          # probe de viabilidade do download
-scripts/pipeline.py                  # download + parse + JSON + TOON
+.github/workflows/pages.yml          # deploy do GitHub Pages
+scripts/pipeline.py                  # download + parse + JSON + TOON (por UF)
+scripts/consolidar.py                # junta por-UF → global + reaplica geo do cache
 scripts/geo.py                       # geocodificação (Google + OSM) + cache
 scripts/geo_enriquecer.py            # orquestra o enriquecimento por UF + global
 index.html                           # mapa interativo (GitHub Pages)
