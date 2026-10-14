@@ -25,15 +25,20 @@ def carregar(p):
 
 
 def salvar(p, obj):
-    with open(p, "w", encoding="utf-8") as f:
+    # escrita atômica: evita arquivo truncado se o processo for interrompido
+    tmp = p + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=1)
+    os.replace(tmp, p)
 
 
 def regravar_toon(p, doc):
     chaves = doc.get("colunas") or sorted(doc["imoveis"][0].keys())
+    # global (BR) não tem data_geracao_caixa — usa atualizado_em
+    data = doc.get("data_geracao_caixa") or doc.get("atualizado_em", "")
     with open(p, "w", encoding="utf-8") as f:
         f.write(pipeline.gerar_toon(doc["uf"], doc["imoveis"], chaves,
-                                    doc["data_geracao_caixa"], doc["fonte"]))
+                                    data, doc["fonte"]))
 
 
 def _env_int(nome, default):

@@ -126,6 +126,9 @@ jobs:
         run: python3 scripts/geo_enriquecer.py
 
       - name: Commit do geo
+        # always(): mesmo se a geocodificação falhar no meio, salva o progresso
+        # (cache + cota diária) já gravado — sem isso o trabalho e a cota se perdem.
+        if: always()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
