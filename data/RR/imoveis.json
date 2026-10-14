@@ -1,8 +1,8 @@
 {
  "uf": "RR",
- "data_geracao_caixa": "08/10/2026",
- "coletado_em": "11/10/2026 23:19",
- "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_geral.csv",
+ "data_geracao_caixa": "13/10/2026",
+ "coletado_em": "14/10/2026 14:56",
+ "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_RR.csv",
  "total": 2,
  "colunas": [
   "id",
@@ -20,20 +20,6 @@
  ],
  "imoveis": [
   {
-   "id": "8444429185090",
-   "uf": "RR",
-   "cidade": "BOA VISTA",
-   "bairro": "CIDADE SATELITE",
-   "endereco": "AVENIDA JARDIM, N. 1336, Apto 303, BL 10, LT 526, QD 719",
-   "preco": 46937.23,
-   "valor_avaliacao": 100000.0,
-   "desconto": 53.07,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 50.17 de área total, 44.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429185090"
-  },
-  {
    "id": "8444429349786",
    "uf": "RR",
    "cidade": "BOA VISTA",
@@ -45,7 +31,23 @@
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 450.71 de área do terreno.",
    "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429349786"
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429349786",
+   "tipo": "terreno"
+  },
+  {
+   "id": "8444428981551",
+   "uf": "RR",
+   "cidade": "CANTA",
+   "bairro": "LOT SANTA CECILIA",
+   "endereco": "RUA JOHANNES BRAHMS, N. 506,  LT 30 Q 03",
+   "preco": 240968.53,
+   "valor_avaliacao": 398000.0,
+   "desconto": 39.46,
+   "financiamento": "Sim",
+   "descricao": "Casa, 85.72 de área total, 85.72 de área privativa, 360.00 de área do terreno,  2 qto(s), WC, cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428981551",
+   "tipo": "casa"
   }
  ]
 }

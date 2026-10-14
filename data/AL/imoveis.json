@@ -1,9 +1,9 @@
 {
  "uf": "AL",
- "data_geracao_caixa": "08/10/2026",
- "coletado_em": "11/10/2026 23:19",
- "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_geral.csv",
- "total": 95,
+ "data_geracao_caixa": "13/10/2026",
+ "coletado_em": "14/10/2026 14:56",
+ "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AL.csv",
+ "total": 84,
  "colunas": [
   "id",
   "uf",
@@ -32,10 +32,11 @@
    "descricao": "Casa, 0.00 de área total, 88.69 de área privativa, 176.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555507349060",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.7886996,
-    "lng": -36.6330299,
-    "fonte": "google"
+    "lng": -36.6330299
    },
    "geo_pendente": false
   },
@@ -52,30 +53,11 @@
    "descricao": "Casa, 98.74 de área total, 98.74 de área privativa, 157.50 de área do terreno,  1 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444402891997",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -22.7249012,
-    "lng": -43.4122083,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787705350316",
-   "uf": "AL",
-   "cidade": "ARAPIRACA",
-   "bairro": "BOM SUCESSO",
-   "endereco": "AVENIDA PIO XII, N. 889, C10",
-   "preco": 97200.0,
-   "valor_avaliacao": 162000.0,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 50.66 de área total, 50.66 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705350316",
-   "geo": {
-    "lat": -9.720419999999999,
-    "lng": -36.6724347,
-    "fonte": "google"
+    "lng": -43.4122083
    },
    "geo_pendente": false
   },
@@ -92,10 +74,11 @@
    "descricao": "Casa, 249.73 de área total, 80.30 de área privativa, 319.73 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444408877645",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.8061015,
-    "lng": -36.6168579,
-    "fonte": "google"
+    "lng": -36.6168579
    },
    "geo_pendente": false
   },
@@ -112,10 +95,11 @@
    "descricao": "Comercial, 0.00 de área total, 131.04 de área privativa, 0.00 de área do terreno.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286369",
+   "tipo": "comercial",
    "geo": {
+    "fonte": "google",
     "lat": -9.7563438,
-    "lng": -36.6649451,
-    "fonte": "google"
+    "lng": -36.6649451
    },
    "geo_pendente": false
   },
@@ -132,10 +116,11 @@
    "descricao": "Casa, 60.43 de área total, 60.43 de área privativa, 176.47 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421614057",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.7541861,
-    "lng": -36.6423521,
-    "fonte": "google"
+    "lng": -36.6423521
    },
    "geo_pendente": false
   },
@@ -152,10 +137,11 @@
    "descricao": "Casa, 42.00 de área total, 42.00 de área privativa, 49.10 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407838229",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5151798,
-    "lng": -36.0103383,
-    "fonte": "google"
+    "lng": -36.0103383
    },
    "geo_pendente": false
   },
@@ -165,17 +151,18 @@
    "cidade": "ATALAIA",
    "bairro": "JOSE PAULINO",
    "endereco": "RUA EM PROJETO, N. SN, LT 01 QD C LOT BITTENCOURT",
-   "preco": 165928.58,
+   "preco": 137846.25,
    "valor_avaliacao": 107000.0,
    "desconto": 0.0,
    "financiamento": "Não",
    "descricao": "Casa, 43.51 de área total, 43.51 de área privativa, 160.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430685000",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.515672499999999,
-    "lng": -36.0111448,
-    "fonte": "google"
+    "lng": -36.0111448
    },
    "geo_pendente": false
   },
@@ -192,10 +179,11 @@
    "descricao": "Casa, 92.50 de área total, 92.50 de área privativa, 130.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408241749",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.2599201,
-    "lng": -36.300122,
-    "fonte": "google"
+    "lng": -36.300122
    },
    "geo_pendente": false
   },
@@ -212,10 +200,11 @@
    "descricao": "Comercial, 0.00 de área total, 654.60 de área privativa, 6050.00 de área do terreno, WC, WC Emp, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417683424",
+   "tipo": "comercial",
    "geo": {
+    "fonte": "google",
     "lat": -9.6472526,
-    "lng": -36.7413567,
-    "fonte": "google"
+    "lng": -36.7413567
    },
    "geo_pendente": false
   },
@@ -232,10 +221,11 @@
    "descricao": "Prédio, 175.37 de área total, 175.37 de área privativa, 596.37 de área do terreno,  8 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417909481",
+   "tipo": "predio",
    "geo": {
+    "fonte": "google",
     "lat": -9.387409200000002,
-    "lng": -37.9889398,
-    "fonte": "google"
+    "lng": -37.9889398
    },
    "geo_pendente": false
   },
@@ -252,10 +242,11 @@
    "descricao": "Casa, 73.72 de área total, 73.72 de área privativa, 99.63 de área do terreno,  2 qto(s), WC, 2 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426489854",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.778111899999999,
-    "lng": -36.3591867,
-    "fonte": "google"
+    "lng": -36.3591867
    },
    "geo_pendente": false
   },
@@ -272,10 +263,11 @@
    "descricao": "Casa, 73.72 de área total, 73.72 de área privativa, 92.34 de área do terreno,  2 qto(s), WC, 2 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427280312",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.7776008,
-    "lng": -36.3604128,
-    "fonte": "google"
+    "lng": -36.3604128
    },
    "geo_pendente": false
   },
@@ -292,10 +284,11 @@
    "descricao": "Apartamento, 125.35 de área total, 42.42 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532261944",
+   "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -9.559320399999999,
-    "lng": -35.7350658,
-    "fonte": "google"
+    "lng": -35.7350658
    },
    "geo_pendente": false
   },
@@ -312,10 +305,11 @@
    "descricao": "Apartamento, 42.42 de área total, 42.42 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703813777",
+   "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -9.556395,
-    "lng": -35.7281169,
-    "fonte": "google"
+    "lng": -35.7281169
    },
    "geo_pendente": false
   },
@@ -332,30 +326,11 @@
    "descricao": "Apartamento, 49.28 de área total, 46.25 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555519537290",
+   "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -9.5890124,
-    "lng": -35.7772914,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444410498182",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "RUA EM PROJETO, N. 110, CS 30 BL 02",
-   "preco": 92444.76,
-   "valor_avaliacao": 156000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Casa, 52.29 de área total, 45.19 de área privativa, 46.07 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410498182",
-   "geo": {
-    "lat": -9.5998158,
-    "lng": -35.7316526,
-    "fonte": "google"
+    "lng": -35.7772914
    },
    "geo_pendente": false
   },
@@ -372,130 +347,11 @@
    "descricao": "Casa, 76.90 de área total, 55.01 de área privativa, 93.01 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720921809",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.518847,
-    "lng": -35.7775149,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444406940340",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "FAROL",
-   "endereco": "RUA JOANA DARC, N. 263, LT 17 QD H",
-   "preco": 388874.12,
-   "valor_avaliacao": 648123.54,
-   "desconto": 40.01,
-   "financiamento": "Não",
-   "descricao": "Casa, 257.60 de área total, 257.60 de área privativa, 300.00 de área do terreno,  3 qto(s), a.serv, WC, WC Emp, 2 sala(s), 1 lavabo(s), DCE, cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406940340",
-   "geo": {
-    "lat": -9.6375323,
-    "lng": -35.7325791,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787707270344",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "AVENIDA MENINO MARCELO, N. 2091, Apto 502, BL B",
-   "preco": 143361.8,
-   "valor_avaliacao": 238936.34,
-   "desconto": 40.01,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 66.86 de área total, 49.71 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707270344",
-   "geo": {
-    "lat": -9.5581333,
-    "lng": -35.7622097,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787708854781",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "SANTOS DUMONT",
-   "endereco": "AVENIDA TANCREDO NEVES, N. 335, Apto 101, BL 03 VG 85",
-   "preco": 108000.0,
-   "valor_avaliacao": 180000.0,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 117.02 de área total, 46.37 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708854781",
-   "geo": {
-    "lat": -9.5614516,
-    "lng": -35.7893625,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787702779915",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "ALAMEDA DOS ANTURIOS, N. 275, CASA 41  QD H",
-   "preco": 133200.0,
-   "valor_avaliacao": 222000.0,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 79.00 de área total, 58.48 de área privativa, 89.46 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702779915",
-   "geo": {
-    "lat": -9.5310163,
-    "lng": -35.7723316,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787702100467",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "SAO JORGE",
-   "endereco": "RUA EM PROJETO A, N. 26, Apto AP 11, 11º PAVIMENTO",
-   "preco": 212400.0,
-   "valor_avaliacao": 354000.0,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 43.99 de área total, 43.99 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702100467",
-   "geo": {
-    "lat": -9.5720917,
-    "lng": -35.742802,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555527416676",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "SANTA AMELIA",
-   "endereco": "AVENIDA JORGE MONTENEGRO BARROS, N. 3639, Apto 136, CS 136",
-   "preco": 133475.77,
-   "valor_avaliacao": 220835.19,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 57.67 de área total, 49.02 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555527416676",
-   "geo": {
-    "lat": -9.5976689,
-    "lng": -35.7728362,
-    "fonte": "google"
+    "lng": -35.7775149
    },
    "geo_pendente": false
   },
@@ -512,10 +368,11 @@
    "descricao": "Casa, 79.25 de área total, 54.83 de área privativa, 89.95 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715311615",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5603039,
-    "lng": -35.7437783,
-    "fonte": "google"
+    "lng": -35.7437783
    },
    "geo_pendente": false
   },
@@ -532,10 +389,11 @@
    "descricao": "Casa, 76.63 de área total, 54.83 de área privativa, 89.96 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716977560",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.518847,
-    "lng": -35.7775149,
-    "fonte": "google"
+    "lng": -35.7775149
    },
    "geo_pendente": false
   },
@@ -552,10 +410,11 @@
    "descricao": "Casa, 76.89 de área total, 55.01 de área privativa, 157.35 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719239188",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.518847,
-    "lng": -35.7775149,
-    "fonte": "google"
+    "lng": -35.7775149
    },
    "geo_pendente": false
   },
@@ -570,12 +429,13 @@
    "desconto": 38.77,
    "financiamento": "Não",
    "descricao": "Casa, 79.26 de área total, 54.83 de área privativa, 89.46 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787722551472",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5603039,
-    "lng": -35.7437783,
-    "fonte": "google"
+    "lng": -35.7437783
    },
    "geo_pendente": false
   },
@@ -592,30 +452,11 @@
    "descricao": "Apartamento, 47.28 de área total, 42.44 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414514697",
+   "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -9.623314,
-    "lng": -35.744344,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444406448356",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "PRADO",
-   "endereco": "RUA AGNELO BARBOSA, N. 76,",
-   "preco": 273407.83,
-   "valor_avaliacao": 440000.0,
-   "desconto": 37.87,
-   "financiamento": "Não",
-   "descricao": "Comercial, 154.52 de área total, 154.52 de área privativa, 151.80 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406448356",
-   "geo": {
-    "lat": -9.665744799999999,
-    "lng": -35.7442275,
-    "fonte": "google"
+    "lng": -35.744344
    },
    "geo_pendente": false
   },
@@ -630,52 +471,55 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Apartamento, 148.23 de área total, 76.63 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555502666549",
+   "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -9.677626799999999,
-    "lng": -35.7586681,
-    "fonte": "google"
+    "lng": -35.7586681
    },
    "geo_pendente": false
   },
   {
-   "id": "8787715272555",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "TABULEIRO DO MARTINS",
-   "endereco": "RUA DOS NAMBUS, N. 62, Apto 201, BLOCO 12  2º PAVIMENTO",
-   "preco": 128592.99,
-   "valor_avaliacao": 157000.0,
-   "desconto": 18.1,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 45.95 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715272555",
-   "geo": {
-    "lat": -9.5576507,
-    "lng": -35.750201,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787715477220",
+   "id": "8787716725081",
    "uf": "AL",
    "cidade": "MACEIO",
    "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "RODOVIA AL105, N. 330, CS 45 QD C",
-   "preco": 165174.35,
-   "valor_avaliacao": 174000.0,
-   "desconto": 5.08,
+   "endereco": "RODOVIA AL105, N. 442, CS 11 QD C",
+   "preco": 156834.14,
+   "valor_avaliacao": 210000.0,
+   "desconto": 25.32,
    "financiamento": "Não",
-   "descricao": "Casa, 79.26 de área total, 54.83 de área privativa, 89.46 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "descricao": "Casa, 76.63 de área total, 54.83 de área privativa, 153.55 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715477220",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716725081",
+   "tipo": "casa",
    "geo": {
-    "lat": -9.5603039,
-    "lng": -35.7437783,
-    "fonte": "google"
+    "fonte": "google",
+    "lat": -9.518847,
+    "lng": -35.7775149
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787709722595",
+   "uf": "AL",
+   "cidade": "MACEIO",
+   "bairro": "TABULEIRO DO MARTINS",
+   "endereco": "AVENIDA CARLOS GOMES DE BARROS, N. 396, Apto 404, BL 09",
+   "preco": 158427.84,
+   "valor_avaliacao": 190000.0,
+   "desconto": 16.62,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 49.56 de área total, 40.28 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709722595",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -9.5612626,
+    "lng": -35.748327
    },
    "geo_pendente": false
   },
@@ -692,10 +536,11 @@
    "descricao": "Casa, 68.26 de área total, 52.63 de área privativa, 180.03 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534591755",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5362941,
-    "lng": -35.7933319,
-    "fonte": "google"
+    "lng": -35.7933319
    },
    "geo_pendente": false
   },
@@ -712,10 +557,11 @@
    "descricao": "Apartamento, 76.50 de área total, 42.42 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555538261970",
+   "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -9.556961399999999,
-    "lng": -35.7390669,
-    "fonte": "google"
+    "lng": -35.7390669
    },
    "geo_pendente": false
   },
@@ -732,30 +578,11 @@
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 450.00 de área do terreno.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555510262700",
+   "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -9.5666208,
-    "lng": -35.7466795,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787716725081",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "RODOVIA AL105, N. 442, CS 11 QD C",
-   "preco": 210000.0,
-   "valor_avaliacao": 210000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 76.63 de área total, 54.83 de área privativa, 153.55 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716725081",
-   "geo": {
-    "lat": -9.518847,
-    "lng": -35.7775149,
-    "fonte": "google"
+    "lng": -35.7466795
    },
    "geo_pendente": false
   },
@@ -772,10 +599,32 @@
    "descricao": "Casa, 76.64 de área total, 54.83 de área privativa, 89.46 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716749410",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.518847,
-    "lng": -35.7775149,
-    "fonte": "google"
+    "lng": -35.7775149
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716696790",
+   "uf": "AL",
+   "cidade": "MACEIO",
+   "bairro": "CIDADE UNIVERSITARIA",
+   "endereco": "RODOVIA AL105, N. 442, CS 20 QD C",
+   "preco": 148400.44,
+   "valor_avaliacao": 147400.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 76.63 de área total, 54.83 de área privativa, 153.55 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716696790",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -9.518847,
+    "lng": -35.7775149
    },
    "geo_pendente": false
   },
@@ -792,12 +641,28 @@
    "descricao": "Apartamento, 51.20 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712210516",
+   "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -9.5985255,
-    "lng": -35.7609565,
-    "fonte": "google"
+    "lng": -35.7609565
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787701983322",
+   "uf": "AL",
+   "cidade": "MACEIO",
+   "bairro": "CIDADE UNIVERSITARIA",
+   "endereco": "RUA PROJETADA R, N. 960, CS 37 QD F CJ RES JD ROYAL",
+   "preco": 186265.04,
+   "valor_avaliacao": 176561.53,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 77.49 de área total, 54.59 de área privativa, 77.49 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701983322",
+   "tipo": "casa"
   },
   {
    "id": "8787709333033",
@@ -812,10 +677,11 @@
    "descricao": "Apartamento, 48.11 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709333033",
+   "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -9.591514799999999,
-    "lng": -35.7642831,
-    "fonte": "google"
+    "lng": -35.7642831
    },
    "geo_pendente": false
   },
@@ -832,50 +698,11 @@
    "descricao": "Apartamento, 48.11 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706584892",
+   "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -9.591514799999999,
-    "lng": -35.7642831,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787709722595",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "TABULEIRO DO MARTINS",
-   "endereco": "AVENIDA CARLOS GOMES DE BARROS, N. 396, Apto 404, BL 09",
-   "preco": 206565.58,
-   "valor_avaliacao": 190000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 49.56 de área total, 40.28 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709722595",
-   "geo": {
-    "lat": -9.5612626,
-    "lng": -35.748327,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787718678528",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "RODOVIA AL 105, N. 442, CASA 65  QD C",
-   "preco": 165935.56,
-   "valor_avaliacao": 147400.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 76.63 de área total, 54.83 de área privativa, 153.55 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718678528",
-   "geo": {
-    "lat": -9.518847,
-    "lng": -35.7775149,
-    "fonte": "google"
+    "lng": -35.7642831
    },
    "geo_pendente": false
   },
@@ -892,30 +719,11 @@
    "descricao": "Apartamento, 45.95 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716090809",
+   "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -9.5576507,
-    "lng": -35.750201,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787716696790",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "RODOVIA AL105, N. 442, CS 20 QD C",
-   "preco": 185219.95,
-   "valor_avaliacao": 147400.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 76.63 de área total, 54.83 de área privativa, 153.55 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716696790",
-   "geo": {
-    "lat": -9.518847,
-    "lng": -35.7775149,
-    "fonte": "google"
+    "lng": -35.750201
    },
    "geo_pendente": false
   },
@@ -932,32 +740,28 @@
    "descricao": "Casa, 78.70 de área total, 58.26 de área privativa, 93.01 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702616153",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5310163,
-    "lng": -35.7723316,
-    "fonte": "google"
+    "lng": -35.7723316
    },
    "geo_pendente": false
   },
   {
-   "id": "8555508233170",
+   "id": "1555531609590",
    "uf": "AL",
-   "cidade": "MAJOR ISIDORO",
-   "bairro": "CENTRO",
-   "endereco": "RUA MANOEL FERREIRA DE SOUZA, N. S/N,  FUNDOS COM A RUA ANTONIO WANDERLEY",
-   "preco": 39507.9,
-   "valor_avaliacao": 130000.0,
-   "desconto": 69.61,
+   "cidade": "MACEIO",
+   "bairro": "SERRARIA",
+   "endereco": "RUA CARLOS ALBERTO NOVAES, N. 142, Apto 403,",
+   "preco": 427262.17,
+   "valor_avaliacao": 315190.0,
+   "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 108.16 de área privativa, 268.50 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555508233170",
-   "geo": {
-    "lat": -9.5320248,
-    "lng": -36.9893872,
-    "fonte": "google"
-   },
-   "geo_pendente": false
+   "descricao": "Apartamento, 103.89 de área total, 70.91 de área privativa, 0.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, WC Emp, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555531609590",
+   "tipo": "apartamento"
   },
   {
    "id": "1444407440685",
@@ -972,10 +776,11 @@
    "descricao": "Casa, 0.00 de área total, 110.83 de área privativa, 300.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444407440685",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.7378179,
-    "lng": -35.836847,
-    "fonte": "google"
+    "lng": -35.836847
    },
    "geo_pendente": false
   },
@@ -992,10 +797,11 @@
    "descricao": "Casa, 52.06 de área total, 45.30 de área privativa, 135.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525065892",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.7737293,
-    "lng": -35.8577442,
-    "fonte": "google"
+    "lng": -35.8577442
    },
    "geo_pendente": false
   },
@@ -1012,10 +818,11 @@
    "descricao": "Casa, 118.06 de área total, 48.41 de área privativa, 109.38 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711075950",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.7369436,
-    "lng": -35.8858969,
-    "fonte": "google"
+    "lng": -35.8858969
    },
    "geo_pendente": false
   },
@@ -1032,10 +839,11 @@
    "descricao": "Terreno, 72.00 de área total, 0.00 de área privativa, 72.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406779849",
+   "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -9.390336099999999,
-    "lng": -35.8404189,
-    "fonte": "google"
+    "lng": -35.8404189
    },
    "geo_pendente": false
   },
@@ -1052,10 +860,11 @@
    "descricao": "Casa, 54.60 de área total, 54.60 de área privativa, 96.46 de área do terreno.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555519619210",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.314580699999999,
-    "lng": -35.93721379999999,
-    "fonte": "google"
+    "lng": -35.93721379999999
    },
    "geo_pendente": false
   },
@@ -1072,12 +881,28 @@
    "descricao": "Casa, 86.08 de área total, 86.08 de área privativa, 98.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407562355",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.311405,
-    "lng": -35.9400881,
-    "fonte": "google"
+    "lng": -35.9400881
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555520206501",
+   "uf": "AL",
+   "cidade": "OLHO D'AGUA DAS FLORES",
+   "bairro": "Centro",
+   "endereco": "RUA PREFEITO ARNOBIO SILVA, N. 85, CS 01",
+   "preco": 68797.93,
+   "valor_avaliacao": 115000.0,
+   "desconto": 40.18,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 89.90 de área privativa, 167.96 de área do terreno.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555520206501",
+   "tipo": "casa"
   },
   {
    "id": "8071201012963",
@@ -1092,10 +917,11 @@
    "descricao": "Casa, 66.00 de área total, 66.00 de área privativa, 72.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8071201012963",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.535034,
-    "lng": -37.2985089,
-    "fonte": "google"
+    "lng": -37.2985089
    },
    "geo_pendente": false
   },
@@ -1112,10 +938,11 @@
    "descricao": "Casa, 63.54 de área total, 63.54 de área privativa, 124.48 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415167621",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5001507,
-    "lng": -37.8348025,
-    "fonte": "google"
+    "lng": -37.8348025
    },
    "geo_pendente": false
   },
@@ -1132,10 +959,11 @@
    "descricao": "Casa, 56.45 de área total, 56.45 de área privativa, 120.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407008595",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -10.2875858,
-    "lng": -36.5547601,
-    "fonte": "google"
+    "lng": -36.5547601
    },
    "geo_pendente": false
   },
@@ -1152,10 +980,11 @@
    "descricao": "Casa, 53.10 de área total, 53.10 de área privativa, 53.10 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403762422",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5957899,
-    "lng": -35.9511944,
-    "fonte": "google"
+    "lng": -35.9511944
    },
    "geo_pendente": false
   },
@@ -1172,10 +1001,11 @@
    "descricao": "Casa, 81.20 de área total, 81.20 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537078498",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5924673,
-    "lng": -35.9502131,
-    "fonte": "google"
+    "lng": -35.9502131
    },
    "geo_pendente": false
   },
@@ -1192,30 +1022,11 @@
    "descricao": "Casa, 59.15 de área total, 59.15 de área privativa, 125.86 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407867806",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -19.5223533,
-    "lng": -40.14665859999999,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444407121081",
-   "uf": "AL",
-   "cidade": "PORTO CALVO",
-   "bairro": "CENTRO",
-   "endereco": "LOTEAMENTO MARIA CICERA, N. SN, LT 03 QD 08",
-   "preco": 115796.01,
-   "valor_avaliacao": 192993.35,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 85.00 de área total, 85.00 de área privativa, 91.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407121081",
-   "geo": {
-    "lat": -9.0510437,
-    "lng": -35.3996839,
-    "fonte": "google"
+    "lng": -40.14665859999999
    },
    "geo_pendente": false
   },
@@ -1232,30 +1043,11 @@
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 10300.38 de área do terreno.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555528022657",
+   "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -9.0491226,
-    "lng": -35.3981327,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444412153980",
-   "uf": "AL",
-   "cidade": "RIO LARGO",
-   "bairro": "TABULEIRO DO PINTO",
-   "endereco": "RUA 04, N. SN, LT 37B, QD C",
-   "preco": 48486.97,
-   "valor_avaliacao": 135000.0,
-   "desconto": 64.09,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 62.62 de área privativa, 125.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412153980",
-   "geo": {
-    "lat": -9.5270151,
-    "lng": -35.7971065,
-    "fonte": "google"
+    "lng": -35.3981327
    },
    "geo_pendente": false
   },
@@ -1270,12 +1062,13 @@
    "desconto": 58.44,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 50.13 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523354005",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.535618699999999,
-    "lng": -35.7994035,
-    "fonte": "google"
+    "lng": -35.7994035
    },
    "geo_pendente": false
   },
@@ -1292,10 +1085,11 @@
    "descricao": "Casa, 0.00 de área total, 53.58 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417941014",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.4816804,
-    "lng": -35.8575639,
-    "fonte": "google"
+    "lng": -35.8575639
    },
    "geo_pendente": false
   },
@@ -1312,10 +1106,11 @@
    "descricao": "Casa, 67.68 de área total, 67.68 de área privativa, 69.19 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525348010",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.535618699999999,
-    "lng": -35.7994035,
-    "fonte": "google"
+    "lng": -35.7994035
    },
    "geo_pendente": false
   },
@@ -1332,10 +1127,11 @@
    "descricao": "Casa, 67.68 de área total, 67.68 de área privativa, 69.19 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523402786",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.535618699999999,
-    "lng": -35.7994035,
-    "fonte": "google"
+    "lng": -35.7994035
    },
    "geo_pendente": false
   },
@@ -1352,10 +1148,11 @@
    "descricao": "Casa, 54.39 de área total, 54.39 de área privativa, 54.39 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523354480",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.535618699999999,
-    "lng": -35.7994035,
-    "fonte": "google"
+    "lng": -35.7994035
    },
    "geo_pendente": false
   },
@@ -1372,10 +1169,11 @@
    "descricao": "Casa, 50.13 de área total, 50.13 de área privativa, 1.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525191448",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.535618699999999,
-    "lng": -35.7994035,
-    "fonte": "google"
+    "lng": -35.7994035
    },
    "geo_pendente": false
   },
@@ -1392,10 +1190,11 @@
    "descricao": "Casa, 62.02 de área total, 62.02 de área privativa, 0.01 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525355220",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5334824,
-    "lng": -35.8039988,
-    "fonte": "google"
+    "lng": -35.8039988
    },
    "geo_pendente": false
   },
@@ -1412,10 +1211,11 @@
    "descricao": "Casa, 49.60 de área total, 49.60 de área privativa, 49.60 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533842533",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5053621,
-    "lng": -35.8106482,
-    "fonte": "google"
+    "lng": -35.8106482
    },
    "geo_pendente": false
   },
@@ -1432,10 +1232,11 @@
    "descricao": "Casa, 92.59 de área total, 51.35 de área privativa, 51.35 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705833074",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.4991332,
-    "lng": -35.817336,
-    "fonte": "google"
+    "lng": -35.817336
    },
    "geo_pendente": false
   },
@@ -1452,10 +1253,11 @@
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 140.00 de área do terreno.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444432786822",
+   "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -9.9198194,
-    "lng": -36.3587665,
-    "fonte": "google"
+    "lng": -36.3587665
    },
    "geo_pendente": false
   },
@@ -1472,10 +1274,11 @@
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 140.00 de área do terreno.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436352959",
+   "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -9.5688124,
-    "lng": -35.8236951,
-    "fonte": "google"
+    "lng": -35.8236951
    },
    "geo_pendente": false
   },
@@ -1492,10 +1295,11 @@
    "descricao": "Casa, 0.00 de área total, 58.91 de área privativa, 76.20 de área do terreno.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404294287",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5156136,
-    "lng": -35.8088391,
-    "fonte": "google"
+    "lng": -35.8088391
    },
    "geo_pendente": false
   },
@@ -1512,10 +1316,11 @@
    "descricao": "Casa, 85.43 de área total, 85.43 de área privativa, 166.25 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419138405",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5263499,
-    "lng": -35.797712,
-    "fonte": "google"
+    "lng": -35.797712
    },
    "geo_pendente": false
   },
@@ -1532,10 +1337,11 @@
    "descricao": "Casa, 98.55 de área total, 59.39 de área privativa, 59.39 de área do terreno,  2 qto(s), a.serv, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555522233956",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.4865254,
-    "lng": -35.8531343,
-    "fonte": "google"
+    "lng": -35.8531343
    },
    "geo_pendente": false
   },
@@ -1552,10 +1358,11 @@
    "descricao": "Casa, 67.68 de área total, 67.68 de área privativa, 69.18 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523351936",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.535618699999999,
-    "lng": -35.7994035,
-    "fonte": "google"
+    "lng": -35.7994035
    },
    "geo_pendente": false
   },
@@ -1572,10 +1379,11 @@
    "descricao": "Casa, 50.81 de área total, 50.81 de área privativa, 75.57 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555515551549",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5284277,
-    "lng": -35.802629,
-    "fonte": "google"
+    "lng": -35.802629
    },
    "geo_pendente": false
   },
@@ -1592,10 +1400,11 @@
    "descricao": "Casa, 50.13 de área total, 50.13 de área privativa, 50.13 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525163401",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.535618699999999,
-    "lng": -35.7994035,
-    "fonte": "google"
+    "lng": -35.7994035
    },
    "geo_pendente": false
   },
@@ -1612,10 +1421,11 @@
    "descricao": "Casa, 53.58 de área total, 53.58 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417508132",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.4816804,
-    "lng": -35.8575639,
-    "fonte": "google"
+    "lng": -35.8575639
    },
    "geo_pendente": false
   },
@@ -1632,10 +1442,11 @@
    "descricao": "Casa, 50.13 de área total, 50.13 de área privativa, 50.13 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525031289",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.4779045,
-    "lng": -35.8355099,
-    "fonte": "google"
+    "lng": -35.8355099
    },
    "geo_pendente": false
   },
@@ -1652,10 +1463,11 @@
    "descricao": "Apartamento, 47.58 de área total, 47.58 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706412331",
+   "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -9.5079742,
-    "lng": -35.8094229,
-    "fonte": "google"
+    "lng": -35.8094229
    },
    "geo_pendente": false
   },
@@ -1672,10 +1484,11 @@
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 140.00 de área do terreno.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433736268",
+   "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -9.526405,
-    "lng": -35.7974367,
-    "fonte": "google"
+    "lng": -35.7974367
    },
    "geo_pendente": false
   },
@@ -1692,10 +1505,11 @@
    "descricao": "Casa, 47.82 de área total, 47.82 de área privativa, 42.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535973902",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.4889344,
-    "lng": -35.8184513,
-    "fonte": "google"
+    "lng": -35.8184513
    },
    "geo_pendente": false
   },
@@ -1710,34 +1524,75 @@
    "desconto": 38.96,
    "financiamento": "Não",
    "descricao": "Casa, 54.89 de área total, 54.89 de área privativa, 225.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406047378",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.4805404,
-    "lng": -35.8427506,
-    "fonte": "google"
+    "lng": -35.8427506
    },
    "geo_pendente": false
   },
   {
-   "id": "8444428525890",
+   "id": "8444418187712",
    "uf": "AL",
-   "cidade": "SAO JOSE DA TAPERA",
-   "bairro": "CENTRO",
-   "endereco": "RUA NOBERTO BARRETO MUNIZ, N. 166, LOTE 11  QUADRA C1",
-   "preco": 142484.67,
-   "valor_avaliacao": 213000.0,
-   "desconto": 33.11,
+   "cidade": "RIO LARGO",
+   "bairro": "Lourenço Albuquerque",
+   "endereco": "RUA DR EMILIO MAIA, N. SN, CS 14 LT 14 QD C",
+   "preco": 130000.0,
+   "valor_avaliacao": 130000.0,
+   "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Casa, 90.65 de área total, 90.65 de área privativa, 240.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Casa, 53.58 de área total, 53.58 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428525890",
-   "geo": {
-    "lat": -9.5535576,
-    "lng": -37.3907997,
-    "fonte": "google"
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418187712",
+   "tipo": "casa"
+  },
+  {
+   "id": "8555531867164",
+   "uf": "AL",
+   "cidade": "RIO LARGO",
+   "bairro": "Chácara Meu Cantinho",
+   "endereco": "AVENIDA PRESIDENTE FERNANDO COLLOR DE MELLO, N. SN, Apto 13, BL 03",
+   "preco": 140000.0,
+   "valor_avaliacao": 140000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 50.00 de área total, 50.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555531867164",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "1444418191029",
+   "uf": "AL",
+   "cidade": "RIO LARGO",
+   "bairro": "TABULEIRO DO PINTO",
+   "endereco": "RUA A, N. SN, CS 06",
+   "preco": 190000.0,
+   "valor_avaliacao": 190000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 106.18 de área total, 51.66 de área privativa, 180.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418191029",
+   "tipo": "casa"
+  },
+  {
+   "id": "8444402441665",
+   "uf": "AL",
+   "cidade": "RIO LARGO",
+   "bairro": "TABULEIRO DO PINTO",
+   "endereco": "RUA  JACAREPAGUA, N. 22, CS 13",
+   "preco": 102700.0,
+   "valor_avaliacao": 102700.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 73.02 de área total, 49.82 de área privativa, 900.00 de área do terreno,  2 qto(s), a.serv, 1 sala(s), 1 lavabo(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444402441665",
+   "tipo": "casa"
   },
   {
    "id": "8555514757429",
@@ -1752,30 +1607,11 @@
    "descricao": "Casa, 43.87 de área total, 43.87 de área privativa, 128.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555514757429",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.3187647,
-    "lng": -35.561035,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444418119911",
-   "uf": "AL",
-   "cidade": "SATUBA",
-   "bairro": "PORTAL DO RENASCER",
-   "endereco": "RUA EM PROJETO, N. 02, QD K LT 03",
-   "preco": 55744.84,
-   "valor_avaliacao": 120000.0,
-   "desconto": 53.55,
-   "financiamento": "Não",
-   "descricao": "Casa, 79.24 de área total, 17.74 de área privativa, 167.26 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418119911",
-   "geo": {
-    "lat": -9.569429999999999,
-    "lng": -35.824663,
-    "fonte": "google"
+    "lng": -35.561035
    },
    "geo_pendente": false
   },
@@ -1792,10 +1628,11 @@
    "descricao": "Apartamento, 49.90 de área total, 49.90 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415383103",
+   "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -9.5688124,
-    "lng": -35.8236951,
-    "fonte": "google"
+    "lng": -35.8236951
    },
    "geo_pendente": false
   },
@@ -1812,10 +1649,11 @@
    "descricao": "Casa, 47.42 de área total, 47.42 de área privativa, 172.68 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414316917",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5711829,
-    "lng": -35.8107977,
-    "fonte": "google"
+    "lng": -35.8107977
    },
    "geo_pendente": false
   },
@@ -1832,10 +1670,11 @@
    "descricao": "Casa, 72.00 de área total, 72.00 de área privativa, 175.00 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555519639831",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.9190204,
-    "lng": -36.353315,
-    "fonte": "google"
+    "lng": -36.353315
    },
    "geo_pendente": false
   },
@@ -1852,10 +1691,11 @@
    "descricao": "Casa, 0.00 de área total, 93.60 de área privativa, 169.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403685550",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.8855965,
-    "lng": -36.3638638,
-    "fonte": "google"
+    "lng": -36.3638638
    },
    "geo_pendente": false
   },
@@ -1872,10 +1712,11 @@
    "descricao": "Casa, 82.50 de área total, 82.50 de área privativa, 182.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405300671",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.9167087,
-    "lng": -36.3486228,
-    "fonte": "google"
+    "lng": -36.3486228
    },
    "geo_pendente": false
   },
@@ -1892,30 +1733,11 @@
    "descricao": "Casa, 71.40 de área total, 71.40 de área privativa, 120.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405765909",
+   "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.916219,
-    "lng": -36.355503,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555534466675",
-   "uf": "AL",
-   "cidade": "TEOTONIO VILELA",
-   "bairro": "SAO JORGE",
-   "endereco": "RUA 16 DE SETEMBRO, N. 567, LT 16 QD S-2",
-   "preco": 55561.34,
-   "valor_avaliacao": 92000.0,
-   "desconto": 39.61,
-   "financiamento": "Não",
-   "descricao": "Casa, 72.00 de área total, 72.00 de área privativa, 140.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534466675",
-   "geo": {
-    "lat": -9.9130369,
-    "lng": -36.3648749,
-    "fonte": "google"
+    "lng": -36.355503
    },
    "geo_pendente": false
   }
