@@ -43,7 +43,10 @@ jobs:
           retention-days: 1
 
   consolidar:
+    # sempre roda (mesmo se alguma UF falhar no download): consolida as UFs que
+    # vieram ok e marca as ausentes como falha real, preservando o dado anterior.
     needs: baixar
+    if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 10
     outputs:
@@ -78,6 +81,13 @@ jobs:
 
       - name: Commit dos dados
         run: |
+          # changed=false: as cópias frescas por-UF só atualizam `coletado_em`
+          # (churn). Descarta e não commita para não poluir o histórico a cada run.
+          if [ "${{ steps.consolida.outputs.changed }}" != "true" ]; then
+            git checkout -- data/ .github/state/ 2>/dev/null || true
+            echo "Sem dados novos (changed=false) — sem commit."
+            exit 0
+          fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ -n "$(git status --porcelain data/ .github/state/)" ]; then
