@@ -268,7 +268,8 @@ function makeMarkerIcon(color, emoji){
   ctx.textAlign = "center"; ctx.textBaseline = "middle";
   ctx.fillStyle = "#0f172a";
   ctx.fillText(emoji, s/2, s/2 + 0.5);
-  return c;
+  // map.addImage() não aceita <canvas>: precisa ser ImageData/ImageBitmap/HTMLImageElement
+  return ctx.getImageData(0, 0, s, s);
 }
 
 function buildLegend(){
