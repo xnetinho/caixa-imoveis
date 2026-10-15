@@ -404,35 +404,9 @@ async function loadData(uf){
     });
   }
 
-  // se não encontrou o imovel no dataset selecionado mas temos deepLink, tenta fallback global
-  if (deepLinkId && !allFeatures.some(f=>f.properties.id===deepLinkId)){
-    try {
-      const r = await fetch("data/imoveis.json", {cache:"no-store"});
-      if (r.ok){
-        const gdoc = await r.json();
-        for (const im of (gdoc.imoveis||[])){
-          if (im.id !== deepLinkId) continue;
-          const g = im.geo;
-          if (!g || g.lat==null || g.lng==null) continue;
-          const cat = categoriaTipo(im.tipo);
-          allFeatures.push({
-            type:"Feature",
-            geometry:{type:"Point", coordinates:[g.lng, g.lat]},
-            properties:{
-              id: im.id, uf: im.uf, cidade: im.cidade, bairro: im.bairro,
-              endereco: im.endereco, preco: im.preco, valor_avaliacao: im.valor_avaliacao,
-              desconto: im.desconto, modalidade: im.modalidade, descricao: im.descricao,
-              link: im.link, financiamento: im.financiamento, tipo: im.tipo,
-              tipo_cat: cat, tipo_icon: "tipo-"+cat, tipo_label: TIPO_LABEL[cat],
-              fonte: g.fonte || null
-            }
-          });
-          // sincroniza filtro de UF para mostrar o imóvel
-          uf = im.uf;
-          break;
-        }
-      }
-    } catch(e){ console.warn("fallback global", e); }
+  // deep-link: se o imóvel não está nesta UF, recarrega o dataset global
+  if (deepLinkId && uf && !allFeatures.some(f=>f.properties.id===deepLinkId)){
+    return loadData("");
   }
 
   // filtro de UF = seletor de dados (lista estática de 27 UFs)
@@ -889,8 +863,10 @@ async function detectUfByIp(){
 async function boot(){
   let uf = "";
   try { uf = localStorage.getItem("caixa_uf") || ""; } catch(e){}
-  if (deepLinkUf && UFS.includes(deepLinkUf)) uf = deepLinkUf;
-  if (!uf){
+  if (deepLinkId){
+    // deep-link: usa a UF do link; sem ela, carrega o dataset global (garante achar o imóvel)
+    uf = (deepLinkUf && UFS.includes(deepLinkUf)) ? deepLinkUf : "";
+  } else if (!uf){
     $("subTitle").textContent = "Detectando seu estado…";
     uf = await detectUfByIp();
     if (uf){ try { localStorage.setItem("caixa_uf", uf); } catch(e){} }
