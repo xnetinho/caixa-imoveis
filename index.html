@@ -346,6 +346,8 @@ function initMap(){
     map.on("mouseleave","imovel-points", ()=> map.getCanvas().style.cursor="");
 
     mapLoaded = true;
+    ensureLayers();
+    if (allFeatures.length) applyFilters();
     if (pendingDeepLink){ const id = pendingDeepLink; pendingDeepLink = null; openImovel(id); }
   });
 
@@ -434,7 +436,7 @@ async function loadData(uf){
       ? `Esta seleção tem ${total.toLocaleString("pt-BR")} imóveis, mas nenhum ainda geolocalizado.`
       : "Nenhum imóvel encontrado.";
     $("results").innerHTML = '<div class="empty">Nenhum imóvel com localização nesta seleção. Troque o estado ou escolha "Todos os estados".</div>';
-    if (map && map.getSource("imoveis")) map.getSource("imoveis").setData({type:"FeatureCollection", features:[]});
+    if (mapLoaded && map && map.getSource("imoveis")) map.getSource("imoveis").setData({type:"FeatureCollection", features:[]});
     return;
   }
 
@@ -444,7 +446,7 @@ async function loadData(uf){
 }
 
 function fitAll(){
-  if (!allFeatures.length || !map) return;
+  if (!allFeatures.length || !mapLoaded || !map) return;
   const b = turfBounds(allFeatures.map(f=>f.geometry.coordinates));
   map.fitBounds([[b[0],b[1]],[b[2],b[3]]], {padding:60, maxZoom:11});
 }
@@ -533,7 +535,7 @@ function applyFilters(){
     `Mostrando ${filtered.length.toLocaleString("pt-BR")} imóveis` +
     (filtered.length !== allFeatures.length ? ` de ${allFeatures.length.toLocaleString("pt-BR")}` : "");
 
-  if (map && map.getSource("imoveis")){
+  if (mapLoaded && map && map.getSource("imoveis")){
     map.getSource("imoveis").setData({type:"FeatureCollection", features: filtered});
   }
   renderResults();
@@ -578,7 +580,7 @@ function renderResults(){
 function flyTo(id){
   const f = allFeatures.find(x=>x.properties.id===id);
   if (!f) return;
-  if (map) map.flyTo({center:f.geometry.coordinates, zoom: Math.max(map.getZoom(), 15)});
+  if (mapLoaded && map) map.flyTo({center:f.geometry.coordinates, zoom: Math.max(map.getZoom(), 15)});
   selectImovel(id);
 }
 
@@ -644,7 +646,7 @@ function selectImovel(id){
   ensureLayers();
 
   // marca visualmente o imóvel selecionado
-  if (map){
+  if (mapLoaded && map){
     if (map.getLayer("selected-ring")) map.removeLayer("selected-ring");
     if (map.getSource("selected-ring")) map.removeSource("selected-ring");
     map.addSource("selected-ring", {type:"geojson", data:{type:"FeatureCollection", features:[f]}});
@@ -654,7 +656,7 @@ function selectImovel(id){
 }
 
 function ensureLayers(){
-  if (!map) return;
+  if (!mapLoaded || !map) return;
   if (!poiSourceAdded){
     map.addSource("pois", {type:"geojson", data:{type:"FeatureCollection", features:[]}});
     map.addLayer({id:"poi-layer", type:"circle", source:"pois",
@@ -732,7 +734,7 @@ async function loadPOIs(lat, lng){
   features.forEach(f=> f.properties.dist = distM(lat, lng, f.geometry.coordinates[1], f.geometry.coordinates[0]));
   features.sort((a,b)=>a.properties.dist-b.properties.dist);
 
-  if (map && map.getSource("pois")){
+  if (mapLoaded && map && map.getSource("pois")){
     map.getSource("pois").setData({type:"FeatureCollection", features});
   }
 
@@ -759,11 +761,11 @@ async function route(lat1,lng1,lat2,lng2){
 }
 
 function drawRoute(geojson, dist, dur){
-  if (map && map.getSource("route")){
+  if (mapLoaded && map && map.getSource("route")){
     map.getSource("route").setData(geojson);
   }
   const b = turfBounds(geojson.geometry.coordinates);
-  map.fitBounds([[b[0],b[1]],[b[2],b[3]]], {padding:80, maxZoom:15});
+  if (mapLoaded && map) map.fitBounds([[b[0],b[1]],[b[2],b[3]]], {padding:80, maxZoom:15});
   const km = (dist/1000).toFixed(1);
   const min = Math.round(dur/60);
   $("routeMeta").innerHTML = `Distância: <strong>${km} km</strong> · Tempo: <strong>~${min} min</strong>`;
@@ -840,8 +842,10 @@ const deepLinkUf = (params.get("uf") || "").toUpperCase();
 function openImovel(id){
   const f = allFeatures.find(x=>x.properties.id===id);
   if (!f) return;
-  if (!mapLoaded && map){ pendingDeepLink = id; return; }
-  flyTo(id);
+  // abre o card já; se o mapa ainda não está pronto, centraliza quando carregar
+  if (mapLoaded && map){ flyTo(id); return; }
+  selectImovel(id);
+  pendingDeepLink = id;
 }
 
 /* ============ seletor de UF / geo-IP / boot ============ */
