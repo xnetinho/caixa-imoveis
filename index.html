@@ -332,6 +332,10 @@ function initMap(){
   map.on("click","spider-points", e => { selectImovel(e.features[0].properties.id); clearSpider(); });
   map.on("mouseenter","imovel-points", ()=> map.getCanvas().style.cursor="pointer");
   map.on("mouseleave","imovel-points", ()=> map.getCanvas().style.cursor="");
+  map.on("mouseenter","clusters", ()=> map.getCanvas().style.cursor="pointer");
+  map.on("mouseleave","clusters", ()=> map.getCanvas().style.cursor="");
+  map.on("mouseenter","spider-points", ()=> map.getCanvas().style.cursor="pointer");
+  map.on("mouseleave","spider-points", ()=> map.getCanvas().style.cursor="");
 
   map.on("load", ()=>{
     mapLoaded = true;
