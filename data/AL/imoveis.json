@@ -1,9 +1,9 @@
 {
  "uf": "AL",
- "data_geracao_caixa": "14/10/2026",
- "coletado_em": "14/10/2026 22:23",
+ "data_geracao_caixa": "15/10/2026",
+ "coletado_em": "15/10/2026 22:10",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AL.csv",
- "total": 84,
+ "total": 79,
  "colunas": [
   "id",
   "uf",
@@ -30,7 +30,7 @@
    "desconto": 43.71,
    "financiamento": "Sim",
    "descricao": "Casa, 0.00 de área total, 88.69 de área privativa, 176.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555507349060",
    "tipo": "casa",
    "geo": {
@@ -223,9 +223,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427060835",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.7777319,
-    "lng": -36.3590835,
-    "fonte": "google"
+    "lng": -36.3590835
    },
    "geo_pendente": false
   },
@@ -268,48 +268,6 @@
     "fonte": "google",
     "lat": -9.7776008,
     "lng": -36.3604128
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555532261944",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "BENEDITO BENTES",
-   "endereco": "RUA JOÃO PAULO, N. 451, Apto 203, BL 09",
-   "preco": 92889.2,
-   "valor_avaliacao": 165000.0,
-   "desconto": 43.71,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 125.35 de área total, 42.42 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532261944",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.559320399999999,
-    "lng": -35.7350658
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787703813777",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "BENEDITO BENTES",
-   "endereco": "RUA PROJETADA O, N. 86, Apto 303, BL 09",
-   "preco": 109096.64,
-   "valor_avaliacao": 190000.0,
-   "desconto": 42.59,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 42.42 de área total, 42.42 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703813777",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.556395,
-    "lng": -35.7281169
    },
    "geo_pendente": false
   },
@@ -436,27 +394,6 @@
     "fonte": "google",
     "lat": -9.5603039,
     "lng": -35.7437783
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444414514697",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "PETROPOLIS",
-   "endereco": "RUA DA VITORIA, N. 408, Apto 301, BLOCO 17",
-   "preco": 98816.7,
-   "valor_avaliacao": 160000.0,
-   "desconto": 38.24,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 47.28 de área total, 42.44 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414514697",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.623314,
-    "lng": -35.744344
    },
    "geo_pendente": false
   },
@@ -986,27 +923,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555537078498",
-   "uf": "AL",
-   "cidade": "PILAR",
-   "bairro": "CHA DO PILAR",
-   "endereco": "RUA ANA GENILDA COSTA BARROS, N. 12,",
-   "preco": 113709.4,
-   "valor_avaliacao": 209035.34,
-   "desconto": 45.61,
-   "financiamento": "Sim",
-   "descricao": "Casa, 81.20 de área total, 81.20 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537078498",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.5924673,
-    "lng": -35.9502131
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444407867806",
    "uf": "AL",
    "cidade": "PILAR",
@@ -1311,7 +1227,7 @@
    "desconto": 43.71,
    "financiamento": "Sim",
    "descricao": "Casa, 85.43 de área total, 85.43 de área privativa, 166.25 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419138405",
    "tipo": "casa",
    "geo": {
@@ -1647,7 +1563,7 @@
    "desconto": 46.01,
    "financiamento": "Sim",
    "descricao": "Apartamento, 49.90 de área total, 49.90 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415383103",
    "tipo": "apartamento",
    "geo": {
@@ -1693,9 +1609,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555514093440",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.9070129,
-    "lng": -36.3511485,
-    "fonte": "google"
+    "lng": -36.3511485
    },
    "geo_pendente": false
   },
@@ -1738,27 +1654,6 @@
     "fonte": "google",
     "lat": -9.8855965,
     "lng": -36.3638638
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444405300671",
-   "uf": "AL",
-   "cidade": "TEOTONIO VILELA",
-   "bairro": "DEPUTADO BENEDITO DE LIRA",
-   "endereco": "AVENIDA MANOEL FIRMINO DOS SANTOS, N. 259, QD D",
-   "preco": 97272.69,
-   "valor_avaliacao": 175000.0,
-   "desconto": 44.42,
-   "financiamento": "Sim",
-   "descricao": "Casa, 82.50 de área total, 82.50 de área privativa, 182.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405300671",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.9167087,
-    "lng": -36.3486228
    },
    "geo_pendente": false
   },
