@@ -4,6 +4,14 @@ on:
   push:
     branches: [master]
   workflow_dispatch: {}
+  # Pushes feitos pelos jobs com GITHUB_TOKEN (commits `data:`/`geo:`) NÃO
+  # disparam workflows. Então o deploy é reexecutado ao término deles.
+  workflow_run:
+    workflows:
+      - "Atualizar dados Caixa (CSV -> JSON + TOON)"
+      - "Enriquecer geodata"
+    types: [completed]
+    branches: [master]
 
 permissions:
   contents: read
@@ -21,7 +29,12 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # ref: master garante o dataset mais recente mesmo quando disparado por
+      # workflow_run (cujo github.sha é o SHA que INICIOU o workflow, não o
+      # commit `data:`/`geo:` que ele acabou de fazer).
       - uses: actions/checkout@v4
+        with:
+          ref: master
 
       - uses: actions/configure-pages@v5
 
