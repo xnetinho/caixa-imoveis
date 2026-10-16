@@ -152,6 +152,8 @@
   </div>
   <div class="filters">
     <select id="ufFilter"><option value="">Todos os estados</option></select>
+    <input id="buscaFilter" type="text" placeholder="🔍 Busca livre (regex)…" autocomplete="off" spellcheck="false"
+      title="Regex aplicado a descrição, endereço, cidade, bairro e tipo. Ex.: 10[0-9] (apartamentos 101–109) · casa|sobrado · ^jardim">
     <div class="row">
       <select id="cidadeFilter"><option value="">Todas as cidades</option></select>
       <select id="bairroFilter" disabled><option value="">Todos os bairros</option></select>
@@ -305,6 +307,12 @@ function makeMarkerIcon(color, emoji){
   // map.addImage() não aceita <canvas>: precisa ser ImageData/ImageBitmap/HTMLImageElement
   return ctx.getImageData(0, 0, s, s);
 }
+// 1px transparente p/ ícones ausentes do sprite (evita aviso styleimagemissing)
+function blankIcon(){
+  const c = document.createElement("canvas");
+  c.width = 1; c.height = 1;
+  return c.getContext("2d").getImageData(0, 0, 1, 1);
+}
 
 function buildLegend(){
   $("legendTipos").innerHTML = Object.entries(TIPO_COLORS).map(([cat,color])=>
@@ -326,6 +334,12 @@ function initMap(){
   });
   map.addControl(new maplibregl.NavigationControl({visualizePitch:true}), "top-right");
   map.addControl(new maplibregl.ScaleControl({maxWidth:100, unit:"metric"}), "bottom-left");
+
+  // o estilo liberty referencia alguns ícones que não existem no sprite dele
+  // (gate, toll_booth, office…). Fornece um 1px transparente p/ não logar aviso.
+  map.on("styleimagemissing", e => {
+    try { map.addImage(e.id, blankIcon()); } catch(err){}
+  });
 
   map.on("click","clusters", onClusterClick);
   map.on("click","imovel-points", e => { selectImovel(e.features[0].properties.id); });
@@ -566,6 +580,7 @@ async function loadData(uf){
 
   // zera filtros (novo dataset) e monta as opções recursivas
   for (const d of FILTERS) $(d.id).value = "";
+  $("buscaFilter").value = "";
   refreshFilterOptions();
 
   const dataTxt = doc.atualizado_em || doc.data_geracao_caixa || "";
@@ -622,6 +637,19 @@ const FILTERS = [
 function readSelections(){
   return Object.fromEntries(FILTERS.map(d => [d.key, $(d.id).value]));
 }
+// compila a regex do campo de busca (null se vazia/inválida)
+function compileSearch(){
+  const q = $("buscaFilter").value.trim();
+  if (!q) return null;
+  try { return new RegExp(q, "i"); } catch(e){ return {invalid:true}; }
+}
+function searchMatches(p, re){
+  if (!re) return true;
+  if (re.invalid) return false;
+  const hay = [p.descricao, p.endereco, p.cidade, p.bairro, p.modalidade, p.tipo, p.id]
+    .filter(Boolean).join(" ");
+  return re.test(hay);
+}
 // passa por todos os filtros exceto `exceptKey` (a própria faceta ignora a si mesma)
 function passes(sel, p, exceptKey){
   for (const d of FILTERS){
@@ -668,7 +696,9 @@ function refreshFilterOptions(){
 
 function applyFilters(){
   const sel = readSelections();
-  filtered = allFeatures.filter(f => passes(sel, f.properties));
+  const re = compileSearch();
+  $("buscaFilter").style.borderColor = (re && re.invalid) ? "var(--danger)" : "";
+  filtered = allFeatures.filter(f => passes(sel, f.properties) && searchMatches(f.properties, re));
 
   const ordem = $("ordenarFilter").value;
   if (SORT_FNS[ordem]) filtered = filtered.slice().sort(SORT_FNS[ordem]);
@@ -688,6 +718,7 @@ for (const d of FILTERS){
   $(d.id).addEventListener("change", ()=>{ refreshFilterOptions(); applyFilters(); });
 }
 $("ordenarFilter").addEventListener("change", applyFilters);
+$("buscaFilter").addEventListener("input", ()=>{ applyFilters(); });
 
 /* ============ lista de resultados ============ */
 function renderResults(){
@@ -924,11 +955,12 @@ async function route(lat1,lng1,lat2,lng2){
   return d.routes[0];
 }
 
-function drawRoute(geojson, dist, dur){
+function drawRoute(route, dist, dur){
+  const geom = route.geometry;
   if (mapLoaded && map && map.getSource("route")){
-    map.getSource("route").setData(geojson);
+    map.getSource("route").setData({type:"FeatureCollection", features:[{type:"Feature", geometry: geom, properties:{}}]});
   }
-  const b = turfBounds(geojson.geometry.coordinates);
+  const b = turfBounds(geom.coordinates);
   if (mapLoaded && map) map.fitBounds([[b[0],b[1]],[b[2],b[3]]], {padding:80, maxZoom:15});
   const km = (dist/1000).toFixed(1);
   const min = Math.round(dur/60);
@@ -945,7 +977,7 @@ function routeFromMe(lat,lng){
     async pos=>{
       try {
         const r = await route(pos.coords.latitude, pos.coords.longitude, lat, lng);
-        drawRoute(r.geometry, r.distance, r.duration);
+        drawRoute(r, r.distance, r.duration);
       } catch(e){ toast("Falha ao calcular rota: "+e.message); }
     },
     err=>{ toast("Não foi possível obter sua localização: "+(err.message||"permissão negada")); },
@@ -969,7 +1001,7 @@ function setOrigin(lat, lng){
   if (!f) return;
   $("routeMeta").innerHTML = '<span class="spinner"></span> Calculando rota…';
   route(lat, lng, f.geometry.coordinates[1], f.geometry.coordinates[0]).then(r=>{
-    drawRoute(r.geometry, r.distance, r.duration);
+    drawRoute(r, r.distance, r.duration);
   }).catch(e=>toast("Falha ao calcular rota: "+e.message));
 }
 
