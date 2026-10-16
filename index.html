@@ -122,6 +122,20 @@
   #legend .dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;border:1px solid var(--line)}
   #legend .sq{width:9px;height:9px;border-radius:2px;flex-shrink:0;border:1px solid var(--line)}
 
+  /* Seletor de camadas (estilos base) */
+  .layer-switcher button{color:var(--txt)}
+  .layer-menu{
+    position:fixed;z-index:50;background:var(--panel);
+    border:1px solid var(--line);border-radius:8px;overflow:hidden;min-width:170px;
+    box-shadow:0 4px 16px rgba(0,0,0,.4)
+  }
+  .layer-menu-item{
+    display:block;width:100%;text-align:left;padding:9px 12px;border:none;
+    background:var(--panel);color:var(--txt);font-size:13px;cursor:pointer;box-sizing:border-box
+  }
+  .layer-menu-item:hover{background:var(--panel2)}
+  .layer-menu-item.active{color:var(--accent);font-weight:600}
+
   @media(max-width:640px){
     #panel,#detail{width:calc(100vw - 20px)}
   }
@@ -189,6 +203,26 @@ const STYLE_URL = "https://tiles.openfreemap.org/styles/liberty";
 const OSRM_URL = "https://router.project-osrm.org/route/v1/driving/";
 const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
 const OVERPASS_MIRROR = "https://overpass.kumi.systems/api/interpreter";
+const GLYPHS_URL = "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf";
+const CLUSTER_MAX_ZOOM = 17;
+
+// estilos base (alternáveis via botão "Camadas", como no Traccar-Web)
+function rasterStyle(tiles, maxzoom, attribution){
+  return {
+    version: 8,
+    sources: { custom: { type:"raster", tiles, tileSize:256, maxzoom, attribution } },
+    glyphs: GLYPHS_URL,
+    layers: [{ id:"custom", type:"raster", source:"custom" }]
+  };
+}
+const GOOGLE_TILES = lyrs => [0,1,2,3].map(i =>
+  `https://mt${i}.google.com/vt/lyrs=${lyrs}&hl=pt-BR&x={x}&y={y}&z={z}&s=Ga`);
+const BASE_STYLES = [
+  { id:"openFreeMap", title:"OpenFreeMap", style: STYLE_URL },
+  { id:"googleRoad", title:"Google Mapa", style: rasterStyle(GOOGLE_TILES("m"), 20, "© Google") },
+  { id:"googleSatellite", title:"Google Satélite", style: rasterStyle(GOOGLE_TILES("s"), 20, "© Google") },
+  { id:"googleHybrid", title:"Google Híbrido", style: rasterStyle(GOOGLE_TILES("y"), 20, "© Google") },
+];
 
 const UFS = ["AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG",
              "PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO"];
@@ -240,9 +274,9 @@ let map;
 let allFeatures = [];      // imóveis com geo (Feature[])
 let filtered = [];         // após filtros
 let selectedId = null;
-let poiSourceAdded = false;
-let routeSourceAdded = false;
 let originMarker = null;   // marcador de origem da rota
+let spider = null;         // {cid} do cluster spiderfied
+let currentStyleId = "openFreeMap";
 let mapLoaded = false;
 let pendingDeepLink = null;
 
@@ -288,24 +322,69 @@ function initMap(){
     style: STYLE_URL,
     center: [-52, -14],
     zoom: 4.3,
-    attributionControl: {compact:true}
+    attributionControl: false
   });
   map.addControl(new maplibregl.NavigationControl({visualizePitch:true}), "top-right");
   map.addControl(new maplibregl.ScaleControl({maxWidth:100, unit:"metric"}), "bottom-left");
 
+  map.on("click","clusters", onClusterClick);
+  map.on("click","imovel-points", e => { selectImovel(e.features[0].properties.id); });
+  map.on("click","spider-points", e => { selectImovel(e.features[0].properties.id); clearSpider(); });
+  map.on("mouseenter","imovel-points", ()=> map.getCanvas().style.cursor="pointer");
+  map.on("mouseleave","imovel-points", ()=> map.getCanvas().style.cursor="");
+
   map.on("load", ()=>{
+    mapLoaded = true;
+    ensureBaseLayers();
+    ensureLayers();
+    if (allFeatures.length) applyFilters();
+    if (pendingDeepLink){ const id = pendingDeepLink; pendingDeepLink = null; openImovel(id); }
+  });
+
+  map.on("style.load", ()=>{
+    if (!mapLoaded) return;
+    ensureBaseLayers();
+    ensureLayers();
+    if (allFeatures.length) applyFilters();
+    redrawSelectedRing();
+  });
+
+  map.on("movestart", clearSpider);
+
+  map.on("click", e => {
+    if (placingOrigin){
+      setOrigin(e.lngLat.lat, e.lngLat.lng);
+      return;
+    }
+    if (spider){
+      const hit = map.queryRenderedFeatures(e.point, { layers:["clusters","spider-points","imovel-points"] });
+      if (!hit.length) clearSpider();
+    }
+  });
+
+  addLayerSwitcher();
+  } catch (e) {
+    console.error("Falha ao iniciar o mapa (WebGL indisponível?):", e);
+    $("subTitle").textContent = ($("subTitle").textContent || "") + " · mapa indisponível neste dispositivo";
+  }
+}
+
+/* ============ camadas base (idempotente: re-adiciona após setStyle) ============ */
+function ensureBaseLayers(){
+  if (!map) return;
+  if (!map.getSource("imoveis")){
     map.addSource("imoveis", {
       type:"geojson",
       data:{type:"FeatureCollection", features:[]},
       cluster:true,
-      clusterMaxZoom:14,
+      clusterMaxZoom:CLUSTER_MAX_ZOOM,
       clusterRadius:55
     });
-
-    for (const [cat,color] of Object.entries(TIPO_COLORS)){
-      if (!map.hasImage("tipo-"+cat)) map.addImage("tipo-"+cat, makeMarkerIcon(color, TIPO_EMOJI[cat]));
-    }
-
+  }
+  for (const [cat,color] of Object.entries(TIPO_COLORS)){
+    if (!map.hasImage("tipo-"+cat)) map.addImage("tipo-"+cat, makeMarkerIcon(color, TIPO_EMOJI[cat]));
+  }
+  if (!map.getLayer("clusters")){
     map.addLayer({
       id:"clusters", type:"circle", source:"imoveis", filter:["has","point_count"],
       paint:{
@@ -315,6 +394,8 @@ function initMap(){
         "circle-opacity":0.9
       }
     });
+  }
+  if (!map.getLayer("cluster-count")){
     map.addLayer({
       id:"cluster-count", type:"symbol", source:"imoveis", filter:["has","point_count"],
       layout:{
@@ -323,6 +404,8 @@ function initMap(){
       },
       paint:{"text-color":"#ffffff"}
     });
+  }
+  if (!map.getLayer("imovel-points")){
     map.addLayer({
       id:"imovel-points", type:"symbol", source:"imoveis", filter:["!",["has","point_count"]],
       layout:{
@@ -331,36 +414,85 @@ function initMap(){
         "icon-allow-overlap":true,
       }
     });
-
-    map.on("click","clusters", e => {
-      const f = e.features[0];
-      const cid = f.properties.cluster_id;
-      map.getSource("imoveis").getClusterExpansionZoom(cid, (err, zoom)=>{
-        if (err) return;
-        map.easeTo({center:f.geometry.coordinates, zoom});
-      });
-    });
-    map.on("click","imovel-points", e => {
-      selectImovel(e.features[0].properties.id);
-    });
-    map.on("mouseenter","imovel-points", ()=> map.getCanvas().style.cursor="pointer");
-    map.on("mouseleave","imovel-points", ()=> map.getCanvas().style.cursor="");
-
-    mapLoaded = true;
-    ensureLayers();
-    if (allFeatures.length) applyFilters();
-    if (pendingDeepLink){ const id = pendingDeepLink; pendingDeepLink = null; openImovel(id); }
-  });
-
-  map.on("click", e => {
-    if (placingOrigin){
-      setOrigin(e.lngLat.lat, e.lngLat.lng);
-    }
-  });
-  } catch (e) {
-    console.error("Falha ao iniciar o mapa (WebGL indisponível?):", e);
-    $("subTitle").textContent = ($("subTitle").textContent || "") + " · mapa indisponível neste dispositivo";
   }
+}
+
+/* ============ clusters / spiderfy (Leaflet.markercluster) ============ */
+async function onClusterClick(e){
+  const f = e.features[0];
+  const cid = f.properties.cluster_id;
+  const src = map.getSource("imoveis");
+  if (!src) return;
+  let exp;
+  try { exp = await src.getClusterExpansionZoom(cid); } catch(err){ return; }
+  if (exp > CLUSTER_MAX_ZOOM){
+    let leaves = [];
+    try { leaves = await src.getClusterLeaves(cid, f.properties.point_count || 1000, 0); }
+    catch(err){ return; }
+    spiderfy(f.geometry.coordinates, leaves, cid);
+  } else {
+    map.easeTo({ center: f.geometry.coordinates, zoom: exp });
+  }
+}
+
+// posições relativas ao centro (pixels de tela, y positivo p/ baixo)
+function spiderPositions(count){
+  const res = [];
+  if (count < 9){
+    const circumference = 25 * (2 + count);
+    const legLength = Math.max(circumference / (Math.PI * 2), 35);
+    const angleStep = (Math.PI * 2) / count;
+    for (let i = 0; i < count; i++){
+      const angle = i * angleStep;
+      res.push({ x: legLength * Math.cos(angle), y: legLength * Math.sin(angle) + 10 });
+    }
+  } else {
+    const separation = 28;
+    const lengthFactor = 5 * Math.PI * 2;
+    let angle = 0;
+    let legLength = 11;
+    for (let i = count; i >= 0; i--){
+      if (i < count){
+        res.push({ x: legLength * Math.cos(angle), y: legLength * Math.sin(angle) });
+      }
+      angle += separation / legLength + i * 0.0005;
+      legLength += lengthFactor / angle;
+    }
+  }
+  return res;
+}
+
+function spiderfy(center, leaves, cid){
+  clearSpider();
+  if (!map || !leaves.length) return;
+  const px = map.project(center);
+  const positions = spiderPositions(leaves.length);
+  const points = [];
+  const legs = [];
+  for (let i = 0; i < leaves.length; i++){
+    const off = positions[i] || { x:0, y:0 };
+    const ll = map.unproject({ x: px.x + off.x, y: px.y + off.y });
+    const coord = [ll.lng, ll.lat];
+    points.push({ type:"Feature", geometry:{ type:"Point", coordinates: coord }, properties: leaves[i].properties || {} });
+    legs.push({ type:"Feature", geometry:{ type:"LineString", coordinates:[center, coord] }, properties:{} });
+  }
+  if (map.getSource("spider")){
+    map.getSource("spider").setData({ type:"FeatureCollection", features: points });
+    map.getSource("spider-legs").setData({ type:"FeatureCollection", features: legs });
+  }
+  const hide = ["all", ["has","point_count"], ["!=","cluster_id", cid]];
+  if (map.getLayer("clusters")) map.setFilter("clusters", hide);
+  if (map.getLayer("cluster-count")) map.setFilter("cluster-count", hide);
+  spider = { cid };
+}
+
+function clearSpider(){
+  if (!map) return;
+  if (map.getSource("spider")) map.getSource("spider").setData({ type:"FeatureCollection", features: [] });
+  if (map.getSource("spider-legs")) map.getSource("spider-legs").setData({ type:"FeatureCollection", features: [] });
+  if (map.getLayer("clusters")) map.setFilter("clusters", ["has","point_count"]);
+  if (map.getLayer("cluster-count")) map.setFilter("cluster-count", ["has","point_count"]);
+  spider = null;
 }
 
 /* ============ carregamento dos dados ============ */
@@ -647,29 +779,51 @@ function selectImovel(id){
   ensureLayers();
 
   // marca visualmente o imóvel selecionado
-  if (mapLoaded && map){
-    if (map.getLayer("selected-ring")) map.removeLayer("selected-ring");
-    if (map.getSource("selected-ring")) map.removeSource("selected-ring");
-    map.addSource("selected-ring", {type:"geojson", data:{type:"FeatureCollection", features:[f]}});
-    map.addLayer({id:"selected-ring", type:"circle", source:"selected-ring",
-      paint:{"circle-radius":11,"circle-color":"#ffffff","circle-opacity":0.9,"circle-stroke-width":3,"circle-stroke-color":"#38bdf8"}});
-  }
+  drawSelectedRing(f);
+}
+
+function hasCoincident(f){
+  const [lng, lat] = f.geometry.coordinates;
+  return allFeatures.some(x => x !== f &&
+    x.geometry.coordinates[0] === lng && x.geometry.coordinates[1] === lat);
+}
+
+function drawSelectedRing(f){
+  if (!mapLoaded || !map) return;
+  if (map.getLayer("selected-ring")) map.removeLayer("selected-ring");
+  if (map.getSource("selected-ring")) map.removeSource("selected-ring");
+  if (hasCoincident(f)) return;   // não cobre o cluster com o disco branco
+  map.addSource("selected-ring", {type:"geojson", data:{type:"FeatureCollection", features:[f]}});
+  map.addLayer({id:"selected-ring", type:"circle", source:"selected-ring",
+    paint:{"circle-radius":11,"circle-color":"#ffffff","circle-opacity":0.9,"circle-stroke-width":3,"circle-stroke-color":"#38bdf8"}});
+}
+
+function redrawSelectedRing(){
+  const f = allFeatures.find(x => x.properties.id === selectedId);
+  if (f) drawSelectedRing(f);
 }
 
 function ensureLayers(){
-  if (!mapLoaded || !map) return;
-  if (!poiSourceAdded){
+  if (!map) return;
+  if (!map.getSource("pois")){
     map.addSource("pois", {type:"geojson", data:{type:"FeatureCollection", features:[]}});
     map.addLayer({id:"poi-layer", type:"circle", source:"pois",
       paint:{"circle-radius":5,"circle-color":["get","color"],"circle-stroke-width":1,"circle-stroke-color":"#0f172a"}});
-    poiSourceAdded = true;
   }
-  if (!routeSourceAdded){
+  if (!map.getSource("route")){
     map.addSource("route", {type:"geojson", data:{type:"FeatureCollection", features:[]}});
     map.addLayer({id:"route-line", type:"line", source:"route",
       layout:{"line-join":"round","line-cap":"round"},
       paint:{"line-color":"#38bdf8","line-width":4,"line-opacity":0.85}});
-    routeSourceAdded = true;
+  }
+  if (!map.getSource("spider")){
+    map.addSource("spider", {type:"geojson", data:{type:"FeatureCollection", features:[]}});
+    map.addSource("spider-legs", {type:"geojson", data:{type:"FeatureCollection", features:[]}});
+    map.addLayer({id:"spider-legs", type:"line", source:"spider-legs",
+      layout:{"line-join":"round","line-cap":"round"},
+      paint:{"line-color":"#38bdf8","line-width":2,"line-opacity":0.7}});
+    map.addLayer({id:"spider-points", type:"symbol", source:"spider",
+      layout:{"icon-image":["get","tipo_icon"],"icon-size":0.9,"icon-allow-overlap":true}});
   }
 }
 
@@ -847,6 +1001,78 @@ function openImovel(id){
   if (mapLoaded && map){ flyTo(id); return; }
   selectImovel(id);
   pendingDeepLink = id;
+}
+
+/* ============ seletor de camadas (estilos base) ============ */
+function setStyle(id, persist = true){
+  const st = BASE_STYLES.find(s => s.id === id);
+  if (!st || !map) return;
+  currentStyleId = id;
+  if (persist){ try { localStorage.setItem("caixa_style", id); } catch(e){} }
+  clearSpider();
+  map.setStyle(st.style);
+}
+
+function addLayerSwitcher(){
+  if (!map) return;
+  let saved = "";
+  try { saved = localStorage.getItem("caixa_style") || ""; } catch(e){}
+
+  const menuItems = [];
+  let menu = null;
+
+  function refreshMenu(){
+    BASE_STYLES.forEach((st, i) => menuItems[i].classList.toggle("active", st.id === currentStyleId));
+  }
+  function showMenu(anchor){
+    refreshMenu();
+    menu.style.display = "block";
+    menu.style.left = (anchor.right - menu.offsetWidth) + "px";
+    menu.style.top = (anchor.bottom + 4) + "px";
+  }
+  function hideMenu(){ if (menu) menu.style.display = "none"; }
+
+  // o menu fica fora do .maplibregl-ctrl-group (que tem overflow:hidden)
+  menu = document.createElement("div");
+  menu.className = "layer-menu";
+  menu.style.display = "none";
+  BASE_STYLES.forEach(st => {
+    const item = document.createElement("button");
+    item.type = "button";
+    item.className = "layer-menu-item";
+    item.textContent = st.title;
+    item.addEventListener("click", () => { setStyle(st.id); hideMenu(); });
+    menu.appendChild(item);
+    menuItems.push(item);
+  });
+  document.body.appendChild(menu);
+
+  const control = {
+    onAdd(){
+      const wrap = document.createElement("div");
+      wrap.className = "maplibregl-ctrl maplibregl-ctrl-group layer-switcher";
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.title = "Camadas";
+      btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>';
+      wrap.appendChild(btn);
+      btn.addEventListener("click", e => {
+        e.stopPropagation();
+        if (menu.style.display === "none") showMenu(btn.getBoundingClientRect());
+        else hideMenu();
+      });
+      return wrap;
+    },
+    onRemove(){ if (menu){ menu.remove(); menu = null; } }
+  };
+
+  map.addControl(control, "top-right");
+
+  document.addEventListener("click", e => { if (menu && menu.style.display !== "none" && !menu.contains(e.target)) hideMenu(); });
+
+  if (saved && saved !== "openFreeMap" && BASE_STYLES.some(s => s.id === saved)){
+    setStyle(saved, false);
+  }
 }
 
 /* ============ seletor de UF / geo-IP / boot ============ */
