@@ -423,14 +423,19 @@ async function onClusterClick(e){
   const cid = f.properties.cluster_id;
   const src = map.getSource("imoveis");
   if (!src) return;
-  let exp;
-  try { exp = await src.getClusterExpansionZoom(cid); } catch(err){ return; }
-  if (exp > CLUSTER_MAX_ZOOM){
-    let leaves = [];
-    try { leaves = await src.getClusterLeaves(cid, f.properties.point_count || 1000, 0); }
-    catch(err){ return; }
+  // pega as folhas e decide: todas na MESMA coordenada => spiderfy; senão => zoom até separar
+  let leaves;
+  try { leaves = await src.getClusterLeaves(cid, f.properties.point_count || 1000, 0); }
+  catch(err){ return; }
+  if (!leaves || !leaves.length) return;
+  const [lng, lat] = leaves[0].geometry.coordinates;
+  const coincident = leaves.every(x =>
+    x.geometry.coordinates[0] === lng && x.geometry.coordinates[1] === lat);
+  if (coincident){
     spiderfy(f.geometry.coordinates, leaves, cid);
   } else {
+    let exp;
+    try { exp = await src.getClusterExpansionZoom(cid); } catch(err){ return; }
     map.easeTo({ center: f.geometry.coordinates, zoom: exp });
   }
 }
@@ -487,7 +492,7 @@ function spiderfy(center, leaves, cid){
 }
 
 function clearSpider(){
-  if (!map) return;
+  if (!map || !spider) return;
   if (map.getSource("spider")) map.getSource("spider").setData({ type:"FeatureCollection", features: [] });
   if (map.getSource("spider-legs")) map.getSource("spider-legs").setData({ type:"FeatureCollection", features: [] });
   if (map.getLayer("clusters")) map.setFilter("clusters", ["has","point_count"]);
