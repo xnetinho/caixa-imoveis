@@ -1,9 +1,9 @@
 {
  "uf": "AL",
- "data_geracao_caixa": "15/10/2026",
- "coletado_em": "15/10/2026 22:10",
+ "data_geracao_caixa": "16/10/2026",
+ "coletado_em": "16/10/2026 22:14",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AL.csv",
- "total": 79,
+ "total": 86,
  "colunas": [
   "id",
   "uf",
@@ -125,25 +125,34 @@
    "geo_pendente": false
   },
   {
-   "id": "8444430685000",
+   "id": "8444407896385",
    "uf": "AL",
-   "cidade": "ATALAIA",
-   "bairro": "JOSE PAULINO",
-   "endereco": "RUA EM PROJETO, N. SN, LT 01 QD C LOT BITTENCOURT",
-   "preco": 137846.25,
-   "valor_avaliacao": 107000.0,
+   "cidade": "CAPELA",
+   "bairro": "Clima Bom",
+   "endereco": "PLG DA RUA DR. JOSE VANIO DE BARROS MORAES, N. 114,",
+   "preco": 151947.2,
+   "valor_avaliacao": 151947.2,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Casa, 43.51 de área total, 43.51 de área privativa, 160.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "descricao": "Casa, 82.75 de área total, 82.75 de área privativa, 137.70 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430685000",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.515672499999999,
-    "lng": -36.0111448
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407896385",
+   "tipo": "casa"
+  },
+  {
+   "id": "8444408225387",
+   "uf": "AL",
+   "cidade": "CAPELA",
+   "bairro": "Clima Bom",
+   "endereco": "RUA DR JOSE VANIO DE BARROS MORAES, N. 113,",
+   "preco": 151947.2,
+   "valor_avaliacao": 151947.2,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 82.75 de área privativa, 137.70 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408225387",
+   "tipo": "casa"
   },
   {
    "id": "8444408241749",
@@ -272,6 +281,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444415980438",
+   "uf": "AL",
+   "cidade": "JARAMATAIA",
+   "bairro": "CENTRO",
+   "endereco": "RUA CAMILO PINHEIRO DA SILVA, N. 22,",
+   "preco": 145000.0,
+   "valor_avaliacao": 145000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 85.96 de área total, 85.96 de área privativa, 140.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415980438",
+   "tipo": "casa"
+  },
+  {
    "id": "8555519537290",
    "uf": "AL",
    "cidade": "MACEIO",
@@ -293,6 +317,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444410498182",
+   "uf": "AL",
+   "cidade": "MACEIO",
+   "bairro": "CIDADE UNIVERSITARIA",
+   "endereco": "RUA EM PROJETO, N. 110, CS 30 BL 02",
+   "preco": 92444.76,
+   "valor_avaliacao": 156000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Casa, 52.29 de área total, 45.19 de área privativa, 46.07 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410498182",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -9.5998158,
+    "lng": -35.7316526
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787720921809",
    "uf": "AL",
    "cidade": "MACEIO",
@@ -310,27 +355,6 @@
     "fonte": "google",
     "lat": -9.518847,
     "lng": -35.7775149
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787715311615",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "RODOVIA AL105, N. 330, CASA 160, QD C",
-   "preco": 132970.97,
-   "valor_avaliacao": 220000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Casa, 79.25 de área total, 54.83 de área privativa, 89.95 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715311615",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.5603039,
-    "lng": -35.7437783
    },
    "geo_pendente": false
   },
@@ -377,6 +401,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444406448356",
+   "uf": "AL",
+   "cidade": "MACEIO",
+   "bairro": "PRADO",
+   "endereco": "RUA AGNELO BARBOSA, N. 76,",
+   "preco": 266397.37,
+   "valor_avaliacao": 440000.0,
+   "desconto": 39.46,
+   "financiamento": "Não",
+   "descricao": "Comercial, 154.52 de área total, 154.52 de área privativa, 151.80 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406448356",
+   "tipo": "comercial",
+   "geo": {
+    "fonte": "google",
+    "lat": -9.665744799999999,
+    "lng": -35.7442275
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787722551472",
    "uf": "AL",
    "cidade": "MACEIO",
@@ -396,6 +441,21 @@
     "lng": -35.7437783
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10201540",
+   "uf": "AL",
+   "cidade": "MACEIO",
+   "bairro": "FAROL",
+   "endereco": "AVENIDA DOUTOR MANOEL MOREIRA E SILVA, N. 653",
+   "preco": 539769.78,
+   "valor_avaliacao": 850000.0,
+   "desconto": 36.5,
+   "financiamento": "Não",
+   "descricao": "Comercial, 0.00 de área total, 827.77 de área privativa, 647.52 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10201540",
+   "tipo": "comercial"
   },
   {
    "id": "1555502666549",
@@ -419,18 +479,39 @@
    "geo_pendente": false
   },
   {
-   "id": "8787716725081",
+   "id": "8787706584892",
+   "uf": "AL",
+   "cidade": "MACEIO",
+   "bairro": "TABULEIRO DO MARTINS",
+   "endereco": "AVENIDA DOUTOR SEBASTIAO CORREIA DA ROCHA, N. 1165, Apto 303, BL 10",
+   "preco": 136423.61,
+   "valor_avaliacao": 183000.0,
+   "desconto": 25.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 48.11 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706584892",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -9.591514799999999,
+    "lng": -35.7642831
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716749410",
    "uf": "AL",
    "cidade": "MACEIO",
    "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "RODOVIA AL105, N. 442, CS 11 QD C",
-   "preco": 156834.14,
-   "valor_avaliacao": 210000.0,
-   "desconto": 25.32,
+   "endereco": "RODOVIA AL105, N. 442, CASA 114  QD B",
+   "preco": 158408.48,
+   "valor_avaliacao": 184593.92,
+   "desconto": 14.19,
    "financiamento": "Não",
-   "descricao": "Casa, 76.63 de área total, 54.83 de área privativa, 153.55 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "descricao": "Casa, 76.64 de área total, 54.83 de área privativa, 89.46 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716725081",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716749410",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
@@ -440,23 +521,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787709722595",
+   "id": "8787716090809",
    "uf": "AL",
    "cidade": "MACEIO",
    "bairro": "TABULEIRO DO MARTINS",
-   "endereco": "AVENIDA CARLOS GOMES DE BARROS, N. 396, Apto 404, BL 09",
-   "preco": 158427.84,
-   "valor_avaliacao": 190000.0,
-   "desconto": 16.62,
+   "endereco": "RUA DOS NAMBUS, N. 62, Apto 504, BL 08",
+   "preco": 149086.06,
+   "valor_avaliacao": 157000.0,
+   "desconto": 5.05,
    "financiamento": "Não",
-   "descricao": "Apartamento, 49.56 de área total, 40.28 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "descricao": "Apartamento, 45.95 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709722595",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716090809",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -9.5612626,
-    "lng": -35.748327
+    "lat": -9.5576507,
+    "lng": -35.750201
    },
    "geo_pendente": false
   },
@@ -482,6 +563,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8084001019354",
+   "uf": "AL",
+   "cidade": "MACEIO",
+   "bairro": "BENEDITO BENTES",
+   "endereco": "RUA 7-D, N. 64, LT 07 QD 6D",
+   "preco": 122000.0,
+   "valor_avaliacao": 122000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 20.35 de área privativa, 127.50 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8084001019354",
+   "tipo": "casa"
+  },
+  {
    "id": "8555538261970",
    "uf": "AL",
    "cidade": "MACEIO",
@@ -503,46 +599,19 @@
    "geo_pendente": false
   },
   {
-   "id": "8787716749410",
+   "id": "10316543",
    "uf": "AL",
    "cidade": "MACEIO",
-   "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "RODOVIA AL105, N. 442, CASA 114  QD B",
-   "preco": 185239.3,
-   "valor_avaliacao": 184593.92,
+   "bairro": "PAJUCARA",
+   "endereco": "AVENIDA DOUTOR ANTÔNIO GOUVEIA, N. 877, Apto 504D",
+   "preco": 535850.0,
+   "valor_avaliacao": 535850.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Casa, 76.64 de área total, 54.83 de área privativa, 89.46 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 0.00 de área total, 31.69 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716749410",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.518847,
-    "lng": -35.7775149
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787716696790",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "RODOVIA AL105, N. 442, CS 20 QD C",
-   "preco": 148400.44,
-   "valor_avaliacao": 147400.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 76.63 de área total, 54.83 de área privativa, 153.55 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716696790",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.518847,
-    "lng": -35.7775149
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10316543",
+   "tipo": "apartamento"
   },
   {
    "id": "8787712210516",
@@ -608,46 +677,19 @@
    "geo_pendente": false
   },
   {
-   "id": "8787706584892",
+   "id": "8787713730971",
    "uf": "AL",
    "cidade": "MACEIO",
-   "bairro": "TABULEIRO DO MARTINS",
-   "endereco": "AVENIDA DOUTOR SEBASTIAO CORREIA DA ROCHA, N. 1165, Apto 303, BL 10",
-   "preco": 196350.86,
-   "valor_avaliacao": 183000.0,
+   "bairro": "CIDADE UNIVERSITARIA",
+   "endereco": "RODOVIA AL105, N. 330, LT 03 LOT RESERVA DA MATA",
+   "preco": 184516.98,
+   "valor_avaliacao": 150000.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 48.11 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Casa, 79.25 de área total, 54.83 de área privativa, 89.46 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706584892",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.591514799999999,
-    "lng": -35.7642831
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787716090809",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "TABULEIRO DO MARTINS",
-   "endereco": "RUA DOS NAMBUS, N. 62, Apto 504, BL 08",
-   "preco": 180319.75,
-   "valor_avaliacao": 157000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 45.95 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716090809",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.5576507,
-    "lng": -35.750201
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713730971",
+   "tipo": "casa"
   },
   {
    "id": "8787702616153",
@@ -692,6 +734,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1555525921723",
+   "uf": "AL",
+   "cidade": "MACEIO",
+   "bairro": "TABULEIRO DO MARTINS",
+   "endereco": "RUA JOAO LISBOA CALHEIROS, N. 256,",
+   "preco": 768309.12,
+   "valor_avaliacao": 445000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1029.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555525921723",
+   "tipo": "terreno"
+  },
+  {
    "id": "1444407440685",
    "uf": "AL",
    "cidade": "MARECHAL DEODORO",
@@ -711,6 +768,21 @@
     "lng": -35.836847
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1787700948002",
+   "uf": "AL",
+   "cidade": "MARECHAL DEODORO",
+   "bairro": "Povoado Porto Grande",
+   "endereco": "RODOVIA EDVAL LEMOS SANTOS, N. SN, AL215 CS 76 QD B",
+   "preco": 187000.0,
+   "valor_avaliacao": 187000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 41.43 de área privativa, 128.82 de área do terreno,  2 qto(s), varanda, a.serv, WC, 2 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700948002",
+   "tipo": "casa"
   },
   {
    "id": "8555525065892",
@@ -900,6 +972,21 @@
     "lng": -36.5547601
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444416099338",
+   "uf": "AL",
+   "cidade": "PIACABUCU",
+   "bairro": "DIS PONTAL DO PEBA",
+   "endereco": "ALAMEDA 101 SUL, N. SN, LT 10 QD 05",
+   "preco": 259022.38,
+   "valor_avaliacao": 80000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 160.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416099338",
+   "tipo": "terreno"
   },
   {
    "id": "8444403762422",

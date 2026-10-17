@@ -1,9 +1,9 @@
 {
  "uf": "PR",
- "data_geracao_caixa": "15/10/2026",
- "coletado_em": "15/10/2026 22:11",
+ "data_geracao_caixa": "16/10/2026",
+ "coletado_em": "16/10/2026 22:15",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_PR.csv",
- "total": 396,
+ "total": 421,
  "colunas": [
   "id",
   "uf",
@@ -34,9 +34,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555522441313",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -25.5337077,
-    "lng": -48.6503303,
-    "fonte": "google"
+    "lng": -48.6503303
    },
    "geo_pendente": false
   },
@@ -55,9 +55,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10139954",
    "tipo": "gleba",
    "geo": {
+    "fonte": "google",
     "lat": -25.2662484,
-    "lng": -49.303174,
-    "fonte": "google"
+    "lng": -49.303174
    },
    "geo_pendente": false
   },
@@ -76,9 +76,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707766854",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.3495319,
-    "lng": -49.2854612,
-    "fonte": "google"
+    "lng": -49.2854612
    },
    "geo_pendente": false
   },
@@ -97,9 +97,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708229500",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.3495319,
-    "lng": -49.2854612,
-    "fonte": "google"
+    "lng": -49.2854612
    },
    "geo_pendente": false
   },
@@ -118,9 +118,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708365691",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.3495319,
-    "lng": -49.2854612,
-    "fonte": "google"
+    "lng": -49.2854612
    },
    "geo_pendente": false
   },
@@ -139,32 +139,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709477884",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.3495319,
-    "lng": -49.2854612,
-    "fonte": "google"
+    "lng": -49.2854612
    },
    "geo_pendente": false
   },
   {
-   "id": "8787700486732",
+   "id": "8555533680274",
    "uf": "PR",
    "cidade": "ALMIRANTE TAMANDARE",
-   "bairro": "CACHOEIRA",
-   "endereco": "TRAVESSA SCHULTZ, N. 288, Apto 241, BL 02 VAGA 70",
-   "preco": 194000.0,
-   "valor_avaliacao": 194000.0,
+   "bairro": "TANGUA",
+   "endereco": "RUA RUI BARBOSA, N. 11, Apto 721, BL 07 VAGA 66",
+   "preco": 210000.0,
+   "valor_avaliacao": 210000.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 42.83 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 0.00 de área total, 51.02 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700486732",
-   "tipo": "apartamento",
-   "geo": {
-    "lat": -25.3423951,
-    "lng": -49.2597531,
-    "fonte": "google"
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533680274",
+   "tipo": "apartamento"
   },
   {
    "id": "8787708168144",
@@ -181,9 +175,30 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708168144",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.3495319,
-    "lng": -49.2854612,
-    "fonte": "google"
+    "lng": -49.2854612
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787700486732",
+   "uf": "PR",
+   "cidade": "ALMIRANTE TAMANDARE",
+   "bairro": "CACHOEIRA",
+   "endereco": "TRAVESSA SCHULTZ, N. 288, Apto 241, BL 02 VAGA 70",
+   "preco": 219038.26,
+   "valor_avaliacao": 194000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 42.83 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700486732",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -25.3423951,
+    "lng": -49.2597531
    },
    "geo_pendente": false
   },
@@ -193,18 +208,18 @@
    "cidade": "ALTO PIQUIRI",
    "bairro": "JARDIM VENEZA",
    "endereco": "RUA LAERCIO BATISTA MOROTTI, N. 51,",
-   "preco": 171227.13,
+   "preco": 154642.56,
    "valor_avaliacao": 171227.13,
-   "desconto": 0.0,
+   "desconto": 9.69,
    "financiamento": "Não",
    "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 168.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410887324",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -24.0187022,
-    "lng": -53.4467024,
-    "fonte": "google"
+    "lng": -53.4467024
    },
    "geo_pendente": false
   },
@@ -223,9 +238,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555524055907",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -22.7857398,
-    "lng": -51.23194360000001,
-    "fonte": "google"
+    "lng": -51.23194360000001
    },
    "geo_pendente": false
   },
@@ -244,9 +259,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420180185",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.0924792,
-    "lng": -52.7900366,
-    "fonte": "google"
+    "lng": -52.7900366
    },
    "geo_pendente": false
   },
@@ -265,9 +280,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286327",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.4243914,
-    "lng": -51.95948800000001,
-    "fonte": "google"
+    "lng": -51.95948800000001
    },
    "geo_pendente": false
   },
@@ -286,9 +301,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406719252",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.0472914,
-    "lng": -50.2221256,
-    "fonte": "google"
+    "lng": -50.2221256
    },
    "geo_pendente": false
   },
@@ -307,9 +322,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712923539",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.5135438,
-    "lng": -51.4143323,
-    "fonte": "google"
+    "lng": -51.4143323
    },
    "geo_pendente": false
   },
@@ -328,9 +343,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707483526",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.5169052,
-    "lng": -51.41964429999999,
-    "fonte": "google"
+    "lng": -51.41964429999999
    },
    "geo_pendente": false
   },
@@ -349,11 +364,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10285154",
    "tipo": "imovel rural",
    "geo": {
+    "fonte": "google",
     "lat": -23.5520892,
-    "lng": -51.4598381,
-    "fonte": "google"
+    "lng": -51.4598381
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444420600893",
+   "uf": "PR",
+   "cidade": "APUCARANA",
+   "bairro": "NUCLEO HABITACIONAL MATHIAS HOFFMAN",
+   "endereco": "RUA RAUL MILANO, N. 70, QD 05",
+   "preco": 173000.0,
+   "valor_avaliacao": 173000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 59.95 de área total, 59.95 de área privativa, 157.18 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420600893",
+   "tipo": "casa"
   },
   {
    "id": "8787708094876",
@@ -370,9 +400,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708094876",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.5163731,
-    "lng": -51.4169752,
-    "fonte": "google"
+    "lng": -51.4169752
    },
    "geo_pendente": false
   },
@@ -391,9 +421,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714245406",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.3941946,
-    "lng": -51.4824205,
-    "fonte": "google"
+    "lng": -51.4824205
    },
    "geo_pendente": false
   },
@@ -412,9 +442,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720328776",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.3937041,
-    "lng": -51.4775968,
-    "fonte": "google"
+    "lng": -51.4775968
    },
    "geo_pendente": false
   },
@@ -433,11 +463,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720350240",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.3935112,
-    "lng": -51.4787829,
-    "fonte": "google"
+    "lng": -51.4787829
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555514039780",
+   "uf": "PR",
+   "cidade": "ARAPONGAS",
+   "bairro": "CONJUNTO AGUIAS",
+   "endereco": "RUA ARIRAMBA DA MATA, N. 48, QD 04",
+   "preco": 115000.0,
+   "valor_avaliacao": 115000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 139.49 de área total, 139.49 de área privativa, 240.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555514039780",
+   "tipo": "casa"
   },
   {
    "id": "1444402723743",
@@ -454,9 +499,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444402723743",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.4166523,
-    "lng": -51.4248515,
-    "fonte": "google"
+    "lng": -51.4248515
    },
    "geo_pendente": false
   },
@@ -475,9 +520,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412088380",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.4088287,
-    "lng": -51.4626051,
-    "fonte": "google"
+    "lng": -51.4626051
    },
    "geo_pendente": false
   },
@@ -496,9 +541,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555517103055",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5745235,
-    "lng": -49.3647414,
-    "fonte": "google"
+    "lng": -49.3647414
    },
    "geo_pendente": false
   },
@@ -517,9 +562,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700354267",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5512735,
-    "lng": -49.3992224,
-    "fonte": "google"
+    "lng": -49.3992224
    },
    "geo_pendente": false
   },
@@ -538,9 +583,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703015498",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5361346,
-    "lng": -49.38299259999999,
-    "fonte": "google"
+    "lng": -49.38299259999999
    },
    "geo_pendente": false
   },
@@ -559,9 +604,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714508229",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5924694,
-    "lng": -49.4119261,
-    "fonte": "google"
+    "lng": -49.4119261
    },
    "geo_pendente": false
   },
@@ -580,9 +625,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701843075",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5361346,
-    "lng": -49.38299259999999,
-    "fonte": "google"
+    "lng": -49.38299259999999
    },
    "geo_pendente": false
   },
@@ -601,9 +646,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404482830",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.6051577,
-    "lng": -49.3660186,
-    "fonte": "google"
+    "lng": -49.3660186
    },
    "geo_pendente": false
   },
@@ -622,9 +667,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444402867044",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.5966159,
-    "lng": -49.3834962,
-    "fonte": "google"
+    "lng": -49.3834962
    },
    "geo_pendente": false
   },
@@ -643,9 +688,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10306962",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -25.5709663,
-    "lng": -49.39369900000001,
-    "fonte": "google"
+    "lng": -49.39369900000001
    },
    "geo_pendente": false
   },
@@ -664,9 +709,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708110499",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5907784,
-    "lng": -49.3817793,
-    "fonte": "google"
+    "lng": -49.3817793
    },
    "geo_pendente": false
   },
@@ -685,9 +730,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708912463",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5907784,
-    "lng": -49.3817793,
-    "fonte": "google"
+    "lng": -49.3817793
    },
    "geo_pendente": false
   },
@@ -706,9 +751,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555513213085",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.5924508,
-    "lng": -49.35971199999999,
-    "fonte": "google"
+    "lng": -49.35971199999999
    },
    "geo_pendente": false
   },
@@ -727,11 +772,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555531710290",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5965911,
-    "lng": -49.3790212,
-    "fonte": "google"
+    "lng": -49.3790212
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555532380269",
+   "uf": "PR",
+   "cidade": "ARAUCARIA",
+   "bairro": "COSTEIRA",
+   "endereco": "RUA JOSE GONDEK, N. 133, Apto 48, BL A VAGA 03",
+   "preco": 257000.0,
+   "valor_avaliacao": 257000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 52.52 de área total, 46.43 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532380269",
+   "tipo": "apartamento"
   },
   {
    "id": "8555536950051",
@@ -748,9 +808,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555536950051",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5965911,
-    "lng": -49.3790212,
-    "fonte": "google"
+    "lng": -49.3790212
    },
    "geo_pendente": false
   },
@@ -769,9 +829,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409292223",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.572336,
-    "lng": -49.3956385,
-    "fonte": "google"
+    "lng": -49.3956385
    },
    "geo_pendente": false
   },
@@ -790,9 +850,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555518050585",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.5957177,
-    "lng": -49.3862992,
-    "fonte": "google"
+    "lng": -49.3862992
    },
    "geo_pendente": false
   },
@@ -811,9 +871,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534930371",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5538624,
-    "lng": -49.39607609999999,
-    "fonte": "google"
+    "lng": -49.39607609999999
    },
    "geo_pendente": false
   },
@@ -832,9 +892,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8037400518816",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6155711,
-    "lng": -49.37363,
-    "fonte": "google"
+    "lng": -49.37363
    },
    "geo_pendente": false
   },
@@ -853,9 +913,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428113568",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5494285,
-    "lng": -49.3488863,
-    "fonte": "google"
+    "lng": -49.3488863
    },
    "geo_pendente": false
   },
@@ -874,9 +934,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286371",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.375869,
-    "lng": -50.8513661,
-    "fonte": "google"
+    "lng": -50.8513661
    },
    "geo_pendente": false
   },
@@ -895,9 +955,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286372",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.3754519,
-    "lng": -50.852148,
-    "fonte": "google"
+    "lng": -50.852148
    },
    "geo_pendente": false
   },
@@ -916,9 +976,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286373",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.375869,
-    "lng": -50.8513661,
-    "fonte": "google"
+    "lng": -50.8513661
    },
    "geo_pendente": false
   },
@@ -937,9 +997,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286374",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.375869,
-    "lng": -50.8513661,
-    "fonte": "google"
+    "lng": -50.8513661
    },
    "geo_pendente": false
   },
@@ -958,9 +1018,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286382",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.3754519,
-    "lng": -50.852148,
-    "fonte": "google"
+    "lng": -50.852148
    },
    "geo_pendente": false
   },
@@ -979,9 +1039,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286383",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.3754519,
-    "lng": -50.852148,
-    "fonte": "google"
+    "lng": -50.852148
    },
    "geo_pendente": false
   },
@@ -1000,9 +1060,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286384",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.375869,
-    "lng": -50.8513661,
-    "fonte": "google"
+    "lng": -50.8513661
    },
    "geo_pendente": false
   },
@@ -1021,9 +1081,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700351950",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.1756794,
-    "lng": -51.6841376,
-    "fonte": "google"
+    "lng": -51.6841376
    },
    "geo_pendente": false
   },
@@ -1042,9 +1102,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444403057542",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.2393256,
-    "lng": -51.65751849999999,
-    "fonte": "google"
+    "lng": -51.65751849999999
    },
    "geo_pendente": false
   },
@@ -1063,9 +1123,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423239679",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.2345256,
-    "lng": -51.66411369999999,
-    "fonte": "google"
+    "lng": -51.66411369999999
    },
    "geo_pendente": false
   },
@@ -1084,9 +1144,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286328",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.15176,
-    "lng": -52.0540068,
-    "fonte": "google"
+    "lng": -52.0540068
    },
    "geo_pendente": false
   },
@@ -1105,9 +1165,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10289415",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.1517608,
-    "lng": -52.0539931,
-    "fonte": "google"
+    "lng": -52.0539931
    },
    "geo_pendente": false
   },
@@ -1126,9 +1186,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10289417",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.1506351,
-    "lng": -52.05461829999999,
-    "fonte": "google"
+    "lng": -52.05461829999999
    },
    "geo_pendente": false
   },
@@ -1147,9 +1207,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444405869528",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.1087262,
-    "lng": -50.3675124,
-    "fonte": "google"
+    "lng": -50.3675124
    },
    "geo_pendente": false
   },
@@ -1159,18 +1219,18 @@
    "cidade": "BORRAZOPOLIS",
    "bairro": "CJ VILA VERDE II",
    "endereco": "RUA MANOEL ALVES SENES, N. 255,",
-   "preco": 130000.0,
+   "preco": 90269.21,
    "valor_avaliacao": 130000.0,
-   "desconto": 0.0,
+   "desconto": 30.57,
    "financiamento": "Não",
    "descricao": "Casa, 43.21 de área total, 43.21 de área privativa, 273.63 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702475509",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.9336582,
-    "lng": -51.5931782,
-    "fonte": "google"
+    "lng": -51.5931782
    },
    "geo_pendente": false
   },
@@ -1189,9 +1249,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555515217517",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -22.7880189,
-    "lng": -51.7105082,
-    "fonte": "google"
+    "lng": -51.7105082
    },
    "geo_pendente": false
   },
@@ -1210,9 +1270,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707781578",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2740524,
-    "lng": -51.2483285,
-    "fonte": "google"
+    "lng": -51.2483285
    },
    "geo_pendente": false
   },
@@ -1231,9 +1291,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702771370",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.310764,
-    "lng": -51.2376711,
-    "fonte": "google"
+    "lng": -51.2376711
    },
    "geo_pendente": false
   },
@@ -1252,9 +1312,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705859170",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.4576651,
-    "lng": -51.8687845,
-    "fonte": "google"
+    "lng": -51.8687845
    },
    "geo_pendente": false
   },
@@ -1273,9 +1333,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704670007",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2948867,
-    "lng": -51.234461,
-    "fonte": "google"
+    "lng": -51.234461
    },
    "geo_pendente": false
   },
@@ -1294,9 +1354,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712011580",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2767973,
-    "lng": -51.2917707,
-    "fonte": "google"
+    "lng": -51.2917707
    },
    "geo_pendente": false
   },
@@ -1315,9 +1375,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10316730",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.2800784,
-    "lng": -51.27457339999999,
-    "fonte": "google"
+    "lng": -51.27457339999999
    },
    "geo_pendente": false
   },
@@ -1336,9 +1396,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410891283",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.2969577,
-    "lng": -51.25024519999999,
-    "fonte": "google"
+    "lng": -51.25024519999999
    },
    "geo_pendente": false
   },
@@ -1357,9 +1417,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706494788",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.3031945,
-    "lng": -51.2311359,
-    "fonte": "google"
+    "lng": -51.2311359
    },
    "geo_pendente": false
   },
@@ -1378,9 +1438,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430786159",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.6069887,
-    "lng": -51.58878079999999,
-    "fonte": "google"
+    "lng": -51.58878079999999
    },
    "geo_pendente": false
   },
@@ -1399,11 +1459,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421871884",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -24.5921023,
-    "lng": -52.792674,
-    "fonte": "google"
+    "lng": -52.792674
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787705253957",
+   "uf": "PR",
+   "cidade": "CAMPO LARGO",
+   "bairro": "BOM JESUS",
+   "endereco": "RODOVIA DOS EXPEDICIONARIOS, N. 1145, Apto 1514, BL 15",
+   "preco": 101541.47,
+   "valor_avaliacao": 210000.0,
+   "desconto": 51.65,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 46.20 de área total, 40.31 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705253957",
+   "tipo": "apartamento"
   },
   {
    "id": "8787702208306",
@@ -1420,9 +1495,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702208306",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -1437,34 +1512,13 @@
    "desconto": 44.1,
    "financiamento": "Não",
    "descricao": "Apartamento, 58.42 de área total, 49.94 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710407215",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4795616,
-    "lng": -49.5695369,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787704800784",
-   "uf": "PR",
-   "cidade": "CAMPO LARGO",
-   "bairro": "BOM JESUS",
-   "endereco": "RODOVIA DOS EXPEDICIONARIOS, N. 1145, Apto 1638, BL 16",
-   "preco": 95704.02,
-   "valor_avaliacao": 170000.0,
-   "desconto": 43.71,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 102.33 de área total, 40.31 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704800784",
-   "tipo": "apartamento",
-   "geo": {
-    "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5695369
    },
    "geo_pendente": false
   },
@@ -1483,9 +1537,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705475852",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -1504,9 +1558,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701168213",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -1525,9 +1579,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706421284",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4533885,
-    "lng": -49.5441097,
-    "fonte": "google"
+    "lng": -49.5441097
    },
    "geo_pendente": false
   },
@@ -1546,9 +1600,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701731650",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -1567,9 +1621,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702864998",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -1588,9 +1642,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702890824",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -1609,9 +1663,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703161273",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -1630,9 +1684,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703362783",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -1651,9 +1705,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706211182",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -1672,9 +1726,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714080237",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
    },
    "geo_pendente": false
   },
@@ -1693,9 +1747,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714096222",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
    },
    "geo_pendente": false
   },
@@ -1714,9 +1768,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714159712",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
    },
    "geo_pendente": false
   },
@@ -1735,9 +1789,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714163000",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
    },
    "geo_pendente": false
   },
@@ -1756,9 +1810,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714169181",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
    },
    "geo_pendente": false
   },
@@ -1773,13 +1827,13 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 58.12 de área total, 40.31 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714336363",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
    },
    "geo_pendente": false
   },
@@ -1798,9 +1852,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714424378",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
    },
    "geo_pendente": false
   },
@@ -1819,9 +1873,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714516698",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
    },
    "geo_pendente": false
   },
@@ -1840,9 +1894,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714553186",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4782106,
-    "lng": -49.5425616,
-    "fonte": "google"
+    "lng": -49.5425616
    },
    "geo_pendente": false
   },
@@ -1861,9 +1915,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720290876",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
    },
    "geo_pendente": false
   },
@@ -1882,9 +1936,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704497666",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -1903,9 +1957,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706366283",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4755869,
-    "lng": -49.5767014,
-    "fonte": "google"
+    "lng": -49.5767014
    },
    "geo_pendente": false
   },
@@ -1924,9 +1978,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714182609",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4795616,
-    "lng": -49.5695369,
-    "fonte": "google"
+    "lng": -49.5695369
    },
    "geo_pendente": false
   },
@@ -1945,9 +1999,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701955078",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4755869,
-    "lng": -49.5767014,
-    "fonte": "google"
+    "lng": -49.5767014
    },
    "geo_pendente": false
   },
@@ -1966,9 +2020,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701698989",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -1987,9 +2041,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702354132",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4755869,
-    "lng": -49.5767014,
-    "fonte": "google"
+    "lng": -49.5767014
    },
    "geo_pendente": false
   },
@@ -2008,9 +2062,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703259761",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -2029,9 +2083,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715714191",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4574362,
-    "lng": -49.5632424,
-    "fonte": "google"
+    "lng": -49.5632424
    },
    "geo_pendente": false
   },
@@ -2050,9 +2104,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715696967",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2071,9 +2125,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715790661",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2092,9 +2146,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715828146",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2113,9 +2167,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715828537",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2134,9 +2188,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715853620",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2155,9 +2209,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716320006",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2176,9 +2230,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716331628",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2197,9 +2251,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716496287",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2218,9 +2272,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716661008",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2239,9 +2293,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717257618",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2260,9 +2314,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717445759",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2281,9 +2335,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718141532",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2302,9 +2356,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719047270",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2323,9 +2377,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714176617",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
    },
    "geo_pendente": false
   },
@@ -2344,9 +2398,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714595962",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
    },
    "geo_pendente": false
   },
@@ -2365,9 +2419,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714703951",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
    },
    "geo_pendente": false
   },
@@ -2386,9 +2440,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716715248",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
    },
    "geo_pendente": false
   },
@@ -2407,9 +2461,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717029607",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
    },
    "geo_pendente": false
   },
@@ -2428,9 +2482,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433965534",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -2445,13 +2499,13 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 65.96 de área total, 40.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704497623",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -2470,9 +2524,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705230418",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -2491,9 +2545,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705237501",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -2512,9 +2566,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705273699",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -2533,9 +2587,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705391900",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -2554,9 +2608,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705477146",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -2575,9 +2629,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705624556",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.457046,
-    "lng": -49.5527642,
-    "fonte": "google"
+    "lng": -49.5527642
    },
    "geo_pendente": false
   },
@@ -2596,9 +2650,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705639308",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.457046,
-    "lng": -49.5527642,
-    "fonte": "google"
+    "lng": -49.5527642
    },
    "geo_pendente": false
   },
@@ -2617,9 +2671,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705647980",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -2638,9 +2692,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705691571",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -2659,9 +2713,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710357293",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -2680,9 +2734,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710694770",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -2701,9 +2755,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702847805",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -2722,9 +2776,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703202964",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -2743,9 +2797,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703574993",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -2764,9 +2818,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703961342",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -2785,9 +2839,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709676569",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4659059,
-    "lng": -49.5733112,
-    "fonte": "google"
+    "lng": -49.5733112
    },
    "geo_pendente": false
   },
@@ -2806,9 +2860,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715643120",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2827,9 +2881,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715699060",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2848,9 +2902,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715736152",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2869,9 +2923,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715985985",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4463652,
-    "lng": -49.5295697,
-    "fonte": "google"
+    "lng": -49.5295697
    },
    "geo_pendente": false
   },
@@ -2890,9 +2944,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716933091",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4398549,
-    "lng": -49.5313413,
-    "fonte": "google"
+    "lng": -49.5313413
    },
    "geo_pendente": false
   },
@@ -2911,9 +2965,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700125928",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -2932,9 +2986,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700268214",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -2953,30 +3007,51 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10284141",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.4664498,
-    "lng": -49.5566304,
-    "fonte": "google"
+    "lng": -49.5566304
    },
    "geo_pendente": false
   },
   {
-   "id": "8787704894258",
+   "id": "8787714144022",
+   "uf": "PR",
+   "cidade": "CAMPO LARGO",
+   "bairro": "BOTIATUVA",
+   "endereco": "RUA MANOEL LOPES VIEIRA, N. 143, Apto 301, BL 08 VAGA 133",
+   "preco": 151698.96,
+   "valor_avaliacao": 198868.0,
+   "desconto": 23.72,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 47.71 de área total, 40.31 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714144022",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -25.4825812,
+    "lng": -49.541076
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787704503240",
    "uf": "PR",
    "cidade": "CAMPO LARGO",
    "bairro": "BOM JESUS",
-   "endereco": "RODOVIA DOS EXPEDICIONARIOS, N. 1145, Apto 1414, BL14",
-   "preco": 184833.04,
-   "valor_avaliacao": 185000.0,
-   "desconto": 0.1,
+   "endereco": "RODOVIA DOS EXPEDICIONARIOS, N. 1145, Apto 2516, BL 25 VAGA 848",
+   "preco": 178165.06,
+   "valor_avaliacao": 187000.0,
+   "desconto": 4.73,
    "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.31 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 0.00 de área total, 40.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704894258",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704503240",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -2995,30 +3070,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703341425",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787704017915",
-   "uf": "PR",
-   "cidade": "CAMPO LARGO",
-   "bairro": "JARDIM ITAQUI",
-   "endereco": "RUA MARIA JOAQUINA VAZ, N. 721, Apto 304, BL 06 VAGA 283",
-   "preco": 190000.0,
-   "valor_avaliacao": 190000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 46.27 de área total, 40.31 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704017915",
-   "tipo": "apartamento",
-   "geo": {
-    "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -3037,53 +3091,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555519266938",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.4453851,
-    "lng": -49.5542707,
-    "fonte": "google"
+    "lng": -49.5542707
    },
    "geo_pendente": false
   },
   {
-   "id": "8787714144022",
+   "id": "8787715761530",
    "uf": "PR",
    "cidade": "CAMPO LARGO",
-   "bairro": "BOTIATUVA",
-   "endereco": "RUA MANOEL LOPES VIEIRA, N. 143, Apto 301, BL 08 VAGA 133",
-   "preco": 198868.0,
-   "valor_avaliacao": 198868.0,
+   "bairro": "OURO VERDE",
+   "endereco": "RUA CAETANO MUNHOZ DA ROCHA, N. 1080, Apto 201, TP 15 BL 19 VAGA 660",
+   "preco": 210100.0,
+   "valor_avaliacao": 210100.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 47.71 de área total, 40.31 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 46.02 de área total, 40.31 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714144022",
-   "tipo": "apartamento",
-   "geo": {
-    "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787704503240",
-   "uf": "PR",
-   "cidade": "CAMPO LARGO",
-   "bairro": "BOM JESUS",
-   "endereco": "RODOVIA DOS EXPEDICIONARIOS, N. 1145, Apto 2516, BL 25 VAGA 848",
-   "preco": 187000.0,
-   "valor_avaliacao": 187000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704503240",
-   "tipo": "apartamento",
-   "geo": {
-    "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715761530",
+   "tipo": "apartamento"
   },
   {
    "id": "8787704801632",
@@ -3100,9 +3127,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704801632",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -3121,9 +3148,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704840697",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -3142,11 +3169,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705087968",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787705113080",
+   "uf": "PR",
+   "cidade": "CAMPO LARGO",
+   "bairro": "BOM JESUS",
+   "endereco": "R DOS EXPEDICIONARIOS, N. 1145, 1225, APTO 1225 - BLOCO 12 - VG 155 de",
+   "preco": 180000.0,
+   "valor_avaliacao": 180000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 40.31 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705113080",
+   "tipo": "apartamento"
   },
   {
    "id": "8787709668116",
@@ -3163,9 +3205,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709668116",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -3184,9 +3226,30 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714539469",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4825812,
-    "lng": -49.541076,
-    "fonte": "google"
+    "lng": -49.541076
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787705909771",
+   "uf": "PR",
+   "cidade": "CAMPO LARGO",
+   "bairro": "BOM JESUS",
+   "endereco": "RODOVIA DOS EXPEDICIONARIOS, N. 1145, Apto 1746, BL 17 VAGA 531",
+   "preco": 170415.99,
+   "valor_avaliacao": 165000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 45.82 de área total, 40.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705909771",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -25.4623449,
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -3205,30 +3268,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705883799",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4770264,
-    "lng": -49.5791638,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787705909771",
-   "uf": "PR",
-   "cidade": "CAMPO LARGO",
-   "bairro": "BOM JESUS",
-   "endereco": "RODOVIA DOS EXPEDICIONARIOS, N. 1145, Apto 1746, BL 17 VAGA 531",
-   "preco": 173981.52,
-   "valor_avaliacao": 165000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 45.82 de área total, 40.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705909771",
-   "tipo": "apartamento",
-   "geo": {
-    "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -3247,9 +3289,30 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431718009",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4408466,
-    "lng": -49.4590133,
-    "fonte": "google"
+    "lng": -49.4590133
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787704017915",
+   "uf": "PR",
+   "cidade": "CAMPO LARGO",
+   "bairro": "JARDIM ITAQUI",
+   "endereco": "RUA MARIA JOAQUINA VAZ, N. 721, Apto 304, BL 06 VAGA 283",
+   "preco": 206985.92,
+   "valor_avaliacao": 190000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 46.27 de área total, 40.31 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704017915",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -25.4770264,
+    "lng": -49.5791638
    },
    "geo_pendente": false
   },
@@ -3268,11 +3331,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705262263",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787706492467",
+   "uf": "PR",
+   "cidade": "CAMPO LARGO",
+   "bairro": "BOM JESUS",
+   "endereco": "RODOVIA DOS EXPEDICIONARIOS, N. 1145, Apto 2213, TP 03 BL 22 VAGA 470",
+   "preco": 176134.66,
+   "valor_avaliacao": 160000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 45.82 de área total, 40.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706492467",
+   "tipo": "apartamento"
   },
   {
    "id": "8787705451325",
@@ -3289,9 +3367,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705451325",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -3310,30 +3388,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704965848",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787706112346",
-   "uf": "PR",
-   "cidade": "CAMPO LARGO",
-   "bairro": "BOM JESUS",
-   "endereco": "RODOVIA DOS EXPEDICIONARIOS, N. 1145, Apto 1822, BL 18",
-   "preco": 253141.59,
-   "valor_avaliacao": 165000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 45.82 de área total, 40.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706112346",
-   "tipo": "apartamento",
-   "geo": {
-    "lat": -25.4623449,
-    "lng": -49.5592064,
-    "fonte": "google"
+    "lng": -49.5592064
    },
    "geo_pendente": false
   },
@@ -3352,9 +3409,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10217331",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -24.0609525,
-    "lng": -52.3697004,
-    "fonte": "google"
+    "lng": -52.3697004
    },
    "geo_pendente": false
   },
@@ -3373,9 +3430,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10218088",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -24.0201312,
-    "lng": -52.3736008,
-    "fonte": "google"
+    "lng": -52.3736008
    },
    "geo_pendente": false
   },
@@ -3394,11 +3451,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718804469",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -24.0161289,
-    "lng": -52.3888782,
-    "fonte": "google"
+    "lng": -52.3888782
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787715984946",
+   "uf": "PR",
+   "cidade": "CASCAVEL",
+   "bairro": "FLORESTA",
+   "endereco": "RUA JACAMINA TRICHES, N. 1916, Apto 305, BL 04 VAGA 6",
+   "preco": 208000.0,
+   "valor_avaliacao": 208000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 54.04 de área total, 46.78 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715984946",
+   "tipo": "apartamento"
   },
   {
    "id": "8787716276740",
@@ -3415,9 +3487,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716276740",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -24.9120451,
-    "lng": -53.4150425,
-    "fonte": "google"
+    "lng": -53.4150425
    },
    "geo_pendente": false
   },
@@ -3436,9 +3508,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700728213",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -22.8120131,
-    "lng": -51.5940157,
-    "fonte": "google"
+    "lng": -51.5940157
    },
    "geo_pendente": false
   },
@@ -3457,9 +3529,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700731273",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -22.8206794,
-    "lng": -51.5967259,
-    "fonte": "google"
+    "lng": -51.5967259
    },
    "geo_pendente": false
   },
@@ -3478,9 +3550,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415736636",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.6485401,
-    "lng": -52.627863,
-    "fonte": "google"
+    "lng": -52.627863
    },
    "geo_pendente": false
   },
@@ -3499,9 +3571,30 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555532391432",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.7552278,
-    "lng": -53.3076488,
-    "fonte": "google"
+    "lng": -53.3076488
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555525482698",
+   "uf": "PR",
+   "cidade": "COLOMBO",
+   "bairro": "SAO GABRIEL",
+   "endereco": "AVENIDA PREFEITO JOAO BATISTA STOCCO, N. 649, Apto 103, BL A",
+   "preco": 111000.0,
+   "valor_avaliacao": 185000.0,
+   "desconto": 40.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 47.48 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525482698",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -25.3471218,
+    "lng": -49.1822399
    },
    "geo_pendente": false
   },
@@ -3520,9 +3613,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444401258107",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.3747105,
-    "lng": -49.1924724,
-    "fonte": "google"
+    "lng": -49.1924724
    },
    "geo_pendente": false
   },
@@ -3541,30 +3634,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555539769463",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.3703267,
-    "lng": -49.1619012,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555525482698",
-   "uf": "PR",
-   "cidade": "COLOMBO",
-   "bairro": "SAO GABRIEL",
-   "endereco": "AVENIDA PREFEITO JOAO BATISTA STOCCO, N. 649, Apto 103, BL A",
-   "preco": 189125.0,
-   "valor_avaliacao": 185000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 47.48 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525482698",
-   "tipo": "apartamento",
-   "geo": {
-    "lat": -25.3471218,
-    "lng": -49.1822399,
-    "fonte": "google"
+    "lng": -49.1619012
    },
    "geo_pendente": false
   },
@@ -3583,9 +3655,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709861676",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6719707,
-    "lng": -49.5358056,
-    "fonte": "google"
+    "lng": -49.5358056
    },
    "geo_pendente": false
   },
@@ -3604,9 +3676,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555515362061",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6825291,
-    "lng": -49.5468935,
-    "fonte": "google"
+    "lng": -49.5468935
    },
    "geo_pendente": false
   },
@@ -3625,9 +3697,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404798498",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6744439,
-    "lng": -49.523945,
-    "fonte": "google"
+    "lng": -49.523945
    },
    "geo_pendente": false
   },
@@ -3646,9 +3718,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406189855",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6827808,
-    "lng": -49.54643739999999,
-    "fonte": "google"
+    "lng": -49.54643739999999
    },
    "geo_pendente": false
   },
@@ -3667,9 +3739,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555517143103",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6817563,
-    "lng": -49.5466479,
-    "fonte": "google"
+    "lng": -49.5466479
    },
    "geo_pendente": false
   },
@@ -3688,9 +3760,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421970368",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6786655,
-    "lng": -49.5369162,
-    "fonte": "google"
+    "lng": -49.5369162
    },
    "geo_pendente": false
   },
@@ -3709,9 +3781,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444411026235",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.672845,
-    "lng": -49.52718100000001,
-    "fonte": "google"
+    "lng": -49.52718100000001
    },
    "geo_pendente": false
   },
@@ -3730,9 +3802,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10275690",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.7906997,
-    "lng": -53.0515677,
-    "fonte": "google"
+    "lng": -53.0515677
    },
    "geo_pendente": false
   },
@@ -3751,9 +3823,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429116242",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.7838772,
-    "lng": -53.0818261,
-    "fonte": "google"
+    "lng": -53.0818261
    },
    "geo_pendente": false
   },
@@ -3772,9 +3844,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401657585",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.3753646,
-    "lng": -49.2364885,
-    "fonte": "google"
+    "lng": -49.2364885
    },
    "geo_pendente": false
   },
@@ -3793,30 +3865,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555528553075",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.3841598,
-    "lng": -49.2277797,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444416357815",
-   "uf": "PR",
-   "cidade": "CURITIBA",
-   "bairro": "TATUQUARA",
-   "endereco": "RUA OLAVO PEREIRA VILAS BOAS, N. 399, CASA 02,",
-   "preco": 130800.0,
-   "valor_avaliacao": 218000.0,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 37.10 de área total, 37.10 de área privativa, 80.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416357815",
-   "tipo": "casa",
-   "geo": {
-    "lat": -25.5739794,
-    "lng": -49.3265389,
-    "fonte": "google"
+    "lng": -49.2277797
    },
    "geo_pendente": false
   },
@@ -3835,9 +3886,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705144368",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.514636,
-    "lng": -49.2855304,
-    "fonte": "google"
+    "lng": -49.2855304
    },
    "geo_pendente": false
   },
@@ -3856,9 +3907,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700893178",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4794095,
-    "lng": -49.2874138,
-    "fonte": "google"
+    "lng": -49.2874138
    },
    "geo_pendente": false
   },
@@ -3877,30 +3928,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10301532",
    "tipo": "sala",
    "geo": {
+    "fonte": "google",
     "lat": -25.431491,
-    "lng": -49.2669863,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787702389572",
-   "uf": "PR",
-   "cidade": "CURITIBA",
-   "bairro": "SANTA CANDIDA",
-   "endereco": "RUA THEODORO MAKIOLKA, N. 285, Apto 404, BLOCO 02",
-   "preco": 248185.33,
-   "valor_avaliacao": 267000.0,
-   "desconto": 7.05,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.28 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702389572",
-   "tipo": "apartamento",
-   "geo": {
-    "lat": -25.3740346,
-    "lng": -49.2261734,
-    "fonte": "google"
+    "lng": -49.2669863
    },
    "geo_pendente": false
   },
@@ -3919,9 +3949,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407481630",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4522272,
-    "lng": -49.3548914,
-    "fonte": "google"
+    "lng": -49.3548914
    },
    "geo_pendente": false
   },
@@ -3940,11 +3970,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555504756942",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4763363,
-    "lng": -49.336676,
-    "fonte": "google"
+    "lng": -49.336676
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555538818762",
+   "uf": "PR",
+   "cidade": "CURITIBA",
+   "bairro": "CIDADE INDUSTRIAL",
+   "endereco": "RUA DESEMBARGADOR CID CAMPELO, N. 6597, Apto 102, TIPO A BL 01 VAGA 125",
+   "preco": 180000.0,
+   "valor_avaliacao": 180000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 42.23 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555538818762",
+   "tipo": "apartamento"
   },
   {
    "id": "1444410448055",
@@ -3961,11 +4006,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444410448055",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.4642805,
-    "lng": -49.2283041,
-    "fonte": "google"
+    "lng": -49.2283041
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444416132912",
+   "uf": "PR",
+   "cidade": "CURITIBA",
+   "bairro": "SITIO CERCADO",
+   "endereco": "RUA SERTANEJA, N. 72, Apto 3B, BL 08",
+   "preco": 215000.0,
+   "valor_avaliacao": 215000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 49.08 de área total, 44.13 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416132912",
+   "tipo": "apartamento"
   },
   {
    "id": "1787701381502",
@@ -3982,9 +4042,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701381502",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4956715,
-    "lng": -49.21261759999999,
-    "fonte": "google"
+    "lng": -49.21261759999999
    },
    "geo_pendente": false
   },
@@ -4003,9 +4063,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444402088436",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.3736749,
-    "lng": -49.2188532,
-    "fonte": "google"
+    "lng": -49.2188532
    },
    "geo_pendente": false
   },
@@ -4024,11 +4084,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555524925652",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.3801371,
-    "lng": -49.2390771,
-    "fonte": "google"
+    "lng": -49.2390771
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1555527191021",
+   "uf": "PR",
+   "cidade": "CURITIBA",
+   "bairro": "SANTA QUITERIA",
+   "endereco": "RUA PROFESSOR ULISSES VIEIRA, N. 1763, LT 3 QD 41",
+   "preco": 1320000.0,
+   "valor_avaliacao": 1320000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 317.64 de área privativa, 853.18 de área do terreno,  3 qto(s), varanda, a.serv, WC, 3 sala(s), 1 lavabo(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555527191021",
+   "tipo": "casa"
   },
   {
    "id": "1444402354845",
@@ -4045,9 +4120,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444402354845",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.450608,
-    "lng": -49.2956392,
-    "fonte": "google"
+    "lng": -49.2956392
    },
    "geo_pendente": false
   },
@@ -4066,9 +4141,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426134010",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.5657063,
-    "lng": -49.3256065,
-    "fonte": "google"
+    "lng": -49.3256065
    },
    "geo_pendente": false
   },
@@ -4087,11 +4162,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10312585",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.532633,
-    "lng": -49.2435075,
-    "fonte": "google"
+    "lng": -49.2435075
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444418505937",
+   "uf": "PR",
+   "cidade": "CURITIBA",
+   "bairro": "BOA VISTA",
+   "endereco": "RUA JOVINO DO ROSARIO, N. 535, LT 21 QD E",
+   "preco": 1050000.0,
+   "valor_avaliacao": 1050000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 257.56 de área privativa, 375.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418505937",
+   "tipo": "casa"
   },
   {
    "id": "8555518268031",
@@ -4108,9 +4198,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518268031",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5046942,
-    "lng": -49.2990188,
-    "fonte": "google"
+    "lng": -49.2990188
    },
    "geo_pendente": false
   },
@@ -4129,9 +4219,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421533421",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.5903536,
-    "lng": -49.3425302,
-    "fonte": "google"
+    "lng": -49.3425302
    },
    "geo_pendente": false
   },
@@ -4150,9 +4240,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422772055",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.587535,
-    "lng": -49.3428846,
-    "fonte": "google"
+    "lng": -49.3428846
    },
    "geo_pendente": false
   },
@@ -4171,9 +4261,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523551773",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5843774,
-    "lng": -49.32947110000001,
-    "fonte": "google"
+    "lng": -49.32947110000001
    },
    "geo_pendente": false
   },
@@ -4192,9 +4282,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718024536",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5755714,
-    "lng": -49.3179931,
-    "fonte": "google"
+    "lng": -49.3179931
    },
    "geo_pendente": false
   },
@@ -4204,7 +4294,7 @@
    "cidade": "CURITIBA",
    "bairro": "NOVO MUNDO",
    "endereco": "RODOVIA BR116, N. 15700, Apto 103, BL 02 VAGA 55",
-   "preco": 313410.28,
+   "preco": 307612.07,
    "valor_avaliacao": 280000.0,
    "desconto": 0.0,
    "financiamento": "Não",
@@ -4213,11 +4303,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702066660",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4936569,
-    "lng": -49.2743952,
-    "fonte": "google"
+    "lng": -49.2743952
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787719653081",
+   "uf": "PR",
+   "cidade": "CURITIBA",
+   "bairro": "FANNY",
+   "endereco": "RODOVIA BR116, N. 15700, Apto 205, TR 04 VAGA 136",
+   "preco": 320785.28,
+   "valor_avaliacao": 280000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 56.30 de área total, 43.99 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719653081",
+   "tipo": "apartamento"
   },
   {
    "id": "1444403573087",
@@ -4234,9 +4339,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444403573087",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.4370797,
-    "lng": -49.27230180000001,
-    "fonte": "google"
+    "lng": -49.27230180000001
    },
    "geo_pendente": false
   },
@@ -4255,9 +4360,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701801615",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.670113,
-    "lng": -49.3194411,
-    "fonte": "google"
+    "lng": -49.3194411
    },
    "geo_pendente": false
   },
@@ -4276,9 +4381,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714221345",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6697488,
-    "lng": -49.3369235,
-    "fonte": "google"
+    "lng": -49.3369235
    },
    "geo_pendente": false
   },
@@ -4297,9 +4402,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716393704",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6697488,
-    "lng": -49.3369235,
-    "fonte": "google"
+    "lng": -49.3369235
    },
    "geo_pendente": false
   },
@@ -4318,9 +4423,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417259703",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.6566125,
-    "lng": -49.2912658,
-    "fonte": "google"
+    "lng": -49.2912658
    },
    "geo_pendente": false
   },
@@ -4339,9 +4444,30 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418335918",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6811723,
-    "lng": -49.3036432,
-    "fonte": "google"
+    "lng": -49.3036432
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444422613216",
+   "uf": "PR",
+   "cidade": "FAZENDA RIO GRANDE",
+   "bairro": "EUCALIPTOS",
+   "endereco": "RUA MACADAMIA, N. 298, RESIDENCIA 02",
+   "preco": 211852.46,
+   "valor_avaliacao": 335000.0,
+   "desconto": 36.77,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 62.90 de área privativa, 132.22 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422613216",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -25.6322533,
+    "lng": -49.2958187
    },
    "geo_pendente": false
   },
@@ -4360,30 +4486,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421332665",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6522646,
-    "lng": -49.2925634,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444422376699",
-   "uf": "PR",
-   "cidade": "FAZENDA RIO GRANDE",
-   "bairro": "ESTADOS",
-   "endereco": "RUA SERGIPE, N. 166, 01, 0320",
-   "preco": 198691.93,
-   "valor_avaliacao": 289400.0,
-   "desconto": 31.35,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 68.50 de área privativa, 188.50 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422376699",
-   "tipo": "casa",
-   "geo": {
-    "lat": -25.6691201,
-    "lng": -49.3277161,
-    "fonte": "google"
+    "lng": -49.2925634
    },
    "geo_pendente": false
   },
@@ -4402,30 +4507,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704468682",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6650566,
-    "lng": -49.32324879999999,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444422613216",
-   "uf": "PR",
-   "cidade": "FAZENDA RIO GRANDE",
-   "bairro": "EUCALIPTOS",
-   "endereco": "RUA MACADAMIA, N. 298, RESIDENCIA 02",
-   "preco": 335000.0,
-   "valor_avaliacao": 335000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 62.90 de área privativa, 132.22 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422613216",
-   "tipo": "casa",
-   "geo": {
-    "lat": -25.6322533,
-    "lng": -49.2958187,
-    "fonte": "google"
+    "lng": -49.32324879999999
    },
    "geo_pendente": false
   },
@@ -4444,9 +4528,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418952321",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6630957,
-    "lng": -49.3300577,
-    "fonte": "google"
+    "lng": -49.3300577
    },
    "geo_pendente": false
   },
@@ -4465,11 +4549,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419901577",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.693297,
-    "lng": -49.302661,
-    "fonte": "google"
+    "lng": -49.302661
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444403150524",
+   "uf": "PR",
+   "cidade": "FAZENDA RIO GRANDE",
+   "bairro": "VENEZA",
+   "endereco": "RUA MACHADO DE ASSIS, N. 161, CS 01",
+   "preco": 237000.0,
+   "valor_avaliacao": 237000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 41.71 de área total, 41.71 de área privativa, 126.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403150524",
+   "tipo": "casa"
   },
   {
    "id": "8444433302268",
@@ -4486,11 +4585,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433302268",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6383405,
-    "lng": -49.2894308,
-    "fonte": "google"
+    "lng": -49.2894308
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444418546560",
+   "uf": "PR",
+   "cidade": "FAZENDA RIO GRANDE",
+   "bairro": "ESTADOS",
+   "endereco": "TRAVESSA PINHAO, N. 55, CS 01 T 1B",
+   "preco": 729701.74,
+   "valor_avaliacao": 570000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 160.00 de área total, 160.00 de área privativa, 138.13 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418546560",
+   "tipo": "casa"
   },
   {
    "id": "8444435489942",
@@ -4507,9 +4621,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435489942",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.6725204,
-    "lng": -49.3090657,
-    "fonte": "google"
+    "lng": -49.3090657
    },
    "geo_pendente": false
   },
@@ -4528,9 +4642,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424612373",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.622312,
-    "lng": -52.0790886,
-    "fonte": "google"
+    "lng": -52.0790886
    },
    "geo_pendente": false
   },
@@ -4549,9 +4663,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555531161830",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.6127719,
-    "lng": -52.0798509,
-    "fonte": "google"
+    "lng": -52.0798509
    },
    "geo_pendente": false
   },
@@ -4570,9 +4684,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428093745",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -24.9376865,
-    "lng": -53.4227925,
-    "fonte": "google"
+    "lng": -53.4227925
    },
    "geo_pendente": false
   },
@@ -4591,9 +4705,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414004206",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -22.8716362,
-    "lng": -51.3965799,
-    "fonte": "google"
+    "lng": -51.3965799
    },
    "geo_pendente": false
   },
@@ -4612,9 +4726,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10204783",
    "tipo": "imovel rural",
    "geo": {
+    "fonte": "google",
     "lat": -26.3202324,
-    "lng": -51.5108735,
-    "fonte": "google"
+    "lng": -51.5108735
    },
    "geo_pendente": false
   },
@@ -4633,9 +4747,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403504857",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -24.0871557,
-    "lng": -54.2059357,
-    "fonte": "google"
+    "lng": -54.2059357
    },
    "geo_pendente": false
   },
@@ -4654,11 +4768,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424621569",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -25.2468068,
-    "lng": -51.55036399999999,
-    "fonte": "google"
+    "lng": -51.55036399999999
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10316023",
+   "uf": "PR",
+   "cidade": "GUARAPUAVA",
+   "bairro": "BOQUEIRAO",
+   "endereco": "RUA RIBEIRÃO PRETO, N. 1899, LT 06",
+   "preco": 448399.87,
+   "valor_avaliacao": 448399.87,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Casa, 0.00 de área total, 93.08 de área privativa, 201.90 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10316023",
+   "tipo": "casa"
   },
   {
    "id": "1555520929360",
@@ -4675,9 +4804,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555520929360",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.8246733,
-    "lng": -50.2067284,
-    "fonte": "google"
+    "lng": -50.2067284
    },
    "geo_pendente": false
   },
@@ -4687,18 +4816,18 @@
    "cidade": "IBAITI",
    "bairro": "Centro",
    "endereco": "RUA TULIPA, N. S/N, LT 05 QD G",
-   "preco": 339000.0,
+   "preco": 203400.0,
    "valor_avaliacao": 339000.0,
-   "desconto": 0.0,
+   "desconto": 40.0,
    "financiamento": "Não",
    "descricao": "Casa, 77.22 de área total, 77.22 de área privativa, 264.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444422984119",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.8490386,
-    "lng": -50.1870842,
-    "fonte": "google"
+    "lng": -50.1870842
    },
    "geo_pendente": false
   },
@@ -4717,9 +4846,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555529503649",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.8450301,
-    "lng": -50.1881356,
-    "fonte": "google"
+    "lng": -50.1881356
    },
    "geo_pendente": false
   },
@@ -4738,9 +4867,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422324354",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.2693412,
-    "lng": -51.048006,
-    "fonte": "google"
+    "lng": -51.048006
    },
    "geo_pendente": false
   },
@@ -4759,9 +4888,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555511503647",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -24.7084609,
-    "lng": -53.087802,
-    "fonte": "google"
+    "lng": -53.087802
    },
    "geo_pendente": false
   },
@@ -4780,9 +4909,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420598244",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -24.113358,
-    "lng": -53.720996,
-    "fonte": "google"
+    "lng": -53.720996
    },
    "geo_pendente": false
   },
@@ -4801,9 +4930,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417198168",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -24.0093887,
-    "lng": -53.72235240000001,
-    "fonte": "google"
+    "lng": -53.72235240000001
    },
    "geo_pendente": false
   },
@@ -4822,9 +4951,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418332755",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -24.4310524,
-    "lng": -53.3567098,
-    "fonte": "google"
+    "lng": -53.3567098
    },
    "geo_pendente": false
   },
@@ -4843,9 +4972,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10175621",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -25.4540208,
-    "lng": -50.6111971,
-    "fonte": "google"
+    "lng": -50.6111971
    },
    "geo_pendente": false
   },
@@ -4864,9 +4993,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10215013",
    "tipo": "gleba",
    "geo": {
+    "fonte": "google",
     "lat": -25.0065316,
-    "lng": -50.8549468,
-    "fonte": "google"
+    "lng": -50.8549468
    },
    "geo_pendente": false
   },
@@ -4885,9 +5014,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444402526237",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.1657977,
-    "lng": -49.9856907,
-    "fonte": "google"
+    "lng": -49.9856907
    },
    "geo_pendente": false
   },
@@ -4906,9 +5035,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555522685644",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.1203766,
-    "lng": -51.5409108,
-    "fonte": "google"
+    "lng": -51.5409108
    },
    "geo_pendente": false
   },
@@ -4927,11 +5056,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713373613",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -24.275992,
-    "lng": -49.7199982,
-    "fonte": "google"
+    "lng": -49.7199982
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444426942613",
+   "uf": "PR",
+   "cidade": "JESUITAS",
+   "bairro": "JD SANTA FE",
+   "endereco": "RUA MANOEL RODRIGUES PARENTE, N. 126,",
+   "preco": 77570.62,
+   "valor_avaliacao": 139467.89,
+   "desconto": 44.39,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 57.10 de área privativa, 150.45 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426942613",
+   "tipo": "casa"
   },
   {
    "id": "8444403515042",
@@ -4948,9 +5092,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403515042",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.3748316,
-    "lng": -52.39403120000001,
-    "fonte": "google"
+    "lng": -52.39403120000001
    },
    "geo_pendente": false
   },
@@ -4969,9 +5113,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701887528",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.319883,
-    "lng": -51.1417665,
-    "fonte": "google"
+    "lng": -51.1417665
    },
    "geo_pendente": false
   },
@@ -4990,9 +5134,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712778865",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2659202,
-    "lng": -51.14358590000001,
-    "fonte": "google"
+    "lng": -51.14358590000001
    },
    "geo_pendente": false
   },
@@ -5011,9 +5155,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555519100985",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.3130622,
-    "lng": -51.2086255,
-    "fonte": "google"
+    "lng": -51.2086255
    },
    "geo_pendente": false
   },
@@ -5032,9 +5176,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708821557",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2625392,
-    "lng": -51.2047035,
-    "fonte": "google"
+    "lng": -51.2047035
    },
    "geo_pendente": false
   },
@@ -5053,9 +5197,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713115070",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.2632433,
-    "lng": -51.1993647,
-    "fonte": "google"
+    "lng": -51.1993647
    },
    "geo_pendente": false
   },
@@ -5074,9 +5218,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716789039",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2498941,
-    "lng": -51.17640309999999,
-    "fonte": "google"
+    "lng": -51.17640309999999
    },
    "geo_pendente": false
   },
@@ -5095,9 +5239,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714664549",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2659202,
-    "lng": -51.14358590000001,
-    "fonte": "google"
+    "lng": -51.14358590000001
    },
    "geo_pendente": false
   },
@@ -5116,9 +5260,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714437020",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.264604,
-    "lng": -51.1997146,
-    "fonte": "google"
+    "lng": -51.1997146
    },
    "geo_pendente": false
   },
@@ -5137,9 +5281,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710707197",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.264604,
-    "lng": -51.1997146,
-    "fonte": "google"
+    "lng": -51.1997146
    },
    "geo_pendente": false
   },
@@ -5158,9 +5302,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416698540",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2790594,
-    "lng": -51.18625950000001,
-    "fonte": "google"
+    "lng": -51.18625950000001
    },
    "geo_pendente": false
   },
@@ -5179,9 +5323,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714625772",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.3319457,
-    "lng": -51.1922238,
-    "fonte": "google"
+    "lng": -51.1922238
    },
    "geo_pendente": false
   },
@@ -5200,9 +5344,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702327356",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2786291,
-    "lng": -51.1973558,
-    "fonte": "google"
+    "lng": -51.1973558
    },
    "geo_pendente": false
   },
@@ -5221,9 +5365,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710171122",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2785007,
-    "lng": -51.1970485,
-    "fonte": "google"
+    "lng": -51.1970485
    },
    "geo_pendente": false
   },
@@ -5242,9 +5386,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712985518",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2831285,
-    "lng": -51.183971,
-    "fonte": "google"
+    "lng": -51.183971
    },
    "geo_pendente": false
   },
@@ -5263,9 +5407,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708426801",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2674769,
-    "lng": -51.14360079999999,
-    "fonte": "google"
+    "lng": -51.14360079999999
    },
    "geo_pendente": false
   },
@@ -5284,9 +5428,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715645785",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2643565,
-    "lng": -51.1438384,
-    "fonte": "google"
+    "lng": -51.1438384
    },
    "geo_pendente": false
   },
@@ -5305,9 +5449,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715675722",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2643565,
-    "lng": -51.1438384,
-    "fonte": "google"
+    "lng": -51.1438384
    },
    "geo_pendente": false
   },
@@ -5326,9 +5470,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716449327",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2643565,
-    "lng": -51.1438384,
-    "fonte": "google"
+    "lng": -51.1438384
    },
    "geo_pendente": false
   },
@@ -5347,9 +5491,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714664620",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2659202,
-    "lng": -51.14358590000001,
-    "fonte": "google"
+    "lng": -51.14358590000001
    },
    "geo_pendente": false
   },
@@ -5368,9 +5512,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715762030",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2659202,
-    "lng": -51.14358590000001,
-    "fonte": "google"
+    "lng": -51.14358590000001
    },
    "geo_pendente": false
   },
@@ -5389,9 +5533,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555521292444",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2727644,
-    "lng": -51.18647430000001,
-    "fonte": "google"
+    "lng": -51.18647430000001
    },
    "geo_pendente": false
   },
@@ -5410,9 +5554,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713717339",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2612098,
-    "lng": -51.2063517,
-    "fonte": "google"
+    "lng": -51.2063517
    },
    "geo_pendente": false
   },
@@ -5431,9 +5575,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701089346",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2780426,
-    "lng": -51.139509,
-    "fonte": "google"
+    "lng": -51.139509
    },
    "geo_pendente": false
   },
@@ -5452,9 +5596,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710405883",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2777946,
-    "lng": -51.14029350000001,
-    "fonte": "google"
+    "lng": -51.14029350000001
    },
    "geo_pendente": false
   },
@@ -5473,9 +5617,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705699580",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2721263,
-    "lng": -51.187709,
-    "fonte": "google"
+    "lng": -51.187709
    },
    "geo_pendente": false
   },
@@ -5494,9 +5638,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702082353",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2780426,
-    "lng": -51.139509,
-    "fonte": "google"
+    "lng": -51.139509
    },
    "geo_pendente": false
   },
@@ -5515,9 +5659,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708604360",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.264115,
-    "lng": -51.2014445,
-    "fonte": "google"
+    "lng": -51.2014445
    },
    "geo_pendente": false
   },
@@ -5536,9 +5680,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713408999",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.264604,
-    "lng": -51.1997146,
-    "fonte": "google"
+    "lng": -51.1997146
    },
    "geo_pendente": false
   },
@@ -5557,9 +5701,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715795370",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2651513,
-    "lng": -51.2053222,
-    "fonte": "google"
+    "lng": -51.2053222
    },
    "geo_pendente": false
   },
@@ -5578,9 +5722,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555524073301",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.2415402,
-    "lng": -51.1570187,
-    "fonte": "google"
+    "lng": -51.1570187
    },
    "geo_pendente": false
   },
@@ -5599,9 +5743,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710218307",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2674769,
-    "lng": -51.14360079999999,
-    "fonte": "google"
+    "lng": -51.14360079999999
    },
    "geo_pendente": false
   },
@@ -5620,9 +5764,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714972286",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.3792124,
-    "lng": -51.1398569,
-    "fonte": "google"
+    "lng": -51.1398569
    },
    "geo_pendente": false
   },
@@ -5641,9 +5785,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715184893",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.3792124,
-    "lng": -51.1398569,
-    "fonte": "google"
+    "lng": -51.1398569
    },
    "geo_pendente": false
   },
@@ -5662,9 +5806,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718426391",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.3789634,
-    "lng": -51.1400578,
-    "fonte": "google"
+    "lng": -51.1400578
    },
    "geo_pendente": false
   },
@@ -5683,9 +5827,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716771580",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2742662,
-    "lng": -51.1544284,
-    "fonte": "google"
+    "lng": -51.1544284
    },
    "geo_pendente": false
   },
@@ -5704,9 +5848,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709517843",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2636151,
-    "lng": -51.20083349999999,
-    "fonte": "google"
+    "lng": -51.20083349999999
    },
    "geo_pendente": false
   },
@@ -5725,9 +5869,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710704210",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.264604,
-    "lng": -51.1997146,
-    "fonte": "google"
+    "lng": -51.1997146
    },
    "geo_pendente": false
   },
@@ -5746,9 +5890,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710859876",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2649243,
-    "lng": -51.1681777,
-    "fonte": "google"
+    "lng": -51.1681777
    },
    "geo_pendente": false
   },
@@ -5767,9 +5911,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711654283",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2636151,
-    "lng": -51.20083349999999,
-    "fonte": "google"
+    "lng": -51.20083349999999
    },
    "geo_pendente": false
   },
@@ -5788,9 +5932,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712299266",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.264604,
-    "lng": -51.1997146,
-    "fonte": "google"
+    "lng": -51.1997146
    },
    "geo_pendente": false
   },
@@ -5809,9 +5953,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713008753",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.264604,
-    "lng": -51.1997146,
-    "fonte": "google"
+    "lng": -51.1997146
    },
    "geo_pendente": false
   },
@@ -5830,9 +5974,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713097829",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.264604,
-    "lng": -51.1997146,
-    "fonte": "google"
+    "lng": -51.1997146
    },
    "geo_pendente": false
   },
@@ -5851,9 +5995,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713115860",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.264604,
-    "lng": -51.1997146,
-    "fonte": "google"
+    "lng": -51.1997146
    },
    "geo_pendente": false
   },
@@ -5872,9 +6016,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713132810",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.264604,
-    "lng": -51.1997146,
-    "fonte": "google"
+    "lng": -51.1997146
    },
    "geo_pendente": false
   },
@@ -5893,9 +6037,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713765210",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2651513,
-    "lng": -51.2053222,
-    "fonte": "google"
+    "lng": -51.2053222
    },
    "geo_pendente": false
   },
@@ -5914,9 +6058,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713918121",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2651513,
-    "lng": -51.2053222,
-    "fonte": "google"
+    "lng": -51.2053222
    },
    "geo_pendente": false
   },
@@ -5935,9 +6079,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714700758",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.264604,
-    "lng": -51.1997146,
-    "fonte": "google"
+    "lng": -51.1997146
    },
    "geo_pendente": false
   },
@@ -5956,9 +6100,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715675005",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2651513,
-    "lng": -51.2053222,
-    "fonte": "google"
+    "lng": -51.2053222
    },
    "geo_pendente": false
   },
@@ -5977,9 +6121,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716835731",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2651513,
-    "lng": -51.2053222,
-    "fonte": "google"
+    "lng": -51.2053222
    },
    "geo_pendente": false
   },
@@ -5998,9 +6142,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718461316",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2651513,
-    "lng": -51.2053222,
-    "fonte": "google"
+    "lng": -51.2053222
    },
    "geo_pendente": false
   },
@@ -6019,9 +6163,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719532462",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2651513,
-    "lng": -51.2053222,
-    "fonte": "google"
+    "lng": -51.2053222
    },
    "geo_pendente": false
   },
@@ -6040,9 +6184,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705622251",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2777946,
-    "lng": -51.14029350000001,
-    "fonte": "google"
+    "lng": -51.14029350000001
    },
    "geo_pendente": false
   },
@@ -6061,9 +6205,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708468490",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2777946,
-    "lng": -51.14029350000001,
-    "fonte": "google"
+    "lng": -51.14029350000001
    },
    "geo_pendente": false
   },
@@ -6082,9 +6226,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701195014",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2790594,
-    "lng": -51.18625950000001,
-    "fonte": "google"
+    "lng": -51.18625950000001
    },
    "geo_pendente": false
   },
@@ -6103,9 +6247,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427548668",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.1927509,
-    "lng": -51.2053641,
-    "fonte": "google"
+    "lng": -51.2053641
    },
    "geo_pendente": false
   },
@@ -6124,9 +6268,30 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787722110336",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.306907,
-    "lng": -51.1022353,
-    "fonte": "google"
+    "lng": -51.1022353
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787718562619",
+   "uf": "PR",
+   "cidade": "LONDRINA",
+   "bairro": "CONJUNTO HABITACIONAL ALEXANDRE URBANAS",
+   "endereco": "AVENIDA JAMIL SCAFF, N. 500, Apto 402, BL 20 VAGA 253",
+   "preco": 125608.08,
+   "valor_avaliacao": 204000.0,
+   "desconto": 38.43,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 45.43 de área total, 40.54 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718562619",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.3142941,
+    "lng": -51.1164244
    },
    "geo_pendente": false
   },
@@ -6145,9 +6310,51 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8128400021471",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.2956991,
-    "lng": -51.1497047,
-    "fonte": "google"
+    "lng": -51.1497047
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716525210",
+   "uf": "PR",
+   "cidade": "LONDRINA",
+   "bairro": "JARDIM MARIA CELINA",
+   "endereco": "AVENIDA GIOCONDO MATURI, N. 1500, Apto 401, BL 10 VAGA 313",
+   "preco": 128346.18,
+   "valor_avaliacao": 175000.0,
+   "desconto": 26.66,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 51.07 de área total, 42.38 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716525210",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.2651513,
+    "lng": -51.2053222
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787710891451",
+   "uf": "PR",
+   "cidade": "LONDRINA",
+   "bairro": "JARDIM MARIA CELINA",
+   "endereco": "AVENIDA ROSALVO MARQUES BONFIM, N. 955, Apto 401, BL 06 VAGA 26",
+   "preco": 146922.24,
+   "valor_avaliacao": 192000.0,
+   "desconto": 23.48,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 90.13 de área total, 47.44 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710891451",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.264604,
+    "lng": -51.1997146
    },
    "geo_pendente": false
   },
@@ -6166,9 +6373,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712826231",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.3065886,
-    "lng": -51.1057307,
-    "fonte": "google"
+    "lng": -51.1057307
    },
    "geo_pendente": false
   },
@@ -6187,53 +6394,41 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716960510",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2742662,
-    "lng": -51.1544284,
-    "fonte": "google"
+    "lng": -51.1544284
    },
    "geo_pendente": false
   },
   {
-   "id": "8787710891451",
+   "id": "8787710689091",
    "uf": "PR",
    "cidade": "LONDRINA",
    "bairro": "JARDIM MARIA CELINA",
-   "endereco": "AVENIDA ROSALVO MARQUES BONFIM, N. 955, Apto 401, BL 06 VAGA 26",
-   "preco": 192000.0,
-   "valor_avaliacao": 192000.0,
+   "endereco": "AVENIDA ROSALVO MARQUES BONFIM, N. 955, Apto 102,",
+   "preco": 182000.0,
+   "valor_avaliacao": 182000.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 90.13 de área total, 47.44 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 90.58 de área total, 47.71 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710891451",
-   "tipo": "apartamento",
-   "geo": {
-    "lat": -23.264604,
-    "lng": -51.1997146,
-    "fonte": "google"
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710689091",
+   "tipo": "apartamento"
   },
   {
-   "id": "8787716525210",
+   "id": "8787714017926",
    "uf": "PR",
    "cidade": "LONDRINA",
    "bairro": "JARDIM MARIA CELINA",
-   "endereco": "AVENIDA GIOCONDO MATURI, N. 1500, Apto 401, BL 10 VAGA 313",
-   "preco": 175000.0,
-   "valor_avaliacao": 175000.0,
+   "endereco": "AVENIDA ROSALVO MARQUES BONFIM, N. 955, Apto 602, BL 09",
+   "preco": 212000.0,
+   "valor_avaliacao": 212000.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 51.07 de área total, 42.38 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 80.00 de área total, 47.71 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716525210",
-   "tipo": "apartamento",
-   "geo": {
-    "lat": -23.2651513,
-    "lng": -51.2053222,
-    "fonte": "google"
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714017926",
+   "tipo": "apartamento"
   },
   {
    "id": "8787703858916",
@@ -6250,9 +6445,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703858916",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.272186,
-    "lng": -51.1872252,
-    "fonte": "google"
+    "lng": -51.1872252
    },
    "geo_pendente": false
   },
@@ -6271,9 +6466,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413727280",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.2784747,
-    "lng": -51.145127,
-    "fonte": "google"
+    "lng": -51.145127
    },
    "geo_pendente": false
   },
@@ -6292,9 +6487,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426118562",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.279491,
-    "lng": -51.145523,
-    "fonte": "google"
+    "lng": -51.145523
    },
    "geo_pendente": false
   },
@@ -6313,9 +6508,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715680033",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2637075,
-    "lng": -51.2017278,
-    "fonte": "google"
+    "lng": -51.2017278
    },
    "geo_pendente": false
   },
@@ -6334,9 +6529,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716564169",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.2637075,
-    "lng": -51.2017278,
-    "fonte": "google"
+    "lng": -51.2017278
    },
    "geo_pendente": false
   },
@@ -6355,32 +6550,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707386458",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.2632433,
-    "lng": -51.1993647,
-    "fonte": "google"
+    "lng": -51.1993647
    },
    "geo_pendente": false
   },
   {
-   "id": "8787718562619",
+   "id": "8787714259296",
    "uf": "PR",
    "cidade": "LONDRINA",
-   "bairro": "CONJUNTO HABITACIONAL ALEXANDRE URBANAS",
-   "endereco": "AVENIDA JAMIL SCAFF, N. 500, Apto 402, BL 20 VAGA 253",
-   "preco": 213201.84,
-   "valor_avaliacao": 204000.0,
+   "bairro": "COLINAS",
+   "endereco": "RUA OLYMPIO THEODORO, N. 789, Apto 303, BL 13 VAGA 105",
+   "preco": 204729.94,
+   "valor_avaliacao": 185000.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 45.43 de área total, 40.54 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 76.82 de área total, 44.31 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718562619",
-   "tipo": "apartamento",
-   "geo": {
-    "lat": -23.3142941,
-    "lng": -51.1164244,
-    "fonte": "google"
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714259296",
+   "tipo": "apartamento"
   },
   {
    "id": "8787718553938",
@@ -6388,7 +6577,7 @@
    "cidade": "LONDRINA",
    "bairro": "CONJUNTO HABITACIONAL ALEXANDRE URBANAS",
    "endereco": "AVENIDA JAMIL SCAFF, N. 500, Apto 303, BL 12 VAGA 119",
-   "preco": 213201.84,
+   "preco": 176168.6,
    "valor_avaliacao": 155000.0,
    "desconto": 0.0,
    "financiamento": "Não",
@@ -6397,11 +6586,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718553938",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.3142941,
-    "lng": -51.1164244,
-    "fonte": "google"
+    "lng": -51.1164244
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787716649288",
+   "uf": "PR",
+   "cidade": "LONDRINA",
+   "bairro": "CONJUNTO HABITACIONAL ALEXANDRE URBANAS",
+   "endereco": "AVENIDA JAMIL SCAFF, N. 500, Apto 104, BL 14 VAGA 198",
+   "preco": 240960.2,
+   "valor_avaliacao": 180000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 79.02 de área total, 34.36 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716649288",
+   "tipo": "apartamento"
   },
   {
    "id": "8444406723576",
@@ -6418,9 +6622,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406723576",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -24.0802016,
-    "lng": -51.7445061,
-    "fonte": "google"
+    "lng": -51.7445061
    },
    "geo_pendente": false
   },
@@ -6439,9 +6643,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421293384",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -22.7557219,
-    "lng": -51.6572287,
-    "fonte": "google"
+    "lng": -51.6572287
    },
    "geo_pendente": false
   },
@@ -6460,11 +6664,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555529682209",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.3525608,
-    "lng": -52.0935327,
-    "fonte": "google"
+    "lng": -52.0935327
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444409016072",
+   "uf": "PR",
+   "cidade": "MANDIRITUBA",
+   "bairro": "VILA BRASILIA",
+   "endereco": "RUA RENATO PALU, N. 77, UNIDADE 01",
+   "preco": 164000.0,
+   "valor_avaliacao": 164000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 42.36 de área privativa, 109.80 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409016072",
+   "tipo": "casa"
   },
   {
    "id": "8444434287130",
@@ -6481,9 +6700,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434287130",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -24.0074301,
-    "lng": -53.152242,
-    "fonte": "google"
+    "lng": -53.152242
    },
    "geo_pendente": false
   },
@@ -6498,13 +6717,13 @@
    "desconto": 37.87,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 79.98 de área privativa, 0.00 de área do terreno, 2 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155533600021",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.4274939,
-    "lng": -51.8942305,
-    "fonte": "google"
+    "lng": -51.8942305
    },
    "geo_pendente": false
   },
@@ -6523,9 +6742,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155533600153",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.4274939,
-    "lng": -51.8942305,
-    "fonte": "google"
+    "lng": -51.8942305
    },
    "geo_pendente": false
   },
@@ -6544,9 +6763,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155533600072",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.4274939,
-    "lng": -51.8942305,
-    "fonte": "google"
+    "lng": -51.8942305
    },
    "geo_pendente": false
   },
@@ -6565,9 +6784,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155533600129",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.4274939,
-    "lng": -51.8942305,
-    "fonte": "google"
+    "lng": -51.8942305
    },
    "geo_pendente": false
   },
@@ -6586,9 +6805,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155533600137",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.4274939,
-    "lng": -51.8942305,
-    "fonte": "google"
+    "lng": -51.8942305
    },
    "geo_pendente": false
   },
@@ -6607,9 +6826,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155533600170",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.4274939,
-    "lng": -51.8942305,
-    "fonte": "google"
+    "lng": -51.8942305
    },
    "geo_pendente": false
   },
@@ -6628,9 +6847,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155533600188",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.4274939,
-    "lng": -51.8942305,
-    "fonte": "google"
+    "lng": -51.8942305
    },
    "geo_pendente": false
   },
@@ -6649,9 +6868,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155533600196",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.4274939,
-    "lng": -51.8942305,
-    "fonte": "google"
+    "lng": -51.8942305
    },
    "geo_pendente": false
   },
@@ -6670,9 +6889,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155533600218",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.4274939,
-    "lng": -51.8942305,
-    "fonte": "google"
+    "lng": -51.8942305
    },
    "geo_pendente": false
   },
@@ -6691,9 +6910,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155533600013",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.4274939,
-    "lng": -51.8942305,
-    "fonte": "google"
+    "lng": -51.8942305
    },
    "geo_pendente": false
   },
@@ -6712,9 +6931,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155533600080",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.4274939,
-    "lng": -51.8942305,
-    "fonte": "google"
+    "lng": -51.8942305
    },
    "geo_pendente": false
   },
@@ -6733,9 +6952,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155533600102",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.4274939,
-    "lng": -51.8942305,
-    "fonte": "google"
+    "lng": -51.8942305
    },
    "geo_pendente": false
   },
@@ -6754,30 +6973,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155533600110",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.4274939,
-    "lng": -51.8942305,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "10311531",
-   "uf": "PR",
-   "cidade": "MARINGA",
-   "bairro": "JARDIM NOVO OASIS",
-   "endereco": "AVENIDA TUIUTI, N. 3070, QD 367, LTS 38 E 39",
-   "preco": 3320000.0,
-   "valor_avaliacao": 3320000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Galpão, 0.00 de área total, 1269.87 de área privativa, 858.50 de área do terreno.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10311531",
-   "tipo": "galpao",
-   "geo": {
-    "lat": -23.4057092,
-    "lng": -51.8963672,
-    "fonte": "google"
+    "lng": -51.8942305
    },
    "geo_pendente": false
   },
@@ -6796,9 +6994,45 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427638527",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.3985327,
-    "lng": -51.9875958,
-    "fonte": "google"
+    "lng": -51.9875958
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "10316022",
+   "uf": "PR",
+   "cidade": "MARINGA",
+   "bairro": "PARQUE RESIDENCIAL QUEBEC",
+   "endereco": "RUA KIRI, N. 00, QD 112, LT 11",
+   "preco": 396672.92,
+   "valor_avaliacao": 358000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 360.57 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10316022",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10311531",
+   "uf": "PR",
+   "cidade": "MARINGA",
+   "bairro": "JARDIM NOVO OASIS",
+   "endereco": "AVENIDA TUIUTI, N. 3070, QD 367, LTS 38 E 39",
+   "preco": 4019544.43,
+   "valor_avaliacao": 3320000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Galpão, 0.00 de área total, 1269.87 de área privativa, 858.50 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10311531",
+   "tipo": "galpao",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.4057092,
+    "lng": -51.8963672
    },
    "geo_pendente": false
   },
@@ -6817,9 +7051,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411792971",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.71042,
-    "lng": -48.4872216,
-    "fonte": "google"
+    "lng": -48.4872216
    },
    "geo_pendente": false
   },
@@ -6838,9 +7072,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416477383",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.800337,
-    "lng": -48.544329,
-    "fonte": "google"
+    "lng": -48.544329
    },
    "geo_pendente": false
   },
@@ -6859,9 +7093,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401877224",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.1843926,
-    "lng": -52.1995471,
-    "fonte": "google"
+    "lng": -52.1995471
    },
    "geo_pendente": false
   },
@@ -6880,9 +7114,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10277173",
    "tipo": "comercial",
    "geo": {
+    "fonte": "google",
     "lat": -26.491293,
-    "lng": -51.9986056,
-    "fonte": "google"
+    "lng": -51.9986056
    },
    "geo_pendente": false
   },
@@ -6901,9 +7135,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416852972",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -26.4931307,
-    "lng": -52.002806,
-    "fonte": "google"
+    "lng": -52.002806
    },
    "geo_pendente": false
   },
@@ -6922,11 +7156,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417370130",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.1001163,
-    "lng": -52.4584646,
-    "fonte": "google"
+    "lng": -52.4584646
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1555502969851",
+   "uf": "PR",
+   "cidade": "PARANAVAI",
+   "bairro": "VILA SAO VICENTE",
+   "endereco": "RUA CAPITAO TELMO RIBEIRO, N. 1039,",
+   "preco": 266000.0,
+   "valor_avaliacao": 266000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 99.72 de área total, 99.72 de área privativa, 150.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555502969851",
+   "tipo": "casa"
   },
   {
    "id": "8444416393560",
@@ -6943,9 +7192,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416393560",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.1005457,
-    "lng": -52.4588804,
-    "fonte": "google"
+    "lng": -52.4588804
    },
    "geo_pendente": false
   },
@@ -6964,11 +7213,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700989477",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.0636851,
-    "lng": -52.4587247,
-    "fonte": "google"
+    "lng": -52.4587247
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444418315460",
+   "uf": "PR",
+   "cidade": "PATO BRANCO",
+   "bairro": "FRARON",
+   "endereco": "RUA ARMANDO MARANGON, N. 143, SOBRADO 01  LT 07",
+   "preco": 294000.0,
+   "valor_avaliacao": 294000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 55.40 de área total, 55.40 de área privativa, 130.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418315460",
+   "tipo": "casa"
   },
   {
    "id": "8444401131980",
@@ -6985,9 +7249,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444401131980",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.8972745,
-    "lng": -53.4159553,
-    "fonte": "google"
+    "lng": -53.4159553
    },
    "geo_pendente": false
   },
@@ -7006,9 +7270,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555530688649",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.8028984,
-    "lng": -53.6981419,
-    "fonte": "google"
+    "lng": -53.6981419
    },
    "geo_pendente": false
   },
@@ -7027,9 +7291,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414363338",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.8040493,
-    "lng": -53.6872406,
-    "fonte": "google"
+    "lng": -53.6872406
    },
    "geo_pendente": false
   },
@@ -7048,9 +7312,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444437167020",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.8040493,
-    "lng": -53.6872406,
-    "fonte": "google"
+    "lng": -53.6872406
    },
    "geo_pendente": false
   },
@@ -7069,9 +7333,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444420429533",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.4424118,
-    "lng": -49.18000379999999,
-    "fonte": "google"
+    "lng": -49.18000379999999
    },
    "geo_pendente": false
   },
@@ -7090,11 +7354,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444422825932",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -25.4665915,
-    "lng": -49.0618601,
-    "fonte": "google"
+    "lng": -49.0618601
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444423232773",
+   "uf": "PR",
+   "cidade": "PIRAQUARA",
+   "bairro": "VILA SAO CRISTOVAO",
+   "endereco": "RUA ELIAS ALVES FERREIRA, N. 1111,",
+   "preco": 436241.63,
+   "valor_avaliacao": 740000.0,
+   "desconto": 41.05,
+   "financiamento": "Sim",
+   "descricao": "Casa, 192.39 de área total, 192.39 de área privativa, 302.52 de área do terreno,  4 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444423232773",
+   "tipo": "casa"
   },
   {
    "id": "1555525219360",
@@ -7111,9 +7390,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555525219360",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -25.4164458,
-    "lng": -49.049529,
-    "fonte": "google"
+    "lng": -49.049529
    },
    "geo_pendente": false
   },
@@ -7132,9 +7411,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444420775873",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -25.4487128,
-    "lng": -49.0622167,
-    "fonte": "google"
+    "lng": -49.0622167
    },
    "geo_pendente": false
   },
@@ -7153,9 +7432,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414873255",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.4541629,
-    "lng": -49.0504659,
-    "fonte": "google"
+    "lng": -49.0504659
    },
    "geo_pendente": false
   },
@@ -7174,9 +7453,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403320616",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.4523267,
-    "lng": -49.0843888,
-    "fonte": "google"
+    "lng": -49.0843888
    },
    "geo_pendente": false
   },
@@ -7195,9 +7474,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407145967",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.0964928,
-    "lng": -50.2189749,
-    "fonte": "google"
+    "lng": -50.2189749
    },
    "geo_pendente": false
   },
@@ -7216,9 +7495,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518549030",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.1064557,
-    "lng": -50.12757939999999,
-    "fonte": "google"
+    "lng": -50.12757939999999
    },
    "geo_pendente": false
   },
@@ -7237,9 +7516,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532364336",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.1092551,
-    "lng": -50.12628669999999,
-    "fonte": "google"
+    "lng": -50.12628669999999
    },
    "geo_pendente": false
   },
@@ -7258,9 +7537,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713438766",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.0786155,
-    "lng": -50.1003337,
-    "fonte": "google"
+    "lng": -50.1003337
    },
    "geo_pendente": false
   },
@@ -7279,9 +7558,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714115740",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.079287,
-    "lng": -50.1004555,
-    "fonte": "google"
+    "lng": -50.1004555
    },
    "geo_pendente": false
   },
@@ -7300,30 +7579,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714598570",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.0769623,
-    "lng": -50.1001814,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787705611705",
-   "uf": "PR",
-   "cidade": "PONTA GROSSA",
-   "bairro": "CARA-CARA",
-   "endereco": "AVENIDA SIQUEIRA CAMPOS, N. 2013, Apto 204, TORRE 33",
-   "preco": 114000.0,
-   "valor_avaliacao": 190000.0,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 49.40 de área total, 48.60 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705611705",
-   "tipo": "apartamento",
-   "geo": {
-    "lat": -25.1094984,
-    "lng": -50.1240257,
-    "fonte": "google"
+    "lng": -50.1001814
    },
    "geo_pendente": false
   },
@@ -7342,9 +7600,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425452280",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.1220812,
-    "lng": -50.1259253,
-    "fonte": "google"
+    "lng": -50.1259253
    },
    "geo_pendente": false
   },
@@ -7363,9 +7621,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711121773",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.1094984,
-    "lng": -50.1240257,
-    "fonte": "google"
+    "lng": -50.1240257
    },
    "geo_pendente": false
   },
@@ -7384,9 +7642,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416368541",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.0951676,
-    "lng": -50.2088499,
-    "fonte": "google"
+    "lng": -50.2088499
    },
    "geo_pendente": false
   },
@@ -7405,9 +7663,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444411381531",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.0528186,
-    "lng": -50.1572663,
-    "fonte": "google"
+    "lng": -50.1572663
    },
    "geo_pendente": false
   },
@@ -7426,9 +7684,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712974290",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.1094984,
-    "lng": -50.1240257,
-    "fonte": "google"
+    "lng": -50.1240257
    },
    "geo_pendente": false
   },
@@ -7447,9 +7705,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423146310",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.1106695,
-    "lng": -50.1165107,
-    "fonte": "google"
+    "lng": -50.1165107
    },
    "geo_pendente": false
   },
@@ -7468,11 +7726,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712521562",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.1285103,
-    "lng": -50.1265423,
-    "fonte": "google"
+    "lng": -50.1265423
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787704047946",
+   "uf": "PR",
+   "cidade": "PONTA GROSSA",
+   "bairro": "ORFAS",
+   "endereco": "RUA JOAO PEREIRA DE OLIVEIRA, N. 199, Apto 244, BL 02 4º PAVIMENTO",
+   "preco": 160000.0,
+   "valor_avaliacao": 160000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 50.37 de área privativa, 0.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704047946",
+   "tipo": "apartamento"
   },
   {
    "id": "8444433962411",
@@ -7489,9 +7762,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433962411",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.1251397,
-    "lng": -50.1075346,
-    "fonte": "google"
+    "lng": -50.1075346
    },
    "geo_pendente": false
   },
@@ -7510,9 +7783,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702542842",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.0420237,
-    "lng": -51.4509003,
-    "fonte": "google"
+    "lng": -51.4509003
    },
    "geo_pendente": false
   },
@@ -7531,9 +7804,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425455883",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.0784205,
-    "lng": -53.485649,
-    "fonte": "google"
+    "lng": -53.485649
    },
    "geo_pendente": false
   },
@@ -7552,9 +7825,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405655704",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.082242,
-    "lng": -53.477258,
-    "fonte": "google"
+    "lng": -53.477258
    },
    "geo_pendente": false
   },
@@ -7573,9 +7846,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407072145",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.0789722,
-    "lng": -53.48992759999999,
-    "fonte": "google"
+    "lng": -53.48992759999999
    },
    "geo_pendente": false
   },
@@ -7594,9 +7867,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423873254",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.3392214,
-    "lng": -51.3963608,
-    "fonte": "google"
+    "lng": -51.3963608
    },
    "geo_pendente": false
   },
@@ -7615,9 +7888,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700131420",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.2878785,
-    "lng": -51.3789904,
-    "fonte": "google"
+    "lng": -51.3789904
    },
    "geo_pendente": false
   },
@@ -7636,9 +7909,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715768178",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.0502177,
-    "lng": -50.1438009,
-    "fonte": "google"
+    "lng": -50.1438009
    },
    "geo_pendente": false
   },
@@ -7657,9 +7930,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555530735744",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -6.521479999999999,
-    "lng": -49.83144009999999,
-    "fonte": "google"
+    "lng": -49.83144009999999
    },
    "geo_pendente": false
   },
@@ -7678,9 +7951,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426887175",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.0024837,
-    "lng": -53.2063983,
-    "fonte": "google"
+    "lng": -53.2063983
    },
    "geo_pendente": false
   },
@@ -7699,9 +7972,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555528863064",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.1055438,
-    "lng": -53.1096916,
-    "fonte": "google"
+    "lng": -53.1096916
    },
    "geo_pendente": false
   },
@@ -7720,9 +7993,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1600000016830",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.2905127,
-    "lng": -50.0767331,
-    "fonte": "google"
+    "lng": -50.0767331
    },
    "geo_pendente": false
   },
@@ -7741,9 +8014,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407275895",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -22.7367847,
-    "lng": -52.3449112,
-    "fonte": "google"
+    "lng": -52.3449112
    },
    "geo_pendente": false
   },
@@ -7762,9 +8035,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418887481",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -25.5162794,
-    "lng": -49.1443095,
-    "fonte": "google"
+    "lng": -49.1443095
    },
    "geo_pendente": false
   },
@@ -7783,9 +8056,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429344326",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5581402,
-    "lng": -49.17863800000001,
-    "fonte": "google"
+    "lng": -49.17863800000001
    },
    "geo_pendente": false
   },
@@ -7804,9 +8077,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707731775",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.567328,
-    "lng": -49.1890659,
-    "fonte": "google"
+    "lng": -49.1890659
    },
    "geo_pendente": false
   },
@@ -7825,9 +8098,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555525381796",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5008548,
-    "lng": -49.1624095,
-    "fonte": "google"
+    "lng": -49.1624095
    },
    "geo_pendente": false
   },
@@ -7846,9 +8119,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286402",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.5477018,
-    "lng": -49.1801652,
-    "fonte": "google"
+    "lng": -49.1801652
    },
    "geo_pendente": false
   },
@@ -7867,9 +8140,30 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419017472",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -25.5585807,
-    "lng": -49.1904033,
-    "fonte": "google"
+    "lng": -49.1904033
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444415531323",
+   "uf": "PR",
+   "cidade": "SAO JOSE DOS PINHAIS",
+   "bairro": "AFONSO PENA",
+   "endereco": "RUA ANTONIO SKAKUY, N. 66, Apto 12, LT04, QD H, JD IRACEMA 1",
+   "preco": 162349.95,
+   "valor_avaliacao": 187000.0,
+   "desconto": 13.19,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 47.68 de área total, 42.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415531323",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -25.5145195,
+    "lng": -49.1895471
    },
    "geo_pendente": false
   },
@@ -7888,9 +8182,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704492249",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5228838,
-    "lng": -49.2058958,
-    "fonte": "google"
+    "lng": -49.2058958
    },
    "geo_pendente": false
   },
@@ -7909,9 +8203,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444410752854",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5415749,
-    "lng": -49.2107198,
-    "fonte": "google"
+    "lng": -49.2107198
    },
    "geo_pendente": false
   },
@@ -7930,32 +8224,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704936449",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5575202,
-    "lng": -49.21874649999999,
-    "fonte": "google"
+    "lng": -49.21874649999999
    },
    "geo_pendente": false
   },
   {
-   "id": "8444415531323",
+   "id": "8444413912354",
    "uf": "PR",
    "cidade": "SAO JOSE DOS PINHAIS",
-   "bairro": "AFONSO PENA",
-   "endereco": "RUA ANTONIO SKAKUY, N. 66, Apto 12, LT04, QD H, JD IRACEMA 1",
-   "preco": 187000.0,
-   "valor_avaliacao": 187000.0,
+   "bairro": "CIDADE JARDIM",
+   "endereco": "RUA DAS NACOES UNIDAS, N. 1088, Apto 31, 3o PAV E VAGA 04",
+   "preco": 245000.0,
+   "valor_avaliacao": 245000.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 47.68 de área total, 42.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 0.00 de área total, 56.09 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415531323",
-   "tipo": "apartamento",
-   "geo": {
-    "lat": -25.5145195,
-    "lng": -49.1895471,
-    "fonte": "google"
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413912354",
+   "tipo": "apartamento"
   },
   {
    "id": "8555518632981",
@@ -7972,9 +8260,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518632981",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.5045075,
-    "lng": -49.1641799,
-    "fonte": "google"
+    "lng": -49.1641799
    },
    "geo_pendente": false
   },
@@ -7993,9 +8281,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707911838",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -25.567328,
-    "lng": -49.1890659,
-    "fonte": "google"
+    "lng": -49.1890659
    },
    "geo_pendente": false
   },
@@ -8010,13 +8298,13 @@
    "desconto": 50.36,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 780.27 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10211902",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -22.7198409,
-    "lng": -53.17650039999999,
-    "fonte": "google"
+    "lng": -53.17650039999999
    },
    "geo_pendente": false
   },
@@ -8035,9 +8323,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433107449",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.420528,
-    "lng": -51.86073099999999,
-    "fonte": "google"
+    "lng": -51.86073099999999
    },
    "geo_pendente": false
   },
@@ -8056,9 +8344,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444438830742",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.4139986,
-    "lng": -51.8462614,
-    "fonte": "google"
+    "lng": -51.8462614
    },
    "geo_pendente": false
   },
@@ -8077,9 +8365,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555514798712",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -22.8613928,
-    "lng": -50.8498673,
-    "fonte": "google"
+    "lng": -50.8498673
    },
    "geo_pendente": false
   },
@@ -8098,9 +8386,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421742560",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.4588991,
-    "lng": -51.8984597,
-    "fonte": "google"
+    "lng": -51.8984597
    },
    "geo_pendente": false
   },
@@ -8119,9 +8407,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409355438",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.72833,
-    "lng": -52.87154940000001,
-    "fonte": "google"
+    "lng": -52.87154940000001
    },
    "geo_pendente": false
   },
@@ -8140,11 +8428,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555525514702",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.9603273,
-    "lng": -46.3968727,
-    "fonte": "google"
+    "lng": -46.3968727
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555523514746",
+   "uf": "PR",
+   "cidade": "TERRA RICA",
+   "bairro": "TERRA RICA",
+   "endereco": "RUA GETULIO VARGAS, N. SN,  QD 12, LT 02",
+   "preco": 130000.0,
+   "valor_avaliacao": 130000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 47.79 de área total, 47.79 de área privativa, 196.10 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523514746",
+   "tipo": "casa"
   },
   {
    "id": "1072500300502",
@@ -8161,11 +8464,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1072500300502",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -24.5152545,
-    "lng": -50.4163048,
-    "fonte": "google"
+    "lng": -50.4163048
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444418226076",
+   "uf": "PR",
+   "cidade": "TIJUCAS DO SUL",
+   "bairro": "LOTEAMENTO JARDIM BO",
+   "endereco": "RUA DARIO OLIMPIO DE LACERDA, N. 132, CASA 1 LOTE 21 QUADRA T",
+   "preco": 200000.0,
+   "valor_avaliacao": 200000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 59.60 de área privativa, 112.50 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418226076",
+   "tipo": "casa"
   },
   {
    "id": "1444411995211",
@@ -8182,9 +8500,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444411995211",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -24.7450445,
-    "lng": -53.7189552,
-    "fonte": "google"
+    "lng": -53.7189552
    },
    "geo_pendente": false
   },
@@ -8203,9 +8521,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523337410",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.874222,
-    "lng": -52.871331,
-    "fonte": "google"
+    "lng": -52.871331
    },
    "geo_pendente": false
   },
@@ -8224,9 +8542,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555527736000",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.8661375,
-    "lng": -52.8778015,
-    "fonte": "google"
+    "lng": -52.8778015
    },
    "geo_pendente": false
   },
@@ -8245,9 +8563,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707672779",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -23.7524357,
-    "lng": -53.3137158,
-    "fonte": "google"
+    "lng": -53.3137158
    },
    "geo_pendente": false
   },
@@ -8266,9 +8584,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300787",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.7678508,
-    "lng": -53.2741279,
-    "fonte": "google"
+    "lng": -53.2741279
    },
    "geo_pendente": false
   },
@@ -8287,11 +8605,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300791",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -23.7678508,
-    "lng": -53.2741279,
-    "fonte": "google"
+    "lng": -53.2741279
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10008849",
+   "uf": "PR",
+   "cidade": "UMUARAMA",
+   "bairro": "ZONA V",
+   "endereco": "AV VITORIA, N. 4203, LT 04, QD 01",
+   "preco": 329000.0,
+   "valor_avaliacao": 329000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 364.14 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10008849",
+   "tipo": "terreno"
   },
   {
    "id": "8444406986470",
@@ -8308,9 +8641,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406986470",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -23.7820124,
-    "lng": -53.3337982,
-    "fonte": "google"
+    "lng": -53.3337982
    },
    "geo_pendente": false
   },
@@ -8329,9 +8662,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415399298",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -26.2652851,
-    "lng": -52.78188790000001,
-    "fonte": "google"
+    "lng": -52.78188790000001
    },
    "geo_pendente": false
   }

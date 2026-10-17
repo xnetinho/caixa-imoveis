@@ -1,9 +1,9 @@
 {
  "uf": "AM",
- "data_geracao_caixa": "15/10/2026",
- "coletado_em": "15/10/2026 22:10",
+ "data_geracao_caixa": "16/10/2026",
+ "coletado_em": "16/10/2026 22:14",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AM.csv",
- "total": 210,
+ "total": 211,
  "colunas": [
   "id",
   "uf",
@@ -261,7 +261,7 @@
    "desconto": 49.63,
    "financiamento": "Não",
    "descricao": "Casa, 52.30 de área total, 52.30 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711213570",
    "tipo": "casa",
    "geo": {
@@ -1332,7 +1332,7 @@
    "desconto": 49.61,
    "financiamento": "Não",
    "descricao": "Apartamento, 177.79 de área total, 40.39 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555508329941",
    "tipo": "apartamento",
    "geo": {
@@ -1987,9 +1987,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401888412",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -3.1057432,
-    "lng": -60.01619179999999,
-    "fonte": "google"
+    "lng": -60.01619179999999
    },
    "geo_pendente": false
   },
@@ -2256,7 +2256,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 83.86 de área total, 41.46 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701782343",
    "tipo": "apartamento",
    "geo": {
@@ -2300,6 +2300,27 @@
    "descricao": "Apartamento, 83.86 de área total, 41.46 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705719158",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.0222891,
+    "lng": -60.02394340000001
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787707527531",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "COLONIA TERRA NOVA",
+   "endereco": "AVENIDA TORQUATO TAPAJOS, N. 7080, Apto 503,  5º PAVIMENTO TR 04",
+   "preco": 104296.65,
+   "valor_avaliacao": 176000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 83.86 de área total, 41.46 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707527531",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -2561,27 +2582,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787707495109",
-   "uf": "AM",
-   "cidade": "MANAUS",
-   "bairro": "LAGO AZUL",
-   "endereco": "AVENIDA JOSE NAPOLES HITOTUZI, N. 131, Apto 401, BL 02",
-   "preco": 97185.51,
-   "valor_avaliacao": 164000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 84.13 de área total, 41.51 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707495109",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.9733799,
-    "lng": -60.00899800000001
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787707661190",
    "uf": "AM",
    "cidade": "MANAUS",
@@ -2613,8 +2613,29 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 81.26 de área total, 41.36 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710729425",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.968423,
+    "lng": -60.00115169999999
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787710994196",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "LAGO AZUL",
+   "endereco": "AVENIDA DAS TORRES, N. 8120, Apto 408, BL 03",
+   "preco": 107852.22,
+   "valor_avaliacao": 182000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 41.51 de área total, 41.51 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710994196",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -3023,6 +3044,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8787716328317",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "LAGO AZUL",
+   "endereco": "RUA DONA DEBLA HENRIQUES, N. 244, Apto 109, BL 01",
+   "preco": 119069.46,
+   "valor_avaliacao": 197000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 100.49 de área total, 55.88 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716328317",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.0609701,
+    "lng": -60.0246967
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716515745",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "LAGO AZUL",
+   "endereco": "RUA DONA DEBLA HENRIQUES, N. 244, Apto 405, BL 08",
+   "preco": 119673.87,
+   "valor_avaliacao": 198000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 81.72 de área total, 41.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716515745",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.0639611,
+    "lng": -60.02818249999999
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787717133129",
    "uf": "AM",
    "cidade": "MANAUS",
@@ -3054,7 +3117,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 102.97 de área total, 57.67 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718893232",
    "tipo": "apartamento",
    "geo": {
@@ -3292,27 +3355,6 @@
     "fonte": "google",
     "lat": -2.9667134,
     "lng": -59.9928308
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1787700825261",
-   "uf": "AM",
-   "cidade": "MANAUS",
-   "bairro": "LAGO AZUL",
-   "endereco": "AVENIDA COMENDADOR JOSE CRUZ, N. 1081, Apto 406,  BL 01  PAV 04",
-   "preco": 97581.5,
-   "valor_avaliacao": 158000.0,
-   "desconto": 38.24,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 91.20 de área total, 41.57 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700825261",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.972077,
-    "lng": -60.0055558
    },
    "geo_pendente": false
   },
@@ -3716,23 +3758,86 @@
    "geo_pendente": false
   },
   {
-   "id": "8787715447037",
+   "id": "8555503747397",
    "uf": "AM",
    "cidade": "MANAUS",
-   "bairro": "TARUMA",
-   "endereco": "AVENIDA DO TURISMO, N. 13830, Apto 302, BL 22",
-   "preco": 121323.37,
-   "valor_avaliacao": 153000.0,
-   "desconto": 20.71,
+   "bairro": "LAGO AZUL",
+   "endereco": "AVENIDA PROFESSOR PAULO GRAÇA, N. 1302, Apto 104, BL134",
+   "preco": 80592.46,
+   "valor_avaliacao": 124000.0,
+   "desconto": 35.01,
    "financiamento": "Não",
-   "descricao": "Apartamento, 76.06 de área total, 41.12 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "descricao": "Apartamento, 165.29 de área total, 40.39 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715447037",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555503747397",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -2.9883731,
-    "lng": -60.03835909999999
+    "lat": -2.958359,
+    "lng": -60.0236955
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1787701409733",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "PLANALTO",
+   "endereco": "RUA WALDIR NORMANDO, N. 170, Apto 708, TORRE 01",
+   "preco": 278082.04,
+   "valor_avaliacao": 321000.0,
+   "desconto": 13.38,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 101.61 de área total, 51.26 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701409733",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.0655257,
+    "lng": -60.06530129999999
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787713536610",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "PONTA NEGRA",
+   "endereco": "AVENIDA FREDERICO BAIRD, N. 2880, Apto 305, BL 04",
+   "preco": 175511.18,
+   "valor_avaliacao": 187000.0,
+   "desconto": 6.15,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 101.79 de área total, 41.51 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713536610",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.0405767,
+    "lng": -60.0816448
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555529734632",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "TARUMA-ACU",
+   "endereco": "AVENIDA TORQUATO TAPAJOS, N. 11675, Apto 202, BL 07",
+   "preco": 177519.22,
+   "valor_avaliacao": 179000.0,
+   "desconto": 0.83,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 42.02 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555529734632",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.9783476,
+    "lng": -60.0173517
    },
    "geo_pendente": false
   },
@@ -3884,27 +3989,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1787701409733",
-   "uf": "AM",
-   "cidade": "MANAUS",
-   "bairro": "PLANALTO",
-   "endereco": "RUA WALDIR NORMANDO, N. 170, Apto 708, TORRE 01",
-   "preco": 321000.0,
-   "valor_avaliacao": 321000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 101.61 de área total, 51.26 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701409733",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.0655257,
-    "lng": -60.06530129999999
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1787701418210",
    "uf": "AM",
    "cidade": "MANAUS",
@@ -3926,25 +4010,19 @@
    "geo_pendente": false
   },
   {
-   "id": "8555503747397",
+   "id": "8787713491748",
    "uf": "AM",
    "cidade": "MANAUS",
-   "bairro": "LAGO AZUL",
-   "endereco": "AVENIDA PROFESSOR PAULO GRAÇA, N. 1302, Apto 104, BL134",
-   "preco": 124000.0,
-   "valor_avaliacao": 124000.0,
+   "bairro": "PLANALTO",
+   "endereco": "RUA JEQUIE, N. 965, Apto 103, PAV 01 BL 07",
+   "preco": 213000.0,
+   "valor_avaliacao": 213000.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 165.29 de área total, 40.39 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "descricao": "Apartamento, 93.43 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555503747397",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.958359,
-    "lng": -60.0236955
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713491748",
+   "tipo": "apartamento"
   },
   {
    "id": "1444423082690",
@@ -4010,27 +4088,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555529734632",
-   "uf": "AM",
-   "cidade": "MANAUS",
-   "bairro": "TARUMA-ACU",
-   "endereco": "AVENIDA TORQUATO TAPAJOS, N. 11675, Apto 202, BL 07",
-   "preco": 214000.0,
-   "valor_avaliacao": 179000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 42.02 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555529734632",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.9783476,
-    "lng": -60.0173517
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787708629877",
    "uf": "AM",
    "cidade": "MANAUS",
@@ -4048,27 +4105,6 @@
     "fonte": "google",
     "lat": -3.070515,
     "lng": -60.0255524
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787713536610",
-   "uf": "AM",
-   "cidade": "MANAUS",
-   "bairro": "PONTA NEGRA",
-   "endereco": "AVENIDA FREDERICO BAIRD, N. 2880, Apto 305, BL 04",
-   "preco": 228000.0,
-   "valor_avaliacao": 187000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 101.79 de área total, 41.51 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713536610",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.0405767,
-    "lng": -60.0816448
    },
    "geo_pendente": false
   },
@@ -4129,9 +4165,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555526137420",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -2.6418037,
-    "lng": -56.7507747,
-    "fonte": "google"
+    "lng": -56.7507747
    },
    "geo_pendente": false
   },
@@ -4157,6 +4193,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8555508873803",
+   "uf": "AM",
+   "cidade": "PARINTINS",
+   "bairro": "DJARD VIEIRA",
+   "endereco": "ESTRADA DO PARINTINSMACURANY, N. SN, CASA 10  LT 10 QD 03",
+   "preco": 51562.75,
+   "valor_avaliacao": 83500.0,
+   "desconto": 38.25,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 40.33 de área privativa, 366.66 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555508873803",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.640221,
+    "lng": -56.7531427
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555509068866",
+   "uf": "AM",
+   "cidade": "PARINTINS",
+   "bairro": "DJARD VIEIRA",
+   "endereco": "ESTRADA DO PARINTINSMACURANY, N. 36, CS 11 QD 06",
+   "preco": 72930.81,
+   "valor_avaliacao": 83500.0,
+   "desconto": 12.66,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 40.33 de área privativa, 366.28 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555509068866",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.640221,
+    "lng": -56.7531427
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444410079998",
    "uf": "AM",
    "cidade": "PARINTINS",
@@ -4178,27 +4256,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555508873803",
-   "uf": "AM",
-   "cidade": "PARINTINS",
-   "bairro": "DJARD VIEIRA",
-   "endereco": "ESTRADA DO PARINTINSMACURANY, N. SN, CASA 10  LT 10 QD 03",
-   "preco": 83500.0,
-   "valor_avaliacao": 83500.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 40.33 de área privativa, 366.66 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555508873803",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.640221,
-    "lng": -56.7531427
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555508910989",
    "uf": "AM",
    "cidade": "PARINTINS",
@@ -4211,27 +4268,6 @@
    "descricao": "Casa, 0.00 de área total, 44.34 de área privativa, 250.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555508910989",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.640221,
-    "lng": -56.7531427
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555509068866",
-   "uf": "AM",
-   "cidade": "PARINTINS",
-   "bairro": "DJARD VIEIRA",
-   "endereco": "ESTRADA DO PARINTINSMACURANY, N. 36, CS 11 QD 06",
-   "preco": 83500.0,
-   "valor_avaliacao": 83500.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 40.33 de área privativa, 366.28 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555509068866",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
@@ -4288,7 +4324,7 @@
    "cidade": "PARINTINS",
    "bairro": "DISTRITO INDUSTRIAL",
    "endereco": "RUA PAU DARCO, N. 4761, LADY LAURA",
-   "preco": 89500.0,
+   "preco": 95860.05,
    "valor_avaliacao": 89500.0,
    "desconto": 0.0,
    "financiamento": "Não",
@@ -4321,27 +4357,6 @@
     "fonte": "google",
     "lat": -2.0510839,
     "lng": -60.0200808
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444419828942",
-   "uf": "AM",
-   "cidade": "RIO PRETO DA EVA",
-   "bairro": "NOVA CANAÃ",
-   "endereco": "RUA PRESIDENTE FERNADO COLLOR, N. SN, LT 02B, QD 13",
-   "preco": 43873.53,
-   "valor_avaliacao": 143600.0,
-   "desconto": 69.45,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 63.24 de área privativa, 153.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), sacada, cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419828942",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.6981994,
-    "lng": -59.69936180000001
    },
    "geo_pendente": false
   },
