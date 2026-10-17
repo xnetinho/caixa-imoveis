@@ -63,7 +63,7 @@ e um array `ufs[]` com `data_geracao_caixa`, `coletado_em`, `fonte` e `total` **
 - **Atualizar dados Caixa** (`atualizar.yml`) — a cada 2h + manual (`workflow_dispatch`). Baixa os 27 CSVs por-UF em **workers paralelos** (`max-parallel: 6`), consolida no dataset global e commita apenas se houver mudança. UFs que falham são marcadas no `_status.json` (dado anterior preservado).
 - **Enriquecer geodata** (`enriquecer-geo.yml`) — **por evento** (roda após cada atualização de dados) + manual. Geocodifica os endereços sem coordenadas respeitando a **cota diária** (`GEO_LIMITE_GOOGLE`, default `800`, configurável por env var). O contador diário fica em `.github/state/_geo_daily.json`.
 - **Probe** (`probe.yml`) — diagnóstico de viabilidade (9 UFs, 2 modos de download, sem commit).
-- **Deploy GitHub Pages** (`pages.yml`) — publica `index.html` + `data/` a cada push na `master`.
+- **Deploy GitHub Pages** (`pages.yml`) — publica `index.html` a cada push de código na `master` ou execução manual. Os dados são carregados diretamente do GitHub Raw, sem depender de redeploy.
 
 ## Mapa interativo (GitHub Pages)
 
@@ -72,17 +72,16 @@ e um array `ufs[]` com `data_geracao_caixa`, `coletado_em`, `fonte` e `total` **
 - **Mapa** MapLibre GL JS com tiles do **OpenFreeMap** (gratuito, sem chave).
 - **Clustering** nativo dos imóveis por proximidade.
 - **Ícones por tipo de imóvel** (`tipo` → Apartamento/Casa/Terreno/Comercial/Outros) e **POIs por categoria**.
-- **Carga por UF**: detecta o estado pelo IP (1ª visita) ou usa a última seleção (`localStorage`), carregando só `data/{UF}/imoveis.json` em vez do global inteiro.
+- **Carga por UF**: detecta o estado pelo IP (1ª visita) ou usa a última seleção (`localStorage`), carregando diretamente `data/{UF}/imoveis.json` do GitHub Raw em vez do global inteiro.
 - **Detalhe do imóvel** com preço, desconto, descrição, link para a Caixa e matrícula.
 - **Google Street View** embutido + **rotas** (Project OSRM) + **POIs próximos** (Overpass → Photon).
 
 ### Como publicar
 
 1. Habilite **GitHub Pages** no repositório: *Settings → Pages → Source: GitHub Actions*.
-2. O workflow `pages.yml` publica `index.html` + `data/` a cada push na `master`.
+2. O workflow `pages.yml` publica `index.html` em pushes de código na `master` ou por execução manual.
 
-O mapa lê `data/{UF}/imoveis.json` (ou `data/imoveis.json`) por caminho relativo; há fallback via
-`raw.githubusercontent.com`.
+O mapa lê `data/{UF}/imoveis.json` (ou `data/imoveis.json`) diretamente de `raw.githubusercontent.com`; atualizações dos dados não dependem de redeploy do Pages.
 
 ## Uso dos dados
 

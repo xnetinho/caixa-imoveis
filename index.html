@@ -521,7 +521,7 @@ function clearSpider(){
 /* ============ carregamento dos dados ============ */
 function dataUrls(uf){
   const rel = uf ? `data/${uf}/imoveis.json` : "data/imoveis.json";
-  return [rel, `${RAW_BASE}/${rel}`];
+  return [`${RAW_BASE}/${rel}`];
 }
 
 async function loadData(uf){
