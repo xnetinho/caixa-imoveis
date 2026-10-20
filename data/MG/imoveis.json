@@ -1,9 +1,9 @@
 {
  "uf": "MG",
- "data_geracao_caixa": "16/10/2026",
- "coletado_em": "16/10/2026 22:15",
+ "data_geracao_caixa": "19/10/2026",
+ "coletado_em": "20/10/2026 02:54",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_MG.csv",
- "total": 735,
+ "total": 728,
  "colunas": [
   "id",
   "uf",
@@ -34,9 +34,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555507642727",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -17.0886857,
-    "lng": -40.9412794,
-    "fonte": "google"
+    "lng": -40.9412794
    },
    "geo_pendente": false
   },
@@ -303,7 +303,7 @@
    "desconto": 36.27,
    "financiamento": "Não",
    "descricao": "Casa, 170.55 de área total, 170.55 de área privativa, 300.00 de área do terreno,  3 qto(s), a.serv, WC, 2 sala(s), 1 lavabo(s), cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418860621",
    "tipo": "casa",
    "geo": {
@@ -352,6 +352,27 @@
     "fonte": "google",
     "lat": -19.5740648,
     "lng": -46.946237
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444425807720",
+   "uf": "MG",
+   "cidade": "AREADO",
+   "bairro": "LOT RECANTO VERDE",
+   "endereco": "RUA TRES, N. 99, LT 13 QD D",
+   "preco": 96042.38,
+   "valor_avaliacao": 190000.0,
+   "desconto": 49.46,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 66.08 de área privativa, 163.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425807720",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.347672,
+    "lng": -46.1419629
    },
    "geo_pendente": false
   },
@@ -436,27 +457,6 @@
     "fonte": "google",
     "lat": -22.0907467,
     "lng": -46.5850798
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787717671333",
-   "uf": "MG",
-   "cidade": "BARBACENA",
-   "bairro": "IPANEMA",
-   "endereco": "AVENIDA HELENA AGUIAR DE FIGUEIREDO, N. 675, Apto 201, BL 04",
-   "preco": 111816.5,
-   "valor_avaliacao": 185000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 123.89 de área total, 41.84 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717671333",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.2230118,
-    "lng": -43.74177479999999
    },
    "geo_pendente": false
   },
@@ -1000,9 +1000,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10281397",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.9094508,
-    "lng": -43.9275191,
-    "fonte": "google"
+    "lng": -43.9275191
    },
    "geo_pendente": false
   },
@@ -1416,7 +1416,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 48.96 de área total, 43.52 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444437791271",
    "tipo": "apartamento",
    "geo": {
@@ -1609,9 +1609,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716010724",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.006669,
-    "lng": -44.1741424,
-    "fonte": "google"
+    "lng": -44.1741424
    },
    "geo_pendente": false
   },
@@ -1672,9 +1672,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714545051",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.9569569,
-    "lng": -44.1842053,
-    "fonte": "google"
+    "lng": -44.1842053
    },
    "geo_pendente": false
   },
@@ -1915,9 +1915,9 @@
    "cidade": "CAMPO BELO",
    "bairro": "NOVO BANDEIRANTES",
    "endereco": "RUA JOSE MUNGAIA, N. 130, LT 03 QD B",
-   "preco": 59487.49,
+   "preco": 57835.06,
    "valor_avaliacao": 115306.0,
-   "desconto": 48.41,
+   "desconto": 49.85,
    "financiamento": "Não",
    "descricao": "Casa, 32.98 de área total, 32.98 de área privativa, 193.25 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Online",
@@ -1987,9 +1987,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404556850",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -21.2276498,
-    "lng": -45.7719858,
-    "fonte": "google"
+    "lng": -45.7719858
    },
    "geo_pendente": false
   },
@@ -2008,9 +2008,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427844445",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -17.6853385,
-    "lng": -42.5016164,
-    "fonte": "google"
+    "lng": -42.5016164
    },
    "geo_pendente": false
   },
@@ -2141,27 +2141,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444415175820",
-   "uf": "MG",
-   "cidade": "CARMO DA CACHOEIRA",
-   "bairro": "CENTRO",
-   "endereco": "RUA DOM INOCENCIO, N. 780,",
-   "preco": 1000000.0,
-   "valor_avaliacao": 1000000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 514.00 de área total, 514.00 de área privativa, 220.00 de área do terreno,  5 qto(s), a.serv, WC, 2 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415175820",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.460428,
-    "lng": -45.220728
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787701122912",
    "uf": "MG",
    "cidade": "CARMO DA MATA",
@@ -2218,9 +2197,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406318469",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -21.406633,
-    "lng": -42.697516,
-    "fonte": "google"
+    "lng": -42.697516
    },
    "geo_pendente": false
   },
@@ -2260,9 +2239,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444438184042",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.8562427,
-    "lng": -44.1454671,
-    "fonte": "google"
+    "lng": -44.1454671
    },
    "geo_pendente": false
   },
@@ -2533,9 +2512,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537455682",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.8728458,
-    "lng": -44.04774339999999,
-    "fonte": "google"
+    "lng": -44.04774339999999
    },
    "geo_pendente": false
   },
@@ -2701,9 +2680,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702850700",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.9503251,
-    "lng": -44.052744,
-    "fonte": "google"
+    "lng": -44.052744
    },
    "geo_pendente": false
   },
@@ -2785,9 +2764,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716631427",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.8685873,
-    "lng": -44.0267326,
-    "fonte": "google"
+    "lng": -44.0267326
    },
    "geo_pendente": false
   },
@@ -2806,9 +2785,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714617133",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.9037272,
-    "lng": -44.1038883,
-    "fonte": "google"
+    "lng": -44.1038883
    },
    "geo_pendente": false
   },
@@ -2869,9 +2848,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716015700",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.8685873,
-    "lng": -44.0267326,
-    "fonte": "google"
+    "lng": -44.0267326
    },
    "geo_pendente": false
   },
@@ -2932,9 +2911,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702117701",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.9503251,
-    "lng": -44.0527439,
-    "fonte": "google"
+    "lng": -44.0527439
    },
    "geo_pendente": false
   },
@@ -2995,9 +2974,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702289251",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.9503251,
-    "lng": -44.052744,
-    "fonte": "google"
+    "lng": -44.052744
    },
    "geo_pendente": false
   },
@@ -3079,9 +3058,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787703390126",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.9503251,
-    "lng": -44.052744,
-    "fonte": "google"
+    "lng": -44.052744
    },
    "geo_pendente": false
   },
@@ -3100,9 +3079,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702129602",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.9503251,
-    "lng": -44.052744,
-    "fonte": "google"
+    "lng": -44.052744
    },
    "geo_pendente": false
   },
@@ -3121,9 +3100,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423777514",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -18.365321,
-    "lng": -44.4502548,
-    "fonte": "google"
+    "lng": -44.4502548
    },
    "geo_pendente": false
   },
@@ -3147,6 +3126,21 @@
     "lng": -47.1989648
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444407255462",
+   "uf": "MG",
+   "cidade": "CORONEL FABRICIANO",
+   "bairro": "SYLVIO PEREIRA I",
+   "endereco": "RUA PROF TEREZA LEOPOLDINA DOS ANJOS, N. 162, LT 07 QD 07",
+   "preco": 113021.61,
+   "valor_avaliacao": 183000.0,
+   "desconto": 38.24,
+   "financiamento": "Não",
+   "descricao": "Casa, 76.42 de área total, 21.31 de área privativa, 147.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444407255462",
+   "tipo": "casa"
   },
   {
    "id": "8233200010967",
@@ -3308,27 +3302,6 @@
    "descricao": "Apartamento, 119.90 de área total, 45.83 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704301869",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1345304,
-    "lng": -44.8364278
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787710451311",
-   "uf": "MG",
-   "cidade": "DIVINOPOLIS",
-   "bairro": "FAZENDA GAFANHOTO",
-   "endereco": "RUA MARAJUARAS, N. 1051, Apto 02, BL 01 VG 02",
-   "preco": 68502.47,
-   "valor_avaliacao": 119501.94,
-   "desconto": 42.68,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 124.01 de área total, 45.83 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710451311",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -3835,9 +3808,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413734510",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.7862603,
-    "lng": -44.1544612,
-    "fonte": "google"
+    "lng": -44.1544612
    },
    "geo_pendente": false
   },
@@ -3873,7 +3846,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 200.87 de área total, 62.08 de área privativa, 200.87 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419326309",
    "tipo": "casa",
    "geo": {
@@ -3898,9 +3871,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444405516030",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -19.8215895,
-    "lng": -44.1646227,
-    "fonte": "google"
+    "lng": -44.1646227
    },
    "geo_pendente": false
   },
@@ -4003,9 +3976,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1600000054910",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -19.7802566,
-    "lng": -44.1594673,
-    "fonte": "google"
+    "lng": -44.1594673
    },
    "geo_pendente": false
   },
@@ -4024,9 +3997,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406679323",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -19.7804142,
-    "lng": -44.1817028,
-    "fonte": "google"
+    "lng": -44.1817028
    },
    "geo_pendente": false
   },
@@ -4451,6 +4424,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787714055984",
+   "uf": "MG",
+   "cidade": "GUIMARANIA",
+   "bairro": "PORTAL DO CERRADO",
+   "endereco": "RUA RIO GRANDE DO NORTE, N. 570, LT 355 QD 61 ST 06",
+   "preco": 70381.68,
+   "valor_avaliacao": 135000.0,
+   "desconto": 47.87,
+   "financiamento": "Não",
+   "descricao": "Casa, 41.89 de área total, 41.89 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714055984",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -18.8768663,
+    "lng": -48.27482699999999
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787714172697",
    "uf": "MG",
    "cidade": "GUIMARANIA",
@@ -4489,27 +4483,6 @@
     "fonte": "google",
     "lat": -18.8765974,
     "lng": -48.274774
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787714055984",
-   "uf": "MG",
-   "cidade": "GUIMARANIA",
-   "bairro": "PORTAL DO CERRADO",
-   "endereco": "RUA RIO GRANDE DO NORTE, N. 570, LT 355 QD 61 ST 06",
-   "preco": 72336.72,
-   "valor_avaliacao": 135000.0,
-   "desconto": 46.42,
-   "financiamento": "Não",
-   "descricao": "Casa, 41.89 de área total, 41.89 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714055984",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.8768663,
-    "lng": -48.27482699999999
    },
    "geo_pendente": false
   },
@@ -4654,9 +4627,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419556215",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -19.9989784,
-    "lng": -44.081917,
-    "fonte": "google"
+    "lng": -44.081917
    },
    "geo_pendente": false
   },
@@ -4717,9 +4690,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408083671",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.0652773,
-    "lng": -44.289162,
-    "fonte": "google"
+    "lng": -44.289162
    },
    "geo_pendente": false
   },
@@ -4759,9 +4732,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408999668",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.075168,
-    "lng": -44.283824,
-    "fonte": "google"
+    "lng": -44.283824
    },
    "geo_pendente": false
   },
@@ -5396,6 +5369,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8555537742924",
+   "uf": "MG",
+   "cidade": "JANUARIA",
+   "bairro": "LOTEAMENTO LIBERDADE",
+   "endereco": "RUA B, N. S/N, QD-G, LT47",
+   "preco": 95704.02,
+   "valor_avaliacao": 170000.0,
+   "desconto": 43.71,
+   "financiamento": "Não",
+   "descricao": "Casa, 51.39 de área total, 51.39 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537742924",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -19.8777714,
+    "lng": -44.9856483
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1555529441106",
    "uf": "MG",
    "cidade": "JEQUITAI",
@@ -5637,7 +5631,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 51.00 de área total, 51.51 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434838919",
    "tipo": "apartamento",
    "geo": {
@@ -5921,27 +5915,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787704227944",
-   "uf": "MG",
-   "cidade": "JUIZ DE FORA",
-   "bairro": "MARILANDIA",
-   "endereco": "RUA DAS MARCASSITAS, N. 260, Apto 704, TR IV LT 27B",
-   "preco": 110652.39,
-   "valor_avaliacao": 183073.98,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 91.30 de área total, 57.66 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704227944",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.7898798,
-    "lng": -43.3893604
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444418647713",
    "uf": "MG",
    "cidade": "JUIZ DE FORA",
@@ -6194,6 +6167,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787708040210",
+   "uf": "MG",
+   "cidade": "JUIZ DE FORA",
+   "bairro": "GRAMA",
+   "endereco": "AVENIDA JUIZ DE FORA, N. 1801, Apto 404, TORRE 3",
+   "preco": 157913.12,
+   "valor_avaliacao": 157913.12,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 78.30 de área total, 78.30 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708040210",
+   "tipo": "apartamento"
+  },
+  {
    "id": "1555509482630",
    "uf": "MG",
    "cidade": "JUIZ DE FORA",
@@ -6229,9 +6217,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555517038271",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -21.6939109,
-    "lng": -43.345156,
-    "fonte": "google"
+    "lng": -43.345156
    },
    "geo_pendente": false
   },
@@ -6565,9 +6553,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406784640",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -21.8684662,
-    "lng": -43.3478018,
-    "fonte": "google"
+    "lng": -43.3478018
    },
    "geo_pendente": false
   },
@@ -6754,9 +6742,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702773950",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.558354,
-    "lng": -44.0856761,
-    "fonte": "google"
+    "lng": -44.0856761
    },
    "geo_pendente": false
   },
@@ -6922,9 +6910,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702228099",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -16.7566708,
-    "lng": -43.8736758,
-    "fonte": "google"
+    "lng": -43.8736758
    },
    "geo_pendente": false
   },
@@ -7258,9 +7246,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715099993",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.876423,
-    "lng": -44.6025492,
-    "fonte": "google"
+    "lng": -44.6025492
    },
    "geo_pendente": false
   },
@@ -7279,9 +7267,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716440362",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.876423,
-    "lng": -44.6025492,
-    "fonte": "google"
+    "lng": -44.6025492
    },
    "geo_pendente": false
   },
@@ -7594,9 +7582,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719092160",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -18.5738074,
-    "lng": -46.5163944,
-    "fonte": "google"
+    "lng": -46.5163944
    },
    "geo_pendente": false
   },
@@ -7657,9 +7645,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418184039",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -17.322933,
-    "lng": -44.9339579,
-    "fonte": "google"
+    "lng": -44.9339579
    },
    "geo_pendente": false
   },
@@ -7804,9 +7792,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555524969803",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -21.7941547,
-    "lng": -46.5662584,
-    "fonte": "google"
+    "lng": -46.5662584
    },
    "geo_pendente": false
   },
@@ -7846,9 +7834,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444437665233",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -21.8536653,
-    "lng": -46.5652192,
-    "fonte": "google"
+    "lng": -46.5652192
    },
    "geo_pendente": false
   },
@@ -8602,9 +8590,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705960726",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.7994962,
-    "lng": -44.00625,
-    "fonte": "google"
+    "lng": -44.00625
    },
    "geo_pendente": false
   },
@@ -8833,9 +8821,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710986398",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.8055195,
-    "lng": -44.0241577,
-    "fonte": "google"
+    "lng": -44.0241577
    },
    "geo_pendente": false
   },
@@ -8875,9 +8863,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405566744",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -19.8035556,
-    "lng": -44.02582899999999,
-    "fonte": "google"
+    "lng": -44.02582899999999
    },
    "geo_pendente": false
   },
@@ -9022,9 +9010,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719527299",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.7634581,
-    "lng": -44.0805811,
-    "fonte": "google"
+    "lng": -44.0805811
    },
    "geo_pendente": false
   },
@@ -9064,9 +9052,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718082242",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.7634581,
-    "lng": -44.0805811,
-    "fonte": "google"
+    "lng": -44.0805811
    },
    "geo_pendente": false
   },
@@ -9106,9 +9094,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431865044",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -19.7532548,
-    "lng": -44.1596916,
-    "fonte": "google"
+    "lng": -44.1596916
    },
    "geo_pendente": false
   },
@@ -9484,9 +9472,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706848792",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.7685022,
-    "lng": -43.8897635,
-    "fonte": "google"
+    "lng": -43.8897635
    },
    "geo_pendente": false
   },
@@ -9736,9 +9724,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444404857526",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -21.5808665,
-    "lng": -45.4548343,
-    "fonte": "google"
+    "lng": -45.4548343
    },
    "geo_pendente": false
   },
@@ -9886,27 +9874,6 @@
     "fonte": "google",
     "lat": -18.7885112929686,
     "lng": -41.15271098184891
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444413974793",
-   "uf": "MG",
-   "cidade": "SAO JOAO NEPOMUCENO",
-   "bairro": "SANTA TEREZINHA",
-   "endereco": "RUA ALCEBIADES VALENTE, N. 422, Apto 102, .",
-   "preco": 26406.56,
-   "valor_avaliacao": 124293.35,
-   "desconto": 78.76,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 36.58 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444413974793",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.5428157,
-    "lng": -43.0161831
    },
    "geo_pendente": false
   },
@@ -10093,9 +10060,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555536184839",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.8863098,
-    "lng": -46.99137140000001,
-    "fonte": "google"
+    "lng": -46.99137140000001
    },
    "geo_pendente": false
   },
@@ -10205,6 +10172,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8555533252230",
+   "uf": "MG",
+   "cidade": "SETE LAGOAS",
+   "bairro": "CATARINA",
+   "endereco": "RUA SANTA RITA DO SAPUCAI, N. 54, Apto 702, BL D BOX 48",
+   "preco": 111816.5,
+   "valor_avaliacao": 185000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 99.64 de área total, 47.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533252230",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444426463162",
    "uf": "MG",
    "cidade": "SETE LAGOAS",
@@ -10303,9 +10285,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555529920584",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.4782746,
-    "lng": -44.2774927,
-    "fonte": "google"
+    "lng": -44.2774927
    },
    "geo_pendente": false
   },
@@ -10327,27 +10309,6 @@
     "fonte": "google",
     "lat": -19.4356818,
     "lng": -44.2260002
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444404659171",
-   "uf": "MG",
-   "cidade": "TEOFILO OTONI",
-   "bairro": "FILADELFIA",
-   "endereco": "RUA ALTAMIRO NUNES LEITE, N. SN, LT 06 QD 16",
-   "preco": 70592.66,
-   "valor_avaliacao": 118000.0,
-   "desconto": 40.18,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 323.07 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444404659171",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -17.8810578,
-    "lng": -41.5057656
    },
    "geo_pendente": false
   },
@@ -10450,9 +10411,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714057545",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -21.7110677,
-    "lng": -45.2589401,
-    "fonte": "google"
+    "lng": -45.2589401
    },
    "geo_pendente": false
   },
@@ -10499,23 +10460,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787711111964",
+   "id": "8444429596546",
    "uf": "MG",
-   "cidade": "UBA",
-   "bairro": "RESIDENCIAL SAO JOSE",
-   "endereco": "RUA JOSE VIEIRA DE ALMEIDA, N. 80, Apto 1112,",
-   "preco": 90746.77,
-   "valor_avaliacao": 155000.0,
-   "desconto": 41.46,
+   "cidade": "TUPACIGUARA",
+   "bairro": "TIRADENTES",
+   "endereco": "RUA JOAO NICOLAU DA SILVA, N. 81, LT 13 QD 270-B",
+   "preco": 101111.45,
+   "valor_avaliacao": 175000.0,
+   "desconto": 42.23,
    "financiamento": "Não",
-   "descricao": "Apartamento, 72.11 de área total, 41.45 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "descricao": "Casa, 61.77 de área total, 61.77 de área privativa, 126.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711111964",
-   "tipo": "apartamento",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429596546",
+   "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -21.1212296,
-    "lng": -42.9153342
+    "lat": -18.5969594,
+    "lng": -48.6845094
    },
    "geo_pendente": false
   },
@@ -10530,7 +10491,7 @@
    "desconto": 60.64,
    "financiamento": "Não",
    "descricao": "Casa, 45.00 de área total, 45.00 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s).",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425951465",
    "tipo": "casa",
    "geo": {
@@ -10597,9 +10558,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444408148724",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -19.7298531,
-    "lng": -47.9862119,
-    "fonte": "google"
+    "lng": -47.9862119
    },
    "geo_pendente": false
   },
@@ -10751,27 +10712,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787711977554",
-   "uf": "MG",
-   "cidade": "UBERABA",
-   "bairro": "BOA VISTA",
-   "endereco": "RUA OUTONO, N. 250, Apto 101, BL 05 TÉRREO VG 43",
-   "preco": 106225.67,
-   "valor_avaliacao": 185000.0,
-   "desconto": 42.59,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 88.63 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711977554",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7205699,
-    "lng": -47.9134204
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787716469913",
    "uf": "MG",
    "cidade": "UBERABA",
@@ -10793,6 +10733,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787712236698",
+   "uf": "MG",
+   "cidade": "UBERABA",
+   "bairro": "VALLIM",
+   "endereco": "RUA DONA CECILIA BORGES PAULUK, N. 70, Apto 202, BL 24",
+   "preco": 103422.56,
+   "valor_avaliacao": 179000.0,
+   "desconto": 42.23,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 57.06 de área total, 40.57 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712236698",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -19.7902026,
+    "lng": -47.9109863
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444436748780",
    "uf": "MG",
    "cidade": "UBERABA",
@@ -10810,27 +10771,6 @@
     "fonte": "google",
     "lat": -19.7362884,
     "lng": -48.0020401
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444416025316",
-   "uf": "MG",
-   "cidade": "UBERABA",
-   "bairro": "COND PARQUE UTAH",
-   "endereco": "AVENIDA NIZA MARQUEZ GUARITA, N. 1315, Apto 304, BL 03",
-   "preco": 89892.11,
-   "valor_avaliacao": 155000.0,
-   "desconto": 42.01,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 96.40 de área total, 44.14 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416025316",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7561414,
-    "lng": -47.892418
    },
    "geo_pendente": false
   },
@@ -11024,27 +10964,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787711489797",
-   "uf": "MG",
-   "cidade": "UBERABA",
-   "bairro": "UBERABA",
-   "endereco": "AVENIDA LAERTE DE OLIVEIRA, N. 85, Apto 204, BL 10",
-   "preco": 100741.08,
-   "valor_avaliacao": 170000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 58.07 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711489797",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7572063,
-    "lng": -47.8871204
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787712043407",
    "uf": "MG",
    "cidade": "UBERABA",
@@ -11057,27 +10976,6 @@
    "descricao": "Apartamento, 45.56 de área total, 40.57 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712043407",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7902026,
-    "lng": -47.9109863
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712236698",
-   "uf": "MG",
-   "cidade": "UBERABA",
-   "bairro": "VALLIM",
-   "endereco": "RUA DONA CECILIA BORGES PAULUK, N. 70, Apto 202, BL 24",
-   "preco": 106074.43,
-   "valor_avaliacao": 179000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 57.06 de área total, 40.57 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712236698",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -11160,7 +11058,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 58.19 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707713734",
    "tipo": "apartamento",
    "geo": {
@@ -11626,9 +11524,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717336321",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.7409347,
-    "lng": -47.8972071,
-    "fonte": "google"
+    "lng": -47.8972071
    },
    "geo_pendente": false
   },
@@ -12130,9 +12028,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418533165",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -19.7877567,
-    "lng": -47.9226047,
-    "fonte": "google"
+    "lng": -47.9226047
    },
    "geo_pendente": false
   },
@@ -12305,6 +12203,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444427034265",
+   "uf": "MG",
+   "cidade": "UBERLANDIA",
+   "bairro": "SHOPPING PARK",
+   "endereco": "RUA ALMIRO LOPES DE FARIA, N. 173, CASA 02",
+   "preco": 126726.21,
+   "valor_avaliacao": 230000.0,
+   "desconto": 44.91,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 56.09 de área privativa, 100.19 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427034265",
+   "tipo": "casa"
+  },
+  {
    "id": "8787711562958",
    "uf": "MG",
    "cidade": "UBERLANDIA",
@@ -12322,27 +12235,6 @@
     "fonte": "google",
     "lat": -18.9218348,
     "lng": -48.21448090000001
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787705145070",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "MINAS GERAIS",
-   "endereco": "RUA RUTH ROCHA, N. 143, Apto 906, BL 03. LT1A. QD16. VG 214",
-   "preco": 116695.1,
-   "valor_avaliacao": 202000.0,
-   "desconto": 42.24,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 51.61 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705145070",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.8599373,
-    "lng": -48.27317679999999
    },
    "geo_pendente": false
   },
@@ -12511,27 +12403,6 @@
     "fonte": "google",
     "lat": -18.9715361,
     "lng": -48.27424420000001
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787710822360",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "CHACARAS TUBALINA E QUARTEL",
-   "endereco": "RUA JOSE GARIBALDINO, N. 350, Apto 203, BL 12 VG 245",
-   "preco": 88990.38,
-   "valor_avaliacao": 152000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 57.44 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710822360",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.9199415,
-    "lng": -48.313967
    },
    "geo_pendente": false
   },
@@ -12746,27 +12617,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787708723431",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "SHOPPING PARK",
-   "endereco": "RUA PROFESSORA MARIA CELIA CENCE, N. 160, Apto 202, BL 55 PAV 02 VG 589",
-   "preco": 98963.3,
-   "valor_avaliacao": 167000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 58.28 de área total, 41.14 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708723431",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.9662918,
-    "lng": -48.2795583
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787716754383",
    "uf": "MG",
    "cidade": "UBERLANDIA",
@@ -12777,7 +12627,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 59.60 de área total, 43.05 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716754383",
    "tipo": "apartamento",
    "geo": {
@@ -12798,7 +12648,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 61.32 de área total, 43.05 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716771172",
    "tipo": "apartamento",
    "geo": {
@@ -12819,7 +12669,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 68.13 de área total, 44.61 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705284453",
    "tipo": "apartamento",
    "geo": {
@@ -12861,7 +12711,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 43.61 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555531271792",
    "tipo": "apartamento",
    "geo": {
@@ -12882,7 +12732,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 46.64 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711078959",
    "tipo": "apartamento",
    "geo": {
@@ -13141,27 +12991,6 @@
     "fonte": "google",
     "lat": -18.9517713,
     "lng": -48.3501617
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787707349641",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "SHOPPING PARK",
-   "endereco": "RUA PROFESSORA MARIA CELIA CENCE, N. 160, Apto 303, QD 04 BL 57 LT 01",
-   "preco": 114838.57,
-   "valor_avaliacao": 190000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 58.28 de área total, 41.14 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707349641",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.9662918,
-    "lng": -48.2795583
    },
    "geo_pendente": false
   },
@@ -13768,9 +13597,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444438383355",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -18.9370208,
-    "lng": -48.2990235,
-    "fonte": "google"
+    "lng": -48.2990235
    },
    "geo_pendente": false
   },
@@ -13936,9 +13765,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707761453",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -18.9565592,
-    "lng": -48.3193712,
-    "fonte": "google"
+    "lng": -48.3193712
    },
    "geo_pendente": false
   },
@@ -14335,9 +14164,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787723527567",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -18.9709121,
-    "lng": -48.2731331,
-    "fonte": "google"
+    "lng": -48.2731331
    },
    "geo_pendente": false
   },
@@ -14356,9 +14185,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715681650",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -18.9593111,
-    "lng": -48.2487702,
-    "fonte": "google"
+    "lng": -48.2487702
    },
    "geo_pendente": false
   },
@@ -14524,9 +14353,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719507140",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -18.9593111,
-    "lng": -48.2487702,
-    "fonte": "google"
+    "lng": -48.2487702
    },
    "geo_pendente": false
   },
@@ -15112,9 +14941,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720216129",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -21.5829118,
-    "lng": -45.456581,
-    "fonte": "google"
+    "lng": -45.456581
    },
    "geo_pendente": false
   },
@@ -15133,9 +14962,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787723947345",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -21.5829118,
-    "lng": -45.456581,
-    "fonte": "google"
+    "lng": -45.456581
    },
    "geo_pendente": false
   },
@@ -15154,9 +14983,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787721840349",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -21.5829118,
-    "lng": -45.456581,
-    "fonte": "google"
+    "lng": -45.456581
    },
    "geo_pendente": false
   },
@@ -15182,6 +15011,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444431483028",
+   "uf": "MG",
+   "cidade": "VARZEA DA PALMA",
+   "bairro": "BAIRRO PEDRAS GRANDE",
+   "endereco": "RUA 35, N. 757, LT 03 QD 31",
+   "preco": 81232.99,
+   "valor_avaliacao": 150000.0,
+   "desconto": 45.85,
+   "financiamento": "Não",
+   "descricao": "Casa, 46.36 de área total, 46.36 de área privativa, 180.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431483028",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -17.6356934,
+    "lng": -44.7095421
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444428719903",
    "uf": "MG",
    "cidade": "VESPASIANO",
@@ -15192,7 +15042,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 92.34 de área total, 43.15 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428719903",
    "tipo": "apartamento",
    "geo": {
@@ -15220,27 +15070,6 @@
     "fonte": "google",
     "lat": -19.7482401,
     "lng": -43.9341072
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787702964283",
-   "uf": "MG",
-   "cidade": "VESPASIANO",
-   "bairro": "BONSUCESSO",
-   "endereco": "AVENIDA DIVINO MARQUES GUIMARAES, N. 2249, Apto 204, BL 03",
-   "preco": 111544.51,
-   "valor_avaliacao": 184550.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 61.96 de área total, 45.04 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702964283",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7697828,
-    "lng": -43.9657655
    },
    "geo_pendente": false
   },
@@ -15448,9 +15277,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428686045",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -21.0066658,
-    "lng": -42.8276183,
-    "fonte": "google"
+    "lng": -42.8276183
    },
    "geo_pendente": false
   }
