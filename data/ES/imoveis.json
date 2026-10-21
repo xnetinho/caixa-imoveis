@@ -1,9 +1,9 @@
 {
  "uf": "ES",
- "data_geracao_caixa": "19/10/2026",
- "coletado_em": "20/10/2026 02:54",
+ "data_geracao_caixa": "20/10/2026",
+ "coletado_em": "20/10/2026 22:27",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_ES.csv",
- "total": 41,
+ "total": 42,
  "colunas": [
   "id",
   "uf",
@@ -142,27 +142,6 @@
     "fonte": "google",
     "lat": -20.3134135,
     "lng": -40.3772995
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444420086229",
-   "uf": "ES",
-   "cidade": "ITAPEMIRIM",
-   "bairro": "PRAIA DE ITAIPAVA",
-   "endereco": "RUA DEOZALINA VIANA DE AGUIAR, N. 181, CASA 01",
-   "preco": 177173.38,
-   "valor_avaliacao": 278000.0,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Casa, 118.00 de área total, 102.50 de área privativa, 250.70 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444420086229",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.8908794,
-    "lng": -40.7808057
    },
    "geo_pendente": false
   },
@@ -438,6 +417,21 @@
     "lng": -40.2513908
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787718259126",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "PRAIA DA BALEIA",
+   "endereco": "AVENIDA DESEMBARGADOR ANTONIO JOSE MIGUEL FEU ROSA, N. 395, Apto 104, BLOCO 21",
+   "preco": 171445.26,
+   "valor_avaliacao": 280000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 63.55 de área total, 42.47 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718259126",
+   "tipo": "apartamento"
   },
   {
    "id": "1555519490570",
@@ -786,7 +780,7 @@
    "desconto": 70.55,
    "financiamento": "Não",
    "descricao": "Loja, 0.00 de área total, 850.00 de área privativa, 384.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10208367",
    "tipo": "loja",
    "geo": {
@@ -877,6 +871,27 @@
     "fonte": "google",
     "lat": -20.5094233,
     "lng": -40.3761727
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "10140908",
+   "uf": "ES",
+   "cidade": "VITORIA",
+   "bairro": "CENTRO",
+   "endereco": "AVENIDA JERONIMO MONTEIRO, N. 126",
+   "preco": 265948.56,
+   "valor_avaliacao": 626700.0,
+   "desconto": 57.57,
+   "financiamento": "Não",
+   "descricao": "Loja, 0.00 de área total, 732.66 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10140908",
+   "tipo": "loja",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.3215907,
+    "lng": -40.3380155
    },
    "geo_pendente": false
   }

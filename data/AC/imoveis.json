@@ -1,7 +1,7 @@
 {
  "uf": "AC",
- "data_geracao_caixa": "19/10/2026",
- "coletado_em": "20/10/2026 02:53",
+ "data_geracao_caixa": "20/10/2026",
+ "coletado_em": "20/10/2026 22:27",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AC.csv",
  "total": 19,
  "colunas": [
@@ -20,6 +20,27 @@
  ],
  "imoveis": [
   {
+   "id": "10005121",
+   "uf": "AC",
+   "cidade": "CRUZEIRO DO SUL",
+   "bairro": "BAIRRO COHAB",
+   "endereco": "RUA DO PURUS, N. S/N, QUARTEIRÃO 272 LOTE 11",
+   "preco": 46497.53,
+   "valor_avaliacao": 150000.0,
+   "desconto": 69.01,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 600.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10005121",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.6302179,
+    "lng": -72.6825869
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "10005120",
    "uf": "AC",
    "cidade": "CRUZEIRO DO SUL",
@@ -32,27 +53,6 @@
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 600.00 de área do terreno.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10005120",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.6302179,
-    "lng": -72.6825869
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "10005121",
-   "uf": "AC",
-   "cidade": "CRUZEIRO DO SUL",
-   "bairro": "BAIRRO COHAB",
-   "endereco": "RUA DO PURUS, N. S/N, QUARTEIRÃO 272 LOTE 11",
-   "preco": 50074.26,
-   "valor_avaliacao": 150000.0,
-   "desconto": 66.62,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 600.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10005121",
    "tipo": "terreno",
    "geo": {
     "fonte": "google",
@@ -382,12 +382,12 @@
    "cidade": "SENA MADUREIRA",
    "bairro": "EUGENIO A AREAL",
    "endereco": "RUA PROJETADA, N. s/n°, SETOR 06, QD 01, LT 39-B",
-   "preco": 294022.55,
+   "preco": 286285.12,
    "valor_avaliacao": 614400.0,
-   "desconto": 52.15,
+   "desconto": 53.41,
    "financiamento": "Não",
    "descricao": "Gleba Urbana, 0.00 de área total, 0.00 de área privativa, 18856.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555531272650",
    "tipo": "gleba urbana",
    "geo": {
