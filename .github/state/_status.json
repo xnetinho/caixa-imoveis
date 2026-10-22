@@ -1,8 +1,8 @@
 {
- "executado_em": "22/10/2026 03:02",
+ "executado_em": "22/10/2026 09:57",
  "modo": "ufs",
- "ufs_ok": 25,
- "ufs_falha": 2,
+ "ufs_ok": 26,
+ "ufs_falha": 1,
  "status": {
   "AC": {
    "ok": true,
@@ -25,9 +25,10 @@
    "gerado_em": "21/10/2026"
   },
   "BA": {
-   "ok": true,
+   "ok": false,
    "total": 708,
-   "gerado_em": "21/10/2026"
+   "gerado_em": "21/10/2026",
+   "erro": "falha no download — dado anterior preservado"
   },
   "CE": {
    "ok": true,
@@ -105,10 +106,9 @@
    "gerado_em": "21/10/2026"
   },
   "RS": {
-   "ok": false,
-   "total": 830,
-   "gerado_em": "20/10/2026",
-   "erro": "falha no download — dado anterior preservado"
+   "ok": true,
+   "total": 855,
+   "gerado_em": "21/10/2026"
   },
   "RO": {
    "ok": true,
@@ -131,10 +131,9 @@
    "gerado_em": "21/10/2026"
   },
   "SE": {
-   "ok": false,
-   "total": 401,
-   "gerado_em": "20/10/2026",
-   "erro": "falha no download — dado anterior preservado"
+   "ok": true,
+   "total": 406,
+   "gerado_em": "21/10/2026"
   },
   "TO": {
    "ok": true,
