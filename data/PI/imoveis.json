@@ -1,9 +1,9 @@
 {
  "uf": "PI",
- "data_geracao_caixa": "20/10/2026",
- "coletado_em": "20/10/2026 22:27",
+ "data_geracao_caixa": "21/10/2026",
+ "coletado_em": "22/10/2026 02:59",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_PI.csv",
- "total": 753,
+ "total": 769,
  "colunas": [
   "id",
   "uf",
@@ -67,18 +67,39 @@
    "cidade": "AGUA BRANCA",
    "bairro": "NOVA BRASILIA",
    "endereco": "RUA JONAS FERNANDES LIMA, N. 376,",
-   "preco": 29368.99,
+   "preco": 28529.87,
    "valor_avaliacao": 57779.22,
-   "desconto": 49.18,
+   "desconto": 50.63,
    "financiamento": "Não",
    "descricao": "Casa, 59.86 de área total, 59.86 de área privativa, 180.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444401399665",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -5.895914599999999,
     "lng": -42.6339908
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444412509165",
+   "uf": "PI",
+   "cidade": "AGUA BRANCA",
+   "bairro": "POEIRÃO",
+   "endereco": "RUA TRÊS, N. SN, LT 05 QD B1",
+   "preco": 65892.31,
+   "valor_avaliacao": 130000.0,
+   "desconto": 49.32,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 285.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412509165",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.889397499999999,
+    "lng": -42.6351979
    },
    "geo_pendente": false
   },
@@ -100,6 +121,27 @@
     "fonte": "google",
     "lat": -5.8924791,
     "lng": -42.6265098
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444414362595",
+   "uf": "PI",
+   "cidade": "AGUA BRANCA",
+   "bairro": "TINGUIS",
+   "endereco": "AV JOAO FERREIRA, N. SN, LT 08 QD 12",
+   "preco": 52135.04,
+   "valor_avaliacao": 101374.14,
+   "desconto": 48.58,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 73.50 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414362595",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.894341,
+    "lng": -42.6370561
    },
    "geo_pendente": false
   },
@@ -167,27 +209,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444412509165",
-   "uf": "PI",
-   "cidade": "AGUA BRANCA",
-   "bairro": "POEIRÃO",
-   "endereco": "RUA TRÊS, N. SN, LT 05 QD B1",
-   "preco": 67774.95,
-   "valor_avaliacao": 130000.0,
-   "desconto": 47.87,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 285.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412509165",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.889397499999999,
-    "lng": -42.6351979
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444414363230",
    "uf": "PI",
    "cidade": "AGUA BRANCA",
@@ -205,27 +226,6 @@
     "fonte": "google",
     "lat": -5.889397499999999,
     "lng": -42.6351979
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444414362595",
-   "uf": "PI",
-   "cidade": "AGUA BRANCA",
-   "bairro": "TINGUIS",
-   "endereco": "AV JOAO FERREIRA, N. SN, LT 08 QD 12",
-   "preco": 53583.24,
-   "valor_avaliacao": 101374.14,
-   "desconto": 47.15,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 73.50 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414362595",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.894341,
-    "lng": -42.6370561
    },
    "geo_pendente": false
   },
@@ -398,6 +398,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8555530349682",
+   "uf": "PI",
+   "cidade": "AGUA BRANCA",
+   "bairro": "CENTRO",
+   "endereco": "RUA SÃO JOÃO INÁCIO MONTEIRO, N. SN, LT 10 QD I",
+   "preco": 61285.44,
+   "valor_avaliacao": 110000.0,
+   "desconto": 44.29,
+   "financiamento": "Não",
+   "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 202.40 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555530349682",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.8966862,
+    "lng": -42.6363989
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444402386338",
    "uf": "PI",
    "cidade": "AGUA BRANCA",
@@ -415,6 +436,27 @@
     "fonte": "google",
     "lat": -5.8924791,
     "lng": -42.6265098
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444410604195",
+   "uf": "PI",
+   "cidade": "AGUA BRANCA",
+   "bairro": "POEIRÃO",
+   "endereco": "RUA 8, N. SN, LT 42",
+   "preco": 54274.06,
+   "valor_avaliacao": 96154.77,
+   "desconto": 43.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 62.32 de área total, 62.32 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410604195",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.8995312,
+    "lng": -42.6274544
    },
    "geo_pendente": false
   },
@@ -450,7 +492,7 @@
    "desconto": 42.86,
    "financiamento": "Não",
    "descricao": "Casa, 69.86 de área total, 69.86 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407092251",
    "tipo": "casa",
    "geo": {
@@ -503,27 +545,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555530349682",
-   "uf": "PI",
-   "cidade": "AGUA BRANCA",
-   "bairro": "CENTRO",
-   "endereco": "RUA SÃO JOÃO INÁCIO MONTEIRO, N. SN, LT 10 QD I",
-   "preco": 62856.87,
-   "valor_avaliacao": 110000.0,
-   "desconto": 42.86,
-   "financiamento": "Não",
-   "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 202.40 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555530349682",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.8966862,
-    "lng": -42.6363989
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444417936096",
    "uf": "PI",
    "cidade": "AGUA BRANCA",
@@ -541,27 +562,6 @@
     "fonte": "google",
     "lat": -5.8937752,
     "lng": -42.6280195
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444410604195",
-   "uf": "PI",
-   "cidade": "AGUA BRANCA",
-   "bairro": "POEIRÃO",
-   "endereco": "RUA 8, N. SN, LT 42",
-   "preco": 55665.71,
-   "valor_avaliacao": 96154.77,
-   "desconto": 42.11,
-   "financiamento": "Não",
-   "descricao": "Casa, 62.32 de área total, 62.32 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410604195",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.8995312,
-    "lng": -42.6274544
    },
    "geo_pendente": false
   },
@@ -742,9 +742,9 @@
    "preco": 90409.79,
    "valor_avaliacao": 154424.43,
    "desconto": 41.46,
-   "financiamento": "Não",
+   "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555509563794",
    "tipo": "terreno",
    "geo": {
@@ -902,6 +902,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444439029008",
+   "uf": "PI",
+   "cidade": "AGUA BRANCA",
+   "bairro": "POEIRÃO",
+   "endereco": "RUA PROJETADA 300, N. SN, QD E  LT 04",
+   "preco": 123954.07,
+   "valor_avaliacao": 180000.0,
+   "desconto": 31.14,
+   "financiamento": "Não",
+   "descricao": "Casa, 71.00 de área total, 71.00 de área privativa, 275.40 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444439029008",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.8924791,
+    "lng": -42.6265098
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444405210281",
    "uf": "PI",
    "cidade": "AGUA BRANCA",
@@ -940,27 +961,6 @@
     "fonte": "google",
     "lat": -5.8922126,
     "lng": -42.6262749
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444439029008",
-   "uf": "PI",
-   "cidade": "AGUA BRANCA",
-   "bairro": "POEIRÃO",
-   "endereco": "RUA PROJETADA 300, N. SN, QD E  LT 04",
-   "preco": 180000.0,
-   "valor_avaliacao": 180000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 71.00 de área total, 71.00 de área privativa, 275.40 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444439029008",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.8924791,
-    "lng": -42.6265098
    },
    "geo_pendente": false
   },
@@ -1007,6 +1007,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444403933502",
+   "uf": "PI",
+   "cidade": "ALAGOINHA DO PIAUI",
+   "bairro": "LOT VAQUEJADA",
+   "endereco": "AV JOAO GABRIEL DE BRITO, N. 726, QD B LT 1B",
+   "preco": 28713.93,
+   "valor_avaliacao": 100800.0,
+   "desconto": 71.52,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 92.50 de área privativa, 100.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403933502",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.0097606,
+    "lng": -40.9360879
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444417633506",
    "uf": "PI",
    "cidade": "ALAGOINHA DO PIAUI",
@@ -1045,27 +1066,6 @@
     "fonte": "google",
     "lat": -22.9012249,
     "lng": -43.1791747
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444403933502",
-   "uf": "PI",
-   "cidade": "ALAGOINHA DO PIAUI",
-   "bairro": "LOT VAQUEJADA",
-   "endereco": "AV JOAO GABRIEL DE BRITO, N. 726, QD B LT 1B",
-   "preco": 31585.32,
-   "valor_avaliacao": 100800.0,
-   "desconto": 68.67,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 92.50 de área privativa, 100.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403933502",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.0097606,
-    "lng": -40.9360879
    },
    "geo_pendente": false
   },
@@ -1238,6 +1238,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8444416412980",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "BAIRRO BOCA DE BARRO",
+   "endereco": "RUA PROJETADA 11, N. 35, BAIRRO BOCA DE BARRO",
+   "preco": 28514.71,
+   "valor_avaliacao": 93887.5,
+   "desconto": 69.63,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 53.65 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416412980",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.0361977,
+    "lng": -42.48742860000001
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444417906820",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "BACURIZEIRO",
+   "endereco": "RUA DIADEMA, N. 1006,",
+   "preco": 28672.88,
+   "valor_avaliacao": 94408.26,
+   "desconto": 69.63,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 51.00 de área privativa, 248.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417906820",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.0235767,
+    "lng": -42.4522528
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444427079773",
    "uf": "PI",
    "cidade": "ALTOS",
@@ -1364,23 +1406,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444417906820",
+   "id": "8444425337023",
    "uf": "PI",
    "cidade": "ALTOS",
-   "bairro": "BACURIZEIRO",
-   "endereco": "RUA DIADEMA, N. 1006,",
-   "preco": 31279.5,
-   "valor_avaliacao": 94408.26,
-   "desconto": 66.87,
+   "bairro": "CENTRO",
+   "endereco": "RUA 01, N. 45, LT 30",
+   "preco": 44893.87,
+   "valor_avaliacao": 135412.22,
+   "desconto": 66.85,
    "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 51.00 de área privativa, 248.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417906820",
+   "descricao": "Casa, 0.00 de área total, 62.00 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425337023",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -5.0235767,
-    "lng": -42.4522528
+    "lat": -5.0395708,
+    "lng": -42.46106289999999
    },
    "geo_pendente": false
   },
@@ -1423,27 +1465,6 @@
     "fonte": "google",
     "lat": -11.2544854,
     "lng": -39.3752039
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444425337023",
-   "uf": "PI",
-   "cidade": "ALTOS",
-   "bairro": "CENTRO",
-   "endereco": "RUA 01, N. 45, LT 30",
-   "preco": 48635.02,
-   "valor_avaliacao": 135412.22,
-   "desconto": 64.09,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 62.00 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425337023",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.0395708,
-    "lng": -42.46106289999999
    },
    "geo_pendente": false
   },
@@ -1507,6 +1528,27 @@
     "fonte": "google",
     "lat": -5.0389601,
     "lng": -42.4724568
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444416757580",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "Santo Antonio",
+   "endereco": "RUA 9, N. 130,",
+   "preco": 54395.45,
+   "valor_avaliacao": 143356.24,
+   "desconto": 62.06,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 58.94 de área privativa, 233.33 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416757580",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.0462419,
+    "lng": -42.4489481
    },
    "geo_pendente": false
   },
@@ -1630,9 +1672,30 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408362260",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -5.1590108,
-    "lng": -42.7878893,
-    "fonte": "google"
+    "lng": -42.7878893
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444413848176",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "SÃO SEBASTIÃO",
+   "endereco": "RUA ELVIRA ALMEIDA ASSUNÇÃO, N. 197,",
+   "preco": 28707.32,
+   "valor_avaliacao": 74000.0,
+   "desconto": 61.21,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 45.31 de área privativa, 214.28 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413848176",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.0398441,
+    "lng": -42.4592478
    },
    "geo_pendente": false
   },
@@ -1679,23 +1742,23 @@
    "geo_pendente": false
   },
   {
-   "id": "1444416757580",
+   "id": "8444418308390",
    "uf": "PI",
    "cidade": "ALTOS",
-   "bairro": "Santo Antonio",
-   "endereco": "RUA 9, N. 130,",
-   "preco": 58579.72,
-   "valor_avaliacao": 143356.24,
-   "desconto": 59.14,
+   "bairro": "BAIRRO SANTA LUZ",
+   "endereco": "RUA IX, N. 455, QD H, LT 03",
+   "preco": 65359.09,
+   "valor_avaliacao": 165000.0,
+   "desconto": 60.39,
    "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 58.94 de área privativa, 233.33 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416757580",
+   "descricao": "Casa, 63.44 de área total, 63.44 de área privativa, 220.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418308390",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -5.0462419,
-    "lng": -42.4489481
+    "lat": -5.0464395,
+    "lng": -42.4461905
    },
    "geo_pendente": false
   },
@@ -1784,25 +1847,61 @@
    "geo_pendente": false
   },
   {
-   "id": "8444413848176",
+   "id": "8444408404460",
    "uf": "PI",
    "cidade": "ALTOS",
-   "bairro": "SÃO SEBASTIÃO",
-   "endereco": "RUA ELVIRA ALMEIDA ASSUNÇÃO, N. 197,",
-   "preco": 30757.85,
-   "valor_avaliacao": 74000.0,
-   "desconto": 58.44,
+   "bairro": "SÃO LUIZ",
+   "endereco": "RUA ANÍSIO LIMA, N. 1345, QUARTEIRÃO SÉRIE SUL",
+   "preco": 55500.54,
+   "valor_avaliacao": 133923.87,
+   "desconto": 58.56,
    "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 45.31 de área privativa, 214.28 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413848176",
+   "descricao": "Casa, 0.00 de área total, 102.95 de área privativa, 532.14 de área do terreno,  3 qto(s), a.serv, WC, 2 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408404460",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -5.0398441,
-    "lng": -42.4592478
+    "lat": -5.0418409,
+    "lng": -42.4510612
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444418214957",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "BAIRRO SANTA LUZ",
+   "endereco": "RUA IX, N. 445, LOTE 02 445, QD H",
+   "preco": 57189.76,
+   "valor_avaliacao": 138000.0,
+   "desconto": 58.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 63.44 de área total, 63.44 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418214957",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.046421,
+    "lng": -42.4462497
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444429643560",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "TRANQUEIRA",
+   "endereco": "RUA PROJETADA V, N. 153,",
+   "preco": 56902.62,
+   "valor_avaliacao": 137307.12,
+   "desconto": 58.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 48.63 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429643560",
+   "tipo": "casa"
   },
   {
    "id": "8444417174480",
@@ -1819,9 +1918,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417174480",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -5.034999399999999,
-    "lng": -42.4402716,
-    "fonte": "google"
+    "lng": -42.4402716
    },
    "geo_pendente": false
   },
@@ -1889,27 +1988,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444418308390",
-   "uf": "PI",
-   "cidade": "ALTOS",
-   "bairro": "BAIRRO SANTA LUZ",
-   "endereco": "RUA IX, N. 455, QD H, LT 03",
-   "preco": 70027.59,
-   "valor_avaliacao": 165000.0,
-   "desconto": 57.56,
-   "financiamento": "Não",
-   "descricao": "Casa, 63.44 de área total, 63.44 de área privativa, 220.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418308390",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.0464395,
-    "lng": -42.4461905
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444426191405",
    "uf": "PI",
    "cidade": "ALTOS",
@@ -1927,6 +2005,27 @@
     "fonte": "google",
     "lat": -5.0415483,
     "lng": -42.4789029
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444426436289",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "BAIRRO CIANA",
+   "endereco": "RUA GRAJAÚ, N. 677,",
+   "preco": 47471.61,
+   "valor_avaliacao": 108937.6,
+   "desconto": 56.43,
+   "financiamento": "Não",
+   "descricao": "Casa, 63.71 de área total, 63.71 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426436289",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.025418,
+    "lng": -42.444302
    },
    "geo_pendente": false
   },
@@ -1969,27 +2068,6 @@
     "fonte": "google",
     "lat": -5.0344688,
     "lng": -42.475057
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444408404460",
-   "uf": "PI",
-   "cidade": "ALTOS",
-   "bairro": "SÃO LUIZ",
-   "endereco": "RUA ANÍSIO LIMA, N. 1345, QUARTEIRÃO SÉRIE SUL",
-   "preco": 59200.57,
-   "valor_avaliacao": 133923.87,
-   "desconto": 55.8,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 102.95 de área privativa, 532.14 de área do terreno,  3 qto(s), a.serv, WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408404460",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.0418409,
-    "lng": -42.4510612
    },
    "geo_pendente": false
   },
@@ -2263,27 +2341,6 @@
     "fonte": "google",
     "lat": -5.0359716,
     "lng": -42.4818813
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444426436289",
-   "uf": "PI",
-   "cidade": "ALTOS",
-   "bairro": "BAIRRO CIANA",
-   "endereco": "RUA GRAJAÚ, N. 677,",
-   "preco": 50438.59,
-   "valor_avaliacao": 108937.6,
-   "desconto": 53.7,
-   "financiamento": "Não",
-   "descricao": "Casa, 63.71 de área total, 63.71 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426436289",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.025418,
-    "lng": -42.444302
    },
    "geo_pendente": false
   },
@@ -2582,6 +2639,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444427915342",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "BOCA DE BARRO",
+   "endereco": "RUA 01, N. 08,",
+   "preco": 57384.39,
+   "valor_avaliacao": 120000.0,
+   "desconto": 52.18,
+   "financiamento": "Não",
+   "descricao": "Casa, 56.50 de área total, 56.50 de área privativa, 162.80 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427915342",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.0409443,
+    "lng": -42.4789059
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444427991227",
    "uf": "PI",
    "cidade": "ALTOS",
@@ -2687,6 +2765,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444406262510",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "CENTRO",
+   "endereco": "RUA MONSENHOR LOPES, N. 693",
+   "preco": 63095.22,
+   "valor_avaliacao": 130500.0,
+   "desconto": 51.66,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 66.50 de área privativa, 522.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406262510",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.0326132,
+    "lng": -42.4543972
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444420935100",
    "uf": "PI",
    "cidade": "ALTOS",
@@ -2771,27 +2870,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444427915342",
-   "uf": "PI",
-   "cidade": "ALTOS",
-   "bairro": "BOCA DE BARRO",
-   "endereco": "RUA 01, N. 08,",
-   "preco": 59023.95,
-   "valor_avaliacao": 120000.0,
-   "desconto": 50.82,
-   "financiamento": "Não",
-   "descricao": "Casa, 56.50 de área total, 56.50 de área privativa, 162.80 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427915342",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.0409443,
-    "lng": -42.4789059
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444429614781",
    "uf": "PI",
    "cidade": "ALTOS",
@@ -2830,27 +2908,6 @@
     "fonte": "google",
     "lat": -5.0487024,
     "lng": -42.4670478
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444406262510",
-   "uf": "PI",
-   "cidade": "ALTOS",
-   "bairro": "CENTRO",
-   "endereco": "RUA MONSENHOR LOPES, N. 693",
-   "preco": 64897.94,
-   "valor_avaliacao": 130500.0,
-   "desconto": 50.27,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 66.50 de área privativa, 522.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406262510",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.0326132,
-    "lng": -42.4543972
    },
    "geo_pendente": false
   },
@@ -2998,6 +3055,27 @@
     "fonte": "google",
     "lat": -5.034015399999999,
     "lng": -42.4728164
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444427610347",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "BAIXAO DOS PAIVA",
+   "endereco": "RUA 08, N. 121, QD F",
+   "preco": 60663.5,
+   "valor_avaliacao": 120000.0,
+   "desconto": 49.45,
+   "financiamento": "Não",
+   "descricao": "Casa, 62.64 de área total, 62.64 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), Terraco.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427610347",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.0395708,
+    "lng": -42.46106289999999
    },
    "geo_pendente": false
   },
@@ -3397,27 +3475,6 @@
     "fonte": "google",
     "lat": -5.0354993,
     "lng": -42.4876018
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444427610347",
-   "uf": "PI",
-   "cidade": "ALTOS",
-   "bairro": "BAIXAO DOS PAIVA",
-   "endereco": "RUA 08, N. 121, QD F",
-   "preco": 62303.06,
-   "valor_avaliacao": 120000.0,
-   "desconto": 48.09,
-   "financiamento": "Não",
-   "descricao": "Casa, 62.64 de área total, 62.64 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), Terraco.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427610347",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.0395708,
-    "lng": -42.46106289999999
    },
    "geo_pendente": false
   },
@@ -4360,9 +4417,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420196391",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -5.041441,
-    "lng": -42.4423115,
-    "fonte": "google"
+    "lng": -42.4423115
    },
    "geo_pendente": false
   },
@@ -4587,7 +4644,7 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Casa, 40.26 de área total, 40.26 de área privativa, 250.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534393074",
    "tipo": "casa",
    "geo": {
@@ -4633,9 +4690,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416012710",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -5.0551527,
-    "lng": -42.46052479999999,
-    "fonte": "google"
+    "lng": -42.46052479999999
    },
    "geo_pendente": false
   },
@@ -4717,9 +4774,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426634137",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -5.048782,
-    "lng": -42.445217,
-    "fonte": "google"
+    "lng": -42.445217
    },
    "geo_pendente": false
   },
@@ -4997,6 +5054,42 @@
    "geo_pendente": false
   },
   {
+   "id": "8444428731636",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "BOCA DE BARRO",
+   "endereco": "RUA IV, N. SN, CS 91",
+   "preco": 120207.6,
+   "valor_avaliacao": 154390.43,
+   "desconto": 22.15,
+   "financiamento": "Não",
+   "descricao": "Casa, 65.18 de área total, 65.18 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428731636",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.0525629,
+    "lng": -42.4674683
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444405439467",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "BAIRRO TRANQUEIRA",
+   "endereco": "RUA MANOEL HOZANA, N. 1536,",
+   "preco": 140100.31,
+   "valor_avaliacao": 140100.31,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 51.38 de área total, 51.38 de área privativa, 216.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405439467",
+   "tipo": "casa"
+  },
+  {
    "id": "8444412396530",
    "uf": "PI",
    "cidade": "ALTOS",
@@ -5081,27 +5174,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444428731636",
-   "uf": "PI",
-   "cidade": "ALTOS",
-   "bairro": "BOCA DE BARRO",
-   "endereco": "RUA IV, N. SN, CS 91",
-   "preco": 154390.43,
-   "valor_avaliacao": 154390.43,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 65.18 de área total, 65.18 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428731636",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.0525629,
-    "lng": -42.4674683
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444435703766",
    "uf": "PI",
    "cidade": "ALTOS",
@@ -5123,6 +5195,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8555533268837",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "LOT JD CIDADE RES II",
+   "endereco": "RUA XIII, N. 496, LT 04 QD B",
+   "preco": 65000.0,
+   "valor_avaliacao": 65000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 40.26 de área total, 40.26 de área privativa, 250.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533268837",
+   "tipo": "casa"
+  },
+  {
    "id": "8444402369646",
    "uf": "PI",
    "cidade": "ALTOS",
@@ -5142,6 +5229,21 @@
     "lng": -42.4526749
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444432472127",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "BAIRRO TRANQUEIRA",
+   "endereco": "RUA PROJETADA I, N. 111, RES PINHEIROS III",
+   "preco": 116067.51,
+   "valor_avaliacao": 115000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 48.63 de área total, 48.63 de área privativa, 189.86 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444432472127",
+   "tipo": "casa"
   },
   {
    "id": "8444429855240",
@@ -5186,6 +5288,36 @@
    "geo_pendente": false
   },
   {
+   "id": "8444434133214",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "BAIRRO SANTA LUZ",
+   "endereco": "RUA VIII, N. 65, LT 16 QD N LOT JD CIDADE RESIDENCE III",
+   "preco": 144560.06,
+   "valor_avaliacao": 130000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 55.48 de área total, 55.48 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434133214",
+   "tipo": "casa"
+  },
+  {
+   "id": "8444440463182",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "BAIRRO CIANA",
+   "endereco": "RUA PROJETADA XII, N. 107, LT 47 RES ALTOS VILLAGE",
+   "preco": 143204.17,
+   "valor_avaliacao": 127000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 54.40 de área total, 54.40 de área privativa, 182.06 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444440463182",
+   "tipo": "casa"
+  },
+  {
    "id": "8444438262523",
    "uf": "PI",
    "cidade": "ALTOS",
@@ -5207,44 +5339,68 @@
    "geo_pendente": false
   },
   {
+   "id": "8444439762007",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "BAIRRO SAO SEBASTIAO",
+   "endereco": "RUA 01, N. 285, LT 02 QD E RES PRIMAVERA IV",
+   "preco": 154317.98,
+   "valor_avaliacao": 134000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 60.90 de área total, 60.90 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444439762007",
+   "tipo": "casa"
+  },
+  {
+   "id": "8444433747162",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "BAIRRO TRANQUEIRA",
+   "endereco": "RUA PROJETADA III, N. 135, RES PINHEIROS III",
+   "preco": 144871.25,
+   "valor_avaliacao": 124000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 48.63 de área total, 48.63 de área privativa, 187.42 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433747162",
+   "tipo": "casa"
+  },
+  {
+   "id": "8444439080585",
+   "uf": "PI",
+   "cidade": "ALTOS",
+   "bairro": "BAIRRO CIANA",
+   "endereco": "RUA PROJETADA II, N. 126, RES ALTOS VILLAGE",
+   "preco": 152757.02,
+   "valor_avaliacao": 127000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 54.40 de área total, 54.40 de área privativa, 176.55 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444439080585",
+   "tipo": "casa"
+  },
+  {
    "id": "8444423036310",
    "uf": "PI",
    "cidade": "AMARANTE",
    "bairro": "AREIAS",
    "endereco": "RUA MANOEL FLOR II, N. 298, 298, GROTAO DO BAIXAO DOS ARAÇAS",
-   "preco": 59966.69,
+   "preco": 58388.62,
    "valor_avaliacao": 115500.0,
-   "desconto": 48.09,
+   "desconto": 49.45,
    "financiamento": "Não",
    "descricao": "Casa, 73.50 de área total, 73.50 de área privativa, 300.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423036310",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -7.278175699999998,
     "lng": -41.8867096
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444426795653",
-   "uf": "PI",
-   "cidade": "ANGICAL DO PIAUI",
-   "bairro": "AREIAS",
-   "endereco": "RUA ANTONIO CIRILO, N. 733, BAIRRO AREIAS",
-   "preco": 38923.02,
-   "valor_avaliacao": 118700.0,
-   "desconto": 67.21,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 70.00 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426795653",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -6.0812905,
-    "lng": -42.7374111
    },
    "geo_pendente": false
   },
@@ -5275,12 +5431,12 @@
    "cidade": "AVELINO LOPES",
    "bairro": "CENTRO",
    "endereco": "RUA 15 DE NOVEMBRO, N. 157",
-   "preco": 142758.4,
+   "preco": 138679.59,
    "valor_avaliacao": 256000.0,
-   "desconto": 44.24,
+   "desconto": 45.83,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 175.00 de área privativa, 200.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10220688",
    "tipo": "casa",
    "geo": {
@@ -5296,12 +5452,12 @@
    "cidade": "BARRAS",
    "bairro": "GALDINAL",
    "endereco": "RUA PROJETADA, N. 133, UN 133",
-   "preco": 52793.19,
+   "preco": 48732.18,
    "valor_avaliacao": 152660.26,
-   "desconto": 65.42,
+   "desconto": 68.08,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 79.37 de área privativa, 300.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444401094929",
    "tipo": "casa",
    "geo": {
@@ -5338,12 +5494,12 @@
    "cidade": "BARRAS",
    "bairro": "CENTRO",
    "endereco": "RUA PROJETADA 06, N. 70,",
-   "preco": 60691.05,
+   "preco": 58957.02,
    "valor_avaliacao": 121000.0,
-   "desconto": 49.85,
+   "desconto": 51.28,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 60.00 de área privativa, 200.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427660514",
    "tipo": "casa",
    "geo": {
@@ -5359,12 +5515,12 @@
    "cidade": "BARRAS",
    "bairro": "CENTRO",
    "endereco": "RUA CAIXA D AGUA (RUA ETA), N. 158,",
-   "preco": 39277.36,
+   "preco": 38155.15,
    "valor_avaliacao": 77500.0,
-   "desconto": 49.32,
+   "desconto": 50.77,
    "financiamento": "Não",
    "descricao": "Casa, 85.00 de área total, 85.00 de área privativa, 324.59 de área do terreno,  3 qto(s), WC, 3 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555508953700",
    "tipo": "casa",
    "geo": {
@@ -5401,12 +5557,12 @@
    "cidade": "BARRO DURO",
    "bairro": "CENTRO",
    "endereco": "AVENIDA CORONEL BENEDITO DA LUZ, N. S/N,",
-   "preco": 85466.19,
+   "preco": 83329.53,
    "valor_avaliacao": 140000.0,
-   "desconto": 38.96,
+   "desconto": 40.48,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 153.60 de área privativa, 470.00 de área do terreno,  4 qto(s), WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555526774880",
    "tipo": "casa",
    "geo": {
@@ -5431,9 +5587,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403793166",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.673392,
-    "lng": -37.1336045,
-    "fonte": "google"
+    "lng": -37.1336045
    },
    "geo_pendente": false
   },
@@ -5637,7 +5793,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 240.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411591712",
    "tipo": "casa",
    "geo": {
@@ -5658,7 +5814,7 @@
    "desconto": 41.91,
    "financiamento": "Não",
    "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 225.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411431901",
    "tipo": "casa",
    "geo": {
@@ -5686,6 +5842,27 @@
     "fonte": "google",
     "lat": -7.126894099999999,
     "lng": -41.0848784
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444418977357",
+   "uf": "PI",
+   "cidade": "CAMPO MAIOR",
+   "bairro": "CIDADE NOVA",
+   "endereco": "TR LUIZ GONZAGA DA COSTA ARAUJO, N. 09, LT09, QDU",
+   "preco": 54416.64,
+   "valor_avaliacao": 108000.0,
+   "desconto": 49.62,
+   "financiamento": "Não",
+   "descricao": "Casa, 63.24 de área total, 63.24 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418977357",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.8211172,
+    "lng": -42.1627231
    },
    "geo_pendente": false
   },
@@ -5732,27 +5909,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444418977357",
-   "uf": "PI",
-   "cidade": "CAMPO MAIOR",
-   "bairro": "CIDADE NOVA",
-   "endereco": "TR LUIZ GONZAGA DA COSTA ARAUJO, N. 09, LT09, QDU",
-   "preco": 55887.36,
-   "valor_avaliacao": 108000.0,
-   "desconto": 48.26,
-   "financiamento": "Não",
-   "descricao": "Casa, 63.24 de área total, 63.24 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418977357",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.8211172,
-    "lng": -42.1627231
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444422522660",
    "uf": "PI",
    "cidade": "CAMPO MAIOR",
@@ -5770,6 +5926,69 @@
     "fonte": "google",
     "lat": -4.8246927,
     "lng": -42.1619052
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444421553112",
+   "uf": "PI",
+   "cidade": "CAMPO MAIOR",
+   "bairro": "LOT POUSADA DO SOL",
+   "endereco": "VIA PUBLICA, N. SN, CS 04 QD 40",
+   "preco": 67370.88,
+   "valor_avaliacao": 125732.39,
+   "desconto": 46.42,
+   "financiamento": "Não",
+   "descricao": "Casa, 65.00 de área total, 65.00 de área privativa, 240.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421553112",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.8238312,
+    "lng": -42.1667673
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444418909211",
+   "uf": "PI",
+   "cidade": "CAMPO MAIOR",
+   "bairro": "SANTA CRUZ",
+   "endereco": "RUA ALIPIO IBIAPINA, N. 190,",
+   "preco": 56999.75,
+   "valor_avaliacao": 105000.0,
+   "desconto": 45.72,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 53.23 de área privativa, 199.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418909211",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.8381287,
+    "lng": -42.1634375
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444424335990",
+   "uf": "PI",
+   "cidade": "CAMPO MAIOR",
+   "bairro": "PQ DAS ESTRELAS",
+   "endereco": "RUA ALAMEDA ANTONIO CAMPO MAIOR BONA, N. 214,",
+   "preco": 62625.71,
+   "valor_avaliacao": 115000.0,
+   "desconto": 45.55,
+   "financiamento": "Não",
+   "descricao": "Casa, 60.00 de área total, 60.00 de área privativa, 187.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424335990",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.845318499999999,
+    "lng": -42.16873520000001
    },
    "geo_pendente": false
   },
@@ -5795,65 +6014,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444421553112",
-   "uf": "PI",
-   "cidade": "CAMPO MAIOR",
-   "bairro": "LOT POUSADA DO SOL",
-   "endereco": "VIA PUBLICA, N. SN, CS 04 QD 40",
-   "preco": 69191.72,
-   "valor_avaliacao": 125732.39,
-   "desconto": 44.97,
-   "financiamento": "Não",
-   "descricao": "Casa, 65.00 de área total, 65.00 de área privativa, 240.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421553112",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.8238312,
-    "lng": -42.1667673
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444418909211",
+   "id": "8444426070551",
    "uf": "PI",
    "cidade": "CAMPO MAIOR",
    "bairro": "SANTA CRUZ",
-   "endereco": "RUA ALIPIO IBIAPINA, N. 190,",
-   "preco": 58499.74,
-   "valor_avaliacao": 105000.0,
-   "desconto": 44.29,
+   "endereco": "R VAQUEIRO ANTONIO PEDRO SOBRINHO, N. 57,  CS",
+   "preco": 70706.52,
+   "valor_avaliacao": 125190.53,
+   "desconto": 43.53,
    "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 53.23 de área privativa, 199.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418909211",
+   "descricao": "Casa, 0.00 de área total, 66.22 de área privativa, 225.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426070551",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -4.8381287,
-    "lng": -42.1634375
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444424335990",
-   "uf": "PI",
-   "cidade": "CAMPO MAIOR",
-   "bairro": "PQ DAS ESTRELAS",
-   "endereco": "RUA ALAMEDA ANTONIO CAMPO MAIOR BONA, N. 214,",
-   "preco": 64273.76,
-   "valor_avaliacao": 115000.0,
-   "desconto": 44.11,
-   "financiamento": "Não",
-   "descricao": "Casa, 60.00 de área total, 60.00 de área privativa, 187.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424335990",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.845318499999999,
-    "lng": -42.16873520000001
+    "lat": -4.820551,
+    "lng": -42.1603984
    },
    "geo_pendente": false
   },
@@ -5875,27 +6052,6 @@
     "fonte": "google",
     "lat": -4.8337224,
     "lng": -42.18487510000001
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444426070551",
-   "uf": "PI",
-   "cidade": "CAMPO MAIOR",
-   "bairro": "SANTA CRUZ",
-   "endereco": "R VAQUEIRO ANTONIO PEDRO SOBRINHO, N. 57,  CS",
-   "preco": 72519.51,
-   "valor_avaliacao": 125190.53,
-   "desconto": 42.08,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 66.22 de área privativa, 225.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426070551",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.820551,
-    "lng": -42.1603984
    },
    "geo_pendente": false
   },
@@ -5926,12 +6082,12 @@
    "cidade": "CANTO DO BURITI",
    "bairro": "CENTRO",
    "endereco": "AVENIDA MARTINHO BORGES, N. 184, BAIRRO SANTO ANTONIO",
-   "preco": 175944.18,
+   "preco": 165594.52,
    "valor_avaliacao": 339000.0,
-   "desconto": 48.1,
+   "desconto": 51.16,
    "financiamento": "Não",
    "descricao": "Casa, 187.00 de área total, 187.00 de área privativa, 552.00 de área do terreno,  4 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416014944",
    "tipo": "casa",
    "geo": {
@@ -5947,12 +6103,12 @@
    "cidade": "CASTELO DO PIAUI",
    "bairro": "N SRA DAS GRAÇAS",
    "endereco": "RUA 2, N. SN, LT 23, QD B",
-   "preco": 25409.1,
+   "preco": 22868.19,
    "valor_avaliacao": 98000.0,
-   "desconto": 74.08,
+   "desconto": 76.67,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 63.90 de área privativa, 225.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), sacada, cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414179901",
    "tipo": "casa",
    "geo": {
@@ -5968,12 +6124,12 @@
    "cidade": "CASTELO DO PIAUI",
    "bairro": "CENTRO",
    "endereco": "RUA PROJETADA LESTE, N. SN, LT-11, QD.A",
-   "preco": 47772.19,
+   "preco": 44962.06,
    "valor_avaliacao": 108500.0,
-   "desconto": 55.98,
+   "desconto": 58.57,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 55.50 de área privativa, 225.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417831910",
    "tipo": "casa",
    "geo": {
@@ -6589,27 +6745,6 @@
     "fonte": "google",
     "lat": -5.3685186,
     "lng": -42.6684574
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444413517056",
-   "uf": "PI",
-   "cidade": "DEMERVAL LOBAO",
-   "bairro": "BAIRRO SAO PEDRO",
-   "endereco": "RUA TRAVESSA VISTA ALEGRE, N. 14, QD 01 LT 14",
-   "preco": 33944.47,
-   "valor_avaliacao": 70000.0,
-   "desconto": 51.51,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 52.00 de área privativa, 184.86 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413517056",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.3605968,
-    "lng": -42.6753446
    },
    "geo_pendente": false
   },
@@ -7989,7 +8124,7 @@
    "desconto": 42.86,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 58.50 de área privativa, 270.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416879617",
    "tipo": "casa",
    "geo": {
@@ -8178,7 +8313,7 @@
    "desconto": 42.86,
    "financiamento": "Não",
    "descricao": "Casa, 57.00 de área total, 57.00 de área privativa, 177.72 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413106099",
    "tipo": "casa",
    "geo": {
@@ -8199,7 +8334,7 @@
    "desconto": 42.86,
    "financiamento": "Não",
    "descricao": "Casa, 56.44 de área total, 56.44 de área privativa, 197.50 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422277313",
    "tipo": "casa",
    "geo": {
@@ -8577,7 +8712,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Casa, 64.06 de área total, 64.06 de área privativa, 295.70 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425370616",
    "tipo": "casa",
    "geo": {
@@ -8728,9 +8863,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406221732",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -5.3601338,
-    "lng": -42.6778699,
-    "fonte": "google"
+    "lng": -42.6778699
    },
    "geo_pendente": false
   },
@@ -8997,7 +9132,7 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 58.50 de área privativa, 190.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416760954",
    "tipo": "casa",
    "geo": {
@@ -9060,7 +9195,7 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Casa, 58.50 de área total, 58.50 de área privativa, 190.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417034246",
    "tipo": "casa",
    "geo": {
@@ -9123,7 +9258,7 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Casa, 58.50 de área total, 58.50 de área privativa, 178.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417785551",
    "tipo": "casa",
    "geo": {
@@ -9144,7 +9279,7 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Casa, 62.70 de área total, 62.70 de área privativa, 200.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418296295",
    "tipo": "casa",
    "geo": {
@@ -9165,7 +9300,7 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 64.50 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418488020",
    "tipo": "casa",
    "geo": {
@@ -9249,7 +9384,7 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Casa, 58.50 de área total, 58.50 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416887040",
    "tipo": "casa",
    "geo": {
@@ -9291,7 +9426,7 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Casa, 62.70 de área total, 62.70 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418065366",
    "tipo": "casa",
    "geo": {
@@ -9312,7 +9447,7 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Casa, 62.00 de área total, 62.00 de área privativa, 187.35 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424659507",
    "tipo": "casa",
    "geo": {
@@ -9417,7 +9552,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Casa, 58.50 de área total, 58.50 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417106379",
    "tipo": "casa",
    "geo": {
@@ -9480,7 +9615,7 @@
    "desconto": 41.91,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 67.66 de área privativa, 200.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408425912",
    "tipo": "casa",
    "geo": {
@@ -9732,7 +9867,7 @@
    "desconto": 41.91,
    "financiamento": "Não",
    "descricao": "Casa, 53.21 de área total, 53.21 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413288510",
    "tipo": "casa",
    "geo": {
@@ -9984,7 +10119,7 @@
    "desconto": 41.91,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 52.29 de área privativa, 200.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411279255",
    "tipo": "casa",
    "geo": {
@@ -10047,7 +10182,7 @@
    "desconto": 41.91,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 42.50 de área privativa, 136.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425875912",
    "tipo": "casa",
    "geo": {
@@ -10236,7 +10371,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 69.40 de área total, 69.40 de área privativa, 240.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410186270",
    "tipo": "casa",
    "geo": {
@@ -10331,25 +10466,79 @@
    "geo_pendente": false
   },
   {
-   "id": "8444417396750",
+   "id": "8444416238190",
+   "uf": "PI",
+   "cidade": "DEMERVAL LOBAO",
+   "bairro": "LOT PQ VAQUEJADOR",
+   "endereco": "RUA 19, N. 07, LT 07 QD 58",
+   "preco": 103000.0,
+   "valor_avaliacao": 103000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 58.50 de área total, 58.50 de área privativa, 300.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416238190",
+   "tipo": "casa"
+  },
+  {
+   "id": "8555518500627",
    "uf": "PI",
    "cidade": "DEMERVAL LOBAO",
    "bairro": "BAIRRO CIDADE NOVA",
-   "endereco": "RUA ILHOTAS, N. 977, LT 23 QD 01",
-   "preco": 138432.79,
-   "valor_avaliacao": 100000.0,
+   "endereco": "RUA FRANCISCO DE CARVALHO MELO, N. 1335,",
+   "preco": 103000.0,
+   "valor_avaliacao": 103000.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Casa, 58.50 de área total, 58.50 de área privativa, 200.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
+   "descricao": "Casa, 54.00 de área total, 54.00 de área privativa, 300.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417396750",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.3605968,
-    "lng": -42.6753446
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518500627",
+   "tipo": "casa"
+  },
+  {
+   "id": "8444426649843",
+   "uf": "PI",
+   "cidade": "DEMERVAL LOBAO",
+   "bairro": "BAIRRO SAO PEDRO",
+   "endereco": "RUA DOMINGOS PIUTA, N. 40,",
+   "preco": 126309.89,
+   "valor_avaliacao": 124000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 62.83 de área total, 62.83 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426649843",
+   "tipo": "casa"
+  },
+  {
+   "id": "8444418563528",
+   "uf": "PI",
+   "cidade": "DEMERVAL LOBAO",
+   "bairro": "TAMBURIL",
+   "endereco": "RUA DEUSDETE RIBEIRO, N. 702,",
+   "preco": 92462.41,
+   "valor_avaliacao": 86000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 56.00 de área total, 56.00 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418563528",
+   "tipo": "casa"
+  },
+  {
+   "id": "8444425938086",
+   "uf": "PI",
+   "cidade": "DEMERVAL LOBAO",
+   "bairro": "BAIRRO CIDADE NOVA",
+   "endereco": "TRAVESSA AZALEIA, N. 72, LT 08",
+   "preco": 129310.59,
+   "valor_avaliacao": 109798.87,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 62.00 de área total, 62.00 de área privativa, 190.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425938086",
+   "tipo": "casa"
   },
   {
    "id": "8444403127689",
@@ -10373,6 +10562,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1555524664786",
+   "uf": "PI",
+   "cidade": "ELISEU MARTINS",
+   "bairro": "BAIRRO LUIZ AMÂNCIA",
+   "endereco": "RUA GERALDO BARBOSA, N. S/N,",
+   "preco": 66291.47,
+   "valor_avaliacao": 141949.87,
+   "desconto": 53.3,
+   "financiamento": "Não",
+   "descricao": "Casa, 154.45 de área total, 154.45 de área privativa, 338.00 de área do terreno,  4 qto(s), varanda, WC, 2 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555524664786",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.1037103,
+    "lng": -43.6555784
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444417546379",
    "uf": "PI",
    "cidade": "ELISEU MARTINS",
@@ -10390,27 +10600,6 @@
     "fonte": "google",
     "lat": -8.1021657,
     "lng": -43.6599443
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1555524664786",
-   "uf": "PI",
-   "cidade": "ELISEU MARTINS",
-   "bairro": "BAIRRO LUIZ AMÂNCIA",
-   "endereco": "RUA GERALDO BARBOSA, N. S/N,",
-   "preco": 70434.68,
-   "valor_avaliacao": 141949.87,
-   "desconto": 50.39,
-   "financiamento": "Não",
-   "descricao": "Casa, 154.45 de área total, 154.45 de área privativa, 338.00 de área do terreno,  4 qto(s), varanda, WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555524664786",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1037103,
-    "lng": -43.6555784
    },
    "geo_pendente": false
   },
@@ -10546,12 +10735,12 @@
    "cidade": "FRANCISCO SANTOS",
    "bairro": "CHAPADA DA CRUZ",
    "endereco": "RUA PROJETADA QUATORZE, N. 60, 60,",
-   "preco": 50667.13,
+   "preco": 46444.87,
    "valor_avaliacao": 151132.94,
-   "desconto": 66.48,
+   "desconto": 69.27,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 69.66 de área privativa, 250.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415266840",
    "tipo": "casa",
    "geo": {
@@ -10588,12 +10777,12 @@
    "cidade": "ITAUEIRA",
    "bairro": "PÉ LEVE",
    "endereco": "RUA AURIVANDO SARAIVA, N. SN, LOTE 13-A QUADRA 03",
-   "preco": 58684.73,
+   "preco": 57008.02,
    "valor_avaliacao": 117000.0,
-   "desconto": 49.85,
+   "desconto": 51.28,
    "financiamento": "Não",
    "descricao": "Casa, 68.25 de área total, 68.25 de área privativa, 187.00 de área do terreno,  2 qto(s), a.serv, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416134379",
    "tipo": "casa",
    "geo": {
@@ -10625,6 +10814,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8444418500739",
+   "uf": "PI",
+   "cidade": "JOSE DE FREITAS",
+   "bairro": "DE FÁTIMA",
+   "endereco": "RUA ELIAS CARDOSO DE OLIVEIRA, N. 55,",
+   "preco": 50018.49,
+   "valor_avaliacao": 96000.0,
+   "desconto": 47.9,
+   "financiamento": "Não",
+   "descricao": "Casa, 64.76 de área total, 64.76 de área privativa, 165.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418500739",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.7402354,
+    "lng": -42.5724288
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444426278691",
+   "uf": "PI",
+   "cidade": "JOSE DE FREITAS",
+   "bairro": "SUCO DE UVA",
+   "endereco": "RUA EMIDIO PEREIRA DE OLIVEIRA, N. 126,",
+   "preco": 50539.52,
+   "valor_avaliacao": 97000.0,
+   "desconto": 47.9,
+   "financiamento": "Não",
+   "descricao": "Casa, 53.89 de área total, 53.89 de área privativa, 195.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426278691",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.7692364,
+    "lng": -42.5809414
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444428209409",
    "uf": "PI",
    "cidade": "JOSE DE FREITAS",
@@ -10646,44 +10877,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444418500739",
+   "id": "8444416909770",
    "uf": "PI",
    "cidade": "JOSE DE FREITAS",
-   "bairro": "DE FÁTIMA",
-   "endereco": "RUA ELIAS CARDOSO DE OLIVEIRA, N. 55,",
-   "preco": 51407.9,
-   "valor_avaliacao": 96000.0,
+   "bairro": "CENTRO",
+   "endereco": "RUA 24 DE JULHO, N. 448,",
+   "preco": 46391.18,
+   "valor_avaliacao": 86631.7,
    "desconto": 46.46,
    "financiamento": "Não",
-   "descricao": "Casa, 64.76 de área total, 64.76 de área privativa, 165.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418500739",
+   "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 211.20 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416909770",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -4.7402354,
-    "lng": -42.5724288
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444426278691",
-   "uf": "PI",
-   "cidade": "JOSE DE FREITAS",
-   "bairro": "SUCO DE UVA",
-   "endereco": "RUA EMIDIO PEREIRA DE OLIVEIRA, N. 126,",
-   "preco": 51943.4,
-   "valor_avaliacao": 97000.0,
-   "desconto": 46.46,
-   "financiamento": "Não",
-   "descricao": "Casa, 53.89 de área total, 53.89 de área privativa, 195.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426278691",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.7692364,
-    "lng": -42.5809414
+    "lat": -4.7699733,
+    "lng": -42.5843148
    },
    "geo_pendente": false
   },
@@ -10751,27 +10961,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444416909770",
-   "uf": "PI",
-   "cidade": "JOSE DE FREITAS",
-   "bairro": "CENTRO",
-   "endereco": "RUA 24 DE JULHO, N. 448,",
-   "preco": 47644.99,
-   "valor_avaliacao": 86631.7,
-   "desconto": 45.01,
-   "financiamento": "Não",
-   "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 211.20 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416909770",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.7699733,
-    "lng": -42.5843148
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444411954475",
    "uf": "PI",
    "cidade": "JOSE DE FREITAS",
@@ -10831,6 +11020,27 @@
     "fonte": "google",
     "lat": -4.7662551,
     "lng": -42.568654
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444417475627",
+   "uf": "PI",
+   "cidade": "JOSE DE FREITAS",
+   "bairro": "CENTRO",
+   "endereco": "RUA  ANTONIO FRANCISCO GOMES DE OLIVEIRA, N. 406,",
+   "preco": 72665.02,
+   "valor_avaliacao": 130000.0,
+   "desconto": 44.11,
+   "financiamento": "Não",
+   "descricao": "Casa, 67.66 de área total, 67.66 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417475627",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.7329688,
+    "lng": -38.5264661
    },
    "geo_pendente": false
   },
@@ -10957,27 +11167,6 @@
     "fonte": "google",
     "lat": -4.7627346,
     "lng": -42.5718145
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444417475627",
-   "uf": "PI",
-   "cidade": "JOSE DE FREITAS",
-   "bairro": "CENTRO",
-   "endereco": "RUA  ANTONIO FRANCISCO GOMES DE OLIVEIRA, N. 406,",
-   "preco": 74628.94,
-   "valor_avaliacao": 130000.0,
-   "desconto": 42.6,
-   "financiamento": "Não",
-   "descricao": "Casa, 67.66 de área total, 67.66 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417475627",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.7329688,
-    "lng": -38.5264661
    },
    "geo_pendente": false
   },
@@ -11143,9 +11332,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415404020",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -4.748329099999999,
-    "lng": -42.5700984,
-    "fonte": "google"
+    "lng": -42.5700984
    },
    "geo_pendente": false
   },
@@ -11575,12 +11764,12 @@
    "cidade": "OEIRAS",
    "bairro": "CANELA",
    "endereco": "RUA CEL BENEDITO NUNES, N. 1477,",
-   "preco": 75876.0,
+   "preco": 73768.33,
    "valor_avaliacao": 144000.0,
-   "desconto": 47.31,
+   "desconto": 48.78,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 66.50 de área privativa, 172.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408044099",
    "tipo": "casa",
    "geo": {
@@ -11596,39 +11785,18 @@
    "cidade": "OEIRAS",
    "bairro": "ROSARIO",
    "endereco": "RUA SETE DE SETEMBRO, N. SN, LT 02, QD B, LOT N SRA DO ROSARIO",
-   "preco": 75305.5,
+   "preco": 73422.86,
    "valor_avaliacao": 130000.0,
-   "desconto": 42.08,
+   "desconto": 43.53,
    "financiamento": "Não",
    "descricao": "Casa, 78.00 de área total, 78.00 de área privativa, 250.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422031284",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -7.0075376,
     "lng": -42.1182328
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444424201748",
-   "uf": "PI",
-   "cidade": "OEIRAS",
-   "bairro": "LEME",
-   "endereco": "RUA III, N. 388,",
-   "preco": 145000.0,
-   "valor_avaliacao": 145000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 76.90 de área total, 76.90 de área privativa, 187.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424201748",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.0150666,
-    "lng": -42.1264762
    },
    "geo_pendente": false
   },
@@ -11654,6 +11822,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444424201748",
+   "uf": "PI",
+   "cidade": "OEIRAS",
+   "bairro": "LEME",
+   "endereco": "RUA III, N. 388,",
+   "preco": 153593.69,
+   "valor_avaliacao": 145000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 76.90 de área total, 76.90 de área privativa, 187.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424201748",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.0150666,
+    "lng": -42.1264762
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787710058920",
    "uf": "PI",
    "cidade": "PARNAIBA",
@@ -11675,17 +11864,32 @@
    "geo_pendente": false
   },
   {
+   "id": "8787710307334",
+   "uf": "PI",
+   "cidade": "PARNAIBA",
+   "bairro": "SAO VICENTE DE PAULA",
+   "endereco": "RUA 09, N. 23, QD F2 LT 23",
+   "preco": 40036.26,
+   "valor_avaliacao": 105000.0,
+   "desconto": 61.88,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 53.14 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710307334",
+   "tipo": "casa"
+  },
+  {
    "id": "8787711923233",
    "uf": "PI",
    "cidade": "PARNAIBA",
    "bairro": "IGARACU",
    "endereco": "RUA 09, N. SN, LT 20 QD F2",
-   "preco": 57181.05,
+   "preco": 55676.28,
    "valor_avaliacao": 110500.0,
-   "desconto": 48.26,
+   "desconto": 49.62,
    "financiamento": "Não",
    "descricao": "Casa, 53.14 de área total, 53.14 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711923233",
    "tipo": "casa",
    "geo": {
@@ -11743,18 +11947,39 @@
    "cidade": "PARNAIBA",
    "bairro": "DIRCEU ARCOVERDE",
    "endereco": "RUA C, N. 20, LOTE 20,QUADRA D2",
-   "preco": 119707.51,
+   "preco": 116472.17,
    "valor_avaliacao": 214114.23,
-   "desconto": 44.1,
-   "financiamento": "Não",
+   "desconto": 45.61,
+   "financiamento": "Sim",
    "descricao": "Casa, 63.17 de área total, 63.17 de área privativa, 220.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555536508995",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -2.9315595,
     "lng": -41.7432187
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787707211755",
+   "uf": "PI",
+   "cidade": "PARNAIBA",
+   "bairro": "SAO VICENTE DE PAULA",
+   "endereco": "LOTEAMENTO ROSAPOLIS, N. 10, LOTE DE TERRA QD D1",
+   "preco": 47996.18,
+   "valor_avaliacao": 87270.24,
+   "desconto": 45.01,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 200.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707211755",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.926437,
+    "lng": -41.7697704
    },
    "geo_pendente": false
   },
@@ -11780,23 +12005,44 @@
    "geo_pendente": false
   },
   {
-   "id": "8787707211755",
+   "id": "8787712750820",
    "uf": "PI",
    "cidade": "PARNAIBA",
-   "bairro": "SAO VICENTE DE PAULA",
-   "endereco": "LOTEAMENTO ROSAPOLIS, N. 10, LOTE DE TERRA QD D1",
-   "preco": 49259.24,
-   "valor_avaliacao": 87270.24,
-   "desconto": 43.56,
+   "bairro": "CONSELHEIRO ALBERTO SILVA",
+   "endereco": "RUA 08, N. 02, LT 02, QD B-13",
+   "preco": 77313.2,
+   "valor_avaliacao": 136888.1,
+   "desconto": 43.53,
    "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 200.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707211755",
-   "tipo": "terreno",
+   "descricao": "Casa, 53.14 de área total, 45.53 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712750820",
+   "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -2.926437,
-    "lng": -41.7697704
+    "lat": -2.9269019,
+    "lng": -41.7299499
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787711438416",
+   "uf": "PI",
+   "cidade": "PARNAIBA",
+   "bairro": "ROSAPÓLIS",
+   "endereco": "R 06, N. 19, QD C1, LT 19, LOT DOM RUFINO IV",
+   "preco": 79344.87,
+   "valor_avaliacao": 139000.0,
+   "desconto": 42.92,
+   "financiamento": "Não",
+   "descricao": "Casa, 53.14 de área total, 53.14 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711438416",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.9397833,
+    "lng": -41.7780605
    },
    "geo_pendente": false
   },
@@ -11864,27 +12110,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787712750820",
-   "uf": "PI",
-   "cidade": "PARNAIBA",
-   "bairro": "CONSELHEIRO ALBERTO SILVA",
-   "endereco": "RUA 08, N. 02, LT 02, QD B-13",
-   "preco": 79295.59,
-   "valor_avaliacao": 136888.1,
-   "desconto": 42.08,
-   "financiamento": "Não",
-   "descricao": "Casa, 53.14 de área total, 45.53 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712750820",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.9269019,
-    "lng": -41.7299499
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555528813393",
    "uf": "PI",
    "cidade": "PARNAIBA",
@@ -11895,7 +12120,7 @@
    "desconto": 41.91,
    "financiamento": "Não",
    "descricao": "Casa, 49.10 de área total, 49.10 de área privativa, 210.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555528813393",
    "tipo": "casa",
    "geo": {
@@ -11923,27 +12148,6 @@
     "fonte": "google",
     "lat": -2.9409521,
     "lng": -41.7513422
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787711438416",
-   "uf": "PI",
-   "cidade": "PARNAIBA",
-   "bairro": "ROSAPÓLIS",
-   "endereco": "R 06, N. 19, QD C1, LT 19, LOT DOM RUFINO IV",
-   "preco": 81379.36,
-   "valor_avaliacao": 139000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Casa, 53.14 de área total, 53.14 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711438416",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.9397833,
-    "lng": -41.7780605
    },
    "geo_pendente": false
   },
@@ -12053,48 +12257,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787708412169",
-   "uf": "PI",
-   "cidade": "PICOS",
-   "bairro": "JARDIM NATAL",
-   "endereco": "AVENIDA JOÃO MARTINHO DA LUZ, N. 625, LT 39, QD 323",
-   "preco": 54757.3,
-   "valor_avaliacao": 140000.0,
-   "desconto": 60.89,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 79.67 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708412169",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.069383999999999,
-    "lng": -41.4123878
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444400551838",
-   "uf": "PI",
-   "cidade": "PICOS",
-   "bairro": "BELO NORTE",
-   "endereco": "RUA FRANCISCO GONCALVES DA SILVA, N. SN, LT 29 QD 10",
-   "preco": 70392.17,
-   "valor_avaliacao": 107224.11,
-   "desconto": 34.36,
-   "financiamento": "Não",
-   "descricao": "Casa, 65.00 de área total, 65.00 de área privativa, 110.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444400551838",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.0797656,
-    "lng": -41.5028424
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444409419950",
    "uf": "PI",
    "cidade": "PIO IX",
@@ -12184,12 +12346,12 @@
    "cidade": "PIRACURUCA",
    "bairro": "BAIRRO DE FTIMA",
    "endereco": "RUA MONSENHOR OLAVO PASSOS, N. 867, QUARTEIRÃO Nº 18",
-   "preco": 88842.2,
+   "preco": 79957.98,
    "valor_avaliacao": 291000.0,
-   "desconto": 69.48,
+   "desconto": 72.53,
    "financiamento": "Não",
    "descricao": "Comercial, 0.00 de área total, 294.00 de área privativa, 322.00 de área do terreno, WC, 1 sala(s), Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555528726026",
    "tipo": "comercial",
    "geo": {
@@ -12347,6 +12509,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8444413638805",
+   "uf": "PI",
+   "cidade": "PIRACURUCA",
+   "bairro": "BAIXA DA EMA",
+   "endereco": "RUA ABDIAS NEVES, N. 2816, QD 02 QUARTEIRÃO 43",
+   "preco": 43534.61,
+   "valor_avaliacao": 94000.0,
+   "desconto": 53.69,
+   "financiamento": "Não",
+   "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 350.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413638805",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.9274285,
+    "lng": -41.7219393
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444413824471",
+   "uf": "PI",
+   "cidade": "PIRACURUCA",
+   "bairro": "BAIRRO DE FATIMA",
+   "endereco": "RUA TABELIAO LUCAS VIEIRA, N. 1008, QUARTEIRAO 100",
+   "preco": 54399.76,
+   "valor_avaliacao": 112000.0,
+   "desconto": 51.43,
+   "financiamento": "Não",
+   "descricao": "Casa, 68.00 de área total, 68.00 de área privativa, 161.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413824471",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.9195736,
+    "lng": -41.7055765
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444415549931",
    "uf": "PI",
    "cidade": "PIRACURUCA",
@@ -12410,59 +12614,17 @@
    "geo_pendente": false
   },
   {
-   "id": "8444413638805",
-   "uf": "PI",
-   "cidade": "PIRACURUCA",
-   "bairro": "BAIXA DA EMA",
-   "endereco": "RUA ABDIAS NEVES, N. 2816, QD 02 QUARTEIRÃO 43",
-   "preco": 46255.52,
-   "valor_avaliacao": 94000.0,
-   "desconto": 50.8,
-   "financiamento": "Não",
-   "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 350.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413638805",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.9274285,
-    "lng": -41.7219393
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444413824471",
-   "uf": "PI",
-   "cidade": "PIRACURUCA",
-   "bairro": "BAIRRO DE FATIMA",
-   "endereco": "RUA TABELIAO LUCAS VIEIRA, N. 1008, QUARTEIRAO 100",
-   "preco": 55999.75,
-   "valor_avaliacao": 112000.0,
-   "desconto": 50.01,
-   "financiamento": "Não",
-   "descricao": "Casa, 68.00 de área total, 68.00 de área privativa, 161.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413824471",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.9195736,
-    "lng": -41.7055765
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444417927666",
    "uf": "PI",
    "cidade": "PIRACURUCA",
    "bairro": "BAIXA DA EMA",
    "endereco": "RUA JOSÉ VILARINHO DE SOUSA, N. 2004,",
-   "preco": 76329.74,
+   "preco": 74148.89,
    "valor_avaliacao": 149000.0,
-   "desconto": 48.78,
+   "desconto": 50.24,
    "financiamento": "Não",
    "descricao": "Casa, 68.40 de área total, 68.40 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417927666",
    "tipo": "casa",
    "geo": {
@@ -12557,6 +12719,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444414360142",
+   "uf": "PI",
+   "cidade": "PIRACURUCA",
+   "bairro": "ESPLANADA",
+   "endereco": "AVENIDA ADAUTO DE MORAIS MENESES, N. 1464,",
+   "preco": 72090.54,
+   "valor_avaliacao": 131000.0,
+   "desconto": 44.97,
+   "financiamento": "Não",
+   "descricao": "Casa, 70.00 de área total, 56.00 de área privativa, 280.62 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414360142",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.9254637,
+    "lng": -41.7027305
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444409418561",
    "uf": "PI",
    "cidade": "PIRACURUCA",
@@ -12574,27 +12757,6 @@
     "fonte": "google",
     "lat": -3.942116099999999,
     "lng": -41.7102946
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444414360142",
-   "uf": "PI",
-   "cidade": "PIRACURUCA",
-   "bairro": "ESPLANADA",
-   "endereco": "AVENIDA ADAUTO DE MORAIS MENESES, N. 1464,",
-   "preco": 73987.66,
-   "valor_avaliacao": 131000.0,
-   "desconto": 43.53,
-   "financiamento": "Não",
-   "descricao": "Casa, 70.00 de área total, 56.00 de área privativa, 280.62 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414360142",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.9254637,
-    "lng": -41.7027305
    },
    "geo_pendente": false
   },
@@ -12760,9 +12922,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535689597",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -4.255857,
-    "lng": -41.7699589,
-    "fonte": "google"
+    "lng": -41.7699589
    },
    "geo_pendente": false
   },
@@ -12793,9 +12955,9 @@
    "cidade": "PIRIPIRI",
    "bairro": "ANAJAS",
    "endereco": "RUA PROJETADA 08, N. SN, QD DCE02  LT 07",
-   "preco": 160000.0,
+   "preco": 120296.8,
    "valor_avaliacao": 160000.0,
-   "desconto": 0.0,
+   "desconto": 24.82,
    "financiamento": "Não",
    "descricao": "Casa, 54.96 de área total, 54.96 de área privativa, 192.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
@@ -12835,12 +12997,12 @@
    "cidade": "REGENERACAO",
    "bairro": "SANTA TERESINHA",
    "endereco": "RUA PAULO CESAR MORAIS, N. 746, QD A LO01",
-   "preco": 51591.31,
+   "preco": 48366.85,
    "valor_avaliacao": 118000.0,
-   "desconto": 56.28,
+   "desconto": 59.02,
    "financiamento": "Não",
    "descricao": "Casa, 69.76 de área total, 69.76 de área privativa, 300.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405588799",
    "tipo": "casa",
    "geo": {
@@ -12856,12 +13018,12 @@
    "cidade": "SAO JOAO DA FRONTEIRA",
    "bairro": "CENTRO",
    "endereco": "AVENIDA JOSÉ ALVES XIMENES, N. 350,",
-   "preco": 77376.39,
+   "preco": 75392.38,
    "valor_avaliacao": 137000.0,
-   "desconto": 43.53,
+   "desconto": 44.97,
    "financiamento": "Não",
    "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 250.00 de área do terreno,  2 qto(s), WC, cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416314067",
    "tipo": "casa",
    "geo": {
@@ -13082,6 +13244,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787704281841",
+   "uf": "PI",
+   "cidade": "TERESINA",
+   "bairro": "VERDE LAR",
+   "endereco": "RUA FRANCISCO JOSÉ BARRETO, N. 8081, Apto 302, QD N-1, SETOR 1,",
+   "preco": 70518.75,
+   "valor_avaliacao": 170000.0,
+   "desconto": 58.52,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 69.84 de área total, 50.16 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704281841",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.037146,
+    "lng": -42.73333299999999
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444426028997",
    "uf": "PI",
    "cidade": "TERESINA",
@@ -13120,27 +13303,6 @@
     "fonte": "google",
     "lat": -5.0894341,
     "lng": -42.8112068
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787704281841",
-   "uf": "PI",
-   "cidade": "TERESINA",
-   "bairro": "VERDE LAR",
-   "endereco": "RUA FRANCISCO JOSÉ BARRETO, N. 8081, Apto 302, QD N-1, SETOR 1,",
-   "preco": 75555.81,
-   "valor_avaliacao": 170000.0,
-   "desconto": 55.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 69.84 de área total, 50.16 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704281841",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.037146,
-    "lng": -42.73333299999999
    },
    "geo_pendente": false
   },
@@ -13192,12 +13354,12 @@
    "cidade": "TERESINA",
    "bairro": "BOM PRINCIPIO",
    "endereco": "RUA SEM DENOMINAÇÃ0, N. 8200, Apto 202, BL B",
-   "preco": 72916.61,
+   "preco": 70891.15,
    "valor_avaliacao": 145000.0,
-   "desconto": 49.72,
+   "desconto": 51.11,
    "financiamento": "Não",
    "descricao": "Apartamento, 53.90 de área total, 48.25 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701659401",
    "tipo": "apartamento",
    "geo": {
@@ -13237,9 +13399,9 @@
    "preco": 100154.87,
    "valor_avaliacao": 194948.11,
    "desconto": 48.63,
-   "financiamento": "Não",
+   "financiamento": "Sim",
    "descricao": "Apartamento, 78.32 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714939297",
    "tipo": "apartamento",
    "geo": {
@@ -13292,27 +13454,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555528471220",
-   "uf": "PI",
-   "cidade": "TERESINA",
-   "bairro": "SANTO ANTONIO",
-   "endereco": "AVENIDA DOIS, N. 3580, Apto 01, BL 11, QD BM",
-   "preco": 80924.79,
-   "valor_avaliacao": 153581.76,
-   "desconto": 47.31,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 57.30 de área total, 52.76 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555528471220",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.1421921,
-    "lng": -42.7548274
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787713267333",
    "uf": "PI",
    "cidade": "TERESINA",
@@ -13360,18 +13501,60 @@
    "cidade": "TERESINA",
    "bairro": "VERDE LAR",
    "endereco": "RUA FRANCISCO JOSE BARRETO, N. 8081, Apto 303, BL 07 PAV 03 VG 60",
-   "preco": 77866.57,
+   "preco": 75817.45,
    "valor_avaliacao": 140000.0,
-   "desconto": 44.39,
+   "desconto": 45.85,
    "financiamento": "Não",
    "descricao": "Apartamento, 57.59 de área total, 50.16 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707300383",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -5.0373472,
     "lng": -42.7344873
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787708622465",
+   "uf": "PI",
+   "cidade": "TERESINA",
+   "bairro": "BOM PRINCIPIO",
+   "endereco": "RUA VII, N. 3000, CS 36",
+   "preco": 69889.29,
+   "valor_avaliacao": 127000.0,
+   "desconto": 44.97,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 50.13 de área privativa, 176.60 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708622465",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.1624377,
+    "lng": -42.7772664
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787701635871",
+   "uf": "PI",
+   "cidade": "TERESINA",
+   "bairro": "BOM PRINCIPIO",
+   "endereco": "RUA SEM DENOMINAÇÃO, N. 8200, Apto 308, BLI QD3 LOT RECANTO DOS PASSAROS",
+   "preco": 77866.57,
+   "valor_avaliacao": 140000.0,
+   "desconto": 44.39,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 66.15 de área total, 48.25 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701635871",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.1243364,
+    "lng": -42.7259371
    },
    "geo_pendente": false
   },
@@ -13411,9 +13594,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712201045",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -4.992556,
-    "lng": -42.834365,
-    "fonte": "google"
+    "lng": -42.834365
    },
    "geo_pendente": false
   },
@@ -13439,44 +13622,86 @@
    "geo_pendente": false
   },
   {
-   "id": "8787708622465",
+   "id": "8555529486795",
    "uf": "PI",
    "cidade": "TERESINA",
-   "bairro": "BOM PRINCIPIO",
-   "endereco": "RUA VII, N. 3000, CS 36",
-   "preco": 71728.48,
-   "valor_avaliacao": 127000.0,
+   "bairro": "PEDRA MIUDA",
+   "endereco": "RUA BENEDITO DA ROCHA FREITAS, N. 15, LT 15 QD N",
+   "preco": 74628.45,
+   "valor_avaliacao": 132134.57,
    "desconto": 43.53,
    "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 50.13 de área privativa, 176.60 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708622465",
+   "descricao": "Casa, 60.70 de área total, 60.70 de área privativa, 200.00 de área do terreno,  3 qto(s), varanda, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555529486795",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -5.1624377,
-    "lng": -42.7772664
+    "lat": -5.134907399999999,
+    "lng": -42.7547732
    },
    "geo_pendente": false
   },
   {
-   "id": "8787701635871",
+   "id": "8555535582466",
    "uf": "PI",
    "cidade": "TERESINA",
-   "bairro": "BOM PRINCIPIO",
-   "endereco": "RUA SEM DENOMINAÇÃO, N. 8200, Apto 308, BLI QD3 LOT RECANTO DOS PASSAROS",
-   "preco": 79915.69,
-   "valor_avaliacao": 140000.0,
+   "bairro": "VALE DO GAVIAO",
+   "endereco": "AVENIDA THEMISTOCLES SAMPAIO, N. 6758, Apto 406, BL 05",
+   "preco": 82769.83,
+   "valor_avaliacao": 145000.0,
    "desconto": 42.92,
    "financiamento": "Não",
-   "descricao": "Apartamento, 66.15 de área total, 48.25 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701635871",
+   "descricao": "Apartamento, 50.62 de área total, 46.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535582466",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -5.1243364,
-    "lng": -42.7259371
+    "lat": -5.0271045,
+    "lng": -42.7381059
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444416208232",
+   "uf": "PI",
+   "cidade": "TERESINA",
+   "bairro": "ESPLANADA",
+   "endereco": "RUA DOUTOR VALDEI MANOEL RODRIGUES, N. 6165, LT 18-A QD S",
+   "preco": 83000.41,
+   "valor_avaliacao": 145403.95,
+   "desconto": 42.92,
+   "financiamento": "Não",
+   "descricao": "Casa, 52.40 de área total, 52.40 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416208232",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.105810000000001,
+    "lng": -42.7292675
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555518640135",
+   "uf": "PI",
+   "cidade": "TERESINA",
+   "bairro": "PORTAL DA ALEGRIA",
+   "endereco": "RUA JOSÉ MIGUEL ADAD, N. S/N, LT 05 QD I",
+   "preco": 83691.46,
+   "valor_avaliacao": 146614.56,
+   "desconto": 42.92,
+   "financiamento": "Não",
+   "descricao": "Casa, 60.70 de área total, 60.70 de área privativa, 360.00 de área do terreno,  3 qto(s), varanda, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518640135",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.1907296,
+    "lng": -42.746003
    },
    "geo_pendente": false
   },
@@ -13491,7 +13716,7 @@
    "desconto": 42.86,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 57.87 de área privativa, 210.35 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427500932",
    "tipo": "casa",
    "geo": {
@@ -13659,7 +13884,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Casa, 90.70 de área total, 60.70 de área privativa, 200.00 de área do terreno,  3 qto(s), varanda, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555527310355",
    "tipo": "casa",
    "geo": {
@@ -13687,6 +13912,27 @@
     "fonte": "google",
     "lat": -5.1082073,
     "lng": -42.715581
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444423734262",
+   "uf": "PI",
+   "cidade": "TERESINA",
+   "bairro": "MONTE VERDE",
+   "endereco": "RUA 34, N. SN, LT 25, QD M, CHAPADINHA / GURUPÁ",
+   "preco": 104810.47,
+   "valor_avaliacao": 181402.13,
+   "desconto": 42.23,
+   "financiamento": "Não",
+   "descricao": "Casa, 53.20 de área total, 53.20 de área privativa, 200.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423734262",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.104384,
+    "lng": -42.733205
    },
    "geo_pendente": false
   },
@@ -13764,7 +14010,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 46.39 de área total, 45.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535000254",
    "tipo": "apartamento",
    "geo": {
@@ -13859,27 +14105,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555529486795",
-   "uf": "PI",
-   "cidade": "TERESINA",
-   "bairro": "PEDRA MIUDA",
-   "endereco": "RUA BENEDITO DA ROCHA FREITAS, N. 15, LT 15 QD N",
-   "preco": 76542.0,
-   "valor_avaliacao": 132134.57,
-   "desconto": 42.08,
-   "financiamento": "Não",
-   "descricao": "Casa, 60.70 de área total, 60.70 de área privativa, 200.00 de área do terreno,  3 qto(s), varanda, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555529486795",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.134907399999999,
-    "lng": -42.7547732
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555509423577",
    "uf": "PI",
    "cidade": "TERESINA",
@@ -13943,27 +14168,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555535582466",
-   "uf": "PI",
-   "cidade": "TERESINA",
-   "bairro": "VALE DO GAVIAO",
-   "endereco": "AVENIDA THEMISTOCLES SAMPAIO, N. 6758, Apto 406, BL 05",
-   "preco": 84892.14,
-   "valor_avaliacao": 145000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 50.62 de área total, 46.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535582466",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.0271045,
-    "lng": -42.7381059
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444406770396",
    "uf": "PI",
    "cidade": "TERESINA",
@@ -14002,27 +14206,6 @@
     "fonte": "google",
     "lat": -5.1727095,
     "lng": -42.7558069
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444416208232",
-   "uf": "PI",
-   "cidade": "TERESINA",
-   "bairro": "ESPLANADA",
-   "endereco": "RUA DOUTOR VALDEI MANOEL RODRIGUES, N. 6165, LT 18-A QD S",
-   "preco": 85128.63,
-   "valor_avaliacao": 145403.95,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Casa, 52.40 de área total, 52.40 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416208232",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.105810000000001,
-    "lng": -42.7292675
    },
    "geo_pendente": false
   },
@@ -14132,27 +14315,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555518640135",
-   "uf": "PI",
-   "cidade": "TERESINA",
-   "bairro": "PORTAL DA ALEGRIA",
-   "endereco": "RUA JOSÉ MIGUEL ADAD, N. S/N, LT 05 QD I",
-   "preco": 85837.4,
-   "valor_avaliacao": 146614.56,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Casa, 60.70 de área total, 60.70 de área privativa, 360.00 de área do terreno,  3 qto(s), varanda, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518640135",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.1907296,
-    "lng": -42.746003
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444414669984",
    "uf": "PI",
    "cidade": "TERESINA",
@@ -14247,34 +14409,13 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 69.82 de área total, 69.82 de área privativa, 250.00 de área do terreno,  2 qto(s), a.serv, WC, WC Emp, 2 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420638084",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -5.0677705,
     "lng": -42.83437
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712769181",
-   "uf": "PI",
-   "cidade": "TERESINA",
-   "bairro": "VERDECAP",
-   "endereco": "RUA FLOR DO TEMPO, N. 8505, Apto 01, PAV01 BL 14",
-   "preco": 98602.82,
-   "valor_avaliacao": 166391.69,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 45.45 de área total, 45.45 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712769181",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.105403799999999,
-    "lng": -42.718168
    },
    "geo_pendente": false
   },
@@ -14331,7 +14472,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 50.13 de área total, 50.13 de área privativa, 176.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706830311",
    "tipo": "casa",
    "geo": {
@@ -14352,7 +14493,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 68.15 de área total, 49.70 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702153153",
    "tipo": "apartamento",
    "geo": {
@@ -14436,7 +14577,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 216.80 de área total, 65.88 de área privativa, 139.01 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555527608745",
    "tipo": "casa",
    "geo": {
@@ -14552,23 +14693,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444423734262",
+   "id": "8444410814521",
    "uf": "PI",
    "cidade": "TERESINA",
-   "bairro": "MONTE VERDE",
-   "endereco": "RUA 34, N. SN, LT 25, QD M, CHAPADINHA / GURUPÁ",
-   "preco": 107497.92,
-   "valor_avaliacao": 181402.13,
-   "desconto": 40.75,
+   "bairro": "PEDRA MIUDA",
+   "endereco": "RUA DATA JUNCO SERAFIM, N. SN, LOTE 41 QUADRA Q",
+   "preco": 84320.49,
+   "valor_avaliacao": 141664.89,
+   "desconto": 40.48,
    "financiamento": "Não",
-   "descricao": "Casa, 53.20 de área total, 53.20 de área privativa, 200.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423734262",
+   "descricao": "Casa, 60.70 de área total, 60.70 de área privativa, 200.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410814521",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -5.104384,
-    "lng": -42.733205
+    "lat": -5.1056627,
+    "lng": -42.7323526
    },
    "geo_pendente": false
   },
@@ -14625,7 +14766,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 45.80 de área total, 45.80 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701987646",
    "tipo": "apartamento",
    "geo": {
@@ -14814,7 +14955,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 60.04 de área total, 60.04 de área privativa, 135.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714694871",
    "tipo": "casa",
    "geo": {
@@ -14951,27 +15092,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444410814521",
-   "uf": "PI",
-   "cidade": "TERESINA",
-   "bairro": "PEDRA MIUDA",
-   "endereco": "RUA DATA JUNCO SERAFIM, N. SN, LOTE 41 QUADRA Q",
-   "preco": 86482.56,
-   "valor_avaliacao": 141664.89,
-   "desconto": 38.96,
-   "financiamento": "Não",
-   "descricao": "Casa, 60.70 de área total, 60.70 de área privativa, 200.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410814521",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.1056627,
-    "lng": -42.7323526
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555530908924",
    "uf": "PI",
    "cidade": "TERESINA",
@@ -15045,7 +15165,7 @@
    "desconto": 38.77,
    "financiamento": "Não",
    "descricao": "Casa, 60.86 de área total, 60.86 de área privativa, 73.48 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711735437",
    "tipo": "casa",
    "geo": {
@@ -15087,7 +15207,7 @@
    "desconto": 38.24,
    "financiamento": "Não",
    "descricao": "Casa, 213.33 de área total, 65.88 de área privativa, 215.88 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555527661346",
    "tipo": "casa",
    "geo": {
@@ -15129,7 +15249,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 86.40 de área privativa, 330.00 de área do terreno,  3 qto(s), varanda, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401088050",
    "tipo": "casa",
    "geo": {
@@ -15238,9 +15358,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555513032325",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -5.087452799999999,
-    "lng": -42.7731089,
-    "fonte": "google"
+    "lng": -42.7731089
    },
    "geo_pendente": false
   },
@@ -15285,6 +15405,63 @@
     "lng": -42.7443862
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555532169720",
+   "uf": "PI",
+   "cidade": "TERESINA",
+   "bairro": "VALE DO GAVIAO",
+   "endereco": "RUA 31, N. 6751, Apto 203, BL 02",
+   "preco": 120761.14,
+   "valor_avaliacao": 148694.37,
+   "desconto": 18.79,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 50.62 de área total, 46.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532169720",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.0314499,
+    "lng": -42.7370635
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787701625477",
+   "uf": "PI",
+   "cidade": "TERESINA",
+   "bairro": "SAO LOURENCO",
+   "endereco": "RUA PROJETADA, N. 3560, Apto 303, BL F",
+   "preco": 144758.01,
+   "valor_avaliacao": 150000.0,
+   "desconto": 3.5,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 43.48 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701625477",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.1300593,
+    "lng": -42.8005327
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8200400037145",
+   "uf": "PI",
+   "cidade": "TERESINA",
+   "bairro": "VILA CEL C FALCÃO",
+   "endereco": "RUA 09, N. 16, LT 16 QD D CJ RES FRANCISCO MARREIROS",
+   "preco": 181947.52,
+   "valor_avaliacao": 181947.52,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 119.80 de área total, 119.80 de área privativa, 161.50 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8200400037145",
+   "tipo": "casa"
   },
   {
    "id": "8787716634302",
@@ -15350,25 +15527,19 @@
    "geo_pendente": false
   },
   {
-   "id": "8555532169720",
+   "id": "8444407861972",
    "uf": "PI",
    "cidade": "TERESINA",
-   "bairro": "VALE DO GAVIAO",
-   "endereco": "RUA 31, N. 6751, Apto 203, BL 02",
-   "preco": 148694.37,
-   "valor_avaliacao": 148694.37,
+   "bairro": "AROEIRAS",
+   "endereco": "RUA XIV, N. SN, LT 18 QD F",
+   "preco": 172820.73,
+   "valor_avaliacao": 172820.73,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 50.62 de área total, 46.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Casa, 64.94 de área total, 64.94 de área privativa, 300.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532169720",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.0314499,
-    "lng": -42.7370635
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407861972",
+   "tipo": "casa"
   },
   {
    "id": "8787704014584",
@@ -15413,6 +15584,36 @@
    "geo_pendente": false
   },
   {
+   "id": "8555525139861",
+   "uf": "PI",
+   "cidade": "TERESINA",
+   "bairro": "ESPLANADA",
+   "endereco": "RUA III, N. 08, LT 08 QD M RES TORQUATO NETO IVB",
+   "preco": 185893.0,
+   "valor_avaliacao": 185893.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 60.70 de área total, 60.70 de área privativa, 300.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525139861",
+   "tipo": "casa"
+  },
+  {
+   "id": "8555537573251",
+   "uf": "PI",
+   "cidade": "TERESINA",
+   "bairro": "PARQUE SUL",
+   "endereco": "RUA VI, N. 4205, LT 46 QD E",
+   "preco": 210000.0,
+   "valor_avaliacao": 210000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 61.65 de área total, 61.65 de área privativa, 234.78 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537573251",
+   "tipo": "casa"
+  },
+  {
    "id": "8787711709428",
    "uf": "PI",
    "cidade": "TERESINA",
@@ -15432,6 +15633,21 @@
     "lng": -42.7558359
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1787700820383",
+   "uf": "PI",
+   "cidade": "TERESINA",
+   "bairro": "SAO LOURENCO",
+   "endereco": "RUA FRANCISCA TANIA OLIVEIRA, N. SN, LT 10 QD R RES BOTANIC SUL 2",
+   "preco": 132000.0,
+   "valor_avaliacao": 125000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 52.32 de área total, 52.32 de área privativa, 207.93 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700820383",
+   "tipo": "casa"
   },
   {
    "id": "8787714343220",
@@ -15518,25 +15734,34 @@
    "geo_pendente": false
   },
   {
-   "id": "8787701625477",
+   "id": "8555534885775",
    "uf": "PI",
    "cidade": "TERESINA",
-   "bairro": "SAO LOURENCO",
-   "endereco": "RUA PROJETADA, N. 3560, Apto 303, BL F",
-   "preco": 174400.0,
-   "valor_avaliacao": 150000.0,
+   "bairro": "VALE DO GAVIAO",
+   "endereco": "AVENIDA THEMISTOCLES SAMPAIO, N. 6758, Apto 403, BL 05",
+   "preco": 160000.0,
+   "valor_avaliacao": 140000.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 43.48 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 0.00 de área total, 46.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701625477",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.1300593,
-    "lng": -42.8005327
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534885775",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "1787700769221",
+   "uf": "PI",
+   "cidade": "TERESINA",
+   "bairro": "NOVO HORIZONTE",
+   "endereco": "RUA JOSE EVANGELISTA DE SOUSA, N. 5238, Apto 103, BL 05 VG 76",
+   "preco": 180000.0,
+   "valor_avaliacao": 155000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 38.40 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700769221",
+   "tipo": "apartamento"
   },
   {
    "id": "8555503045295",
@@ -15598,27 +15823,6 @@
     "fonte": "google",
     "lat": -5.0247111,
     "lng": -42.7514701
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555538673071",
-   "uf": "PI",
-   "cidade": "TERESINA",
-   "bairro": "SANTO ANTONIO",
-   "endereco": "RUA IX, N. 4304, LT 20 QD G",
-   "preco": 204635.8,
-   "valor_avaliacao": 117000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 61.65 de área total, 61.65 de área privativa, 234.78 de área do terreno,  3 qto(s), varanda, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555538673071",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.0538435,
-    "lng": -42.7581765
    },
    "geo_pendente": false
   },
@@ -15691,12 +15895,12 @@
    "cidade": "UNIAO",
    "bairro": "CENTRO",
    "endereco": "RUA I, N. S/N, QD 02 LT D",
-   "preco": 38049.48,
+   "preco": 35512.84,
    "valor_avaliacao": 91873.21,
-   "desconto": 58.59,
+   "desconto": 61.35,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 55.80 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405288248",
    "tipo": "casa",
    "geo": {
@@ -15796,12 +16000,12 @@
    "cidade": "VALENCA DO PIAUI",
    "bairro": "CAMPESTRE",
    "endereco": "RUA DOMINGOS MARQUES DE MACEDO, N. 215, QD G, LT15",
-   "preco": 66666.13,
+   "preco": 64911.76,
    "valor_avaliacao": 127000.0,
-   "desconto": 47.51,
+   "desconto": 48.89,
    "financiamento": "Não",
    "descricao": "Casa, 62.45 de área total, 62.45 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425523730",
    "tipo": "casa",
    "geo": {

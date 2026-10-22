@@ -1,9 +1,9 @@
 {
  "uf": "AL",
- "data_geracao_caixa": "20/10/2026",
- "coletado_em": "20/10/2026 22:27",
+ "data_geracao_caixa": "21/10/2026",
+ "coletado_em": "22/10/2026 02:59",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AL.csv",
- "total": 88,
+ "total": 89,
  "colunas": [
   "id",
   "uf",
@@ -60,6 +60,21 @@
     "lng": -36.6649451
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444408131031",
+   "uf": "AL",
+   "cidade": "ARAPIRACA",
+   "bairro": "SENADOR ARNON DE MELO",
+   "endereco": "RUA MARIA DE LOURDES DE OLIVEIRA, N. 94, Qd B / Lt 05",
+   "preco": 220000.0,
+   "valor_avaliacao": 220000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 121.86 de área privativa, 0.00 de área do terreno,  3 qto(s), WC, 2 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444408131031",
+   "tipo": "casa"
   },
   {
    "id": "8444421614057",
@@ -146,14 +161,29 @@
    "geo_pendente": false
   },
   {
+   "id": "8444409627110",
+   "uf": "AL",
+   "cidade": "CAPELA",
+   "bairro": "Clima Bom",
+   "endereco": "PROLONGAMENTO DA RUA DR. JOSÉ VÂNIO DE BARROS MOR, N. 116,",
+   "preco": 93290.05,
+   "valor_avaliacao": 93290.05,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 82.75 de área total, 82.75 de área privativa, 137.70 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409627110",
+   "tipo": "casa"
+  },
+  {
    "id": "8444408241749",
    "uf": "AL",
    "cidade": "CHA PRETA",
    "bairro": "CENTRO",
    "endereco": "RUA MANOEL ROBERTO BRANDÃO FILHO, N. SN,",
-   "preco": 180000.0,
+   "preco": 108000.0,
    "valor_avaliacao": 180000.0,
-   "desconto": 0.0,
+   "desconto": 40.0,
    "financiamento": "Não",
    "descricao": "Casa, 92.50 de área total, 92.50 de área privativa, 130.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
@@ -235,12 +265,12 @@
    "cidade": "JARAMATAIA",
    "bairro": "POVOADO CAMPO ALEGRE",
    "endereco": "RUA PROJETADA, N. 01,",
-   "preco": 53422.14,
+   "preco": 50279.66,
    "valor_avaliacao": 115000.0,
-   "desconto": 53.55,
+   "desconto": 56.28,
    "financiamento": "Não",
    "descricao": "Casa, 73.72 de área total, 73.72 de área privativa, 99.63 de área do terreno,  2 qto(s), WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426489854",
    "tipo": "casa",
    "geo": {
@@ -293,27 +323,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555519537290",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "SANTA AMELIA",
-   "endereco": "RUA A, N. 160-A, Apto 202, BL 10",
-   "preco": 68536.2,
-   "valor_avaliacao": 117500.0,
-   "desconto": 41.68,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 49.28 de área total, 46.25 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555519537290",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.5890124,
-    "lng": -35.7772914
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555500903878",
    "uf": "AL",
    "cidade": "MACEIO",
@@ -328,9 +337,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555500903878",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -9.549383299999999,
-    "lng": -35.7370795,
-    "fonte": "google"
+    "lng": -35.7370795
    },
    "geo_pendente": false
   },
@@ -349,9 +358,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716390411",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -9.5576507,
-    "lng": -35.750201,
-    "fonte": "google"
+    "lng": -35.750201
    },
    "geo_pendente": false
   },
@@ -366,7 +375,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 52.29 de área total, 45.19 de área privativa, 46.07 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410498182",
    "tipo": "casa",
    "geo": {
@@ -450,7 +459,7 @@
    "desconto": 39.46,
    "financiamento": "Não",
    "descricao": "Comercial, 154.52 de área total, 154.52 de área privativa, 151.80 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406448356",
    "tipo": "comercial",
    "geo": {
@@ -513,7 +522,7 @@
    "desconto": 36.5,
    "financiamento": "Não",
    "descricao": "Comercial, 0.00 de área total, 827.77 de área privativa, 647.52 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10201540",
    "tipo": "comercial",
    "geo": {
@@ -545,65 +554,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787706584892",
+   "id": "8787712210516",
    "uf": "AL",
    "cidade": "MACEIO",
-   "bairro": "TABULEIRO DO MARTINS",
-   "endereco": "AVENIDA DOUTOR SEBASTIAO CORREIA DA ROCHA, N. 1165, Apto 303, BL 10",
-   "preco": 136423.61,
-   "valor_avaliacao": 183000.0,
-   "desconto": 25.46,
+   "bairro": "PETROPOLIS",
+   "endereco": "RUA SAO LUIZ, N. 314, Apto 401, BL 07  VG 243 244",
+   "preco": 139517.67,
+   "valor_avaliacao": 187000.0,
+   "desconto": 25.4,
    "financiamento": "Não",
-   "descricao": "Apartamento, 48.11 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 51.20 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706584892",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712210516",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -9.591514799999999,
-    "lng": -35.7642831
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787716749410",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "RODOVIA AL105, N. 442, CASA 114  QD B",
-   "preco": 158408.48,
-   "valor_avaliacao": 184593.92,
-   "desconto": 14.19,
-   "financiamento": "Não",
-   "descricao": "Casa, 76.64 de área total, 54.83 de área privativa, 89.46 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716749410",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.518847,
-    "lng": -35.7775149
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787716090809",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "TABULEIRO DO MARTINS",
-   "endereco": "RUA DOS NAMBUS, N. 62, Apto 504, BL 08",
-   "preco": 149086.06,
-   "valor_avaliacao": 157000.0,
-   "desconto": 5.05,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 45.95 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716090809",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.5576507,
-    "lng": -35.750201
+    "lat": -9.5985255,
+    "lng": -35.7609565
    },
    "geo_pendente": false
   },
@@ -692,27 +659,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787712210516",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "PETROPOLIS",
-   "endereco": "RUA SAO LUIZ, N. 314, Apto 401, BL 07  VG 243 244",
-   "preco": 189680.64,
-   "valor_avaliacao": 187000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 51.20 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712210516",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.5985255,
-    "lng": -35.7609565
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787701983322",
    "uf": "AL",
    "cidade": "MACEIO",
@@ -776,27 +722,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787702616153",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "ALAMEDA DOS ANTURIOS, N. 275, CS 66  QD E",
-   "preco": 203300.2,
-   "valor_avaliacao": 160000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 78.70 de área total, 58.26 de área privativa, 93.01 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702616153",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.5310163,
-    "lng": -35.7723316
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1555531609590",
    "uf": "AL",
    "cidade": "MACEIO",
@@ -839,6 +764,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8555508233170",
+   "uf": "AL",
+   "cidade": "MAJOR ISIDORO",
+   "bairro": "CENTRO",
+   "endereco": "RUA MANOEL FERREIRA DE SOUZA, N. S/N,  FUNDOS COM A RUA ANTONIO WANDERLEY",
+   "preco": 35916.27,
+   "valor_avaliacao": 130000.0,
+   "desconto": 72.38,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 108.16 de área privativa, 268.50 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555508233170",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -9.5320248,
+    "lng": -36.9893872
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444408692112",
    "uf": "AL",
    "cidade": "MARECHAL DEODORO",
@@ -853,9 +799,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408692112",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.702524799999999,
-    "lng": -35.90294910000001,
-    "fonte": "google"
+    "lng": -35.90294910000001
    },
    "geo_pendente": false
   },
@@ -944,6 +890,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787713268674",
+   "uf": "AL",
+   "cidade": "MARECHAL DEODORO",
+   "bairro": "Porto Grande",
+   "endereco": "RODOVIA EDVAL LEMOS SANTOS, N. SN, CS 53 QD UNICA",
+   "preco": 139000.0,
+   "valor_avaliacao": 139000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 48.41 de área total, 48.41 de área privativa, 110.17 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713268674",
+   "tipo": "casa"
+  },
+  {
    "id": "8444406779849",
    "uf": "AL",
    "cidade": "MESSIAS",
@@ -975,7 +936,7 @@
    "desconto": 40.18,
    "financiamento": "Não",
    "descricao": "Casa, 54.60 de área total, 54.60 de área privativa, 96.46 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555519619210",
    "tipo": "casa",
    "geo": {
@@ -1038,7 +999,7 @@
    "desconto": 39.61,
    "financiamento": "Não",
    "descricao": "Casa, 66.00 de área total, 66.00 de área privativa, 72.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8071201012963",
    "tipo": "casa",
    "geo": {
@@ -1154,6 +1115,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444428725415",
+   "uf": "AL",
+   "cidade": "PILAR",
+   "bairro": "CHÃ DE PILAR",
+   "endereco": "RUA PROJETADA 11, N. 21, QD B2 LT 21",
+   "preco": 220000.0,
+   "valor_avaliacao": 220000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 96.88 de área total, 96.88 de área privativa, 160.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428725415",
+   "tipo": "casa"
+  },
+  {
    "id": "1555528022657",
    "uf": "AL",
    "cidade": "PORTO CALVO",
@@ -1217,38 +1193,17 @@
    "geo_pendente": false
   },
   {
-   "id": "8555525348010",
-   "uf": "AL",
-   "cidade": "RIO LARGO",
-   "bairro": "FORENE",
-   "endereco": "AVENIDA JOSE MANHAS, N. 35, CS 02 LT 02 QD A",
-   "preco": 76959.62,
-   "valor_avaliacao": 170000.0,
-   "desconto": 54.73,
-   "financiamento": "Não",
-   "descricao": "Casa, 67.68 de área total, 67.68 de área privativa, 69.19 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525348010",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.535618699999999,
-    "lng": -35.7994035
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555523402786",
    "uf": "AL",
    "cidade": "RIO LARGO",
    "bairro": "FORENE",
    "endereco": "AVENIDA JOSE MANHAS, N. 35, CS 14, LT 14, QD A",
-   "preco": 62466.69,
+   "preco": 58792.18,
    "valor_avaliacao": 133000.0,
-   "desconto": 53.04,
+   "desconto": 55.8,
    "financiamento": "Não",
    "descricao": "Casa, 67.68 de área total, 67.68 de área privativa, 69.19 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523402786",
    "tipo": "casa",
    "geo": {
@@ -1264,12 +1219,12 @@
    "cidade": "RIO LARGO",
    "bairro": "FORENE",
    "endereco": "AVENIDA JOSE MANHAS, N. 35, CS 1-A, LT 01, QD A",
-   "preco": 33584.69,
+   "preco": 31609.12,
    "valor_avaliacao": 71295.06,
-   "desconto": 52.9,
+   "desconto": 55.67,
    "financiamento": "Não",
    "descricao": "Casa, 54.39 de área total, 54.39 de área privativa, 54.39 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523354480",
    "tipo": "casa",
    "geo": {
@@ -1285,13 +1240,34 @@
    "cidade": "RIO LARGO",
    "bairro": "FORENE",
    "endereco": "AVENIDA JOSE MANHAS, N. 35, CS 5-A, LT 5, QD A",
-   "preco": 32974.63,
+   "preco": 31034.95,
    "valor_avaliacao": 70000.0,
-   "desconto": 52.9,
+   "desconto": 55.67,
    "financiamento": "Não",
    "descricao": "Casa, 50.13 de área total, 50.13 de área privativa, 1.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525191448",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -9.535618699999999,
+    "lng": -35.7994035
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555525348010",
+   "uf": "AL",
+   "cidade": "RIO LARGO",
+   "bairro": "FORENE",
+   "endereco": "AVENIDA JOSE MANHAS, N. 35, CS 02 LT 02 QD A",
+   "preco": 76959.62,
+   "valor_avaliacao": 170000.0,
+   "desconto": 54.73,
+   "financiamento": "Não",
+   "descricao": "Casa, 67.68 de área total, 67.68 de área privativa, 69.19 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Venda Direta Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525348010",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
@@ -1327,12 +1303,12 @@
    "cidade": "RIO LARGO",
    "bairro": "Pref Antônio L Souza",
    "endereco": "RUA JOSE MONTEIRO DE MELO, N. SN, CS09",
-   "preco": 72440.36,
+   "preco": 70534.04,
    "valor_avaliacao": 138000.0,
-   "desconto": 47.51,
+   "desconto": 48.89,
    "financiamento": "Não",
    "descricao": "Casa, 49.60 de área total, 49.60 de área privativa, 49.60 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533842533",
    "tipo": "casa",
    "geo": {
@@ -1348,12 +1324,12 @@
    "cidade": "RIO LARGO",
    "bairro": "Pref Antônio L Souza",
    "endereco": "RUA SANTA CLARA, N. 90, CS74, LT89/90/91",
-   "preco": 74844.29,
+   "preco": 72874.7,
    "valor_avaliacao": 141000.0,
-   "desconto": 46.92,
+   "desconto": 48.32,
    "financiamento": "Não",
    "descricao": "Casa, 92.59 de área total, 51.35 de área privativa, 51.35 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705833074",
    "tipo": "casa",
    "geo": {
@@ -1521,7 +1497,7 @@
    "desconto": 42.86,
    "financiamento": "Não",
    "descricao": "Casa, 50.13 de área total, 50.13 de área privativa, 50.13 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525163401",
    "tipo": "casa",
    "geo": {
@@ -1542,7 +1518,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Casa, 53.58 de área total, 53.58 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417508132",
    "tipo": "casa",
    "geo": {
@@ -1584,7 +1560,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 47.58 de área total, 47.58 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706412331",
    "tipo": "apartamento",
    "geo": {
@@ -1605,7 +1581,7 @@
    "desconto": 41.91,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 140.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433736268",
    "tipo": "terreno",
    "geo": {
@@ -1805,6 +1781,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8555521196208",
+   "uf": "AL",
+   "cidade": "SATUBA",
+   "bairro": "RES REC DAS PALMEIRA",
+   "endereco": "ESTRADA DE ACESSO A UTINGA RUA F, N. SN, CS 261",
+   "preco": 180000.0,
+   "valor_avaliacao": 180000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 80.13 de área total, 63.55 de área privativa, 120.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555521196208",
+   "tipo": "casa"
+  },
+  {
    "id": "8555519639831",
    "uf": "AL",
    "cidade": "TEOTONIO VILELA",
@@ -1831,12 +1822,12 @@
    "cidade": "TEOTONIO VILELA",
    "bairro": "ALTO DA ROSA",
    "endereco": "RUA JOSE FRANCISCO DOS SANTOS, N. 69,",
-   "preco": 86074.36,
+   "preco": 83615.09,
    "valor_avaliacao": 166000.0,
-   "desconto": 48.15,
+   "desconto": 49.63,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 93.60 de área privativa, 169.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403685550",
    "tipo": "casa",
    "geo": {
@@ -1852,12 +1843,12 @@
    "cidade": "TEOTONIO VILELA",
    "bairro": "VEREADOR JOSE QUINCA VIEIRA DA SILVA",
    "endereco": "RUA CHARLTON DE ARAUJO MORAES, N. 49, QD B LT 11",
-   "preco": 108389.57,
+   "preco": 105610.35,
    "valor_avaliacao": 180000.0,
-   "desconto": 39.79,
+   "desconto": 41.33,
    "financiamento": "Não",
    "descricao": "Casa, 71.40 de área total, 71.40 de área privativa, 120.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405765909",
    "tipo": "casa",
    "geo": {

@@ -1,9 +1,9 @@
 {
  "uf": "BA",
- "data_geracao_caixa": "20/10/2026",
- "coletado_em": "20/10/2026 22:27",
+ "data_geracao_caixa": "21/10/2026",
+ "coletado_em": "22/10/2026 02:59",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_BA.csv",
- "total": 719,
+ "total": 708,
  "colunas": [
   "id",
   "uf",
@@ -235,12 +235,12 @@
    "cidade": "BOM JESUS DA LAPA",
    "bairro": "JUREMA",
    "endereco": "LOTEAMENTO JUREMA, N. SN, QUADRA IV",
-   "preco": 60003.76,
+   "preco": 56474.12,
    "valor_avaliacao": 118000.0,
-   "desconto": 49.15,
-   "financiamento": "Não",
+   "desconto": 52.15,
+   "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 600.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444407517793",
    "tipo": "terreno",
    "geo": {
@@ -461,6 +461,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1787700181569",
+   "uf": "BA",
+   "cidade": "CAMACARI",
+   "bairro": "BOA UNIAO (ABRANTES)",
+   "endereco": "RUA DO BOSQUE, N. SN, Apto 503, BL 21",
+   "preco": 102580.95,
+   "valor_avaliacao": 184000.0,
+   "desconto": 44.25,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 41.90 de área total, 41.90 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700181569",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8428064,
+    "lng": -38.2821558
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787712821302",
    "uf": "BA",
    "cidade": "CAMACARI",
@@ -482,23 +503,23 @@
    "geo_pendente": false
   },
   {
-   "id": "1787700181569",
+   "id": "8555535374871",
    "uf": "BA",
    "cidade": "CAMACARI",
-   "bairro": "BOA UNIAO (ABRANTES)",
-   "endereco": "RUA DO BOSQUE, N. SN, Apto 503, BL 21",
-   "preco": 105353.41,
-   "valor_avaliacao": 184000.0,
-   "desconto": 42.75,
+   "bairro": "CATU DE ABRANTES (ABRANTES)",
+   "endereco": "RUA SUCUPIO, N. S/N, Apto 104, BL 03",
+   "preco": 92444.76,
+   "valor_avaliacao": 160000.0,
+   "desconto": 42.23,
    "financiamento": "Não",
-   "descricao": "Apartamento, 41.90 de área total, 41.90 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700181569",
+   "descricao": "Apartamento, 72.31 de área total, 39.03 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535374871",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -12.8428064,
-    "lng": -38.2821558
+    "lat": -12.8533221,
+    "lng": -38.2783438
    },
    "geo_pendente": false
   },
@@ -870,7 +891,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 43.84 de área total, 43.84 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555520578220",
    "tipo": "apartamento",
    "geo": {
@@ -1038,7 +1059,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 94.78 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712978830",
    "tipo": "apartamento",
    "geo": {
@@ -1133,27 +1154,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555535374871",
-   "uf": "BA",
-   "cidade": "CAMACARI",
-   "bairro": "CATU DE ABRANTES (ABRANTES)",
-   "endereco": "RUA SUCUPIO, N. S/N, Apto 104, BL 03",
-   "preco": 94815.14,
-   "valor_avaliacao": 160000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 72.31 de área total, 39.03 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535374871",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8533221,
-    "lng": -38.2783438
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444408579717",
    "uf": "BA",
    "cidade": "CAMACARI",
@@ -1206,7 +1206,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 50.16 de área total, 50.16 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534968964",
    "tipo": "apartamento",
    "geo": {
@@ -1248,7 +1248,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 72.31 de área total, 39.03 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535007615",
    "tipo": "apartamento",
    "geo": {
@@ -1269,7 +1269,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 50.26 de área total, 4.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706245087",
    "tipo": "apartamento",
    "geo": {
@@ -1353,7 +1353,7 @@
    "desconto": 38.24,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1000.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286379",
    "tipo": "terreno",
    "geo": {
@@ -1406,23 +1406,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787717053516",
+   "id": "8555528760702",
    "uf": "BA",
    "cidade": "CAMACARI",
-   "bairro": "VILA DE ABRANTES",
-   "endereco": "RUA DA BÉLGICA, N. SN, Apto 204, BL 13",
-   "preco": 137932.68,
-   "valor_avaliacao": 145000.0,
-   "desconto": 4.88,
+   "bairro": "JD LIMOEIRO",
+   "endereco": "RUA LATERAL DE DENTRO, N. SN, Apto 403, BL11",
+   "preco": 100569.45,
+   "valor_avaliacao": 130000.0,
+   "desconto": 22.64,
    "financiamento": "Não",
-   "descricao": "Apartamento, 98.06 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "descricao": "Apartamento, 0.00 de área total, 39.03 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717053516",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555528760702",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -12.8225909,
-    "lng": -38.2711129
+    "lat": -12.7062568,
+    "lng": -38.3043642
    },
    "geo_pendente": false
   },
@@ -1444,27 +1444,6 @@
     "fonte": "google",
     "lat": -12.7355056,
     "lng": -38.3236634
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555528760702",
-   "uf": "BA",
-   "cidade": "CAMACARI",
-   "bairro": "JD LIMOEIRO",
-   "endereco": "RUA LATERAL DE DENTRO, N. SN, Apto 403, BL11",
-   "preco": 130000.0,
-   "valor_avaliacao": 130000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 39.03 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555528760702",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.7062568,
-    "lng": -38.3043642
    },
    "geo_pendente": false
   },
@@ -1523,27 +1502,6 @@
    "descricao": "Apartamento, 0.00 de área total, 39.03 de área privativa, 0.00 de área do terreno.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700933607",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.7050076,
-    "lng": -38.3120708
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787701477168",
-   "uf": "BA",
-   "cidade": "CAMACARI",
-   "bairro": "INDUSTRIAL",
-   "endereco": "AVENIDA JORGE AMADO, N. SN, Apto 201, BL 16",
-   "preco": 155000.0,
-   "valor_avaliacao": 155000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 74.85 de área total, 39.03 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701477168",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -1637,6 +1595,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8787701477168",
+   "uf": "BA",
+   "cidade": "CAMACARI",
+   "bairro": "INDUSTRIAL",
+   "endereco": "AVENIDA JORGE AMADO, N. SN, Apto 201, BL 16",
+   "preco": 166142.27,
+   "valor_avaliacao": 155000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 74.85 de área total, 39.03 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701477168",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.7050076,
+    "lng": -38.3120708
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555536843310",
+   "uf": "BA",
+   "cidade": "CAMACARI",
+   "bairro": "PARQUE NASCENTE DO RIO CAPIVARA",
+   "endereco": "RUA DOURADO, N. SN, Apto 003, BL 14",
+   "preco": 129650.38,
+   "valor_avaliacao": 120000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 73.47 de área total, 39.03 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555536843310",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.712865,
+    "lng": -38.2842655
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787714981439",
    "uf": "BA",
    "cidade": "CAMACARI",
@@ -1679,23 +1679,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787718349079",
+   "id": "8787703910713",
    "uf": "BA",
    "cidade": "CAMACARI",
-   "bairro": "VILA DE ABRANTES",
-   "endereco": "RUA DA BÉLGICA, N. SN, Apto 104, BL 24",
-   "preco": 171392.95,
-   "valor_avaliacao": 150000.0,
+   "bairro": "Grama",
+   "endereco": "RUA DA GRAMA, N. SN, Apto 503, BL 17  VG 311",
+   "preco": 156698.4,
+   "valor_avaliacao": 140000.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 98.06 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "descricao": "Apartamento, 68.04 de área total, 49.28 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718349079",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703910713",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -12.8225909,
-    "lng": -38.2711129
+    "lat": -12.8411283,
+    "lng": -38.2708401
    },
    "geo_pendente": false
   },
@@ -1738,27 +1738,6 @@
     "fonte": "google",
     "lat": -12.8411283,
     "lng": -38.2708401
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555536843310",
-   "uf": "BA",
-   "cidade": "CAMACARI",
-   "bairro": "PARQUE NASCENTE DO RIO CAPIVARA",
-   "endereco": "RUA DOURADO, N. SN, Apto 003, BL 14",
-   "preco": 141342.22,
-   "valor_avaliacao": 120000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 73.47 de área total, 39.03 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555536843310",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.712865,
-    "lng": -38.2842655
    },
    "geo_pendente": false
   },
@@ -1931,27 +1910,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787703910713",
-   "uf": "BA",
-   "cidade": "CAMACARI",
-   "bairro": "Grama",
-   "endereco": "RUA DA GRAMA, N. SN, Apto 503, BL 17  VG 311",
-   "preco": 180000.0,
-   "valor_avaliacao": 140000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 68.04 de área total, 49.28 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703910713",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8411283,
-    "lng": -38.2708401
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787718899664",
    "uf": "BA",
    "cidade": "CAMACARI",
@@ -2057,33 +2015,12 @@
    "geo_pendente": false
   },
   {
-   "id": "8444409042740",
-   "uf": "BA",
-   "cidade": "CAMACARI",
-   "bairro": "PONTO CERTO",
-   "endereco": "AVENIDA INDUSTRIAL URBANA, N. SN, Apto 202, BL 15",
-   "preco": 225463.11,
-   "valor_avaliacao": 153500.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 72.96 de área total, 39.18 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409042740",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.7115457,
-    "lng": -38.3145109
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1555531969082",
    "uf": "BA",
    "cidade": "CAMACARI",
    "bairro": "PARQUE REAL SERRA VERDE",
    "endereco": "RUA NOVA ESPERANCA, N. SN, LT 1070A  QD BZ",
-   "preco": 587120.75,
+   "preco": 1379704.44,
    "valor_avaliacao": 325000.0,
    "desconto": 0.0,
    "financiamento": "Não",
@@ -2239,9 +2176,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433393379",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.1778548,
-    "lng": -40.981343,
-    "fonte": "google"
+    "lng": -40.981343
    },
    "geo_pendente": false
   },
@@ -2251,12 +2188,12 @@
    "cidade": "CENTRAL",
    "bairro": "CENTRO",
    "endereco": "PRACA LIDIA FERREIRA DOS SANTOS, N. 248,",
-   "preco": 49351.67,
+   "preco": 48052.94,
    "valor_avaliacao": 90000.0,
-   "desconto": 45.17,
+   "desconto": 46.61,
    "financiamento": "Não",
    "descricao": "Casa, 86.63 de área total, 86.63 de área privativa, 134.59 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413856187",
    "tipo": "casa",
    "geo": {
@@ -2566,12 +2503,12 @@
    "cidade": "FEIRA DE SANTANA",
    "bairro": "SOBRADINHO",
    "endereco": "Rua Heráclito Dias de Carvalho s/n Qd D Casa 01",
-   "preco": 171709.21,
+   "preco": 160977.39,
    "valor_avaliacao": 426086.5,
-   "desconto": 59.71,
+   "desconto": 62.22,
    "financiamento": "Não",
    "descricao": "Comercial, 0.00 de área total, 27.55 de área privativa, 105.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=5006800050033",
    "tipo": "comercial",
    "geo": {
@@ -2580,6 +2517,21 @@
     "lng": -39.0034897
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555518071890",
+   "uf": "BA",
+   "cidade": "FEIRA DE SANTANA",
+   "bairro": "RUA NOVA",
+   "endereco": "RUA ITORORO, N. SN, Apto 302, QD M BL 06",
+   "preco": 60624.15,
+   "valor_avaliacao": 155000.0,
+   "desconto": 60.89,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 42.91 de área privativa, 0.01 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518071890",
+   "tipo": "apartamento"
   },
   {
    "id": "8787701992631",
@@ -2599,6 +2551,27 @@
     "fonte": "google",
     "lat": -12.1977421,
     "lng": -38.9904231
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555515008594",
+   "uf": "BA",
+   "cidade": "FEIRA DE SANTANA",
+   "bairro": "CALUMBI",
+   "endereco": "RUA ITORORO, N. SN, Apto 201, BL 03 QD K",
+   "preco": 66602.76,
+   "valor_avaliacao": 149000.0,
+   "desconto": 55.31,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555515008594",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.2485277,
+    "lng": -38.9805139
    },
    "geo_pendente": false
   },
@@ -2666,6 +2639,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787702819399",
+   "uf": "BA",
+   "cidade": "FEIRA DE SANTANA",
+   "bairro": "TOMBA",
+   "endereco": "AVENIDA MARIA CRISTINA, N. SN, Apto 401, BL 12",
+   "preco": 40366.02,
+   "valor_avaliacao": 86000.0,
+   "desconto": 53.07,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 41.85 de área total, 40.12 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702819399",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.2846289,
+    "lng": -38.9619434
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555531723260",
    "uf": "BA",
    "cidade": "FEIRA DE SANTANA",
@@ -2704,27 +2698,6 @@
     "fonte": "google",
     "lat": -12.193807,
     "lng": -38.9771654
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555515008594",
-   "uf": "BA",
-   "cidade": "FEIRA DE SANTANA",
-   "bairro": "CALUMBI",
-   "endereco": "RUA ITORORO, N. SN, Apto 201, BL 03 QD K",
-   "preco": 70765.43,
-   "valor_avaliacao": 149000.0,
-   "desconto": 52.51,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555515008594",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.2485277,
-    "lng": -38.9805139
    },
    "geo_pendente": false
   },
@@ -2788,69 +2761,6 @@
     "fonte": "google",
     "lat": -12.2798671,
     "lng": -38.9589747
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787702819399",
-   "uf": "BA",
-   "cidade": "FEIRA DE SANTANA",
-   "bairro": "TOMBA",
-   "endereco": "AVENIDA MARIA CRISTINA, N. SN, Apto 401, BL 12",
-   "preco": 41553.26,
-   "valor_avaliacao": 86000.0,
-   "desconto": 51.69,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 41.85 de área total, 40.12 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702819399",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.2846289,
-    "lng": -38.9619434
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555517195251",
-   "uf": "BA",
-   "cidade": "FEIRA DE SANTANA",
-   "bairro": "RUA NOVA",
-   "endereco": "RUA ITORORO, N. SN, Apto 104, QD K BL 12",
-   "preco": 53428.33,
-   "valor_avaliacao": 110000.0,
-   "desconto": 51.43,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 42.91 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555517195251",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.2489331,
-    "lng": -38.9784309
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555526493928",
-   "uf": "BA",
-   "cidade": "FEIRA DE SANTANA",
-   "bairro": "CALUMBI",
-   "endereco": "RUA ITORORO, N. SN, Apto 201, QD L BL 04",
-   "preco": 54999.76,
-   "valor_avaliacao": 110000.0,
-   "desconto": 50.01,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 42.91 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555526493928",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.2360844,
-    "lng": -38.9619871
    },
    "geo_pendente": false
   },
@@ -3170,6 +3080,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787702642448",
+   "uf": "BA",
+   "cidade": "FEIRA DE SANTANA",
+   "bairro": "TOMBA",
+   "endereco": "RUA LIBRA, N. SN, Apto 102, BL 13",
+   "preco": 69889.29,
+   "valor_avaliacao": 127000.0,
+   "desconto": 44.97,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 41.85 de área total, 40.12 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702642448",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.2798671,
+    "lng": -38.9589747
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555512517960",
    "uf": "BA",
    "cidade": "FEIRA DE SANTANA",
@@ -3229,27 +3160,6 @@
     "fonte": "google",
     "lat": -12.2141598,
     "lng": -38.9863607
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787702642448",
-   "uf": "BA",
-   "cidade": "FEIRA DE SANTANA",
-   "bairro": "TOMBA",
-   "endereco": "RUA LIBRA, N. SN, Apto 102, BL 13",
-   "preco": 71728.48,
-   "valor_avaliacao": 127000.0,
-   "desconto": 43.53,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 41.85 de área total, 40.12 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702642448",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.2798671,
-    "lng": -38.9589747
    },
    "geo_pendente": false
   },
@@ -3499,9 +3409,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413333230",
    "tipo": "casa",
    "geo": {
+    "fonte": "osm",
     "lat": -12.264313,
-    "lng": -38.9597127,
-    "fonte": "osm"
+    "lng": -38.9597127
    },
    "geo_pendente": false
   },
@@ -3541,9 +3451,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555531141244",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -12.2348478,
-    "lng": -38.8780448,
-    "fonte": "google"
+    "lng": -38.8780448
    },
    "geo_pendente": false
   },
@@ -3558,7 +3468,7 @@
    "desconto": 39.58,
    "financiamento": "Não",
    "descricao": "Apartamento, 61.91 de área total, 44.39 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407249835",
    "tipo": "apartamento",
    "geo": {
@@ -3579,7 +3489,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 66.60 de área total, 66.60 de área privativa, 100.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416451579",
    "tipo": "casa",
    "geo": {
@@ -3747,7 +3657,7 @@
    "desconto": 36.27,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 900.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286386",
    "tipo": "terreno",
    "geo": {
@@ -3758,44 +3668,107 @@
    "geo_pendente": false
   },
   {
-   "id": "8787704446425",
+   "id": "8787711588043",
    "uf": "BA",
    "cidade": "FEIRA DE SANTANA",
-   "bairro": "CONCEICAO",
-   "endereco": "RUA CORUNHA, N. 1019, DESM. LOT 13 QD N",
-   "preco": 123260.68,
-   "valor_avaliacao": 178000.0,
-   "desconto": 30.76,
+   "bairro": "MANGABEIRA",
+   "endereco": "AVENIDA GRACINDO DE FREITAS MEDEIROS, N. 800, Apto 103, BL16",
+   "preco": 103273.01,
+   "valor_avaliacao": 133000.0,
+   "desconto": 22.36,
    "financiamento": "Não",
-   "descricao": "Casa, 53.40 de área total, 53.40 de área privativa, 125.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 0.00 de área total, 40.12 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704446425",
-   "tipo": "casa",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711588043",
+   "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -12.224455,
-    "lng": -38.925217
+    "lat": -12.2190976,
+    "lng": -38.9240867
    },
    "geo_pendente": false
   },
   {
-   "id": "8787701398993",
+   "id": "8787709198942",
    "uf": "BA",
    "cidade": "FEIRA DE SANTANA",
-   "bairro": "SANTO ANTONIO DOS PRAZERES",
-   "endereco": "AVENIDA ARTEMIA PIRES FREITAS, N. 8187, Apto 404, BL31",
-   "preco": 124409.19,
-   "valor_avaliacao": 131500.0,
-   "desconto": 5.4,
+   "bairro": "AVIARIO",
+   "endereco": "RUA DO SALVADOR, N. 1797, CS 128",
+   "preco": 114720.55,
+   "valor_avaliacao": 145000.0,
+   "desconto": 20.89,
    "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 41.14 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Casa, 0.00 de área total, 40.19 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701398993",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709198942",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.2885223,
+    "lng": -38.9467083
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787705377958",
+   "uf": "BA",
+   "cidade": "FEIRA DE SANTANA",
+   "bairro": "GABRIELA",
+   "endereco": "RUA A, N. 22, ÁREA 13",
+   "preco": 114110.38,
+   "valor_avaliacao": 140000.0,
+   "desconto": 18.5,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 47.75 de área privativa, 96.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705377958",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.2062949,
+    "lng": -38.9670816
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787709966664",
+   "uf": "BA",
+   "cidade": "FEIRA DE SANTANA",
+   "bairro": "NOVA ESPERANCA",
+   "endereco": "VIA DE ACESSO  ÁREA 02C, N. SN, CS 48  QD 03  RUA 03",
+   "preco": 192581.79,
+   "valor_avaliacao": 220000.0,
+   "desconto": 12.47,
+   "financiamento": "Não",
+   "descricao": "Casa, 148.75 de área total, 41.11 de área privativa, 131.85 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709966664",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.3215464,
+    "lng": -38.9526462
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444413489222",
+   "uf": "BA",
+   "cidade": "FEIRA DE SANTANA",
+   "bairro": "CALUMBI",
+   "endereco": "RUA ITORORO, N. SN, Apto 302, QD K  BL 01",
+   "preco": 108641.95,
+   "valor_avaliacao": 115000.0,
+   "desconto": 5.53,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 42.91 de área total, 36.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413489222",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -12.2461841,
-    "lng": -38.9131978
+    "lat": -12.2485277,
+    "lng": -38.9805139
    },
    "geo_pendente": false
   },
@@ -3842,6 +3815,36 @@
    "geo_pendente": false
   },
   {
+   "id": "1444401881280",
+   "uf": "BA",
+   "cidade": "FEIRA DE SANTANA",
+   "bairro": "PARQUE IPE",
+   "endereco": "RUA BATISTAO, N. 12, QD E LT 17",
+   "preco": 261000.0,
+   "valor_avaliacao": 261000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 151.00 de área privativa, 250.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401881280",
+   "tipo": "casa"
+  },
+  {
+   "id": "8444409478513",
+   "uf": "BA",
+   "cidade": "FEIRA DE SANTANA",
+   "bairro": "MANGABEIRA",
+   "endereco": "RUA BOTAGUAÇU, N. 32,",
+   "preco": 180000.0,
+   "valor_avaliacao": 180000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 54.00 de área total, 54.00 de área privativa, 105.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409478513",
+   "tipo": "casa"
+  },
+  {
    "id": "8787711583459",
    "uf": "BA",
    "cidade": "FEIRA DE SANTANA",
@@ -3863,6 +3866,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787715057719",
+   "uf": "BA",
+   "cidade": "FEIRA DE SANTANA",
+   "bairro": "MANGABEIRA",
+   "endereco": "RUA VITORINO FREIRE, N. 800, Apto 101, BL 09",
+   "preco": 155000.0,
+   "valor_avaliacao": 155000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 63.90 de área total, 40.13 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715057719",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444402778643",
    "uf": "BA",
    "cidade": "FEIRA DE SANTANA",
@@ -3882,6 +3900,21 @@
     "lng": -38.9887213
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787703994747",
+   "uf": "BA",
+   "cidade": "FEIRA DE SANTANA",
+   "bairro": "SANTO ANTONIO DOS PRAZERES",
+   "endereco": "AVENIDA ARTEMIA PIRES DE FREITAS, N. 8187, Apto 202, BL 10",
+   "preco": 175000.0,
+   "valor_avaliacao": 175000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 61.87 de área total, 41.14 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703994747",
+   "tipo": "apartamento"
   },
   {
    "id": "8444417234563",
@@ -4115,27 +4148,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787709198942",
-   "uf": "BA",
-   "cidade": "FEIRA DE SANTANA",
-   "bairro": "AVIARIO",
-   "endereco": "RUA DO SALVADOR, N. 1797, CS 128",
-   "preco": 145000.0,
-   "valor_avaliacao": 145000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 40.19 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709198942",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.2885223,
-    "lng": -38.9467083
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787702508334",
    "uf": "BA",
    "cidade": "FEIRA DE SANTANA",
@@ -4155,6 +4167,21 @@
     "lng": -38.8769325
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787716430723",
+   "uf": "BA",
+   "cidade": "FEIRA DE SANTANA",
+   "bairro": "MANGABEIRA",
+   "endereco": "RUA ITAUMIRIM, N. 355, Apto 104, BL 06",
+   "preco": 163479.22,
+   "valor_avaliacao": 160000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 40.13 de área total, 40.13 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716430723",
+   "tipo": "apartamento"
   },
   {
    "id": "8444400914019",
@@ -4195,27 +4222,6 @@
     "fonte": "google",
     "lat": -12.2148914,
     "lng": -38.9285229
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444413489222",
-   "uf": "BA",
-   "cidade": "FEIRA DE SANTANA",
-   "bairro": "CALUMBI",
-   "endereco": "RUA ITORORO, N. SN, Apto 302, QD K  BL 01",
-   "preco": 120000.0,
-   "valor_avaliacao": 115000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 42.91 de área total, 36.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413489222",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.2485277,
-    "lng": -38.9805139
    },
    "geo_pendente": false
   },
@@ -4388,27 +4394,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787701735973",
-   "uf": "BA",
-   "cidade": "FEIRA DE SANTANA",
-   "bairro": "SANTO ANTONIO DOS PRAZERES",
-   "endereco": "AVENIDA ARTEMIA PIRES FREITAS, N. 8187, Apto 302, BL 42",
-   "preco": 203600.51,
-   "valor_avaliacao": 175000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 61.87 de área total, 41.14 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701735973",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.2461841,
-    "lng": -38.9131978
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555508379310",
    "uf": "BA",
    "cidade": "FEIRA DE SANTANA",
@@ -4447,48 +4432,6 @@
     "fonte": "google",
     "lat": -12.2560755,
     "lng": -38.9937099
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787709966664",
-   "uf": "BA",
-   "cidade": "FEIRA DE SANTANA",
-   "bairro": "NOVA ESPERANCA",
-   "endereco": "VIA DE ACESSO  ÁREA 02C, N. SN, CS 48  QD 03  RUA 03",
-   "preco": 259621.33,
-   "valor_avaliacao": 220000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 148.75 de área total, 41.11 de área privativa, 131.85 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709966664",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.3215464,
-    "lng": -38.9526462
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787711588043",
-   "uf": "BA",
-   "cidade": "FEIRA DE SANTANA",
-   "bairro": "MANGABEIRA",
-   "endereco": "AVENIDA GRACINDO DE FREITAS MEDEIROS, N. 800, Apto 103, BL16",
-   "preco": 158196.58,
-   "valor_avaliacao": 133000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.12 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711588043",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.2190976,
-    "lng": -38.9240867
    },
    "geo_pendente": false
   },
@@ -4573,27 +4516,6 @@
     "fonte": "google",
     "lat": -12.2560755,
     "lng": -38.9937099
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787705377958",
-   "uf": "BA",
-   "cidade": "FEIRA DE SANTANA",
-   "bairro": "GABRIELA",
-   "endereco": "RUA A, N. 22, ÁREA 13",
-   "preco": 173295.0,
-   "valor_avaliacao": 140000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 47.75 de área privativa, 96.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705377958",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.2062949,
-    "lng": -38.9670816
    },
    "geo_pendente": false
   },
@@ -4808,6 +4730,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444411210450",
+   "uf": "BA",
+   "cidade": "IACU",
+   "bairro": "CENTRO",
+   "endereco": "RUA NOVA, N. 218,",
+   "preco": 28263.97,
+   "valor_avaliacao": 68000.0,
+   "desconto": 58.44,
+   "financiamento": "Não",
+   "descricao": "Casa, 67.55 de área total, 67.55 de área privativa, 91.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411210450",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.7718467,
+    "lng": -40.2061211
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444404735631",
    "uf": "BA",
    "cidade": "IACU",
@@ -4913,6 +4856,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444413903568",
+   "uf": "BA",
+   "cidade": "IACU",
+   "bairro": "CERAMICA",
+   "endereco": "RUA 02 DE NOVEMBRO, N. 861,",
+   "preco": 42850.93,
+   "valor_avaliacao": 97000.0,
+   "desconto": 55.83,
+   "financiamento": "Não",
+   "descricao": "Casa, 67.55 de área total, 67.55 de área privativa, 73.50 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413903568",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.7652492,
+    "lng": -40.2116118
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444415154953",
    "uf": "BA",
    "cidade": "IACU",
@@ -4997,23 +4961,44 @@
    "geo_pendente": false
   },
   {
-   "id": "8444411210450",
+   "id": "8444417701072",
    "uf": "BA",
    "cidade": "IACU",
-   "bairro": "CENTRO",
-   "endereco": "RUA NOVA, N. 218,",
-   "preco": 30148.24,
-   "valor_avaliacao": 68000.0,
+   "bairro": "BAIRRO DA BOIADEIRA",
+   "endereco": "RUA  LOURIVAL REIS, N. 948,",
+   "preco": 27000.4,
+   "valor_avaliacao": 60900.0,
    "desconto": 55.67,
    "financiamento": "Não",
-   "descricao": "Casa, 67.55 de área total, 67.55 de área privativa, 91.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411210450",
+   "descricao": "Casa, 60.00 de área total, 60.00 de área privativa, 65.55 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417701072",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -12.7718467,
-    "lng": -40.2061211
+    "lat": -12.7677208,
+    "lng": -40.2264431
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444418267562",
+   "uf": "BA",
+   "cidade": "IACU",
+   "bairro": "CENTRO",
+   "endereco": "AV JOSE GONÇALVES COSTA, N. 506,",
+   "preco": 37241.94,
+   "valor_avaliacao": 84000.0,
+   "desconto": 55.67,
+   "financiamento": "Não",
+   "descricao": "Casa, 68.50 de área total, 68.50 de área privativa, 121.70 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418267562",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.7707828,
+    "lng": -40.2180556
    },
    "geo_pendente": false
   },
@@ -5039,18 +5024,39 @@
    "geo_pendente": false
   },
   {
-   "id": "8444413903568",
+   "id": "8444413226000",
+   "uf": "BA",
+   "cidade": "IACU",
+   "bairro": "BAIRRO DA BOIADEIRA",
+   "endereco": "AVENIDA PROFESSOR MAGALHÃES NETO, N. 192, CS 192",
+   "preco": 46467.86,
+   "valor_avaliacao": 99000.0,
+   "desconto": 53.07,
+   "financiamento": "Não",
+   "descricao": "Casa, 70.81 de área total, 70.81 de área privativa, 113.88 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413226000",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.7692499,
+    "lng": -40.2275329
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444416676031",
    "uf": "BA",
    "cidade": "IACU",
    "bairro": "CERAMICA",
-   "endereco": "RUA 02 DE NOVEMBRO, N. 861,",
+   "endereco": "RUA 02 DE NOVEMBRO, N. 823, CS 823",
    "preco": 45529.11,
    "valor_avaliacao": 97000.0,
    "desconto": 53.07,
    "financiamento": "Não",
-   "descricao": "Casa, 67.55 de área total, 67.55 de área privativa, 73.50 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413903568",
+   "descricao": "Casa, 82.85 de área total, 82.85 de área privativa, 96.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416676031",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
@@ -5123,23 +5129,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444417701072",
+   "id": "8444407554697",
    "uf": "BA",
    "cidade": "IACU",
-   "bairro": "BAIRRO DA BOIADEIRA",
-   "endereco": "RUA  LOURIVAL REIS, N. 948,",
-   "preco": 28687.93,
-   "valor_avaliacao": 60900.0,
+   "bairro": "CENTRO",
+   "endereco": "AVENIDA JOSE POSSIDONIO SAMPAIO, N. 862-B,",
+   "preco": 39569.56,
+   "valor_avaliacao": 84000.0,
    "desconto": 52.9,
    "financiamento": "Não",
-   "descricao": "Casa, 60.00 de área total, 60.00 de área privativa, 65.55 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417701072",
+   "descricao": "Casa, 93.48 de área total, 49.98 de área privativa, 49.98 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407554697",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -12.7677208,
-    "lng": -40.2264431
+    "lat": -12.7732064,
+    "lng": -40.1979656
    },
    "geo_pendente": false
   },
@@ -5161,27 +5167,6 @@
     "fonte": "google",
     "lat": -12.7684701,
     "lng": -40.2226504
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444418267562",
-   "uf": "BA",
-   "cidade": "IACU",
-   "bairro": "CENTRO",
-   "endereco": "AV JOSE GONÇALVES COSTA, N. 506,",
-   "preco": 39569.56,
-   "valor_avaliacao": 84000.0,
-   "desconto": 52.9,
-   "financiamento": "Não",
-   "descricao": "Casa, 68.50 de área total, 68.50 de área privativa, 121.70 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418267562",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.7707828,
-    "lng": -40.2180556
    },
    "geo_pendente": false
   },
@@ -5228,48 +5213,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444413226000",
-   "uf": "BA",
-   "cidade": "IACU",
-   "bairro": "BAIRRO DA BOIADEIRA",
-   "endereco": "AVENIDA PROFESSOR MAGALHÃES NETO, N. 192, CS 192",
-   "preco": 47834.57,
-   "valor_avaliacao": 99000.0,
-   "desconto": 51.69,
-   "financiamento": "Não",
-   "descricao": "Casa, 70.81 de área total, 70.81 de área privativa, 113.88 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413226000",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.7692499,
-    "lng": -40.2275329
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444416676031",
-   "uf": "BA",
-   "cidade": "IACU",
-   "bairro": "CERAMICA",
-   "endereco": "RUA 02 DE NOVEMBRO, N. 823, CS 823",
-   "preco": 46868.21,
-   "valor_avaliacao": 97000.0,
-   "desconto": 51.69,
-   "financiamento": "Não",
-   "descricao": "Casa, 82.85 de área total, 82.85 de área privativa, 96.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416676031",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.7652492,
-    "lng": -40.2116118
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444406239895",
    "uf": "BA",
    "cidade": "IACU",
@@ -5287,27 +5230,6 @@
     "fonte": "google",
     "lat": -12.7751743,
     "lng": -40.2166171
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444407554697",
-   "uf": "BA",
-   "cidade": "IACU",
-   "bairro": "CENTRO",
-   "endereco": "AVENIDA JOSE POSSIDONIO SAMPAIO, N. 862-B,",
-   "preco": 40733.37,
-   "valor_avaliacao": 84000.0,
-   "desconto": 51.51,
-   "financiamento": "Não",
-   "descricao": "Casa, 93.48 de área total, 49.98 de área privativa, 49.98 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407554697",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.7732064,
-    "lng": -40.1979656
    },
    "geo_pendente": false
   },
@@ -5401,12 +5323,12 @@
    "cidade": "IACU",
    "bairro": "BOIADEIRA",
    "endereco": "RUA ARLINDA GOMES MASCARENHAS, N. 75,",
-   "preco": 39444.87,
+   "preco": 38433.46,
    "valor_avaliacao": 73000.0,
-   "desconto": 45.97,
+   "desconto": 47.36,
    "financiamento": "Não",
    "descricao": "Casa, 59.57 de área total, 59.57 de área privativa, 128.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411008103",
    "tipo": "casa",
    "geo": {
@@ -5469,7 +5391,7 @@
    "desconto": 36.27,
    "financiamento": "Não",
    "descricao": "Gleba, 0.00 de área total, 0.00 de área privativa, 23800.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286269",
    "tipo": "gleba",
    "geo": {
@@ -5480,17 +5402,32 @@
    "geo_pendente": false
   },
   {
+   "id": "8444412882834",
+   "uf": "BA",
+   "cidade": "IBIRAPUA",
+   "bairro": "CENTRO",
+   "endereco": "RUA CASTRO ALVES, N. 10,",
+   "preco": 206000.0,
+   "valor_avaliacao": 206000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 112.12 de área total, 112.12 de área privativa, 154.00 de área do terreno,  3 qto(s), a.serv, WC, 2 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412882834",
+   "tipo": "casa"
+  },
+  {
    "id": "1555529345107",
    "uf": "BA",
    "cidade": "IBOTIRAMA",
    "bairro": "CHICHA",
    "endereco": "RUA DOS UMBUZEIROS, N. 261, SN,",
-   "preco": 154390.03,
+   "preco": 142513.87,
    "valor_avaliacao": 389000.0,
-   "desconto": 60.32,
+   "desconto": 63.37,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.01 de área privativa, 1000.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555529345107",
    "tipo": "terreno",
    "geo": {
@@ -5506,12 +5443,12 @@
    "cidade": "IBOTIRAMA",
    "bairro": "SÃO FRANCISCO",
    "endereco": "RUA IRMÃ DANIELA, N. 276, LT 11, QD E",
-   "preco": 119066.86,
+   "preco": 109907.87,
    "valor_avaliacao": 300000.0,
-   "desconto": 60.32,
-   "financiamento": "Não",
+   "desconto": 63.37,
+   "financiamento": "Sim",
    "descricao": "Comercial, 0.00 de área total, 71.40 de área privativa, 90.00 de área do terreno, WC, 1 sala(s).",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555530604633",
    "tipo": "comercial",
    "geo": {
@@ -5548,12 +5485,12 @@
    "cidade": "IBOTIRAMA",
    "bairro": "CENTRO",
    "endereco": "RUA SOLON BARRETO DE NOVAIS, N. 165, 2º PAVIMENTO",
-   "preco": 166498.35,
+   "preco": 162116.82,
    "valor_avaliacao": 275000.0,
-   "desconto": 39.46,
+   "desconto": 41.05,
    "financiamento": "Não",
    "descricao": "Casa, 90.00 de área total, 90.00 de área privativa, 90.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555530006124",
    "tipo": "casa",
    "geo": {
@@ -5700,7 +5637,7 @@
    "desconto": 64.58,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 200.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), DCE, cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555514184340",
    "tipo": "terreno",
    "geo": {
@@ -5795,48 +5732,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555515660976",
-   "uf": "BA",
-   "cidade": "ITABUNA",
-   "bairro": "LOMANTO JUNIOR",
-   "endereco": "RUA E, N. 46, QD I, LT 26-A",
-   "preco": 60000.0,
-   "valor_avaliacao": 60000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 123.38 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555515660976",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -14.7882998,
-    "lng": -39.2886358
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787710738912",
-   "uf": "BA",
-   "cidade": "ITABUNA",
-   "bairro": "DANIEL GOMES",
-   "endereco": "RUA JOSEFA SOARES, N. 1349, Apto 201,  BL 27  VG 211",
-   "preco": 150000.0,
-   "valor_avaliacao": 150000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 68.89 de área total, 50.50 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710738912",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -14.8056455,
-    "lng": -39.2621237
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1555527323130",
    "uf": "BA",
    "cidade": "ITABUNA",
@@ -5879,17 +5774,38 @@
    "geo_pendente": false
   },
   {
+   "id": "8787710738912",
+   "uf": "BA",
+   "cidade": "ITABUNA",
+   "bairro": "DANIEL GOMES",
+   "endereco": "RUA JOSEFA SOARES, N. 1349, Apto 201,  BL 27  VG 211",
+   "preco": 173306.32,
+   "valor_avaliacao": 150000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 68.89 de área total, 50.50 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710738912",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -14.8056455,
+    "lng": -39.2621237
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444415438749",
    "uf": "BA",
    "cidade": "ITAPETINGA",
    "bairro": "CENTRO",
    "endereco": "RUA ITAPEMIRIM, N. 139-A, PAVIMENTO SUPERIOR",
-   "preco": 71515.24,
+   "preco": 69633.26,
    "valor_avaliacao": 164000.0,
-   "desconto": 56.4,
+   "desconto": 57.55,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 74.78 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415438749",
    "tipo": "casa",
    "geo": {
@@ -5905,12 +5821,12 @@
    "cidade": "ITAPETINGA",
    "bairro": "VILA ROSA",
    "endereco": "TRAVESSA QUATRO, N. 30, QD 20 LT 07",
-   "preco": 78324.29,
+   "preco": 76366.18,
    "valor_avaliacao": 155000.0,
-   "desconto": 49.47,
+   "desconto": 50.74,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 90.82 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405082828",
    "tipo": "casa",
    "geo": {
@@ -5938,27 +5854,6 @@
     "fonte": "google",
     "lat": -15.2556819,
     "lng": -40.26673650000001
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444405751665",
-   "uf": "BA",
-   "cidade": "ITAPETINGA",
-   "bairro": "VILA ROSA",
-   "endereco": "RUA ADILSON NERY, N. 18, LT 24 QD 07  ANTIGA RUA A",
-   "preco": 126762.43,
-   "valor_avaliacao": 160000.0,
-   "desconto": 20.78,
-   "financiamento": "Não",
-   "descricao": "Casa, 77.18 de área total, 77.18 de área privativa, 109.55 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405751665",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.2410801,
-    "lng": -40.2251078
    },
    "geo_pendente": false
   },
@@ -6052,12 +5947,12 @@
    "cidade": "JANDAIRA",
    "bairro": "POV CACHOEIRA ITANHI",
    "endereco": "PRAÇA BARÃO DE ABADIA, N. 22, HOTEL LINHA VERDE",
-   "preco": 727636.61,
+   "preco": 667000.22,
    "valor_avaliacao": 2077000.0,
-   "desconto": 64.97,
+   "desconto": 67.89,
    "financiamento": "Não",
    "descricao": "Comercial, 0.00 de área total, 1349.48 de área privativa, 914.82 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10171231",
    "tipo": "comercial",
    "geo": {
@@ -6460,9 +6355,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523269407",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -12.8678264,
-    "lng": -38.3198969,
-    "fonte": "google"
+    "lng": -38.3198969
    },
    "geo_pendente": false
   },
@@ -6502,9 +6397,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703695260",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -12.8771025,
-    "lng": -38.3237617,
-    "fonte": "google"
+    "lng": -38.3237617
    },
    "geo_pendente": false
   },
@@ -6698,6 +6593,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8555524465102",
+   "uf": "BA",
+   "cidade": "LAURO DE FREITAS",
+   "bairro": "CAJI",
+   "endereco": "RUA JOSE LEITE, N. 332, Apto 202, BL 14  TIPO B",
+   "preco": 93676.05,
+   "valor_avaliacao": 149000.0,
+   "desconto": 37.14,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 49.31 de área total, 43.74 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555524465102",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8842544,
+    "lng": -38.351483
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444402588455",
    "uf": "BA",
    "cidade": "LAURO DE FREITAS",
@@ -6715,6 +6631,27 @@
     "fonte": "google",
     "lat": -12.8825791,
     "lng": -38.3400148
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444402067951",
+   "uf": "BA",
+   "cidade": "LAURO DE FREITAS",
+   "bairro": "PARQUE JOCKEI CLUB",
+   "endereco": "RUA DR JOSE CARLOS MINAHIM, N. 294, LT 01, QD G,",
+   "preco": 433373.72,
+   "valor_avaliacao": 680000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 0.00 de área total, 235.99 de área privativa, 529.39 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444402067951",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.896622,
+    "lng": -38.30831999999999
    },
    "geo_pendente": false
   },
@@ -6782,6 +6719,36 @@
    "geo_pendente": false
   },
   {
+   "id": "8555522137930",
+   "uf": "BA",
+   "cidade": "LAURO DE FREITAS",
+   "bairro": "CENTRO",
+   "endereco": "RUA SÃO JOSÉ, N. S/N, Apto 310, BL 01",
+   "preco": 200000.0,
+   "valor_avaliacao": 200000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 47.87 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555522137930",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8787706238323",
+   "uf": "BA",
+   "cidade": "LAURO DE FREITAS",
+   "bairro": "CENTRO",
+   "endereco": "RUA WALDIR PIRES, N. 328, Apto 106, BL 01 VG 126",
+   "preco": 293000.0,
+   "valor_avaliacao": 293000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 72.25 de área total, 42.29 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706238323",
+   "tipo": "apartamento"
+  },
+  {
    "id": "1787702897235",
    "uf": "BA",
    "cidade": "LAURO DE FREITAS",
@@ -6824,25 +6791,19 @@
    "geo_pendente": false
   },
   {
-   "id": "8555524465102",
+   "id": "1555516123500",
    "uf": "BA",
    "cidade": "LAURO DE FREITAS",
    "bairro": "CAJI",
-   "endereco": "RUA JOSE LEITE, N. 332, Apto 202, BL 14  TIPO B",
-   "preco": 149000.0,
-   "valor_avaliacao": 149000.0,
+   "endereco": "RUA 15 DE JANEIRO, N. 1018, Apto 003, BL 02 VG 050",
+   "preco": 132000.0,
+   "valor_avaliacao": 132000.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 49.31 de área total, 43.74 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "descricao": "Apartamento, 0.00 de área total, 44.17 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555524465102",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8842544,
-    "lng": -38.351483
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555516123500",
+   "tipo": "apartamento"
   },
   {
    "id": "8555531346040",
@@ -6950,6 +6911,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8555535355133",
+   "uf": "BA",
+   "cidade": "LAURO DE FREITAS",
+   "bairro": "CAJI",
+   "endereco": "AVENIDA PROFESSOR THEOCRITO BATISTA, N. 182, Apto 303, BL 13",
+   "preco": 152203.66,
+   "valor_avaliacao": 138000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 83.76 de área total, 39.98 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535355133",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787701301272",
    "uf": "BA",
    "cidade": "LAURO DE FREITAS",
@@ -6990,6 +6966,21 @@
     "lng": -38.34462449999999
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555526212511",
+   "uf": "BA",
+   "cidade": "LAURO DE FREITAS",
+   "bairro": "CAIXA D'AGUA",
+   "endereco": "RUA DOUTOR GERINO DE SOUZA FILHO, N. 5197, Apto 307, BL 17 VG 636",
+   "preco": 124076.71,
+   "valor_avaliacao": 100000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 51.57 de área total, 44.61 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555526212511",
+   "tipo": "apartamento"
   },
   {
    "id": "8555534620046",
@@ -7207,12 +7198,12 @@
    "cidade": "MACARANI",
    "bairro": "JARDIM MACARANI",
    "endereco": "RUA RUA JONAS DE SOUZA LEAL, N. 25, Apto 3, PAVIMENTO SUPERIOR",
-   "preco": 25412.67,
+   "preco": 22589.04,
    "valor_avaliacao": 104000.0,
-   "desconto": 75.57,
+   "desconto": 78.28,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 81.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421046717",
    "tipo": "apartamento",
    "geo": {
@@ -7349,6 +7340,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444405697920",
+   "uf": "BA",
+   "cidade": "MEDEIROS NETO",
+   "bairro": "SAO JORGE",
+   "endereco": "RUA 04, N. 23, QD 10 LT 14",
+   "preco": 172000.0,
+   "valor_avaliacao": 172000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405697920",
+   "tipo": "casa"
+  },
+  {
    "id": "1444417726379",
    "uf": "BA",
    "cidade": "MUCURI",
@@ -7459,12 +7465,12 @@
    "cidade": "POCOES",
    "bairro": "CENTRO",
    "endereco": "RUA A 2 ROD POCOES MORRINHOS KM 3, N. SN, LOT 20 QD M8",
-   "preco": 52162.21,
+   "preco": 50789.52,
    "valor_avaliacao": 106000.0,
-   "desconto": 50.8,
+   "desconto": 52.09,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 42.04 de área privativa, 300.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419989804",
    "tipo": "casa",
    "geo": {
@@ -7480,12 +7486,12 @@
    "cidade": "POCOES",
    "bairro": "JOAQUIM MASCARENHAS",
    "endereco": "RUA A-2, N. SN, LT 01, QD M4",
-   "preco": 52265.02,
+   "preco": 50889.63,
    "valor_avaliacao": 101000.0,
-   "desconto": 48.26,
+   "desconto": 49.62,
    "financiamento": "Não",
    "descricao": "Terreno, 69.44 de área total, 0.00 de área privativa, 300.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418997358",
    "tipo": "terreno",
    "geo": {
@@ -7501,12 +7507,12 @@
    "cidade": "POCOES",
    "bairro": "AREA RURAL DE POCOES",
    "endereco": "AREA RURAL DE POCOES, N. SN, LT 01 QD M5 KM 3",
-   "preco": 23004.06,
+   "preco": 22365.06,
    "valor_avaliacao": 44000.0,
-   "desconto": 47.72,
+   "desconto": 49.18,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419085450",
    "tipo": "terreno",
    "geo": {
@@ -7538,6 +7544,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8444415518378",
+   "uf": "BA",
+   "cidade": "POCOES",
+   "bairro": "LAGOA GRANDE",
+   "endereco": "RODOVIA POCOES, N. 28, KM 03 LT 08 QD M13",
+   "preco": 60687.35,
+   "valor_avaliacao": 110000.0,
+   "desconto": 44.83,
+   "financiamento": "Não",
+   "descricao": "Casa, 63.00 de área total, 63.00 de área privativa, 139.17 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415518378",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -14.528769,
+    "lng": -40.3664685
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444419966073",
+   "uf": "BA",
+   "cidade": "POCOES",
+   "bairro": "AGUAS DO SERTAO 2",
+   "endereco": "RUA A-2, N. S/N°, LT 13, QD M1",
+   "preco": 20956.34,
+   "valor_avaliacao": 37000.0,
+   "desconto": 43.37,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419966073",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -14.5546251,
+    "lng": -40.3340556
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444420171542",
    "uf": "BA",
    "cidade": "POCOES",
@@ -7555,27 +7603,6 @@
     "fonte": "google",
     "lat": -14.5253729,
     "lng": -40.3647512
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444415518378",
-   "uf": "BA",
-   "cidade": "POCOES",
-   "bairro": "LAGOA GRANDE",
-   "endereco": "RODOVIA POCOES, N. 28, KM 03 LT 08 QD M13",
-   "preco": 62327.55,
-   "valor_avaliacao": 110000.0,
-   "desconto": 43.34,
-   "financiamento": "Não",
-   "descricao": "Casa, 63.00 de área total, 63.00 de área privativa, 139.17 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415518378",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -14.528769,
-    "lng": -40.3664685
    },
    "geo_pendente": false
   },
@@ -7601,27 +7628,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444419966073",
-   "uf": "BA",
-   "cidade": "POCOES",
-   "bairro": "AGUAS DO SERTAO 2",
-   "endereco": "RUA A-2, N. S/N°, LT 13, QD M1",
-   "preco": 21493.69,
-   "valor_avaliacao": 37000.0,
-   "desconto": 41.91,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419966073",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -14.5546251,
-    "lng": -40.3340556
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444415389292",
    "uf": "BA",
    "cidade": "POCOES",
@@ -7632,7 +7638,7 @@
    "desconto": 39.61,
    "financiamento": "Não",
    "descricao": "Casa, 48.37 de área total, 48.37 de área privativa, 300.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415389292",
    "tipo": "casa",
    "geo": {
@@ -7648,12 +7654,12 @@
    "cidade": "PONTO NOVO",
    "bairro": "NOSSA SRA DE FATIMA",
    "endereco": "R SAO JORGE, N. SN,",
-   "preco": 71800.29,
+   "preco": 69910.81,
    "valor_avaliacao": 130857.8,
-   "desconto": 45.14,
+   "desconto": 46.58,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 75.60 de área privativa, 132.94 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444403146693",
    "tipo": "casa",
    "geo": {
@@ -7758,7 +7764,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Casa, 69.00 de área total, 69.00 de área privativa, 94.36 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427843201",
    "tipo": "casa",
    "geo": {
@@ -7779,7 +7785,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 85.00 de área total, 85.00 de área privativa, 123.22 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409091872",
    "tipo": "casa",
    "geo": {
@@ -7837,12 +7843,12 @@
    "cidade": "SALVADOR",
    "bairro": "CAJAZEIRAS VII",
    "endereco": "RUA MAESTRO REGINALDO DE XANGO, N. 20, Apto 101, BL 20",
-   "preco": 37109.31,
+   "preco": 33398.37,
    "valor_avaliacao": 128501.99,
-   "desconto": 71.13,
+   "desconto": 74.01,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 49.25 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444400798566",
    "tipo": "apartamento",
    "geo": {
@@ -7858,18 +7864,39 @@
    "cidade": "SALVADOR",
    "bairro": "CAJAZEIRAS VII",
    "endereco": "RUA  PROFESSOR JAIME DE SA MENEZES, N. 50, Apto 301, BL 50",
-   "preco": 40121.25,
+   "preco": 36777.81,
    "valor_avaliacao": 117000.0,
-   "desconto": 65.71,
+   "desconto": 68.57,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 49.25 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409870367",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -12.8881071,
     "lng": -38.425706
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555511106451",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "FAZENDA GRANDE III",
+   "endereco": "RUA MONSENHOR JONAS ABIB, N. 75, Apto 203, BL 75",
+   "preco": 35810.56,
+   "valor_avaliacao": 101459.64,
+   "desconto": 64.71,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 42.05 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555511106451",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.9034793,
+    "lng": -38.3956456
    },
    "geo_pendente": false
   },
@@ -7891,27 +7918,6 @@
     "fonte": "google",
     "lat": -12.9069018,
     "lng": -38.4752841
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555511106451",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "FAZENDA GRANDE III",
-   "endereco": "RUA MONSENHOR JONAS ABIB, N. 75, Apto 203, BL 75",
-   "preco": 38565.22,
-   "valor_avaliacao": 101459.64,
-   "desconto": 61.99,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 42.05 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555511106451",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.9034793,
-    "lng": -38.3956456
    },
    "geo_pendente": false
   },
@@ -8084,6 +8090,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787705664205",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER SALVADOR, N. 461, Apto 303, BL 18",
+   "preco": 54651.8,
+   "valor_avaliacao": 125000.0,
+   "desconto": 56.28,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 105.63 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705664205",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8458991,
+    "lng": -38.3536049
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787714414810",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -8185,6 +8212,27 @@
     "fonte": "google",
     "lat": -12.846422,
     "lng": -38.3568099
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787708982712",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER SALVADOR, N. 350, Apto 004, 004, 6",
+   "preco": 58350.13,
+   "valor_avaliacao": 132000.0,
+   "desconto": 55.8,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 70.96 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708982712",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8475454,
+    "lng": -38.3560242
    },
    "geo_pendente": false
   },
@@ -8336,6 +8384,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787712167211",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 04, BL14",
+   "preco": 57466.04,
+   "valor_avaliacao": 130000.0,
+   "desconto": 55.8,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712167211",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8488399,
+    "lng": -38.3547151
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787712398787",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -8348,6 +8417,27 @@
    "descricao": "Apartamento, 70.96 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712398787",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8475454,
+    "lng": -38.3560242
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787709621292",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER SALVADOR, N. 350, Apto 201, BL 06",
+   "preco": 69039.13,
+   "valor_avaliacao": 154450.53,
+   "desconto": 55.31,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709621292",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -8399,27 +8489,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787705664205",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER SALVADOR, N. 461, Apto 303, BL 18",
-   "preco": 58067.54,
-   "valor_avaliacao": 125000.0,
-   "desconto": 53.55,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 105.63 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705664205",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8458991,
-    "lng": -38.3536049
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787709007438",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -8432,6 +8501,27 @@
    "descricao": "Apartamento, 70.96 de área total, 40.53 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709007438",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8475454,
+    "lng": -38.3560242
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787709094250",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER SALVADOR, N. 350, Apto 304, BL 03",
+   "preco": 52957.6,
+   "valor_avaliacao": 114000.0,
+   "desconto": 53.55,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 70.96 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709094250",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -8588,27 +8678,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787708982712",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER SALVADOR, N. 350, Apto 004, 004, 6",
-   "preco": 61997.01,
-   "valor_avaliacao": 132000.0,
-   "desconto": 53.04,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 70.96 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708982712",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8475454,
-    "lng": -38.3560242
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787711837922",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -8626,27 +8695,6 @@
     "fonte": "google",
     "lat": -12.8475454,
     "lng": -38.3560242
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712167211",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 04, BL14",
-   "preco": 61057.66,
-   "valor_avaliacao": 130000.0,
-   "desconto": 53.04,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712167211",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8488399,
-    "lng": -38.3547151
    },
    "geo_pendente": false
   },
@@ -8777,23 +8825,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787709621292",
+   "id": "8787711686304",
    "uf": "BA",
    "cidade": "SALVADOR",
    "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER SALVADOR, N. 350, Apto 201, BL 06",
-   "preco": 73354.08,
-   "valor_avaliacao": 154450.53,
+   "endereco": "RUA VIVER SALVADOR, N. 1852, Apto 401, BL. 13",
+   "preco": 72665.17,
+   "valor_avaliacao": 153000.0,
    "desconto": 52.51,
    "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709621292",
+   "descricao": "Apartamento, 40.53 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711686304",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -12.8475454,
-    "lng": -38.3560242
+    "lat": -12.8470095,
+    "lng": -38.3559211
    },
    "geo_pendente": false
   },
@@ -8815,6 +8863,69 @@
     "fonte": "google",
     "lat": -12.8488399,
     "lng": -38.3547151
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787710683727",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "FAZENDA GRANDE I",
+   "endereco": "RUA GERALDO BRASIL, N. 962, Apto 104, BLOCO 5",
+   "preco": 66491.01,
+   "valor_avaliacao": 140000.0,
+   "desconto": 52.51,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 120.49 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710683727",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8839932,
+    "lng": -38.398388
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787711471030",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "FAZENDA GRANDE I",
+   "endereco": "RUA GERALDO BRASIL, N. 962, Apto 004, BL01",
+   "preco": 71715.3,
+   "valor_avaliacao": 151000.0,
+   "desconto": 52.51,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 120.49 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711471030",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8839932,
+    "lng": -38.398388
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444401190405",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "FAZENDA GRANDE IV",
+   "endereco": "RUA MARCELO CARIBE DE CARVALHO, N. 06, Apto 103, SETOR I BL 6",
+   "preco": 51789.18,
+   "valor_avaliacao": 109000.0,
+   "desconto": 52.49,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 40.05 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444401190405",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.9073542,
+    "lng": -38.3930395
    },
    "geo_pendente": false
   },
@@ -8878,27 +8989,6 @@
     "fonte": "google",
     "lat": -12.846422,
     "lng": -38.3568099
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787709094250",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER SALVADOR, N. 350, Apto 304, BL 03",
-   "preco": 54515.17,
-   "valor_avaliacao": 114000.0,
-   "desconto": 52.18,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 70.96 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709094250",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8475454,
-    "lng": -38.3560242
    },
    "geo_pendente": false
   },
@@ -9176,44 +9266,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444401190405",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "FAZENDA GRANDE IV",
-   "endereco": "RUA MARCELO CARIBE DE CARVALHO, N. 06, Apto 103, SETOR I BL 6",
-   "preco": 53268.87,
-   "valor_avaliacao": 109000.0,
-   "desconto": 51.13,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.05 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444401190405",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.9073542,
-    "lng": -38.3930395
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787711686304",
+   "id": "8787708971109",
    "uf": "BA",
    "cidade": "SALVADOR",
    "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER SALVADOR, N. 1852, Apto 401, BL. 13",
-   "preco": 74802.38,
-   "valor_avaliacao": 153000.0,
+   "endereco": "RUA VIVER SALVADOR, N. 350, Apto 402, BL 05",
+   "preco": 67957.72,
+   "valor_avaliacao": 139000.0,
    "desconto": 51.11,
    "financiamento": "Não",
-   "descricao": "Apartamento, 40.53 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711686304",
+   "descricao": "Apartamento, 70.96 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708971109",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -12.8470095,
-    "lng": -38.3559211
+    "lat": -12.8475454,
+    "lng": -38.3560242
    },
    "geo_pendente": false
   },
@@ -9235,48 +9304,6 @@
     "fonte": "google",
     "lat": -12.8488399,
     "lng": -38.3547151
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787710683727",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "FAZENDA GRANDE I",
-   "endereco": "RUA GERALDO BRASIL, N. 962, Apto 104, BLOCO 5",
-   "preco": 68446.63,
-   "valor_avaliacao": 140000.0,
-   "desconto": 51.11,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 120.49 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710683727",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8839932,
-    "lng": -38.398388
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787711471030",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "FAZENDA GRANDE I",
-   "endereco": "RUA GERALDO BRASIL, N. 962, Apto 004, BL01",
-   "preco": 73824.58,
-   "valor_avaliacao": 151000.0,
-   "desconto": 51.11,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 120.49 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711471030",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8839932,
-    "lng": -38.398388
    },
    "geo_pendente": false
   },
@@ -9491,6 +9518,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787709708185",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA 2 DE JULHO, N. 924, Apto 203, BL 23",
+   "preco": 66638.51,
+   "valor_avaliacao": 134000.0,
+   "desconto": 50.27,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709708185",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8466089,
+    "lng": -38.3575795
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787708037031",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -9508,6 +9556,48 @@
     "fonte": "google",
     "lat": -12.8466089,
     "lng": -38.3575795
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787712507900",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 103, BL 03",
+   "preco": 75144.17,
+   "valor_avaliacao": 151000.0,
+   "desconto": 50.24,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 70.47 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712507900",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8488399,
+    "lng": -38.3547151
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787713171611",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 402, BL 22",
+   "preco": 74298.18,
+   "valor_avaliacao": 149300.0,
+   "desconto": 50.24,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 70.47 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713171611",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8488399,
+    "lng": -38.3547151
    },
    "geo_pendente": false
   },
@@ -9554,6 +9644,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787709350973",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA 2 DE JULHO, N. 924, Apto 202, BL 08",
+   "preco": 56499.75,
+   "valor_avaliacao": 113000.0,
+   "desconto": 50.01,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 72.28 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709350973",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8466089,
+    "lng": -38.3575795
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787713322288",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -9596,6 +9707,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787708232292",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA 2 DE JULHO, N. 924, Apto 304, BLOCO 08",
+   "preco": 60691.05,
+   "valor_avaliacao": 121000.0,
+   "desconto": 49.85,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 72.28 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708232292",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8466089,
+    "lng": -38.3575795
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787709596310",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -9613,6 +9745,27 @@
     "fonte": "google",
     "lat": -12.8466089,
     "lng": -38.3575795
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787712599162",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 403, BL 03",
+   "preco": 57681.58,
+   "valor_avaliacao": 115000.0,
+   "desconto": 49.85,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 70.47 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712599162",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8488399,
+    "lng": -38.3547151
    },
    "geo_pendente": false
   },
@@ -9638,27 +9791,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787708971109",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER SALVADOR, N. 350, Apto 402, BL 05",
-   "preco": 69899.37,
-   "valor_avaliacao": 139000.0,
-   "desconto": 49.72,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 70.96 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708971109",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8475454,
-    "lng": -38.3560242
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787710822310",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -9676,27 +9808,6 @@
     "fonte": "google",
     "lat": -12.8488033,
     "lng": -38.3545717
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712815272",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 101, BL 18",
-   "preco": 79585.45,
-   "valor_avaliacao": 158000.0,
-   "desconto": 49.63,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 69.89 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712815272",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8488399,
-    "lng": -38.3547151
    },
    "geo_pendente": false
   },
@@ -9722,6 +9833,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787708292732",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER SALVADOR, N. 156, Apto 404, BL 06",
+   "preco": 52905.06,
+   "valor_avaliacao": 105000.0,
+   "desconto": 49.62,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.01 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708292732",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.846422,
+    "lng": -38.3568099
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444402684614",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -9739,6 +9871,27 @@
     "fonte": "google",
     "lat": -12.919962,
     "lng": -38.4373099
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787708528779",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA 2 DE JULHO, N. 924, Apto 403, BL 12",
+   "preco": 63191.15,
+   "valor_avaliacao": 125000.0,
+   "desconto": 49.45,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s).",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708528779",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8466089,
+    "lng": -38.3575795
    },
    "geo_pendente": false
   },
@@ -9785,6 +9938,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787708644426",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA 2 DE JULHO, N. 924, Apto 002, BL 17 1º PAV TERREO",
+   "preco": 68933.49,
+   "valor_avaliacao": 136000.0,
+   "desconto": 49.32,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 72.28 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708644426",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8466089,
+    "lng": -38.3575795
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787711682856",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -9802,27 +9976,6 @@
     "fonte": "google",
     "lat": -12.8475371,
     "lng": -38.3551974
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787709708185",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA 2 DE JULHO, N. 924, Apto 203, BL 23",
-   "preco": 68489.58,
-   "valor_avaliacao": 134000.0,
-   "desconto": 48.89,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709708185",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8466089,
-    "lng": -38.3575795
    },
    "geo_pendente": false
   },
@@ -9904,93 +10057,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710471509",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -12.8475454,
-    "lng": -38.3560242,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712507900",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 103, BL 03",
-   "preco": 77354.29,
-   "valor_avaliacao": 151000.0,
-   "desconto": 48.78,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 70.47 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712507900",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8488399,
-    "lng": -38.3547151
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787713171611",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 402, BL 22",
-   "preco": 76483.42,
-   "valor_avaliacao": 149300.0,
-   "desconto": 48.78,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 70.47 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713171611",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8488399,
-    "lng": -38.3547151
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787709350973",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA 2 DE JULHO, N. 924, Apto 202, BL 08",
-   "preco": 58114.03,
-   "valor_avaliacao": 113000.0,
-   "desconto": 48.58,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 72.28 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709350973",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8466089,
-    "lng": -38.3575795
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787708232292",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA 2 DE JULHO, N. 924, Apto 304, BLOCO 08",
-   "preco": 62425.08,
-   "valor_avaliacao": 121000.0,
-   "desconto": 48.41,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 72.28 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708232292",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8466089,
-    "lng": -38.3575795
+    "lng": -38.3560242
    },
    "geo_pendente": false
   },
@@ -10007,27 +10076,6 @@
    "descricao": "Apartamento, 70.47 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712546441",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8488399,
-    "lng": -38.3547151
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712599162",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 403, BL 03",
-   "preco": 59329.62,
-   "valor_avaliacao": 115000.0,
-   "desconto": 48.41,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 70.47 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712599162",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -10058,44 +10106,44 @@
    "geo_pendente": false
   },
   {
-   "id": "8787708292732",
+   "id": "8787712843160",
    "uf": "BA",
    "cidade": "SALVADOR",
    "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER SALVADOR, N. 156, Apto 404, BL 06",
-   "preco": 54334.93,
-   "valor_avaliacao": 105000.0,
-   "desconto": 48.26,
+   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 201, BL 19",
+   "preco": 72874.7,
+   "valor_avaliacao": 141000.0,
+   "desconto": 48.32,
    "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.01 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708292732",
+   "descricao": "Apartamento, 70.47 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712843160",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -12.846422,
-    "lng": -38.3568099
+    "lat": -12.8488399,
+    "lng": -38.3547151
    },
    "geo_pendente": false
   },
   {
-   "id": "8787708528779",
+   "id": "8787710699500",
    "uf": "BA",
    "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA 2 DE JULHO, N. 924, Apto 403, BL 12",
-   "preco": 64899.02,
-   "valor_avaliacao": 125000.0,
+   "bairro": "CAJAZEIRAS XI",
+   "endereco": "RUA GERALDO BRASIL, N. 962, Apto 403, BL 06",
+   "preco": 62095.38,
+   "valor_avaliacao": 119600.0,
    "desconto": 48.09,
    "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s).",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708528779",
+   "descricao": "Apartamento, 40.53 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710699500",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -12.8466089,
-    "lng": -38.3575795
+    "lat": -12.8839932,
+    "lng": -38.398388
    },
    "geo_pendente": false
   },
@@ -10138,27 +10186,6 @@
     "fonte": "google",
     "lat": -12.8890809,
     "lng": -38.4010871
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787708644426",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA 2 DE JULHO, N. 924, Apto 002, BL 17 1º PAV TERREO",
-   "preco": 70903.02,
-   "valor_avaliacao": 136000.0,
-   "desconto": 47.87,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 72.28 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708644426",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8466089,
-    "lng": -38.3575795
    },
    "geo_pendente": false
   },
@@ -10352,6 +10379,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8787712605391",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 003, BL 03",
+   "preco": 69290.78,
+   "valor_avaliacao": 132000.0,
+   "desconto": 47.51,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 70.47 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712605391",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8488399,
+    "lng": -38.3547151
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787712769939",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 201, BL 23",
+   "preco": 71915.43,
+   "valor_avaliacao": 137000.0,
+   "desconto": 47.51,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712769939",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8488399,
+    "lng": -38.3547151
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787712779250",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -10436,6 +10505,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444404865748",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "CAJAZEIRAS IV",
+   "endereco": "RUA MONSENHOR JONAS ABIB, N. 01, Apto 01, BL19 SETOR A QD C",
+   "preco": 53753.16,
+   "valor_avaliacao": 102000.0,
+   "desconto": 47.31,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 45.46 de área total, 42.05 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404865748",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.9288737,
+    "lng": -38.5125576
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444409072495",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -10457,44 +10547,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787712843160",
+   "id": "8787708028059",
    "uf": "BA",
    "cidade": "SALVADOR",
    "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 201, BL 19",
-   "preco": 74844.29,
-   "valor_avaliacao": 141000.0,
+   "endereco": "RUA 2 DE JULHO, N. 924, Apto 003, BL 08",
+   "preco": 76436.72,
+   "valor_avaliacao": 144000.0,
    "desconto": 46.92,
    "financiamento": "Não",
-   "descricao": "Apartamento, 70.47 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712843160",
+   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708028059",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -12.8488399,
-    "lng": -38.3547151
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787710699500",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "CAJAZEIRAS XI",
-   "endereco": "RUA GERALDO BRASIL, N. 962, Apto 403, BL 06",
-   "preco": 63729.47,
-   "valor_avaliacao": 119600.0,
-   "desconto": 46.72,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 40.53 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710699500",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8839932,
-    "lng": -38.398388
+    "lat": -12.8466089,
+    "lng": -38.3575795
    },
    "geo_pendente": false
   },
@@ -10537,90 +10606,6 @@
     "fonte": "google",
     "lat": -12.9300824,
     "lng": -38.406141
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712605391",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 003, BL 03",
-   "preco": 71114.22,
-   "valor_avaliacao": 132000.0,
-   "desconto": 46.13,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 70.47 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712605391",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8488399,
-    "lng": -38.3547151
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712769939",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 201, BL 23",
-   "preco": 73807.94,
-   "valor_avaliacao": 137000.0,
-   "desconto": 46.13,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712769939",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8488399,
-    "lng": -38.3547151
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444404865748",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "CAJAZEIRAS IV",
-   "endereco": "RUA MONSENHOR JONAS ABIB, N. 01, Apto 01, BL19 SETOR A QD C",
-   "preco": 55205.95,
-   "valor_avaliacao": 102000.0,
-   "desconto": 45.88,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 45.46 de área total, 42.05 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404865748",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.9288737,
-    "lng": -38.5125576
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787708028059",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA 2 DE JULHO, N. 924, Apto 003, BL 08",
-   "preco": 78448.21,
-   "valor_avaliacao": 144000.0,
-   "desconto": 45.53,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708028059",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8466089,
-    "lng": -38.3575795
    },
    "geo_pendente": false
   },
@@ -10726,6 +10711,90 @@
     "fonte": "google",
     "lat": -12.90215,
     "lng": -38.4623552
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787711674918",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER SALVADOR, N. 602, Apto 201, BL 10",
+   "preco": 68186.07,
+   "valor_avaliacao": 122000.0,
+   "desconto": 44.11,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 69.89 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711674918",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8475371,
+    "lng": -38.3551974
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787708520590",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER SALVADOR, N. 156, Apto 404, BL 14",
+   "preco": 76246.82,
+   "valor_avaliacao": 135000.0,
+   "desconto": 43.53,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 72.28 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708520590",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.846422,
+    "lng": -38.3568099
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787713589314",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER AREIA BRANCA, N. 155, Apto 103, BL 04",
+   "preco": 77376.39,
+   "valor_avaliacao": 137000.0,
+   "desconto": 43.53,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 69.89 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713589314",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8490387,
+    "lng": -38.3542905
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444413142206",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "BOCA DA MATA",
+   "endereco": "RUA MUNDO NOVO, N. 104, Apto 104, BL 77 SETOR 07",
+   "preco": 65358.03,
+   "valor_avaliacao": 115000.0,
+   "desconto": 43.17,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 41.50 de área total, 38.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413142206",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.9028298,
+    "lng": -38.3839212
    },
    "geo_pendente": false
   },
@@ -10919,27 +10988,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787711674918",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER SALVADOR, N. 602, Apto 201, BL 10",
-   "preco": 69934.44,
-   "valor_avaliacao": 122000.0,
-   "desconto": 42.68,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 69.89 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711674918",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8475371,
-    "lng": -38.3551974
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787712102632",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -10971,7 +11019,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Apartamento, 69.57 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714242881",
    "tipo": "apartamento",
    "geo": {
@@ -11139,7 +11187,7 @@
    "desconto": 42.28,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 66.00 de área privativa, 0.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444407057334",
    "tipo": "casa",
    "geo": {
@@ -11183,27 +11231,6 @@
    "descricao": "Apartamento, 72.28 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707775454",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.846422,
-    "lng": -38.3568099
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787708520590",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER SALVADOR, N. 156, Apto 404, BL 14",
-   "preco": 78201.87,
-   "valor_avaliacao": 135000.0,
-   "desconto": 42.08,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 72.28 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708520590",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -11265,7 +11292,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712174684",
    "tipo": "apartamento",
    "geo": {
@@ -11307,34 +11334,13 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 69.89 de área total, 40.53 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713217689",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -12.8488033,
     "lng": -38.3545717
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787713589314",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 155, Apto 103, BL 04",
-   "preco": 79360.41,
-   "valor_avaliacao": 137000.0,
-   "desconto": 42.08,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 69.89 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713589314",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8490387,
-    "lng": -38.3542905
    },
    "geo_pendente": false
   },
@@ -11486,27 +11492,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444413142206",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "BOCA DA MATA",
-   "endereco": "RUA MUNDO NOVO, N. 104, Apto 104, BL 77 SETOR 07",
-   "preco": 67077.98,
-   "valor_avaliacao": 115000.0,
-   "desconto": 41.68,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 41.50 de área total, 38.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413142206",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.9028298,
-    "lng": -38.3839212
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787715620936",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -11643,7 +11628,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 69.57 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715285495",
    "tipo": "apartamento",
    "geo": {
@@ -11874,7 +11859,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 64.11 de área total, 41.89 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707472419",
    "tipo": "apartamento",
    "geo": {
@@ -12053,6 +12038,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787715003414",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER AREIA BRANCA, N. 155, Apto 102, BL 19",
+   "preco": 98370.7,
+   "valor_avaliacao": 166000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 69.57 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715003414",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -12.8490387,
+    "lng": -38.3542905
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787715109859",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -12172,9 +12178,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405676930",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -12.9262692,
-    "lng": -38.4352329,
-    "fonte": "google"
+    "lng": -38.4352329
    },
    "geo_pendente": false
   },
@@ -12200,44 +12206,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444400286298",
+   "id": "8444408488264",
    "uf": "BA",
    "cidade": "SALVADOR",
-   "bairro": "BOA VISTA DE SAO CAETANO",
-   "endereco": "RUA TOME DE SOUZA, N. 105, 0  PAVIMENTO SUPERIOR",
-   "preco": 89400.0,
-   "valor_avaliacao": 149000.0,
+   "bairro": "JARDIM DAS MARGARIDAS",
+   "endereco": "RUA JOAQUIM FERREIRA, N. 1857, Apto 505, EDIFÍCIO ITAPUAN",
+   "preco": 139200.0,
+   "valor_avaliacao": 232000.0,
    "desconto": 40.0,
    "financiamento": "Não",
-   "descricao": "Casa, 88.00 de área total, 88.00 de área privativa, 88.00 de área do terreno,  3 qto(s), a.serv, WC, 2 sala(s), cozinha.",
+   "descricao": "Apartamento, 80.62 de área total, 45.59 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444400286298",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.9291051,
-    "lng": -38.4772359
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444400305233",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "NOVA BRASILIA",
-   "endereco": "RUA BRISA DO VALE, N. 91, Apto 302, BL 17",
-   "preco": 111600.0,
-   "valor_avaliacao": 186000.0,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 98.62 de área total, 43.26 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444400305233",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408488264",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -12.919137,
-    "lng": -38.3991494
+    "lat": -12.8997414,
+    "lng": -38.3616536
    },
    "geo_pendente": false
   },
@@ -12504,7 +12489,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 61.31 de área total, 43.68 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706728770",
    "tipo": "apartamento",
    "geo": {
@@ -12546,7 +12531,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 41.89 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707679420",
    "tipo": "apartamento",
    "geo": {
@@ -12704,23 +12689,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787713696897",
+   "id": "1555531425511",
    "uf": "BA",
    "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 168, Apto 304, BL 19 PV 04",
-   "preco": 104320.92,
-   "valor_avaliacao": 166000.0,
-   "desconto": 37.16,
+   "bairro": "NAZARE",
+   "endereco": "AVENIDA JOANA ANGELICA, N. 705, Apto 401,",
+   "preco": 197886.31,
+   "valor_avaliacao": 315000.0,
+   "desconto": 37.18,
    "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "descricao": "Apartamento, 133.00 de área total, 133.00 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, WC Emp, 1 sala(s), 1 lavabo(s), DCE, cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713696897",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555531425511",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -12.8488399,
-    "lng": -38.3547151
+    "lat": -12.9801955,
+    "lng": -38.5092274
    },
    "geo_pendente": false
   },
@@ -12784,27 +12769,6 @@
     "fonte": "google",
     "lat": -12.9192168,
     "lng": -38.40587
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8151700019019",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "CABULA",
-   "endereco": "RUA SILVEIRA MARTINS, N. SN, Apto 402, BL 13",
-   "preco": 207127.15,
-   "valor_avaliacao": 325000.0,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 70.12 de área total, 70.12 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, WC Emp, 1 sala(s), DCE, cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8151700019019",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.9571867,
-    "lng": -38.4648127
    },
    "geo_pendente": false
   },
@@ -12956,172 +12920,40 @@
    "geo_pendente": false
   },
   {
-   "id": "8787713393371",
+   "id": "1787701923003",
    "uf": "BA",
    "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 155, Apto 104, BL 02",
-   "preco": 106102.35,
-   "valor_avaliacao": 166000.0,
-   "desconto": 36.09,
+   "bairro": "PIRAJA",
+   "endereco": "ESTRADA DA IASA, N. 432, Apto 407, TR 02  VG 131",
+   "preco": 215349.96,
+   "valor_avaliacao": 254000.0,
+   "desconto": 15.22,
    "financiamento": "Não",
-   "descricao": "Apartamento, 69.57 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "descricao": "Apartamento, 98.72 de área total, 43.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713393371",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701923003",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -12.8490387,
-    "lng": -38.3542905
+    "lat": -12.9062463,
+    "lng": -38.4662993
    },
    "geo_pendente": false
   },
   {
-   "id": "8787716350703",
+   "id": "8787706674611",
    "uf": "BA",
    "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 155, Apto 204, BL 19",
-   "preco": 114486.36,
-   "valor_avaliacao": 164000.0,
-   "desconto": 30.2,
+   "bairro": "CAMPINAS DE PIRAJA",
+   "endereco": "RUA ESTACIO DE SA, N. 116, Apto 604, BL 05",
+   "preco": 173600.0,
+   "valor_avaliacao": 173600.0,
+   "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "descricao": "Apartamento, 66.16 de área total, 41.89 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716350703",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8490387,
-    "lng": -38.3542905
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787714193139",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "NOVA BRASILIA",
-   "endereco": "ALAMEDA DAS NAÇÕES, N. 130, Apto 607, BL 02",
-   "preco": 122228.5,
-   "valor_avaliacao": 174600.0,
-   "desconto": 30.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 77.08 de área total, 38.70 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714193139",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.9201594,
-    "lng": -38.4051628
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787717535510",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 235, Apto 002, BL 21",
-   "preco": 98321.4,
-   "valor_avaliacao": 140208.09,
-   "desconto": 29.88,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 67.08 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717535510",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8496382,
-    "lng": -38.3543366
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787715301563",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 155, Apto 103, BL 19",
-   "preco": 95380.67,
-   "valor_avaliacao": 123000.0,
-   "desconto": 22.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 69.57 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715301563",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8490387,
-    "lng": -38.3542905
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787717133374",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA VIVER AREIA BRANCA, N. 235, Apto 102, BL 19",
-   "preco": 129722.26,
-   "valor_avaliacao": 166000.0,
-   "desconto": 21.86,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 67.08 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717133374",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8496382,
-    "lng": -38.3543366
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787713185663",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "URUGUAI",
-   "endereco": "RUA DO URUGUAY, N. 210, Apto 402, BL 008",
-   "preco": 159422.18,
-   "valor_avaliacao": 170000.0,
-   "desconto": 6.23,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 63.48 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713185663",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.9358638,
-    "lng": -38.496858
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1787701934412",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "VILA CANARIA",
-   "endereco": "RUA CASTRO ALVES, N. 304, Apto 406, BL C",
-   "preco": 274811.17,
-   "valor_avaliacao": 280000.0,
-   "desconto": 1.86,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 92.44 de área total, 51.54 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701934412",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.9109368,
-    "lng": -38.4449373
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706674611",
+   "tipo": "apartamento"
   },
   {
    "id": "1555523772240",
@@ -13313,25 +13145,19 @@
    "geo_pendente": false
   },
   {
-   "id": "8444408488264",
+   "id": "8787714431773",
    "uf": "BA",
    "cidade": "SALVADOR",
-   "bairro": "JARDIM DAS MARGARIDAS",
-   "endereco": "RUA JOAQUIM FERREIRA, N. 1857, Apto 505, EDIFÍCIO ITAPUAN",
-   "preco": 232000.0,
-   "valor_avaliacao": 232000.0,
+   "bairro": "NOVA BRASILIA",
+   "endereco": "ALAMEDA DAS NACOES, N. 130, Apto 506, BL 01",
+   "preco": 182978.63,
+   "valor_avaliacao": 182978.63,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 80.62 de área total, 45.59 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 77.08 de área total, 38.70 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408488264",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8997414,
-    "lng": -38.3616536
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714431773",
+   "tipo": "apartamento"
   },
   {
    "id": "8318300000893",
@@ -13395,6 +13221,36 @@
     "lng": -38.3547151
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787714334514",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER AREIA BRANCA, N. 155, Apto 102, BL 04",
+   "preco": 140000.0,
+   "valor_avaliacao": 140000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 69.57 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714334514",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8787716622533",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA VIVER AREIA BRANCA, N. 235, Apto 103, BL 25",
+   "preco": 166000.0,
+   "valor_avaliacao": 166000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 67.08 de área total, 40.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716622533",
+   "tipo": "apartamento"
   },
   {
    "id": "8787701470180",
@@ -13607,6 +13463,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787712416130",
+   "uf": "BA",
+   "cidade": "SALVADOR",
+   "bairro": "FAZENDA GRANDE IV",
+   "endereco": "AVENIDA ALIOMAR BALEEIRO, N. 10151, Apto 403, BL 04",
+   "preco": 206104.74,
+   "valor_avaliacao": 186000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 51.90 de área total, 44.02 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712416130",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787712810610",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -13645,27 +13516,6 @@
     "fonte": "google",
     "lat": -12.8547134,
     "lng": -38.3596846
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787706262550",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "JARDIM DAS MARGARIDAS",
-   "endereco": "RUA JOAQUIM FERREIRA, N. SN, Apto 302, PV 03 BL 20",
-   "preco": 166603.38,
-   "valor_avaliacao": 150000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 41.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706262550",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.8921905,
-    "lng": -38.3605794
    },
    "geo_pendente": false
   },
@@ -13729,27 +13579,6 @@
     "fonte": "google",
     "lat": -12.8547134,
     "lng": -38.3596846
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444410617262",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "SAO GONCALO",
-   "endereco": "ESTRADA DAS BARREIRAS, N. SN, Apto 302, BL 52B",
-   "preco": 161617.84,
-   "valor_avaliacao": 140000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 58.82 de área total, 52.95 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, WC Emp, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410617262",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.9507632,
-    "lng": -38.4608579
    },
    "geo_pendente": false
   },
@@ -13922,27 +13751,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1787701923003",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "PIRAJA",
-   "endereco": "ESTRADA DA IASA, N. 432, Apto 407, TR 02  VG 131",
-   "preco": 327979.88,
-   "valor_avaliacao": 254000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 98.72 de área total, 43.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701923003",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.9062463,
-    "lng": -38.4662993
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787708518013",
    "uf": "BA",
    "cidade": "SALVADOR",
@@ -13960,27 +13768,6 @@
     "fonte": "google",
     "lat": -12.846422,
     "lng": -38.3568099
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1555533719245",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "SAO CRISTOVAO",
-   "endereco": "TRAVESSA ACALANTO, N. 507, Apto 307, TORRE B",
-   "preco": 318090.15,
-   "valor_avaliacao": 234000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 70.75 de área total, 52.63 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555533719245",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.9001667,
-    "lng": -38.3609591
    },
    "geo_pendente": false
   },
@@ -14006,25 +13793,19 @@
    "geo_pendente": false
   },
   {
-   "id": "1555531425511",
+   "id": "1787701987389",
    "uf": "BA",
    "cidade": "SALVADOR",
-   "bairro": "NAZARE",
-   "endereco": "AVENIDA JOANA ANGELICA, N. 705, Apto 401,",
-   "preco": 501660.52,
-   "valor_avaliacao": 315000.0,
+   "bairro": "PIRAJA",
+   "endereco": "ESTRADA DA IASA, N. 432, Apto 302, BL 02 VG 382",
+   "preco": 327979.88,
+   "valor_avaliacao": 216900.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 133.00 de área total, 133.00 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, WC Emp, 1 sala(s), 1 lavabo(s), DCE, cozinha.",
+   "descricao": "Apartamento, 61.55 de área total, 41.40 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555531425511",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.9801955,
-    "lng": -38.5092274
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701987389",
+   "tipo": "apartamento"
   },
   {
    "id": "1444425050400",
@@ -14044,27 +13825,6 @@
     "fonte": "google",
     "lat": -13.0164232,
     "lng": -38.4867673
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444403376141",
-   "uf": "BA",
-   "cidade": "SALVADOR",
-   "bairro": "SALVADOR",
-   "endereco": "RUA BARAO DO TRIUNFO, N. 102, Apto 104, QD6 LT04/05",
-   "preco": 943254.79,
-   "valor_avaliacao": 462000.0,
-   "desconto": 0.0,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 0.00 de área total, 81.26 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, WC Emp, DCE, cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444403376141",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -13.0076967,
-    "lng": -38.4970305
    },
    "geo_pendente": false
   },
@@ -14179,12 +13939,12 @@
    "cidade": "SAO GONCALO DOS CAMPOS",
    "bairro": "LOT NOVA SÃO GONÇALO",
    "endereco": "AVENIDA JOSÉ CARLOS LACERDA, N. 00, QD J, LTS 1 A 12",
-   "preco": 790603.97,
+   "preco": 729788.28,
    "valor_avaliacao": 1992000.0,
-   "desconto": 60.32,
+   "desconto": 63.37,
    "financiamento": "Sim",
    "descricao": "Casa, 0.00 de área total, 1057.70 de área privativa, 11250.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10208958",
    "tipo": "casa",
    "geo": {
@@ -14200,12 +13960,12 @@
    "cidade": "SAO GONCALO DOS CAMPOS",
    "bairro": "FAZ BOA HORA",
    "endereco": "RUA NOSSA SRA. DA BOA HORA, N. 157,",
-   "preco": 52746.64,
+   "preco": 51321.06,
    "valor_avaliacao": 98500.0,
-   "desconto": 46.46,
+   "desconto": 47.9,
    "financiamento": "Não",
    "descricao": "Casa, 70.50 de área total, 70.50 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415075808",
    "tipo": "casa",
    "geo": {
@@ -14258,48 +14018,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444436147956",
-   "uf": "BA",
-   "cidade": "SAO GONCALO DOS CAMPOS",
-   "bairro": "BOA HORA",
-   "endereco": "RUA U, N. 09, QD U",
-   "preco": 103809.75,
-   "valor_avaliacao": 136000.0,
-   "desconto": 23.67,
-   "financiamento": "Não",
-   "descricao": "Casa, 36.74 de área total, 36.74 de área privativa, 139.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436147956",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.315543,
-    "lng": -38.9493062
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444429095334",
-   "uf": "BA",
-   "cidade": "SAO GONCALO DOS CAMPOS",
-   "bairro": "BOA HORA",
-   "endereco": "RUA IZABEL BATISTA, N. 10,",
-   "preco": 147633.06,
-   "valor_avaliacao": 150000.0,
-   "desconto": 1.58,
-   "financiamento": "Não",
-   "descricao": "Casa, 65.94 de área total, 65.94 de área privativa, 129.50 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429095334",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -12.31662,
-    "lng": -38.9542588
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444408415161",
    "uf": "BA",
    "cidade": "SAO SEBASTIAO DO PASSE",
@@ -14335,9 +14053,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408391775",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -14.7732547,
-    "lng": -39.2713613,
-    "fonte": "google"
+    "lng": -39.2713613
    },
    "geo_pendente": false
   },
@@ -14384,27 +14102,6 @@
    "geo_pendente": false
   },
   {
-   "id": "10006382",
-   "uf": "BA",
-   "cidade": "SENHOR DO BONFIM",
-   "bairro": "CENTRO",
-   "endereco": "Rua 05 Lt 06 Qd C unid 06, Rodovia Lomanto Junior",
-   "preco": 603106.33,
-   "valor_avaliacao": 145000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 571.27 de área do terreno.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10006382",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.183905,
-    "lng": -40.223178
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1555533281037",
    "uf": "BA",
    "cidade": "SENTO SE",
@@ -14436,7 +14133,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 59.34 de área total, 59.34 de área privativa, 336.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444401250050",
    "tipo": "casa",
    "geo": {
@@ -14536,12 +14233,12 @@
    "cidade": "SIMOES FILHO",
    "bairro": "SIMOES FILHO",
    "endereco": "R D, N. 241, Apto 302, BL10C",
-   "preco": 65154.18,
+   "preco": 63439.59,
    "valor_avaliacao": 120000.0,
-   "desconto": 45.71,
+   "desconto": 47.14,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 50.22 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410074072",
    "tipo": "apartamento",
    "geo": {
@@ -14730,7 +14427,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 55.55 de área total, 55.55 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428358137",
    "tipo": "casa",
    "geo": {
@@ -14758,27 +14455,6 @@
     "fonte": "google",
     "lat": -17.551297,
     "lng": -39.7618518
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555514118590",
-   "uf": "BA",
-   "cidade": "TEIXEIRA DE FREITAS",
-   "bairro": "KAIKAN SUL",
-   "endereco": "RUA DOS POMERANOS, N. 234, LT 10 QD 38",
-   "preco": 117860.63,
-   "valor_avaliacao": 195000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Casa, 65.89 de área total, 65.89 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555514118590",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -17.5603755,
-    "lng": -39.7402594
    },
    "geo_pendente": false
   },
@@ -14835,7 +14511,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Casa, 152.88 de área total, 152.88 de área privativa, 250.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444410858318",
    "tipo": "casa",
    "geo": {
@@ -14935,7 +14611,7 @@
    "cidade": "TEIXEIRA DE FREITAS",
    "bairro": "EIXO SUL",
    "endereco": "RUA SAO MARCOS, N. SN, LT 09  QD 11",
-   "preco": 248297.27,
+   "preco": 131188.85,
    "valor_avaliacao": 76000.0,
    "desconto": 0.0,
    "financiamento": "Não",
@@ -15073,27 +14749,6 @@
     "fonte": "google",
     "lat": -14.8657316,
     "lng": -40.8695597
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787718378583",
-   "uf": "BA",
-   "cidade": "VITORIA DA CONQUISTA",
-   "bairro": "CAMPINHOS",
-   "endereco": "RUA A, N. 480, CS C11 QD C",
-   "preco": 198194.59,
-   "valor_avaliacao": 230000.0,
-   "desconto": 13.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 65.18 de área total, 65.18 de área privativa, 129.60 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718378583",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -14.8711412,
-    "lng": -40.8777115
    },
    "geo_pendente": false
   },

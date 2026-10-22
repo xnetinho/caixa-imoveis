@@ -1,9 +1,9 @@
 {
  "uf": "AP",
- "data_geracao_caixa": "20/10/2026",
- "coletado_em": "20/10/2026 22:27",
+ "data_geracao_caixa": "21/10/2026",
+ "coletado_em": "22/10/2026 02:59",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AP.csv",
- "total": 2,
+ "total": 3,
  "colunas": [
   "id",
   "uf",
@@ -19,6 +19,27 @@
   "link"
  ],
  "imoveis": [
+  {
+   "id": "1555536450883",
+   "uf": "AP",
+   "cidade": "LARANJAL DO JARI",
+   "bairro": "CASTANHEIRA",
+   "endereco": "RUA PRINCESA ISABEL, N. 147, LT 09 QD 09 A SETOR 11",
+   "preco": 88935.03,
+   "valor_avaliacao": 180000.0,
+   "desconto": 50.6,
+   "financiamento": "Não",
+   "descricao": "Casa, 114.00 de área total, 114.00 de área privativa, 300.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555536450883",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -0.8319862,
+    "lng": -52.5182327
+   },
+   "geo_pendente": false
+  },
   {
    "id": "1444423291974",
    "uf": "AP",
@@ -55,9 +76,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401798057",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": 0.0006835,
-    "lng": -51.077389,
-    "fonte": "google"
+    "lng": -51.077389
    },
    "geo_pendente": false
   }

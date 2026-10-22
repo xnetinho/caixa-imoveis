@@ -1,7 +1,7 @@
 {
  "uf": "AC",
- "data_geracao_caixa": "20/10/2026",
- "coletado_em": "20/10/2026 22:27",
+ "data_geracao_caixa": "21/10/2026",
+ "coletado_em": "22/10/2026 02:59",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AC.csv",
  "total": 19,
  "colunas": [
@@ -19,6 +19,27 @@
   "link"
  ],
  "imoveis": [
+  {
+   "id": "10005120",
+   "uf": "AC",
+   "cidade": "CRUZEIRO DO SUL",
+   "bairro": "BAIRRO COHAB",
+   "endereco": "RUA DO PURUS, N. S/N, QUARTEIRÃO 272, LOTE 10",
+   "preco": 46497.53,
+   "valor_avaliacao": 150000.0,
+   "desconto": 69.01,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 600.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10005120",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.6302179,
+    "lng": -72.6825869
+   },
+   "geo_pendente": false
+  },
   {
    "id": "10005121",
    "uf": "AC",
@@ -41,38 +62,17 @@
    "geo_pendente": false
   },
   {
-   "id": "10005120",
-   "uf": "AC",
-   "cidade": "CRUZEIRO DO SUL",
-   "bairro": "BAIRRO COHAB",
-   "endereco": "RUA DO PURUS, N. S/N, QUARTEIRÃO 272, LOTE 10",
-   "preco": 50074.26,
-   "valor_avaliacao": 150000.0,
-   "desconto": 66.62,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 600.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10005120",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.6302179,
-    "lng": -72.6825869
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "10005122",
    "uf": "AC",
    "cidade": "CRUZEIRO DO SUL",
    "bairro": "BAIRRO COHAB",
    "endereco": "RUA DO PURUS, N. S/N, QUARTEIRÃO 272 LOTE 12",
-   "preco": 50074.26,
+   "preco": 46497.53,
    "valor_avaliacao": 150000.0,
-   "desconto": 66.62,
+   "desconto": 69.01,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 600.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10005122",
    "tipo": "terreno",
    "geo": {
@@ -125,38 +125,17 @@
    "geo_pendente": false
   },
   {
-   "id": "1555517646018",
-   "uf": "AC",
-   "cidade": "EPITACIOLANDIA",
-   "bairro": "LIBERDADE",
-   "endereco": "RUA DUQUE DE CAXIAS, N. 647, LT 10, QD 11",
-   "preco": 223535.58,
-   "valor_avaliacao": 170000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 122.17 de área privativa, 300.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 2 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555517646018",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -11.0293948,
-    "lng": -68.7408898
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1555509099755",
    "uf": "AC",
    "cidade": "PLACIDO DE CASTRO",
    "bairro": "CENTRO",
    "endereco": "RUA EPITACIO PESSOA, N. SN, RUA PROJETADA",
-   "preco": 549922.58,
+   "preco": 535822.0,
    "valor_avaliacao": 885000.0,
-   "desconto": 37.87,
+   "desconto": 39.46,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1800.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555509099755",
    "tipo": "terreno",
    "geo": {
@@ -214,18 +193,39 @@
    "cidade": "RIO BRANCO",
    "bairro": "NOVO HORIZONTE",
    "endereco": "RUA ADEMAR DE BARROS, N. 74,",
-   "preco": 201955.72,
+   "preco": 196185.55,
    "valor_avaliacao": 378000.0,
-   "desconto": 46.58,
+   "desconto": 48.1,
    "financiamento": "Não",
    "descricao": "Casa, 182.84 de área total, 182.84 de área privativa, 440.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444405129400",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -9.9786139,
     "lng": -67.8322594
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444400373710",
+   "uf": "AC",
+   "cidade": "RIO BRANCO",
+   "bairro": "HABITASA",
+   "endereco": "RUA PERU, N. 24, QDF LT24",
+   "preco": 132988.52,
+   "valor_avaliacao": 242000.0,
+   "desconto": 45.05,
+   "financiamento": "Não",
+   "descricao": "Casa, 140.78 de área total, 233.18 de área privativa, 300.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444400373710",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -9.971481899999999,
+    "lng": -67.7954432
    },
    "geo_pendente": false
   },
