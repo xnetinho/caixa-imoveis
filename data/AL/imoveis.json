@@ -1,7 +1,7 @@
 {
  "uf": "AL",
- "data_geracao_caixa": "21/10/2026",
- "coletado_em": "22/10/2026 09:54",
+ "data_geracao_caixa": "22/10/2026",
+ "coletado_em": "22/10/2026 22:24",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AL.csv",
  "total": 89,
  "colunas": [
@@ -19,6 +19,27 @@
   "link"
  ],
  "imoveis": [
+  {
+   "id": "8555507349060",
+   "uf": "AL",
+   "cidade": "ARAPIRACA",
+   "bairro": "BOA VISTA",
+   "endereco": "RUA ANTÔNIO SATURNINO DE ALMEIDA, N. 61, LT 15, QD E",
+   "preco": 98118.84,
+   "valor_avaliacao": 179000.0,
+   "desconto": 45.19,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 88.69 de área privativa, 176.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555507349060",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -9.7886996,
+    "lng": -36.6330299
+   },
+   "geo_pendente": false
+  },
   {
    "id": "8444402891997",
    "uf": "AL",
@@ -76,9 +97,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444408131031",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.736480499999999,
-    "lng": -36.6437192,
-    "fonte": "google"
+    "lng": -36.6437192
    },
    "geo_pendente": false
   },
@@ -181,9 +202,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409627110",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.4106284,
-    "lng": -36.0810366,
-    "fonte": "google"
+    "lng": -36.0810366
    },
    "geo_pendente": false
   },
@@ -373,27 +394,6 @@
     "fonte": "google",
     "lat": -9.5576507,
     "lng": -35.750201
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444410498182",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "RUA EM PROJETO, N. 110, CS 30 BL 02",
-   "preco": 92444.76,
-   "valor_avaliacao": 156000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Casa, 52.29 de área total, 45.19 de área privativa, 46.07 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410498182",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.5998158,
-    "lng": -35.7316526
    },
    "geo_pendente": false
   },
@@ -916,9 +916,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713268674",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.741763899999999,
-    "lng": -35.8843942,
-    "fonte": "google"
+    "lng": -35.8843942
    },
    "geo_pendente": false
   },
@@ -1147,9 +1147,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428725415",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5966247,
-    "lng": -35.9513049,
-    "fonte": "google"
+    "lng": -35.9513049
    },
    "geo_pendente": false
   },
@@ -1819,9 +1819,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555521196208",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -9.5440949,
-    "lng": -35.8104725,
-    "fonte": "google"
+    "lng": -35.8104725
    },
    "geo_pendente": false
   },

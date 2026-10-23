@@ -1,9 +1,9 @@
 {
  "uf": "ES",
- "data_geracao_caixa": "21/10/2026",
- "coletado_em": "22/10/2026 09:55",
+ "data_geracao_caixa": "22/10/2026",
+ "coletado_em": "22/10/2026 22:24",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_ES.csv",
- "total": 41,
+ "total": 42,
  "colunas": [
   "id",
   "uf",
@@ -198,7 +198,7 @@
    "desconto": 46.99,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10258747",
    "tipo": "terreno",
    "geo": {
@@ -482,6 +482,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444423093552",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "BARCELONA",
+   "endereco": "RUA MONTE NEGRO, N. 109, LT 25 QD 510",
+   "preco": 526931.46,
+   "valor_avaliacao": 848000.0,
+   "desconto": 37.87,
+   "financiamento": "Sim",
+   "descricao": "Casa, 278.00 de área total, 45.99 de área privativa, 200.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444423093552",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.170401,
+    "lng": -40.2463237
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1555519490570",
    "uf": "ES",
    "cidade": "SERRA",
@@ -685,9 +706,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708490119",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.2073746,
-    "lng": -40.2248217,
-    "fonte": "google"
+    "lng": -40.2248217
    },
    "geo_pendente": false
   },
