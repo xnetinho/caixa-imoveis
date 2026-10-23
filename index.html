@@ -637,9 +637,10 @@ const FILTERS = [
 function readSelections(){
   return Object.fromEntries(FILTERS.map(d => [d.key, $(d.id).value]));
 }
-// compila a regex do campo de busca (null se vazia/inválida)
+const stripAccents = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+// compila a regex do campo de busca (null se vazia/inválida), ignorando acentos
 function compileSearch(){
-  const q = $("buscaFilter").value.trim();
+  const q = stripAccents($("buscaFilter").value.trim());
   if (!q) return null;
   try { return new RegExp(q, "i"); } catch(e){ return {invalid:true}; }
 }
@@ -648,7 +649,7 @@ function searchMatches(p, re){
   if (re.invalid) return false;
   const hay = [p.descricao, p.endereco, p.cidade, p.bairro, p.modalidade, p.tipo, p.id]
     .filter(Boolean).join(" ");
-  return re.test(hay);
+  return re.test(stripAccents(hay));
 }
 // passa por todos os filtros exceto `exceptKey` (a própria faceta ignora a si mesma)
 function passes(sel, p, exceptKey){
