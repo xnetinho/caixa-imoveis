@@ -1,9 +1,9 @@
 {
  "uf": "MT",
- "data_geracao_caixa": "22/10/2026",
- "coletado_em": "22/10/2026 22:24",
+ "data_geracao_caixa": "23/10/2026",
+ "coletado_em": "23/10/2026 22:29",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_MT.csv",
- "total": 160,
+ "total": 164,
  "colunas": [
   "id",
   "uf",
@@ -228,6 +228,21 @@
     "lng": -57.1965351
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444408951150",
+   "uf": "MT",
+   "cidade": "BARRA DO BUGRES",
+   "bairro": "JARDIM ALVORECER",
+   "endereco": "RUA DAS PALMEIRAS, N. SN,  LT 14 QD 12",
+   "preco": 250000.0,
+   "valor_avaliacao": 250000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 110.00 de área total, 55.25 de área privativa, 196.88 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408951150",
+   "tipo": "casa"
   },
   {
    "id": "8555502662347",
@@ -1647,7 +1662,7 @@
    "desconto": 39.56,
    "financiamento": "Sim",
    "descricao": "Casa, 90.75 de área total, 50.75 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411663080",
    "tipo": "casa",
    "geo": {
@@ -2225,6 +2240,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1787701966446",
+   "uf": "MT",
+   "cidade": "RONDONOPOLIS",
+   "bairro": "VILA RICA",
+   "endereco": "AVENIDA JUSCELINO FERREIRA DE FARIAS, N. SN, CS 249 QD G AREA 5",
+   "preco": 250000.0,
+   "valor_avaliacao": 250000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 40.61 de área total, 40.61 de área privativa, 117.90 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701966446",
+   "tipo": "casa"
+  },
+  {
    "id": "8444402138873",
    "uf": "MT",
    "cidade": "RONDONOPOLIS",
@@ -2244,6 +2274,36 @@
     "lng": -54.65565849999999
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444406539317",
+   "uf": "MT",
+   "cidade": "RONDONOPOLIS",
+   "bairro": "JARDIM TANCREDO NEVES",
+   "endereco": "RUA DOS POMBOS, N. 4000, QD 2B LT 10",
+   "preco": 220000.0,
+   "valor_avaliacao": 220000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 118.52 de área total, 58.52 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406539317",
+   "tipo": "casa"
+  },
+  {
+   "id": "8787700152320",
+   "uf": "MT",
+   "cidade": "RONDONOPOLIS",
+   "bairro": "LOTEAMENTO RESIDENCIAL JUSCELINO FERREIR",
+   "endereco": "RUA W, N. SN, QD 16 LT 13",
+   "preco": 225957.53,
+   "valor_avaliacao": 225957.53,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 45.40 de área total, 45.40 de área privativa, 230.89 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700152320",
+   "tipo": "casa"
   },
   {
    "id": "8444421268493",
@@ -2470,9 +2530,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425918379",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.6893499,
-    "lng": -56.1472731,
-    "fonte": "google"
+    "lng": -56.1472731
    },
    "geo_pendente": false
   },
@@ -2550,7 +2610,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 39.95 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717367022",
    "tipo": "apartamento",
    "geo": {
@@ -2802,7 +2862,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 56.54 de área total, 56.54 de área privativa, 182.60 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425748929",
    "tipo": "casa",
    "geo": {
@@ -2907,7 +2967,7 @@
    "desconto": 38.77,
    "financiamento": "Sim",
    "descricao": "Casa, 80.71 de área total, 50.40 de área privativa, 180.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413822215",
    "tipo": "casa",
    "geo": {

@@ -1,9 +1,9 @@
 {
  "uf": "DF",
- "data_geracao_caixa": "22/10/2026",
- "coletado_em": "22/10/2026 22:24",
+ "data_geracao_caixa": "23/10/2026",
+ "coletado_em": "23/10/2026 22:29",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_DF.csv",
- "total": 70,
+ "total": 76,
  "colunas": [
   "id",
   "uf",
@@ -19,6 +19,27 @@
   "link"
  ],
  "imoveis": [
+  {
+   "id": "10215739",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "ALTO DA BOA VISTA (SOBRADINHO)",
+   "endereco": "RODOVIA BR-020, N. 00, BL B, LT 12, ENTRE QUADRA 101/102",
+   "preco": 205008.71,
+   "valor_avaliacao": 395000.0,
+   "desconto": 48.1,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 250.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10215739",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.6376151,
+    "lng": -47.7471453
+   },
+   "geo_pendente": false
+  },
   {
    "id": "10278243",
    "uf": "DF",
@@ -713,6 +734,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787716230694",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "RECANTO DAS EMAS",
+   "endereco": "SETOR SUBCENTRO URBANO RUA 6, N. SN, Apto 432, LT 01 SUBCENTRO URBANO 400 600",
+   "preco": 213421.32,
+   "valor_avaliacao": 131000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 45.03 de área total, 28.07 de área privativa, 0.00 de área do terreno,  1 qto(s), WC.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716230694",
+   "tipo": "apartamento"
+  },
+  {
    "id": "1444420712278",
    "uf": "DF",
    "cidade": "BRASILIA",
@@ -1028,6 +1064,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787716906027",
+   "uf": "DF",
+   "cidade": "RECANTO DAS EMAS",
+   "bairro": "RECANTO DAS EMAS",
+   "endereco": "AVENIDA BURITIS QUADRA 201, N. SN, Apto 339, RUA 06 LT 01  SUBCENTRO URBANO 400 600",
+   "preco": 344691.29,
+   "valor_avaliacao": 232631.43,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 72.73 de área total, 45.34 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716906027",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787702050117",
    "uf": "DF",
    "cidade": "SAMAMBAIA",
@@ -1147,9 +1198,30 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555526095620",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.8600943,
-    "lng": -48.0790308,
-    "fonte": "google"
+    "lng": -48.0790308
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444419158416",
+   "uf": "DF",
+   "cidade": "SAMAMBAIA",
+   "bairro": "SAMAMBAIA SUL",
+   "endereco": "QUADRA QR 325, N. SN, LT 19 CJ 04",
+   "preco": 170162.92,
+   "valor_avaliacao": 267000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 115.00 de área total, 100.00 de área privativa, 126.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419158416",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.875144,
+    "lng": -48.11658560000001
    },
    "geo_pendente": false
   },
@@ -1257,6 +1329,21 @@
     "lng": -48.1468249
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787706853427",
+   "uf": "DF",
+   "cidade": "SAMAMBAIA",
+   "bairro": "SAMAMBAIA",
+   "endereco": "QUADRA QS 608, N. SN, Apto 502, LT 01 E 02 CJ C",
+   "preco": 305037.09,
+   "valor_avaliacao": 305037.09,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 103.64 de área total, 57.18 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706853427",
+   "tipo": "apartamento"
   },
   {
    "id": "1787702385072",
@@ -1467,6 +1554,21 @@
     "lng": -48.0547658
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444413421875",
+   "uf": "DF",
+   "cidade": "TAGUATINGA",
+   "bairro": "AGUAS CLARAS",
+   "endereco": "QUADRA 201, N. SN, Apto 1303, BL A LT 04 06 08 10 E 11",
+   "preco": 850000.0,
+   "valor_avaliacao": 850000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 182.42 de área total, 110.80 de área privativa, 0.00 de área do terreno,  3 qto(s), 2 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444413421875",
+   "tipo": "apartamento"
   },
   {
    "id": "1444419711085",

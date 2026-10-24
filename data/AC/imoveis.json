@@ -1,9 +1,9 @@
 {
  "uf": "AC",
- "data_geracao_caixa": "22/10/2026",
- "coletado_em": "22/10/2026 22:24",
+ "data_geracao_caixa": "23/10/2026",
+ "coletado_em": "23/10/2026 22:29",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AC.csv",
- "total": 19,
+ "total": 20,
  "colunas": [
   "id",
   "uf",
@@ -51,7 +51,7 @@
    "desconto": 69.01,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 600.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10005121",
    "tipo": "terreno",
    "geo": {
@@ -123,6 +123,21 @@
     "lng": -72.66826139999999
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444403146446",
+   "uf": "AC",
+   "cidade": "FEIJO",
+   "bairro": "NAIR ARAÚJO",
+   "endereco": "RUA 21 DE DEZEMBRO, N. SN, QD 24 COD 28",
+   "preco": 148492.0,
+   "valor_avaliacao": 148492.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 64.00 de área total, 64.00 de área privativa, 456.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403146446",
+   "tipo": "casa"
   },
   {
    "id": "1555509099755",
@@ -387,7 +402,7 @@
    "desconto": 53.41,
    "financiamento": "Não",
    "descricao": "Gleba Urbana, 0.00 de área total, 0.00 de área privativa, 18856.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555531272650",
    "tipo": "gleba urbana",
    "geo": {
