@@ -1,9 +1,9 @@
 {
  "uf": "DF",
- "data_geracao_caixa": "23/10/2026",
- "coletado_em": "23/10/2026 22:29",
+ "data_geracao_caixa": "26/10/2026",
+ "coletado_em": "27/10/2026 03:10",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_DF.csv",
- "total": 76,
+ "total": 77,
  "colunas": [
   "id",
   "uf",
@@ -240,7 +240,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Loja, 0.00 de área total, 50.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300591",
    "tipo": "loja",
    "geo": {
@@ -261,7 +261,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Loja, 0.00 de área total, 50.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300792",
    "tipo": "loja",
    "geo": {
@@ -303,7 +303,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Sala, 0.00 de área total, 32.33 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10290994",
    "tipo": "sala",
    "geo": {
@@ -324,7 +324,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Sala, 0.00 de área total, 32.33 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10290995",
    "tipo": "sala",
    "geo": {
@@ -345,7 +345,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Sala, 0.00 de área total, 32.90 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10290996",
    "tipo": "sala",
    "geo": {
@@ -366,7 +366,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Sala, 0.00 de área total, 32.33 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10290997",
    "tipo": "sala",
    "geo": {
@@ -748,9 +748,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716230694",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.9268107,
-    "lng": -48.0644586,
-    "fonte": "google"
+    "lng": -48.0644586
    },
    "geo_pendente": false
   },
@@ -860,6 +860,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444418600590",
+   "uf": "DF",
+   "cidade": "CEILANDIA",
+   "bairro": "CEILANDIA NORTE",
+   "endereco": "QNQ 5, N. SN, CJ 05 LT 13",
+   "preco": 210313.72,
+   "valor_avaliacao": 330000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 132.75 de área total, 130.00 de área privativa, 144.00 de área do terreno,  4 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418600590",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.8059008,
+    "lng": -48.1472944
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1555515916255",
    "uf": "DF",
    "cidade": "CEILANDIA",
@@ -870,7 +891,7 @@
    "desconto": 36.27,
    "financiamento": "Não",
    "descricao": "Casa, 160.00 de área total, 91.13 de área privativa, 132.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555515916255",
    "tipo": "casa",
    "geo": {
@@ -1084,9 +1105,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716906027",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.8410941,
-    "lng": -48.0584804,
-    "fonte": "google"
+    "lng": -48.0584804
    },
    "geo_pendente": false
   },
@@ -1357,9 +1378,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706853427",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.8560872,
-    "lng": -48.1113346,
-    "fonte": "google"
+    "lng": -48.1113346
    },
    "geo_pendente": false
   },
@@ -1588,9 +1609,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444413421875",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.8360052,
-    "lng": -48.03938180000001,
-    "fonte": "google"
+    "lng": -48.03938180000001
    },
    "geo_pendente": false
   },

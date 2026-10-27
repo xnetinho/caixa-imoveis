@@ -1,7 +1,7 @@
 {
  "uf": "ES",
- "data_geracao_caixa": "23/10/2026",
- "coletado_em": "23/10/2026 22:29",
+ "data_geracao_caixa": "26/10/2026",
+ "coletado_em": "27/10/2026 03:10",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_ES.csv",
  "total": 43,
  "colunas": [
@@ -37,27 +37,6 @@
     "fonte": "google",
     "lat": -20.8381412,
     "lng": -41.1555113
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444427665559",
-   "uf": "ES",
-   "cidade": "CARIACICA",
-   "bairro": "VALE DOS REIS",
-   "endereco": "RUA REI DARIO L, N. SN, LT 24 QD 20",
-   "preco": 52308.74,
-   "valor_avaliacao": 90356.08,
-   "desconto": 42.11,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 334.75 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427665559",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.325591,
-    "lng": -40.4292364
    },
    "geo_pendente": false
   },
@@ -160,9 +139,30 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702968530",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.681151,
-    "lng": -40.5158937,
-    "fonte": "google"
+    "lng": -40.5158937
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444420086229",
+   "uf": "ES",
+   "cidade": "ITAPEMIRIM",
+   "bairro": "PRAIA DE ITAIPAVA",
+   "endereco": "RUA DEOZALINA VIANA DE AGUIAR, N. 181, CASA 01",
+   "preco": 177173.38,
+   "valor_avaliacao": 278000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 118.00 de área total, 102.50 de área privativa, 250.70 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444420086229",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.8908794,
+    "lng": -40.7808057
    },
    "geo_pendente": false
   },
@@ -240,7 +240,7 @@
    "desconto": 45.47,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10258726",
    "tipo": "terreno",
    "geo": {
@@ -261,13 +261,55 @@
    "desconto": 45.47,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10258729",
    "tipo": "terreno",
    "geo": {
     "fonte": "google",
     "lat": -20.1009215,
     "lng": -40.3381779
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "10258754",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "BELVEDERE",
+   "endereco": "RUA CONCEICAO DO CASTELO, N. S/N, QD 05, LT 08",
+   "preco": 36139.97,
+   "valor_avaliacao": 66271.95,
+   "desconto": 45.47,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10258754",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.1003383,
+    "lng": -40.3383067
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "10258757",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "BELVEDERE",
+   "endereco": "RUA CONCEICAO DO CASTELO, N. S/N, QD 05, LT 09",
+   "preco": 36139.97,
+   "valor_avaliacao": 66271.95,
+   "desconto": 45.47,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10258757",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.1003383,
+    "lng": -40.3383067
    },
    "geo_pendente": false
   },
@@ -331,48 +373,6 @@
     "fonte": "google",
     "lat": -20.1009215,
     "lng": -40.3381779
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "10258754",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "BELVEDERE",
-   "endereco": "RUA CONCEICAO DO CASTELO, N. S/N, QD 05, LT 08",
-   "preco": 37143.86,
-   "valor_avaliacao": 66271.95,
-   "desconto": 43.96,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10258754",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1003383,
-    "lng": -40.3383067
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "10258757",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "BELVEDERE",
-   "endereco": "RUA CONCEICAO DO CASTELO, N. S/N, QD 05, LT 09",
-   "preco": 37143.86,
-   "valor_avaliacao": 66271.95,
-   "desconto": 43.96,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10258757",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1003383,
-    "lng": -40.3383067
    },
    "geo_pendente": false
   },

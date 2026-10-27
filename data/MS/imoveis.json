@@ -1,9 +1,9 @@
 {
  "uf": "MS",
- "data_geracao_caixa": "23/10/2026",
- "coletado_em": "23/10/2026 22:29",
+ "data_geracao_caixa": "26/10/2026",
+ "coletado_em": "27/10/2026 03:10",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_MS.csv",
- "total": 192,
+ "total": 195,
  "colunas": [
   "id",
   "uf",
@@ -34,9 +34,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711238859",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -22.1837797,
-    "lng": -55.9530386,
-    "fonte": "google"
+    "lng": -55.9530386
    },
    "geo_pendente": false
   },
@@ -104,6 +104,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444405135859",
+   "uf": "MS",
+   "cidade": "AQUIDAUANA",
+   "bairro": "PINHEIRO",
+   "endereco": "RUA JAIME ARTIGAS, N. 398, LT 07, QD 538 DA PCC",
+   "preco": 102844.79,
+   "valor_avaliacao": 178000.0,
+   "desconto": 42.23,
+   "financiamento": "Não",
+   "descricao": "Casa, 70.25 de área total, 70.25 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405135859",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.4535031,
+    "lng": -55.767839
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444409742628",
    "uf": "MS",
    "cidade": "AQUIDAUANA",
@@ -114,7 +135,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 60.27 de área total, 60.27 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409742628",
    "tipo": "casa",
    "geo": {
@@ -167,27 +188,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444405135859",
-   "uf": "MS",
-   "cidade": "AQUIDAUANA",
-   "bairro": "PINHEIRO",
-   "endereco": "RUA JAIME ARTIGAS, N. 398, LT 07, QD 538 DA PCC",
-   "preco": 105481.84,
-   "valor_avaliacao": 178000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Casa, 70.25 de área total, 70.25 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405135859",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.4535031,
-    "lng": -55.767839
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444413429262",
    "uf": "MS",
    "cidade": "AQUIDAUANA",
@@ -198,7 +198,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 69.86 de área total, 69.86 de área privativa, 297.95 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413429262",
    "tipo": "casa",
    "geo": {
@@ -261,7 +261,7 @@
    "desconto": 36.27,
    "financiamento": "Não",
    "descricao": "Casa, 70.88 de área total, 70.88 de área privativa, 210.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418365230",
    "tipo": "casa",
    "geo": {
@@ -286,30 +286,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717765877",
    "tipo": "casa",
    "geo": {
-    "lat": -20.4496863,
-    "lng": -55.7632496,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444416627715",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "JARDIM COLORADO",
-   "endereco": "RUA LEONEL ROCHA, N. 142, QUADRA: 06 LOTE: 03",
-   "preco": 84504.65,
-   "valor_avaliacao": 186944.28,
-   "desconto": 54.8,
-   "financiamento": "Sim",
-   "descricao": "Casa, 90.00 de área total, 90.00 de área privativa, 200.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416627715",
-   "tipo": "casa",
-   "geo": {
     "fonte": "google",
-    "lat": -20.5538899,
-    "lng": -54.6582034
+    "lat": -20.4496863,
+    "lng": -55.7632496
    },
    "geo_pendente": false
   },
@@ -331,27 +310,6 @@
     "fonte": "google",
     "lat": -20.545226,
     "lng": -54.614999
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444433095114",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "VILA NHANHÁ",
-   "endereco": "RUA SOL NASCENTE, N. 718, LT 01 QD 03",
-   "preco": 111212.08,
-   "valor_avaliacao": 230000.0,
-   "desconto": 51.65,
-   "financiamento": "Sim",
-   "descricao": "Casa, 41.71 de área total, 41.71 de área privativa, 204.75 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433095114",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.4910344,
-    "lng": -54.62911649999999
    },
    "geo_pendente": false
   },
@@ -408,7 +366,7 @@
    "desconto": 49.46,
    "financiamento": "Não",
    "descricao": "Casa, 80.70 de área total, 59.23 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410354466",
    "tipo": "casa",
    "geo": {
@@ -429,13 +387,55 @@
    "desconto": 48.89,
    "financiamento": "Não",
    "descricao": "Apartamento, 47.67 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429945770",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -20.559428,
     "lng": -54.60464700000001
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444428245618",
+   "uf": "MS",
+   "cidade": "CAMPO GRANDE",
+   "bairro": "JARDIM INAPOLIS",
+   "endereco": "RUA MOSCOVITA, N. 700, CS 03 PARTE LT 04 QD 106",
+   "preco": 68585.93,
+   "valor_avaliacao": 128000.0,
+   "desconto": 46.42,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 46.14 de área privativa, 106.50 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428245618",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.4878677,
+    "lng": -54.7349065
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444413192904",
+   "uf": "MS",
+   "cidade": "CAMPO GRANDE",
+   "bairro": "JARDIM COLUMBIA",
+   "endereco": "RUA PARANAPEBAS, N. 1548, CS 02 LT 12 QD 87",
+   "preco": 122937.7,
+   "valor_avaliacao": 226000.0,
+   "desconto": 45.61,
+   "financiamento": "Não",
+   "descricao": "Casa, 75.00 de área total, 66.00 de área privativa, 132.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413192904",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.380209,
+    "lng": -54.546341
    },
    "geo_pendente": false
   },
@@ -450,34 +450,13 @@
    "desconto": 45.55,
    "financiamento": "Não",
    "descricao": "Apartamento, 121.88 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555511806569",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -20.5587542,
     "lng": -54.6018346
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444428245618",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "JARDIM INAPOLIS",
-   "endereco": "RUA MOSCOVITA, N. 700, CS 03 PARTE LT 04 QD 106",
-   "preco": 70439.61,
-   "valor_avaliacao": 128000.0,
-   "desconto": 44.97,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 46.14 de área privativa, 106.50 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428245618",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.4878677,
-    "lng": -54.7349065
    },
    "geo_pendente": false
   },
@@ -492,34 +471,13 @@
    "desconto": 44.11,
    "financiamento": "Não",
    "descricao": "Casa, 44.40 de área total, 44.40 de área privativa, 120.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417259493",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -20.4557118,
     "lng": -54.5249181
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444413192904",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "JARDIM COLUMBIA",
-   "endereco": "RUA PARANAPEBAS, N. 1548, CS 02 LT 12 QD 87",
-   "preco": 126352.64,
-   "valor_avaliacao": 226000.0,
-   "desconto": 44.1,
-   "financiamento": "Não",
-   "descricao": "Casa, 75.00 de área total, 66.00 de área privativa, 132.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413192904",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.380209,
-    "lng": -54.546341
    },
    "geo_pendente": false
   },
@@ -534,7 +492,7 @@
    "desconto": 42.92,
    "financiamento": "Não",
    "descricao": "Casa, 56.72 de área total, 56.72 de área privativa, 120.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418196266",
    "tipo": "casa",
    "geo": {
@@ -765,7 +723,7 @@
    "desconto": 42.23,
    "financiamento": "Não",
    "descricao": "Casa, 54.92 de área total, 88.19 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409045480",
    "tipo": "casa",
    "geo": {
@@ -786,7 +744,7 @@
    "desconto": 42.23,
    "financiamento": "Não",
    "descricao": "Apartamento, 45.89 de área total, 42.17 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434420272",
    "tipo": "apartamento",
    "geo": {
@@ -954,7 +912,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 45.89 de área total, 42.17 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533214095",
    "tipo": "apartamento",
    "geo": {
@@ -975,7 +933,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 42.17 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701464813",
    "tipo": "apartamento",
    "geo": {
@@ -1017,7 +975,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 45.00 de área total, 45.00 de área privativa, 90.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415296464",
    "tipo": "casa",
    "geo": {
@@ -1101,7 +1059,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 45.88 de área total, 42.17 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525328648",
    "tipo": "apartamento",
    "geo": {
@@ -1164,7 +1122,7 @@
    "desconto": 41.07,
    "financiamento": "Não",
    "descricao": "Casa, 68.71 de área total, 61.29 de área privativa, 132.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410276562",
    "tipo": "casa",
    "geo": {
@@ -1185,7 +1143,7 @@
    "desconto": 41.07,
    "financiamento": "Não",
    "descricao": "Casa, 59.03 de área total, 56.48 de área privativa, 161.80 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416904840",
    "tipo": "casa",
    "geo": {
@@ -1290,7 +1248,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 43.68 de área total, 43.37 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444437418597",
    "tipo": "apartamento",
    "geo": {
@@ -1353,7 +1311,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 47.02 de área privativa, 93.18 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408669072",
    "tipo": "casa",
    "geo": {
@@ -1402,6 +1360,27 @@
     "fonte": "google",
     "lat": -20.559428,
     "lng": -54.60464700000001
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444429764422",
+   "uf": "MS",
+   "cidade": "CAMPO GRANDE",
+   "bairro": "VILA SAO JORGE DA LAGOA",
+   "endereco": "RUA RIO DOURADO, N. 672, CS 02 LT28 QD27",
+   "preco": 143279.25,
+   "valor_avaliacao": 240000.0,
+   "desconto": 40.31,
+   "financiamento": "Sim",
+   "descricao": "Casa, 0.00 de área total, 82.64 de área privativa, 113.63 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429764422",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.5274876,
+    "lng": -54.6669524
    },
    "geo_pendente": false
   },
@@ -1500,7 +1479,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 46.19 de área total, 46.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710109249",
    "tipo": "apartamento",
    "geo": {
@@ -1574,27 +1553,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787706411459",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "VILA CIDADE MORENA",
-   "endereco": "RUA VILLAS DE PALOMA, N. 52, Apto 254, BL 200",
-   "preco": 120882.7,
-   "valor_avaliacao": 200000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 74.45 de área total, 54.45 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706411459",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.550296,
-    "lng": -54.5811265
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555503382615",
    "uf": "MS",
    "cidade": "CAMPO GRANDE",
@@ -1626,7 +1584,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 61.83 de área total, 61.83 de área privativa, 149.75 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420353764",
    "tipo": "casa",
    "geo": {
@@ -1700,27 +1658,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787704635759",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "PARATI",
-   "endereco": "RUA LUIS COUTINHO, N. 295, Apto 102, BL 13",
-   "preco": 117860.63,
-   "valor_avaliacao": 195000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 51.47 de área total, 39.95 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704635759",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.5038219,
-    "lng": -54.6228195
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787716791700",
    "uf": "MS",
    "cidade": "CAMPO GRANDE",
@@ -1752,7 +1689,7 @@
    "desconto": 38.96,
    "financiamento": "Não",
    "descricao": "Apartamento, 45.87 de área total, 42.17 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418088899",
    "tipo": "apartamento",
    "geo": {
@@ -1794,7 +1731,7 @@
    "desconto": 38.77,
    "financiamento": "Não",
    "descricao": "Casa, 67.42 de área total, 67.42 de área privativa, 140.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444432254960",
    "tipo": "casa",
    "geo": {
@@ -1847,27 +1784,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444429764422",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "VILA SAO JORGE DA LAGOA",
-   "endereco": "RUA RIO DOURADO, N. 672, CS 02 LT28 QD27",
-   "preco": 146953.08,
-   "valor_avaliacao": 240000.0,
-   "desconto": 38.77,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 82.64 de área privativa, 113.63 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429764422",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.5274876,
-    "lng": -54.6669524
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555521885968",
    "uf": "MS",
    "cidade": "CAMPO GRANDE",
@@ -1878,7 +1794,7 @@
    "desconto": 38.77,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 48.83 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555521885968",
    "tipo": "apartamento",
    "geo": {
@@ -1899,7 +1815,7 @@
    "desconto": 38.77,
    "financiamento": "Não",
    "descricao": "Casa, 53.00 de área total, 53.00 de área privativa, 94.30 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424649854",
    "tipo": "casa",
    "geo": {
@@ -2025,7 +1941,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Apartamento, 100.71 de área total, 88.80 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, WC Emp, 1 sala(s), DCE, cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555507506041",
    "tipo": "apartamento",
    "geo": {
@@ -2109,13 +2025,34 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 454.88 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10291020",
    "tipo": "terreno",
    "geo": {
     "fonte": "google",
     "lat": -20.4673405,
     "lng": -54.6269828
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444419146175",
+   "uf": "MS",
+   "cidade": "CAMPO GRANDE",
+   "bairro": "AGUA LIMPA PARK",
+   "endereco": "RUA DIAMANTINA, N. 0, LT 09 QD 02",
+   "preco": 293164.58,
+   "valor_avaliacao": 460000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 378.34 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419146175",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.4117839,
+    "lng": -54.6264136
    },
    "geo_pendente": false
   },
@@ -2155,9 +2092,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555510111192",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.5567002,
-    "lng": -54.6024609,
-    "fonte": "google"
+    "lng": -54.6024609
    },
    "geo_pendente": false
   },
@@ -2764,9 +2701,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716584585",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.4116967,
-    "lng": -54.5797328,
-    "fonte": "google"
+    "lng": -54.5797328
    },
    "geo_pendente": false
   },
@@ -2953,9 +2890,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555520807106",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.5580256,
-    "lng": -54.6037643,
-    "fonte": "google"
+    "lng": -54.6037643
    },
    "geo_pendente": false
   },
@@ -3280,12 +3217,12 @@
    "cidade": "CORUMBA",
    "bairro": "CENTRO",
    "endereco": "RUA LADARIO, N. 939, 37-B",
-   "preco": 201948.97,
+   "preco": 196770.79,
    "valor_avaliacao": 325000.0,
-   "desconto": 37.87,
+   "desconto": 39.46,
    "financiamento": "Sim",
    "descricao": "Casa, 98.07 de área total, 98.07 de área privativa, 146.41 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555520769826",
    "tipo": "casa",
    "geo": {
@@ -3306,7 +3243,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Casa, 98.08 de área total, 76.80 de área privativa, 146.41 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555520629145",
    "tipo": "casa",
    "geo": {
@@ -3336,6 +3273,21 @@
     "lng": -53.120857
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10286351",
+   "uf": "MS",
+   "cidade": "DOURADOS",
+   "bairro": "JARDIM DEOCLECIO ARTUZZI",
+   "endereco": "RUA ANTÔNIO VIEIRA LIMA (ANTIGA RUA DA11), N. 1505, QD 09, LT 02",
+   "preco": 72327.56,
+   "valor_avaliacao": 134719.35,
+   "desconto": 46.32,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286351",
+   "tipo": "terreno"
   },
   {
    "id": "8787711998055",
@@ -3380,6 +3332,21 @@
    "geo_pendente": false
   },
   {
+   "id": "10286360",
+   "uf": "MS",
+   "cidade": "DOURADOS",
+   "bairro": "JARDIM DEOCLECIO ARTUZZI",
+   "endereco": "RUA GESSÉ DA SILVA ALENCAR (ANTIGA RUA DA21), N. 1400, QD 46, LT 17",
+   "preco": 91067.28,
+   "valor_avaliacao": 156000.0,
+   "desconto": 41.63,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 375.57 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286360",
+   "tipo": "terreno"
+  },
+  {
    "id": "1444405826926",
    "uf": "MS",
    "cidade": "DOURADOS",
@@ -3390,7 +3357,7 @@
    "desconto": 41.62,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 168.99 de área privativa, 360.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444405826926",
    "tipo": "casa",
    "geo": {
@@ -3399,6 +3366,21 @@
     "lng": -54.8020177
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10286352",
+   "uf": "MS",
+   "cidade": "DOURADOS",
+   "bairro": "JARDIM DEOCLECIO ARTUZZI",
+   "endereco": "RUA CLOTILDE HOLIDIO PEDROSO (ANTIGA RUA DA18), N. 1725, QD 31, LT 14",
+   "preco": 50291.39,
+   "valor_avaliacao": 86000.0,
+   "desconto": 41.53,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 200.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286352",
+   "tipo": "terreno"
   },
   {
    "id": "10218510",
@@ -3420,6 +3402,66 @@
     "lng": -54.8056484
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10286359",
+   "uf": "MS",
+   "cidade": "DOURADOS",
+   "bairro": "RESIDENCIAL GREENVILLE",
+   "endereco": "RUA CLOTILDE HOLIDIO PEDROSO (ANTIGA RUA DA18), N. 1735, QD 31, LT 15",
+   "preco": 68827.84,
+   "valor_avaliacao": 114582.19,
+   "desconto": 39.94,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 285.61 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286359",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10286365",
+   "uf": "MS",
+   "cidade": "DOURADOS",
+   "bairro": "JARDIM RASSLEM",
+   "endereco": "RUA G (ANTIGA RUA DA10), N. 1685, QD 48, LT 06",
+   "preco": 89129.03,
+   "valor_avaliacao": 141000.0,
+   "desconto": 36.79,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 356.58 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286365",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10286354",
+   "uf": "MS",
+   "cidade": "DOURADOS",
+   "bairro": "JARDIM DEOCLECIO ARTUZZI",
+   "endereco": "RUA ANTÔNIO VIEIRA LIMA (ANTIGA RUA DA11), N. 1485, QD 09, LT 04",
+   "preco": 235806.29,
+   "valor_avaliacao": 360000.0,
+   "desconto": 34.5,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286354",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10286364",
+   "uf": "MS",
+   "cidade": "DOURADOS",
+   "bairro": "JARDIM DEOCLECIO ARTUZZI II",
+   "endereco": "RUA RENÊ MIGUEL (ANTIGA RUA DA1), N. 1820, QD 31, LT 16",
+   "preco": 955971.45,
+   "valor_avaliacao": 1255444.03,
+   "desconto": 23.86,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 503.55 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286364",
+   "tipo": "terreno"
   },
   {
    "id": "8787705793781",
@@ -3457,9 +3499,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409420779",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -22.2176404,
-    "lng": -54.8473617,
-    "fonte": "google"
+    "lng": -54.8473617
    },
    "geo_pendente": false
   },
@@ -3499,9 +3541,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714384260",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -22.2504805,
-    "lng": -54.8344308,
-    "fonte": "google"
+    "lng": -54.8344308
    },
    "geo_pendente": false
   },
@@ -3793,9 +3835,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417702470",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.9411927,
-    "lng": -54.9650745,
-    "fonte": "google"
+    "lng": -54.9650745
    },
    "geo_pendente": false
   },
@@ -3859,27 +3901,6 @@
     "fonte": "google",
     "lat": -20.7648127,
     "lng": -51.7210528
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787715209772",
-   "uf": "MS",
-   "cidade": "TRES LAGOAS",
-   "bairro": "RESIDENCIAL MONTANINI",
-   "endereco": "RUA ANTONIO ESTEVAM LEAL, N. SN, CASA N°26 SETORF FAZ TRES LAGOAS P1",
-   "preco": 119113.1,
-   "valor_avaliacao": 197072.2,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Casa, 47.08 de área total, 47.08 de área privativa, 161.53 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715209772",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.7520275,
-    "lng": -51.7247526
    },
    "geo_pendente": false
   },
