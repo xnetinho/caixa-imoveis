@@ -1,9 +1,9 @@
 {
  "uf": "AL",
- "data_geracao_caixa": "26/10/2026",
- "coletado_em": "27/10/2026 03:09",
+ "data_geracao_caixa": "27/10/2026",
+ "coletado_em": "28/10/2026 03:47",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AL.csv",
- "total": 86,
+ "total": 85,
  "colunas": [
   "id",
   "uf",
@@ -30,7 +30,7 @@
    "desconto": 45.19,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 88.69 de área privativa, 176.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555507349060",
    "tipo": "casa",
    "geo": {
@@ -46,12 +46,12 @@
    "cidade": "ARAPIRACA",
    "bairro": "BOA VISTA",
    "endereco": "RUA EXISTENTE, N. 703, LT 03 QD E",
-   "preco": 138056.49,
+   "preco": 134423.43,
    "valor_avaliacao": 238000.0,
-   "desconto": 42.0,
+   "desconto": 43.52,
    "financiamento": "Sim",
    "descricao": "Casa, 98.74 de área total, 98.74 de área privativa, 157.50 de área do terreno,  1 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444402891997",
    "tipo": "casa",
    "geo": {
@@ -209,38 +209,17 @@
    "geo_pendente": false
   },
   {
-   "id": "8444408241749",
-   "uf": "AL",
-   "cidade": "CHA PRETA",
-   "bairro": "CENTRO",
-   "endereco": "RUA MANOEL ROBERTO BRANDÃO FILHO, N. SN,",
-   "preco": 108000.0,
-   "valor_avaliacao": 180000.0,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 92.50 de área total, 92.50 de área privativa, 130.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408241749",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.2599201,
-    "lng": -36.300122
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444417683424",
    "uf": "AL",
    "cidade": "CRAIBAS",
    "bairro": "CENTRO",
    "endereco": "RODOVIA AL 486, N. SN, 0",
-   "preco": 330453.69,
+   "preco": 308423.45,
    "valor_avaliacao": 754610.0,
-   "desconto": 56.21,
+   "desconto": 59.13,
    "financiamento": "Sim",
    "descricao": "Comercial, 0.00 de área total, 654.60 de área privativa, 6050.00 de área do terreno, WC, WC Emp, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417683424",
    "tipo": "comercial",
    "geo": {
@@ -335,6 +314,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8555519537290",
+   "uf": "AL",
+   "cidade": "MACEIO",
+   "bairro": "SANTA AMELIA",
+   "endereco": "RUA A, N. 160-A, Apto 202, BL 10",
+   "preco": 66778.86,
+   "valor_avaliacao": 117500.0,
+   "desconto": 43.17,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 49.28 de área total, 46.25 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555519537290",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -9.5890124,
+    "lng": -35.7772914
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555500903878",
    "uf": "AL",
    "cidade": "MACEIO",
@@ -373,27 +373,6 @@
     "fonte": "google",
     "lat": -9.5576507,
     "lng": -35.750201
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787720921809",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "RODOVIA AL 105, N. 442, CS 132 QD C",
-   "preco": 105481.84,
-   "valor_avaliacao": 178000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Casa, 76.90 de área total, 55.01 de área privativa, 93.01 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720921809",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.518847,
-    "lng": -35.7775149
    },
    "geo_pendente": false
   },

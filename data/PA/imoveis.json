@@ -1,9 +1,9 @@
 {
  "uf": "PA",
- "data_geracao_caixa": "26/10/2026",
- "coletado_em": "27/10/2026 03:10",
+ "data_geracao_caixa": "27/10/2026",
+ "coletado_em": "28/10/2026 03:47",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_PA.csv",
- "total": 239,
+ "total": 228,
  "colunas": [
   "id",
   "uf",
@@ -67,12 +67,12 @@
    "cidade": "ALTAMIRA",
    "bairro": "JARDIM UIRAPURU",
    "endereco": "RUA POLIVALENTE, N. SN,",
-   "preco": 406628.6,
+   "preco": 395927.85,
    "valor_avaliacao": 701000.0,
-   "desconto": 42.0,
+   "desconto": 43.52,
    "financiamento": "Sim",
    "descricao": "Casa, 161.30 de área total, 100.80 de área privativa, 274.75 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444420607024",
    "tipo": "casa",
    "geo": {
@@ -146,48 +146,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787716552047",
-   "uf": "PA",
-   "cidade": "ANANINDEUA",
-   "bairro": "AGUAS LINDAS",
-   "endereco": "RUA NONA TRAVESSA, N. SN, Apto 104, TIPO A  BL 04 QD B",
-   "preco": 122695.94,
-   "valor_avaliacao": 203000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 97.25 de área total, 59.23 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716552047",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -1.3996822,
-    "lng": -48.3879072
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555539948686",
-   "uf": "PA",
-   "cidade": "ANANINDEUA",
-   "bairro": "COQUEIRO",
-   "endereco": "RUA TRAVESSA SAO PEDRO, N. SN, Apto 304, BL D  VIOLETA",
-   "preco": 132970.97,
-   "valor_avaliacao": 220000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 54.85 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555539948686",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -1.3833508,
-    "lng": -48.4142234
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1555527845226",
    "uf": "PA",
    "cidade": "ANANINDEUA",
@@ -230,6 +188,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1787700966957",
+   "uf": "PA",
+   "cidade": "ANANINDEUA",
+   "bairro": "LEVILANDIA",
+   "endereco": "PASSAGEM ESTRELA - TRAVESSA JARDIM ESTRELA, N. SN, SOBRADO 01 BL 01 PARTE LT 17",
+   "preco": 380476.64,
+   "valor_avaliacao": 597000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 162.30 de área total, 99.67 de área privativa, 120.39 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700966957",
+   "tipo": "casa"
+  },
+  {
    "id": "1444419150040",
    "uf": "PA",
    "cidade": "ANANINDEUA",
@@ -240,7 +213,7 @@
    "desconto": 36.27,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 74.82 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419150040",
    "tipo": "casa",
    "geo": {
@@ -961,27 +934,6 @@
     "fonte": "google",
     "lat": -1.4428261,
     "lng": -48.4787129
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1555535878774",
-   "uf": "PA",
-   "cidade": "BELEM",
-   "bairro": "ICORACI",
-   "endereco": "PASSAGEM DAS FLORES, N. 484,",
-   "preco": 268200.0,
-   "valor_avaliacao": 447000.0,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 124.00 de área total, 124.00 de área privativa, 1268.12 de área do terreno,  4 qto(s), a.serv, WC, 2 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555535878774",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -1.311136,
-    "lng": -48.4828255
    },
    "geo_pendente": false
   },
@@ -1747,12 +1699,12 @@
    "cidade": "CASTANHAL",
    "bairro": "JADERLANDIA",
    "endereco": "ALAMEDA VASCO DA GAMA, N. 16",
-   "preco": 155321.19,
+   "preco": 151123.32,
    "valor_avaliacao": 275000.0,
-   "desconto": 43.52,
+   "desconto": 45.05,
    "financiamento": "Sim",
    "descricao": "Loja, 0.00 de área total, 150.00 de área privativa, 150.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444409511784",
    "tipo": "loja",
    "geo": {
@@ -1927,27 +1879,6 @@
     "fonte": "google",
     "lat": -1.2969716,
     "lng": -47.9506455
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787700178337",
-   "uf": "PA",
-   "cidade": "CASTANHAL",
-   "bairro": "BOM JESUS",
-   "endereco": "TRAVESSA AMARILIS, N. SN, QD 64 LT 10",
-   "preco": 127353.84,
-   "valor_avaliacao": 129000.0,
-   "desconto": 1.28,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 39.93 de área privativa, 190.00 de área do terreno.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700178337",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -1.3055121,
-    "lng": -47.8874231
    },
    "geo_pendente": false
   },
@@ -2330,27 +2261,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444406767620",
-   "uf": "PA",
-   "cidade": "IPIXUNA DO PARA",
-   "bairro": "DISTRITO NOVO HORIZO",
-   "endereco": "AVENIDA CONCEICAO, N. 0",
-   "preco": 16161.47,
-   "valor_avaliacao": 104000.0,
-   "desconto": 84.47,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 73.45 de área privativa, 300.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406767620",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.3897513,
-    "lng": -47.5418611
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444406948756",
    "uf": "PA",
    "cidade": "IPIXUNA DO PARA",
@@ -2456,48 +2366,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444426359853",
-   "uf": "PA",
-   "cidade": "IPIXUNA DO PARA",
-   "bairro": "CENTRO",
-   "endereco": "RUA FILADELFIA, N. 138, QD 02 LT 11",
-   "preco": 121951.4,
-   "valor_avaliacao": 136000.0,
-   "desconto": 10.33,
-   "financiamento": "Não",
-   "descricao": "Casa, 59.48 de área total, 54.54 de área privativa, 164.12 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426359853",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.5574468,
-    "lng": -47.499322
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444429490020",
-   "uf": "PA",
-   "cidade": "IPIXUNA DO PARA",
-   "bairro": "CENTRO",
-   "endereco": "RUA C, N. 120, LT 12  QD 28",
-   "preco": 143735.28,
-   "valor_avaliacao": 128000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 56.20 de área privativa, 153.80 de área do terreno.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429490020",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -1.354678,
-    "lng": -48.3659227
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444419562292",
    "uf": "PA",
    "cidade": "ITAITUBA",
@@ -2557,6 +2425,27 @@
     "fonte": "google",
     "lat": -4.2385401,
     "lng": -56.0142966
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444412632560",
+   "uf": "PA",
+   "cidade": "JACUNDA",
+   "bairro": "SANTA HELENA",
+   "endereco": "RUA DANTE DE OLIVEIRA, N. 238,",
+   "preco": 51835.77,
+   "valor_avaliacao": 159500.0,
+   "desconto": 67.51,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 69.71 de área privativa, 277.88 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412632560",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.4381865,
+    "lng": -49.1181352
    },
    "geo_pendente": false
   },
@@ -2886,7 +2775,7 @@
    "desconto": 45.19,
    "financiamento": "Sim",
    "descricao": "Terreno, 60.00 de área total, 0.00 de área privativa, 155.08 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423476220",
    "tipo": "terreno",
    "geo": {
@@ -2914,27 +2803,6 @@
     "fonte": "google",
     "lat": -5.2903668,
     "lng": -49.0890673
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444435061330",
-   "uf": "PA",
-   "cidade": "MARABA",
-   "bairro": "NOVA MARABA",
-   "endereco": "QUADRA ONZE, N. SN, LT A 09",
-   "preco": 196549.74,
-   "valor_avaliacao": 321000.0,
-   "desconto": 38.77,
-   "financiamento": "Não",
-   "descricao": "Casa, 98.00 de área total, 98.00 de área privativa, 270.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435061330",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.3451205,
-    "lng": -49.0781208
    },
    "geo_pendente": false
   },
@@ -3061,27 +2929,6 @@
     "fonte": "google",
     "lat": -1.3457674,
     "lng": -48.3338501
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444436826462",
-   "uf": "PA",
-   "cidade": "MARITUBA",
-   "bairro": "BELLA CITTA T VILLE",
-   "endereco": "RUA BOULEVARD DAS AGUAS, N. SN, Apto 203, TR 20 LT 08B ST II",
-   "preco": 142148.92,
-   "valor_avaliacao": 138000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 42.43 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436826462",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -1.3625063,
-    "lng": -48.3161829
    },
    "geo_pendente": false
   },
@@ -3306,7 +3153,7 @@
    "desconto": 56.22,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 994.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444405011930",
    "tipo": "terreno",
    "geo": {
@@ -3716,27 +3563,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444432640062",
-   "uf": "PA",
-   "cidade": "SANTA MARIA DO PARA",
-   "bairro": "MARAMBAIA",
-   "endereco": "ALAMEDA PROJETADA, N. SN, LT  07",
-   "preco": 54997.19,
-   "valor_avaliacao": 95000.0,
-   "desconto": 42.11,
-   "financiamento": "Não",
-   "descricao": "Casa, 48.93 de área total, 48.93 de área privativa, 91.05 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444432640062",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -1.3423688,
-    "lng": -47.5656769
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444436885736",
    "uf": "PA",
    "cidade": "SANTA MARIA DO PARA",
@@ -3842,48 +3668,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444435006135",
-   "uf": "PA",
-   "cidade": "SANTO ANTONIO DO TAUA",
-   "bairro": "SOL NASCENTE",
-   "endereco": "RUA DENDE, N. 3, CS 03 LT 03 QD 20",
-   "preco": 102000.0,
-   "valor_avaliacao": 170000.0,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 65.05 de área privativa, 190.00 de área do terreno.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435006135",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -1.1465492,
-    "lng": -48.1210854
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444437399495",
-   "uf": "PA",
-   "cidade": "SANTO ANTONIO DO TAUA",
-   "bairro": "BAIRRO SOL NASCENTE",
-   "endereco": "RUA ANGELIM, N. 34, CS 34 LT 34 QD 35",
-   "preco": 113924.72,
-   "valor_avaliacao": 138000.0,
-   "desconto": 17.45,
-   "financiamento": "Não",
-   "descricao": "Casa, 65.05 de área total, 65.05 de área privativa, 180.00 de área do terreno,  2 qto(s), a.serv, WC, cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444437399495",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -1.1547239,
-    "lng": -48.1299865
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444436431840",
    "uf": "PA",
    "cidade": "SANTO ANTONIO DO TAUA",
@@ -3980,27 +3764,6 @@
    "descricao": "Casa, 54.18 de área total, 54.18 de área privativa, 160.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702046365",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -1.6789372,
-    "lng": -47.7693629
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787702209922",
-   "uf": "PA",
-   "cidade": "SAO DOMINGOS DO CAPIM",
-   "bairro": "PONTO CERTO",
-   "endereco": "TRAVESSA PROJETADA 03, N. SN, LT 51",
-   "preco": 42406.47,
-   "valor_avaliacao": 73000.0,
-   "desconto": 41.91,
-   "financiamento": "Não",
-   "descricao": "Casa, 54.18 de área total, 54.18 de área privativa, 160.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702209922",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
@@ -4808,6 +4571,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444408561613",
+   "uf": "PA",
+   "cidade": "TRACUATEUA",
+   "bairro": "NOVA ESPERANCA",
+   "endereco": "RUA TRANCOLINO DE MELO, N. 63",
+   "preco": 35035.96,
+   "valor_avaliacao": 116000.0,
+   "desconto": 69.8,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 115.00 de área privativa, 300.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444408561613",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -1.0812575,
+    "lng": -46.8962911
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444432940759",
    "uf": "PA",
    "cidade": "TRACUATEUA",
@@ -4888,27 +4672,6 @@
     "fonte": "google",
     "lat": -3.772006299999999,
     "lng": -49.6749423
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1555538685047",
-   "uf": "PA",
-   "cidade": "TUCURUI",
-   "bairro": "MATINHA",
-   "endereco": "RUA SANTO ANTONIO, N. 784,",
-   "preco": 76200.0,
-   "valor_avaliacao": 127000.0,
-   "desconto": 40.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 48.26 de área total, 48.26 de área privativa, 119.22 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555538685047",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.7691792,
-    "lng": -49.6652245
    },
    "geo_pendente": false
   },

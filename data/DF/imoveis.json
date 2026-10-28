@@ -1,9 +1,9 @@
 {
  "uf": "DF",
- "data_geracao_caixa": "26/10/2026",
- "coletado_em": "27/10/2026 03:10",
+ "data_geracao_caixa": "27/10/2026",
+ "coletado_em": "28/10/2026 03:47",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_DF.csv",
- "total": 77,
+ "total": 65,
  "colunas": [
   "id",
   "uf",
@@ -58,6 +58,27 @@
     "fonte": "google",
     "lat": -15.784567,
     "lng": -47.889407
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444400617326",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "CEILANDIA NORTE",
+   "endereco": "QNN-03, N. S/N, CONJUNTO P, LT 10",
+   "preco": 377290.06,
+   "valor_avaliacao": 640000.0,
+   "desconto": 41.05,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 340.00 de área privativa, 250.00 de área do terreno, 4 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444400617326",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.8051898,
+    "lng": -48.11841949999999
    },
    "geo_pendente": false
   },
@@ -167,27 +188,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444400617326",
-   "uf": "DF",
-   "cidade": "BRASILIA",
-   "bairro": "CEILANDIA NORTE",
-   "endereco": "QNN-03, N. S/N, CONJUNTO P, LT 10",
-   "preco": 387487.09,
-   "valor_avaliacao": 640000.0,
-   "desconto": 39.46,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 340.00 de área privativa, 250.00 de área do terreno, 4 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444400617326",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.8051898,
-    "lng": -48.11841949999999
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444428274707",
    "uf": "DF",
    "cidade": "BRASILIA",
@@ -282,7 +282,7 @@
    "desconto": 37.06,
    "financiamento": "Sim",
    "descricao": "Sala, 0.00 de área total, 32.90 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10290993",
    "tipo": "sala",
    "geo": {
@@ -387,34 +387,13 @@
    "desconto": 37.06,
    "financiamento": "Sim",
    "descricao": "Sala, 0.00 de área total, 32.33 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10290998",
    "tipo": "sala",
    "geo": {
     "fonte": "google",
     "lat": -15.8362807,
     "lng": -48.05667709999999
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1787702281234",
-   "uf": "DF",
-   "cidade": "BRASILIA",
-   "bairro": "ITAPOA PARQUE (ITAPOA)",
-   "endereco": "QUADRA 402, N. SN, Apto 101, BL  F1 LT 08 CONJ 01",
-   "preco": 125255.24,
-   "valor_avaliacao": 199000.0,
-   "desconto": 37.06,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 63.60 de área total, 46.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702281234",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.7799931,
-    "lng": -47.9346914
    },
    "geo_pendente": false
   },
@@ -457,48 +436,6 @@
     "fonte": "google",
     "lat": -16.0204957,
     "lng": -48.0497974
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787716357813",
-   "uf": "DF",
-   "cidade": "BRASILIA",
-   "bairro": "RECANTO DAS EMAS",
-   "endereco": "SUBCENTRO URBANO 400/600, N. SN, Apto 226, LT 01  RUA 06",
-   "preco": 200921.28,
-   "valor_avaliacao": 220000.0,
-   "desconto": 8.68,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 72.73 de área total, 45.34 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716357813",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.8088058,
-    "lng": -48.0312257
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787717142144",
-   "uf": "DF",
-   "cidade": "BRASILIA",
-   "bairro": "RECANTO DAS EMAS",
-   "endereco": "SUBCENTRO URBANO 400/600, N. SN, Apto 613, LT 01  RUA 06",
-   "preco": 218537.0,
-   "valor_avaliacao": 225000.0,
-   "desconto": 2.88,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 72.73 de área total, 45.34 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717142144",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.8088058,
-    "lng": -48.0312257
    },
    "geo_pendente": false
   },
@@ -629,27 +566,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787709149003",
-   "uf": "DF",
-   "cidade": "BRASILIA",
-   "bairro": "SETOR MEIRELES (SANTA MARIA)",
-   "endereco": "RUA 100, N. SN, Apto 403, BL 16  LT 102 RES PORTO PILAR RA XIII",
-   "preco": 145880.38,
-   "valor_avaliacao": 145000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 109.65 de área total, 44.96 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709149003",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -16.031069,
-    "lng": -47.9875602
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444419196792",
    "uf": "DF",
    "cidade": "BRASILIA",
@@ -751,69 +667,6 @@
     "fonte": "google",
     "lat": -15.9268107,
     "lng": -48.0644586
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444420712278",
-   "uf": "DF",
-   "cidade": "BRASILIA",
-   "bairro": "SAMAMBAIA",
-   "endereco": "QUADRA QR 205, N. SN, LT 39  CJ 1",
-   "preco": 874643.61,
-   "valor_avaliacao": 436000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 240.00 de área total, 240.00 de área privativa, 120.01 de área do terreno.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444420712278",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.8775804,
-    "lng": -48.09742319999999
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1555512253360",
-   "uf": "DF",
-   "cidade": "BRASILIA",
-   "bairro": "SUL (AGUAS CLARAS)",
-   "endereco": "AVENIDA SIBIPIRUNA, N. SN, LT 32  SALA 706  VG 26",
-   "preco": 2146231.48,
-   "valor_avaliacao": 288000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Sala, 83.39 de área total, 51.00 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555512253360",
-   "tipo": "sala",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.8444049,
-    "lng": -48.0326236
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1555537006545",
-   "uf": "DF",
-   "cidade": "CANDANGOLANDIA",
-   "bairro": "CANDANGOLANDIA",
-   "endereco": "QR-01, LT 07, CASA 07, CJ A",
-   "preco": 276113.61,
-   "valor_avaliacao": 460189.36,
-   "desconto": 40.01,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 31.35 de área privativa, 120.00 de área do terreno.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555537006545",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.85328,
-    "lng": -47.94828
    },
    "geo_pendente": false
   },
@@ -1007,69 +860,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555534774116",
-   "uf": "DF",
-   "cidade": "GAMA",
-   "bairro": "SETOR SUL",
-   "endereco": "QUADRA 11, N. SN, Apto 302, LT 01",
-   "preco": 135838.44,
-   "valor_avaliacao": 128796.02,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 37.16 de área total, 29.16 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534774116",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -16.0216845,
-    "lng": -48.062362
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787716450880",
-   "uf": "DF",
-   "cidade": "RECANTO DAS EMAS",
-   "bairro": "RECANTO DAS EMAS",
-   "endereco": "AVENIDA BURITIS QUADRA 201(ANT RUA 6), N. SN, Apto 648,  LT 01",
-   "preco": 99278.0,
-   "valor_avaliacao": 167531.06,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 45.03 de área total, 28.07 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716450880",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.9268107,
-    "lng": -48.0644586
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787716244016",
-   "uf": "DF",
-   "cidade": "RECANTO DAS EMAS",
-   "bairro": "RECANTO DAS EMAS",
-   "endereco": "SUBCENTRO URBANO 400/600, N. SN, Apto 128, LT 01  RUA 06",
-   "preco": 168491.21,
-   "valor_avaliacao": 232631.43,
-   "desconto": 27.58,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 72.73 de área total, 45.34 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716244016",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.8088058,
-    "lng": -48.0312257
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787716250849",
    "uf": "DF",
    "cidade": "RECANTO DAS EMAS",
@@ -1192,48 +982,6 @@
     "fonte": "google",
     "lat": -15.8767211,
     "lng": -48.0966905
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444410026396",
-   "uf": "DF",
-   "cidade": "SAMAMBAIA",
-   "bairro": "SAMAMBAIA SUL",
-   "endereco": "QUADRA  312, N. SN, Apto 507, LT 01 CONJ 04-A",
-   "preco": 87297.61,
-   "valor_avaliacao": 143000.0,
-   "desconto": 38.96,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 42.72 de área total, 30.02 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410026396",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.8871975,
-    "lng": -48.1229958
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555526095620",
-   "uf": "DF",
-   "cidade": "SAMAMBAIA",
-   "bairro": "SAMAMBAIA",
-   "endereco": "QUADRA QR 410 CONJUNTO 15-A, N. SN, Apto 205, LT 01",
-   "preco": 162873.0,
-   "valor_avaliacao": 266000.0,
-   "desconto": 38.77,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 86.85 de área total, 46.76 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555526095620",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.8600943,
-    "lng": -48.0790308
    },
    "geo_pendente": false
   },
@@ -1521,7 +1269,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Apartamento, 63.64 de área total, 63.64 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418745490",
    "tipo": "apartamento",
    "geo": {
