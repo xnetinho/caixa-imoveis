@@ -1,9 +1,9 @@
 {
  "uf": "PE",
- "data_geracao_caixa": "27/10/2026",
- "coletado_em": "28/10/2026 03:47",
+ "data_geracao_caixa": "28/10/2026",
+ "coletado_em": "29/10/2026 03:57",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_PE.csv",
- "total": 1072,
+ "total": 1095,
  "colunas": [
   "id",
   "uf",
@@ -19,27 +19,6 @@
   "link"
  ],
  "imoveis": [
-  {
-   "id": "8444421840910",
-   "uf": "PE",
-   "cidade": "ABREU E LIMA",
-   "bairro": "DESTERRO",
-   "endereco": "RUA ALAMEDA JACARANDA, N. 3, CASA 03-A",
-   "preco": 34316.8,
-   "valor_avaliacao": 105000.0,
-   "desconto": 67.32,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 48.00 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421840910",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.901201,
-    "lng": -34.9071373
-   },
-   "geo_pendente": false
-  },
   {
    "id": "8444418461172",
    "uf": "PE",
@@ -209,6 +188,69 @@
    "geo_pendente": false
   },
   {
+   "id": "8787715073331",
+   "uf": "PE",
+   "cidade": "ABREU E LIMA",
+   "bairro": "PLANALTO",
+   "endereco": "RUA ESTACAO DO CAJA, N. S/N, Apto 04, BL E",
+   "preco": 83984.66,
+   "valor_avaliacao": 151000.0,
+   "desconto": 44.39,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 0.00 de área total, 46.84 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715073331",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.9176046,
+    "lng": -34.9907519
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444419187511",
+   "uf": "PE",
+   "cidade": "ABREU E LIMA",
+   "bairro": "DESTERRO",
+   "endereco": "RUA MARIA ROSA DOS VENTOS (ANTIGA RUA PROJETADA 18, N. 20, Apto 202,",
+   "preco": 79535.14,
+   "valor_avaliacao": 143000.0,
+   "desconto": 44.39,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 0.00 de área total, 49.28 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s).",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419187511",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.893429,
+    "lng": -34.913923
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787714629476",
+   "uf": "PE",
+   "cidade": "ABREU E LIMA",
+   "bairro": "PLANALTO",
+   "endereco": "RUA ESTACAO DO CAJA, N. S/N, Apto 203, BL D",
+   "preco": 92402.68,
+   "valor_avaliacao": 164135.79,
+   "desconto": 43.71,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 83.07 de área total, 46.84 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714629476",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.9066399,
+    "lng": -34.9155206
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444419233440",
    "uf": "PE",
    "cidade": "ABREU E LIMA",
@@ -226,69 +268,6 @@
     "fonte": "google",
     "lat": -7.9176046,
     "lng": -34.9907519
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787715073331",
-   "uf": "PE",
-   "cidade": "ABREU E LIMA",
-   "bairro": "PLANALTO",
-   "endereco": "RUA ESTACAO DO CAJA, N. S/N, Apto 04, BL E",
-   "preco": 86194.78,
-   "valor_avaliacao": 151000.0,
-   "desconto": 42.92,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 46.84 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715073331",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.9176046,
-    "lng": -34.9907519
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444419187511",
-   "uf": "PE",
-   "cidade": "ABREU E LIMA",
-   "bairro": "DESTERRO",
-   "endereco": "RUA MARIA ROSA DOS VENTOS (ANTIGA RUA PROJETADA 18, N. 20, Apto 202,",
-   "preco": 81628.17,
-   "valor_avaliacao": 143000.0,
-   "desconto": 42.92,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 49.28 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s).",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419187511",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.893429,
-    "lng": -34.913923
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787714629476",
-   "uf": "PE",
-   "cidade": "ABREU E LIMA",
-   "bairro": "PLANALTO",
-   "endereco": "RUA ESTACAO DO CAJA, N. S/N, Apto 203, BL D",
-   "preco": 94834.33,
-   "valor_avaliacao": 164135.79,
-   "desconto": 42.23,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 83.07 de área total, 46.84 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714629476",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.9066399,
-    "lng": -34.9155206
    },
    "geo_pendente": false
   },
@@ -576,7 +555,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 67.50 de área total, 67.50 de área privativa, 67.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424780357",
    "tipo": "casa",
    "geo": {
@@ -597,7 +576,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 67.50 de área total, 67.50 de área privativa, 67.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424880580",
    "tipo": "casa",
    "geo": {
@@ -849,7 +828,7 @@
    "desconto": 76.48,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 50.18 de área privativa, 125.02 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713858749",
    "tipo": "casa",
    "geo": {
@@ -2351,27 +2330,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787710008876",
-   "uf": "PE",
-   "cidade": "BELO JARDIM",
-   "bairro": "EUNO ANDRADE DA SILVA",
-   "endereco": "RUA ERASMO PEREIRA DE ALBUQUERQUE, N. 224, LT 06, QD 28",
-   "preco": 114195.0,
-   "valor_avaliacao": 114195.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 46.30 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710008876",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.324622999999999,
-    "lng": -36.392722
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787717596846",
    "uf": "PE",
    "cidade": "BELO JARDIM",
@@ -2792,6 +2750,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444407357273",
+   "uf": "PE",
+   "cidade": "CAMARAGIBE",
+   "bairro": "JARDIM PRIMAVERA",
+   "endereco": "RUA RUI BARBOSA, N. 590, CS 146",
+   "preco": 79919.07,
+   "valor_avaliacao": 185000.0,
+   "desconto": 56.81,
+   "financiamento": "Sim",
+   "descricao": "Casa, 0.00 de área total, 60.00 de área privativa, 102.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444407357273",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.0156837,
+    "lng": -34.962788
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444402772949",
    "uf": "PE",
    "cidade": "CAMARAGIBE",
@@ -2809,27 +2788,6 @@
     "fonte": "google",
     "lat": -8.0222213,
     "lng": -34.9864334
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444407357273",
-   "uf": "PE",
-   "cidade": "CAMARAGIBE",
-   "bairro": "JARDIM PRIMAVERA",
-   "endereco": "RUA RUI BARBOSA, N. 590, CS 146",
-   "preco": 85247.0,
-   "valor_avaliacao": 185000.0,
-   "desconto": 53.93,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 60.00 de área privativa, 102.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444407357273",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.0156837,
-    "lng": -34.962788
    },
    "geo_pendente": false
   },
@@ -3002,6 +2960,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444419624601",
+   "uf": "PE",
+   "cidade": "CAMARAGIBE",
+   "bairro": "JARDIM PRIMAVERA",
+   "endereco": "RUA RUI BARBOSA, N. 590, CASA 155",
+   "preco": 98976.81,
+   "valor_avaliacao": 185000.0,
+   "desconto": 46.5,
+   "financiamento": "Sim",
+   "descricao": "Casa, 60.00 de área total, 60.00 de área privativa, 102.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419624601",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.0156837,
+    "lng": -34.962788
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787715279282",
    "uf": "PE",
    "cidade": "CAMARAGIBE",
@@ -3044,6 +3023,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787706084180",
+   "uf": "PE",
+   "cidade": "CAMARAGIBE",
+   "bairro": "SANTA MONICA",
+   "endereco": "VIA COLETORA 02, N. 143, Apto 05, PAVIMENTO TERREO BL A",
+   "preco": 104442.65,
+   "valor_avaliacao": 192000.0,
+   "desconto": 45.61,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 81.49 de área total, 48.39 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706084180",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.0324022,
+    "lng": -34.9971585
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787711140042",
    "uf": "PE",
    "cidade": "CAMARAGIBE",
@@ -3061,48 +3061,6 @@
     "fonte": "google",
     "lat": -8.021137399999999,
     "lng": -35.0071076
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444419624601",
-   "uf": "PE",
-   "cidade": "CAMARAGIBE",
-   "bairro": "JARDIM PRIMAVERA",
-   "endereco": "RUA RUI BARBOSA, N. 590, CASA 155",
-   "preco": 101887.89,
-   "valor_avaliacao": 185000.0,
-   "desconto": 44.93,
-   "financiamento": "Não",
-   "descricao": "Casa, 60.00 de área total, 60.00 de área privativa, 102.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419624601",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.0156837,
-    "lng": -34.962788
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787706084180",
-   "uf": "PE",
-   "cidade": "CAMARAGIBE",
-   "bairro": "SANTA MONICA",
-   "endereco": "VIA COLETORA 02, N. 143, Apto 05, PAVIMENTO TERREO BL A",
-   "preco": 107343.83,
-   "valor_avaliacao": 192000.0,
-   "desconto": 44.1,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 81.49 de área total, 48.39 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706084180",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.0324022,
-    "lng": -34.9971585
    },
    "geo_pendente": false
   },
@@ -3315,6 +3273,21 @@
     "lng": -34.9971585
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787702401211",
+   "uf": "PE",
+   "cidade": "CAMARAGIBE",
+   "bairro": "ALBERTO MAIA",
+   "endereco": "RUA BARAO DE SAO FRANCISCO, N. 186, Apto 503, BL 6 VG 196 PV 5",
+   "preco": 114838.57,
+   "valor_avaliacao": 190000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 66.63 de área total, 46.46 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702401211",
+   "tipo": "apartamento"
   },
   {
    "id": "8787703583593",
@@ -3989,6 +3962,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444431160113",
+   "uf": "PE",
+   "cidade": "CARPINA",
+   "bairro": "SANTO ANTONIO",
+   "endereco": "ESTRADA DE LIMEIRA GRANDE, N. 88, LT 20, QD I",
+   "preco": 83984.66,
+   "valor_avaliacao": 151000.0,
+   "desconto": 44.39,
+   "financiamento": "Sim",
+   "descricao": "Casa, 48.25 de área total, 48.25 de área privativa, 140.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431160113",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.8402588,
+    "lng": -35.2614544
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444429637072",
    "uf": "PE",
    "cidade": "CARPINA",
@@ -4027,27 +4021,6 @@
     "fonte": "google",
     "lat": -7.8344473,
     "lng": -35.2508196
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444431160113",
-   "uf": "PE",
-   "cidade": "CARPINA",
-   "bairro": "SANTO ANTONIO",
-   "endereco": "ESTRADA DE LIMEIRA GRANDE, N. 88, LT 20, QD I",
-   "preco": 86194.78,
-   "valor_avaliacao": 151000.0,
-   "desconto": 42.92,
-   "financiamento": "Não",
-   "descricao": "Casa, 48.25 de área total, 48.25 de área privativa, 140.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431160113",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.8402588,
-    "lng": -35.2614544
    },
    "geo_pendente": false
   },
@@ -4272,7 +4245,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 76.48 de área total, 76.48 de área privativa, 141.51 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427419850",
    "tipo": "casa",
    "geo": {
@@ -4414,12 +4387,12 @@
    "cidade": "CARUARU",
    "bairro": "BOA VISTA",
    "endereco": "RUA PROJETADA 2, N. 33, LT 08 QD 01",
-   "preco": 39521.15,
+   "preco": 37196.38,
    "valor_avaliacao": 84200.0,
-   "desconto": 53.07,
+   "desconto": 55.83,
    "financiamento": "Não",
    "descricao": "Casa, 50.00 de área total, 50.00 de área privativa, 159.60 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555529976024",
    "tipo": "casa",
    "geo": {
@@ -4468,6 +4441,27 @@
     "fonte": "google",
     "lat": -9.3588738,
     "lng": -40.5394171
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444420717326",
+   "uf": "PE",
+   "cidade": "CARUARU",
+   "bairro": "JOAO DE DEUS",
+   "endereco": "RUA PROJETADA 08, N. S/N, LOTE 04 QD. E9",
+   "preco": 62330.83,
+   "valor_avaliacao": 114800.0,
+   "desconto": 45.71,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 450.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444420717326",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.295509,
+    "lng": -35.9687223
    },
    "geo_pendente": false
   },
@@ -4890,6 +4884,21 @@
     "lng": -35.9308269
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787706191475",
+   "uf": "PE",
+   "cidade": "CARUARU",
+   "bairro": "INDIANOPOLIS",
+   "endereco": "VIA ARTERIAL OESTE, N. SN, Apto 202, BL 30 LT B1",
+   "preco": 175000.0,
+   "valor_avaliacao": 175000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 67.27 de área total, 53.50 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706191475",
+   "tipo": "apartamento"
   },
   {
    "id": "8555507187892",
@@ -5333,6 +5342,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444415172791",
+   "uf": "PE",
+   "cidade": "CHA DE ALEGRIA",
+   "bairro": "CENTRO",
+   "endereco": "RODOVIA RODOVIA PE 40, N. S/N",
+   "preco": 95859.2,
+   "valor_avaliacao": 298500.0,
+   "desconto": 67.89,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 2680.67 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415172791",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.9979162,
+    "lng": -35.2132935
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444427322651",
    "uf": "PE",
    "cidade": "CHA DE ALEGRIA",
@@ -5367,27 +5397,6 @@
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427388210",
    "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.9979162,
-    "lng": -35.2132935
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444415172791",
-   "uf": "PE",
-   "cidade": "CHA DE ALEGRIA",
-   "bairro": "CENTRO",
-   "endereco": "RODOVIA RODOVIA PE 40, N. S/N",
-   "preco": 104573.67,
-   "valor_avaliacao": 298500.0,
-   "desconto": 64.97,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 2680.67 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415172791",
-   "tipo": "terreno",
    "geo": {
     "fonte": "google",
     "lat": -7.9979162,
@@ -6101,6 +6110,27 @@
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 134.03 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427047669",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.997888,
+    "lng": -35.2133083
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444420423266",
+   "uf": "PE",
+   "cidade": "CHA DE ALEGRIA",
+   "bairro": "NOVA CHA DE ALEGREIA",
+   "endereco": "RUA PROJETADA R22, N. SN, LOTE 13 QUADRA X",
+   "preco": 38405.75,
+   "valor_avaliacao": 77000.0,
+   "desconto": 50.13,
+   "financiamento": "Não",
+   "descricao": "Casa, 48.09 de área total, 48.09 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420423266",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
@@ -6832,7 +6862,7 @@
    "preco": 60206.09,
    "valor_avaliacao": 100943.1,
    "desconto": 40.36,
-   "financiamento": "Não",
+   "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 491.23 de área do terreno.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10276419",
@@ -6929,6 +6959,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444413033598",
+   "uf": "PE",
+   "cidade": "EXU",
+   "bairro": "Wilson M Saraiva",
+   "endereco": "RUA TRAVESSA CANTARINO, N. 01,",
+   "preco": 81964.82,
+   "valor_avaliacao": 140000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Casa, 95.70 de área total, 95.70 de área privativa, 130.20 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413033598",
+   "tipo": "casa"
+  },
+  {
    "id": "1444416817419",
    "uf": "PE",
    "cidade": "EXU",
@@ -6939,7 +6984,7 @@
    "desconto": 36.27,
    "financiamento": "Não",
    "descricao": "Comercial, 0.00 de área total, 45.00 de área privativa, 4050.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416817419",
    "tipo": "comercial",
    "geo": {
@@ -7039,12 +7084,12 @@
    "cidade": "GARANHUNS",
    "bairro": "ALOISIO SOUTO PINTO",
    "endereco": "BR-424 - MAGANO - SENTIDO GARANHUNS/CAETÉS, N. 00, PARTE FAZENDA BELA VISTA - 1º DISTRITO",
-   "preco": 863399.84,
+   "preco": 801728.42,
    "valor_avaliacao": 2020029.1,
-   "desconto": 57.26,
+   "desconto": 60.32,
    "financiamento": "Não",
    "descricao": "Imóvel rural, 0.00 de área total, 0.00 de área privativa, 30000.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10208873",
    "tipo": "imovel rural",
    "geo": {
@@ -7053,6 +7098,21 @@
     "lng": -36.4895227
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787720274323",
+   "uf": "PE",
+   "cidade": "GARANHUNS",
+   "bairro": "DOM HELDER CAMARA",
+   "endereco": "RUA LUIZ CARLOS DE CASTRO TEMOTEO, N. 105, LT 39 QD Q  DOM IRINEU ROQUE SCHERER",
+   "preco": 162135.45,
+   "valor_avaliacao": 145810.89,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 41.36 de área total, 41.36 de área privativa, 142.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720274323",
+   "tipo": "casa"
   },
   {
    "id": "8444423370562",
@@ -7391,6 +7451,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787701936910",
+   "uf": "PE",
+   "cidade": "GLORIA DO GOITA",
+   "bairro": "BAIRRO NOVA GLORIA",
+   "endereco": "RUA PROJETADA 04, N. SN, LT 04 QD C",
+   "preco": 125931.01,
+   "valor_avaliacao": 253000.0,
+   "desconto": 50.23,
+   "financiamento": "Sim",
+   "descricao": "Casa, 200.00 de área total, 55.80 de área privativa, 126.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701936910",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.998836700000001,
+    "lng": -35.2969402
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444426567839",
    "uf": "PE",
    "cidade": "GLORIA DO GOITA",
@@ -7429,27 +7510,6 @@
     "fonte": "google",
     "lat": -7.9961229,
     "lng": -35.2934891
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787701936910",
-   "uf": "PE",
-   "cidade": "GLORIA DO GOITA",
-   "bairro": "BAIRRO NOVA GLORIA",
-   "endereco": "RUA PROJETADA 04, N. SN, LT 04 QD C",
-   "preco": 129634.87,
-   "valor_avaliacao": 253000.0,
-   "desconto": 48.77,
-   "financiamento": "Não",
-   "descricao": "Casa, 200.00 de área total, 55.80 de área privativa, 126.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701936910",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.998836700000001,
-    "lng": -35.2969402
    },
    "geo_pendente": false
   },
@@ -7643,6 +7703,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444406260080",
+   "uf": "PE",
+   "cidade": "GRAVATA",
+   "bairro": "BAIRRO NOVO",
+   "endereco": "RUA SAO MIGUEL, N. SN, LT 116 A31",
+   "preco": 30283.9,
+   "valor_avaliacao": 58800.0,
+   "desconto": 48.5,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 260.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406260080",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.2103526,
+    "lng": -35.5693382
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444413648969",
    "uf": "PE",
    "cidade": "GRAVATA",
@@ -7660,27 +7741,6 @@
     "fonte": "google",
     "lat": -8.2053216,
     "lng": -35.5589463
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444406260080",
-   "uf": "PE",
-   "cidade": "GRAVATA",
-   "bairro": "BAIRRO NOVO",
-   "endereco": "RUA SAO MIGUEL, N. SN, LT 116 A31",
-   "preco": 31174.6,
-   "valor_avaliacao": 58800.0,
-   "desconto": 46.99,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 260.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406260080",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.2103526,
-    "lng": -35.5693382
    },
    "geo_pendente": false
   },
@@ -7795,12 +7855,12 @@
    "cidade": "GRAVATA",
    "bairro": "PRADO",
    "endereco": "RUA JOSE LUIS DA SILVA, N. 137, Apto 01, FLAT DUPLEX LT 18-A QD C",
-   "preco": 114114.44,
+   "preco": 111030.27,
    "valor_avaliacao": 196000.0,
-   "desconto": 41.78,
+   "desconto": 43.36,
    "financiamento": "Não",
    "descricao": "Apartamento, 71.05 de área total, 71.05 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414343398",
    "tipo": "apartamento",
    "geo": {
@@ -7809,6 +7869,42 @@
     "lng": -35.5589463
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10282354",
+   "uf": "PE",
+   "cidade": "GRAVATA",
+   "bairro": "BAIRRO NOVO",
+   "endereco": "RUA ALTO DA BOA VISTA, N. 429",
+   "preco": 102090.01,
+   "valor_avaliacao": 174000.0,
+   "desconto": 41.33,
+   "financiamento": "Sim",
+   "descricao": "Casa, 0.00 de área total, 41.00 de área privativa, 296.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10282354",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.2096327,
+    "lng": -35.5699097
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444430341823",
+   "uf": "PE",
+   "cidade": "GRAVATA",
+   "bairro": "CRUZEIRO",
+   "endereco": "RUA PRIMEIRO DE JANEIRO, N. 1411, Apto 01, QD L LT 40A",
+   "preco": 96592.92,
+   "valor_avaliacao": 163000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 51.88 de área total, 51.88 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430341823",
+   "tipo": "apartamento"
   },
   {
    "id": "1444403420744",
@@ -7828,27 +7924,6 @@
     "fonte": "google",
     "lat": -8.204659,
     "lng": -35.5706394
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "10282354",
-   "uf": "PE",
-   "cidade": "GRAVATA",
-   "bairro": "BAIRRO NOVO",
-   "endereco": "RUA ALTO DA BOA VISTA, N. 429",
-   "preco": 104776.59,
-   "valor_avaliacao": 174000.0,
-   "desconto": 39.79,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 41.00 de área privativa, 296.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10282354",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.2096327,
-    "lng": -35.5699097
    },
    "geo_pendente": false
   },
@@ -8189,6 +8264,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787711062165",
+   "uf": "PE",
+   "cidade": "IGARASSU",
+   "bairro": "AGAMENON MAGALHAES",
+   "endereco": "ESTRADA COMERCIAL DA PITANGA, N. SN, Apto 407, BL 06",
+   "preco": 71719.21,
+   "valor_avaliacao": 140000.0,
+   "desconto": 48.78,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 78.29 de área total, 43.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711062165",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.8404642,
+    "lng": -34.9255481
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444407655426",
    "uf": "PE",
    "cidade": "IGARASSU",
@@ -8353,27 +8449,6 @@
     "fonte": "google",
     "lat": -7.8831905,
     "lng": -34.9070875
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787711062165",
-   "uf": "PE",
-   "cidade": "IGARASSU",
-   "bairro": "AGAMENON MAGALHAES",
-   "endereco": "ESTRADA COMERCIAL DA PITANGA, N. SN, Apto 407, BL 06",
-   "preco": 73768.33,
-   "valor_avaliacao": 140000.0,
-   "desconto": 47.31,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 78.29 de área total, 43.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711062165",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.8404642,
-    "lng": -34.9255481
    },
    "geo_pendente": false
   },
@@ -8651,6 +8726,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444426395256",
+   "uf": "PE",
+   "cidade": "IGARASSU",
+   "bairro": "SITIO DOS MARCOS",
+   "endereco": "RUA DOIS IRMAOS, N. 133, Apto 2,",
+   "preco": 91200.31,
+   "valor_avaliacao": 162000.0,
+   "desconto": 43.71,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 0.00 de área total, 50.63 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426395256",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.8144297,
+    "lng": -34.8973199
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555514360464",
    "uf": "PE",
    "cidade": "IGARASSU",
@@ -8714,23 +8810,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444426395256",
+   "id": "8444426590610",
    "uf": "PE",
    "cidade": "IGARASSU",
-   "bairro": "SITIO DOS MARCOS",
-   "endereco": "RUA DOIS IRMAOS, N. 133, Apto 2,",
-   "preco": 93600.32,
-   "valor_avaliacao": 162000.0,
-   "desconto": 42.23,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 50.63 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426395256",
+   "bairro": "UMBURA",
+   "endereco": "TRAVESSA DO COMERCIO, N. 08, Apto 02,",
+   "preco": 114264.37,
+   "valor_avaliacao": 199000.0,
+   "desconto": 42.59,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 0.00 de área total, 45.46 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426590610",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -7.8144297,
-    "lng": -34.8973199
+    "lat": -7.865981899999999,
+    "lng": -34.9011227
    },
    "geo_pendente": false
   },
@@ -8840,6 +8936,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444402336411",
+   "uf": "PE",
+   "cidade": "IGARASSU",
+   "bairro": "JABACO",
+   "endereco": "AVENIDA SENADOR PAULO PESSOA GUERRA, N. 327, CS 07 VG 7",
+   "preco": 72988.41,
+   "valor_avaliacao": 126000.0,
+   "desconto": 42.08,
+   "financiamento": "Não",
+   "descricao": "Casa, 77.67 de área total, 66.67 de área privativa, 89.12 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444402336411",
+   "tipo": "casa"
+  },
+  {
    "id": "8444409068536",
    "uf": "PE",
    "cidade": "IGARASSU",
@@ -8859,6 +8970,21 @@
     "lng": -34.9111913
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444431824976",
+   "uf": "PE",
+   "cidade": "IGARASSU",
+   "bairro": "UMBURA",
+   "endereco": "RUA DAMAS VERDES, N. 03 A, Apto 204, 2 PAVIMENTO",
+   "preco": 83135.75,
+   "valor_avaliacao": 142000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 45.33 de área total, 40.05 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431824976",
+   "tipo": "apartamento"
   },
   {
    "id": "8444405376783",
@@ -8945,23 +9071,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444426590610",
+   "id": "1444406911765",
    "uf": "PE",
    "cidade": "IGARASSU",
    "bairro": "UMBURA",
-   "endereco": "TRAVESSA DO COMERCIO, N. 08, Apto 02,",
-   "preco": 117271.33,
-   "valor_avaliacao": 199000.0,
-   "desconto": 41.07,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 45.46 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426590610",
-   "tipo": "apartamento",
+   "endereco": "RUA DAS MANGUEIRAS, N. SN, CASA 02",
+   "preco": 105610.35,
+   "valor_avaliacao": 180000.0,
+   "desconto": 41.33,
+   "financiamento": "Sim",
+   "descricao": "Casa, 0.00 de área total, 101.04 de área privativa, 150.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406911765",
+   "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -7.865981899999999,
-    "lng": -34.9011227
+    "lat": -7.8561384,
+    "lng": -34.8968688
    },
    "geo_pendente": false
   },
@@ -9081,7 +9207,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 46.30 de área privativa, 145.79 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709476853",
    "tipo": "casa",
    "geo": {
@@ -9109,27 +9235,6 @@
     "fonte": "google",
     "lat": -7.8405497,
     "lng": -34.9329067
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444406911765",
-   "uf": "PE",
-   "cidade": "IGARASSU",
-   "bairro": "UMBURA",
-   "endereco": "RUA DAS MANGUEIRAS, N. SN, CASA 02",
-   "preco": 108389.57,
-   "valor_avaliacao": 180000.0,
-   "desconto": 39.79,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 101.04 de área privativa, 150.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406911765",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.8561384,
-    "lng": -34.8968688
    },
    "geo_pendente": false
   },
@@ -9312,7 +9417,7 @@
    "desconto": 57.26,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 107.55 de área privativa, 300.00 de área do terreno,  3 qto(s), a.serv, WC, WC Emp, 1 sala(s), 1 lavabo(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416105125",
    "tipo": "casa",
    "geo": {
@@ -9328,18 +9433,39 @@
    "cidade": "ILHA DE ITAMARACA",
    "bairro": "BAIXA VERDE",
    "endereco": "RUA AMBURGUESA, N. 472, RES B",
-   "preco": 81232.99,
+   "preco": 79037.5,
    "valor_avaliacao": 150000.0,
-   "desconto": 45.85,
+   "desconto": 47.31,
    "financiamento": "Não",
    "descricao": "Casa, 83.66 de área total, 83.66 de área privativa, 318.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416048154",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -7.7519187,
     "lng": -34.8279207
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444428660909",
+   "uf": "PE",
+   "cidade": "ILHA DE ITAMARACA",
+   "bairro": "LOT PORTO DAS CARAVE",
+   "endereco": "RUA PAU AMARELO, N. 03, LT 18 QD A",
+   "preco": 98518.85,
+   "valor_avaliacao": 175000.0,
+   "desconto": 43.71,
+   "financiamento": "Sim",
+   "descricao": "Casa, 51.27 de área total, 51.27 de área privativa, 205.08 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428660909",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.7539666,
+    "lng": -34.8328287
    },
    "geo_pendente": false
   },
@@ -9365,27 +9491,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444428660909",
-   "uf": "PE",
-   "cidade": "ILHA DE ITAMARACA",
-   "bairro": "LOT PORTO DAS CARAVE",
-   "endereco": "RUA PAU AMARELO, N. 03, LT 18 QD A",
-   "preco": 101111.45,
-   "valor_avaliacao": 175000.0,
-   "desconto": 42.23,
-   "financiamento": "Não",
-   "descricao": "Casa, 51.27 de área total, 51.27 de área privativa, 205.08 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428660909",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.7539666,
-    "lng": -34.8328287
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444408896788",
    "uf": "PE",
    "cidade": "ILHA DE ITAMARACA",
@@ -9405,6 +9510,21 @@
     "lng": -34.8492109
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555539481249",
+   "uf": "PE",
+   "cidade": "IPOJUCA",
+   "bairro": "ESTALEIRO ATLANT SUL",
+   "endereco": "RUA VENTURA, N. SN, Apto 102, BL 06 QD 35 LOT RES EST ATLANTICO SUL",
+   "preco": 154000.0,
+   "valor_avaliacao": 154000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 71.38 de área total, 52.53 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555539481249",
+   "tipo": "apartamento"
   },
   {
    "id": "8555539936408",
@@ -9491,6 +9611,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444406069655",
+   "uf": "PE",
+   "cidade": "ITAMBE",
+   "bairro": "DSITRITO DE IBIRANGA",
+   "endereco": "RUA PROJETADA T, N. 56, ST 03 QD 13 LT 06",
+   "preco": 66204.38,
+   "valor_avaliacao": 111000.0,
+   "desconto": 40.36,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 68.75 de área privativa, 103.36 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha, Terraco.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406069655",
+   "tipo": "casa"
+  },
+  {
    "id": "8444404982116",
    "uf": "PE",
    "cidade": "ITAMBE",
@@ -9520,9 +9655,9 @@
    "preco": 154230.06,
    "valor_avaliacao": 242000.0,
    "desconto": 36.27,
-   "financiamento": "Não",
+   "financiamento": "Sim",
    "descricao": "Comercial, 0.00 de área total, 40.04 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286346",
    "tipo": "comercial",
    "geo": {
@@ -10247,59 +10382,17 @@
    "geo_pendente": false
   },
   {
-   "id": "8787712487526",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "BARRA DE JANGADA",
-   "endereco": "RUA GUARULHOS, N. 121, Apto 402, GLEBA A1 LT A1A BL 22",
-   "preco": 59417.35,
-   "valor_avaliacao": 175000.0,
-   "desconto": 66.05,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712487526",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.2251694,
-    "lng": -34.945714
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712137541",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "BARRA DE JANGADA",
-   "endereco": "RUA GUARULHOS, N. 121, Apto 103, BL 17 - 1° PAV",
-   "preco": 63861.7,
-   "valor_avaliacao": 152392.39,
-   "desconto": 58.1,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712137541",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.2251694,
-    "lng": -34.945714
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787709709971",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
    "bairro": "BARRA DE JANGADA",
    "endereco": "RUA GUARULHOS, N. 121, Apto 01, BL 02, LT A1A",
-   "preco": 70027.59,
+   "preco": 65359.09,
    "valor_avaliacao": 165000.0,
-   "desconto": 57.56,
+   "desconto": 60.39,
    "financiamento": "Não",
    "descricao": "Apartamento, 85.87 de área total, 41.79 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709709971",
    "tipo": "apartamento",
    "geo": {
@@ -10327,27 +10420,6 @@
     "fonte": "google",
     "lat": -8.1098486,
     "lng": -35.0048014
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712002077",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "BARRA DE JANGADA",
-   "endereco": "RUA GUARULHOS, N. 121, Apto 103, BL 14, LT A1A",
-   "preco": 67049.76,
-   "valor_avaliacao": 150000.0,
-   "desconto": 55.31,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 85.86 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712002077",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.2251694,
-    "lng": -34.945714
    },
    "geo_pendente": false
   },
@@ -10730,6 +10802,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8787709419434",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "DOIS CARNEIROS",
+   "endereco": "RUA PALHAMBU, N. 212, Apto 302, BL 03",
+   "preco": 102750.29,
+   "valor_avaliacao": 200000.0,
+   "desconto": 48.63,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 69.25 de área total, 46.33 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709419434",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.1147263,
+    "lng": -34.9663657
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787709538735",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "DOIS CARNEIROS",
+   "endereco": "RUA PALHAMBU, N. 212, Apto 204, BL01",
+   "preco": 100181.53,
+   "valor_avaliacao": 195000.0,
+   "desconto": 48.63,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 68.81 de área total, 46.03 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709538735",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.1147263,
+    "lng": -34.9663657
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787705725441",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
@@ -10870,9 +10984,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710309272",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -8.2251694,
-    "lng": -34.945714,
-    "fonte": "google"
+    "lng": -34.945714
    },
    "geo_pendente": false
   },
@@ -10940,48 +11054,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787709419434",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "DOIS CARNEIROS",
-   "endereco": "RUA PALHAMBU, N. 212, Apto 302, BL 03",
-   "preco": 105772.36,
-   "valor_avaliacao": 200000.0,
-   "desconto": 47.12,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 69.25 de área total, 46.33 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709419434",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1147263,
-    "lng": -34.9663657
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787709538735",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "DOIS CARNEIROS",
-   "endereco": "RUA PALHAMBU, N. 212, Apto 204, BL01",
-   "preco": 103128.05,
-   "valor_avaliacao": 195000.0,
-   "desconto": 47.12,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 68.81 de área total, 46.03 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709538735",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1147263,
-    "lng": -34.9663657
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787702238370",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
@@ -11045,6 +11117,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444408132178",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "JABOATAO GUARARAPES",
+   "endereco": "RUA PROJETADA, N. 10, QD K",
+   "preco": 152268.2,
+   "valor_avaliacao": 285000.0,
+   "desconto": 46.58,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 716.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444408132178",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.1827218,
+    "lng": -34.9424508
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444418942367",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
@@ -11083,6 +11176,27 @@
     "fonte": "google",
     "lat": -8.1515314,
     "lng": -34.9555509
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787712169745",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "DOIS CARNEIROS",
+   "endereco": "RUA VICENTE ADOLFO DA SILVA, N. SN, Apto 201, BL 6 PAVIMENTO 02",
+   "preco": 103354.71,
+   "valor_avaliacao": 190000.0,
+   "desconto": 45.61,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 66.12 de área total, 46.33 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712169745",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.1196202,
+    "lng": -34.968302
    },
    "geo_pendente": false
   },
@@ -11167,27 +11281,6 @@
     "fonte": "google",
     "lat": -8.1203801,
     "lng": -34.9665424
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444408132178",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "JABOATAO GUARARAPES",
-   "endereco": "RUA PROJETADA, N. 10, QD K",
-   "preco": 156618.72,
-   "valor_avaliacao": 285000.0,
-   "desconto": 45.05,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 716.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444408132178",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1827218,
-    "lng": -34.9424508
    },
    "geo_pendente": false
   },
@@ -11318,6 +11411,153 @@
    "geo_pendente": false
   },
   {
+   "id": "8555535025362",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "BARRA DE JANGADA",
+   "endereco": "RUA DA PAZ, N. 244, Apto 302, BL 40",
+   "preco": 83984.66,
+   "valor_avaliacao": 151000.0,
+   "desconto": 44.39,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 68.38 de área total, 41.56 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535025362",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.227023299999999,
+    "lng": -34.9396837
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555535869951",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "BARRA DE JANGADA",
+   "endereco": "RUA DA PAZ, N. SN, Apto 204, BL 33",
+   "preco": 83984.66,
+   "valor_avaliacao": 151000.0,
+   "desconto": 44.39,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 68.38 de área total, 41.56 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535869951",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.2135312,
+    "lng": -34.9345881
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787701878456",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "BARRA DE JANGADA",
+   "endereco": "RUA DA PAZ, N. 244, Apto 401, BL17",
+   "preco": 78700.85,
+   "valor_avaliacao": 141500.0,
+   "desconto": 44.39,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 68.38 de área total, 41.56 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701878456",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.2126808,
+    "lng": -34.9343031
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787706893623",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "BARRA DE JANGADA",
+   "endereco": "RUA JUNDIAI, N. 309, Apto 304, BL 05",
+   "preco": 82316.09,
+   "valor_avaliacao": 148000.0,
+   "desconto": 44.39,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 45.42 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706893623",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.2250412,
+    "lng": -34.9441339
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555533282279",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "SUCUPIRA",
+   "endereco": "VIA PRINCIPAL, N. S/N, Apto 308, TIPO 05 BL F",
+   "preco": 81759.9,
+   "valor_avaliacao": 147000.0,
+   "desconto": 44.39,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 47.69 de área total, 47.69 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533282279",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.0974116,
+    "lng": -34.9658775
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555538315922",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "SUCUPIRA",
+   "endereco": "VIA PRINCIPAL, N. 356, Apto 302, BL A",
+   "preco": 85653.23,
+   "valor_avaliacao": 154000.0,
+   "desconto": 44.39,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 59.99 de área total, 43.50 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555538315922",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.098250199999999,
+    "lng": -34.9656492
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555534407288",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "MARCOS FREIRE",
+   "endereco": "RUA SANTA CRUZ DO CAPIBARIBE, N. 303, Apto 302, BL 04 TIPO 02",
+   "preco": 83428.47,
+   "valor_avaliacao": 150000.0,
+   "desconto": 44.39,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 54.39 de área total, 44.63 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534407288",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.1515314,
+    "lng": -34.9555509
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787707879314",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
@@ -11360,6 +11600,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8555537377096",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "ZUMBI DO PACHECO",
+   "endereco": "RUA SANTA LUZIA, N. 221, Apto 201, BL 16",
+   "preco": 85212.8,
+   "valor_avaliacao": 153208.12,
+   "desconto": 44.39,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 57.24 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537377096",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.1203801,
+    "lng": -34.9665424
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787700843179",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
@@ -11381,27 +11642,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787712169745",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "DOIS CARNEIROS",
-   "endereco": "RUA VICENTE ADOLFO DA SILVA, N. SN, Apto 201, BL 6 PAVIMENTO 02",
-   "preco": 106225.67,
-   "valor_avaliacao": 190000.0,
-   "desconto": 44.1,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 66.12 de área total, 46.33 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712169745",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1196202,
-    "lng": -34.968302
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787701004200",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
@@ -11419,6 +11659,48 @@
     "fonte": "google",
     "lat": -8.1203801,
     "lng": -34.9665424
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787703588609",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "BARRA DE JANGADA",
+   "endereco": "RUA DA PAZ, N. 244, Apto 101, BL 24",
+   "preco": 90074.38,
+   "valor_avaliacao": 160000.0,
+   "desconto": 43.71,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 68.38 de área total, 41.56 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703588609",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.227023299999999,
+    "lng": -34.9396837
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787708359560",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "BARRA DE JANGADA",
+   "endereco": "RUA JUNDIAI, N. 309, Apto 202, BL 21",
+   "preco": 92889.2,
+   "valor_avaliacao": 165000.0,
+   "desconto": 43.71,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 78.09 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708359560",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.2250412,
+    "lng": -34.9441339
    },
    "geo_pendente": false
   },
@@ -11519,6 +11801,48 @@
    "descricao": "Apartamento, 57.24 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555536534147",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.1203801,
+    "lng": -34.9665424
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555536593194",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "ZUMBI DO PACHECO",
+   "endereco": "RUA SANTA LUZIA, N. 221, Apto 303, BL 30 LT 13-C QD C",
+   "preco": 92607.71,
+   "valor_avaliacao": 164500.0,
+   "desconto": 43.71,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 57.24 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555536593194",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.1203801,
+    "lng": -34.9665424
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555536863698",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "ZUMBI DO PACHECO",
+   "endereco": "RUA SANTA LUZIA, N. 221, Apto 203, BL 20",
+   "preco": 92889.2,
+   "valor_avaliacao": 165000.0,
+   "desconto": 43.71,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 57.24 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555536863698",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -11738,153 +12062,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555535025362",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "BARRA DE JANGADA",
-   "endereco": "RUA DA PAZ, N. 244, Apto 302, BL 40",
-   "preco": 86194.78,
-   "valor_avaliacao": 151000.0,
-   "desconto": 42.92,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 68.38 de área total, 41.56 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535025362",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.227023299999999,
-    "lng": -34.9396837
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555535869951",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "BARRA DE JANGADA",
-   "endereco": "RUA DA PAZ, N. SN, Apto 204, BL 33",
-   "preco": 86194.78,
-   "valor_avaliacao": 151000.0,
-   "desconto": 42.92,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 68.38 de área total, 41.56 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535869951",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.2135312,
-    "lng": -34.9345881
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787701878456",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "BARRA DE JANGADA",
-   "endereco": "RUA DA PAZ, N. 244, Apto 401, BL17",
-   "preco": 80771.93,
-   "valor_avaliacao": 141500.0,
-   "desconto": 42.92,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 68.38 de área total, 41.56 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701878456",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.2126808,
-    "lng": -34.9343031
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787706893623",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "BARRA DE JANGADA",
-   "endereco": "RUA JUNDIAI, N. 309, Apto 304, BL 05",
-   "preco": 84482.3,
-   "valor_avaliacao": 148000.0,
-   "desconto": 42.92,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 45.42 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706893623",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.2250412,
-    "lng": -34.9441339
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555533282279",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "SUCUPIRA",
-   "endereco": "VIA PRINCIPAL, N. S/N, Apto 308, TIPO 05 BL F",
-   "preco": 83911.48,
-   "valor_avaliacao": 147000.0,
-   "desconto": 42.92,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 47.69 de área total, 47.69 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533282279",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.0974116,
-    "lng": -34.9658775
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555538315922",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "SUCUPIRA",
-   "endereco": "VIA PRINCIPAL, N. 356, Apto 302, BL A",
-   "preco": 87907.26,
-   "valor_avaliacao": 154000.0,
-   "desconto": 42.92,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 59.99 de área total, 43.50 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555538315922",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.098250199999999,
-    "lng": -34.9656492
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555534407288",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "MARCOS FREIRE",
-   "endereco": "RUA SANTA CRUZ DO CAPIBARIBE, N. 303, Apto 302, BL 04 TIPO 02",
-   "preco": 85623.96,
-   "valor_avaliacao": 150000.0,
-   "desconto": 42.92,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 54.39 de área total, 44.63 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534407288",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1515314,
-    "lng": -34.9555509
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555520192578",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
@@ -11927,27 +12104,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555537377096",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "ZUMBI DO PACHECO",
-   "endereco": "RUA SANTA LUZIA, N. 221, Apto 201, BL 16",
-   "preco": 87455.24,
-   "valor_avaliacao": 153208.12,
-   "desconto": 42.92,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 57.24 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537377096",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1203801,
-    "lng": -34.9665424
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555520729610",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
@@ -11958,7 +12114,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Apartamento, 49.59 de área total, 44.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555520729610",
    "tipo": "apartamento",
    "geo": {
@@ -12011,6 +12167,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8555537220383",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "ZUMBI DO PACHECO",
+   "endereco": "RUA SANTA LUZIA, N. 221, Apto 4, LT 13 E QD C BL 22",
+   "preco": 68787.97,
+   "valor_avaliacao": 120000.0,
+   "desconto": 42.68,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 57.24 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537220383",
+   "tipo": "apartamento"
+  },
+  {
    "id": "1444413659987",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
@@ -12032,44 +12203,128 @@
    "geo_pendente": false
   },
   {
-   "id": "8787703588609",
+   "id": "8787701657638",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "BARRA DE JANGADA",
-   "endereco": "RUA DA PAZ, N. 244, Apto 101, BL 24",
-   "preco": 92444.76,
-   "valor_avaliacao": 160000.0,
-   "desconto": 42.23,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 68.38 de área total, 41.56 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703588609",
+   "bairro": "ZUMBI DO PACHECO",
+   "endereco": "RUA SANTA LUZIA, N. 221, Apto 303, BL 44, LT 13-E, LOT SÍTIO PALHAMBU",
+   "preco": 78073.34,
+   "valor_avaliacao": 136000.0,
+   "desconto": 42.6,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 57.24 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701657638",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -8.227023299999999,
-    "lng": -34.9396837
+    "lat": -8.1146275,
+    "lng": -34.9668644
    },
    "geo_pendente": false
   },
   {
-   "id": "8787708359560",
+   "id": "8787704003868",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "BARRA DE JANGADA",
-   "endereco": "RUA JUNDIAI, N. 309, Apto 202, BL 21",
-   "preco": 95333.65,
-   "valor_avaliacao": 165000.0,
-   "desconto": 42.23,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 78.09 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708359560",
+   "bairro": "SOCORRO",
+   "endereco": "VIA LOCAL VI, N. 250, Apto 303, BL 6 QD L",
+   "preco": 117709.53,
+   "valor_avaliacao": 205000.0,
+   "desconto": 42.59,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 65.84 de área total, 45.65 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704003868",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -8.2250412,
-    "lng": -34.9441339
+    "lat": -8.1558233,
+    "lng": -34.9412179
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787705458540",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "SOCORRO",
+   "endereco": "VIA LOCAL VI, N. 250, Apto 405, BL 05",
+   "preco": 111967.59,
+   "valor_avaliacao": 195000.0,
+   "desconto": 42.59,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 65.84 de área total, 45.65 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705458540",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.1558233,
+    "lng": -34.9412179
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787714156675",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "DOIS CARNEIROS",
+   "endereco": "RUA PALHAMBU, N. 201, Apto 204, BL 10",
+   "preco": 112861.73,
+   "valor_avaliacao": 196557.2,
+   "desconto": 42.59,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 65.69 de área total, 46.03 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 2 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714156675",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.1149487,
+    "lng": -34.9673591
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787714889214",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "DOIS CARNEIROS",
+   "endereco": "R VICENTE ADOLFO DA SILVA, N. S/N, Apto 408, BL12",
+   "preco": 113019.36,
+   "valor_avaliacao": 196831.73,
+   "desconto": 42.59,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 66.12 de área total, 46.33 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 2 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714889214",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.1196202,
+    "lng": -34.968302
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1555522332603",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "PRAZERES",
+   "endereco": "RUA PROJETADA, N. S/N, QD 43 LT 14",
+   "preco": 41560.07,
+   "valor_avaliacao": 72200.0,
+   "desconto": 42.44,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 200.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555522332603",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.1828417,
+    "lng": -34.9422617
    },
    "geo_pendente": false
   },
@@ -12091,48 +12346,6 @@
     "fonte": "google",
     "lat": -8.097538499999999,
     "lng": -34.96663789999999
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555536593194",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "ZUMBI DO PACHECO",
-   "endereco": "RUA SANTA LUZIA, N. 221, Apto 303, BL 30 LT 13-C QD C",
-   "preco": 95044.76,
-   "valor_avaliacao": 164500.0,
-   "desconto": 42.23,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 57.24 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555536593194",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1203801,
-    "lng": -34.9665424
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555536863698",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "ZUMBI DO PACHECO",
-   "endereco": "RUA SANTA LUZIA, N. 221, Apto 203, BL 20",
-   "preco": 95333.65,
-   "valor_avaliacao": 165000.0,
-   "desconto": 42.23,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 57.24 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555536863698",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1203801,
-    "lng": -34.9665424
    },
    "geo_pendente": false
   },
@@ -12273,7 +12486,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 54.70 de área total, 36.33 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431169552",
    "tipo": "apartamento",
    "geo": {
@@ -12301,6 +12514,27 @@
     "fonte": "google",
     "lat": -8.1203801,
     "lng": -34.9665424
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1787701258816",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "SANTANA",
+   "endereco": "VIA LOCAL V, N. 636, Apto 202, BL 09",
+   "preco": 89892.11,
+   "valor_avaliacao": 155000.0,
+   "desconto": 42.01,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 61.64 de área total, 42.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701258816",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.111200499999999,
+    "lng": -34.9974331
    },
    "geo_pendente": false
   },
@@ -12651,7 +12885,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 62.94 de área total, 43.29 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708624018",
    "tipo": "apartamento",
    "geo": {
@@ -12735,7 +12969,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 57.24 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537253605",
    "tipo": "apartamento",
    "geo": {
@@ -12809,107 +13043,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787701657638",
+   "id": "8555535234735",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "ZUMBI DO PACHECO",
-   "endereco": "RUA SANTA LUZIA, N. 221, Apto 303, BL 44, LT 13-E, LOT SÍTIO PALHAMBU",
-   "preco": 80127.9,
-   "valor_avaliacao": 136000.0,
-   "desconto": 41.09,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 57.24 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701657638",
+   "bairro": "PIEDADE",
+   "endereco": "RUA ILHEUS, N. 1115, Apto 205, BL B LT 3 QD A-1",
+   "preco": 105610.35,
+   "valor_avaliacao": 180000.0,
+   "desconto": 41.33,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 51.50 de área total, 40.50 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535234735",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -8.1146275,
-    "lng": -34.9668644
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787704003868",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "SOCORRO",
-   "endereco": "VIA LOCAL VI, N. 250, Apto 303, BL 6 QD L",
-   "preco": 120807.15,
-   "valor_avaliacao": 205000.0,
-   "desconto": 41.07,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 65.84 de área total, 45.65 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704003868",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1558233,
-    "lng": -34.9412179
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787705458540",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "SOCORRO",
-   "endereco": "VIA LOCAL VI, N. 250, Apto 405, BL 05",
-   "preco": 114914.11,
-   "valor_avaliacao": 195000.0,
-   "desconto": 41.07,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 65.84 de área total, 45.65 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705458540",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1558233,
-    "lng": -34.9412179
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787714156675",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "DOIS CARNEIROS",
-   "endereco": "RUA PALHAMBU, N. 201, Apto 204, BL 10",
-   "preco": 115831.78,
-   "valor_avaliacao": 196557.2,
-   "desconto": 41.07,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 65.69 de área total, 46.03 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 2 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714156675",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1149487,
-    "lng": -34.9673591
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787714889214",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "DOIS CARNEIROS",
-   "endereco": "R VICENTE ADOLFO DA SILVA, N. S/N, Apto 408, BL12",
-   "preco": 115993.55,
-   "valor_avaliacao": 196831.73,
-   "desconto": 41.07,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 66.12 de área total, 46.33 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714889214",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1196202,
-    "lng": -34.968302
+    "lat": -8.1868498,
+    "lng": -34.9292773
    },
    "geo_pendente": false
   },
@@ -12931,27 +13081,6 @@
     "fonte": "google",
     "lat": -8.189844899999999,
     "lng": -34.9368584
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1555522332603",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "PRAZERES",
-   "endereco": "RUA PROJETADA, N. S/N, QD 43 LT 14",
-   "preco": 42653.76,
-   "valor_avaliacao": 72200.0,
-   "desconto": 40.93,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 200.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555522332603",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1828417,
-    "lng": -34.9422617
    },
    "geo_pendente": false
   },
@@ -13071,7 +13200,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 66.44 de área total, 47.69 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534215613",
    "tipo": "apartamento",
    "geo": {
@@ -13355,48 +13484,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1787701258816",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "SANTANA",
-   "endereco": "VIA LOCAL V, N. 636, Apto 202, BL 09",
-   "preco": 92257.69,
-   "valor_avaliacao": 155000.0,
-   "desconto": 40.48,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 61.64 de área total, 42.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701258816",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.111200499999999,
-    "lng": -34.9974331
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555535234735",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "PIEDADE",
-   "endereco": "RUA ILHEUS, N. 1115, Apto 205, BL B LT 3 QD A-1",
-   "preco": 108389.57,
-   "valor_avaliacao": 180000.0,
-   "desconto": 39.79,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 51.50 de área total, 40.50 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535234735",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1868498,
-    "lng": -34.9292773
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787701656968",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
@@ -13414,6 +13501,42 @@
     "fonte": "google",
     "lat": -8.1203801,
     "lng": -34.9665424
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555539727795",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "CANDEIAS",
+   "endereco": "AVENIDA ABDO CABUS, N. 1630, Apto 503, BL 06 VG GLEBA 27 A",
+   "preco": 129948.9,
+   "valor_avaliacao": 215000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 76.37 de área total, 45.58 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555539727795",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8787712821698",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "CANDEIAS",
+   "endereco": "RUA MAJOR MEDICO VICENTE FONSECA DE MATO, N. 1129, Apto 06, BL A",
+   "preco": 132970.97,
+   "valor_avaliacao": 220000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 66.02 de área total, 45.76 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712821698",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.204606199999999,
+    "lng": -34.9276453
    },
    "geo_pendente": false
   },
@@ -13491,7 +13614,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 75.63 de área total, 45.37 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704522733",
    "tipo": "apartamento",
    "geo": {
@@ -13743,7 +13866,7 @@
    "desconto": 38.77,
    "financiamento": "Não",
    "descricao": "Apartamento, 57.24 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537538332",
    "tipo": "apartamento",
    "geo": {
@@ -14342,6 +14465,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1787701048447",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "CANDEIAS",
+   "endereco": "RUA JARANGARI, N. 673, Apto 102, BL 01",
+   "preco": 205000.0,
+   "valor_avaliacao": 160000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 40.28 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701048447",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787719536166",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
@@ -14384,6 +14522,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787719722393",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "CANDEIAS",
+   "endereco": "RUA JARANGARI, N. 793, Apto 302, BL10",
+   "preco": 255470.28,
+   "valor_avaliacao": 188000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 71.53 de área total, 40.28 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719722393",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787718667151",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
@@ -14424,6 +14577,21 @@
     "lng": -34.9673591
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787716700496",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "SANTANA",
+   "endereco": "VIA LOCAL I, N. 176, Apto 301, BL 02 LOT RESERVA VILLA NATAL",
+   "preco": 235390.0,
+   "valor_avaliacao": 155000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 60.84 de área total, 40.28 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716700496",
+   "tipo": "apartamento"
   },
   {
    "id": "8444429322071",
@@ -15182,6 +15350,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444415675432",
+   "uf": "PE",
+   "cidade": "LAGOA DO CARRO",
+   "bairro": "LOT RECANTO CARPINA",
+   "endereco": "VIA PRINCIPAL, N. SN, LT98A",
+   "preco": 65951.98,
+   "valor_avaliacao": 167000.0,
+   "desconto": 60.51,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 2041.90 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415675432",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.8505451,
+    "lng": -35.3194005
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444415596281",
    "uf": "PE",
    "cidade": "LAGOA DO CARRO",
@@ -15203,23 +15392,23 @@
    "geo_pendente": false
   },
   {
-   "id": "1444415675432",
+   "id": "1444415768589",
    "uf": "PE",
    "cidade": "LAGOA DO CARRO",
-   "bairro": "LOT RECANTO CARPINA",
-   "endereco": "VIA PRINCIPAL, N. SN, LT98A",
-   "preco": 70662.84,
-   "valor_avaliacao": 167000.0,
-   "desconto": 57.69,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 2041.90 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415675432",
+   "bairro": "CENTRO",
+   "endereco": "VIA PRINCIPAL, N. 18 A,",
+   "preco": 57179.22,
+   "valor_avaliacao": 132000.0,
+   "desconto": 56.69,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1250.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415768589",
    "tipo": "terreno",
    "geo": {
     "fonte": "google",
-    "lat": -7.8505451,
-    "lng": -35.3194005
+    "lat": -7.8436356,
+    "lng": -35.3108012
    },
    "geo_pendente": false
   },
@@ -15266,27 +15455,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444415768589",
-   "uf": "PE",
-   "cidade": "LAGOA DO CARRO",
-   "bairro": "CENTRO",
-   "endereco": "VIA PRINCIPAL, N. 18 A,",
-   "preco": 60991.16,
-   "valor_avaliacao": 132000.0,
-   "desconto": 53.8,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1250.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415768589",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.8436356,
-    "lng": -35.3108012
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444411550862",
    "uf": "PE",
    "cidade": "LAGOA DO CARRO",
@@ -15304,6 +15472,27 @@
     "fonte": "google",
     "lat": -7.839931200000001,
     "lng": -35.3136861
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444414283891",
+   "uf": "PE",
+   "cidade": "LAGOA DO CARRO",
+   "bairro": "REC. CARPINA",
+   "endereco": "RUA E-5, N. SN, LT 19",
+   "preco": 62348.45,
+   "valor_avaliacao": 127000.0,
+   "desconto": 50.91,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 2512.50 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414283891",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.8399142,
+    "lng": -35.3136264
    },
    "geo_pendente": false
   },
@@ -15367,27 +15556,6 @@
     "fonte": "google",
     "lat": -7.8436356,
     "lng": -35.3108012
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444414283891",
-   "uf": "PE",
-   "cidade": "LAGOA DO CARRO",
-   "bairro": "REC. CARPINA",
-   "endereco": "RUA E-5, N. SN, LT 19",
-   "preco": 64182.23,
-   "valor_avaliacao": 127000.0,
-   "desconto": 49.47,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 2512.50 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414283891",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.8399142,
-    "lng": -35.3136264
    },
    "geo_pendente": false
   },
@@ -15528,7 +15696,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 75.76 de área total, 75.76 de área privativa, 148.35 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418839124",
    "tipo": "casa",
    "geo": {
@@ -15749,6 +15917,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444406147712",
+   "uf": "PE",
+   "cidade": "OLINDA",
+   "bairro": "RIO DOCE",
+   "endereco": "RUA BRIGADEIRO EDUARDO GOMES, N. 4, LOTE 10 QUADRA 77",
+   "preco": 220578.99,
+   "valor_avaliacao": 425000.0,
+   "desconto": 48.1,
+   "financiamento": "Não",
+   "descricao": "Casa, 200.00 de área total, 200.00 de área privativa, 200.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406147712",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.960476699999999,
+    "lng": -34.8353437
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444415566526",
    "uf": "PE",
    "cidade": "OLINDA",
@@ -15770,6 +15959,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444401921169",
+   "uf": "PE",
+   "cidade": "OLINDA",
+   "bairro": "CASA CAIADA",
+   "endereco": "AVENIDA GOVERNADOR CARLOS DE LIMA CAVALC, N. 4646, Apto 303, QD B",
+   "preco": 93443.54,
+   "valor_avaliacao": 175000.0,
+   "desconto": 46.61,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 86.68 de área total, 60.94 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401921169",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.962913899999998,
+    "lng": -34.8313476
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444406231738",
    "uf": "PE",
    "cidade": "OLINDA",
@@ -15787,27 +15997,6 @@
     "fonte": "google",
     "lat": -7.967811900000001,
     "lng": -34.8419508
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444406147712",
-   "uf": "PE",
-   "cidade": "OLINDA",
-   "bairro": "RIO DOCE",
-   "endereco": "RUA BRIGADEIRO EDUARDO GOMES, N. 4, LOTE 10 QUADRA 77",
-   "preco": 227066.61,
-   "valor_avaliacao": 425000.0,
-   "desconto": 46.58,
-   "financiamento": "Não",
-   "descricao": "Casa, 200.00 de área total, 200.00 de área privativa, 200.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406147712",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.960476699999999,
-    "lng": -34.8353437
    },
    "geo_pendente": false
   },
@@ -15875,27 +16064,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444401921169",
-   "uf": "PE",
-   "cidade": "OLINDA",
-   "bairro": "CASA CAIADA",
-   "endereco": "AVENIDA GOVERNADOR CARLOS DE LIMA CAVALC, N. 4646, Apto 303, QD B",
-   "preco": 96191.88,
-   "valor_avaliacao": 175000.0,
-   "desconto": 45.04,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 86.68 de área total, 60.94 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401921169",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.962913899999998,
-    "lng": -34.8313476
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8091700011193",
    "uf": "PE",
    "cidade": "OLINDA",
@@ -15922,18 +16090,81 @@
    "cidade": "OLINDA",
    "bairro": "FRAGOSO",
    "endereco": "RUA ADONIS, N. 62, Apto 03, LT 38, QD 08, VG 03",
-   "preco": 98222.55,
+   "preco": 95704.02,
    "valor_avaliacao": 170000.0,
-   "desconto": 42.23,
-   "financiamento": "Não",
+   "desconto": 43.71,
+   "financiamento": "Sim",
    "descricao": "Apartamento, 64.52 de área total, 50.10 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414851847",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -7.9858743,
     "lng": -34.8493272
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444423297328",
+   "uf": "PE",
+   "cidade": "OLINDA",
+   "bairro": "RIO DOCE",
+   "endereco": "RUA DA AMORA, N. 125, LT 13 QD 20",
+   "preco": 239757.64,
+   "valor_avaliacao": 418000.0,
+   "desconto": 42.65,
+   "financiamento": "Sim",
+   "descricao": "Casa, 185.02 de área total, 185.02 de área privativa, 200.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444423297328",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.964040799999999,
+    "lng": -34.8534742
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444401449478",
+   "uf": "PE",
+   "cidade": "OLINDA",
+   "bairro": "JARDIM ATLANTICO",
+   "endereco": "RUA RIVIERA, N. 15, CS 02 BL E",
+   "preco": 82827.75,
+   "valor_avaliacao": 142818.99,
+   "desconto": 42.01,
+   "financiamento": "Sim",
+   "descricao": "Casa, 0.00 de área total, 52.30 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401449478",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.9820609,
+    "lng": -34.8462988
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444400589730",
+   "uf": "PE",
+   "cidade": "OLINDA",
+   "bairro": "CASA CAIADA",
+   "endereco": "RUA PROFESSORA MARLY FIGUEIREDO, N. 768, Apto 02,",
+   "preco": 88152.27,
+   "valor_avaliacao": 152000.0,
+   "desconto": 42.01,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 102.52 de área total, 77.13 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), DCE, cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444400589730",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.982272500000001,
+    "lng": -34.8395588
    },
    "geo_pendente": false
   },
@@ -15959,23 +16190,23 @@
    "geo_pendente": false
   },
   {
-   "id": "1444423297328",
+   "id": "1555533600299",
    "uf": "PE",
    "cidade": "OLINDA",
-   "bairro": "RIO DOCE",
-   "endereco": "RUA DA AMORA, N. 125, LT 13 QD 20",
-   "preco": 246417.57,
-   "valor_avaliacao": 418000.0,
-   "desconto": 41.05,
+   "bairro": "FRAGOSO",
+   "endereco": "RUA TACHO, N. 122, Apto 102,",
+   "preco": 97982.93,
+   "valor_avaliacao": 167000.0,
+   "desconto": 41.33,
    "financiamento": "Sim",
-   "descricao": "Casa, 185.02 de área total, 185.02 de área privativa, 200.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444423297328",
-   "tipo": "casa",
+   "descricao": "Apartamento, 89.20 de área total, 50.24 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555533600299",
+   "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -7.964040799999999,
-    "lng": -34.8534742
+    "lat": -8.0011165,
+    "lng": -34.8497259
    },
    "geo_pendente": false
   },
@@ -15997,48 +16228,6 @@
     "fonte": "google",
     "lat": -8.003950699999999,
     "lng": -34.8764324
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444401449478",
-   "uf": "PE",
-   "cidade": "OLINDA",
-   "bairro": "JARDIM ATLANTICO",
-   "endereco": "RUA RIVIERA, N. 15, CS 02 BL E",
-   "preco": 85007.43,
-   "valor_avaliacao": 142818.99,
-   "desconto": 40.48,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 52.30 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401449478",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.9820609,
-    "lng": -34.8462988
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444400589730",
-   "uf": "PE",
-   "cidade": "OLINDA",
-   "bairro": "CASA CAIADA",
-   "endereco": "RUA PROFESSORA MARLY FIGUEIREDO, N. 768, Apto 02,",
-   "preco": 90472.07,
-   "valor_avaliacao": 152000.0,
-   "desconto": 40.48,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 102.52 de área total, 77.13 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), DCE, cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444400589730",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.982272500000001,
-    "lng": -34.8395588
    },
    "geo_pendente": false
   },
@@ -16074,7 +16263,7 @@
    "desconto": 40.36,
    "financiamento": "Não",
    "descricao": "Casa, 111.48 de área total, 68.81 de área privativa, 111.48 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406092683",
    "tipo": "casa",
    "geo": {
@@ -16102,27 +16291,6 @@
     "fonte": "google",
     "lat": -7.9748455,
     "lng": -34.8410009
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1555533600299",
-   "uf": "PE",
-   "cidade": "OLINDA",
-   "bairro": "FRAGOSO",
-   "endereco": "RUA TACHO, N. 122, Apto 102,",
-   "preco": 100561.43,
-   "valor_avaliacao": 167000.0,
-   "desconto": 39.79,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 89.20 de área total, 50.24 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555533600299",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.0011165,
-    "lng": -34.8497259
    },
    "geo_pendente": false
   },
@@ -16263,7 +16431,7 @@
    "desconto": 38.24,
    "financiamento": "Não",
    "descricao": "Casa, 150.00 de área total, 50.89 de área privativa, 150.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8091700009547",
    "tipo": "casa",
    "geo": {
@@ -16531,12 +16699,12 @@
    "cidade": "PAUDALHO",
    "bairro": "LOT PQ DAS JAQUEIRAS",
    "endereco": "RUA 01 - BR 408, N. SN, QD A LT 16",
-   "preco": 446120.01,
+   "preco": 433373.72,
    "valor_avaliacao": 800000.0,
-   "desconto": 44.24,
+   "desconto": 45.83,
    "financiamento": "Sim",
    "descricao": "Casa, 394.12 de área total, 394.12 de área privativa, 540.00 de área do terreno,  4 qto(s), a.serv, WC, 2 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417076048",
    "tipo": "casa",
    "geo": {
@@ -16552,12 +16720,12 @@
    "cidade": "PAUDALHO",
    "bairro": "COND VIVENDA DO VALE",
    "endereco": "RUA ALAMEDA NORTE, N. SN, UN 21",
-   "preco": 74825.33,
+   "preco": 72906.73,
    "valor_avaliacao": 127000.0,
-   "desconto": 41.09,
-   "financiamento": "Não",
+   "desconto": 42.6,
+   "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 425.60 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401388584",
    "tipo": "terreno",
    "geo": {
@@ -16687,9 +16855,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711523863",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -7.891223699999999,
-    "lng": -34.8369849,
-    "fonte": "google"
+    "lng": -34.8369849
    },
    "geo_pendente": false
   },
@@ -16778,6 +16946,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787716424170",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "FRAGOSO",
+   "endereco": "AVENIDA NAPOLES, N. 345, Apto 404, 03 PV BL 15",
+   "preco": 77333.59,
+   "valor_avaliacao": 174000.0,
+   "desconto": 55.56,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 58.29 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716424170",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.967396699999999,
+    "lng": -34.8516102
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444420346113",
    "uf": "PE",
    "cidade": "PAULISTA",
@@ -16841,6 +17030,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8158300006545",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "PAU AMARELO",
+   "endereco": "RUA MANOEL CHAVES DA COSTA FIGUEIROA, N. 1293, CS 29",
+   "preco": 72374.12,
+   "valor_avaliacao": 156247.0,
+   "desconto": 53.68,
+   "financiamento": "Não",
+   "descricao": "Casa, 50.43 de área total, 50.29 de área privativa, 126.61 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8158300006545",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.916098499999999,
+    "lng": -34.8328155
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444408554470",
    "uf": "PE",
    "cidade": "PAULISTA",
@@ -16879,27 +17089,6 @@
     "fonte": "google",
     "lat": -7.938308900000001,
     "lng": -34.8573495
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787716424170",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "FRAGOSO",
-   "endereco": "AVENIDA NAPOLES, N. 345, Apto 404, 03 PV BL 15",
-   "preco": 82489.16,
-   "valor_avaliacao": 174000.0,
-   "desconto": 52.6,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 58.29 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716424170",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.967396699999999,
-    "lng": -34.8516102
    },
    "geo_pendente": false
   },
@@ -16988,6 +17177,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444419352008",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "MARANGUAPE II",
+   "endereco": "RUA MARIA LETICIA, N. 38, Apto 102, LT 12 Q XXII",
+   "preco": 52456.91,
+   "valor_avaliacao": 108000.0,
+   "desconto": 51.43,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 46.48 de área total, 43.39 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419352008",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.938877600000001,
+    "lng": -34.8532711
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444407195654",
    "uf": "PE",
    "cidade": "PAULISTA",
@@ -17026,6 +17236,27 @@
     "fonte": "google",
     "lat": -7.938308900000001,
     "lng": -34.8573495
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716018849",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "FRAGOSO",
+   "endereco": "AVENIDA NAPOLES, N. 345, Apto 202, BL 09",
+   "preco": 84675.72,
+   "valor_avaliacao": 171012.1,
+   "desconto": 50.49,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 45.26 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716018849",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.967396699999999,
+    "lng": -34.8516102
    },
    "geo_pendente": false
   },
@@ -17110,27 +17341,6 @@
     "fonte": "google",
     "lat": -7.926463300000001,
     "lng": -34.8614938
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787716018849",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "FRAGOSO",
-   "endereco": "AVENIDA NAPOLES, N. 345, Apto 202, BL 09",
-   "preco": 87095.03,
-   "valor_avaliacao": 171012.1,
-   "desconto": 49.08,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 45.26 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716018849",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.967396699999999,
-    "lng": -34.8516102
    },
    "geo_pendente": false
   },
@@ -17408,6 +17618,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787703134390",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "JARDIM PAULISTA",
+   "endereco": "RUA ANTONIO FERREIRA, N. 48, Apto 204, BL 01",
+   "preco": 95458.41,
+   "valor_avaliacao": 178983.92,
+   "desconto": 46.67,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 0.00 de área total, 45.57 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703134390",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.954411799999999,
+    "lng": -34.8895036
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555534517237",
    "uf": "PE",
    "cidade": "PAULISTA",
@@ -17492,27 +17723,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787703134390",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "JARDIM PAULISTA",
-   "endereco": "RUA ANTONIO FERREIRA, N. 48, Apto 204, BL 01",
-   "preco": 98110.03,
-   "valor_avaliacao": 178983.92,
-   "desconto": 45.19,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 45.57 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703134390",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.954411799999999,
-    "lng": -34.8895036
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444432610783",
    "uf": "PE",
    "cidade": "PAULISTA",
@@ -17534,6 +17744,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8444425180140",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "PAU AMARELO",
+   "endereco": "RUA JOSE RAMOS DE VASCONCELOS, N. 575, Apto 102, LT 17 QD AN",
+   "preco": 95704.02,
+   "valor_avaliacao": 170000.0,
+   "desconto": 43.71,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 53.15 de área total, 50.00 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425180140",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.9085242,
+    "lng": -34.833017
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555533615758",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "PAU AMARELO",
+   "endereco": "RUA SAO JOSE DO EGITO, N. 1003, Apto 301, BL 02",
+   "preco": 96266.99,
+   "valor_avaliacao": 171000.0,
+   "desconto": 43.71,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 69.91 de área total, 48.70 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533615758",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.914935400000001,
+    "lng": -34.8303521
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444416291342",
    "uf": "PE",
    "cidade": "PAULISTA",
@@ -17551,6 +17803,27 @@
     "fonte": "google",
     "lat": -7.8835925,
     "lng": -34.8366505
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444404915060",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "JANGA",
+   "endereco": "RUA ITAPETIM, N. 62, QD 05",
+   "preco": 85267.78,
+   "valor_avaliacao": 151000.0,
+   "desconto": 43.54,
+   "financiamento": "Não",
+   "descricao": "Casa, 49.22 de área total, 49.22 de área privativa, 720.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404915060",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.9258325,
+    "lng": -34.8228174
    },
    "geo_pendente": false
   },
@@ -17618,6 +17891,90 @@
    "geo_pendente": false
   },
   {
+   "id": "8444410947327",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "MARANGUAPE II",
+   "endereco": "RUA ISRAEL CARMO DO NASCIMENTO, N. 307, Apto 02, LT 16 QD 24",
+   "preco": 109096.64,
+   "valor_avaliacao": 190000.0,
+   "desconto": 42.59,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 51.82 de área total, 51.82 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410947327",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.9377461,
+    "lng": -34.8524251
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787709957720",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "NOSSA SENHORA DO O",
+   "endereco": "RUA PESCADOR JOSE DOS REIS SANTANA, N. 449, Apto 02, BL 4",
+   "preco": 108522.44,
+   "valor_avaliacao": 189000.0,
+   "desconto": 42.59,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 46.47 de área total, 46.47 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709957720",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.899264699999999,
+    "lng": -34.8293031
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787711522212",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "NOSSA SENHORA DA CONCEICAO",
+   "endereco": "RUA CAETANOPOLIS, N. 77, Apto 07, TERREO, BLOCO C",
+   "preco": 107374.05,
+   "valor_avaliacao": 187000.0,
+   "desconto": 42.59,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 78.13 de área total, 46.52 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711522212",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.891223699999999,
+    "lng": -34.8369849
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787710285535",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "FRAGOSO",
+   "endereco": "AVENIDA NAPOLES, N. 345, Apto 201, BL 01",
+   "preco": 111967.59,
+   "valor_avaliacao": 195000.0,
+   "desconto": 42.59,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 56.76 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710285535",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.967396699999999,
+    "lng": -34.8516102
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444402381026",
    "uf": "PE",
    "cidade": "PAULISTA",
@@ -17635,48 +17992,6 @@
     "fonte": "google",
     "lat": -7.921052899999999,
     "lng": -34.8334316
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444425180140",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "PAU AMARELO",
-   "endereco": "RUA JOSE RAMOS DE VASCONCELOS, N. 575, Apto 102, LT 17 QD AN",
-   "preco": 98222.55,
-   "valor_avaliacao": 170000.0,
-   "desconto": 42.23,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 53.15 de área total, 50.00 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425180140",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.9085242,
-    "lng": -34.833017
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555533615758",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "PAU AMARELO",
-   "endereco": "RUA SAO JOSE DO EGITO, N. 1003, Apto 301, BL 02",
-   "preco": 98800.33,
-   "valor_avaliacao": 171000.0,
-   "desconto": 42.23,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 69.91 de área total, 48.70 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533615758",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.914935400000001,
-    "lng": -34.8303521
    },
    "geo_pendente": false
   },
@@ -17786,6 +18101,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1787701746659",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "FRAGOSO",
+   "endereco": "AVENIDA NAPOLES, N. SN, Apto 401, BL 8",
+   "preco": 88152.27,
+   "valor_avaliacao": 152000.0,
+   "desconto": 42.01,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 45.26 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701746659",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.9670081,
+    "lng": -34.8553706
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444428389059",
    "uf": "PE",
    "cidade": "PAULISTA",
@@ -17828,6 +18164,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787707701884",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "MARANGUAPE I",
+   "endereco": "RUA MARIA EMILIA BOECKMANN, N. 1017, Apto 401, PAVIMENTO 3 BL 7",
+   "preco": 84892.14,
+   "valor_avaliacao": 145000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 80.19 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707701884",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787704030180",
    "uf": "PE",
    "cidade": "PAULISTA",
@@ -17859,7 +18210,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 45.21 de área total, 45.21 de área privativa, 450.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407193015",
    "tipo": "casa",
    "geo": {
@@ -17922,7 +18273,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 43.47 de área total, 43.47 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC Emp, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534108175",
    "tipo": "apartamento",
    "geo": {
@@ -18059,86 +18410,44 @@
    "geo_pendente": false
   },
   {
-   "id": "8444410947327",
+   "id": "8444417603810",
    "uf": "PE",
    "cidade": "PAULISTA",
    "bairro": "MARANGUAPE II",
-   "endereco": "RUA ISRAEL CARMO DO NASCIMENTO, N. 307, Apto 02, LT 16 QD 24",
-   "preco": 111967.6,
-   "valor_avaliacao": 190000.0,
-   "desconto": 41.07,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 51.82 de área total, 51.82 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410947327",
-   "tipo": "apartamento",
+   "endereco": "AVENIDA ANTONIO CABRAL DE SOUZA, N. 3298, CS 103",
+   "preco": 102393.92,
+   "valor_avaliacao": 174518.0,
+   "desconto": 41.33,
+   "financiamento": "Sim",
+   "descricao": "Casa, 63.31 de área total, 49.16 de área privativa, 64.38 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417603810",
+   "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -7.9377461,
-    "lng": -34.8524251
+    "lat": -7.937935200000001,
+    "lng": -34.8639602
    },
    "geo_pendente": false
   },
   {
-   "id": "8787709957720",
+   "id": "1787700547024",
    "uf": "PE",
    "cidade": "PAULISTA",
    "bairro": "NOSSA SENHORA DO O",
-   "endereco": "RUA PESCADOR JOSE DOS REIS SANTANA, N. 449, Apto 02, BL 4",
-   "preco": 111378.29,
-   "valor_avaliacao": 189000.0,
-   "desconto": 41.07,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 46.47 de área total, 46.47 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709957720",
+   "endereco": "RUA PESCADOR JOSE DOS REIS SANTANA, N. 449, Apto 008, BL 01 LT 6A QD M",
+   "preco": 99909.18,
+   "valor_avaliacao": 170283.05,
+   "desconto": 41.33,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 62.75 de área total, 46.47 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700547024",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -7.899264699999999,
     "lng": -34.8293031
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787711522212",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "NOSSA SENHORA DA CONCEICAO",
-   "endereco": "RUA CAETANOPOLIS, N. 77, Apto 07, TERREO, BLOCO C",
-   "preco": 110199.68,
-   "valor_avaliacao": 187000.0,
-   "desconto": 41.07,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 78.13 de área total, 46.52 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711522212",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.891223699999999,
-    "lng": -34.8369849
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787710285535",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "FRAGOSO",
-   "endereco": "AVENIDA NAPOLES, N. 345, Apto 201, BL 01",
-   "preco": 114914.11,
-   "valor_avaliacao": 195000.0,
-   "desconto": 41.07,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 56.76 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710285535",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.967396699999999,
-    "lng": -34.8516102
    },
    "geo_pendente": false
   },
@@ -18363,7 +18672,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 67.41 de área total, 58.50 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412283663",
    "tipo": "apartamento",
    "geo": {
@@ -18542,69 +18851,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1787701746659",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "FRAGOSO",
-   "endereco": "AVENIDA NAPOLES, N. SN, Apto 401, BL 8",
-   "preco": 90472.07,
-   "valor_avaliacao": 152000.0,
-   "desconto": 40.48,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 45.26 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701746659",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.9670081,
-    "lng": -34.8553706
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444417603810",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "MARANGUAPE II",
-   "endereco": "AVENIDA ANTONIO CABRAL DE SOUZA, N. 3298, CS 103",
-   "preco": 105088.5,
-   "valor_avaliacao": 174518.0,
-   "desconto": 39.79,
-   "financiamento": "Não",
-   "descricao": "Casa, 63.31 de área total, 49.16 de área privativa, 64.38 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417603810",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.937935200000001,
-    "lng": -34.8639602
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1787700547024",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "NOSSA SENHORA DO O",
-   "endereco": "RUA PESCADOR JOSE DOS REIS SANTANA, N. 449, Apto 008, BL 01 LT 6A QD M",
-   "preco": 102538.37,
-   "valor_avaliacao": 170283.05,
-   "desconto": 39.79,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 62.75 de área total, 46.47 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700547024",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.899264699999999,
-    "lng": -34.8293031
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444423767110",
    "uf": "PE",
    "cidade": "PAULISTA",
@@ -18624,6 +18870,21 @@
     "lng": -46.6395571
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787706891094",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "MARANGUAPE I",
+   "endereco": "AVENIDA ANTONIO CABRAL DE SOUZA, N. 1770, Apto 402, PAVIMENTO 3 BL 9",
+   "preco": 111816.5,
+   "valor_avaliacao": 185000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 59.34 de área total, 40.28 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706891094",
+   "tipo": "apartamento"
   },
   {
    "id": "8787712524693",
@@ -18993,7 +19254,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Apartamento, 68.88 de área total, 43.00 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701823521",
    "tipo": "apartamento",
    "geo": {
@@ -19035,7 +19296,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Apartamento, 65.47 de área total, 44.70 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408687178",
    "tipo": "apartamento",
    "geo": {
@@ -19345,12 +19606,12 @@
    "cidade": "PETROLINA",
    "bairro": "AREIA BRANCA",
    "endereco": "RUA DO VATAPA, N. 36, CS 36, LT 04, QD 03",
-   "preco": 480846.94,
+   "preco": 467108.46,
    "valor_avaliacao": 900000.0,
-   "desconto": 46.58,
+   "desconto": 48.1,
    "financiamento": "Sim",
    "descricao": "Casa, 260.00 de área total, 44.05 de área privativa, 117.46 de área do terreno,  2 qto(s), a.serv, WC, WC Emp, 1 sala(s), DCE, cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421814180",
    "tipo": "casa",
    "geo": {
@@ -19366,12 +19627,12 @@
    "cidade": "PETROLINA",
    "bairro": "VILA EDUARDO",
    "endereco": "RUA DOS IMIGRANTES, N. 207, LT15 QD 66 LOT VILA EDUARDO",
-   "preco": 582511.73,
+   "preco": 566330.85,
    "valor_avaliacao": 1060000.0,
-   "desconto": 45.05,
+   "desconto": 46.58,
    "financiamento": "Sim",
    "descricao": "Casa, 237.50 de área total, 231.74 de área privativa, 237.50 de área do terreno,  3 qto(s), a.serv, WC, 6 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418687040",
    "tipo": "casa",
    "geo": {
@@ -19508,17 +19769,38 @@
    "geo_pendente": false
   },
   {
+   "id": "1444405343186",
+   "uf": "PE",
+   "cidade": "RECIFE",
+   "bairro": "BOA VIAGEM",
+   "endereco": "RUA ANTONIO DOS PASSOS, N. 315, Apto 301",
+   "preco": 292231.75,
+   "valor_avaliacao": 595000.0,
+   "desconto": 50.89,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 0.00 de área total, 141.80 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), DCE, cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444405343186",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.1365594,
+    "lng": -34.9050574
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444406621686",
    "uf": "PE",
    "cidade": "RECIFE",
    "bairro": "AFOGADOS",
    "endereco": "RUA DESEMBARGADOR DIRCEU BORGES, N. 157,",
-   "preco": 228636.5,
+   "preco": 222104.03,
    "valor_avaliacao": 410000.0,
-   "desconto": 44.24,
+   "desconto": 45.83,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 166.37 de área privativa, 264.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406621686",
    "tipo": "casa",
    "geo": {
@@ -19550,6 +19832,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787717206355",
+   "uf": "PE",
+   "cidade": "RECIFE",
+   "bairro": "GUABIRABA",
+   "endereco": "AVENIDA DA RECUPERACAO, N. 6171, Apto 401, BL 01",
+   "preco": 102209.23,
+   "valor_avaliacao": 176900.0,
+   "desconto": 42.23,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 162.45 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717206355",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.9611343,
+    "lng": -34.9174863
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787704882438",
    "uf": "PE",
    "cidade": "RECIFE",
@@ -19571,25 +19874,19 @@
    "geo_pendente": false
   },
   {
-   "id": "8787717206355",
+   "id": "8787704104958",
    "uf": "PE",
    "cidade": "RECIFE",
-   "bairro": "GUABIRABA",
-   "endereco": "AVENIDA DA RECUPERACAO, N. 6171, Apto 401, BL 01",
-   "preco": 104829.98,
-   "valor_avaliacao": 176900.0,
-   "desconto": 40.75,
+   "bairro": "TEJIPIO",
+   "endereco": "RUA QUEIRA DEUS, N. 178, Apto 04, BL 01",
+   "preco": 81730.63,
+   "valor_avaliacao": 139600.0,
+   "desconto": 41.46,
    "financiamento": "Não",
-   "descricao": "Apartamento, 162.45 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717206355",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.9611343,
-    "lng": -34.9174863
-   },
-   "geo_pendente": false
+   "descricao": "Apartamento, 69.98 de área total, 41.80 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704104958",
+   "tipo": "apartamento"
   },
   {
    "id": "8787716057887",
@@ -19611,6 +19908,21 @@
     "lng": -34.9634599
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787720025986",
+   "uf": "PE",
+   "cidade": "RECIFE",
+   "bairro": "GUABIRABA",
+   "endereco": "AVENIDA DA RECUPERACAO, N. 6171, Apto 04, BL 08 LT 17B",
+   "preco": 101904.73,
+   "valor_avaliacao": 165000.0,
+   "desconto": 38.24,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 41.79 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720025986",
+   "tipo": "apartamento"
   },
   {
    "id": "1444411673095",
@@ -19716,6 +20028,21 @@
     "lng": -34.9484811
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1787700274680",
+   "uf": "PE",
+   "cidade": "RECIFE",
+   "bairro": "VARZEA",
+   "endereco": "AVENIDA AFONSO OLINDENSE, N. 1436, Apto 1705,",
+   "preco": 288000.0,
+   "valor_avaliacao": 288000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 47.45 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700274680",
+   "tipo": "apartamento"
   },
   {
    "id": "1444409729402",
@@ -19828,12 +20155,12 @@
    "cidade": "SALGUEIRO",
    "bairro": "SÃO VICENTE DE PAULO",
    "endereco": "RUA DA BRAÚNA, N. SN, LT 14 QD P",
-   "preco": 82753.0,
+   "preco": 77885.18,
    "valor_avaliacao": 164288.51,
-   "desconto": 49.63,
-   "financiamento": "Não",
+   "desconto": 52.6,
+   "financiamento": "Sim",
    "descricao": "Terreno, 50.00 de área total, 0.00 de área privativa, 178.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433601753",
    "tipo": "terreno",
    "geo": {
@@ -19991,6 +20318,63 @@
    "geo_pendente": false
   },
   {
+   "id": "8444412643473",
+   "uf": "PE",
+   "cidade": "SANTA CRUZ DO CAPIBARIBE",
+   "bairro": "MALAQUIAS CARDOSO",
+   "endereco": "RUA GUSTAVO GOMES DA SILVA, N. 87, CS 02",
+   "preco": 92889.2,
+   "valor_avaliacao": 165000.0,
+   "desconto": 43.71,
+   "financiamento": "Sim",
+   "descricao": "Casa, 69.80 de área total, 69.80 de área privativa, 70.00 de área do terreno,  2 qto(s), a.serv, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412643473",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.949607399999999,
+    "lng": -36.1961881
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444406247200",
+   "uf": "PE",
+   "cidade": "SANTA CRUZ DO CAPIBARIBE",
+   "bairro": "DONA DOM",
+   "endereco": "RUA JOSE ROBERTO RAMOS, N. 356, LOTE 27, QUADRA 38",
+   "preco": 90074.38,
+   "valor_avaliacao": 160000.0,
+   "desconto": 43.71,
+   "financiamento": "Não",
+   "descricao": "Casa, 67.94 de área total, 67.94 de área privativa, 125.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406247200",
+   "tipo": "casa"
+  },
+  {
+   "id": "8555534253396",
+   "uf": "PE",
+   "cidade": "SANTA CRUZ DO CAPIBARIBE",
+   "bairro": "MALHADA DO MEIO",
+   "endereco": "RUA PROJETADA 12, N. 458,",
+   "preco": 95062.19,
+   "valor_avaliacao": 168859.91,
+   "desconto": 43.71,
+   "financiamento": "Sim",
+   "descricao": "Casa, 50.00 de área total, 50.00 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534253396",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.9194425,
+    "lng": -36.2324612
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787714439529",
    "uf": "PE",
    "cidade": "SANTA CRUZ DO CAPIBARIBE",
@@ -20012,59 +20396,17 @@
    "geo_pendente": false
   },
   {
-   "id": "8444412643473",
-   "uf": "PE",
-   "cidade": "SANTA CRUZ DO CAPIBARIBE",
-   "bairro": "MALAQUIAS CARDOSO",
-   "endereco": "RUA GUSTAVO GOMES DA SILVA, N. 87, CS 02",
-   "preco": 95333.65,
-   "valor_avaliacao": 165000.0,
-   "desconto": 42.23,
-   "financiamento": "Não",
-   "descricao": "Casa, 69.80 de área total, 69.80 de área privativa, 70.00 de área do terreno,  2 qto(s), a.serv, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412643473",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.949607399999999,
-    "lng": -36.1961881
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555534253396",
-   "uf": "PE",
-   "cidade": "SANTA CRUZ DO CAPIBARIBE",
-   "bairro": "MALHADA DO MEIO",
-   "endereco": "RUA PROJETADA 12, N. 458,",
-   "preco": 97563.83,
-   "valor_avaliacao": 168859.91,
-   "desconto": 42.23,
-   "financiamento": "Não",
-   "descricao": "Casa, 50.00 de área total, 50.00 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534253396",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.9194425,
-    "lng": -36.2324612
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444407213385",
    "uf": "PE",
    "cidade": "SANTA CRUZ DO CAPIBARIBE",
    "bairro": "L ARMANDO ALEIXO II",
    "endereco": "RUA VIA LOCAL 06, N. 162, CS 04, QD M, LT 01",
-   "preco": 123444.36,
+   "preco": 120279.12,
    "valor_avaliacao": 209475.14,
-   "desconto": 41.07,
-   "financiamento": "Não",
+   "desconto": 42.59,
+   "financiamento": "Sim",
    "descricao": "Casa, 69.20 de área total, 69.20 de área privativa, 105.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407213385",
    "tipo": "casa",
    "geo": {
@@ -20290,12 +20632,12 @@
    "cidade": "SAO BENTO DO UNA",
    "bairro": "SERIDO",
    "endereco": "AVENIDA PROJETADA 01, N. 17,",
-   "preco": 86194.78,
+   "preco": 83984.66,
    "valor_avaliacao": 151000.0,
-   "desconto": 42.92,
-   "financiamento": "Não",
+   "desconto": 44.39,
+   "financiamento": "Sim",
    "descricao": "Casa, 116.60 de área total, 116.60 de área privativa, 126.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421789450",
    "tipo": "casa",
    "geo": {
@@ -20304,6 +20646,21 @@
     "lng": -36.4427965
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444416056955",
+   "uf": "PE",
+   "cidade": "SAO BENTO DO UNA",
+   "bairro": "TERREIROS",
+   "endereco": "AVENIDA VICENTE BARBOSA DE SIQUEIRA, N. 28,",
+   "preco": 75307.94,
+   "valor_avaliacao": 130004.2,
+   "desconto": 42.08,
+   "financiamento": "Não",
+   "descricao": "Casa, 66.70 de área total, 66.70 de área privativa, 131.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416056955",
+   "tipo": "casa"
   },
   {
    "id": "8444431614610",
@@ -20316,7 +20673,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 69.88 de área total, 69.88 de área privativa, 126.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431614610",
    "tipo": "casa",
    "geo": {
@@ -20390,6 +20747,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444405172533",
+   "uf": "PE",
+   "cidade": "SAO JOSE DA COROA GRANDE",
+   "bairro": "LOT COSTA DO SOL",
+   "endereco": "RUA PROJETADA, N. S/N, CASA 04, LT 16A-10C, QD G",
+   "preco": 42225.68,
+   "valor_avaliacao": 110742.02,
+   "desconto": 61.88,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 66.10 de área privativa, 90.10 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405172533",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.900198999999999,
+    "lng": -35.1509363
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444420569279",
    "uf": "PE",
    "cidade": "SAO JOSE DA COROA GRANDE",
@@ -20407,27 +20785,6 @@
     "fonte": "google",
     "lat": -8.899743599999999,
     "lng": -35.1448359
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444405172533",
-   "uf": "PE",
-   "cidade": "SAO JOSE DA COROA GRANDE",
-   "bairro": "LOT COSTA DO SOL",
-   "endereco": "RUA PROJETADA, N. S/N, CASA 04, LT 16A-10C, QD G",
-   "preco": 45241.8,
-   "valor_avaliacao": 110742.02,
-   "desconto": 59.15,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 66.10 de área privativa, 90.10 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405172533",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.900198999999999,
-    "lng": -35.1509363
    },
    "geo_pendente": false
   },
@@ -21387,7 +21744,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Apartamento, 81.10 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534163834",
    "tipo": "apartamento",
    "geo": {
@@ -21408,7 +21765,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Apartamento, 71.55 de área total, 47.70 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706196183",
    "tipo": "apartamento",
    "geo": {
@@ -21702,7 +22059,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 63.97 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702930907",
    "tipo": "apartamento",
    "geo": {
@@ -21725,6 +22082,27 @@
    "descricao": "Apartamento, 75.18 de área total, 57.77 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709666083",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.9858915,
+    "lng": -35.050854
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787709705917",
+   "uf": "PE",
+   "cidade": "SAO LOURENCO DA MATA",
+   "bairro": "PIXETE",
+   "endereco": "AVENIDA DOUTOR PAULO PETRIBU, N. SN, Apto 001, BL 08",
+   "preco": 99743.11,
+   "valor_avaliacao": 170000.0,
+   "desconto": 41.33,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 75.18 de área total, 57.77 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709705917",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -21797,27 +22175,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787709705917",
-   "uf": "PE",
-   "cidade": "SAO LOURENCO DA MATA",
-   "bairro": "PIXETE",
-   "endereco": "AVENIDA DOUTOR PAULO PETRIBU, N. SN, Apto 001, BL 08",
-   "preco": 102367.93,
-   "valor_avaliacao": 170000.0,
-   "desconto": 39.79,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 75.18 de área total, 57.77 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709705917",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.9858915,
-    "lng": -35.050854
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1787700440203",
    "uf": "PE",
    "cidade": "SAO LOURENCO DA MATA",
@@ -21847,9 +22204,9 @@
    "preco": 101904.73,
    "valor_avaliacao": 165000.0,
    "desconto": 38.24,
-   "financiamento": "Não",
+   "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 574.50 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444405560209",
    "tipo": "terreno",
    "geo": {
@@ -21868,9 +22225,9 @@
    "preco": 139731.97,
    "valor_avaliacao": 222000.0,
    "desconto": 37.06,
-   "financiamento": "Não",
+   "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 665.50 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444405609496",
    "tipo": "terreno",
    "geo": {
@@ -22033,12 +22390,12 @@
    "cidade": "SERTANIA",
    "bairro": "Lot Moxoto",
    "endereco": "RUA PROJETADA 2, N. 63, QD C LT 17",
-   "preco": 81628.17,
+   "preco": 79535.14,
    "valor_avaliacao": 143000.0,
-   "desconto": 42.92,
-   "financiamento": "Não",
+   "desconto": 44.39,
+   "financiamento": "Sim",
    "descricao": "Casa, 81.96 de área total, 81.96 de área privativa, 108.00 de área do terreno,  3 qto(s), WC, 2 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429594039",
    "tipo": "casa",
    "geo": {
@@ -22180,12 +22537,12 @@
    "cidade": "TAMANDARE",
    "bairro": "CENTRO",
    "endereco": "RUA ANTÔNIO TORQUATO VIEIRA, N. 00, GLEBA 2-A",
-   "preco": 2209887.34,
+   "preco": 2151732.41,
    "valor_avaliacao": 3650000.0,
-   "desconto": 39.46,
+   "desconto": 41.05,
    "financiamento": "Sim",
    "descricao": "Casa, 0.00 de área total, 909.75 de área privativa, 6678.61 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10274604",
    "tipo": "casa",
    "geo": {
@@ -22306,12 +22663,12 @@
    "cidade": "TORITAMA",
    "bairro": "SEM DENOMINACAO LEGA",
    "endereco": "BR 104 KM 32, N. 1010, LJ  338,",
-   "preco": 56916.38,
+   "preco": 52538.2,
    "valor_avaliacao": 150000.0,
-   "desconto": 62.06,
+   "desconto": 64.98,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 16.00 de área privativa, 1.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415383571",
    "tipo": "casa",
    "geo": {
@@ -22369,12 +22726,12 @@
    "cidade": "TORITAMA",
    "bairro": "PARQUE DAS PEDRAS",
    "endereco": "ROD BR 104 KM 32, N. 1010, LOJA 468",
-   "preco": 108110.8,
+   "preco": 105021.92,
    "valor_avaliacao": 205000.0,
-   "desconto": 47.27,
-   "financiamento": "Não",
+   "desconto": 48.77,
+   "financiamento": "Sim",
    "descricao": "Loja, 0.00 de área total, 16.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414829053",
    "tipo": "loja",
    "geo": {
@@ -22495,12 +22852,12 @@
    "cidade": "VITORIA DE SANTO ANTAO",
    "bairro": "BELA VISTA",
    "endereco": "RUA 12, N. 67, LT. 37 QD U",
-   "preco": 68737.18,
+   "preco": 66773.26,
    "valor_avaliacao": 130000.0,
-   "desconto": 47.13,
+   "desconto": 48.64,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 50.73 de área privativa, 200.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418997498",
    "tipo": "casa",
    "geo": {

@@ -1,9 +1,9 @@
 {
  "uf": "DF",
- "data_geracao_caixa": "27/10/2026",
- "coletado_em": "28/10/2026 03:47",
+ "data_geracao_caixa": "28/10/2026",
+ "coletado_em": "29/10/2026 03:57",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_DF.csv",
- "total": 65,
+ "total": 74,
  "colunas": [
   "id",
   "uf",
@@ -20,6 +20,21 @@
  ],
  "imoveis": [
   {
+   "id": "10137653",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "SETOR BANCARIO SUL",
+   "endereco": "SBS QUADRA 1 BL K LOJA, N. 04",
+   "preco": 193939.63,
+   "valor_avaliacao": 734000.0,
+   "desconto": 73.58,
+   "financiamento": "Não",
+   "descricao": "Loja, 0.00 de área total, 79.15 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10137653",
+   "tipo": "loja"
+  },
+  {
    "id": "10215739",
    "uf": "DF",
    "cidade": "BRASILIA",
@@ -30,7 +45,7 @@
    "desconto": 48.1,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 250.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10215739",
    "tipo": "terreno",
    "geo": {
@@ -46,12 +61,12 @@
    "cidade": "BRASILIA",
    "bairro": "ASA NORTE",
    "endereco": "SETOR SRTVN LT P, N. S/N, CJ P, LOJA SS-1",
-   "preco": 1945401.9,
+   "preco": 1892823.47,
    "valor_avaliacao": 3300000.0,
-   "desconto": 41.05,
+   "desconto": 42.65,
    "financiamento": "Sim",
    "descricao": "Sala, 0.00 de área total, 600.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10278243",
    "tipo": "sala",
    "geo": {
@@ -60,6 +75,36 @@
     "lng": -47.889407
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787720374808",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "ITAPOA PARQUE (ITAPOA)",
+   "endereco": "QUADRA 402, N. SN, Apto 03, BL D1 LT 07 CJ 02",
+   "preco": 77622.6,
+   "valor_avaliacao": 134000.0,
+   "desconto": 42.08,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 63.60 de área total, 46.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s).",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720374808",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8787716242854",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "RECANTO DAS EMAS",
+   "endereco": "RUA 06, N. SN, Apto 344, SUBCENTRO URBANO 400 600",
+   "preco": 88404.91,
+   "valor_avaliacao": 151000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 44.58 de área total, 27.79 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716242854",
+   "tipo": "apartamento"
   },
   {
    "id": "1444400617326",
@@ -188,17 +233,32 @@
    "geo_pendente": false
   },
   {
+   "id": "8787715340860",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "ITAPOA PARQUE (ITAPOA)",
+   "endereco": "Q QUADRA 401, N. SN, Apto 204, BL D  LOT 11   CJ 2   RA XXVIII",
+   "preco": 112420.91,
+   "valor_avaliacao": 186000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 63.68 de área total, 46.60 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715340860",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444428274707",
    "uf": "DF",
    "cidade": "BRASILIA",
    "bairro": "SAMAMBAIA NORTE",
    "endereco": "QUADRA QR, N. SN, LOTE 20 CONJUNTO 2 QUADRA QR 1031",
-   "preco": 207541.4,
+   "preco": 202219.83,
    "valor_avaliacao": 334000.0,
-   "desconto": 37.87,
+   "desconto": 39.46,
    "financiamento": "Sim",
    "descricao": "Casa, 108.00 de área total, 108.00 de área privativa, 112.50 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428274707",
    "tipo": "casa",
    "geo": {
@@ -219,7 +279,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Loja, 0.00 de área total, 50.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300590",
    "tipo": "loja",
    "geo": {
@@ -301,9 +361,9 @@
    "preco": 132178.89,
    "valor_avaliacao": 210000.0,
    "desconto": 37.06,
-   "financiamento": "Não",
+   "financiamento": "Sim",
    "descricao": "Sala, 0.00 de área total, 32.33 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10290994",
    "tipo": "sala",
    "geo": {
@@ -322,9 +382,9 @@
    "preco": 132178.89,
    "valor_avaliacao": 210000.0,
    "desconto": 37.06,
-   "financiamento": "Não",
+   "financiamento": "Sim",
    "descricao": "Sala, 0.00 de área total, 32.33 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10290995",
    "tipo": "sala",
    "geo": {
@@ -343,9 +403,9 @@
    "preco": 133437.74,
    "valor_avaliacao": 212000.0,
    "desconto": 37.06,
-   "financiamento": "Não",
+   "financiamento": "Sim",
    "descricao": "Sala, 0.00 de área total, 32.90 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10290996",
    "tipo": "sala",
    "geo": {
@@ -364,9 +424,9 @@
    "preco": 132178.89,
    "valor_avaliacao": 210000.0,
    "desconto": 37.06,
-   "financiamento": "Não",
+   "financiamento": "Sim",
    "descricao": "Sala, 0.00 de área total, 32.33 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10290997",
    "tipo": "sala",
    "geo": {
@@ -480,6 +540,21 @@
     "lng": -47.9409573
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787708915543",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "SETOR HAB ITAPOA",
+   "endereco": "QUADRA 502 CONJUNTO 02, N. SN, Apto 303, BL C1 LOT 05",
+   "preco": 174000.0,
+   "valor_avaliacao": 174000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 46.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708915543",
+   "tipo": "apartamento"
   },
   {
    "id": "1787700530130",
@@ -711,6 +786,21 @@
     "lng": -48.1000759
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444416889304",
+   "uf": "DF",
+   "cidade": "CEILANDIA",
+   "bairro": "CEILANDIA NORTE",
+   "endereco": "QNO 19, N. SN, CJ 33  LOT 11",
+   "preco": 165701.72,
+   "valor_avaliacao": 260000.0,
+   "desconto": 36.27,
+   "financiamento": "Não",
+   "descricao": "Casa, 115.00 de área total, 115.00 de área privativa, 126.00 de área do terreno.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416889304",
+   "tipo": "casa"
   },
   {
    "id": "1444418600590",
@@ -986,27 +1076,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444419158416",
-   "uf": "DF",
-   "cidade": "SAMAMBAIA",
-   "bairro": "SAMAMBAIA SUL",
-   "endereco": "QUADRA QR 325, N. SN, LT 19 CJ 04",
-   "preco": 170162.92,
-   "valor_avaliacao": 267000.0,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Casa, 115.00 de área total, 100.00 de área privativa, 126.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419158416",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.875144,
-    "lng": -48.11658560000001
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444412079128",
    "uf": "DF",
    "cidade": "SAMAMBAIA",
@@ -1070,6 +1139,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1444413537040",
+   "uf": "DF",
+   "cidade": "SAMAMBAIA",
+   "bairro": "SAMAMBAIA NORTE",
+   "endereco": "QUADRA QR 402, N. SN, LT 07 CJ 19",
+   "preco": 850000.0,
+   "valor_avaliacao": 850000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 305.00 de área total, 42.00 de área privativa, 193.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444413537040",
+   "tipo": "casa"
+  },
+  {
    "id": "1444417268508",
    "uf": "DF",
    "cidade": "SAMAMBAIA",
@@ -1089,6 +1173,21 @@
     "lng": -48.11658560000001
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444418319572",
+   "uf": "DF",
+   "cidade": "SAMAMBAIA",
+   "bairro": "SAMAMBAIA NORTE",
+   "endereco": "QUADRA QR 629, N. SN, LT 19 CJ 02",
+   "preco": 330379.33,
+   "valor_avaliacao": 330379.33,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 105.00 de área total, 97.50 de área privativa, 105.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418319572",
+   "tipo": "casa"
   },
   {
    "id": "1444419589484",
@@ -1131,6 +1230,21 @@
     "lng": -48.1113346
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1787702922949",
+   "uf": "DF",
+   "cidade": "SAMAMBAIA",
+   "bairro": "SAMAMBAIA NORTE",
+   "endereco": "QUADRA QN 407, N. 01, Apto 105, CJ B VAGA 12",
+   "preco": 358474.72,
+   "valor_avaliacao": 310000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 104.96 de área total, 57.42 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702922949",
+   "tipo": "apartamento"
   },
   {
    "id": "1787702385072",
@@ -1341,6 +1455,21 @@
     "lng": -48.0547658
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444421094681",
+   "uf": "DF",
+   "cidade": "TAGUATINGA",
+   "bairro": "TAGUATINGA NORTE",
+   "endereco": "QUADRA QNL 30, N. SN, LT 10 CJ D",
+   "preco": 270000.0,
+   "valor_avaliacao": 270000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 86.94 de área total, 31.18 de área privativa, 103.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421094681",
+   "tipo": "casa"
   },
   {
    "id": "1444413421875",
