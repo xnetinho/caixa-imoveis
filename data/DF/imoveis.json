@@ -1,7 +1,7 @@
 {
  "uf": "DF",
- "data_geracao_caixa": "28/10/2026",
- "coletado_em": "29/10/2026 03:57",
+ "data_geracao_caixa": "29/10/2026",
+ "coletado_em": "30/10/2026 03:59",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_DF.csv",
  "total": 74,
  "colunas": [
@@ -34,9 +34,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10137653",
    "tipo": "loja",
    "geo": {
+    "fonte": "google",
     "lat": -15.7993796,
-    "lng": -47.8810226,
-    "fonte": "google"
+    "lng": -47.8810226
    },
    "geo_pendente": false
   },
@@ -97,9 +97,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720374808",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.7847505,
-    "lng": -47.9329189,
-    "fonte": "google"
+    "lng": -47.9329189
    },
    "geo_pendente": false
   },
@@ -118,9 +118,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716242854",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.9093102,
-    "lng": -48.0648157,
-    "fonte": "google"
+    "lng": -48.0648157
    },
    "geo_pendente": false
   },
@@ -265,9 +265,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715340860",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.8078606,
-    "lng": -47.9377997,
-    "fonte": "google"
+    "lng": -47.9377997
    },
    "geo_pendente": false
   },
@@ -324,7 +324,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Loja, 0.00 de área total, 50.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300591",
    "tipo": "loja",
    "geo": {
@@ -345,7 +345,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Loja, 0.00 de área total, 50.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300792",
    "tipo": "loja",
    "geo": {
@@ -580,9 +580,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708915543",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.7461232,
-    "lng": -47.7611709,
-    "fonte": "google"
+    "lng": -47.7611709
    },
    "geo_pendente": false
   },
@@ -832,30 +832,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416889304",
    "tipo": "casa",
    "geo": {
-    "lat": -15.7923664,
-    "lng": -48.1385915,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444418600590",
-   "uf": "DF",
-   "cidade": "CEILANDIA",
-   "bairro": "CEILANDIA NORTE",
-   "endereco": "QNQ 5, N. SN, CJ 05 LT 13",
-   "preco": 210313.72,
-   "valor_avaliacao": 330000.0,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Casa, 132.75 de área total, 130.00 de área privativa, 144.00 de área do terreno,  4 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418600590",
-   "tipo": "casa",
-   "geo": {
     "fonte": "google",
-    "lat": -15.8059008,
-    "lng": -48.1472944
+    "lat": -15.7923664,
+    "lng": -48.1385915
    },
    "geo_pendente": false
   },
@@ -870,7 +849,7 @@
    "desconto": 36.27,
    "financiamento": "Não",
    "descricao": "Casa, 160.00 de área total, 91.13 de área privativa, 132.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555515916255",
    "tipo": "casa",
    "geo": {
@@ -1112,6 +1091,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444419158416",
+   "uf": "DF",
+   "cidade": "SAMAMBAIA",
+   "bairro": "SAMAMBAIA SUL",
+   "endereco": "QUADRA QR 325, N. SN, LT 19 CJ 04",
+   "preco": 170162.92,
+   "valor_avaliacao": 267000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 115.00 de área total, 100.00 de área privativa, 126.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419158416",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.875144,
+    "lng": -48.11658560000001
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444412079128",
    "uf": "DF",
    "cidade": "SAMAMBAIA",
@@ -1189,9 +1189,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444413537040",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.8751775,
-    "lng": -48.0883668,
-    "fonte": "google"
+    "lng": -48.0883668
    },
    "geo_pendente": false
   },
@@ -1231,9 +1231,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418319572",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.8560872,
-    "lng": -48.1113346,
-    "fonte": "google"
+    "lng": -48.1113346
    },
    "geo_pendente": false
   },
@@ -1294,9 +1294,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702922949",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.8619549,
-    "lng": -48.0831592,
-    "fonte": "google"
+    "lng": -48.0831592
    },
    "geo_pendente": false
   },
@@ -1525,9 +1525,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421094681",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.8557265,
-    "lng": -48.1115695,
-    "fonte": "google"
+    "lng": -48.1115695
    },
    "geo_pendente": false
   },
