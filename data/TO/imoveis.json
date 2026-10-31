@@ -1,9 +1,9 @@
 {
  "uf": "TO",
- "data_geracao_caixa": "29/10/2026",
- "coletado_em": "30/10/2026 03:59",
+ "data_geracao_caixa": "30/10/2026",
+ "coletado_em": "31/10/2026 03:54",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_TO.csv",
- "total": 24,
+ "total": 26,
  "colunas": [
   "id",
   "uf",
@@ -314,6 +314,36 @@
    "geo_pendente": false
   },
   {
+   "id": "8787703140608",
+   "uf": "TO",
+   "cidade": "PALMAS",
+   "bairro": "LOT PALMAS 3ª ETAPA",
+   "endereco": "QUADRA ACSUNE 50 RUA 1 B, N. SN, Apto 206, BL 08 LT 09A CJ 02 VG 260",
+   "preco": 295000.0,
+   "valor_avaliacao": 295000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 78.60 de área total, 42.00 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703140608",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "10203822",
+   "uf": "TO",
+   "cidade": "PALMAS",
+   "bairro": "PLANO DIRETOR SUL",
+   "endereco": "QD ARSE 13 ALAMEDA 12, N. 00, CJ QI-J, LT 02",
+   "preco": 1152000.0,
+   "valor_avaliacao": 1152000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Casa, 0.00 de área total, 218.51 de área privativa, 352.50 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10203822",
+   "tipo": "casa"
+  },
+  {
    "id": "8787709553815",
    "uf": "TO",
    "cidade": "PALMAS",
@@ -450,7 +480,7 @@
    "desconto": 57.26,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.01 de área privativa, 5506.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555514957675",
    "tipo": "terreno",
    "geo": {

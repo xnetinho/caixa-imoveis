@@ -1,9 +1,9 @@
 {
  "uf": "ES",
- "data_geracao_caixa": "29/10/2026",
- "coletado_em": "30/10/2026 03:59",
+ "data_geracao_caixa": "30/10/2026",
+ "coletado_em": "31/10/2026 03:54",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_ES.csv",
- "total": 42,
+ "total": 43,
  "colunas": [
   "id",
   "uf",
@@ -19,6 +19,21 @@
   "link"
  ],
  "imoveis": [
+  {
+   "id": "1444425449117",
+   "uf": "ES",
+   "cidade": "ANCHIETA",
+   "bairro": "ANCHIETA",
+   "endereco": "PROJETADA 04, N. SN, LT 43 QD 06",
+   "preco": 243964.06,
+   "valor_avaliacao": 240000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 360.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444425449117",
+   "tipo": "terreno"
+  },
   {
    "id": "10208964",
    "uf": "ES",
@@ -356,27 +371,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787706192234",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "RESIDENCIAL CENTRO DA SERRA",
-   "endereco": "AVENIDA AUDIFAX BARCELOS NEVES, N. 321, Apto 305, TORRE J",
-   "preco": 114838.57,
-   "valor_avaliacao": 190000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 81.51 de área total, 43.52 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706192234",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1160093,
-    "lng": -40.2920593
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787717950283",
    "uf": "ES",
    "cidade": "SERRA",
@@ -436,27 +430,6 @@
     "fonte": "google",
     "lat": -20.1384742,
     "lng": -40.1935581
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787714376918",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "JARDIM LIMOEIRO",
-   "endereco": "RUA BASILIO DA GAMA, N. 430, Apto 206, TORRE 01",
-   "preco": 185528.26,
-   "valor_avaliacao": 303000.0,
-   "desconto": 38.77,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 72.80 de área total, 45.66 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714376918",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.2080492,
-    "lng": -40.2513908
    },
    "geo_pendente": false
   },
@@ -524,27 +497,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1555519490570",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "JOSE DE ANCHIETA",
-   "endereco": "RUA DAS PALMEIRAS, N. 44, LT 42 QD 53",
-   "preco": 637314.3,
-   "valor_avaliacao": 1000000.0,
-   "desconto": 36.27,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 41.99 de área privativa, 200.00 de área do terreno.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555519490570",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1728536,
-    "lng": -40.2022342
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1787702095171",
    "uf": "ES",
    "cidade": "SERRA",
@@ -564,6 +516,21 @@
     "lng": -40.2540525
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787700901500",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "JARDIM LIMOEIRO",
+   "endereco": "RUA CASTRO ALVES, N. 170, Apto 508,  TORRE E",
+   "preco": 265000.0,
+   "valor_avaliacao": 265000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 75.84 de área total, 41.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700901500",
+   "tipo": "apartamento"
   },
   {
    "id": "8787716711242",
@@ -734,6 +701,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787714410164",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "PRAIA DA BALEIA",
+   "endereco": "AVENIDA DESEMBARGADOR ANTONIO JOSE MIGUEL FEU ROSA, N. 395, Apto 204, BL 03 VG 92 DESCOBERTA",
+   "preco": 268600.7,
+   "valor_avaliacao": 230000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 69.12 de área total, 45.17 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714410164",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787707078028",
    "uf": "ES",
    "cidade": "VIANA",
@@ -900,6 +882,21 @@
     "lng": -40.3380155
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444402665620",
+   "uf": "ES",
+   "cidade": "VITORIA",
+   "bairro": "JARDIM DA PENHA",
+   "endereco": "AVENIDA DOUTOR PEDRO FEU ROSA, N. 34, Apto 202, QD VIII LT 24 BL 01",
+   "preco": 1175000.0,
+   "valor_avaliacao": 1175000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 120.89 de área total, 120.89 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, WC Emp, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444402665620",
+   "tipo": "apartamento"
   }
  ]
 }

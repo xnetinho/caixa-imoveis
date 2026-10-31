@@ -1,9 +1,9 @@
 {
  "uf": "SC",
- "data_geracao_caixa": "29/10/2026",
- "coletado_em": "30/10/2026 03:59",
+ "data_geracao_caixa": "30/10/2026",
+ "coletado_em": "31/10/2026 03:54",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_SC.csv",
- "total": 159,
+ "total": 160,
  "colunas": [
   "id",
   "uf",
@@ -30,7 +30,7 @@
    "desconto": 71.12,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 49.46 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420114506",
    "tipo": "apartamento",
    "geo": {
@@ -671,6 +671,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1444416386205",
+   "uf": "SC",
+   "cidade": "BRACO DO TROMBUDO",
+   "bairro": "CENTRO",
+   "endereco": "RUA EDGAR ARNOLD, N. 191, LT 88",
+   "preco": 367989.28,
+   "valor_avaliacao": 306000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 98.96 de área total, 98.96 de área privativa, 450.80 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416386205",
+   "tipo": "casa"
+  },
+  {
    "id": "1444415815684",
    "uf": "SC",
    "cidade": "BRUSQUE",
@@ -730,27 +745,6 @@
     "fonte": "google",
     "lat": -27.1225398,
     "lng": -48.94721939999999
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444419122519",
-   "uf": "SC",
-   "cidade": "CAMPO ERE",
-   "bairro": "CAMPO ERE",
-   "endereco": "RUA PRISCILA PERUCCHI NUNES DE SOUZA, N. 604, LT 03  QD 126",
-   "preco": 178448.0,
-   "valor_avaliacao": 280000.0,
-   "desconto": 36.27,
-   "financiamento": "Não",
-   "descricao": "Casa, 62.47 de área total, 62.47 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419122519",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -26.3881858,
-    "lng": -53.0738326
    },
    "geo_pendente": false
   },
@@ -837,6 +831,21 @@
     "lng": -52.6055925
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444402006586",
+   "uf": "SC",
+   "cidade": "CHAPECO",
+   "bairro": "PARQUE DAS PALMEIRAS",
+   "endereco": "RUA MARECHAL MASCARENHAS DE MORAES N 1453 303 QD 4, N. 1453, Apto 303, APTO",
+   "preco": 265000.0,
+   "valor_avaliacao": 265000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 50.57 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444402006586",
+   "tipo": "apartamento"
   },
   {
    "id": "1444421143358",
@@ -1227,34 +1236,13 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Comercial, 0.00 de área total, 577.10 de área privativa, 362.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286344",
    "tipo": "comercial",
    "geo": {
     "fonte": "google",
     "lat": -27.6000431,
     "lng": -48.59105
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444422821775",
-   "uf": "SC",
-   "cidade": "FLORIANOPOLIS",
-   "bairro": "ESTREITO",
-   "endereco": "RUA POETA FRANCISCO MACHADO DE SOUZA, N. 275, Apto 607,",
-   "preco": 499017.1,
-   "valor_avaliacao": 783000.0,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 111.84 de área total, 74.73 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444422821775",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -27.5950576,
-    "lng": -48.575307
    },
    "geo_pendente": false
   },
@@ -1322,46 +1310,19 @@
    "geo_pendente": false
   },
   {
-   "id": "8444427802009",
+   "id": "8444422958574",
    "uf": "SC",
-   "cidade": "ICARA",
-   "bairro": "RAICHASKI",
-   "endereco": "RUA PROCOPIO LIMA, N. 0, Apto 43, BL 03",
-   "preco": 87819.45,
-   "valor_avaliacao": 150000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 48.29 de área total, 42.76 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427802009",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -28.7106399,
-    "lng": -49.3178304
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444436859751",
-   "uf": "SC",
-   "cidade": "ICARA",
-   "bairro": "PRESIDENTE VARGAS",
-   "endereco": "RUA JOAO PAULO II, N. 399, Apto 24, BL 04  VAGA BOX 41",
-   "preco": 114838.57,
+   "cidade": "GARUVA",
+   "bairro": "RIO DA ONCA",
+   "endereco": "RUA ARI DA SILVA OLIVEIRA, N. 565, CS 02",
+   "preco": 190000.0,
    "valor_avaliacao": 190000.0,
-   "desconto": 39.56,
+   "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Apartamento, 50.95 de área total, 44.16 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436859751",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -28.6840769,
-    "lng": -49.32760709999999
-   },
-   "geo_pendente": false
+   "descricao": "Casa, 46.80 de área total, 46.80 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422958574",
+   "tipo": "casa"
   },
   {
    "id": "1444420089724",
@@ -1637,27 +1598,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555521701336",
-   "uf": "SC",
-   "cidade": "JARAGUA DO SUL",
-   "bairro": "JOAO PESSOA",
-   "endereco": "RUA  ARTHUR GONCALVES DE ARAUJO, N. 664, Apto 505, VAGA DE ESTACIONAMENTO N 505",
-   "preco": 183691.35,
-   "valor_avaliacao": 300000.0,
-   "desconto": 38.77,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 48.35 de área total, 39.86 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555521701336",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -26.4466588,
-    "lng": -49.0652457
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787720733433",
    "uf": "SC",
    "cidade": "JARAGUA DO SUL",
@@ -1780,27 +1720,6 @@
     "fonte": "google",
     "lat": -26.3088344,
     "lng": -48.828225
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444404276432",
-   "uf": "SC",
-   "cidade": "JOINVILLE",
-   "bairro": "BOEHMERWALD",
-   "endereco": "RUA BOEHMERWALD, N. 2635, Apto 304, BL 05",
-   "preco": 159328.58,
-   "valor_avaliacao": 250000.0,
-   "desconto": 36.27,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 62.71 de área total, 55.48 de área privativa, 0.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404276432",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -26.3620665,
-    "lng": -48.80908669999999
    },
    "geo_pendente": false
   },
@@ -1952,6 +1871,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787712696257",
+   "uf": "SC",
+   "cidade": "JOINVILLE",
+   "bairro": "JOAO COSTA",
+   "endereco": "RUA JOAO DA COSTA JUNIOR, N. 852, Apto 301, BL 04 PAV 03",
+   "preco": 210000.0,
+   "valor_avaliacao": 210000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 61.65 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712696257",
+   "tipo": "apartamento"
+  },
+  {
    "id": "1444414591049",
    "uf": "SC",
    "cidade": "JOINVILLE",
@@ -2013,6 +1947,21 @@
     "lng": -48.8069025
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555528084359",
+   "uf": "SC",
+   "cidade": "JOINVILLE",
+   "bairro": "JOAO COSTA",
+   "endereco": "RUA MANUEL AGOSTINHO DE CARVALHO, N. 350, Apto 301, BL 18 PAV 03",
+   "preco": 241235.0,
+   "valor_avaliacao": 217000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 73.51 de área total, 54.14 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555528084359",
+   "tipo": "apartamento"
   },
   {
    "id": "8787720960537",
@@ -2141,27 +2090,6 @@
    "geo_pendente": false
   },
   {
-   "id": "10305193",
-   "uf": "SC",
-   "cidade": "MAFRA",
-   "bairro": "RESTINGA",
-   "endereco": "RUA JOSE PEDRO CUBAS MACHADO, N. 00, LT 59-A",
-   "preco": 111168.79,
-   "valor_avaliacao": 180000.0,
-   "desconto": 38.24,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 506.25 de área do terreno.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10305193",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -26.1168024,
-    "lng": -49.8288045
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "10303625",
    "uf": "SC",
    "cidade": "MAFRA",
@@ -2181,6 +2109,21 @@
     "lng": -49.7855377
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10002095",
+   "uf": "SC",
+   "cidade": "MAFRA",
+   "bairro": "VILA NOVA",
+   "endereco": "RUA GERMANO NEUDORF, N. 395",
+   "preco": 2430000.0,
+   "valor_avaliacao": 2430000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Comercial, 0.00 de área total, 911.78 de área privativa, 7476.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10002095",
+   "tipo": "comercial"
   },
   {
    "id": "8444431013706",
@@ -2349,6 +2292,21 @@
     "lng": -48.7068479
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555505995371",
+   "uf": "SC",
+   "cidade": "PALHOCA",
+   "bairro": "ARIRIU",
+   "endereco": "RUA PEDRO THEISEN JUNIOR ANTIGA RUA A, N. 39, Apto 202, BL 07",
+   "preco": 200000.0,
+   "valor_avaliacao": 200000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 48.61 de área total, 44.02 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555505995371",
+   "tipo": "apartamento"
   },
   {
    "id": "8444436744075",
@@ -3191,6 +3149,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444430276487",
+   "uf": "SC",
+   "cidade": "SOMBRIO",
+   "bairro": "SAO CAMILO",
+   "endereco": "RUA PROJETADA 06, N. SN, LT 12 QD G",
+   "preco": 168574.59,
+   "valor_avaliacao": 90000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430276487",
+   "tipo": "terreno"
+  },
+  {
    "id": "8444406751278",
    "uf": "SC",
    "cidade": "TIJUCAS",
@@ -3254,27 +3227,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444417521785",
-   "uf": "SC",
-   "cidade": "TUBARAO",
-   "bairro": "SAO JOAO (MARGEM ESQUERDA)",
-   "endereco": "RUA LUCIA KULAKOWSKI SALDANHA, N. SN, LT 52, QD 03, LOT PQ CERAMICA",
-   "preco": 129031.78,
-   "valor_avaliacao": 205000.0,
-   "desconto": 37.06,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 312.00 de área do terreno.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417521785",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -28.4648981,
-    "lng": -49.0398712
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555511568692",
    "uf": "SC",
    "cidade": "TUBARAO",
@@ -3294,6 +3246,21 @@
     "lng": -49.06538800000001
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444428156640",
+   "uf": "SC",
+   "cidade": "TUBARAO",
+   "bairro": "SAO JOAO (MARGEM ESQUERDA)",
+   "endereco": "RUA SAO JOAO, N. 1303, Apto 440, BL D PAV 05",
+   "preco": 225000.0,
+   "valor_avaliacao": 225000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 95.08 de área total, 56.22 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428156640",
+   "tipo": "apartamento"
   },
   {
    "id": "8444417043210",

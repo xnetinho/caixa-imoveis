@@ -1,9 +1,9 @@
 {
  "uf": "AL",
- "data_geracao_caixa": "29/10/2026",
- "coletado_em": "30/10/2026 03:59",
+ "data_geracao_caixa": "30/10/2026",
+ "coletado_em": "31/10/2026 03:53",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AL.csv",
- "total": 92,
+ "total": 99,
  "colunas": [
   "id",
   "uf",
@@ -51,7 +51,7 @@
    "desconto": 43.52,
    "financiamento": "Sim",
    "descricao": "Casa, 98.74 de área total, 98.74 de área privativa, 157.50 de área do terreno,  1 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444402891997",
    "tipo": "casa",
    "geo": {
@@ -209,6 +209,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444405685026",
+   "uf": "AL",
+   "cidade": "CAPELA",
+   "bairro": "Clima Bom",
+   "endereco": "RUA DOUTOR JOSE VANIO DE BARROS MORAES, N. 103,",
+   "preco": 118600.0,
+   "valor_avaliacao": 118600.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 72.75 de área total, 72.75 de área privativa, 137.70 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405685026",
+   "tipo": "casa"
+  },
+  {
    "id": "8444407003062",
    "uf": "AL",
    "cidade": "CAPELA",
@@ -303,7 +318,7 @@
    "desconto": 59.13,
    "financiamento": "Sim",
    "descricao": "Comercial, 0.00 de área total, 654.60 de área privativa, 6050.00 de área do terreno, WC, WC Emp, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417683424",
    "tipo": "comercial",
    "geo": {
@@ -333,6 +348,36 @@
     "lng": -37.9889398
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444412564786",
+   "uf": "AL",
+   "cidade": "FEIRA GRANDE",
+   "bairro": "CENTRO",
+   "endereco": "RUA PROJETADA 02, N. 37, QD A LT 04",
+   "preco": 180000.0,
+   "valor_avaliacao": 180000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 102.12 de área privativa, 168.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412564786",
+   "tipo": "casa"
+  },
+  {
+   "id": "1555531792948",
+   "uf": "AL",
+   "cidade": "IBATEGUARA",
+   "bairro": "CENTRO",
+   "endereco": "RUA JOSE ALVES, N. 250",
+   "preco": 172000.0,
+   "valor_avaliacao": 172000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 200.00 de área privativa, 400.00 de área do terreno,  3 qto(s), a.serv, WC, 2 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555531792948",
+   "tipo": "casa"
   },
   {
    "id": "8444427060835",
@@ -408,7 +453,7 @@
    "desconto": 43.17,
    "financiamento": "Não",
    "descricao": "Apartamento, 49.28 de área total, 46.25 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555519537290",
    "tipo": "apartamento",
    "geo": {
@@ -482,39 +527,18 @@
    "geo_pendente": false
   },
   {
-   "id": "8787716977560",
+   "id": "8787720921809",
    "uf": "AL",
    "cidade": "MACEIO",
    "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "RODOVIA AL 105, N. 442, CASA 24, QD C",
-   "preco": 132970.97,
-   "valor_avaliacao": 220000.0,
-   "desconto": 39.56,
+   "endereco": "RODOVIA AL 105, N. 442, CS 132 QD C",
+   "preco": 105481.84,
+   "valor_avaliacao": 178000.0,
+   "desconto": 40.75,
    "financiamento": "Não",
-   "descricao": "Casa, 76.63 de área total, 54.83 de área privativa, 89.96 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716977560",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.518847,
-    "lng": -35.7775149
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787719239188",
-   "uf": "AL",
-   "cidade": "MACEIO",
-   "bairro": "CIDADE UNIVERSITARIA",
-   "endereco": "RODOVIA AL 105, N. 442, CASA 43 QD A",
-   "preco": 111816.5,
-   "valor_avaliacao": 185000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Casa, 76.89 de área total, 55.01 de área privativa, 157.35 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719239188",
+   "descricao": "Casa, 76.90 de área total, 55.01 de área privativa, 93.01 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720921809",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
@@ -753,6 +777,21 @@
     "lng": -35.7851439
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555522126750",
+   "uf": "AL",
+   "cidade": "MACEIO",
+   "bairro": "CIDADE UNIVERSITARIA",
+   "endereco": "RUA PROJETADA 946, N. 247, LT 03 QD EIII",
+   "preco": 145000.0,
+   "valor_avaliacao": 145000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 50.05 de área total, 50.05 de área privativa, 126.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555522126750",
+   "tipo": "casa"
   },
   {
    "id": "8787701983322",
@@ -1007,27 +1046,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444406779849",
-   "uf": "AL",
-   "cidade": "MESSIAS",
-   "bairro": "CENTRO",
-   "endereco": "CONJUNTO JOSÉ RODRIGUES CALHEIROS, N. SN, QD A LT 18",
-   "preco": 63818.64,
-   "valor_avaliacao": 107000.0,
-   "desconto": 40.36,
-   "financiamento": "Não",
-   "descricao": "Terreno, 72.00 de área total, 0.00 de área privativa, 72.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406779849",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.390336099999999,
-    "lng": -35.8404189
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444419415204",
    "uf": "AL",
    "cidade": "MESSIAS",
@@ -1047,6 +1065,21 @@
     "lng": -35.8392103
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444415504814",
+   "uf": "AL",
+   "cidade": "MESSIAS",
+   "bairro": "CENTRO",
+   "endereco": "RUA COMPLEMENTAR A MARIO BENTO, N. 13,",
+   "preco": 155000.0,
+   "valor_avaliacao": 155000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 89.91 de área total, 89.91 de área privativa, 135.96 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415504814",
+   "tipo": "casa"
   },
   {
    "id": "8555519619210",
@@ -1427,6 +1460,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787705833074",
+   "uf": "AL",
+   "cidade": "RIO LARGO",
+   "bairro": "Pref Antônio L Souza",
+   "endereco": "RUA SANTA CLARA, N. 90, CS74, LT89/90/91",
+   "preco": 70905.12,
+   "valor_avaliacao": 141000.0,
+   "desconto": 49.72,
+   "financiamento": "Não",
+   "descricao": "Casa, 92.59 de área total, 51.35 de área privativa, 51.35 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705833074",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -9.4991332,
+    "lng": -35.817336
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555533842533",
    "uf": "AL",
    "cidade": "RIO LARGO",
@@ -1721,6 +1775,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444413053513",
+   "uf": "AL",
+   "cidade": "RIO LARGO",
+   "bairro": "TABULEIRO DO PINTO",
+   "endereco": "RUA 6C, N. 06, LT 06, QD C-11",
+   "preco": 58898.61,
+   "valor_avaliacao": 78000.0,
+   "desconto": 24.49,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 38.03 de área privativa, 101.25 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413053513",
+   "tipo": "casa"
+  },
+  {
    "id": "8444418187712",
    "uf": "AL",
    "cidade": "RIO LARGO",
@@ -1889,6 +1958,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444403685550",
+   "uf": "AL",
+   "cidade": "TEOTONIO VILELA",
+   "bairro": "ALTO DA ROSA",
+   "endereco": "RUA JOSE FRANCISCO DOS SANTOS, N. 69,",
+   "preco": 78696.56,
+   "valor_avaliacao": 166000.0,
+   "desconto": 52.6,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 93.60 de área privativa, 169.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403685550",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -9.8855965,
+    "lng": -36.3638638
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555519639831",
    "uf": "AL",
    "cidade": "TEOTONIO VILELA",
@@ -1929,6 +2019,21 @@
     "lng": -36.355503
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444400151198",
+   "uf": "AL",
+   "cidade": "TEOTONIO VILELA",
+   "bairro": "DEPUTADO BENEDITO DE LIRA",
+   "endereco": "RUA EM PROJETO, N. 22, QD 05 LT 21",
+   "preco": 143000.0,
+   "valor_avaliacao": 143000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 102.00 de área total, 102.00 de área privativa, 144.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444400151198",
+   "tipo": "casa"
   },
   {
    "id": "8444403014655",

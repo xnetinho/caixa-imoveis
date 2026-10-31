@@ -1,7 +1,7 @@
 {
  "uf": "RR",
- "data_geracao_caixa": "29/10/2026",
- "coletado_em": "30/10/2026 03:59",
+ "data_geracao_caixa": "30/10/2026",
+ "coletado_em": "31/10/2026 03:54",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_RR.csv",
  "total": 2,
  "colunas": [
@@ -19,27 +19,6 @@
   "link"
  ],
  "imoveis": [
-  {
-   "id": "8444429185090",
-   "uf": "RR",
-   "cidade": "BOA VISTA",
-   "bairro": "CIDADE SATELITE",
-   "endereco": "AVENIDA JARDIM, N. 1336, Apto 303, BL 10, LT 526, QD 719",
-   "preco": 44176.22,
-   "valor_avaliacao": 100000.0,
-   "desconto": 55.83,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 50.17 de área total, 44.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429185090",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": 2.8406715,
-    "lng": -60.75753640000001
-   },
-   "geo_pendente": false
-  },
   {
    "id": "8444429349786",
    "uf": "RR",
@@ -60,6 +39,21 @@
     "lng": -60.74389629999999
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10316733",
+   "uf": "RR",
+   "cidade": "BOA VISTA",
+   "bairro": "CACARI",
+   "endereco": "AVENIDA GETULIO VARGAS, N. 2306, QD 198, LT 759, ZONA 6",
+   "preco": 3282000.0,
+   "valor_avaliacao": 3227000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 3533.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10316733",
+   "tipo": "terreno"
   }
  ]
 }

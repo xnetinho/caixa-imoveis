@@ -1,9 +1,9 @@
 {
  "uf": "DF",
- "data_geracao_caixa": "29/10/2026",
- "coletado_em": "30/10/2026 03:59",
+ "data_geracao_caixa": "30/10/2026",
+ "coletado_em": "31/10/2026 03:54",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_DF.csv",
- "total": 74,
+ "total": 75,
  "colunas": [
   "id",
   "uf",
@@ -135,7 +135,7 @@
    "desconto": 41.05,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 340.00 de área privativa, 250.00 de área do terreno, 4 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444400617326",
    "tipo": "casa",
    "geo": {
@@ -543,6 +543,21 @@
     "lng": -48.0262384
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444419574460",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "AGUAS CLARAS",
+   "endereco": "AVENIDA PARQUE AGUAS CLARAS QUADRA 301 A, N. SN, Apto 602, TORRE A LT 5 7 9 CJ 2 LT 8 VG 58",
+   "preco": 451000.0,
+   "valor_avaliacao": 451000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 61.15 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419574460",
+   "tipo": "apartamento"
   },
   {
    "id": "8787707616135",
@@ -1070,23 +1085,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444430426039",
+   "id": "8555526095620",
    "uf": "DF",
    "cidade": "SAMAMBAIA",
-   "bairro": "SAMAMBAIA NORTE",
-   "endereco": "QUADRA QR 414, N. SN, Apto 305, LT 01 CJTO 10A",
-   "preco": 132064.35,
-   "valor_avaliacao": 218500.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 85.48 de área total, 59.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430426039",
+   "bairro": "SAMAMBAIA",
+   "endereco": "QUADRA QR 410 CONJUNTO 15-A, N. SN, Apto 205, LT 01",
+   "preco": 162873.0,
+   "valor_avaliacao": 266000.0,
+   "desconto": 38.77,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 86.85 de área total, 46.76 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555526095620",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -15.8767211,
-    "lng": -48.0966905
+    "lat": -15.8600943,
+    "lng": -48.0790308
    },
    "geo_pendente": false
   },
@@ -1152,6 +1167,21 @@
     "lng": -48.1113346
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787700229942",
+   "uf": "DF",
+   "cidade": "SAMAMBAIA",
+   "bairro": "SAMAMBAIA SUL",
+   "endereco": "QUADRA QS 303, N. SN, Apto 1003, LT 1 2 3 4 5 6 CJ 9",
+   "preco": 165000.0,
+   "valor_avaliacao": 165000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 47.53 de área total, 30.92 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700229942",
+   "tipo": "apartamento"
   },
   {
    "id": "1444402427230",
@@ -1423,27 +1453,6 @@
     "fonte": "google",
     "lat": -15.8252488,
     "lng": -48.0547658
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444418745490",
-   "uf": "DF",
-   "cidade": "TAGUATINGA",
-   "bairro": "TAGUATINGA NORTE",
-   "endereco": "QUADRA QNL 01, N. SN, Apto 309, BL D",
-   "preco": 267034.69,
-   "valor_avaliacao": 419000.0,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 63.64 de área total, 63.64 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418745490",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.8255446,
-    "lng": -48.0549306
    },
    "geo_pendente": false
   },
