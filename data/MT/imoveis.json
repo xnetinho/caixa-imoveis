@@ -1,9 +1,9 @@
 {
  "uf": "MT",
- "data_geracao_caixa": "30/10/2026",
- "coletado_em": "31/10/2026 03:54",
+ "data_geracao_caixa": "03/11/2026",
+ "coletado_em": "04/11/2026 04:25",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_MT.csv",
- "total": 158,
+ "total": 154,
  "colunas": [
   "id",
   "uf",
@@ -19,6 +19,27 @@
   "link"
  ],
  "imoveis": [
+  {
+   "id": "8444429771500",
+   "uf": "MT",
+   "cidade": "ACORIZAL",
+   "bairro": "SALGADO",
+   "endereco": "AVENIDA  SAMAMBAIA, N. 06, ST 04, QD 6, LT 06",
+   "preco": 77526.28,
+   "valor_avaliacao": 150000.0,
+   "desconto": 48.32,
+   "financiamento": "Não",
+   "descricao": "Casa, 56.84 de área total, 56.84 de área privativa, 290.17 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429771500",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.1966619,
+    "lng": -56.3699011
+   },
+   "geo_pendente": false
+  },
   {
    "id": "1444416372662",
    "uf": "MT",
@@ -41,27 +62,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444429771500",
-   "uf": "MT",
-   "cidade": "ACORIZAL",
-   "bairro": "SALGADO",
-   "endereco": "AVENIDA  SAMAMBAIA, N. 06, ST 04, QD 6, LT 06",
-   "preco": 79621.59,
-   "valor_avaliacao": 150000.0,
-   "desconto": 46.92,
-   "financiamento": "Não",
-   "descricao": "Casa, 56.84 de área total, 56.84 de área privativa, 290.17 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429771500",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.1966619,
-    "lng": -56.3699011
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444412575052",
    "uf": "MT",
    "cidade": "ACORIZAL",
@@ -72,7 +72,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 76.43 de área total, 76.43 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412575052",
    "tipo": "casa",
    "geo": {
@@ -723,7 +723,7 @@
    "desconto": 51.79,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 32.00 de área privativa, 171.21 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412142016",
    "tipo": "casa",
    "geo": {
@@ -744,7 +744,7 @@
    "desconto": 48.1,
    "financiamento": "Sim",
    "descricao": "Casa, 94.71 de área total, 94.71 de área privativa, 360.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421182876",
    "tipo": "casa",
    "geo": {
@@ -807,7 +807,7 @@
    "desconto": 41.05,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 14500.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555527412290",
    "tipo": "terreno",
    "geo": {
@@ -902,6 +902,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444410085171",
+   "uf": "MT",
+   "cidade": "CUIABA",
+   "bairro": "RESIDENCIAL SAO CARLOS",
+   "endereco": "RUA A, N. SN, Apto 401, BL 09",
+   "preco": 68199.69,
+   "valor_avaliacao": 114000.0,
+   "desconto": 40.18,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 98.34 de área total, 46.85 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410085171",
+   "tipo": "apartamento"
+  },
+  {
    "id": "10307847",
    "uf": "MT",
    "cidade": "CUIABA",
@@ -961,27 +976,6 @@
     "fonte": "google",
     "lat": -15.690607,
     "lng": -56.0265589
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555531656694",
-   "uf": "MT",
-   "cidade": "CUIABA",
-   "bairro": "DOM AQUINO",
-   "endereco": "RUA COMENDADOR HENRIQUE, N. SN, Apto 411, 4º PAV, TORRE L, VAGA 653",
-   "preco": 121641.55,
-   "valor_avaliacao": 201255.51,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 61.71 de área total, 42.78 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555531656694",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6092436,
-    "lng": -56.0922674
    },
    "geo_pendente": false
   },
@@ -1143,7 +1137,7 @@
    "desconto": 38.77,
    "financiamento": "Não",
    "descricao": "Casa, 50.28 de área total, 50.28 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707912001",
    "tipo": "casa",
    "geo": {
@@ -1164,34 +1158,13 @@
    "desconto": 38.24,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 270.78 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300071",
    "tipo": "terreno",
    "geo": {
     "fonte": "google",
     "lat": -15.6153512,
     "lng": -56.0087276
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444412688312",
-   "uf": "MT",
-   "cidade": "CUIABA",
-   "bairro": "CPA IV",
-   "endereco": "RUA 51, N. SN, LOTE 03, QUADRA 51",
-   "preco": 274045.15,
-   "valor_avaliacao": 430000.0,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Casa, 158.58 de área total, 47.66 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444412688312",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.5689736,
-    "lng": -56.045188
    },
    "geo_pendente": false
   },
@@ -1227,7 +1200,7 @@
    "desconto": 36.27,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 139.87 de área privativa, 312.50 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418897711",
    "tipo": "casa",
    "geo": {
@@ -1336,9 +1309,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424036666",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.5599206,
-    "lng": -56.0477705,
-    "fonte": "google"
+    "lng": -56.0477705
    },
    "geo_pendente": false
   },
@@ -1525,9 +1498,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708293798",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.6254014,
-    "lng": -56.04799,
-    "fonte": "google"
+    "lng": -56.04799
    },
    "geo_pendente": false
   },
@@ -1626,7 +1599,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Casa, 201.17 de área total, 201.17 de área privativa, 450.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419791054",
    "tipo": "casa",
    "geo": {
@@ -1731,7 +1704,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Casa, 103.11 de área total, 57.11 de área privativa, 165.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415303152",
    "tipo": "casa",
    "geo": {
@@ -1941,7 +1914,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 48.34 de área total, 48.34 de área privativa, 414.40 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444400413869",
    "tipo": "casa",
    "geo": {
@@ -1973,48 +1946,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555501947097",
-   "uf": "MT",
-   "cidade": "RONDONOPOLIS",
-   "bairro": "JARDIM PADRE RODOLFO LUNKENBEIN",
-   "endereco": "AVENIDA JOAO PONCE DE ARRUDA, N. 6459,",
-   "preco": 165322.22,
-   "valor_avaliacao": 270000.0,
-   "desconto": 38.77,
-   "financiamento": "Sim",
-   "descricao": "Casa, 183.10 de área total, 77.50 de área privativa, 286.25 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555501947097",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -16.4690179,
-    "lng": -54.6378361
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555528885289",
-   "uf": "MT",
-   "cidade": "RONDONOPOLIS",
-   "bairro": "LOTEAMENTO RESIDENCIAL TRES AMERICAS",
-   "endereco": "RUA ROSAMARY KARA JOSE, N. 741, LT 29 QD 09",
-   "preco": 145728.47,
-   "valor_avaliacao": 238000.0,
-   "desconto": 38.77,
-   "financiamento": "Não",
-   "descricao": "Casa, 46.66 de área total, 46.66 de área privativa, 240.90 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555528885289",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -16.4719646,
-    "lng": -54.5680343
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444421080577",
    "uf": "MT",
    "cidade": "RONDONOPOLIS",
@@ -2025,7 +1956,7 @@
    "desconto": 37.87,
    "financiamento": "Sim",
    "descricao": "Casa, 174.00 de área total, 98.23 de área privativa, 250.00 de área do terreno,  2 qto(s), 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421080577",
    "tipo": "casa",
    "geo": {
@@ -2088,7 +2019,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Casa, 81.95 de área total, 81.95 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418057861",
    "tipo": "casa",
    "geo": {
@@ -2109,7 +2040,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 3000.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10298830",
    "tipo": "terreno",
    "geo": {
@@ -2267,27 +2198,6 @@
    "geo_pendente": false
   },
   {
-   "id": "10282052",
-   "uf": "MT",
-   "cidade": "SINOP",
-   "bairro": "JARDIM MARINGA",
-   "endereco": "RUA DAS CAVIUNAS, N. s/n, QD 36, LT 15, ZN 11",
-   "preco": 2049564.55,
-   "valor_avaliacao": 3298400.0,
-   "desconto": 37.87,
-   "financiamento": "Sim",
-   "descricao": "Casa, 0.00 de área total, 522.07 de área privativa, 680.00 de área do terreno.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10282052",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -11.8577527,
-    "lng": -55.5194909
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "10316753",
    "uf": "MT",
    "cidade": "SINOP",
@@ -2302,9 +2212,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10316753",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -11.8648592,
-    "lng": -55.495777,
-    "fonte": "google"
+    "lng": -55.495777
    },
    "geo_pendente": false
   },
@@ -2340,7 +2250,7 @@
    "desconto": 42.65,
    "financiamento": "Sim",
    "descricao": "Casa, 402.75 de área total, 402.75 de área privativa, 450.00 de área do terreno,  5 qto(s), a.serv, WC, 2 sala(s).",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444422223207",
    "tipo": "casa",
    "geo": {
@@ -2368,6 +2278,27 @@
     "fonte": "google",
     "lat": -12.5365016,
     "lng": -56.6503713
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444421771472",
+   "uf": "MT",
+   "cidade": "VARZEA GRANDE",
+   "bairro": "JARDIM PAULA I",
+   "endereco": "RUA N-1, N. SN, LT 08, QD 44",
+   "preco": 127157.3,
+   "valor_avaliacao": 245000.0,
+   "desconto": 48.1,
+   "financiamento": "Não",
+   "descricao": "Casa, 98.00 de área total, 69.30 de área privativa, 360.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421771472",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.6597785,
+    "lng": -56.1521749
    },
    "geo_pendente": false
   },
@@ -2494,27 +2425,6 @@
     "fonte": "google",
     "lat": -15.6183907,
     "lng": -56.1056798
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444431269468",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "VARZEA GRANDE",
-   "endereco": "RUA A, N. SN, LT 04 QD 11",
-   "preco": 124509.18,
-   "valor_avaliacao": 206000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Casa, 60.94 de área total, 60.94 de área privativa, 197.58 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431269468",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6776937,
-    "lng": -56.1436996
    },
    "geo_pendente": false
   },
@@ -2865,7 +2775,7 @@
    "desconto": 38.77,
    "financiamento": "Não",
    "descricao": "Casa, 61.26 de área total, 61.26 de área privativa, 220.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700094060",
    "tipo": "casa",
    "geo": {
@@ -3033,7 +2943,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 53.19 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10289431",
    "tipo": "apartamento",
    "geo": {
@@ -3184,9 +3094,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704525660",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.6225879,
-    "lng": -56.0986252,
-    "fonte": "google"
+    "lng": -56.0986252
    },
    "geo_pendente": false
   },
@@ -3247,9 +3157,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434710980",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.6830532,
-    "lng": -56.1614084,
-    "fonte": "google"
+    "lng": -56.1614084
    },
    "geo_pendente": false
   },
@@ -3289,9 +3199,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717265181",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.6188127,
-    "lng": -56.1055292,
-    "fonte": "google"
+    "lng": -56.1055292
    },
    "geo_pendente": false
   },

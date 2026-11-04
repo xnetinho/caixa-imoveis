@@ -1,9 +1,9 @@
 {
  "uf": "RO",
- "data_geracao_caixa": "30/10/2026",
- "coletado_em": "31/10/2026 03:54",
+ "data_geracao_caixa": "03/11/2026",
+ "coletado_em": "04/11/2026 04:26",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_RO.csv",
- "total": 28,
+ "total": 30,
  "colunas": [
   "id",
   "uf",
@@ -55,9 +55,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444432707515",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -11.3543468,
-    "lng": -62.29081,
-    "fonte": "google"
+    "lng": -62.29081
    },
    "geo_pendente": false
   },
@@ -114,7 +114,7 @@
    "desconto": 37.87,
    "financiamento": "Sim",
    "descricao": "Casa, 0.00 de área total, 214.83 de área privativa, 537.53 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10282352",
    "tipo": "casa",
    "geo": {
@@ -177,7 +177,7 @@
    "desconto": 48.1,
    "financiamento": "Sim",
    "descricao": "Casa, 210.56 de área total, 38.42 de área privativa, 315.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444412606120",
    "tipo": "casa",
    "geo": {
@@ -356,6 +356,21 @@
    "geo_pendente": false
   },
   {
+   "id": "10202885",
+   "uf": "RO",
+   "cidade": "OURO PRETO DO OESTE",
+   "bairro": "CENTRO",
+   "endereco": "RUA JOÃO WESLEY (ANTIGA MARGINAL IGARAPÉ), N. 00, ST 01, QD 31, LT 375",
+   "preco": 148497.74,
+   "valor_avaliacao": 470000.0,
+   "desconto": 68.41,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 7273.85 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10202885",
+   "tipo": "terreno"
+  },
+  {
    "id": "10012278",
    "uf": "RO",
    "cidade": "PORTO VELHO",
@@ -408,7 +423,7 @@
    "desconto": 46.58,
    "financiamento": "Sim",
    "descricao": "Casa, 364.61 de área total, 364.61 de área privativa, 450.00 de área do terreno,  3 qto(s), a.serv, WC, WC Emp, 2 sala(s), 1 lavabo(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444403086267",
    "tipo": "casa",
    "geo": {
@@ -429,7 +444,7 @@
    "desconto": 46.58,
    "financiamento": "Sim",
    "descricao": "Casa, 0.00 de área total, 268.03 de área privativa, 300.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417460662",
    "tipo": "casa",
    "geo": {
@@ -471,7 +486,7 @@
    "desconto": 43.52,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 194.64 de área privativa, 250.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10207663",
    "tipo": "casa",
    "geo": {
@@ -601,11 +616,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444405742340",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -8.7379109,
-    "lng": -63.9345014,
-    "fonte": "google"
+    "lng": -63.9345014
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10279404",
+   "uf": "RO",
+   "cidade": "SAO FRANCISCO DO GUAPORE",
+   "bairro": "CENTRO",
+   "endereco": "R RONALDO ARAGÃO, N. 3000, ST03,QD45,LT001.01",
+   "preco": 234021.8,
+   "valor_avaliacao": 482000.0,
+   "desconto": 51.45,
+   "financiamento": "Sim",
+   "descricao": "Loja, 0.00 de área total, 240.00 de área privativa, 240.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10279404",
+   "tipo": "loja"
   }
  ]
 }

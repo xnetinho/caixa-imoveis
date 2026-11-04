@@ -1,9 +1,9 @@
 {
  "uf": "SE",
- "data_geracao_caixa": "30/10/2026",
- "coletado_em": "31/10/2026 03:54",
+ "data_geracao_caixa": "03/11/2026",
+ "coletado_em": "04/11/2026 04:26",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_SE.csv",
- "total": 404,
+ "total": 368,
  "colunas": [
   "id",
   "uf",
@@ -51,7 +51,7 @@
    "desconto": 42.65,
    "financiamento": "Não",
    "descricao": "Casa, 345.00 de área total, 127.40 de área privativa, 127.40 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555538979725",
    "tipo": "casa",
    "geo": {
@@ -223,9 +223,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1173330001164",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -10.9164701,
-    "lng": -37.067339,
-    "fonte": "google"
+    "lng": -37.067339
    },
    "geo_pendente": false
   },
@@ -286,9 +286,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435698908",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -10.9465796,
-    "lng": -37.1122945,
-    "fonte": "google"
+    "lng": -37.1122945
    },
    "geo_pendente": false
   },
@@ -328,9 +328,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444402731223",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -11.0499808,
-    "lng": -37.0970991,
-    "fonte": "google"
+    "lng": -37.0970991
    },
    "geo_pendente": false
   },
@@ -660,7 +660,7 @@
    "desconto": 36.27,
    "financiamento": "Não",
    "descricao": "Gleba, 0.00 de área total, 0.00 de área privativa, 334716.25 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555527122364",
    "tipo": "gleba",
    "geo": {
@@ -730,27 +730,6 @@
     "fonte": "google",
     "lat": -10.5174632,
     "lng": -37.0611908
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555508607569",
-   "uf": "SE",
-   "cidade": "CAPELA",
-   "bairro": "São Cristóvão",
-   "endereco": "AVENIDA ARIOVALDO BARRETO, N. 1211",
-   "preco": 47980.8,
-   "valor_avaliacao": 95000.0,
-   "desconto": 49.5,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 60.00 de área privativa, 190.00 de área do terreno,  4 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555508607569",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.5091207,
-    "lng": -37.0422295
    },
    "geo_pendente": false
   },
@@ -832,9 +811,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410052281",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -10.5074582,
-    "lng": -37.0546609,
-    "fonte": "google"
+    "lng": -37.0546609
    },
    "geo_pendente": false
   },
@@ -898,27 +877,6 @@
     "fonte": "google",
     "lat": -10.9088997,
     "lng": -37.0505224
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444419413785",
-   "uf": "SE",
-   "cidade": "ESTANCIA",
-   "bairro": "CENTRO",
-   "endereco": "ROD AYRTON SENNA, N. SN, LJ 02",
-   "preco": 50150.56,
-   "valor_avaliacao": 97694.92,
-   "desconto": 48.67,
-   "financiamento": "Não",
-   "descricao": "Loja, 19.50 de área total, 19.50 de área privativa, 0.00 de área do terreno, WC.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419413785",
-   "tipo": "loja",
-   "geo": {
-    "fonte": "google",
-    "lat": -11.325588,
-    "lng": -37.2845238
    },
    "geo_pendente": false
   },
@@ -1012,81 +970,18 @@
    "cidade": "FREI PAULO",
    "bairro": "RES JUDITH ABYLIA",
    "endereco": "RUA 1, N. SN, LT 20, QD 1",
-   "preco": 48588.23,
+   "preco": 45551.46,
    "valor_avaliacao": 105000.0,
-   "desconto": 53.73,
+   "desconto": 56.62,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 39.79 de área privativa, 160.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555538854491",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -10.5497396,
     "lng": -37.533596
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555538260060",
-   "uf": "SE",
-   "cidade": "FREI PAULO",
-   "bairro": "CENTRO",
-   "endereco": "RUA 01, N. SN, QD 01, LT 27",
-   "preco": 31107.76,
-   "valor_avaliacao": 63000.0,
-   "desconto": 50.63,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 160.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555538260060",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.5497396,
-    "lng": -37.533596
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555533501574",
-   "uf": "SE",
-   "cidade": "FREI PAULO",
-   "bairro": "RES JUDITH ABYLIA",
-   "endereco": "RUA 1, N. SN, LT 119 QD 06",
-   "preco": 25923.13,
-   "valor_avaliacao": 51000.0,
-   "desconto": 49.18,
-   "financiamento": "Não",
-   "descricao": "Casa, 39.79 de área total, 39.79 de área privativa, 160.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533501574",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.5497396,
-    "lng": -37.533596
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555532237210",
-   "uf": "SE",
-   "cidade": "FREI PAULO",
-   "bairro": "RES JUDITH ABYLIA",
-   "endereco": "RUA BR 235 (RUA B), N. SN, LT 13 QD 1",
-   "preco": 32240.54,
-   "valor_avaliacao": 60000.0,
-   "desconto": 46.27,
-   "financiamento": "Não",
-   "descricao": "Casa, 39.79 de área total, 39.79 de área privativa, 160.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532237210",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.5182297,
-    "lng": -43.0045702
    },
    "geo_pendente": false
   },
@@ -1301,27 +1196,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444407988036",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA APARECIDA",
-   "bairro": "CENTRO",
-   "endereco": "RUA JOSE NUNES FILHO, N. 102,",
-   "preco": 94623.28,
-   "valor_avaliacao": 155000.0,
-   "desconto": 38.96,
-   "financiamento": "Não",
-   "descricao": "Casa, 173.71 de área total, 173.71 de área privativa, 173.71 de área do terreno,  2 qto(s), a.serv, WC, 3 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444407988036",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.3989565,
-    "lng": -37.4568446
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444419830635",
    "uf": "SE",
    "cidade": "NOSSA SENHORA DA GLORIA",
@@ -1353,7 +1227,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 91.90 de área total, 91.90 de área privativa, 128.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416853294",
    "tipo": "casa",
    "geo": {
@@ -1437,7 +1311,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 948.08 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10302831",
    "tipo": "terreno",
    "geo": {
@@ -1528,27 +1402,6 @@
     "fonte": "google",
     "lat": -10.8959979,
     "lng": -37.1505527
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444422158900",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "SOBRADO",
-   "endereco": "RUA Q, N. 30, LT 271-B QD 12",
-   "preco": 36216.29,
-   "valor_avaliacao": 140000.0,
-   "desconto": 74.14,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 62.55 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), sacada, cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422158900",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.896634,
-    "lng": -37.1110075
    },
    "geo_pendente": false
   },
@@ -1675,27 +1528,6 @@
     "fonte": "google",
     "lat": -10.8949074,
     "lng": -37.136425
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444419165925",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "SANTA INES",
-   "endereco": "RUA 10 DE JANEIRO, N. 16, QD 06 LT 16",
-   "preco": 9975.52,
-   "valor_avaliacao": 35000.0,
-   "desconto": 71.5,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 125.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419165925",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8956873,
-    "lng": -37.1511384
    },
    "geo_pendente": false
   },
@@ -1889,27 +1721,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444421768100",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "JARDIM",
-   "endereco": "RUA PROFESSOR ANTÓNIO AYRES, N. 33, QD.36",
-   "preco": 48486.97,
-   "valor_avaliacao": 135000.0,
-   "desconto": 64.09,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 64.49 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421768100",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.9124372,
-    "lng": -37.1533253
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444415794367",
    "uf": "SE",
    "cidade": "NOSSA SENHORA DO SOCORRO",
@@ -2011,27 +1822,6 @@
     "fonte": "google",
     "lat": -10.887248,
     "lng": -37.15001520000001
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444419544098",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "LOTEAMENTO MANGUINH",
-   "endereco": "AVENIDA CHESF, N. 109, QD GN LT 8154",
-   "preco": 42734.67,
-   "valor_avaliacao": 110000.0,
-   "desconto": 61.16,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 62.15 de área privativa, 140.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419544098",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.905297,
-    "lng": -37.139358
    },
    "geo_pendente": false
   },
@@ -2151,7 +1941,7 @@
    "desconto": 58.42,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 62.57 de área privativa, 133.75 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418627836",
    "tipo": "casa",
    "geo": {
@@ -2179,6 +1969,27 @@
     "fonte": "google",
     "lat": -10.8898393,
     "lng": -37.1456338
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444420472798",
+   "uf": "SE",
+   "cidade": "NOSSA SENHORA DO SOCORRO",
+   "bairro": "SANTA INES",
+   "endereco": "RUA 7 DE JANEIRO, N. 20, QD 19 LT 16",
+   "preco": 58350.13,
+   "valor_avaliacao": 132000.0,
+   "desconto": 55.8,
+   "financiamento": "Não",
+   "descricao": "Casa, 62.85 de área total, 62.85 de área privativa, 126.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420472798",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -10.8931286,
+    "lng": -37.1533553
    },
    "geo_pendente": false
   },
@@ -2263,69 +2074,6 @@
     "fonte": "google",
     "lat": -10.888116,
     "lng": -37.1489503
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444416750053",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "SANTA INES",
-   "endereco": "RUA 2 DE ABRIL, N. LT 05, QD 69",
-   "preco": 49371.21,
-   "valor_avaliacao": 108000.0,
-   "desconto": 54.29,
-   "financiamento": "Não",
-   "descricao": "Casa, 64.00 de área total, 64.00 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416750053",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8920309,
-    "lng": -37.1507636
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444423534174",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "COMPLEXO JARDIM",
-   "endereco": "RUA 1º DE MARÇO, N. 477, LOTES 13 E 15-C, QD 50",
-   "preco": 52737.44,
-   "valor_avaliacao": 115000.0,
-   "desconto": 54.15,
-   "financiamento": "Não",
-   "descricao": "Casa, 54.55 de área total, 54.55 de área privativa, 133.25 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423534174",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8898393,
-    "lng": -37.1456338
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444416681140",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "SANTA INES",
-   "endereco": "RUA DAS HORTENCIAS, N. 12, LT 04B, QD 06",
-   "preco": 54113.2,
-   "valor_avaliacao": 118000.0,
-   "desconto": 54.15,
-   "financiamento": "Não",
-   "descricao": "Casa, 59.13 de área total, 59.13 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416681140",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8884964,
-    "lng": -37.1485618
    },
    "geo_pendente": false
   },
@@ -2624,6 +2372,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444410891321",
+   "uf": "SE",
+   "cidade": "NOSSA SENHORA DO SOCORRO",
+   "bairro": "SANTA INES",
+   "endereco": "RUA 13 DE MARCO, N. 01, LT. 01-A, QD. 54. Nº01",
+   "preco": 44590.37,
+   "valor_avaliacao": 95000.0,
+   "desconto": 53.07,
+   "financiamento": "Não",
+   "descricao": "Casa, 65.20 de área total, 65.20 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410891321",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -10.8908705,
+    "lng": -37.1519977
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444416601430",
    "uf": "SE",
    "cidade": "NOSSA SENHORA DO SOCORRO",
@@ -2750,27 +2519,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444420472798",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "SANTA INES",
-   "endereco": "RUA 7 DE JANEIRO, N. 20, QD 19 LT 16",
-   "preco": 61997.01,
-   "valor_avaliacao": 132000.0,
-   "desconto": 53.04,
-   "financiamento": "Não",
-   "descricao": "Casa, 62.85 de área total, 62.85 de área privativa, 126.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420472798",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8931286,
-    "lng": -37.1533553
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444406547689",
    "uf": "SE",
    "cidade": "NOSSA SENHORA DO SOCORRO",
@@ -2802,7 +2550,7 @@
    "desconto": 52.9,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.01 de área privativa, 133.75 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428232516",
    "tipo": "terreno",
    "geo": {
@@ -3002,69 +2750,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444410891321",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "SANTA INES",
-   "endereco": "RUA 13 DE MARCO, N. 01, LT. 01-A, QD. 54. Nº01",
-   "preco": 45901.86,
-   "valor_avaliacao": 95000.0,
-   "desconto": 51.69,
-   "financiamento": "Não",
-   "descricao": "Casa, 65.20 de área total, 65.20 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410891321",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8908705,
-    "lng": -37.1519977
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444415733937",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "SANTA INES",
-   "endereco": "AVENIDA ROSA DE MAIO, N. 03-B, LT03-B, QD 72",
-   "preco": 48317.74,
-   "valor_avaliacao": 100000.0,
-   "desconto": 51.69,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 57.54 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415733937",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.887599,
-    "lng": -37.149449
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444420714554",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "SANTA INES",
-   "endereco": "RUA A, N. 105,",
-   "preco": 48314.2,
-   "valor_avaliacao": 100000.0,
-   "desconto": 51.69,
-   "financiamento": "Não",
-   "descricao": "Casa, 59.25 de área total, 59.25 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420714554",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8851159,
-    "lng": -37.1581327
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444428746854",
    "uf": "SE",
    "cidade": "NOSSA SENHORA DO SOCORRO",
@@ -3082,27 +2767,6 @@
     "fonte": "google",
     "lat": -10.8937988,
     "lng": -37.1493993
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444425416330",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "COMPLEXO JARDIM",
-   "endereco": "RUA P, N. SN, LT 08-B, QD 38",
-   "preco": 16972.24,
-   "valor_avaliacao": 35000.0,
-   "desconto": 51.51,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 133.75 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425416330",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8988953,
-    "lng": -37.1459478
    },
    "geo_pendente": false
   },
@@ -3149,69 +2813,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444409232867",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "Lot Rosa de Maio",
-   "endereco": "RUA 2 DE MARCO, N. 17-B, LT 17-B QD 52",
-   "preco": 48692.13,
-   "valor_avaliacao": 100248.95,
-   "desconto": 51.43,
-   "financiamento": "Não",
-   "descricao": "Casa, 65.20 de área total, 65.20 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409232867",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8913202,
-    "lng": -37.1572631
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444413872026",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "GUAJARA",
-   "endereco": "AVENIDA 2, N. 102, ÁREA 17, QD F N° 102",
-   "preco": 53428.33,
-   "valor_avaliacao": 110000.0,
-   "desconto": 51.43,
-   "financiamento": "Não",
-   "descricao": "Casa, 69.75 de área total, 69.75 de área privativa, 146.87 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413872026",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8967746,
-    "lng": -37.154499
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444415725039",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "GUAJARA",
-   "endereco": "RUA B, N. 8, LT 198, QD 9",
-   "preco": 53428.33,
-   "valor_avaliacao": 110000.0,
-   "desconto": 51.43,
-   "financiamento": "Não",
-   "descricao": "Casa, 65.52 de área total, 65.52 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415725039",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.9005794,
-    "lng": -37.1601855
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444407328930",
    "uf": "SE",
    "cidade": "NOSSA SENHORA DO SOCORRO",
@@ -3233,48 +2834,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444424024900",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "LOT JD VILA NEY",
-   "endereco": "RUA D, N. 409, LT 34-B QD 20",
-   "preco": 58469.77,
-   "valor_avaliacao": 120000.0,
-   "desconto": 51.28,
-   "financiamento": "Não",
-   "descricao": "Casa, 59.70 de área total, 59.70 de área privativa, 125.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424024900",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8864656,
-    "lng": -37.1593507
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444428923772",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "JARDIM",
-   "endereco": "RUA PALESTINA (ANTIGA RUA VICINAL), N. SN, A 39",
-   "preco": 60906.01,
-   "valor_avaliacao": 125000.0,
-   "desconto": 51.28,
-   "financiamento": "Não",
-   "descricao": "Casa, 58.89 de área total, 58.89 de área privativa, 125.02 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428923772",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8898393,
-    "lng": -37.1456338
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444416369165",
    "uf": "SE",
    "cidade": "NOSSA SENHORA DO SOCORRO",
@@ -3285,97 +2844,13 @@
    "desconto": 51.16,
    "financiamento": "Sim",
    "descricao": "Casa, 0.00 de área total, 74.56 de área privativa, 141.75 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416369165",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -10.8530149,
     "lng": -37.1269852
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444425776957",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "GUAJARA",
-   "endereco": "RUA 3, N. SN, LT 412A, QD 400",
-   "preco": 49208.01,
-   "valor_avaliacao": 100000.0,
-   "desconto": 50.8,
-   "financiamento": "Não",
-   "descricao": "Casa, 64.30 de área total, 64.30 de área privativa, 137.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425776957",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8983253,
-    "lng": -37.1538383
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444406375900",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "SANTA INES",
-   "endereco": "RUA 12 DE MARCO, N. 0, LT 18H QD 52 LOT JARDIM",
-   "preco": 49208.01,
-   "valor_avaliacao": 100000.0,
-   "desconto": 50.8,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 62.90 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406375900",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8909663,
-    "lng": -37.153974
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444415680639",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "SANTA INES",
-   "endereco": "RUA 8 DE JANEIRO, N. 01-A, LT 01-A QD 09",
-   "preco": 46747.61,
-   "valor_avaliacao": 95000.0,
-   "desconto": 50.8,
-   "financiamento": "Não",
-   "descricao": "Casa, 56.11 de área total, 56.11 de área privativa, 141.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415680639",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8872333,
-    "lng": -37.1571007
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444419172239",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "PARQUE DOS FAROIS",
-   "endereco": "RUA 52, N. 177, LT09B QDA62",
-   "preco": 64009.67,
-   "valor_avaliacao": 130000.0,
-   "desconto": 50.77,
-   "financiamento": "Não",
-   "descricao": "Casa, 60.25 de área total, 60.25 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419172239",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.9204604,
-    "lng": -37.1366506
    },
    "geo_pendente": false
   },
@@ -3418,27 +2893,6 @@
     "fonte": "google",
     "lat": -10.8878607,
     "lng": -37.1572033
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444420154397",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "LOT JD VILA NEY",
-   "endereco": "RUA M, N. 144, LOTE 37-A QUADRA 20",
-   "preco": 54999.76,
-   "valor_avaliacao": 110000.0,
-   "desconto": 50.01,
-   "financiamento": "Não",
-   "descricao": "Casa, 67.50 de área total, 67.50 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420154397",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8919468,
-    "lng": -37.1423198
    },
    "geo_pendente": false
   },
@@ -3502,27 +2956,6 @@
     "fonte": "google",
     "lat": -10.8872333,
     "lng": -37.1571007
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444409177335",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "JARDIM",
-   "endereco": "RUA H, N. 11, A11-B",
-   "preco": 57681.58,
-   "valor_avaliacao": 115000.0,
-   "desconto": 49.85,
-   "financiamento": "Não",
-   "descricao": "Casa, 68.50 de área total, 68.50 de área privativa, 125.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409177335",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8954591,
-    "lng": -37.1468812
    },
    "geo_pendente": false
   },
@@ -3733,48 +3166,6 @@
     "fonte": "google",
     "lat": -10.8913385,
     "lng": -37.1516841
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444424804817",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "SANTA INES",
-   "endereco": "RUA B, N. 35, LOTE 28 QUADRA 03",
-   "preco": 65892.31,
-   "valor_avaliacao": 130000.0,
-   "desconto": 49.32,
-   "financiamento": "Não",
-   "descricao": "Casa, 54.43 de área total, 54.43 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424804817",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8945889,
-    "lng": -37.1491647
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444406095230",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "SANTA INES",
-   "endereco": "RUA 6 DE ABRIL, N. S/N, LT 16A QD 81",
-   "preco": 53231.9,
-   "valor_avaliacao": 105000.0,
-   "desconto": 49.31,
-   "financiamento": "Não",
-   "descricao": "Casa, 62.96 de área total, 62.96 de área privativa, 135.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406095230",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8899175,
-    "lng": -37.149652
    },
    "geo_pendente": false
   },
@@ -4237,48 +3628,6 @@
     "fonte": "google",
     "lat": -10.8876952,
     "lng": -37.1472998
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444410056945",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "SANTA INES",
-   "endereco": "RUA 13 DE MARCO, N. 456, LT 1B, QD 54",
-   "preco": 51333.84,
-   "valor_avaliacao": 100000.0,
-   "desconto": 48.67,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 65.20 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410056945",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8920115,
-    "lng": -37.1523627
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444417823348",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "GUAJARA",
-   "endereco": "RUA 02, N. 33, LT 41-A QD C",
-   "preco": 53999.76,
-   "valor_avaliacao": 105000.0,
-   "desconto": 48.58,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 65.59 de área privativa, 132.50 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417823348",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8989307,
-    "lng": -37.1556814
    },
    "geo_pendente": false
   },
@@ -4871,6 +4220,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444415862664",
+   "uf": "SE",
+   "cidade": "NOSSA SENHORA DO SOCORRO",
+   "bairro": "GUAJARA",
+   "endereco": "AVENIDA 2, N. 111,  AREA 15, QD F",
+   "preco": 33852.56,
+   "valor_avaliacao": 63000.0,
+   "desconto": 46.27,
+   "financiamento": "Não",
+   "descricao": "Casa, 69.75 de área total, 69.75 de área privativa, 126.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415862664",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -10.896775,
+    "lng": -37.1544984
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444425502342",
    "uf": "SE",
    "cidade": "NOSSA SENHORA DO SOCORRO",
@@ -5119,27 +4489,6 @@
     "fonte": "google",
     "lat": -10.894265,
     "lng": -37.1353495
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444415862664",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "GUAJARA",
-   "endereco": "AVENIDA 2, N. 111,  AREA 15, QD F",
-   "preco": 34767.5,
-   "valor_avaliacao": 63000.0,
-   "desconto": 44.82,
-   "financiamento": "Não",
-   "descricao": "Casa, 69.75 de área total, 69.75 de área privativa, 126.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415862664",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.896775,
-    "lng": -37.1544984
    },
    "geo_pendente": false
   },
@@ -5910,7 +5259,7 @@
    "desconto": 42.86,
    "financiamento": "Não",
    "descricao": "Casa, 61.95 de área total, 61.95 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419281305",
    "tipo": "casa",
    "geo": {
@@ -5931,7 +5280,7 @@
    "desconto": 42.86,
    "financiamento": "Não",
    "descricao": "Casa, 69.03 de área total, 69.03 de área privativa, 132.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427116881",
    "tipo": "casa",
    "geo": {
@@ -5973,7 +5322,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Casa, 66.46 de área total, 66.46 de área privativa, 133.25 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415397589",
    "tipo": "casa",
    "geo": {
@@ -5994,7 +5343,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 56.11 de área privativa, 150.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416189815",
    "tipo": "casa",
    "geo": {
@@ -6015,7 +5364,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Casa, 63.90 de área total, 63.90 de área privativa, 138.75 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427053766",
    "tipo": "casa",
    "geo": {
@@ -6078,7 +5427,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Casa, 60.00 de área total, 60.00 de área privativa, 165.95 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429809043",
    "tipo": "casa",
    "geo": {
@@ -6309,7 +5658,7 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Casa, 125.00 de área total, 125.00 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431067431",
    "tipo": "casa",
    "geo": {
@@ -6435,7 +5784,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Casa, 62.85 de área total, 62.85 de área privativa, 125.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417172509",
    "tipo": "casa",
    "geo": {
@@ -6456,7 +5805,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 81.25 de área privativa, 100.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420058762",
    "tipo": "casa",
    "geo": {
@@ -6603,7 +5952,7 @@
    "desconto": 41.91,
    "financiamento": "Não",
    "descricao": "Casa, 62.03 de área total, 62.03 de área privativa, 125.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418969125",
    "tipo": "casa",
    "geo": {
@@ -6645,7 +5994,7 @@
    "desconto": 41.91,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 133.50 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427657009",
    "tipo": "terreno",
    "geo": {
@@ -6687,7 +6036,7 @@
    "desconto": 41.91,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 125.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428536655",
    "tipo": "terreno",
    "geo": {
@@ -6813,7 +6162,7 @@
    "desconto": 41.91,
    "financiamento": "Não",
    "descricao": "Casa, 60.00 de área total, 60.00 de área privativa, 132.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426595964",
    "tipo": "casa",
    "geo": {
@@ -6883,27 +6232,6 @@
     "fonte": "google",
     "lat": -10.8949074,
     "lng": -37.136425
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444429744669",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "SANTA INES",
-   "endereco": "RUA 8 DE FEVEREIRO, N. SN, QD 39 AREA 03",
-   "preco": 17136.86,
-   "valor_avaliacao": 29500.0,
-   "desconto": 41.91,
-   "financiamento": "Não",
-   "descricao": "Casa, 60.00 de área total, 60.00 de área privativa, 133.75 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429744669",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.8902863,
-    "lng": -37.1557897
    },
    "geo_pendente": false
   },
@@ -7002,7 +6330,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 59.13 de área total, 59.13 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419531158",
    "tipo": "casa",
    "geo": {
@@ -7023,7 +6351,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 58.50 de área total, 58.50 de área privativa, 100.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423211332",
    "tipo": "casa",
    "geo": {
@@ -7086,7 +6414,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 64.49 de área total, 64.49 de área privativa, 125.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421548305",
    "tipo": "casa",
    "geo": {
@@ -7468,30 +6796,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707769519",
    "tipo": "apartamento",
    "geo": {
-    "lat": -10.8543095,
-    "lng": -37.0945201,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444410838951",
-   "uf": "SE",
-   "cidade": "NOSSA SENHORA DO SOCORRO",
-   "bairro": "PARQUE DOS FAROIS",
-   "endereco": "TRAVESSA 2, N. 22, LT22, AREA03",
-   "preco": 38000.0,
-   "valor_avaliacao": 38000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 55.80 de área privativa, 164.88 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410838951",
-   "tipo": "casa",
-   "geo": {
     "fonte": "google",
-    "lat": -10.9147863,
-    "lng": -37.1299351
+    "lat": -10.8543095,
+    "lng": -37.0945201
    },
    "geo_pendente": false
   },
@@ -7594,9 +6901,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429546360",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -10.8296662,
-    "lng": -37.0720527,
-    "fonte": "google"
+    "lng": -37.0720527
    },
    "geo_pendente": false
   },
@@ -7678,9 +6985,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414500360",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -10.8484165,
-    "lng": -37.0545396,
-    "fonte": "google"
+    "lng": -37.0545396
    },
    "geo_pendente": false
   },
@@ -8042,38 +7349,17 @@
    "geo_pendente": false
   },
   {
-   "id": "1444419790953",
-   "uf": "SE",
-   "cidade": "PEDRINHAS",
-   "bairro": "BUENOS AIRES",
-   "endereco": "RUA BUENOS AIRES, N. 221, LT 02 QD A",
-   "preco": 94413.49,
-   "valor_avaliacao": 200000.0,
-   "desconto": 52.8,
-   "financiamento": "Sim",
-   "descricao": "Casa, 164.57 de área total, 164.57 de área privativa, 218.17 de área do terreno,  3 qto(s), varanda, a.serv, WC, 3 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419790953",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -11.1952435,
-    "lng": -37.6681145
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444406228524",
    "uf": "SE",
    "cidade": "PEDRINHAS",
    "bairro": "CENTRO",
    "endereco": "RUA A, N. 19, LT 19, QD A",
-   "preco": 51635.8,
+   "preco": 50201.48,
    "valor_avaliacao": 95000.0,
-   "desconto": 45.65,
+   "desconto": 47.16,
    "financiamento": "Não",
    "descricao": "Casa, 64.26 de área total, 64.26 de área privativa, 140.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406228524",
    "tipo": "casa",
    "geo": {
@@ -8115,7 +7401,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 103.05 de área total, 103.05 de área privativa, 105.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428319727",
    "tipo": "casa",
    "geo": {
@@ -8140,9 +7426,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555510964553",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -10.2097739,
-    "lng": -36.8385773,
-    "fonte": "google"
+    "lng": -36.8385773
    },
    "geo_pendente": false
   },
@@ -8231,27 +7517,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444426612672",
-   "uf": "SE",
-   "cidade": "SAO CRISTOVAO",
-   "bairro": "ROMUALDO PRADO",
-   "endereco": "RUA H, N. 14 B, QD A",
-   "preco": 23105.72,
-   "valor_avaliacao": 43000.0,
-   "desconto": 46.27,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 125.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426612672",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.9956015,
-    "lng": -37.2007551
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444434351866",
    "uf": "SE",
    "cidade": "SAO CRISTOVAO",
@@ -8325,7 +7590,7 @@
    "desconto": 39.41,
    "financiamento": "Não",
    "descricao": "Casa, 59.32 de área total, 59.32 de área privativa, 100.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406457388",
    "tipo": "casa",
    "geo": {
@@ -8399,6 +7664,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8555537762208",
+   "uf": "SE",
+   "cidade": "TOBIAS BARRETO",
+   "bairro": "LOT VILLA VERDE",
+   "endereco": "RUA LAGARTO, N. 167,",
+   "preco": 75430.98,
+   "valor_avaliacao": 150000.0,
+   "desconto": 49.72,
+   "financiamento": "Não",
+   "descricao": "Casa, 44.39 de área total, 44.39 de área privativa, 150.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537762208",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -11.164047,
+    "lng": -38.007768
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444406321923",
    "uf": "SE",
    "cidade": "TOBIAS BARRETO",
@@ -8416,48 +7702,6 @@
     "fonte": "google",
     "lat": -11.1851577,
     "lng": -37.9877262
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555537762208",
-   "uf": "SE",
-   "cidade": "TOBIAS BARRETO",
-   "bairro": "LOT VILLA VERDE",
-   "endereco": "RUA LAGARTO, N. 167,",
-   "preco": 77526.28,
-   "valor_avaliacao": 150000.0,
-   "desconto": 48.32,
-   "financiamento": "Não",
-   "descricao": "Casa, 44.39 de área total, 44.39 de área privativa, 150.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537762208",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -11.164047,
-    "lng": -38.007768
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555520101475",
-   "uf": "SE",
-   "cidade": "TOBIAS BARRETO",
-   "bairro": "CENTRO",
-   "endereco": "RUA TENISSON TAVARES VASCONCELOS, N. 95, 2 ANDAR",
-   "preco": 132347.39,
-   "valor_avaliacao": 255000.0,
-   "desconto": 48.1,
-   "financiamento": "Sim",
-   "descricao": "Casa, 160.00 de área total, 160.00 de área privativa, 200.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555520101475",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -11.1898187,
-    "lng": -38.00361090000001
    },
    "geo_pendente": false
   },

@@ -1,9 +1,9 @@
 {
  "uf": "DF",
- "data_geracao_caixa": "30/10/2026",
- "coletado_em": "31/10/2026 03:54",
+ "data_geracao_caixa": "03/11/2026",
+ "coletado_em": "04/11/2026 04:25",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_DF.csv",
- "total": 75,
+ "total": 76,
  "colunas": [
   "id",
   "uf",
@@ -72,7 +72,7 @@
    "desconto": 42.65,
    "financiamento": "Sim",
    "descricao": "Sala, 0.00 de área total, 600.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10278243",
    "tipo": "sala",
    "geo": {
@@ -282,7 +282,7 @@
    "desconto": 39.46,
    "financiamento": "Sim",
    "descricao": "Casa, 108.00 de área total, 108.00 de área privativa, 112.50 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428274707",
    "tipo": "casa",
    "geo": {
@@ -303,7 +303,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Loja, 0.00 de área total, 50.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300590",
    "tipo": "loja",
    "geo": {
@@ -513,7 +513,7 @@
    "desconto": 36.27,
    "financiamento": "Não",
    "descricao": "Comercial, 0.00 de área total, 200.00 de área privativa, 225.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10292041",
    "tipo": "comercial",
    "geo": {
@@ -559,9 +559,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419574460",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.8307011,
-    "lng": -48.0137443,
-    "fonte": "google"
+    "lng": -48.0137443
    },
    "geo_pendente": false
   },
@@ -1189,9 +1189,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700229942",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.8635251,
-    "lng": -48.09390459999999,
-    "fonte": "google"
+    "lng": -48.09390459999999
    },
    "geo_pendente": false
   },
@@ -1465,6 +1465,27 @@
     "fonte": "google",
     "lat": -15.8252488,
     "lng": -48.0547658
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444418745490",
+   "uf": "DF",
+   "cidade": "TAGUATINGA",
+   "bairro": "TAGUATINGA NORTE",
+   "endereco": "QUADRA QNL 01, N. SN, Apto 309, BL D",
+   "preco": 267034.69,
+   "valor_avaliacao": 419000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 63.64 de área total, 63.64 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418745490",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.8255446,
+    "lng": -48.0549306
    },
    "geo_pendente": false
   },
