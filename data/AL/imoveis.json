@@ -1,7 +1,7 @@
 {
  "uf": "AL",
- "data_geracao_caixa": "03/11/2026",
- "coletado_em": "04/11/2026 14:04",
+ "data_geracao_caixa": "04/11/2026",
+ "coletado_em": "05/11/2026 00:25",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AL.csv",
  "total": 98,
  "colunas": [
@@ -19,27 +19,6 @@
   "link"
  ],
  "imoveis": [
-  {
-   "id": "8555507349060",
-   "uf": "AL",
-   "cidade": "ARAPIRACA",
-   "bairro": "BOA VISTA",
-   "endereco": "RUA ANTÔNIO SATURNINO DE ALMEIDA, N. 61, LT 15, QD E",
-   "preco": 95466.98,
-   "valor_avaliacao": 179000.0,
-   "desconto": 46.67,
-   "financiamento": "Sim",
-   "descricao": "Casa, 0.00 de área total, 88.69 de área privativa, 176.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555507349060",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.7886996,
-    "lng": -36.6330299
-   },
-   "geo_pendente": false
-  },
   {
    "id": "8444402891997",
    "uf": "AL",
@@ -587,6 +566,27 @@
    "geo_pendente": false
   },
   {
+   "id": "10201540",
+   "uf": "AL",
+   "cidade": "MACEIO",
+   "bairro": "FAROL",
+   "endereco": "AVENIDA DOUTOR MANOEL MOREIRA E SILVA, N. 653",
+   "preco": 519009.41,
+   "valor_avaliacao": 850000.0,
+   "desconto": 38.95,
+   "financiamento": "Não",
+   "descricao": "Comercial, 0.00 de área total, 827.77 de área privativa, 647.52 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10201540",
+   "tipo": "comercial",
+   "geo": {
+    "fonte": "google",
+    "lat": -9.6557133,
+    "lng": -35.735015
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787722551472",
    "uf": "AL",
    "cidade": "MACEIO",
@@ -618,7 +618,7 @@
    "desconto": 38.24,
    "financiamento": "Não",
    "descricao": "Apartamento, 47.28 de área total, 42.44 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414514697",
    "tipo": "apartamento",
    "geo": {
@@ -1353,7 +1353,7 @@
    "desconto": 59.02,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 53.58 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417941014",
    "tipo": "casa",
    "geo": {
