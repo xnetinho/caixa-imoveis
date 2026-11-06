@@ -1,9 +1,9 @@
 {
  "uf": "PA",
- "data_geracao_caixa": "04/11/2026",
- "coletado_em": "05/11/2026 00:25",
+ "data_geracao_caixa": "05/11/2026",
+ "coletado_em": "05/11/2026 22:14",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_PA.csv",
- "total": 240,
+ "total": 252,
  "colunas": [
   "id",
   "uf",
@@ -146,27 +146,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787716552047",
-   "uf": "PA",
-   "cidade": "ANANINDEUA",
-   "bairro": "AGUAS LINDAS",
-   "endereco": "RUA NONA TRAVESSA, N. SN, Apto 104, TIPO A  BL 04 QD B",
-   "preco": 122695.94,
-   "valor_avaliacao": 203000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 97.25 de área total, 59.23 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716552047",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -1.3996822,
-    "lng": -48.3879072
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1555527845226",
    "uf": "PA",
    "cidade": "ANANINDEUA",
@@ -247,6 +226,27 @@
     "fonte": "google",
     "lat": -1.33387,
     "lng": -48.4081611
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444403284733",
+   "uf": "PA",
+   "cidade": "ANANINDEUA",
+   "bairro": "DISTRITO INDUSTRIAL",
+   "endereco": "RUA TERCEIRA RURAL, N. 50, LT 26, AL 3",
+   "preco": 175261.43,
+   "valor_avaliacao": 275000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 64.64 de área total, 64.64 de área privativa, 126.24 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403284733",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -1.3458144,
+    "lng": -48.360046
    },
    "geo_pendente": false
   },
@@ -713,6 +713,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8002200007718",
+   "uf": "PA",
+   "cidade": "ANANINDEUA",
+   "bairro": "CIDADE NOVA",
+   "endereco": "TRAVESSA WE65, N. 1121, CASA TP PA5AI019",
+   "preco": 262215.01,
+   "valor_avaliacao": 225000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 89.00 de área total, 89.00 de área privativa, 213.50 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8002200007718",
+   "tipo": "casa"
+  },
+  {
    "id": "8555515857117",
    "uf": "PA",
    "cidade": "ANANINDEUA",
@@ -807,7 +822,7 @@
    "desconto": 53.07,
    "financiamento": "Não",
    "descricao": "Casa, 74.75 de área total, 74.75 de área privativa, 137.80 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409402410",
    "tipo": "casa",
    "geo": {
@@ -1028,48 +1043,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444404753117",
-   "uf": "PA",
-   "cidade": "AURORA DO PARA",
-   "bairro": "APARECIDA",
-   "endereco": "RUA SÃO FRANCISCO, N. 1410,",
-   "preco": 68214.74,
-   "valor_avaliacao": 119000.0,
-   "desconto": 42.68,
-   "financiamento": "Não",
-   "descricao": "Casa, 91.52 de área total, 91.52 de área privativa, 245.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404753117",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.1328243,
-    "lng": -47.5535506
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444403569339",
-   "uf": "PA",
-   "cidade": "AURORA DO PARA",
-   "bairro": "APARECIDA",
-   "endereco": "RUA DA COSANPA, N. SN,",
-   "preco": 77043.32,
-   "valor_avaliacao": 133000.0,
-   "desconto": 42.08,
-   "financiamento": "Não",
-   "descricao": "Casa, 86.90 de área total, 74.88 de área privativa, 392.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403569339",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.1422109,
-    "lng": -47.5527124
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444406813125",
    "uf": "PA",
    "cidade": "AURORA DO PARA",
@@ -1131,6 +1104,21 @@
     "lng": -48.4787129
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787708031785",
+   "uf": "PA",
+   "cidade": "BELEM",
+   "bairro": "BENGUI",
+   "endereco": "RUA FERREIRA FILHO, N. 17-A, Apto 202, 2QS BL 04",
+   "preco": 117860.63,
+   "valor_avaliacao": 195000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 101.48 de área total, 47.59 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708031785",
+   "tipo": "apartamento"
   },
   {
    "id": "8787716595480",
@@ -1196,6 +1184,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1444419317930",
+   "uf": "PA",
+   "cidade": "BELEM",
+   "bairro": "DISTRITO OUTEIRO",
+   "endereco": "ESTRADA DO OUTEIRO BL 010, N. SN, RUA 9 LT 06 QD A9",
+   "preco": 945774.42,
+   "valor_avaliacao": 1484000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 779.97 de área do terreno.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419317930",
+   "tipo": "terreno"
+  },
+  {
    "id": "1444423504609",
    "uf": "PA",
    "cidade": "BELEM",
@@ -1236,6 +1239,36 @@
     "lng": -48.4416035
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10308164",
+   "uf": "PA",
+   "cidade": "BELEM",
+   "bairro": "CASTANHEIRA",
+   "endereco": "PASSAGEM AURORA, N. 259,",
+   "preco": 424451.32,
+   "valor_avaliacao": 666000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 694.30 de área do terreno.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10308164",
+   "tipo": "terreno"
+  },
+  {
+   "id": "1555521828818",
+   "uf": "PA",
+   "cidade": "BELEM",
+   "bairro": "PARQUE VERDE",
+   "endereco": "RODOVIA AUGUSTO MONTENEGRO, N. 4311, Apto 607, BL 03 VG 292",
+   "preco": 177810.69,
+   "valor_avaliacao": 279000.0,
+   "desconto": 36.27,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 89.23 de área total, 53.22 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555521828818",
+   "tipo": "apartamento"
   },
   {
    "id": "1555539919130",
@@ -1700,6 +1733,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444411344758",
+   "uf": "PA",
+   "cidade": "BUJARU",
+   "bairro": "BAIRRO DA NOVO",
+   "endereco": "PASSAGEM ZE BARAO, N. 398C, QD 083, LT 03",
+   "preco": 39501.92,
+   "valor_avaliacao": 68000.0,
+   "desconto": 41.91,
+   "financiamento": "Não",
+   "descricao": "Casa, 42.00 de área total, 42.00 de área privativa, 148.50 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411344758",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -1.5152325,
+    "lng": -48.0452731
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444414543468",
    "uf": "PA",
    "cidade": "BUJARU",
@@ -1857,7 +1911,7 @@
    "desconto": 43.53,
    "financiamento": "Não",
    "descricao": "Casa, 46.10 de área total, 46.10 de área privativa, 260.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555501341075",
    "tipo": "casa",
    "geo": {
@@ -2162,6 +2216,36 @@
    "geo_pendente": false
   },
   {
+   "id": "8444438721595",
+   "uf": "PA",
+   "cidade": "CASTANHAL",
+   "bairro": "JADERLANDIA",
+   "endereco": "RUA DR LAUREANO FRANCISCO ALVES DE MELO, N. 1273,",
+   "preco": 101926.27,
+   "valor_avaliacao": 172000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Casa, 57.93 de área total, 57.93 de área privativa, 150.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444438721595",
+   "tipo": "casa"
+  },
+  {
+   "id": "8444437640567",
+   "uf": "PA",
+   "cidade": "CASTANHAL",
+   "bairro": "HELIOLANDIA",
+   "endereco": "TRAVESSA ANTURIO, N. 21, QD 52",
+   "preco": 101333.68,
+   "valor_avaliacao": 171000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Casa, 61.40 de área total, 61.40 de área privativa, 154.28 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444437640567",
+   "tipo": "casa"
+  },
+  {
    "id": "1555527476590",
    "uf": "PA",
    "cidade": "CASTANHAL",
@@ -2181,6 +2265,21 @@
     "lng": -47.9506455
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555509644441",
+   "uf": "PA",
+   "cidade": "CASTANHAL",
+   "bairro": "SANTA LIDIA",
+   "endereco": "AVENIDA JOSE BERTINO DA SILVA, N. 102, QD I LOTES 03  04  05 E 06",
+   "preco": 170000.0,
+   "valor_avaliacao": 170000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 65.00 de área total, 65.00 de área privativa, 249.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555509644441",
+   "tipo": "casa"
   },
   {
    "id": "8555520206196",
@@ -2265,6 +2364,21 @@
     "lng": -47.9126196
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555509246616",
+   "uf": "PA",
+   "cidade": "CASTANHAL",
+   "bairro": "NOVO ESTRELA",
+   "endereco": "ALAMEDA OSASCO, N. SN, Apto 201, ED 02",
+   "preco": 107000.0,
+   "valor_avaliacao": 107000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 65.53 de área total, 53.03 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555509246616",
+   "tipo": "apartamento"
   },
   {
    "id": "8444409832953",
@@ -2540,6 +2654,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444407164120",
+   "uf": "PA",
+   "cidade": "GARRAFAO DO NORTE",
+   "bairro": "CENTRO",
+   "endereco": "TRAVESSA ALFREDO FERRO, N. 740,",
+   "preco": 123000.0,
+   "valor_avaliacao": 123000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 69.60 de área total, 69.60 de área privativa, 112.50 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407164120",
+   "tipo": "casa"
+  },
+  {
    "id": "8444407785702",
    "uf": "PA",
    "cidade": "GARRAFAO DO NORTE",
@@ -2771,6 +2900,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444406302104",
+   "uf": "PA",
+   "cidade": "MAE DO RIO",
+   "bairro": "BAIRRO TUBILANDIA",
+   "endereco": "AVENIDA JANDAIRA, N. 152,",
+   "preco": 39334.03,
+   "valor_avaliacao": 83500.0,
+   "desconto": 52.9,
+   "financiamento": "Não",
+   "descricao": "Casa, 59.85 de área total, 59.85 de área privativa, 160.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406302104",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.0463456,
+    "lng": -47.5500881
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444408426609",
    "uf": "PA",
    "cidade": "MAE DO RIO",
@@ -2939,6 +3089,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444408987457",
+   "uf": "PA",
+   "cidade": "MAE DO RIO",
+   "bairro": "CASTANHEIRA",
+   "endereco": "RUA HERACLITO PINHEIRO, N. 202,",
+   "preco": 73567.68,
+   "valor_avaliacao": 127000.0,
+   "desconto": 42.08,
+   "financiamento": "Não",
+   "descricao": "Casa, 67.20 de área total, 67.20 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408987457",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.0407058,
+    "lng": -47.5628196
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444407128299",
    "uf": "PA",
    "cidade": "MAE DO RIO",
@@ -3040,27 +3211,6 @@
     "fonte": "google",
     "lat": -5.2903668,
     "lng": -49.0890673
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444435061330",
-   "uf": "PA",
-   "cidade": "MARABA",
-   "bairro": "NOVA MARABA",
-   "endereco": "QUADRA ONZE, N. SN, LT A 09",
-   "preco": 196549.74,
-   "valor_avaliacao": 321000.0,
-   "desconto": 38.77,
-   "financiamento": "Sim",
-   "descricao": "Casa, 98.00 de área total, 98.00 de área privativa, 270.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435061330",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.3451205,
-    "lng": -49.0781208
    },
    "geo_pendente": false
   },
@@ -3189,6 +3339,21 @@
     "lng": -48.3338501
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444403477990",
+   "uf": "PA",
+   "cidade": "MOCAJUBA",
+   "bairro": "CENTRO",
+   "endereco": "ALAMEDA DA PAZ, N. 09,",
+   "preco": 68214.74,
+   "valor_avaliacao": 119000.0,
+   "desconto": 42.68,
+   "financiamento": "Não",
+   "descricao": "Casa, 69.90 de área total, 69.90 de área privativa, 161.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403477990",
+   "tipo": "casa"
   },
   {
    "id": "8444414334249",
@@ -3611,27 +3776,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444418816045",
-   "uf": "PA",
-   "cidade": "PARAUAPEBAS",
-   "bairro": "CENTRO",
-   "endereco": "RUA A19, N. SN, LT 08 QD 66",
-   "preco": 60392.76,
-   "valor_avaliacao": 100000.0,
-   "desconto": 39.61,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 250.00 de área do terreno.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418816045",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -6.1021188,
-    "lng": -49.8662823
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555533092763",
    "uf": "PA",
    "cidade": "PARAUAPEBAS",
@@ -3663,7 +3807,7 @@
    "desconto": 63.84,
    "financiamento": "Não",
    "descricao": "Casa, 169.15 de área total, 169.15 de área privativa, 483.80 de área do terreno,  4 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444408596352",
    "tipo": "casa",
    "geo": {
@@ -3831,13 +3975,34 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Casa, 48.93 de área total, 48.93 de área privativa, 91.05 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444432640062",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -1.3423688,
     "lng": -47.5656769
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444436885736",
+   "uf": "PA",
+   "cidade": "SANTA MARIA DO PARA",
+   "bairro": "BAIRRO MARAMBAIA",
+   "endereco": "RUA XAVIER PACHECO, N. SN, LT 21",
+   "preco": 88404.91,
+   "valor_avaliacao": 151000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Casa, 78.43 de área total, 48.93 de área privativa, 91.05 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436885736",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -1.3456871,
+    "lng": -47.5739958
    },
    "geo_pendente": false
   },
@@ -3989,6 +4154,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787702690973",
+   "uf": "PA",
+   "cidade": "SAO DOMINGOS DO CAPIM",
+   "bairro": "PONTO CERTO",
+   "endereco": "TRAVESSA PROJETADA 04, N. SN, LT 72",
+   "preco": 28431.2,
+   "valor_avaliacao": 77000.0,
+   "desconto": 63.08,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 54.18 de área privativa, 160.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702690973",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -1.6789372,
+    "lng": -47.7693629
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787702046365",
    "uf": "PA",
    "cidade": "SAO DOMINGOS DO CAPIM",
@@ -4001,27 +4187,6 @@
    "descricao": "Casa, 54.18 de área total, 54.18 de área privativa, 160.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702046365",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -1.6789372,
-    "lng": -47.7693629
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787702209922",
-   "uf": "PA",
-   "cidade": "SAO DOMINGOS DO CAPIM",
-   "bairro": "PONTO CERTO",
-   "endereco": "TRAVESSA PROJETADA 03, N. SN, LT 51",
-   "preco": 42406.47,
-   "valor_avaliacao": 73000.0,
-   "desconto": 41.91,
-   "financiamento": "Não",
-   "descricao": "Casa, 54.18 de área total, 54.18 de área privativa, 160.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702209922",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
@@ -4680,6 +4845,21 @@
     "lng": -48.9400736
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787700996331",
+   "uf": "PA",
+   "cidade": "TAILANDIA",
+   "bairro": "BAIRRO INDUSTRIAL",
+   "endereco": "ALAMEDA E, N. SN, LT 08 RUA 2",
+   "preco": 132000.0,
+   "valor_avaliacao": 132000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 61.12 de área total, 61.12 de área privativa, 192.46 de área do terreno,  2 qto(s), varanda, a.serv, WC, cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700996331",
+   "tipo": "casa"
   },
   {
    "id": "8444431006068",

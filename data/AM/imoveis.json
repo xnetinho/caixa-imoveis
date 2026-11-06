@@ -1,7 +1,7 @@
 {
  "uf": "AM",
- "data_geracao_caixa": "04/11/2026",
- "coletado_em": "05/11/2026 00:24",
+ "data_geracao_caixa": "05/11/2026",
+ "coletado_em": "05/11/2026 22:14",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AM.csv",
  "total": 199,
  "colunas": [
@@ -135,7 +135,7 @@
    "desconto": 39.41,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 0.01 de área privativa, 144.00 de área do terreno,  1 qto(s), WC, 1 sala(s), 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407100017",
    "tipo": "casa",
    "geo": {
@@ -177,7 +177,7 @@
    "desconto": 69.37,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 180.00 de área privativa, 1125.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 2 sala(s), cozinha, 5 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555526643620",
    "tipo": "casa",
    "geo": {
@@ -543,6 +543,21 @@
     "lng": -60.18306369999999
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555533151476",
+   "uf": "AM",
+   "cidade": "IRANDUBA",
+   "bairro": "CENTRO",
+   "endereco": "ESTRADA MANOEL URBANO KM 09, N. 8, Apto 303, JSUBCONDOMINIO ORQUIDEA",
+   "preco": 88404.91,
+   "valor_avaliacao": 151000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 73.62 de área total, 59.86 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533151476",
+   "tipo": "apartamento"
   },
   {
    "id": "1444414961296",
@@ -1294,9 +1309,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518405683",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -2.958359,
-    "lng": -60.0236955,
-    "fonte": "google"
+    "lng": -60.0236955
    },
    "geo_pendente": false
   },
@@ -1570,27 +1585,6 @@
     "fonte": "google",
     "lat": -2.958359,
     "lng": -60.0236955
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712862769",
-   "uf": "AM",
-   "cidade": "MANAUS",
-   "bairro": "LAGO AZUL",
-   "endereco": "AV COMENDADOR JOSE CRUZ, N. 1081, Apto 101, BL 06",
-   "preco": 86059.54,
-   "valor_avaliacao": 157000.0,
-   "desconto": 45.19,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 91.20 de área total, 41.57 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712862769",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.972077,
-    "lng": -60.0055558
    },
    "geo_pendente": false
   },
@@ -1941,7 +1935,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 165.29 de área total, 40.39 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555524774679",
    "tipo": "apartamento",
    "geo": {
@@ -2204,6 +2198,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787707005551",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "TARUMA",
+   "endereco": "AVENIDA DO TURISMO, N. 13830, Apto 203, BL 05",
+   "preco": 104296.65,
+   "valor_avaliacao": 176000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 76.06 de área total, 41.12 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707005551",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787707429130",
    "uf": "AM",
    "cidade": "MANAUS",
@@ -2216,6 +2225,27 @@
    "descricao": "Apartamento, 123.98 de área total, 41.46 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707429130",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.9915537,
+    "lng": -60.0384245
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787707812694",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "TARUMA",
+   "endereco": "AVENIDA DO TURISMO, N. 14164, Apto 502, BL 25",
+   "preco": 101926.27,
+   "valor_avaliacao": 172000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 123.98 de área total, 41.46 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707812694",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -2256,7 +2286,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 76.06 de área total, 41.12 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710939047",
    "tipo": "apartamento",
    "geo": {
@@ -2288,6 +2318,42 @@
    "geo_pendente": false
   },
   {
+   "id": "8787711042598",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "TARUMA",
+   "endereco": "AVENIDA DO TURISMO, N. 13830, Apto 402, BL 06",
+   "preco": 101926.27,
+   "valor_avaliacao": 172000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 76.06 de área total, 41.12 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711042598",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8787712134704",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "TARUMA",
+   "endereco": "AVENIDA DO TURISMO, N. 13830, Apto 202, BL 23",
+   "preco": 99555.89,
+   "valor_avaliacao": 168000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 76.06 de área total, 41.12 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712134704",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.9883731,
+    "lng": -60.03835909999999
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787701782343",
    "uf": "AM",
    "cidade": "MANAUS",
@@ -2302,9 +2368,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701782343",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -3.0222891,
-    "lng": -60.02394340000001,
-    "fonte": "google"
+    "lng": -60.02394340000001
    },
    "geo_pendente": false
   },
@@ -2344,9 +2410,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705711270",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -3.0222891,
-    "lng": -60.02394340000001,
-    "fonte": "google"
+    "lng": -60.02394340000001
    },
    "geo_pendente": false
   },
@@ -2386,9 +2452,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707527531",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -3.0222891,
-    "lng": -60.02394340000001,
-    "fonte": "google"
+    "lng": -60.02394340000001
    },
    "geo_pendente": false
   },
@@ -2603,27 +2669,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787707661190",
-   "uf": "AM",
-   "cidade": "MANAUS",
-   "bairro": "LAGO AZUL",
-   "endereco": "AVENIDA JOSE NAPOLES HITOTUZI, N. 131, Apto 501, BL 05",
-   "preco": 104296.65,
-   "valor_avaliacao": 176000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 84.13 de área total, 41.51 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707661190",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.9733799,
-    "lng": -60.00899800000001
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787710504865",
    "uf": "AM",
    "cidade": "MANAUS",
@@ -2750,27 +2795,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787705499174",
-   "uf": "AM",
-   "cidade": "MANAUS",
-   "bairro": "SAO JOSE OPERARIO",
-   "endereco": "RUA JOSE ROMAO, N. 207, Apto 502, BL 4",
-   "preco": 119069.46,
-   "valor_avaliacao": 197000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 102.93 de área total, 45.20 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705499174",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.071713,
-    "lng": -59.971396
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787702754815",
    "uf": "AM",
    "cidade": "MANAUS",
@@ -2827,9 +2851,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704427749",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -3.0222891,
-    "lng": -60.02394340000001,
-    "fonte": "google"
+    "lng": -60.02394340000001
    },
    "geo_pendente": false
   },
@@ -2848,9 +2872,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704633713",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -3.0222891,
-    "lng": -60.02394340000001,
-    "fonte": "google"
+    "lng": -60.02394340000001
    },
    "geo_pendente": false
   },
@@ -2890,9 +2914,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706046300",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -3.0222891,
-    "lng": -60.02394340000001,
-    "fonte": "google"
+    "lng": -60.02394340000001
    },
    "geo_pendente": false
   },
@@ -2911,9 +2935,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706546346",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -3.0222891,
-    "lng": -60.02394340000001,
-    "fonte": "google"
+    "lng": -60.02394340000001
    },
    "geo_pendente": false
   },
@@ -3033,34 +3057,13 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 82.13 de área total, 41.57 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717133129",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -3.0608579,
     "lng": -60.02362189999999
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787707895913",
-   "uf": "AM",
-   "cidade": "MANAUS",
-   "bairro": "GILBERTO MESTRINHO",
-   "endereco": "RUA RAUL PAVON, N. SN, Apto 407, TR 9",
-   "preco": 119673.87,
-   "valor_avaliacao": 198000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 75.81 de área total, 43.58 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707895913",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.0663375,
-    "lng": -59.9364466
    },
    "geo_pendente": false
   },
@@ -3096,7 +3099,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 75.81 de área total, 43.58 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709747482",
    "tipo": "apartamento",
    "geo": {
@@ -3149,6 +3152,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1787701252648",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "TARUMA",
+   "endereco": "AVENIDA DO TURISMO, N. 13830, Apto 504, BL 07",
+   "preco": 108698.37,
+   "valor_avaliacao": 176000.0,
+   "desconto": 38.24,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 76.06 de área total, 41.12 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701252648",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444420897128",
    "uf": "AM",
    "cidade": "MANAUS",
@@ -3184,9 +3202,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707356826",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -3.0222891,
-    "lng": -60.02394340000001,
-    "fonte": "google"
+    "lng": -60.02394340000001
    },
    "geo_pendente": false
   },
@@ -3247,9 +3265,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700825261",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -2.972077,
-    "lng": -60.0055558,
-    "fonte": "google"
+    "lng": -60.0055558
    },
    "geo_pendente": false
   },
@@ -3310,9 +3328,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701964522",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -3.0222891,
-    "lng": -60.02394340000001,
-    "fonte": "google"
+    "lng": -60.02394340000001
    },
    "geo_pendente": false
   },
@@ -3436,53 +3454,26 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701126294",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -2.972077,
-    "lng": -60.0055558,
-    "fonte": "google"
+    "lng": -60.0055558
    },
    "geo_pendente": false
   },
   {
-   "id": "1444406481566",
+   "id": "1444416801334",
    "uf": "AM",
    "cidade": "MANAUS",
-   "bairro": "ALVORADA",
-   "endereco": "TRAVESSA MATSES, N. 509, ANTIGA RUA C-02",
-   "preco": 224971.95,
-   "valor_avaliacao": 353000.0,
+   "bairro": "COROADO",
+   "endereco": "AVENIDA COSME FERREIRA, N. 2214, Apto 204, BL C CD ARBORETTO",
+   "preco": 235806.29,
+   "valor_avaliacao": 370000.0,
    "desconto": 36.27,
    "financiamento": "Não",
-   "descricao": "Casa, 215.00 de área total, 70.00 de área privativa, 300.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 0.00 de área total, 73.27 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406481566",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.072141,
-    "lng": -60.0370979
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444403192687",
-   "uf": "AM",
-   "cidade": "MANAUS",
-   "bairro": "CACHOEIRINHA",
-   "endereco": "AVENIDA URUCARA, N. 321, Apto 201, BL B",
-   "preco": 259705.58,
-   "valor_avaliacao": 407500.0,
-   "desconto": 36.27,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 184.82 de área total, 120.72 de área privativa, 0.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, WC Emp, 1 sala(s), DCE, cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444403192687",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.1300662,
-    "lng": -60.0036251
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416801334",
+   "tipo": "apartamento"
   },
   {
    "id": "1555525984423",
@@ -3548,27 +3539,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444414846527",
-   "uf": "AM",
-   "cidade": "MANAUS",
-   "bairro": "CIDADE NOVA",
-   "endereco": "RUA 180, N. 75, QD 343",
-   "preco": 165701.72,
-   "valor_avaliacao": 260000.0,
-   "desconto": 36.27,
-   "financiamento": "Não",
-   "descricao": "Casa, 181.13 de área total, 40.53 de área privativa, 250.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414846527",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.0499276,
-    "lng": -59.972849
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444419008520",
    "uf": "AM",
    "cidade": "MANAUS",
@@ -3590,27 +3560,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1555536520717",
-   "uf": "AM",
-   "cidade": "MANAUS",
-   "bairro": "COLONIA TERRA NOVA",
-   "endereco": "AVENIDA TORQUATO TAPAJOS, N. 6930, Apto 404, TR 38",
-   "preco": 180997.26,
-   "valor_avaliacao": 284000.0,
-   "desconto": 36.27,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 84.73 de área total, 73.07 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555536520717",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.0171486,
-    "lng": -60.02466909999999
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787705015568",
    "uf": "AM",
    "cidade": "MANAUS",
@@ -3625,9 +3574,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705015568",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -3.0222891,
-    "lng": -60.02394340000001,
-    "fonte": "google"
+    "lng": -60.02394340000001
    },
    "geo_pendente": false
   },
@@ -3646,9 +3595,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706018854",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -3.0222891,
-    "lng": -60.02394340000001,
-    "fonte": "google"
+    "lng": -60.02394340000001
    },
    "geo_pendente": false
   },
@@ -3672,6 +3621,21 @@
     "lng": -60.0124216
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1787700743761",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "GILBERTO MESTRINHO",
+   "endereco": "RUA RAUL PAVON, N. SN, Apto 603, TORRE 05",
+   "preco": 150406.17,
+   "valor_avaliacao": 236000.0,
+   "desconto": 36.27,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 75.81 de área total, 43.58 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700743761",
+   "tipo": "apartamento"
   },
   {
    "id": "8787708908563",
@@ -4108,9 +4072,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419828942",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -2.6981994,
-    "lng": -59.69936180000001,
-    "fonte": "google"
+    "lng": -59.69936180000001
    },
    "geo_pendente": false
   },
@@ -4129,9 +4093,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426228317",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -3.0515553,
-    "lng": -59.9476306,
-    "fonte": "google"
+    "lng": -59.9476306
    },
    "geo_pendente": false
   },
@@ -4150,9 +4114,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426382367",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -3.0515553,
-    "lng": -59.9476306,
-    "fonte": "google"
+    "lng": -59.9476306
    },
    "geo_pendente": false
   },
@@ -4171,9 +4135,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419512252",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -2.6981994,
-    "lng": -59.69936180000001,
-    "fonte": "google"
+    "lng": -59.69936180000001
    },
    "geo_pendente": false
   },

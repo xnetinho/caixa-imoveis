@@ -1,9 +1,9 @@
 {
  "uf": "RO",
- "data_geracao_caixa": "04/11/2026",
- "coletado_em": "05/11/2026 00:25",
+ "data_geracao_caixa": "05/11/2026",
+ "coletado_em": "05/11/2026 22:15",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_RO.csv",
- "total": 30,
+ "total": 32,
  "colunas": [
   "id",
   "uf",
@@ -39,6 +39,21 @@
     "lng": -61.9936446
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10307865",
+   "uf": "RO",
+   "cidade": "ALTA FLORESTA D'OESTE",
+   "bairro": "LIBERDADE",
+   "endereco": "AVENIDA GUANABARA, N. 00, ST 02, QD 19, LT 01",
+   "preco": 739284.59,
+   "valor_avaliacao": 1160000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 6164.66 de área do terreno.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10307865",
+   "tipo": "terreno"
   },
   {
    "id": "8444432707515",
@@ -123,6 +138,21 @@
     "lng": -61.4349353
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444410824146",
+   "uf": "RO",
+   "cidade": "CACOAL",
+   "bairro": "CENTRO",
+   "endereco": "AVENIDA SAO PAULO, N. SN, LT 09 QD 28 SETOR 2",
+   "preco": 607000.0,
+   "valor_avaliacao": 607000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 174.57 de área total, 174.57 de área privativa, 299.69 de área do terreno,  3 qto(s), a.serv, WC, 2 sala(s), 1 lavabo(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444410824146",
+   "tipo": "casa"
   },
   {
    "id": "1444404718828",
@@ -370,9 +400,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10202885",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -10.7209164,
-    "lng": -62.2559803,
-    "fonte": "google"
+    "lng": -62.2559803
    },
    "geo_pendente": false
   },
@@ -503,25 +533,19 @@
    "geo_pendente": false
   },
   {
-   "id": "1444421128650",
+   "id": "10309323",
    "uf": "RO",
    "cidade": "PORTO VELHO",
-   "bairro": "AEROCLUBE",
-   "endereco": "ALAMEDA CUJUBIM, N. 315, LOTE 252 - QUADRA 561",
-   "preco": 144767.36,
-   "valor_avaliacao": 230000.0,
-   "desconto": 37.06,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 412.80 de área do terreno.",
+   "bairro": "MARCOS FREIRE",
+   "endereco": "RUA PIRITUBA, N. 6082, QD 64  LT 0470  ST 49",
+   "preco": 653929.27,
+   "valor_avaliacao": 1026070.29,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1137.66 de área do terreno.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421128650",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.821842,
-    "lng": -63.8320136
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10309323",
+   "tipo": "terreno"
   },
   {
    "id": "10308166",
@@ -643,9 +667,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10279404",
    "tipo": "loja",
    "geo": {
+    "fonte": "google",
     "lat": -12.0623797,
-    "lng": -63.5741677,
-    "fonte": "google"
+    "lng": -63.5741677
    },
    "geo_pendente": false
   }

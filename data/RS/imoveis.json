@@ -1,9 +1,9 @@
 {
  "uf": "RS",
- "data_geracao_caixa": "04/11/2026",
- "coletado_em": "05/11/2026 00:25",
+ "data_geracao_caixa": "05/11/2026",
+ "coletado_em": "05/11/2026 22:15",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_RS.csv",
- "total": 917,
+ "total": 1003,
  "colunas": [
   "id",
   "uf",
@@ -139,9 +139,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10218347",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -29.9900076,
-    "lng": -51.0809971,
-    "fonte": "google"
+    "lng": -51.0809971
    },
    "geo_pendente": false
   },
@@ -167,6 +167,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444429650656",
+   "uf": "RS",
+   "cidade": "ALVORADA",
+   "bairro": "MARIA REGINA",
+   "endereco": "RUA VINTE E DOIS, N. 600, Apto 204,",
+   "preco": 60571.17,
+   "valor_avaliacao": 106000.0,
+   "desconto": 42.86,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 39.78 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429650656",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -29.97896859999999,
+    "lng": -51.0227587
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444430843446",
    "uf": "RS",
    "cidade": "ALVORADA",
@@ -181,9 +202,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430843446",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -30.042368,
-    "lng": -51.078797,
-    "fonte": "google"
+    "lng": -51.078797
    },
    "geo_pendente": false
   },
@@ -310,27 +331,6 @@
     "fonte": "google",
     "lat": -29.9854894,
     "lng": -51.0650961
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444429802359",
-   "uf": "RS",
-   "cidade": "ALVORADA",
-   "bairro": "VILA DUAS FIGUEIRAS",
-   "endereco": "RUA FERNANDO FERRARI, N. 1078, Apto 104, VAGA BOX Nº 08",
-   "preco": 90746.77,
-   "valor_avaliacao": 155000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 46.17 de área total, 42.60 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429802359",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -30.009995,
-    "lng": -51.0597332
    },
    "geo_pendente": false
   },
@@ -482,27 +482,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444435363698",
-   "uf": "RS",
-   "cidade": "ALVORADA",
-   "bairro": "PIRATINI",
-   "endereco": "RUA 314, N. 146, Apto 301,",
-   "preco": 100741.08,
-   "valor_avaliacao": 170000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 33.45 de área total, 28.93 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435363698",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -30.0189439,
-    "lng": -51.0462388
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787703218720",
    "uf": "RS",
    "cidade": "ALVORADA",
@@ -522,6 +501,21 @@
     "lng": -51.0460588
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787704580938",
+   "uf": "RS",
+   "cidade": "ALVORADA",
+   "bairro": "PIRATINI",
+   "endereco": "RUA F, N. 130, Apto 201, BL 05 BOX 140",
+   "preco": 96592.92,
+   "valor_avaliacao": 163000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 85.45 de área total, 43.99 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704580938",
+   "tipo": "apartamento"
   },
   {
    "id": "8444405810009",
@@ -545,23 +539,59 @@
    "geo_pendente": false
   },
   {
-   "id": "8444438197616",
+   "id": "8444408190931",
    "uf": "RS",
    "cidade": "ALVORADA",
-   "bairro": "APARECIDA",
-   "endereco": "RUA MARECHAL HUMBERTO DE ALENCAR CASTELO BRANCO, N. 267, 158,",
-   "preco": 162873.0,
-   "valor_avaliacao": 266000.0,
-   "desconto": 38.77,
+   "bairro": "MARIA REGINA",
+   "endereco": "RUA 27, N. 247, Apto 203,",
+   "preco": 54353.48,
+   "valor_avaliacao": 90000.0,
+   "desconto": 39.61,
    "financiamento": "Não",
-   "descricao": "Casa, 40.43 de área total, 39.30 de área privativa, 111.90 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "descricao": "Apartamento, 42.84 de área total, 39.78 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444438197616",
-   "tipo": "casa",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408190931",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8444401748856",
+   "uf": "RS",
+   "cidade": "ALVORADA",
+   "bairro": "MARIA REGINA",
+   "endereco": "RUA ROQUE SANTEIRO, N. 136, Apto 104, LT 15, QD 62",
+   "preco": 79593.73,
+   "valor_avaliacao": 131716.0,
+   "desconto": 39.58,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 42.84 de área total, 39.78 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444401748856",
+   "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -30.0140226,
-    "lng": -51.0876184
+    "lat": -29.995031,
+    "lng": -51.04951819999999
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787703648873",
+   "uf": "RS",
+   "cidade": "ALVORADA",
+   "bairro": "PIRATINI",
+   "endereco": "RUA F, N. 130, Apto 101, BL 05, VAGA BOX N 137",
+   "preco": 113629.74,
+   "valor_avaliacao": 188000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 98.77 de área total, 55.09 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703648873",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -30.0247674,
+    "lng": -51.0532604
    },
    "geo_pendente": false
   },
@@ -1280,6 +1310,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444411803345",
+   "uf": "RS",
+   "cidade": "ARROIO DOS RATOS",
+   "bairro": "CENTRO",
+   "endereco": "RUA IZIDRO ALVES, N. 230, QD 177 LT 16",
+   "preco": 254000.0,
+   "valor_avaliacao": 254000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 95.57 de área total, 95.57 de área privativa, 1275.00 de área do terreno,  4 qto(s), a.serv, WC, 1 sala(s), cozinha, 3 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411803345",
+   "tipo": "casa"
+  },
+  {
    "id": "8444415582696",
    "uf": "RS",
    "cidade": "ARROIO GRANDE",
@@ -1595,25 +1640,19 @@
    "geo_pendente": false
   },
   {
-   "id": "1444421054886",
+   "id": "1444419064225",
    "uf": "RS",
    "cidade": "BENTO GONCALVES",
-   "bairro": "SANTA HELENA",
-   "endereco": "RUA AMOS PERISSUTTI, N. 313, LOTE 175, QUADRA  10",
-   "preco": 752540.73,
-   "valor_avaliacao": 1180800.0,
+   "bairro": "SANTA RITA",
+   "endereco": "RUA JOAO PESSOA, N. 520, SL 101 BOX COM A",
+   "preco": 816014.04,
+   "valor_avaliacao": 1280394.99,
    "desconto": 36.27,
    "financiamento": "Sim",
-   "descricao": "Casa, 239.45 de área total, 239.45 de área privativa, 360.00 de área do terreno,  4 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "descricao": "Comercial, 0.00 de área total, 311.98 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421054886",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -29.1856585,
-    "lng": -51.4981325
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419064225",
+   "tipo": "comercial"
   },
   {
    "id": "8444428325093",
@@ -1700,6 +1739,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1444421481911",
+   "uf": "RS",
+   "cidade": "BUTIA",
+   "bairro": "CENTRO",
+   "endereco": "RUA CEL AFONSO EMILIO MASSOT, N. 36,",
+   "preco": 125884.66,
+   "valor_avaliacao": 200000.0,
+   "desconto": 37.06,
+   "financiamento": "Não",
+   "descricao": "Casa, 55.76 de área total, 55.76 de área privativa, 125.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421481911",
+   "tipo": "casa"
+  },
+  {
    "id": "8444405056320",
    "uf": "RS",
    "cidade": "CACAPAVA DO SUL",
@@ -1780,27 +1834,6 @@
     "fonte": "google",
     "lat": -30.0162743,
     "lng": -52.92073019999999
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444413364012",
-   "uf": "RS",
-   "cidade": "CACHOEIRINHA",
-   "bairro": "MORADA DO BOSQUE",
-   "endereco": "RUA NILS TARANGER, N. 62, CS 02, LT C, QD B9",
-   "preco": 115155.55,
-   "valor_avaliacao": 209000.0,
-   "desconto": 44.91,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 48.25 de área privativa, 97.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413364012",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -29.904646,
-    "lng": -51.0871195
    },
    "geo_pendente": false
   },
@@ -2057,6 +2090,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8555520450194",
+   "uf": "RS",
+   "cidade": "CACHOEIRINHA",
+   "bairro": "MORADA DO BOSQUE",
+   "endereco": "AVENIDA ANILDO GOMES ALANO, N. 570, CASA 01 LT 21 QD B2",
+   "preco": 170000.0,
+   "valor_avaliacao": 170000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 28.25 de área total, 28.25 de área privativa, 100.00 de área do terreno,  1 qto(s), varanda, a.serv, WC, 1 sala(s), 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555520450194",
+   "tipo": "casa"
+  },
+  {
    "id": "8555522057635",
    "uf": "RS",
    "cidade": "CACHOEIRINHA",
@@ -2281,9 +2329,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417568862",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -29.6857939,
-    "lng": -51.0411795,
-    "fonte": "google"
+    "lng": -51.0411795
    },
    "geo_pendente": false
   },
@@ -2645,25 +2693,19 @@
    "geo_pendente": false
   },
   {
-   "id": "8787709509123",
+   "id": "8787700840714",
    "uf": "RS",
    "cidade": "CANOAS",
-   "bairro": "ESTANCIA VELHA",
-   "endereco": "RUA A J RENNER, N. 1362, Apto 502, BL 11",
-   "preco": 100148.49,
-   "valor_avaliacao": 169000.0,
+   "bairro": "SAO JOSE",
+   "endereco": "RUA LOPES TROVAO, N. 45, Apto 502, BL 6 VG 41",
+   "preco": 94815.14,
+   "valor_avaliacao": 160000.0,
    "desconto": 40.75,
    "financiamento": "Não",
-   "descricao": "Apartamento, 72.47 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709509123",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -29.9148162,
-    "lng": -51.1466333
-   },
-   "geo_pendente": false
+   "descricao": "Apartamento, 67.73 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700840714",
+   "tipo": "apartamento"
   },
   {
    "id": "8444408065703",
@@ -2683,6 +2725,42 @@
     "fonte": "google",
     "lat": -29.8889292,
     "lng": -51.1371222
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787701614912",
+   "uf": "RS",
+   "cidade": "CANOAS",
+   "bairro": "SAO JOSE",
+   "endereco": "RUA GUARUJA, N. 200, Apto 202, BL15 VG 338",
+   "preco": 123904.77,
+   "valor_avaliacao": 205000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 78.24 de área total, 41.58 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701614912",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8555511454948",
+   "uf": "RS",
+   "cidade": "CANOAS",
+   "bairro": "ESTANCIA VELHA",
+   "endereco": "AVENIDA SANTOS FERREIRA, N. 4100, Apto 304, LT 01, QD A,",
+   "preco": 146502.56,
+   "valor_avaliacao": 239264.22,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 59.51 de área total, 41.28 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555511454948",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -29.9240495,
+    "lng": -51.1397549
    },
    "geo_pendente": false
   },
@@ -2708,6 +2786,21 @@
    "geo_pendente": false
   },
   {
+   "id": "10306967",
+   "uf": "RS",
+   "cidade": "CANOAS",
+   "bairro": "RIO BRANCO",
+   "endereco": "RUA MACHADINHO, N. 118, Apto 201, BL A",
+   "preco": 122737.54,
+   "valor_avaliacao": 195000.0,
+   "desconto": 37.06,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 44.38 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10306967",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444412844215",
    "uf": "RS",
    "cidade": "CANOAS",
@@ -2727,6 +2820,21 @@
     "lng": -51.12554739999999
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444408377413",
+   "uf": "RS",
+   "cidade": "CANOAS",
+   "bairro": "IGARA",
+   "endereco": "RUA DOS GUAMIRINS, N. 303, CS 255 TIPO A3",
+   "preco": 201072.66,
+   "valor_avaliacao": 315500.0,
+   "desconto": 36.27,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 85.74 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444408377413",
+   "tipo": "casa"
   },
   {
    "id": "8787708484836",
@@ -2855,6 +2963,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8555537252595",
+   "uf": "RS",
+   "cidade": "CANOAS",
+   "bairro": "IGARA",
+   "endereco": "RUA CAMBOATAS, N. 315, Apto 202, BL 12 VG 186",
+   "preco": 185000.0,
+   "valor_avaliacao": 185000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 70.64 de área total, 41.58 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537252595",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787711566430",
    "uf": "RS",
    "cidade": "CANOAS",
@@ -2958,6 +3081,21 @@
     "lng": -51.1466333
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787701362999",
+   "uf": "RS",
+   "cidade": "CANOAS",
+   "bairro": "MATO GRANDE",
+   "endereco": "RUA ROBERTO FRANCISCO BEHRENS, N. 303, Apto 102, BL 02",
+   "preco": 160000.0,
+   "valor_avaliacao": 160000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 77.42 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701362999",
+   "tipo": "apartamento"
   },
   {
    "id": "8787704297624",
@@ -3443,6 +3581,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444418274550",
+   "uf": "RS",
+   "cidade": "CANOAS",
+   "bairro": "OLARIA",
+   "endereco": "RUA JOSE DANILO MENEZES, N. 226, CASA 01 LT 21",
+   "preco": 193010.86,
+   "valor_avaliacao": 186100.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 45.09 de área total, 45.09 de área privativa, 81.60 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418274550",
+   "tipo": "casa"
+  },
+  {
    "id": "8787718863953",
    "uf": "RS",
    "cidade": "CANOAS",
@@ -3611,6 +3764,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787717500504",
+   "uf": "RS",
+   "cidade": "CANOAS",
+   "bairro": "FATIMA",
+   "endereco": "RUA CAIRU, N. 1705, Apto 501, BL 2 5º PV",
+   "preco": 188315.39,
+   "valor_avaliacao": 170000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 65.30 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717500504",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787717066600",
    "uf": "RS",
    "cidade": "CANOAS",
@@ -3630,6 +3798,21 @@
     "lng": -51.1909713
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787711450939",
+   "uf": "RS",
+   "cidade": "CANOAS",
+   "bairro": "MATO GRANDE",
+   "endereco": "RUA ANTONIO LOURENCO ROSA, N. 187, Apto 304, BL 9",
+   "preco": 161408.76,
+   "valor_avaliacao": 145000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 76.21 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711450939",
+   "tipo": "apartamento"
   },
   {
    "id": "8787703060418",
@@ -3693,6 +3876,21 @@
     "lng": -51.1379357
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787717097807",
+   "uf": "RS",
+   "cidade": "CANOAS",
+   "bairro": "FATIMA",
+   "endereco": "RUA CAIRU, N. 1721, Apto 1106, TR 02 VG 65",
+   "preco": 266863.29,
+   "valor_avaliacao": 231000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 85.56 de área total, 46.48 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717097807",
+   "tipo": "apartamento"
   },
   {
    "id": "8787704935701",
@@ -3863,6 +4061,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444438767102",
+   "uf": "RS",
+   "cidade": "CAPAO DA CANOA",
+   "bairro": "PRAIA ZONA NORTE",
+   "endereco": "RUA HONDURAS, N. 316, LT 07 QD 64",
+   "preco": 409000.0,
+   "valor_avaliacao": 409000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 63.47 de área total, 63.47 de área privativa, 150.00 de área do terreno,  2 qto(s), a.serv, WC, cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444438767102",
+   "tipo": "casa"
+  },
+  {
    "id": "1555528398231",
    "uf": "RS",
    "cidade": "CAPAO DA CANOA",
@@ -3968,6 +4181,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444423050916",
+   "uf": "RS",
+   "cidade": "CAPIVARI DO SUL",
+   "bairro": "CAPIVARI DO SUL",
+   "endereco": "RUA ESTADOS UNIDOS, N. 664, LT 12 QD 29",
+   "preco": 149866.75,
+   "valor_avaliacao": 120000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 52.00 de área total, 52.00 de área privativa, 210.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423050916",
+   "tipo": "casa"
+  },
+  {
    "id": "1555536036726",
    "uf": "RS",
    "cidade": "CARAZINHO",
@@ -4031,6 +4259,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444439118493",
+   "uf": "RS",
+   "cidade": "CARAZINHO",
+   "bairro": "Carazinho",
+   "endereco": "RUA CAÇAPAVA, N. 460, CASA 22",
+   "preco": 183014.67,
+   "valor_avaliacao": 162500.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 77.18 de área total, 40.47 de área privativa, 146.88 de área do terreno,  2 qto(s), a.serv, WC, cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444439118493",
+   "tipo": "casa"
+  },
+  {
    "id": "1444406771173",
    "uf": "RS",
    "cidade": "CARLOS BARBOSA",
@@ -4073,23 +4316,53 @@
    "geo_pendente": false
   },
   {
-   "id": "8787703530988",
+   "id": "8787715298821",
    "uf": "RS",
    "cidade": "CAXIAS DO SUL",
-   "bairro": "CRUZEIRO",
-   "endereco": "RUA CONDE DEU, N. 2913, Apto 502, BLOCO 04, 5º PAVIMENTO, VAGA 111",
-   "preco": 102222.57,
-   "valor_avaliacao": 172500.0,
-   "desconto": 40.75,
+   "bairro": "NOSSA SENHORA DAS GRACAS",
+   "endereco": "RUA GEMIRO PESSUTO, N. 104, Apto 120, BL E VG 130",
+   "preco": 117860.63,
+   "valor_avaliacao": 195000.0,
+   "desconto": 39.56,
    "financiamento": "Não",
-   "descricao": "Apartamento, 76.34 de área total, 40.92 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 64.22 de área total, 47.50 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703530988",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715298821",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8787720556809",
+   "uf": "RS",
+   "cidade": "CAXIAS DO SUL",
+   "bairro": "NOSSA SENHORA DAS GRACAS",
+   "endereco": "RUA GEMIRO PESSUTO, N. 104, Apto 321, BL F VG 11",
+   "preco": 117860.63,
+   "valor_avaliacao": 195000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 64.22 de área total, 47.50 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720556809",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "1444413017896",
+   "uf": "RS",
+   "cidade": "CAXIAS DO SUL",
+   "bairro": "NOSSA SENHORA DE FATIMA",
+   "endereco": "RUA HUGO TORQUATO ARGENTA, N. 1156, Apto 12, 2 PAVIMENTO",
+   "preco": 227745.62,
+   "valor_avaliacao": 357352.13,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 150.57 de área total, 115.78 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444413017896",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -29.1863456,
-    "lng": -51.1493615
+    "lat": -29.1419981,
+    "lng": -51.1810507
    },
    "geo_pendente": false
   },
@@ -4281,6 +4554,36 @@
     "lng": -51.17542719999999
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444434232964",
+   "uf": "RS",
+   "cidade": "CAXIAS DO SUL",
+   "bairro": "JARDIM ELDORADO",
+   "endereco": "RUA VITORIO BATTISTI, N. 1856, Apto 326, 2º PV LT 12 QD 4784",
+   "preco": 230000.0,
+   "valor_avaliacao": 230000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 73.48 de área total, 49.95 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434232964",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8444429574763",
+   "uf": "RS",
+   "cidade": "CAXIAS DO SUL",
+   "bairro": "SANTA FE",
+   "endereco": "RUA NICOLA ARMINO, N. 111, Apto 57-BV, 5º PV VG 18 LT 07 QD 5175",
+   "preco": 218015.55,
+   "valor_avaliacao": 218015.55,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 62.71 de área total, 45.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429574763",
+   "tipo": "apartamento"
   },
   {
    "id": "8444432643681",
@@ -4871,46 +5174,19 @@
    "geo_pendente": false
   },
   {
-   "id": "10283591",
+   "id": "8444425076173",
    "uf": "RS",
-   "cidade": "CRUZ ALTA",
-   "bairro": "TAMOIO",
-   "endereco": "AV DR JOAO BELCHIOR MARQUES GOULART, N. s/n, QD P, LT 05",
-   "preco": 39384.83,
-   "valor_avaliacao": 65000.0,
-   "desconto": 39.41,
+   "cidade": "CRUZEIRO DO SUL",
+   "bairro": "Passo de Estrela",
+   "endereco": "RUA IRINEU OTTO WEILER, N. 95, ST 02 QD 11 LT 504 CS 10",
+   "preco": 45577.21,
+   "valor_avaliacao": 78458.22,
+   "desconto": 41.91,
    "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1000.00 de área do terreno.",
+   "descricao": "Casa, 55.76 de área total, 55.76 de área privativa, 68.26 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10283591",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -28.6722121,
-    "lng": -53.6014507
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444401947850",
-   "uf": "RS",
-   "cidade": "CRUZ ALTA",
-   "bairro": "CENTRO",
-   "endereco": "RUA VOLUNTARIOS DA PATRIA, N. 48,",
-   "preco": 356896.01,
-   "valor_avaliacao": 560000.0,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Casa, 244.26 de área total, 244.26 de área privativa, 427.68 de área do terreno.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401947850",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -28.6353657,
-    "lng": -53.6027942
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425076173",
+   "tipo": "casa"
   },
   {
    "id": "1444415979326",
@@ -5100,6 +5376,21 @@
     "lng": -52.3136085
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444420328964",
+   "uf": "RS",
+   "cidade": "ESTANCIA VELHA",
+   "bairro": "ENCOSTA DO SOL",
+   "endereco": "RUA JOSE FRANCISCO COSTA, N. SN, LT 5 QD A",
+   "preco": 150933.06,
+   "valor_avaliacao": 246500.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420328964",
+   "tipo": "terreno"
   },
   {
    "id": "8444415487367",
@@ -5564,27 +5855,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444409475915",
-   "uf": "RS",
-   "cidade": "GRAVATAI",
-   "bairro": "JANSEN",
-   "endereco": "RUA PIRAJA, N. 204, Apto 102, BL 07",
-   "preco": 109855.66,
-   "valor_avaliacao": 200000.0,
-   "desconto": 45.08,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 49.17 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444409475915",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -29.9394467,
-    "lng": -51.0039064
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444427528276",
    "uf": "RS",
    "cidade": "GRAVATAI",
@@ -5602,6 +5872,27 @@
     "fonte": "google",
     "lat": -29.9492231,
     "lng": -51.0409227
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444415194700",
+   "uf": "RS",
+   "cidade": "GRAVATAI",
+   "bairro": "VILA IMPERIAL (BARRO VERMELHO)",
+   "endereco": "RUA PEDRO PAULO DA SILVA, N. 157, CS 02, LT 09, QD M, VAGA N 02",
+   "preco": 78201.87,
+   "valor_avaliacao": 135000.0,
+   "desconto": 42.08,
+   "financiamento": "Não",
+   "descricao": "Casa, 42.42 de área total, 42.42 de área privativa, 51.51 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415194700",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -29.9167746,
+    "lng": -50.90299599999999
    },
    "geo_pendente": false
   },
@@ -5625,6 +5916,21 @@
     "lng": -51.0402486
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787709843554",
+   "uf": "RS",
+   "cidade": "GRAVATAI",
+   "bairro": "SAO LUIZ",
+   "endereco": "RUA NOVE DE JULHO, N. 412, Apto 102, BL 10 VG 177",
+   "preco": 104889.24,
+   "valor_avaliacao": 177000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 82.51 de área total, 39.63 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709843554",
+   "tipo": "apartamento"
   },
   {
    "id": "8787720711162",
@@ -5665,27 +5971,6 @@
     "fonte": "google",
     "lat": -29.9311016,
     "lng": -50.9783743
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787720681131",
-   "uf": "RS",
-   "cidade": "GRAVATAI",
-   "bairro": "Vila Natal",
-   "endereco": "RUA FOGAÇA DA CRUZ, N. 632, Apto 102, BLOCO 08, VAGA 123",
-   "preco": 114838.57,
-   "valor_avaliacao": 190000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 73.38 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720681131",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -29.9290177,
-    "lng": -50.992297
    },
    "geo_pendente": false
   },
@@ -5879,6 +6164,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787704678580",
+   "uf": "RS",
+   "cidade": "GRAVATAI",
+   "bairro": "SAO LUIZ",
+   "endereco": "RUA NOVE DE JULHO, N. 412, Apto 301, BL 01 3º PV VG 52",
+   "preco": 180000.0,
+   "valor_avaliacao": 180000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 82.51 de área total, 39.63 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704678580",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444426804644",
    "uf": "RS",
    "cidade": "GRAVATAI",
@@ -5919,6 +6219,21 @@
     "lng": -50.9968098
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787719603467",
+   "uf": "RS",
+   "cidade": "GRAVATAI",
+   "bairro": "SANTA CRUZ",
+   "endereco": "AVENIDA DO ARVOREDO, N. 51, Apto 99, 9º PV BL A VG 179",
+   "preco": 270000.0,
+   "valor_avaliacao": 270000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 67.93 de área total, 44.25 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719603467",
+   "tipo": "apartamento"
   },
   {
    "id": "8444410784720",
@@ -6152,6 +6467,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787718383145",
+   "uf": "RS",
+   "cidade": "GRAVATAI",
+   "bairro": "TOM JOBIM",
+   "endereco": "RUA MACADAMIA, N. 113, CASA 16 LT 2 QD 39",
+   "preco": 209000.0,
+   "valor_avaliacao": 186000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 47.11 de área total, 47.11 de área privativa, 106.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718383145",
+   "tipo": "casa"
+  },
+  {
    "id": "1444423319453",
    "uf": "RS",
    "cidade": "GRAVATAI",
@@ -6192,6 +6522,21 @@
     "lng": -51.0058437
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787713441449",
+   "uf": "RS",
+   "cidade": "GRAVATAI",
+   "bairro": "DONA MERCEDES",
+   "endereco": "AVENIDA ELY CORREA, N. 1960, Apto 503, BL 6 VG 194 5º PV",
+   "preco": 200000.0,
+   "valor_avaliacao": 169500.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 72.64 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713441449",
+   "tipo": "apartamento"
   },
   {
    "id": "8444422622177",
@@ -6425,6 +6770,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787724841290",
+   "uf": "RS",
+   "cidade": "GRAVATAI",
+   "bairro": "DONA MERCEDES",
+   "endereco": "AVENIDA ELY CORREA, N. 1960, Apto 103,  BL 13 VG 242",
+   "preco": 235201.03,
+   "valor_avaliacao": 165000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 46.55 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787724841290",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444416963898",
    "uf": "RS",
    "cidade": "GRAVATAI",
@@ -6465,6 +6825,21 @@
     "lng": -51.0521867
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787711321390",
+   "uf": "RS",
+   "cidade": "GRAVATAI",
+   "bairro": "JANSEN",
+   "endereco": "RUA TANCREDO NEVES, N. 600, Apto 403, BL 6 VAGA 27",
+   "preco": 225000.0,
+   "valor_avaliacao": 145000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 73.43 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711321390",
+   "tipo": "apartamento"
   },
   {
    "id": "1444421590699",
@@ -6551,6 +6926,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787719261060",
+   "uf": "RS",
+   "cidade": "GUAIBA",
+   "bairro": "ALTOS DA ALEGRIA",
+   "endereco": "RUA D, N. 214, CS 66 LT 03 QD 18",
+   "preco": 113025.32,
+   "valor_avaliacao": 187000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 40.15 de área total, 40.15 de área privativa, 110.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719261060",
+   "tipo": "casa"
+  },
+  {
    "id": "1600000085255",
    "uf": "RS",
    "cidade": "GUAIBA",
@@ -6568,6 +6958,27 @@
     "fonte": "google",
     "lat": -30.10341559999999,
     "lng": -51.3126623
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444419602871",
+   "uf": "RS",
+   "cidade": "GUAIBA",
+   "bairro": "ALTOS DA ALEGRIA",
+   "endereco": "RUA JACARANDA, N. SN, LT 65A, QD C,",
+   "preco": 211588.35,
+   "valor_avaliacao": 332000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 984.81 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419602871",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -30.1351506,
+    "lng": -51.3286384
    },
    "geo_pendente": false
   },
@@ -6845,6 +7256,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1444414631830",
+   "uf": "RS",
+   "cidade": "IMBE",
+   "bairro": "Balneário Mariluz",
+   "endereco": "RUA NOVO HAMBURGO, N. 940, ST 35 LT 27 QD 48",
+   "preco": 125884.66,
+   "valor_avaliacao": 200000.0,
+   "desconto": 37.06,
+   "financiamento": "Não",
+   "descricao": "Casa, 76.00 de área total, 76.00 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, WC Emp, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414631830",
+   "tipo": "casa"
+  },
+  {
    "id": "8444421423278",
    "uf": "RS",
    "cidade": "IMBE",
@@ -7051,6 +7477,27 @@
     "fonte": "google",
     "lat": -29.4267013,
     "lng": -51.9648054
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "10291010",
+   "uf": "RS",
+   "cidade": "LAJEADO",
+   "bairro": "SAO CRISTOVAO",
+   "endereco": "RUA DOUTOR ROBERTO FLEISCHHUT, N. 619",
+   "preco": 509851.44,
+   "valor_avaliacao": 800000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 0.00 de área total, 196.04 de área privativa, 360.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10291010",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -29.441317,
+    "lng": -51.96669319999999
    },
    "geo_pendente": false
   },
@@ -7349,27 +7796,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444407251198",
-   "uf": "RS",
-   "cidade": "MONTENEGRO",
-   "bairro": "ESTACAO",
-   "endereco": "RUA DOS ANTURIOS, N. 107, LOTE 20 DA QUADRA 11 DA GLEBA SUL",
-   "preco": 114838.57,
-   "valor_avaliacao": 190000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Casa, 52.52 de área total, 52.52 de área privativa, 300.00 de área do terreno.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407251198",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -29.7124624,
-    "lng": -51.4998766
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787710311277",
    "uf": "RS",
    "cidade": "MONTENEGRO",
@@ -7452,6 +7878,21 @@
     "lng": -52.7767587
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444403018006",
+   "uf": "RS",
+   "cidade": "NOVA HARTZ",
+   "bairro": "VILA NOVA",
+   "endereco": "RUA GELCY WERNO BECKER, N. 26, LT 244 QD 178 SETOR 102",
+   "preco": 267000.0,
+   "valor_avaliacao": 267000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 54.74 de área total, 54.74 de área privativa, 366.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403018006",
+   "tipo": "casa"
   },
   {
    "id": "8787718990041",
@@ -7580,25 +8021,19 @@
    "geo_pendente": false
   },
   {
-   "id": "8444428782923",
+   "id": "8555533890503",
    "uf": "RS",
    "cidade": "NOVO HAMBURGO",
-   "bairro": "BOA SAUDE",
-   "endereco": "RUA DAS ARAUCARIAS, N. SN, LT 08 QD T",
-   "preco": 49208.01,
-   "valor_avaliacao": 85000.0,
-   "desconto": 42.11,
+   "bairro": "RONDONIA",
+   "endereco": "RUA JOAO PEDRO SCHIMITT, N. 977, Apto 42, BL MANTIQUEIRA VG 71",
+   "preco": 110196.7,
+   "valor_avaliacao": 200000.0,
+   "desconto": 44.91,
    "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 130.00 de área do terreno.",
+   "descricao": "Apartamento, 0.00 de área total, 63.01 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428782923",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -29.6759269,
-    "lng": -51.1744772
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533890503",
+   "tipo": "apartamento"
   },
   {
    "id": "8444429217669",
@@ -7706,27 +8141,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787703694638",
-   "uf": "RS",
-   "cidade": "NOVO HAMBURGO",
-   "bairro": "SAO JORGE",
-   "endereco": "RUA SOBRADINHO, N. 269, Apto 404, TORRE 01, BOX 144",
-   "preco": 139015.11,
-   "valor_avaliacao": 230000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 69.14 de área total, 45.60 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703694638",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -29.6740654,
-    "lng": -51.1008448
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787711044213",
    "uf": "RS",
    "cidade": "NOVO HAMBURGO",
@@ -7786,6 +8200,57 @@
     "fonte": "google",
     "lat": -29.6994414,
     "lng": -51.11382039999999
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555535443490",
+   "uf": "RS",
+   "cidade": "NOVO HAMBURGO",
+   "bairro": "OPERARIO",
+   "endereco": "RUA GETULIO BORGES DA FONSECA, N. 250, Apto 205, BL I BOX 05",
+   "preco": 132970.97,
+   "valor_avaliacao": 220000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 74.80 de área total, 49.85 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535443490",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8787704007286",
+   "uf": "RS",
+   "cidade": "NOVO HAMBURGO",
+   "bairro": "OURO BRANCO",
+   "endereco": "RUA GUANABARA, N. 110, Apto 42, BL IPIRANGA VG 74",
+   "preco": 134784.21,
+   "valor_avaliacao": 223000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 71.42 de área total, 51.49 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704007286",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8444412277582",
+   "uf": "RS",
+   "cidade": "NOVO HAMBURGO",
+   "bairro": "CANUDOS",
+   "endereco": "RUA URUGUAI, N. 388, Apto 313, BL 4,",
+   "preco": 85466.19,
+   "valor_avaliacao": 140000.0,
+   "desconto": 38.96,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 66.15 de área total, 38.41 de área privativa, 0.00 de área do terreno,  2 qto(s), WC.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412277582",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -29.7016912,
+    "lng": -51.0981068
    },
    "geo_pendente": false
   },
@@ -7977,6 +8442,21 @@
     "lng": -51.1359986
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444429599197",
+   "uf": "RS",
+   "cidade": "NOVO HAMBURGO",
+   "bairro": "ALPES DO VALE",
+   "endereco": "ESTRADA BENJAMIN ALTMAYER PROGETADA 01, N. 11, LT 09",
+   "preco": 177582.86,
+   "valor_avaliacao": 165000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 201.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429599197",
+   "tipo": "terreno"
   },
   {
    "id": "8787702089870",
@@ -8231,6 +8711,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444431337412",
+   "uf": "RS",
+   "cidade": "PASSO FUNDO",
+   "bairro": "INTEGRACAO",
+   "endereco": "RUA VALENTIN BEGOTTO, N. 170, LT 18A, QD 08,",
+   "preco": 61147.28,
+   "valor_avaliacao": 107008.2,
+   "desconto": 42.86,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 180.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431337412",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -28.2528842,
+    "lng": -52.46082089999999
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444406668496",
    "uf": "RS",
    "cidade": "PASSO FUNDO",
@@ -8269,6 +8770,27 @@
     "fonte": "google",
     "lat": -29.68679029999999,
     "lng": -53.86821399999999
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1555523428930",
+   "uf": "RS",
+   "cidade": "PASSO FUNDO",
+   "bairro": "PLANALTINA",
+   "endereco": "RUA RAUL ROCHA, N. 275, LT 20A, QD C, LOT ESCOLA RURAL",
+   "preco": 1115300.03,
+   "valor_avaliacao": 1750000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 923.20 de área total, 923.20 de área privativa, 1168.10 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555523428930",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -28.2826788,
+    "lng": -52.3786391
    },
    "geo_pendente": false
   },
@@ -8903,23 +9425,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787702151827",
+   "id": "8444423262786",
    "uf": "RS",
    "cidade": "PELOTAS",
    "bairro": "TRES VENDAS",
-   "endereco": "RUA UM, N. 635, Apto 402, VG 13",
-   "preco": 73191.15,
-   "valor_avaliacao": 133000.0,
-   "desconto": 44.97,
+   "endereco": "RUA JOAO JACOB BAINY, N. 401, Apto 318, ACESSO 5",
+   "preco": 88935.03,
+   "valor_avaliacao": 160000.0,
+   "desconto": 44.42,
    "financiamento": "Não",
-   "descricao": "Apartamento, 91.58 de área total, 44.90 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 59.34 de área total, 43.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702151827",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423262786",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -31.6937024,
-    "lng": -52.3631334
+    "lat": -31.73008979999999,
+    "lng": -52.3516106
    },
    "geo_pendente": false
   },
@@ -8987,27 +9509,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787710737665",
-   "uf": "RS",
-   "cidade": "PELOTAS",
-   "bairro": "AREAL",
-   "endereco": "AVENIDA ENGENHEIRO ILDEFONSO SIMOES LOPE, N. 2046, Apto 504, BL L, BOX 183",
-   "preco": 98800.33,
-   "valor_avaliacao": 171000.0,
-   "desconto": 42.23,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 62.26 de área total, 43.27 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710737665",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -31.7221704,
-    "lng": -52.31278649999999
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444432123505",
    "uf": "RS",
    "cidade": "PELOTAS",
@@ -9029,27 +9530,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787700349573",
-   "uf": "RS",
-   "cidade": "PELOTAS",
-   "bairro": "TRES VENDAS",
-   "endereco": "RUA DOIS, N. 555, Apto 204, VAGA 07",
-   "preco": 75305.5,
-   "valor_avaliacao": 130000.0,
-   "desconto": 42.08,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 71.42 de área total, 44.90 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700349573",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -31.70238,
-    "lng": -52.3180401
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787700143657",
    "uf": "RS",
    "cidade": "PELOTAS",
@@ -9060,34 +9540,13 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 90.03 de área total, 44.90 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700143657",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -31.6948767,
     "lng": -52.3653184
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787704130100",
-   "uf": "RS",
-   "cidade": "PELOTAS",
-   "bairro": "AREAL",
-   "endereco": "AVENIDA MANOEL ANTONIO PERES, N. 2750, Apto 102, BLOCO D, VAGA BOX 02",
-   "preco": 75305.5,
-   "valor_avaliacao": 130000.0,
-   "desconto": 42.08,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 65.13 de área total, 57.11 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704130100",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -31.73806249999999,
-    "lng": -52.31506109999999
    },
    "geo_pendente": false
   },
@@ -9785,6 +10244,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787707320147",
+   "uf": "RS",
+   "cidade": "PELOTAS",
+   "bairro": "FRAGATA",
+   "endereco": "AVENIDA PINHEIRO MACHADO, N. 1501, Apto 204, BL A 2º PV VG 08",
+   "preco": 170000.0,
+   "valor_avaliacao": 147000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 64.51 de área total, 44.05 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707320147",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787715146126",
    "uf": "RS",
    "cidade": "PELOTAS",
@@ -9888,6 +10362,21 @@
     "lng": -52.3890827
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10318262",
+   "uf": "RS",
+   "cidade": "PELOTAS",
+   "bairro": "AREAL",
+   "endereco": "RUA CÂNDIDO PORTINARI, N. 315, QD 05, LT 11 E LT 12 PARTE",
+   "preco": 400000.0,
+   "valor_avaliacao": 290000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 324.30 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10318262",
+   "tipo": "terreno"
   },
   {
    "id": "8444415239940",
@@ -10415,6 +10904,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787704037584",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "HUMAITA",
+   "endereco": "AVENIDA ERNESTO NEUGEBAUER, N. 1820, Apto 104, TR 02",
+   "preco": 126121.8,
+   "valor_avaliacao": 237000.0,
+   "desconto": 46.79,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 43.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704037584",
+   "tipo": "apartamento"
+  },
+  {
    "id": "1555506097930",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -10814,6 +11318,36 @@
    "geo_pendente": false
   },
   {
+   "id": "8787706861632",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "RESTINGA",
+   "endereco": "RUA SABINO PEREIRA NUNES, N. 931, Apto 302, BL 3",
+   "preco": 78270.22,
+   "valor_avaliacao": 135118.0,
+   "desconto": 42.08,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 69.88 de área total, 40.99 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706861632",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8787708982860",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "RESTINGA",
+   "endereco": "RUA SABINO PEREIRA NUNES, N. 931, Apto 103, BL 8",
+   "preco": 75305.5,
+   "valor_avaliacao": 130000.0,
+   "desconto": 42.08,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 69.88 de área total, 40.99 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708982860",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787712901730",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -10835,23 +11369,38 @@
    "geo_pendente": false
   },
   {
-   "id": "8444436554373",
+   "id": "8444433448998",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
-   "bairro": "NONOAI",
-   "endereco": "AVENIDA QUARAI, N. 408, Apto 410, ST B 4° PAV",
-   "preco": 75305.5,
-   "valor_avaliacao": 130000.0,
+   "bairro": "VILA NOVA",
+   "endereco": "ESTRADA CRISTIANO KRAEMER, N. 1863, Apto 404, BL A",
+   "preco": 78201.87,
+   "valor_avaliacao": 135000.0,
    "desconto": 42.08,
    "financiamento": "Não",
-   "descricao": "Apartamento, 42.49 de área total, 35.05 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "descricao": "Apartamento, 47.97 de área total, 38.24 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436554373",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433448998",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8444435618939",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "VILA NOVA",
+   "endereco": "BECO IMPERIO, N. 241, Apto 407, BL B",
+   "preco": 79939.69,
+   "valor_avaliacao": 138000.0,
+   "desconto": 42.08,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 53.36 de área total, 43.17 de área privativa, 0.00 de área do terreno,  2 qto(s), 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435618939",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -30.087699,
-    "lng": -51.2204373
+    "lat": -30.1203316,
+    "lng": -51.2001417
    },
    "geo_pendente": false
   },
@@ -10940,25 +11489,55 @@
    "geo_pendente": false
   },
   {
-   "id": "8787709019355",
+   "id": "8787709043531",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
    "bairro": "RESTINGA",
-   "endereco": "RUA SABINO PEREIRA NUNES, N. SN, Apto 103, LT 12 PAVIMENTO TÉRREO",
-   "preco": 83135.75,
-   "valor_avaliacao": 142000.0,
+   "endereco": "RUA SABINO PEREIRA NUNES, N. 931, Apto 502, BL 11, LT 01 E 02, QD B,",
+   "preco": 81964.82,
+   "valor_avaliacao": 140000.0,
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 69.88 de área total, 40.99 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709019355",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709043531",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -30.1574154,
-    "lng": -51.1519697
+    "lat": -30.1407336,
+    "lng": -51.1297478
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787712364440",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "RESTINGA",
+   "endereco": "RUA SABINO PEREIRA NUNES, N. 932, Apto 504, BL 18",
+   "preco": 83428.48,
+   "valor_avaliacao": 142500.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 74.20 de área total, 41.19 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712364440",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8555537205090",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "HIPICA",
+   "endereco": "AVENIDA EDGAR PIRES DE CASTRO, N. 151, Apto 402, BL 5  ANTIGA RUA 7091",
+   "preco": 87819.45,
+   "valor_avaliacao": 150000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 40.29 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537205090",
+   "tipo": "apartamento"
   },
   {
    "id": "8787717924657",
@@ -11171,6 +11750,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787713299499",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "RESTINGA",
+   "endereco": "RUA SABINO PEREIRA NUNES, N. 932, Apto 203, BL 14",
+   "preco": 92755.06,
+   "valor_avaliacao": 156523.64,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 74.20 de área total, 41.19 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713299499",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -30.1553076,
+    "lng": -51.150487
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787718199247",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -11293,6 +11893,27 @@
     "fonte": "google",
     "lat": -30.022657,
     "lng": -51.105295
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8043000502119",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "IPANEMA",
+   "endereco": "RUA PAULO MACIEL, N. 65, Apto 109, BL 29, LT 01 AO 06, QD F",
+   "preco": 51937.77,
+   "valor_avaliacao": 86000.0,
+   "desconto": 39.61,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 46.04 de área total, 36.42 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8043000502119",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -30.1293793,
+    "lng": -51.2146988
    },
    "geo_pendente": false
   },
@@ -11444,6 +12065,42 @@
    "geo_pendente": false
   },
   {
+   "id": "8555537689080",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "MORRO SANTANA",
+   "endereco": "AVENIDA PROTASIO ALVES, N. 9277, Apto 101, BL 02, VAGA N 113",
+   "preco": 111816.5,
+   "valor_avaliacao": 185000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 64.51 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537689080",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -30.03870879999999,
+    "lng": -51.1198734
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787721202202",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "SANTA TEREZA",
+   "endereco": "RUA CRUZEIRO DO SUL, N. 2077, Apto 202, BL 6",
+   "preco": 132366.56,
+   "valor_avaliacao": 219000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 80.51 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787721202202",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444430995270",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -11545,27 +12202,6 @@
     "fonte": "google",
     "lat": -30.1337369,
     "lng": -51.1984472
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712010134",
-   "uf": "RS",
-   "cidade": "PORTO ALEGRE",
-   "bairro": "COSTA E SILVA",
-   "endereco": "RUA WALTER ERWIG FILHO, N. 470, Apto 404, TORRE 2, VAGA 645",
-   "preco": 133938.03,
-   "valor_avaliacao": 221600.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 75.98 de área total, 44.31 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712010134",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -30.0097203,
-    "lng": -51.1194597
    },
    "geo_pendente": false
   },
@@ -11696,27 +12332,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555507308703",
-   "uf": "RS",
-   "cidade": "PORTO ALEGRE",
-   "bairro": "SANTO ANTONIO",
-   "endereco": "RUA ENGENHEIRO FERNANDO MENDES RIBEIRO, N. 258, Apto 204, BL C II 3",
-   "preco": 123996.39,
-   "valor_avaliacao": 197000.0,
-   "desconto": 37.06,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 64.96 de área total, 55.56 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555507308703",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -30.0556763,
-    "lng": -51.2070435
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444423780027",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -11801,25 +12416,19 @@
    "geo_pendente": false
   },
   {
-   "id": "1444414101254",
+   "id": "1444414616904",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
-   "bairro": "LOMBA DO PINHEIRO",
-   "endereco": "RUA TALITA DA CUNHA CHAVES, N. 620, QD A, LOTE 06",
-   "preco": 267672.01,
-   "valor_avaliacao": 420000.0,
+   "bairro": "JARDIM CARVALHO",
+   "endereco": "RUA ATTILIO BILIBIO, N. 120, 128",
+   "preco": 849539.96,
+   "valor_avaliacao": 1333000.0,
    "desconto": 36.27,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 112.12 de área privativa, 140.40 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "financiamento": "Sim",
+   "descricao": "Casa, 350.08 de área total, 223.41 de área privativa, 350.08 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha, 2 vaga(s) de garagem.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414101254",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -30.11220879999999,
-    "lng": -51.1140559
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414616904",
+   "tipo": "casa"
   },
   {
    "id": "1444420234899",
@@ -11990,6 +12599,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787711498214",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "SARANDI",
+   "endereco": "ALAMEDA TRES DE OUTUBRO, N. 15, Apto 506, QD E TR 2",
+   "preco": 235000.0,
+   "valor_avaliacao": 235000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 81.35 de área total, 41.10 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711498214",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787718773156",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -12095,6 +12719,51 @@
    "geo_pendente": false
   },
   {
+   "id": "8444429621451",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "RESTINGA",
+   "endereco": "ESTRADA BARRO VERMELHO, N. 799, Apto 204, BL E VG 71",
+   "preco": 166000.0,
+   "valor_avaliacao": 166000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 90.05 de área total, 45.45 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429621451",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8444435136101",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "RESTINGA",
+   "endereco": "RUA SABINO PEREIRA NUNES, N. 931, Apto 401, BL 11",
+   "preco": 135000.0,
+   "valor_avaliacao": 135000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 69.88 de área total, 40.99 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435136101",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8444437988989",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "RESTINGA",
+   "endereco": "ESTRADA BARRO VERMELHO, N. 799, Apto 206, BL A VG 253 2ºPV",
+   "preco": 128000.0,
+   "valor_avaliacao": 128000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 78.48 de área total, 39.57 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444437988989",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8555521998282",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -12135,6 +12804,21 @@
     "lng": -51.1409025
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555527696628",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "RESTINGA",
+   "endereco": "ESTRADA BARRO VERMELHO, N. 799, Apto 403, BL E VG 135",
+   "preco": 153000.0,
+   "valor_avaliacao": 153000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 90.05 de área total, 45.45 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555527696628",
+   "tipo": "apartamento"
   },
   {
    "id": "8555538983267",
@@ -12261,6 +12945,21 @@
     "lng": -51.150487
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787711981870",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "RESTINGA",
+   "endereco": "RUA SABINO PEREIRA NUNES, N. 932, Apto 301, BL 14 LT 1 E 2 QD A",
+   "preco": 170000.0,
+   "valor_avaliacao": 170000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 74.20 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711981870",
+   "tipo": "apartamento"
   },
   {
    "id": "8787712548592",
@@ -12471,6 +13170,21 @@
     "lng": -51.1499749
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787718623057",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "RESTINGA",
+   "endereco": "RUA SETE MIL E OITO, N. 300, Apto 403, BL 22",
+   "preco": 196000.0,
+   "valor_avaliacao": 196000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 61.70 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718623057",
+   "tipo": "apartamento"
   },
   {
    "id": "8787719573517",
@@ -13460,6 +14174,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787718138353",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "IPANEMA",
+   "endereco": "ESTRADA CAMPO NOVO, N. 459, Apto 104,  PNE  BL 01",
+   "preco": 190969.8,
+   "valor_avaliacao": 190000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 68.15 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s).",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718138353",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787709373825",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -13649,6 +14378,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787722590656",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "IPANEMA",
+   "endereco": "ESTRADA CAMPO NOVO, N. 459, Apto 504, BL 16",
+   "preco": 209842.39,
+   "valor_avaliacao": 205000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 68.15 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787722590656",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444435791410",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -13668,6 +14412,21 @@
     "lng": -51.2146001
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444408766876",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "LOMBA DO PINHEIRO",
+   "endereco": "ESTRADA JOAO DE OLIVEIRA REMIAO, N. 5777, Apto 504, BL B 5º PV",
+   "preco": 118622.23,
+   "valor_avaliacao": 115000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 57.74 de área total, 40.02 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408766876",
+   "tipo": "apartamento"
   },
   {
    "id": "8787714631888",
@@ -13691,6 +14450,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787721116233",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "IPANEMA",
+   "endereco": "ESTRADA CAMPO NOVO, N. 459, Apto 102, BL  24",
+   "preco": 211606.66,
+   "valor_avaliacao": 205000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 68.16 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787721116233",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787714190822",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -13710,6 +14484,21 @@
     "lng": -51.158514
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787718882907",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "IPANEMA",
+   "endereco": "ESTRADA CAMPO NOVO, N. 459, Apto 302, BL 02 3º PV",
+   "preco": 201563.66,
+   "valor_avaliacao": 195000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 68.15 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718882907",
+   "tipo": "apartamento"
   },
   {
    "id": "8444430531037",
@@ -14216,6 +15005,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787702531000",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "ABERTA DOS MORROS",
+   "endereco": "AVENIDA EDGAR PIRES DE CASTRO, N. 151, Apto 403, BL 11 LT 01 QD B",
+   "preco": 155480.97,
+   "valor_avaliacao": 145000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 81.20 de área total, 40.29 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702531000",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787710821119",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -14384,6 +15188,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787716552292",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "COSTA E SILVA",
+   "endereco": "RUA WALDEMAR LUIZ DE FREITAS FILHO, N. 470, Apto 1103, 11º PV TR 4 VG 499 LT 2 QD B",
+   "preco": 246298.19,
+   "valor_avaliacao": 227367.54,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 65.40 de área total, 44.31 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716552292",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787721715609",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -14447,6 +15266,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787720242219",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "VILA NOVA",
+   "endereco": "ESTRADA CRISTIANO KRAEMER, N. 2021, Apto 402, BL 18",
+   "preco": 201440.91,
+   "valor_avaliacao": 185000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 65.43 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720242219",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787719755267",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -14508,6 +15342,21 @@
     "lng": -51.1499749
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787717981812",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "VILA NOVA",
+   "endereco": "ESTRADA CRISTIANO KRAEMER, N. 2021, Apto 202, BL 04 LT 1 QD A",
+   "preco": 203006.69,
+   "valor_avaliacao": 185000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 76.63 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717981812",
+   "tipo": "apartamento"
   },
   {
    "id": "8787707040136",
@@ -14676,6 +15525,21 @@
     "lng": -51.10527889999999
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787716909123",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "VILA NOVA",
+   "endereco": "ESTRADA CRISTIANO KRAEMER, N. 2021, Apto 302, BL 13 LT 01 QD A",
+   "preco": 193894.09,
+   "valor_avaliacao": 170000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 65.44 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716909123",
+   "tipo": "apartamento"
   },
   {
    "id": "8787721034946",
@@ -14888,6 +15752,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444436656990",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "RESTINGA",
+   "endereco": "RUA SABINO PEREIRA NUNES, N. 931, Apto 102, BL 16",
+   "preco": 154192.23,
+   "valor_avaliacao": 128000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 69.88 de área total, 40.99 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436656990",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444439649138",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -14930,6 +15809,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787721412908",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "RESTINGA",
+   "endereco": "RUA SETE MIL E OITO, N. 300, Apto 201, BL 08  LTS 1 2 E 3 QD C",
+   "preco": 185167.52,
+   "valor_avaliacao": 149000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 61.70 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787721412908",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787717891988",
    "uf": "RS",
    "cidade": "PORTO ALEGRE",
@@ -14949,6 +15843,21 @@
     "lng": -51.1984472
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787718027977",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "RESTINGA",
+   "endereco": "AVENIDA EDGAR PIRES DE CASTRO, N. 4900, Apto 307, BL B LT 1 QD A",
+   "preco": 192256.66,
+   "valor_avaliacao": 150000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 51.62 de área total, 45.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718027977",
+   "tipo": "apartamento"
   },
   {
    "id": "8444413191410",
@@ -15012,6 +15921,21 @@
     "lng": -51.1018789
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444420002899",
+   "uf": "RS",
+   "cidade": "PORTO ALEGRE",
+   "bairro": "MORRO SANTANA",
+   "endereco": "RUA TENENTE ARY TARRAGO, N. 1680, Apto 705, LT 03 TR C 7º PV",
+   "preco": 285600.0,
+   "valor_avaliacao": 215000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 88.78 de área total, 48.32 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420002899",
+   "tipo": "apartamento"
   },
   {
    "id": "8787720565417",
@@ -15129,7 +16053,7 @@
    "desconto": 38.24,
    "financiamento": "Não",
    "descricao": "Apartamento, 100.83 de área total, 47.71 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702985175",
    "tipo": "apartamento",
    "geo": {
@@ -15161,6 +16085,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1555524187163",
+   "uf": "RS",
+   "cidade": "RIO GRANDE",
+   "bairro": "FREDERICO ERNESTO BUCHHOLZ",
+   "endereco": "RUA CACHOEIRA DO IGUACU, N. 508, QD 19 LT 3",
+   "preco": 264485.43,
+   "valor_avaliacao": 415000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 130.43 de área total, 130.43 de área privativa, 210.00 de área do terreno.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555524187163",
+   "tipo": "casa"
+  },
+  {
    "id": "8555520105101",
    "uf": "RS",
    "cidade": "RIO GRANDE",
@@ -15182,6 +16121,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444405796960",
+   "uf": "RS",
+   "cidade": "RIO GRANDE",
+   "bairro": "PARQUE RESIDENCIAL SAO PEDRO",
+   "endereco": "RUA I, N. 508, LT 27A QD 89",
+   "preco": 145000.0,
+   "valor_avaliacao": 145000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 75.00 de área total, 75.00 de área privativa, 150.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405796960",
+   "tipo": "casa"
+  },
+  {
    "id": "1444402955784",
    "uf": "RS",
    "cidade": "RIO GRANDE",
@@ -15201,6 +16155,81 @@
     "lng": -52.1780665
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10318263",
+   "uf": "RS",
+   "cidade": "RIO GRANDE",
+   "bairro": "VILA RURAL",
+   "endereco": "RUA PEDRO DE SÁ FREITAS, N. 260, Apto 505, BL 02",
+   "preco": 160000.0,
+   "valor_avaliacao": 148500.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 42.03 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10318263",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "10318264",
+   "uf": "RS",
+   "cidade": "RIO GRANDE",
+   "bairro": "VILA RURAL",
+   "endereco": "RUA PEDRO DE SÁ FREITAS, N. 260, Apto 101, BL 01, TÉRREO",
+   "preco": 160000.0,
+   "valor_avaliacao": 148500.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 42.03 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10318264",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "10318265",
+   "uf": "RS",
+   "cidade": "RIO GRANDE",
+   "bairro": "VILA RURAL",
+   "endereco": "RUA PEDRO DE SÁ FREITAS, N. 260, Apto 410, BL 03",
+   "preco": 160000.0,
+   "valor_avaliacao": 148500.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 42.03 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10318265",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "10318266",
+   "uf": "RS",
+   "cidade": "RIO GRANDE",
+   "bairro": "VILA RURAL",
+   "endereco": "RUA PEDRO DE SÁ FREITAS, N. 260, Apto 509, BL 03",
+   "preco": 160000.0,
+   "valor_avaliacao": 148500.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 42.03 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10318266",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "10318267",
+   "uf": "RS",
+   "cidade": "RIO GRANDE",
+   "bairro": "VILA RURAL",
+   "endereco": "RUA PEDRO DE SÁ FREITAS, N. 260, Apto 314, BL 04",
+   "preco": 160000.0,
+   "valor_avaliacao": 135000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 42.03 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10318267",
+   "tipo": "apartamento"
   },
   {
    "id": "1444406099718",
@@ -15285,6 +16314,21 @@
     "lng": -50.93804129999999
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444407184440",
+   "uf": "RS",
+   "cidade": "ROCA SALES",
+   "bairro": "CENTRO",
+   "endereco": "RUA JOSE BROCK, N. 645, LT 21 QD 177",
+   "preco": 133437.74,
+   "valor_avaliacao": 212000.0,
+   "desconto": 37.06,
+   "financiamento": "Não",
+   "descricao": "Casa, 91.95 de área total, 79.95 de área privativa, 232.30 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407184440",
+   "tipo": "casa"
   },
   {
    "id": "10212078",
@@ -15896,27 +16940,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444431570397",
-   "uf": "RS",
-   "cidade": "SANTO ANGELO",
-   "bairro": "CENTRO",
-   "endereco": "RUA EUFRÁSIA SCHAU DICK, N. 553, Apto 211, BLOCO 03",
-   "preco": 75305.5,
-   "valor_avaliacao": 130000.0,
-   "desconto": 42.08,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 46.63 de área total, 42.03 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431570397",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -28.3039598,
-    "lng": -54.23427659999999
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444420120540",
    "uf": "RS",
    "cidade": "SANTO ANGELO",
@@ -16018,27 +17041,6 @@
     "fonte": "google",
     "lat": -28.6288176,
     "lng": -56.0189457
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444417744768",
-   "uf": "RS",
-   "cidade": "SAO GABRIEL",
-   "bairro": "JARDIM PRIMAVERA",
-   "endereco": "RUA AMABILE PASCOTIN, N. 35, LOTE 26, QUADRA B",
-   "preco": 144767.36,
-   "valor_avaliacao": 230000.0,
-   "desconto": 37.06,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 63.03 de área privativa, 384.70 de área do terreno.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417744768",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -30.3239852,
-    "lng": -54.3324694
    },
    "geo_pendente": false
   },
@@ -16148,6 +17150,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444420191128",
+   "uf": "RS",
+   "cidade": "SAO LEOPOLDO",
+   "bairro": "ARROIO DA MANTEIGA",
+   "endereco": "RUA RIO GUAIBA, N. 426, Apto 302, LT 02, O3 E 04, QD 2892",
+   "preco": 68787.97,
+   "valor_avaliacao": 120000.0,
+   "desconto": 42.68,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 53.96 de área total, 31.33 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420191128",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -29.7122249,
+    "lng": -51.1930855
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787710747245",
    "uf": "RS",
    "cidade": "SAO LEOPOLDO",
@@ -16190,6 +17213,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787706708680",
+   "uf": "RS",
+   "cidade": "SAO LEOPOLDO",
+   "bairro": "SANTOS DUMONT",
+   "endereco": "RUA RICARDO JOAO MERKER, N. 44, Apto 504, BL 31, LT SN, QD 2918,",
+   "preco": 76464.05,
+   "valor_avaliacao": 132000.0,
+   "desconto": 42.08,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 81.29 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706708680",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -29.7284455,
+    "lng": -51.1473418
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444436691974",
    "uf": "RS",
    "cidade": "SAO LEOPOLDO",
@@ -16209,6 +17253,36 @@
     "lng": -51.1555233
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444428235426",
+   "uf": "RS",
+   "cidade": "SAO LEOPOLDO",
+   "bairro": "SAO MIGUEL",
+   "endereco": "AVENIDA TOMAZ EDISON, N. 3500, Apto 402, BL 32",
+   "preco": 83721.21,
+   "valor_avaliacao": 143000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 42.64 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428235426",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8787713281727",
+   "uf": "RS",
+   "cidade": "SAO LEOPOLDO",
+   "bairro": "SANTOS DUMONT",
+   "endereco": "AVENIDA LIONS SCHARLAU, N. 131, Apto 504, BL 13 VG 389",
+   "preco": 90746.77,
+   "valor_avaliacao": 155000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 82.74 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713281727",
+   "tipo": "apartamento"
   },
   {
    "id": "8787718631424",
@@ -16232,25 +17306,19 @@
    "geo_pendente": false
   },
   {
-   "id": "8444433105330",
+   "id": "8787700552816",
    "uf": "RS",
    "cidade": "SAO LEOPOLDO",
-   "bairro": "FEITORIA",
-   "endereco": "AVENIDA FEITORIA, N. 5518, Apto 102, BL F BOX 61",
-   "preco": 100148.49,
-   "valor_avaliacao": 169000.0,
+   "bairro": "SANTOS DUMONT",
+   "endereco": "RUA RICARDO JOAO MERKER, N. 44, Apto 204, BL 03",
+   "preco": 103704.06,
+   "valor_avaliacao": 175000.0,
    "desconto": 40.75,
    "financiamento": "Não",
-   "descricao": "Apartamento, 61.13 de área total, 54.08 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433105330",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -29.7513483,
-    "lng": -51.0902915
-   },
-   "geo_pendente": false
+   "descricao": "Apartamento, 81.28 de área total, 41.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700552816",
+   "tipo": "apartamento"
   },
   {
    "id": "8787714527606",
@@ -16337,6 +17405,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787701804606",
+   "uf": "RS",
+   "cidade": "SAO LEOPOLDO",
+   "bairro": "FEITORIA",
+   "endereco": "RUA ANGOLA, N. 99,",
+   "preco": 142037.17,
+   "valor_avaliacao": 235000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 110.81 de área total, 61.02 de área privativa, 95.40 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701804606",
+   "tipo": "casa"
+  },
+  {
    "id": "8787707693903",
    "uf": "RS",
    "cidade": "SAO LEOPOLDO",
@@ -16354,6 +17437,27 @@
     "fonte": "google",
     "lat": -29.7568482,
     "lng": -51.0925439
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555531217542",
+   "uf": "RS",
+   "cidade": "SAO LEOPOLDO",
+   "bairro": "SANTOS DUMONT",
+   "endereco": "RUA TOME DE SOUZA, N. 100, Apto 201, BL 21, ZONA 20, SETOR B,",
+   "preco": 111816.5,
+   "valor_avaliacao": 185000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 88.37 de área total, 52.38 de área privativa, 0.00 de área do terreno,  3 qto(s), varanda, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555531217542",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -29.7344742,
+    "lng": -51.1468972
    },
    "geo_pendente": false
   },
@@ -16389,7 +17493,7 @@
    "desconto": 38.96,
    "financiamento": "Não",
    "descricao": "Apartamento, 44.20 de área total, 40.07 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406197777",
    "tipo": "apartamento",
    "geo": {
@@ -16841,6 +17945,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787716442810",
+   "uf": "RS",
+   "cidade": "SAO LEOPOLDO",
+   "bairro": "SANTOS DUMONT",
+   "endereco": "AVENIDA LIONS SCHARLAU, N. 131, Apto 404, BL 16 4º PV VG 376",
+   "preco": 181432.92,
+   "valor_avaliacao": 172000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 82.74 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716442810",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787715301539",
    "uf": "RS",
    "cidade": "SAO LEOPOLDO",
@@ -16946,6 +18065,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787717803817",
+   "uf": "RS",
+   "cidade": "SAO LEOPOLDO",
+   "bairro": "SANTOS DUMONT",
+   "endereco": "AVENIDA LIONS SCHARLAU, N. 131, Apto 502, BL 02 5º PV VG 75",
+   "preco": 194340.09,
+   "valor_avaliacao": 175000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 82.74 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717803817",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787713378712",
    "uf": "RS",
    "cidade": "SAO LEOPOLDO",
@@ -16965,6 +18099,21 @@
     "lng": -51.0925571
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787719104657",
+   "uf": "RS",
+   "cidade": "SAO LEOPOLDO",
+   "bairro": "SANTOS DUMONT",
+   "endereco": "AVENIDA LIONS SCHARLAU, N. 355, Apto 404, BL 06 4º PV VG 112",
+   "preco": 203071.91,
+   "valor_avaliacao": 175000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 40.82 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719104657",
+   "tipo": "apartamento"
   },
   {
    "id": "8787706792002",
@@ -16988,6 +18137,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787725155845",
+   "uf": "RS",
+   "cidade": "SAO LEOPOLDO",
+   "bairro": "SANTOS DUMONT",
+   "endereco": "AVENIDA LIONS SCHARLAU, N. 131, Apto 204, BL 06 VG 24",
+   "preco": 210552.79,
+   "valor_avaliacao": 175000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 82.74 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787725155845",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787719013228",
    "uf": "RS",
    "cidade": "SAO LEOPOLDO",
@@ -17007,6 +18171,36 @@
     "lng": -51.1482654
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787720257402",
+   "uf": "RS",
+   "cidade": "SAO LEOPOLDO",
+   "bairro": "SANTOS DUMONT",
+   "endereco": "AVENIDA LIONS SCHARLAU, N. 131, Apto 202, BL 19 VG 190",
+   "preco": 214954.23,
+   "valor_avaliacao": 175000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 82.74 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720257402",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8787722977860",
+   "uf": "RS",
+   "cidade": "SAO LEOPOLDO",
+   "bairro": "SANTOS DUMONT",
+   "endereco": "AVENIDA LIONS SCHARLAU, N. 131, Apto 202, BL 10 VG 307",
+   "preco": 212299.15,
+   "valor_avaliacao": 170000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 82.74 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787722977860",
+   "tipo": "apartamento"
   },
   {
    "id": "10008652",
@@ -17534,6 +18728,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444433551926",
+   "uf": "RS",
+   "cidade": "SAPUCAIA DO SUL",
+   "bairro": "PASQUALINI",
+   "endereco": "RUA DONA ERNESTINA, N. SN, Apto 503, BL 18 LT 1 SBLT 3 QD 12 ST 04H32",
+   "preco": 87819.45,
+   "valor_avaliacao": 150000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 75.25 de área total, 38.81 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433551926",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8555518648900",
    "uf": "RS",
    "cidade": "SAPUCAIA DO SUL",
@@ -17551,27 +18760,6 @@
     "fonte": "google",
     "lat": -29.8379977,
     "lng": -51.1337122
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787705035798",
-   "uf": "RS",
-   "cidade": "SAPUCAIA DO SUL",
-   "bairro": "CAMBOIM",
-   "endereco": "AVENIDA JUSTINO CAMBOIM, N. 1049, Apto 101, BL 05 1° PAV",
-   "preco": 100741.08,
-   "valor_avaliacao": 170000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 60.65 de área total, 39.63 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705035798",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -29.8284408,
-    "lng": -51.1329274
    },
    "geo_pendente": false
   },
@@ -17595,6 +18783,36 @@
     "lng": -51.1196018
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555527473467",
+   "uf": "RS",
+   "cidade": "SAPUCAIA DO SUL",
+   "bairro": "KURASHIKI",
+   "endereco": "AVENIDA LUCIO BITTENCOURT, N. 1410, Apto 306, BL 02 VG 460",
+   "preco": 117860.63,
+   "valor_avaliacao": 195000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 68.74 de área total, 47.05 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555527473467",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8444406190713",
+   "uf": "RS",
+   "cidade": "SAPUCAIA DO SUL",
+   "bairro": "COHAB",
+   "endereco": "BR116 KM 21, N. SN, Apto 104, BL 48 LT 4 QD 3 ST 04G78",
+   "preco": 48473.63,
+   "valor_avaliacao": 80000.0,
+   "desconto": 39.41,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 36.75 de área total, 33.66 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406190713",
+   "tipo": "apartamento"
   },
   {
    "id": "8444405745355",
@@ -17674,9 +18892,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401302108",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -29.83480549999999,
-    "lng": -51.14616460000001,
-    "fonte": "google"
+    "lng": -51.14616460000001
    },
    "geo_pendente": false
   },
@@ -17849,6 +19067,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444431058025",
+   "uf": "RS",
+   "cidade": "SAPUCAIA DO SUL",
+   "bairro": "COHAB",
+   "endereco": "RUA ANTONIO VIEIRA, N. SN, Apto 407, BL 48 4º PV",
+   "preco": 144940.0,
+   "valor_avaliacao": 130000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 42.18 de área total, 38.64 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431058025",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444428283854",
    "uf": "RS",
    "cidade": "SAPUCAIA DO SUL",
@@ -17929,27 +19162,6 @@
     "fonte": "google",
     "lat": -28.725239,
     "lng": -51.9273137
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444423737903",
-   "uf": "RS",
-   "cidade": "SERAFINA CORREA",
-   "bairro": "Bairro São Cristovão",
-   "endereco": "AVENIDA PRESIDENTE VARGAS, N. 54, Apto 03, BL A 2° PAV",
-   "preco": 111168.79,
-   "valor_avaliacao": 180000.0,
-   "desconto": 38.24,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 88.57 de área total, 51.76 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423737903",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -22.8996469,
-    "lng": -43.2227
    },
    "geo_pendente": false
   },
@@ -18164,25 +19376,19 @@
    "geo_pendente": false
   },
   {
-   "id": "8444435603192",
+   "id": "1444412107115",
    "uf": "RS",
    "cidade": "TRAMANDAI",
-   "bairro": "NOVA TRAMANDAI",
-   "endereco": "RUA BOTO VERDE, N. 495, PARTE DO LOTE 452",
-   "preco": 136597.45,
-   "valor_avaliacao": 226000.0,
-   "desconto": 39.56,
+   "bairro": "BALN NOVA TRAMANDAI",
+   "endereco": "RUA RORAIMA, N. SN, LOTE N7 QD22",
+   "preco": 42414.43,
+   "valor_avaliacao": 70000.0,
+   "desconto": 39.41,
    "financiamento": "Não",
-   "descricao": "Casa, 60.37 de área total, 60.37 de área privativa, 150.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 150.00 de área do terreno.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435603192",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -30.0316603,
-    "lng": -50.1659803
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444412107115",
+   "tipo": "terreno"
   },
   {
    "id": "8444415696284",
@@ -18225,6 +19431,21 @@
     "lng": -50.1461939
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10284144",
+   "uf": "RS",
+   "cidade": "TRAMANDAI",
+   "bairro": "ZONA NOVA",
+   "endereco": "AVENIDA PROTASIO ALVES (ESQ R.PINHEIRO MACHADO), N. 3299, QD 20, LTS 18 E 19",
+   "preco": 1825905.47,
+   "valor_avaliacao": 2865000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 0.00 de área total, 481.46 de área privativa, 975.00 de área do terreno,  7 qto(s), varanda, a.serv, WC, 2 sala(s), DCE, cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10284144",
+   "tipo": "casa"
   },
   {
    "id": "8444415309272",
@@ -18395,27 +19616,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444407362275",
-   "uf": "RS",
-   "cidade": "URUGUAIANA",
-   "bairro": "CIDADE ALEGRIA",
-   "endereco": "RUA DOUTOR GREGORIO BEHREGARAY FILHO, N. 4311,",
-   "preco": 95044.02,
-   "valor_avaliacao": 185000.0,
-   "desconto": 48.63,
-   "financiamento": "Sim",
-   "descricao": "Casa, 73.91 de área total, 73.91 de área privativa, 380.31 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407362275",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -29.7664349,
-    "lng": -57.0701771
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444417729678",
    "uf": "RS",
    "cidade": "URUGUAIANA",
@@ -18447,7 +19647,7 @@
    "desconto": 45.61,
    "financiamento": "Não",
    "descricao": "Casa, 64.86 de área total, 64.86 de área privativa, 124.60 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555511199930",
    "tipo": "casa",
    "geo": {
@@ -18542,6 +19742,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1787701578187",
+   "uf": "RS",
+   "cidade": "URUGUAIANA",
+   "bairro": "CIDADE ALEGRIA",
+   "endereco": "RUA SANTOS DUMONT, N. 353, Apto 101, BL R PAV TERREO VG 81",
+   "preco": 156142.0,
+   "valor_avaliacao": 245000.0,
+   "desconto": 36.27,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 85.14 de área total, 47.21 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701578187",
+   "tipo": "apartamento"
+  },
+  {
    "id": "1444417828473",
    "uf": "RS",
    "cidade": "URUGUAIANA",
@@ -18559,27 +19774,6 @@
     "fonte": "google",
     "lat": -29.7546099,
     "lng": -57.0717292
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1555533070273",
-   "uf": "RS",
-   "cidade": "URUGUAIANA",
-   "bairro": "SAO JOAO",
-   "endereco": "RUA QUATORZE DE JULHO, N. 3556, LT 03 QD 245",
-   "preco": 305910.86,
-   "valor_avaliacao": 480000.0,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Casa, 136.69 de área total, 35.56 de área privativa, 290.40 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555533070273",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -29.7682707,
-    "lng": -57.07737840000001
    },
    "geo_pendente": false
   },
@@ -18804,7 +19998,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 48.30 de área total, 48.30 de área privativa, 150.67 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425900755",
    "tipo": "casa",
    "geo": {
@@ -18832,6 +20026,27 @@
     "fonte": "google",
     "lat": -30.07265709999999,
     "lng": -51.0309767
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787709632022",
+   "uf": "RS",
+   "cidade": "VIAMAO",
+   "bairro": "CECILIA",
+   "endereco": "RODOVIA TAPIR ROCHA, N. 1820, Apto 202, BL 15, BOX N 155",
+   "preco": 130409.26,
+   "valor_avaliacao": 215761.66,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 40.82 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709632022",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -30.0803271,
+    "lng": -51.1007639
    },
    "geo_pendente": false
   },
@@ -18867,13 +20082,34 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Apartamento, 104.95 de área total, 44.84 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702476114",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -30.0554524,
     "lng": -51.1030436
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444414757168",
+   "uf": "RS",
+   "cidade": "VIAMAO",
+   "bairro": "TARUMA",
+   "endereco": "AVENIDA DAS AZALEIAS, N. 161, LT 05, QD 12,",
+   "preco": 299537.72,
+   "valor_avaliacao": 470000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 183.96 de área total, 66.12 de área privativa, 480.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414757168",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -30.0600281,
+    "lng": -51.0207874
    },
    "geo_pendente": false
   },
@@ -19046,6 +20282,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787708639600",
+   "uf": "RS",
+   "cidade": "VIAMAO",
+   "bairro": "MORRO SANTANA",
+   "endereco": "RUA PARANA, N. 226, Apto 207, 2º PV TR 08",
+   "preco": 195424.44,
+   "valor_avaliacao": 190000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 85.07 de área total, 44.84 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708639600",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787708620187",
    "uf": "RS",
    "cidade": "VIAMAO",
@@ -19210,27 +20461,6 @@
     "fonte": "google",
     "lat": -30.08413939999999,
     "lng": -51.007155
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444425847218",
-   "uf": "RS",
-   "cidade": "VILA MARIA",
-   "bairro": "VILA MARIA",
-   "endereco": "RUA B, N. SN, LOTE URBANO Nº 02, QUADRA 05",
-   "preco": 52102.6,
-   "valor_avaliacao": 90000.0,
-   "desconto": 42.11,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 270.35 de área do terreno.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425847218",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -28.5290972,
-    "lng": -52.1543898
    },
    "geo_pendente": false
   },
