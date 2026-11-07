@@ -1,9 +1,9 @@
 {
  "uf": "MS",
- "data_geracao_caixa": "05/11/2026",
- "coletado_em": "05/11/2026 22:14",
+ "data_geracao_caixa": "06/11/2026",
+ "coletado_em": "07/11/2026 04:00",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_MS.csv",
- "total": 230,
+ "total": 233,
  "colunas": [
   "id",
   "uf",
@@ -88,12 +88,12 @@
    "cidade": "AQUIDAUANA",
    "bairro": "PINHEIRO",
    "endereco": "RUA JAIME ARTIGAS, N. 398, LT 07, QD 538 DA PCC",
-   "preco": 102844.79,
+   "preco": 100207.74,
    "valor_avaliacao": 178000.0,
-   "desconto": 42.23,
-   "financiamento": "Não",
+   "desconto": 43.71,
+   "financiamento": "Sim",
    "descricao": "Casa, 70.25 de área total, 70.25 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405135859",
    "tipo": "casa",
    "geo": {
@@ -307,9 +307,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406680940",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.4501201,
-    "lng": -55.770489,
-    "fonte": "google"
+    "lng": -55.770489
    },
    "geo_pendente": false
   },
@@ -328,9 +328,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410788059",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.4651963,
-    "lng": -55.7620774,
-    "fonte": "google"
+    "lng": -55.7620774
    },
    "geo_pendente": false
   },
@@ -361,12 +361,12 @@
    "cidade": "CAMPO GRANDE",
    "bairro": "VILA NHANHÁ",
    "endereco": "RUA SOL NASCENTE, N. 718, LT 01 QD 03",
-   "preco": 104261.33,
+   "preco": 97310.57,
    "valor_avaliacao": 230000.0,
-   "desconto": 54.67,
-   "financiamento": "Não",
+   "desconto": 57.7,
+   "financiamento": "Sim",
    "descricao": "Casa, 41.71 de área total, 41.71 de área privativa, 204.75 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433095114",
    "tipo": "casa",
    "geo": {
@@ -387,13 +387,34 @@
    "desconto": 54.21,
    "financiamento": "Sim",
    "descricao": "Casa, 0.00 de área total, 142.19 de área privativa, 360.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405327600",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -20.5381363,
     "lng": -54.6521556
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444419087144",
+   "uf": "MS",
+   "cidade": "CAMPO GRANDE",
+   "bairro": "VARANDAS DO CAMPO",
+   "endereco": "RUA CABREUVA, N. 321, Apto 03, BL 10",
+   "preco": 63070.41,
+   "valor_avaliacao": 136500.0,
+   "desconto": 53.8,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 42.91 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419087144",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.559428,
+    "lng": -54.60464700000001
    },
    "geo_pendente": false
   },
@@ -433,9 +454,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555516375760",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.5597045,
-    "lng": -54.6040144,
-    "fonte": "google"
+    "lng": -54.6040144
    },
    "geo_pendente": false
   },
@@ -706,9 +727,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555519207680",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.5590019,
-    "lng": -54.6042753,
-    "fonte": "google"
+    "lng": -54.6042753
    },
    "geo_pendente": false
   },
@@ -912,7 +933,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 47.58 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555517996025",
    "tipo": "apartamento",
    "geo": {
@@ -1399,9 +1420,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444413140523",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.5277338,
-    "lng": -54.626355,
-    "fonte": "google"
+    "lng": -54.626355
    },
    "geo_pendente": false
   },
@@ -1479,7 +1500,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 61.39 de área total, 61.39 de área privativa, 227.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411929101",
    "tipo": "casa",
    "geo": {
@@ -1504,9 +1525,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555514413509",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.3799215,
-    "lng": -54.5606911,
-    "fonte": "google"
+    "lng": -54.5606911
    },
    "geo_pendente": false
   },
@@ -1542,7 +1563,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 48.85 de área total, 48.85 de área privativa, 115.65 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425911994",
    "tipo": "casa",
    "geo": {
@@ -1710,7 +1731,7 @@
    "desconto": 38.77,
    "financiamento": "Não",
    "descricao": "Casa, 60.97 de área total, 60.97 de área privativa, 126.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700295325",
    "tipo": "casa",
    "geo": {
@@ -1836,7 +1857,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Casa, 54.31 de área total, 54.31 de área privativa, 224.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414648847",
    "tipo": "casa",
    "geo": {
@@ -2071,9 +2092,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423227590",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.5543105,
-    "lng": -54.61519029999999,
-    "fonte": "google"
+    "lng": -54.61519029999999
    },
    "geo_pendente": false
   },
@@ -2113,9 +2134,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405573678",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.5185539,
-    "lng": -54.6847191,
-    "fonte": "google"
+    "lng": -54.6847191
    },
    "geo_pendente": false
   },
@@ -2197,9 +2218,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403798931",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.5473477,
-    "lng": -54.6304593,
-    "fonte": "google"
+    "lng": -54.6304593
    },
    "geo_pendente": false
   },
@@ -2323,9 +2344,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444437286631",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.5409154,
-    "lng": -54.6258057,
-    "fonte": "google"
+    "lng": -54.6258057
    },
    "geo_pendente": false
   },
@@ -2470,9 +2491,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405617306",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.4632596,
-    "lng": -54.6943918,
-    "fonte": "google"
+    "lng": -54.6943918
    },
    "geo_pendente": false
   },
@@ -2659,9 +2680,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712268930",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.4810621,
-    "lng": -54.6628447,
-    "fonte": "google"
+    "lng": -54.6628447
    },
    "geo_pendente": false
   },
@@ -2680,9 +2701,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407978829",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.5121386,
-    "lng": -54.6954484,
-    "fonte": "google"
+    "lng": -54.6954484
    },
    "geo_pendente": false
   },
@@ -2743,9 +2764,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532272490",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.517427,
-    "lng": -54.6085246,
-    "fonte": "google"
+    "lng": -54.6085246
    },
    "geo_pendente": false
   },
@@ -2869,9 +2890,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555522234235",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.5594327,
-    "lng": -54.60675879999999,
-    "fonte": "google"
+    "lng": -54.60675879999999
    },
    "geo_pendente": false
   },
@@ -2995,9 +3016,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555521059960",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.5566448,
-    "lng": -54.6040106,
-    "fonte": "google"
+    "lng": -54.6040106
    },
    "geo_pendente": false
   },
@@ -3037,9 +3058,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421114730",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.5372356,
-    "lng": -54.6526317,
-    "fonte": "google"
+    "lng": -54.6526317
    },
    "geo_pendente": false
   },
@@ -3058,9 +3079,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444438447345",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.4947764,
-    "lng": -54.6722001,
-    "fonte": "google"
+    "lng": -54.6722001
    },
    "geo_pendente": false
   },
@@ -3121,9 +3142,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719671772",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.481299,
-    "lng": -54.6620226,
-    "fonte": "google"
+    "lng": -54.6620226
    },
    "geo_pendente": false
   },
@@ -3268,9 +3289,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426732236",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.5358054,
-    "lng": -54.6367961,
-    "fonte": "google"
+    "lng": -54.6367961
    },
    "geo_pendente": false
   },
@@ -3436,9 +3457,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444440764689",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.5118198,
-    "lng": -54.69429,
-    "fonte": "google"
+    "lng": -54.69429
    },
    "geo_pendente": false
   },
@@ -3768,7 +3789,7 @@
    "desconto": 41.05,
    "financiamento": "Sim",
    "descricao": "Casa, 98.07 de área total, 98.07 de área privativa, 146.41 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555520769826",
    "tipo": "casa",
    "geo": {
@@ -3793,9 +3814,30 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404590617",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -19.046861,
-    "lng": -57.65445099999999,
-    "fonte": "google"
+    "lng": -57.65445099999999
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1555520629145",
+   "uf": "MS",
+   "cidade": "CORUMBA",
+   "bairro": "CENTRO",
+   "endereco": "RUA LADARIO, N. SN, LOTE 37-A",
+   "preco": 207127.15,
+   "valor_avaliacao": 325000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 98.08 de área total, 76.80 de área privativa, 146.41 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555520629145",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -19.0027653,
+    "lng": -57.6451517
    },
    "geo_pendente": false
   },
@@ -4083,7 +4125,7 @@
    "desconto": 31.58,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286351",
    "tipo": "terreno",
    "geo": {
@@ -4335,7 +4377,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Casa, 168.68 de área total, 168.68 de área privativa, 300.00 de área do terreno,  1 qto(s).",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555504182409",
    "tipo": "casa",
    "geo": {
@@ -4360,9 +4402,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300586",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -21.4919976,
-    "lng": -56.1563937,
-    "fonte": "google"
+    "lng": -56.1563937
    },
    "geo_pendente": false
   },
@@ -4461,7 +4503,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 54.30 de área total, 54.30 de área privativa, 117.60 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419653148",
    "tipo": "casa",
    "geo": {
@@ -4528,9 +4570,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421251045",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -22.2319051,
-    "lng": -53.33114339999999,
-    "fonte": "google"
+    "lng": -53.33114339999999
    },
    "geo_pendente": false
   },
@@ -4720,6 +4762,27 @@
     "fonte": "google",
     "lat": -20.7749375,
     "lng": -51.73263919999999
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716322220",
+   "uf": "MS",
+   "cidade": "TRES LAGOAS",
+   "bairro": "JARDIM PROGRESSO",
+   "endereco": "RUA ISAC MARQUES GARCIA, N. 69, CASA 69 LOTE 00 QUADRA 00",
+   "preco": 150014.6,
+   "valor_avaliacao": 245000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Casa, 64.72 de área total, 64.72 de área privativa, 153.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716322220",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.7815466,
+    "lng": -51.7213036
    },
    "geo_pendente": false
   },
