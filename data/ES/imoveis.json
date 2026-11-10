@@ -1,9 +1,9 @@
 {
  "uf": "ES",
- "data_geracao_caixa": "06/11/2026",
- "coletado_em": "07/11/2026 04:00",
+ "data_geracao_caixa": "09/11/2026",
+ "coletado_em": "10/11/2026 00:24",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_ES.csv",
- "total": 45,
+ "total": 46,
  "colunas": [
   "id",
   "uf",
@@ -156,7 +156,7 @@
    "desconto": 45.53,
    "financiamento": "Não",
    "descricao": "Casa, 62.00 de área total, 62.00 de área privativa, 200.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406411400",
    "tipo": "casa",
    "geo": {
@@ -184,6 +184,27 @@
     "fonte": "google",
     "lat": -18.0941905,
     "lng": -40.520568
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "10258747",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "BELVEDERE",
+   "endereco": "RUA CONCEICAO DO CASTELO, N. S/N, QD 05, LT 07",
+   "preco": 34132.2,
+   "valor_avaliacao": 66271.95,
+   "desconto": 48.5,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10258747",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.1003383,
+    "lng": -40.3383067
    },
    "geo_pendente": false
   },

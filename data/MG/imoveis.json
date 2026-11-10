@@ -1,9 +1,9 @@
 {
  "uf": "MG",
- "data_geracao_caixa": "06/11/2026",
- "coletado_em": "07/11/2026 04:00",
+ "data_geracao_caixa": "09/11/2026",
+ "coletado_em": "10/11/2026 00:25",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_MG.csv",
- "total": 853,
+ "total": 849,
  "colunas": [
   "id",
   "uf",
@@ -177,7 +177,7 @@
    "desconto": 41.24,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1406.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10221025",
    "tipo": "terreno",
    "geo": {
@@ -361,12 +361,12 @@
    "cidade": "AREADO",
    "bairro": "ROSÁRIO",
    "endereco": "RUA JOSE BONIFACIO, N. 870,",
-   "preco": 78073.34,
+   "preco": 76018.78,
    "valor_avaliacao": 136000.0,
-   "desconto": 42.6,
-   "financiamento": "Sim",
+   "desconto": 44.11,
+   "financiamento": "Não",
    "descricao": "Casa, 69.86 de área total, 69.86 de área privativa, 134.81 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424148456",
    "tipo": "casa",
    "geo": {
@@ -419,27 +419,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444436427940",
-   "uf": "MG",
-   "cidade": "BELO HORIZONTE",
-   "bairro": "JAQUELINE",
-   "endereco": "RUA JOAO GUSMAN, N. 10, Apto 104, BLOCO 01",
-   "preco": 103704.06,
-   "valor_avaliacao": 175000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 44.01 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436427940",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.8045857,
-    "lng": -43.9361063
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "10307851",
    "uf": "MG",
    "cidade": "BELO HORIZONTE",
@@ -461,44 +440,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787703115107",
+   "id": "10285152",
    "uf": "MG",
    "cidade": "BELO HORIZONTE",
-   "bairro": "TREVO",
-   "endereco": "RUA CARLOS LACERDA, N. 941, Apto 202, BL 02 VG 61 LT 15 QD 40",
-   "preco": 116047.39,
-   "valor_avaliacao": 192000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 100.12 de área total, 42.10 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703115107",
-   "tipo": "apartamento",
+   "bairro": "JARDIM VITORIA",
+   "endereco": "RUA MARIA DA CONCEICAO FURTADO (2468), N. s/n, LT 01, QD 216",
+   "preco": 193743.55,
+   "valor_avaliacao": 320000.0,
+   "desconto": 39.46,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 353.59 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10285152",
+   "tipo": "terreno",
    "geo": {
     "fonte": "google",
-    "lat": -19.9032575,
-    "lng": -43.9325847
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787704045846",
-   "uf": "MG",
-   "cidade": "BELO HORIZONTE",
-   "bairro": "TREVO",
-   "endereco": "RUA CARLOS LACERDA, N. 941, Apto 202, BL 07 VG 111 LT 15 QD 40",
-   "preco": 129948.9,
-   "valor_avaliacao": 215000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 100.12 de área total, 42.10 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704045846",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.9032575,
-    "lng": -43.9325847
+    "lat": -19.8448695,
+    "lng": -43.876547
    },
    "geo_pendente": false
   },
@@ -541,27 +499,6 @@
     "fonte": "google",
     "lat": -19.8905039,
     "lng": -43.9795519
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787709146748",
-   "uf": "MG",
-   "cidade": "BELO HORIZONTE",
-   "bairro": "GOIANIA",
-   "endereco": "RUA MARIA ALEIXA DE ABREU, N. 109, Apto 608, BLOCO A VG 38",
-   "preco": 226552.67,
-   "valor_avaliacao": 370000.0,
-   "desconto": 38.77,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 111.94 de área total, 48.73 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709146748",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.8756051,
-    "lng": -43.9015515
    },
    "geo_pendente": false
   },
@@ -688,27 +625,6 @@
     "fonte": "google",
     "lat": -19.8604931,
     "lng": -43.9208963
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444412661900",
-   "uf": "MG",
-   "cidade": "BELO HORIZONTE",
-   "bairro": "SAO JOAO BATISTA (VENDA NOVA)",
-   "endereco": "RUA JOSE SANGUINETE, N. 69 E 79, Apto 404, BLOCO III TIPO G",
-   "preco": 144137.94,
-   "valor_avaliacao": 229000.0,
-   "desconto": 37.06,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 61.53 de área total, 61.53 de área privativa, 0.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412661900",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.8226451,
-    "lng": -43.9593755
    },
    "geo_pendente": false
   },
@@ -1028,6 +944,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1787702013779",
+   "uf": "MG",
+   "cidade": "BELO HORIZONTE",
+   "bairro": "SAO GABRIEL",
+   "endereco": "RUA PEDRA LAVRADA, N. 165, Apto 1106, QU 19A TR 01",
+   "preco": 285000.0,
+   "valor_avaliacao": 285000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 81.52 de área total, 41.66 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702013779",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787710220492",
    "uf": "MG",
    "cidade": "BELO HORIZONTE",
@@ -1238,6 +1169,36 @@
    "geo_pendente": false
   },
   {
+   "id": "1444418073816",
+   "uf": "MG",
+   "cidade": "BELO HORIZONTE",
+   "bairro": "GUTIERREZ",
+   "endereco": "RUA ALMIRANTE TAMANDARE, N. 476, Apto 102,",
+   "preco": 625292.2,
+   "valor_avaliacao": 591000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 130.00 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418073816",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8787705288866",
+   "uf": "MG",
+   "cidade": "BELO HORIZONTE",
+   "bairro": "TREVO",
+   "endereco": "RUA CARLOS LACERDA, N. 941, Apto 302, BL 14 QU 40 LT 15",
+   "preco": 238717.53,
+   "valor_avaliacao": 222000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 100.12 de área total, 42.10 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705288866",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787704613976",
    "uf": "MG",
    "cidade": "BELO HORIZONTE",
@@ -1341,6 +1302,21 @@
     "lng": -43.8819121
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787709147434",
+   "uf": "MG",
+   "cidade": "BELO HORIZONTE",
+   "bairro": "GOIANIA",
+   "endereco": "RUA MARIA ALEIXA DE ABREU, N. 109, Apto 203, BL A QU06A VG 72",
+   "preco": 268245.0,
+   "valor_avaliacao": 220000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 108.27 de área total, 46.96 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709147434",
+   "tipo": "apartamento"
   },
   {
    "id": "8444418199966",
@@ -1479,7 +1455,7 @@
    "desconto": 41.24,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 563.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10222637",
    "tipo": "terreno",
    "geo": {
@@ -1553,27 +1529,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787716562050",
-   "uf": "MG",
-   "cidade": "BETIM",
-   "bairro": "MONTE VERDE",
-   "endereco": "AVENIDA PINGO DE OURO, N. 801, Apto 301, BL 03 VG 41 SUB COND 04 RES FRANÇA",
-   "preco": 130553.32,
-   "valor_avaliacao": 216000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 128.53 de área total, 50.91 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716562050",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.9840121,
-    "lng": -44.1714298
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787715661675",
    "uf": "MG",
    "cidade": "BETIM",
@@ -1635,6 +1590,21 @@
     "lng": -44.1363292
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555532895625",
+   "uf": "MG",
+   "cidade": "BETIM",
+   "bairro": "NOVA BADEN",
+   "endereco": "AVENIDA TAPAJOS, N. 2634, Apto 201, BL 10 VG 131",
+   "preco": 180000.0,
+   "valor_avaliacao": 180000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 58.11 de área total, 42.46 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532895625",
+   "tipo": "apartamento"
   },
   {
    "id": "8444422578135",
@@ -1952,25 +1922,19 @@
    "geo_pendente": false
   },
   {
-   "id": "8787710338906",
+   "id": "8787710270171",
    "uf": "MG",
    "cidade": "BOM DESPACHO",
    "bairro": "GERALDO CESARIO",
-   "endereco": "RUA OMICRON, N. 36, LOTE 41 QUADRA 07",
-   "preco": 71654.14,
-   "valor_avaliacao": 125000.0,
-   "desconto": 42.68,
+   "endereco": "RUA ELVIA DE OLIVEIRA, N. 176, QD 20 LT 36",
+   "preco": 110000.0,
+   "valor_avaliacao": 110000.0,
+   "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Casa, 40.83 de área total, 40.00 de área privativa, 200.00 de área do terreno.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710338906",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7492101,
-    "lng": -45.2899167
-   },
-   "geo_pendente": false
+   "descricao": "Casa, 44.91 de área total, 40.83 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710270171",
+   "tipo": "casa"
   },
   {
    "id": "8444401301800",
@@ -2078,17 +2042,38 @@
    "geo_pendente": false
   },
   {
+   "id": "8444433105187",
+   "uf": "MG",
+   "cidade": "CAMPO BELO",
+   "bairro": "NOVO BANDEIRANTES",
+   "endereco": "RUA JOSE MUNGAIA, N. 130, LT 03 QD B",
+   "preco": 56182.63,
+   "valor_avaliacao": 115306.0,
+   "desconto": 51.28,
+   "financiamento": "Não",
+   "descricao": "Casa, 32.98 de área total, 32.98 de área privativa, 193.25 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433105187",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.8801765,
+    "lng": -45.2868058
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555501328613",
    "uf": "MG",
    "cidade": "CAMPO BELO",
    "bairro": "JARDIM AMÉRICA",
    "endereco": "AVENIDA BRASIL, N. 120, QD N",
-   "preco": 124012.12,
+   "preco": 120660.44,
    "valor_avaliacao": 213000.0,
-   "desconto": 41.78,
-   "financiamento": "Sim",
+   "desconto": 43.36,
+   "financiamento": "Não",
    "descricao": "Casa, 66.16 de área total, 66.16 de área privativa, 100.00 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555501328613",
    "tipo": "casa",
    "geo": {
@@ -2372,6 +2357,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8555534806468",
+   "uf": "MG",
+   "cidade": "CARATINGA",
+   "bairro": "LOTEAMENTO IZALTINO SILVEIRA DA MATA",
+   "endereco": "RUA ANDRE DE OLIVEIRA VALADAO, N. 30, Apto 101,",
+   "preco": 82505.25,
+   "valor_avaliacao": 162000.0,
+   "desconto": 49.08,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 91.64 de área total, 52.04 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534806468",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -19.7947582,
+    "lng": -42.13602760000001
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787701122912",
    "uf": "MG",
    "cidade": "CARMO DA MATA",
@@ -2382,7 +2388,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 40.83 de área total, 40.83 de área privativa, 316.90 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701122912",
    "tipo": "casa",
    "geo": {
@@ -2550,7 +2556,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 55.20 de área total, 43.50 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444438182970",
    "tipo": "apartamento",
    "geo": {
@@ -2624,6 +2630,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787711879706",
+   "uf": "MG",
+   "cidade": "CONTAGEM",
+   "bairro": "JARDIM ALVORADA",
+   "endereco": "RUA CONTAGEM, N. 250, Apto 1104, BL 01 VG 36",
+   "preco": 230000.0,
+   "valor_avaliacao": 230000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 43.63 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711879706",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444402382766",
    "uf": "MG",
    "cidade": "CONTAGEM",
@@ -2664,6 +2685,21 @@
     "lng": -44.04774339999999
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787700954507",
+   "uf": "MG",
+   "cidade": "CONTAGEM",
+   "bairro": "CHACARAS REUNIDAS SANTA TEREZINHA",
+   "endereco": "AVENIDA WILSON TAVARES RIBEIRO, N. 980, Apto 101, BL 21 LT 14 QD 02",
+   "preco": 234360.0,
+   "valor_avaliacao": 234360.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 68.30 de área total, 51.09 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700954507",
+   "tipo": "apartamento"
   },
   {
    "id": "8555514048509",
@@ -2813,6 +2849,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787714814257",
+   "uf": "MG",
+   "cidade": "CONTAGEM",
+   "bairro": "TRES BARRAS",
+   "endereco": "RUA PADRE FRANCISCO SUAREZ, N. 355, Apto 104, BL 25 01",
+   "preco": 225000.0,
+   "valor_avaliacao": 225000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 63.24 de área total, 41.60 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714814257",
+   "tipo": "apartamento"
+  },
+  {
    "id": "1444412838217",
    "uf": "MG",
    "cidade": "CONTAGEM",
@@ -2832,6 +2883,21 @@
     "lng": -44.1252568
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787719083005",
+   "uf": "MG",
+   "cidade": "CONTAGEM",
+   "bairro": "PARQUE RIACHO DAS PEDRAS",
+   "endereco": "RUA RIO PARANAGUA, N. 255, Apto 1307, BL 02 VG 239",
+   "preco": 405000.0,
+   "valor_avaliacao": 405000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 94.25 de área total, 53.27 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719083005",
+   "tipo": "apartamento"
   },
   {
    "id": "8555538738467",
@@ -2979,6 +3045,36 @@
     "lng": -44.052744
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1787701907881",
+   "uf": "MG",
+   "cidade": "CONTAGEM",
+   "bairro": "ESTRELA DALVA",
+   "endereco": "RUA DIMAS PERRIN ANTIGA RUA 18, N. 185, Apto 301, BL 15 LT 01 QD 01 VG 207",
+   "preco": 206066.79,
+   "valor_avaliacao": 200000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 89.30 de área total, 42.41 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701907881",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8444433294826",
+   "uf": "MG",
+   "cidade": "CONTAGEM",
+   "bairro": "ICAIVERA",
+   "endereco": "RUA SEMA, N. 675, Apto 404, BL 14",
+   "preco": 165224.55,
+   "valor_avaliacao": 160000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 55.20 de área total, 43.50 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433294826",
+   "tipo": "apartamento"
   },
   {
    "id": "8555527476318",
@@ -3233,6 +3329,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1787701820352",
+   "uf": "MG",
+   "cidade": "CONTAGEM",
+   "bairro": "LUGAR DENOMINADO FAZENDA BOM JESUS",
+   "endereco": "RUA JOSE SOARES DA COSTA NETO, N. 295, Apto 201, BL 14 VG 147",
+   "preco": 217615.99,
+   "valor_avaliacao": 183000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 84.88 de área total, 43.84 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701820352",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444433625695",
    "uf": "MG",
    "cidade": "CONTAGEM",
@@ -3380,6 +3491,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787704551938",
+   "uf": "MG",
+   "cidade": "CORONEL FABRICIANO",
+   "bairro": "SAO VICENTE DE PAULA",
+   "endereco": "RUA VEREADOR JOSE BARBOSA, N. 485, Apto 403,  BL 08",
+   "preco": 171000.0,
+   "valor_avaliacao": 171000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 55.02 de área total, 48.71 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704551938",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444409080145",
    "uf": "MG",
    "cidade": "DELTA",
@@ -3427,12 +3553,12 @@
    "cidade": "DIVINOPOLIS",
    "bairro": "FAZENDA GAFANHOTO",
    "endereco": "RUA MARAJUARAS, N. 1051, Apto 05,  QUADRA 222, LOTE 650, 1º PAV, ZONA 04",
-   "preco": 77983.66,
+   "preco": 75817.45,
    "valor_avaliacao": 148000.0,
-   "desconto": 47.31,
-   "financiamento": "Sim",
+   "desconto": 48.78,
+   "financiamento": "Não",
    "descricao": "Apartamento, 48.44 de área total, 45.83 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537485700",
    "tipo": "apartamento",
    "geo": {
@@ -3448,12 +3574,12 @@
    "cidade": "DIVINOPOLIS",
    "bairro": "FAZENDA GAFANHOTO",
    "endereco": "RUA MARAJUARAS, N. 1051, Apto 05,",
-   "preco": 77983.66,
+   "preco": 75817.45,
    "valor_avaliacao": 148000.0,
-   "desconto": 47.31,
-   "financiamento": "Sim",
+   "desconto": 48.78,
+   "financiamento": "Não",
    "descricao": "Apartamento, 48.44 de área total, 45.83 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701270962",
    "tipo": "apartamento",
    "geo": {
@@ -3758,6 +3884,36 @@
    "geo_pendente": false
   },
   {
+   "id": "8787715208245",
+   "uf": "MG",
+   "cidade": "DIVINOPOLIS",
+   "bairro": "FAZENDA CACHOERINHA",
+   "endereco": "AVENIDA FRANCISCO JOSE PEDRO, N. 951, Apto 102, BL 20",
+   "preco": 166406.81,
+   "valor_avaliacao": 162000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 53.70 de área total, 53.70 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715208245",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8787717900855",
+   "uf": "MG",
+   "cidade": "DIVINOPOLIS",
+   "bairro": "CHACARA SANTA RITA",
+   "endereco": "RUA FRANCISCO JOSE PEDRO, N. 951, Apto 302, BL 07",
+   "preco": 178596.92,
+   "valor_avaliacao": 162000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 45.59 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717900855",
+   "tipo": "apartamento"
+  },
+  {
    "id": "10316740",
    "uf": "MG",
    "cidade": "ENTRE RIOS DE MINAS",
@@ -4010,27 +4166,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787707500188",
-   "uf": "MG",
-   "cidade": "ESMERALDAS",
-   "bairro": "SAO PEDRO",
-   "endereco": "RUA JOAO GUIMARAES ROSA, N. 1151, Apto 402, BL 07 4 PAV LT 08A QD 37",
-   "preco": 75305.5,
-   "valor_avaliacao": 130000.0,
-   "desconto": 42.08,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 60.08 de área total, 44.70 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707500188",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7734918,
-    "lng": -44.1526332
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444403794227",
    "uf": "MG",
    "cidade": "ESMERALDAS",
@@ -4153,27 +4288,6 @@
     "fonte": "google",
     "lat": -19.7786028,
     "lng": -44.1765248
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444419326309",
-   "uf": "MG",
-   "cidade": "ESMERALDAS",
-   "bairro": "DUMAVILLE",
-   "endereco": "AVENIDA UM, N. 1700, CASA 10",
-   "preco": 111816.5,
-   "valor_avaliacao": 185000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Casa, 200.87 de área total, 62.08 de área privativa, 200.87 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419326309",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.8058758,
-    "lng": -44.3131605
    },
    "geo_pendente": false
   },
@@ -4629,7 +4743,7 @@
    "desconto": 41.91,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 237.62 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423185455",
    "tipo": "terreno",
    "geo": {
@@ -4659,6 +4773,36 @@
     "lng": -44.041335
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444429481498",
+   "uf": "MG",
+   "cidade": "FELIXLANDIA",
+   "bairro": "CURVELO",
+   "endereco": "RUA IPÊ AMARELO, N. SN, QD 05 LT 16",
+   "preco": 134205.2,
+   "valor_avaliacao": 50000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 210.95 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429481498",
+   "tipo": "terreno"
+  },
+  {
+   "id": "8555504446080",
+   "uf": "MG",
+   "cidade": "FRUTAL",
+   "bairro": "IPE AMARELO",
+   "endereco": "RUA ELEUSA BANDEIRA DA SILVA (ANTIGA RUA 02), N. 221, LT 26 QD 616",
+   "preco": 95986.21,
+   "valor_avaliacao": 262000.0,
+   "desconto": 63.37,
+   "financiamento": "Não",
+   "descricao": "Casa, 113.89 de área total, 32.25 de área privativa, 180.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555504446080",
+   "tipo": "casa"
   },
   {
    "id": "8444421360160",
@@ -4692,7 +4836,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Casa, 139.85 de área total, 139.85 de área privativa, 182.66 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444423997788",
    "tipo": "casa",
    "geo": {
@@ -4741,27 +4885,6 @@
     "fonte": "google",
     "lat": -20.0426279,
     "lng": -48.9329141
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787707523552",
-   "uf": "MG",
-   "cidade": "GOVERNADOR VALADARES",
-   "bairro": "SAO RAIMUNDO",
-   "endereco": "RUA TURMALINA, N. SN, Apto 204, BL 09",
-   "preco": 136115.28,
-   "valor_avaliacao": 247000.0,
-   "desconto": 44.9,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 68.63 de área total, 42.90 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707523552",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.8976077,
-    "lng": -41.9551737
    },
    "geo_pendente": false
   },
@@ -5081,6 +5204,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444415527328",
+   "uf": "MG",
+   "cidade": "IBIRITE",
+   "bairro": "QUINTAS DA JANGADA - 2A SECAO",
+   "endereco": "ALAMEDA DO ITABIRITO, N. SN, CHAC 15A QD 02",
+   "preco": 182909.2,
+   "valor_avaliacao": 412000.0,
+   "desconto": 55.61,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1198.50 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415527328",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.0223577,
+    "lng": -44.1013383
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444419556215",
    "uf": "MG",
    "cidade": "IBIRITE",
@@ -5142,6 +5286,21 @@
     "lng": -44.05346919999999
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555538882100",
+   "uf": "MG",
+   "cidade": "IBIRITE",
+   "bairro": "BARREIRINHO",
+   "endereco": "AVENIDA JOAO EVANGELISTA GROSSI, N. 600, Apto 404, BL 10",
+   "preco": 190000.0,
+   "valor_avaliacao": 167000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 82.68 de área total, 43.39 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555538882100",
+   "tipo": "apartamento"
   },
   {
    "id": "1444405778956",
@@ -5310,6 +5469,21 @@
     "lng": -42.5810421
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444418763979",
+   "uf": "MG",
+   "cidade": "IPATINGA",
+   "bairro": "CIDADE NOBRE",
+   "endereco": "RUA VISCONDE DE MAUA, N. 51, Apto 101,",
+   "preco": 800000.0,
+   "valor_avaliacao": 800000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 290.54 de área total, 202.65 de área privativa, 0.00 de área do terreno,  4 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418763979",
+   "tipo": "apartamento"
   },
   {
    "id": "8787704710165",
@@ -5648,6 +5822,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444439568340",
+   "uf": "MG",
+   "cidade": "ITUIUTABA",
+   "bairro": "NOVA ITUIUTABA I",
+   "endereco": "AVENIDA SENADOR ELISEU REZENDE, N. 1294, LT 41 QD 06",
+   "preco": 213065.8,
+   "valor_avaliacao": 213000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 52.98 de área total, 52.98 de área privativa, 238.08 de área do terreno,  2 qto(s), a.serv, WC, cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444439568340",
+   "tipo": "casa"
+  },
+  {
    "id": "8444434975886",
    "uf": "MG",
    "cidade": "ITUIUTABA",
@@ -5816,27 +6005,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444406472117",
-   "uf": "MG",
-   "cidade": "JABOTICATUBAS",
-   "bairro": "UNIDADE TENIS",
-   "endereco": "LT 10, N. 10, QD 11",
-   "preco": 37601.58,
-   "valor_avaliacao": 110000.0,
-   "desconto": 65.82,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.01 de área privativa, 1055.44 de área do terreno.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406472117",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.5221099,
-    "lng": -43.74543269999999
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444405045479",
    "uf": "MG",
    "cidade": "JABOTICATUBAS",
@@ -5973,7 +6141,7 @@
    "desconto": 40.47,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1000.50 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444403533883",
    "tipo": "terreno",
    "geo": {
@@ -6031,12 +6199,12 @@
    "cidade": "JANUARIA",
    "bairro": "LOTEAMENTO LIBERDADE",
    "endereco": "RUA B, N. S/N, QD-G, LT47",
-   "preco": 93185.49,
+   "preco": 90666.97,
    "valor_avaliacao": 170000.0,
-   "desconto": 45.19,
-   "financiamento": "Sim",
+   "desconto": 46.67,
+   "financiamento": "Não",
    "descricao": "Casa, 51.39 de área total, 51.39 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537742924",
    "tipo": "casa",
    "geo": {
@@ -6421,27 +6589,6 @@
     "fonte": "google",
     "lat": -21.7131063,
     "lng": -43.42706279999999
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787719524583",
-   "uf": "MG",
-   "cidade": "JUIZ DE FORA",
-   "bairro": "JOQUEI CLUBE",
-   "endereco": "RUA EUCHERIO RODRIGUES, N. 700, Apto 401, BL 01",
-   "preco": 99674.41,
-   "valor_avaliacao": 168200.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 46.00 de área total, 68.34 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719524583",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.7259844,
-    "lng": -43.3960488
    },
    "geo_pendente": false
   },
@@ -7086,7 +7233,7 @@
    "desconto": 42.39,
    "financiamento": "Não",
    "descricao": "Casa, 87.99 de área total, 87.99 de área privativa, 322.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411195302",
    "tipo": "casa",
    "geo": {
@@ -7128,7 +7275,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 50.00 de área total, 50.00 de área privativa, 207.29 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427298289",
    "tipo": "casa",
    "geo": {
@@ -7492,27 +7639,6 @@
     "fonte": "google",
     "lat": -16.7336911,
     "lng": -43.83191100000001
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444424343569",
-   "uf": "MG",
-   "cidade": "MONTES CLAROS",
-   "bairro": "LOTEAMENTO NOVO JARAGUA",
-   "endereco": "RUA H, N. 65A, CASA B LT 06 QD 19",
-   "preco": 120882.7,
-   "valor_avaliacao": 200000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Casa, 56.47 de área total, 56.47 de área privativa, 140.44 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424343569",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -16.6756698,
-    "lng": -43.8249468
    },
    "geo_pendente": false
   },
@@ -8446,12 +8572,12 @@
    "cidade": "PIRAUBA",
    "bairro": "PIRAUBINHA",
    "endereco": "RUA JOSE GASPAR, N. SN, LT 07 QD E",
-   "preco": 86830.5,
+   "preco": 84483.73,
    "valor_avaliacao": 165884.8,
-   "desconto": 47.66,
-   "financiamento": "Sim",
+   "desconto": 49.08,
+   "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 57.75 de área privativa, 200.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413634729",
    "tipo": "casa",
    "geo": {
@@ -8693,27 +8819,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444422970051",
-   "uf": "MG",
-   "cidade": "POUSO ALEGRE",
-   "bairro": "PARQUE REAL",
-   "endereco": "RUA MAJOR SEBASTIAO MARTINS, N. 75, Apto 301, 3 PAV LT 07 QD Q1",
-   "preco": 126926.84,
-   "valor_avaliacao": 210000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 87.67 de área total, 53.44 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422970051",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -22.2904535,
-    "lng": -45.9222584
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787715767171",
    "uf": "MG",
    "cidade": "POUSO ALEGRE",
@@ -8798,6 +8903,36 @@
    "geo_pendente": false
   },
   {
+   "id": "8787716249042",
+   "uf": "MG",
+   "cidade": "POUSO ALEGRE",
+   "bairro": "RESIDENCIAL SANTA ADELIA",
+   "endereco": "RUA MADALENA PRADO OLIVEIRA, N. 140, Apto 601, TR 04",
+   "preco": 220000.0,
+   "valor_avaliacao": 168000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 115.63 de área total, 49.03 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716249042",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8444435257081",
+   "uf": "MG",
+   "cidade": "PRATA",
+   "bairro": "CENTRO",
+   "endereco": "RUA JOSE LOPES, N. 151, LT 03 QD M",
+   "preco": 190535.47,
+   "valor_avaliacao": 178000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 56.02 de área total, 56.02 de área privativa, 204.75 de área do terreno,  2 qto(s), a.serv, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435257081",
+   "tipo": "casa"
+  },
+  {
    "id": "8444414850212",
    "uf": "MG",
    "cidade": "PRATAPOLIS",
@@ -8836,6 +8971,48 @@
     "fonte": "google",
     "lat": -20.7439106,
     "lng": -46.8604236
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444408979195",
+   "uf": "MG",
+   "cidade": "PRESIDENTE OLEGARIO",
+   "bairro": "SALTADOR",
+   "endereco": "AVENIDA SÃO TIAGO, N. 235, LT 134 ST 05 QD 102",
+   "preco": 123753.66,
+   "valor_avaliacao": 210000.0,
+   "desconto": 41.07,
+   "financiamento": "Não",
+   "descricao": "Casa, 91.07 de área total, 59.50 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408979195",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -18.4225626,
+    "lng": -46.407763
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555517661694",
+   "uf": "MG",
+   "cidade": "PRESIDENTE OLEGARIO",
+   "bairro": "SALTADOR",
+   "endereco": "RUA PIMPIM MOREIRA, N. SN, LOTE 02, QUADRA 103, SETOR 05",
+   "preco": 98816.7,
+   "valor_avaliacao": 160000.0,
+   "desconto": 38.24,
+   "financiamento": "Não",
+   "descricao": "Casa, 101.11 de área total, 46.61 de área privativa, 150.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555517661694",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -18.4223796,
+    "lng": -46.4123533
    },
    "geo_pendente": false
   },
@@ -9018,7 +9195,7 @@
    "desconto": 47.06,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 604.25 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10196268",
    "tipo": "terreno",
    "geo": {
@@ -9088,48 +9265,6 @@
     "fonte": "google",
     "lat": -19.7688528,
     "lng": -44.09408550000001
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444409742130",
-   "uf": "MG",
-   "cidade": "RIBEIRAO DAS NEVES",
-   "bairro": "BOM SOSSEGO",
-   "endereco": "RUA CAMILO ALVES DE LIMA, N. 347, Apto 207, QUADRA 12 LOTE 11",
-   "preco": 87819.45,
-   "valor_avaliacao": 150000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 62.14 de área total, 45.20 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409742130",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7619462,
-    "lng": -44.0730845
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787708873220",
-   "uf": "MG",
-   "cidade": "RIBEIRAO DAS NEVES",
-   "bairro": "PIABAS JUSTINOPOLIS",
-   "endereco": "RUA JOSE MARIA DE MENEZES, N. 20, Apto 103, BL 03 VG 41PNE",
-   "preco": 106074.43,
-   "valor_avaliacao": 179000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 127.12 de área total, 54.02 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708873220",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7868914,
-    "lng": -44.0212283
    },
    "geo_pendente": false
   },
@@ -9260,27 +9395,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444413957277",
-   "uf": "MG",
-   "cidade": "RIBEIRAO DAS NEVES",
-   "bairro": "GIRASSOL (JUSTINOPOLIS)",
-   "endereco": "RUA VINHATICO, N. 121, Apto 201, VG 02 LOTE 09 QUADRA 13",
-   "preco": 94815.14,
-   "valor_avaliacao": 160000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 71.70 de área total, 46.34 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413957277",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.773696,
-    "lng": -44.0178664
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444421554232",
    "uf": "MG",
    "cidade": "RIBEIRAO DAS NEVES",
@@ -9312,7 +9426,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 60.93 de área total, 60.93 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701528706",
    "tipo": "apartamento",
    "geo": {
@@ -10803,7 +10917,7 @@
    "desconto": 38.96,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 220.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10299182",
    "tipo": "terreno",
    "geo": {
@@ -10852,27 +10966,6 @@
     "fonte": "google",
     "lat": -19.4686133,
     "lng": -42.5050221
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444422639110",
-   "uf": "MG",
-   "cidade": "SAO GERALDO",
-   "bairro": "AVELINO CARDOSO",
-   "endereco": "RUA JOSE VICO, N. 131, QUADRA 03 LOTE 13",
-   "preco": 223060.01,
-   "valor_avaliacao": 350000.0,
-   "desconto": 36.27,
-   "financiamento": "Não",
-   "descricao": "Casa, 157.10 de área total, 157.10 de área privativa, 250.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444422639110",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.922124,
-    "lng": -42.826912
    },
    "geo_pendente": false
   },
@@ -11066,27 +11159,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444410348369",
-   "uf": "MG",
-   "cidade": "SAO JOAQUIM DE BICAS",
-   "bairro": "PLANALTO",
-   "endereco": "RUA DOIS, N. 268, CASA 03 QUADRA 03 LOTE 01",
-   "preco": 81964.82,
-   "valor_avaliacao": 140000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Casa, 119.98 de área total, 46.00 de área privativa, 119.98 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410348369",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.0586039,
-    "lng": -44.28153229999999
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555508811530",
    "uf": "MG",
    "cidade": "SAO JOAQUIM DE BICAS",
@@ -11106,6 +11178,21 @@
     "lng": -44.28239019999999
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444405598905",
+   "uf": "MG",
+   "cidade": "SAO JOSE DA LAPA",
+   "bairro": "BELO VALE",
+   "endereco": "RUA PATRICIA MARTINS CARDOSO, N. 297, Apto 102, LT 26 LT 27 QD 05 VG 08",
+   "preco": 230000.0,
+   "valor_avaliacao": 230000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 80.17 de área total, 65.28 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405598905",
+   "tipo": "apartamento"
   },
   {
    "id": "8444410582035",
@@ -11255,27 +11342,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555529578673",
-   "uf": "MG",
-   "cidade": "SETE LAGOAS",
-   "bairro": "BOQUEIRAO",
-   "endereco": "AVENIDA JAIME RODRIGUES BRANCO, N. 451, Apto 302, BL 06",
-   "preco": 81964.82,
-   "valor_avaliacao": 140000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 89.33 de área total, 44.92 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555529578673",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.4782746,
-    "lng": -44.2774927
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555538152888",
    "uf": "MG",
    "cidade": "SETE LAGOAS",
@@ -11293,27 +11359,6 @@
     "fonte": "google",
     "lat": -19.4357659,
     "lng": -44.2401948
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444421371316",
-   "uf": "MG",
-   "cidade": "SETE LAGOAS",
-   "bairro": "ITAPOA",
-   "endereco": "RUA ACAUA, N. 34-B, UNIDADE 03 QUADRA 08 LOTE13",
-   "preco": 90746.77,
-   "valor_avaliacao": 155000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Casa, 74.94 de área total, 64.94 de área privativa, 136.39 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421371316",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.4682748,
-    "lng": -44.20150599999999
    },
    "geo_pendente": false
   },
@@ -11570,6 +11615,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787714510037",
+   "uf": "MG",
+   "cidade": "TRES CORACOES",
+   "bairro": "RESIDENCIAL DHARMA",
+   "endereco": "RUA CAPITAO MUSA ANTIGA RUA PROJETADA SETE, N. 166, Apto 402, BL 03",
+   "preco": 190000.0,
+   "valor_avaliacao": 190000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 99.34 de área total, 44.96 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714510037",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787715573164",
    "uf": "MG",
    "cidade": "TRES CORACOES",
@@ -11806,13 +11866,34 @@
    "cidade": "UBERABA",
    "bairro": "RECREIO DOS BANDEIRANTES",
    "endereco": "RUA ALVARO JACINTO DA CRUZ, N. 471, Apto 203, BL 18 VG 283",
+   "preco": 101178.81,
+   "valor_avaliacao": 186000.0,
+   "desconto": 45.61,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 58.19 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712719745",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -19.7828154,
+    "lng": -47.9398596
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787712411422",
+   "uf": "MG",
+   "cidade": "UBERABA",
+   "bairro": "RECREIO DOS BANDEIRANTES",
+   "endereco": "RUA ALVARO JACINTO DA CRUZ, N. 471, Apto 302, BL 12 VG 190",
    "preco": 103989.34,
    "valor_avaliacao": 186000.0,
    "desconto": 44.1,
-   "financiamento": "Sim",
+   "financiamento": "Não",
    "descricao": "Apartamento, 58.19 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712719745",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712411422",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -12095,27 +12176,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787712411422",
-   "uf": "MG",
-   "cidade": "UBERABA",
-   "bairro": "RECREIO DOS BANDEIRANTES",
-   "endereco": "RUA ALVARO JACINTO DA CRUZ, N. 471, Apto 302, BL 12 VG 190",
-   "preco": 106799.86,
-   "valor_avaliacao": 186000.0,
-   "desconto": 42.59,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 58.19 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712411422",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7828154,
-    "lng": -47.9398596
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787712315024",
    "uf": "MG",
    "cidade": "UBERABA",
@@ -12284,27 +12344,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555538955425",
-   "uf": "MG",
-   "cidade": "UBERABA",
-   "bairro": "RECREIO DOS BANDEIRANTES",
-   "endereco": "RUA ABÍLIO MONTEIRO, N. 454, Apto 103, BLOCO 01 VG 03",
-   "preco": 84306.67,
-   "valor_avaliacao": 144000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 90.77 de área total, 44.07 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555538955425",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7819115,
-    "lng": -47.93977719999999
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444433733030",
    "uf": "MG",
    "cidade": "UBERABA",
@@ -12347,48 +12386,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787712940999",
-   "uf": "MG",
-   "cidade": "UBERABA",
-   "bairro": "FABRICIO",
-   "endereco": "AVENIDA PEDRO LUCAS, N. 601, Apto 401, BL 23 4 PAV VG 309 CH TRIANGULO",
-   "preco": 90746.77,
-   "valor_avaliacao": 155000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 60.83 de área total, 42.90 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712940999",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7185737,
-    "lng": -47.9420928
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787717201450",
-   "uf": "MG",
-   "cidade": "UBERABA",
-   "bairro": "SANTA MARIA",
-   "endereco": "RUA HONORIO PIRES FRANÇA, N. 601, Apto 21, BL A TORRE 3 1 PAV VG 132",
-   "preco": 90746.77,
-   "valor_avaliacao": 155000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 83.60 de área total, 41.97 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717201450",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7528237,
-    "lng": -47.905948
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444434994910",
    "uf": "MG",
    "cidade": "UBERABA",
@@ -12422,6 +12419,27 @@
    "descricao": "Apartamento, 57.06 de área total, 40.57 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714426494",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -19.7902026,
+    "lng": -47.9109863
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787714993119",
+   "uf": "MG",
+   "cidade": "UBERABA",
+   "bairro": "CONJUNTO CHICA FERREIRA",
+   "endereco": "RUA DONA CECILIA BORGES PAULUK, N. 70, Apto 103, BL 01 VG 03-PNE",
+   "preco": 121396.45,
+   "valor_avaliacao": 206000.0,
+   "desconto": 41.07,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 86.30 de área total, 63.98 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714993119",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -12620,27 +12638,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787718862280",
-   "uf": "MG",
-   "cidade": "UBERABA",
-   "bairro": "LOURDES",
-   "endereco": "AVENIDA NIZA MARQUEZ GUARITA, N. 780, Apto 608, TORRE II VG 90",
-   "preco": 106667.03,
-   "valor_avaliacao": 180000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 81.39 de área total, 45.18 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718862280",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7585508,
-    "lng": -47.8971828
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444437208673",
    "uf": "MG",
    "cidade": "UBERABA",
@@ -12788,27 +12785,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444422559564",
-   "uf": "MG",
-   "cidade": "UBERABA",
-   "bairro": "LOTEAMENTO ANTONIO CAIADO",
-   "endereco": "RUA MARIA APARECIDA DIAS, N. 56, LT 14 QD R",
-   "preco": 106667.03,
-   "valor_avaliacao": 180000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Casa, 51.60 de área total, 51.60 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422559564",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.795694,
-    "lng": -47.9239419
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444429361735",
    "uf": "MG",
    "cidade": "UBERABA",
@@ -12935,27 +12911,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787717778049",
-   "uf": "MG",
-   "cidade": "UBERABA",
-   "bairro": "VILA ARQUELAU",
-   "endereco": "RUA OUTONO, N. 250, Apto 404, BLOCO 16 VG 192",
-   "preco": 117860.63,
-   "valor_avaliacao": 195000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 78.07 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717778049",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7205699,
-    "lng": -47.9134204
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787712312440",
    "uf": "MG",
    "cidade": "UBERABA",
@@ -12989,27 +12944,6 @@
    "descricao": "Apartamento, 68.31 de área total, 51.34 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712620315",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7902026,
-    "lng": -47.9109863
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787714993119",
-   "uf": "MG",
-   "cidade": "UBERABA",
-   "bairro": "CONJUNTO CHICA FERREIRA",
-   "endereco": "RUA DONA CECILIA BORGES PAULUK, N. 70, Apto 103, BL 01 VG 03-PNE",
-   "preco": 124509.18,
-   "valor_avaliacao": 206000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 86.30 de área total, 63.98 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714993119",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -13078,27 +13012,6 @@
     "fonte": "google",
     "lat": -19.7922656,
     "lng": -47.90364659999999
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787715022460",
-   "uf": "MG",
-   "cidade": "UBERABA",
-   "bairro": "DESMEMBRAMENTO UNIAO DA MOCIDADE ESPIRIT",
-   "endereco": "AVENIDA ODAIR RODRIGUES VILELA, N. 295, Apto 1106, TORRE I VG 169",
-   "preco": 144810.01,
-   "valor_avaliacao": 236500.0,
-   "desconto": 38.77,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 77.83 de área total, 45.18 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715022460",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.7473816,
-    "lng": -47.9206182
    },
    "geo_pendente": false
   },
@@ -13355,6 +13268,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787711643427",
+   "uf": "MG",
+   "cidade": "UBERABA",
+   "bairro": "VALLIM",
+   "endereco": "RUA DONA CECILIA BORGES PAULUK, N. 70, Apto 203, BL 24",
+   "preco": 155000.0,
+   "valor_avaliacao": 155000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 57.06 de área total, 40.57 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711643427",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787712193581",
    "uf": "MG",
    "cidade": "UBERABA",
@@ -13479,6 +13407,21 @@
     "lng": -47.8873884
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787716556778",
+   "uf": "MG",
+   "cidade": "UBERABA",
+   "bairro": "BAIRRO PARAÍSO",
+   "endereco": "AVENIDA ODAIR RODRIGUES VILELA, N. 295, Apto 102, TR II VG 341",
+   "preco": 221000.0,
+   "valor_avaliacao": 221000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 77.83 de área total, 45.18 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716556778",
+   "tipo": "apartamento"
   },
   {
    "id": "8787713424404",
@@ -13626,6 +13569,21 @@
     "lng": -47.9057872
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10008484",
+   "uf": "MG",
+   "cidade": "UBERABA",
+   "bairro": "JARDIM ELZA AMUI I",
+   "endereco": "AVENIDA PROFESSORA MARIA DA PAZ BARCELOS DE ALME, N. 535, QD 14, LT 14",
+   "preco": 260000.0,
+   "valor_avaliacao": 260000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 119.50 de área privativa, 250.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10008484",
+   "tipo": "casa"
   },
   {
    "id": "8787712075520",
@@ -14132,6 +14090,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444430612240",
+   "uf": "MG",
+   "cidade": "UBERLANDIA",
+   "bairro": "MORUMBI",
+   "endereco": "AVENIDA JOSE MARIA RIBEIRO, N. 900, Apto 401, BL02",
+   "preco": 86648.52,
+   "valor_avaliacao": 148000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 64.34 de área total, 47.31 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430612240",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444431924440",
    "uf": "MG",
    "cidade": "UBERLANDIA",
@@ -14149,27 +14122,6 @@
     "fonte": "google",
     "lat": -18.987025,
     "lng": -48.263465
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555533707830",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "SHOPPING PARK",
-   "endereco": "RUA LUZIA NEVES FLECK, N. 150, Apto 203, BLOCO 26",
-   "preco": 87819.45,
-   "valor_avaliacao": 150000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 61.52 de área total, 43.90 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533707830",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.9715361,
-    "lng": -48.27424420000001
    },
    "geo_pendente": false
   },
@@ -14249,27 +14201,6 @@
    "descricao": "Apartamento, 87.27 de área total, 41.97 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716287998",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.9718649,
-    "lng": -48.3878227
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787717036964",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "LOTEAMENTO RESIDENCIAL PEQUIS",
-   "endereco": "RUA DO TAPITI, N. 1157, Apto 11, BLOCO D TORRE 01",
-   "preco": 83721.21,
-   "valor_avaliacao": 143000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 87.27 de área total, 41.97 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717036964",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -14447,48 +14378,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787711173498",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "MORUMBI",
-   "endereco": "RUA CARNAUBA, N. 160, Apto 02, BLOCO B VG 21",
-   "preco": 106667.03,
-   "valor_avaliacao": 180000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 126.51 de área total, 55.82 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711173498",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.915457,
-    "lng": -48.1779564
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555522148363",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "CHACARAS TUBALINA E QUARTEL",
-   "endereco": "RUA FRANCISCO RODRIGUES SERRALHA, N. 350, Apto 303, BL 06 VAGA 168 LT 01 QD 01",
-   "preco": 100741.08,
-   "valor_avaliacao": 170000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 61.00 de área total, 43.61 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555522148363",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.9266994,
-    "lng": -48.3151166
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787711335781",
    "uf": "MG",
    "cidade": "UBERLANDIA",
@@ -14541,7 +14430,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 63.14 de área total, 47.31 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711524860",
    "tipo": "apartamento",
    "geo": {
@@ -14573,27 +14462,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787715771160",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "LOTEAMENTO RESIDENCIAL PEQUIS",
-   "endereco": "RUA DO TAPITI, N. 1157, Apto 22, BLOCO A TORRE 02 VG 146",
-   "preco": 103704.06,
-   "valor_avaliacao": 175000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 87.27 de área total, 41.97 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715771160",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.9718649,
-    "lng": -48.3878227
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787716311732",
    "uf": "MG",
    "cidade": "UBERLANDIA",
@@ -14611,69 +14479,6 @@
     "fonte": "google",
     "lat": -18.9718649,
     "lng": -48.3878227
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787719243363",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "LOTEAMENTO RESIDENCIAL PEQUIS",
-   "endereco": "RUA DO TAPITI, N. 1157, Apto 23, BLOCO C TORRE 04",
-   "preco": 103704.06,
-   "valor_avaliacao": 175000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 87.27 de área total, 41.97 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719243363",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.9718649,
-    "lng": -48.3878227
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787720883265",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "LOTEAMENTO RESIDENCIAL PEQUIS",
-   "endereco": "RUA DO TAPITI, N. 1157, Apto 34, BLOCO C TORRE 3 VG 191",
-   "preco": 107852.22,
-   "valor_avaliacao": 182000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 87.27 de área total, 41.97 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720883265",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.9718649,
-    "lng": -48.3878227
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787708016964",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "GRAND VILLE",
-   "endereco": "RUA HARPIA, N. 40, Apto 401, BLOCO 11",
-   "preco": 93037.35,
-   "valor_avaliacao": 157000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 56.96 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708016964",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.9093099,
-    "lng": -48.21445780000001
    },
    "geo_pendente": false
   },
@@ -14720,48 +14525,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787707349641",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "SHOPPING PARK",
-   "endereco": "RUA PROFESSORA MARIA CELIA CENCE, N. 160, Apto 303, QD 04 BL 57 LT 01",
-   "preco": 114838.57,
-   "valor_avaliacao": 190000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 58.28 de área total, 41.14 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707349641",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.9662918,
-    "lng": -48.2795583
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787706572436",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "LARANJEIRAS",
-   "endereco": "RUA PLANALTO DA BORBOREMA, N. 1703, Apto 207, BLOCO 02 VG 34",
-   "preco": 126926.84,
-   "valor_avaliacao": 210000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 70.07 de área total, 51.61 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706572436",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.9697628,
-    "lng": -48.2329331
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787712368250",
    "uf": "MG",
    "cidade": "UBERLANDIA",
@@ -14779,27 +14542,6 @@
     "fonte": "google",
     "lat": -18.9201178,
     "lng": -48.1978972
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787713276308",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "GAVEA",
-   "endereco": "AVENIDA NICOMEDES ALVES DOS SANTOS, N. 6711, Apto 803, TORRE 01 VG 59",
-   "preco": 128740.08,
-   "valor_avaliacao": 213000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 78.98 de área total, 41.71 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713276308",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.9709556,
-    "lng": -48.2734252
    },
    "geo_pendente": false
   },
@@ -14905,27 +14647,6 @@
     "fonte": "google",
     "lat": -18.948931,
     "lng": -48.3189352
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1787702314671",
-   "uf": "MG",
-   "cidade": "UBERLANDIA",
-   "bairro": "SHOPPING PARK",
-   "endereco": "AVENIDA NICOMEDES ALVES DOS SANTOS, N. 6611, Apto 1202, TORRE 3 VG 130",
-   "preco": 137528.99,
-   "valor_avaliacao": 218500.0,
-   "desconto": 37.06,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 89.32 de área total, 44.13 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702314671",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -18.9703636,
-    "lng": -48.2733857
    },
    "geo_pendente": false
   },
@@ -15875,6 +15596,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787723772219",
+   "uf": "MG",
+   "cidade": "UBERLANDIA",
+   "bairro": "JARDIM HOLANDA",
+   "endereco": "ALAMEDA JOSE DE OLIVEIRA GUIMARAES, N. 50, Apto 106, BL A VG 88",
+   "preco": 282817.81,
+   "valor_avaliacao": 281000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 111.63 de área total, 55.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787723772219",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787716670759",
    "uf": "MG",
    "cidade": "UBERLANDIA",
@@ -16442,6 +16178,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787721799071",
+   "uf": "MG",
+   "cidade": "UBERLANDIA",
+   "bairro": "GAVEA",
+   "endereco": "AVENIDA NICOMEDES ALVES DOS SANTOS, N. 6711, Apto 206, VG 300 TR 03",
+   "preco": 218853.56,
+   "valor_avaliacao": 198000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 66.92 de área total, 41.71 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787721799071",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787718562015",
    "uf": "MG",
    "cidade": "UBERLANDIA",
@@ -16862,6 +16613,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8444436439760",
+   "uf": "MG",
+   "cidade": "UBERLANDIA",
+   "bairro": "MANSOUR",
+   "endereco": "RUA LUCIA FONSECA ATTIE, N. 51, Apto 201, BL 04 LT 05",
+   "preco": 142813.03,
+   "valor_avaliacao": 115000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 90.91 de área total, 43.42 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436439760",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8787723579621",
    "uf": "MG",
    "cidade": "UBERLANDIA",
@@ -17261,48 +17027,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787701184233",
-   "uf": "MG",
-   "cidade": "VARGINHA",
-   "bairro": "SAGRADO CORACAO",
-   "endereco": "RUA FUTURA, N. 30, Apto 303, TORRE 20",
-   "preco": 100741.08,
-   "valor_avaliacao": 170000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 118.94 de área total, 49.82 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701184233",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.5471042,
-    "lng": -45.4068385
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444423022920",
-   "uf": "MG",
-   "cidade": "VARGINHA",
-   "bairro": "JARDIM BOUGANVILLE",
-   "endereco": "AVENIDA SERGIO DE BIAGI BUENO, N. 579, Apto 202, LOTE 11 QUADRA H",
-   "preco": 93629.95,
-   "valor_avaliacao": 158000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 53.50 de área total, 48.00 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423022920",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.5598104,
-    "lng": -45.4667436
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555532940183",
    "uf": "MG",
    "cidade": "VARGINHA",
@@ -17406,6 +17130,21 @@
     "lng": -45.406175
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444421396175",
+   "uf": "MG",
+   "cidade": "VARGINHA",
+   "bairro": "TREVISO",
+   "endereco": "RUA EDITH ALVES VILELA, N. 75,  LT 26  QD N",
+   "preco": 970000.0,
+   "valor_avaliacao": 970000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 194.26 de área total, 194.26 de área privativa, 231.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421396175",
+   "tipo": "casa"
   },
   {
    "id": "8787720216129",
@@ -17677,27 +17416,6 @@
     "fonte": "google",
     "lat": -19.7697828,
     "lng": -43.9657655
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787704037401",
-   "uf": "MG",
-   "cidade": "VESPASIANO",
-   "bairro": "CENTRAL PARK",
-   "endereco": "RUA MARIA ALVARENGA MAGALHAES, N. 370, Apto 502, BLOCO 02 VG 49",
-   "preco": 117860.63,
-   "valor_avaliacao": 195000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 106.77 de área total, 45.99 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704037401",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -19.6837308,
-    "lng": -43.9157354
    },
    "geo_pendente": false
   },
