@@ -1,9 +1,9 @@
 {
  "uf": "RO",
- "data_geracao_caixa": "09/11/2026",
- "coletado_em": "10/11/2026 00:25",
+ "data_geracao_caixa": "10/11/2026",
+ "coletado_em": "10/11/2026 23:41",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_RO.csv",
- "total": 31,
+ "total": 29,
  "colunas": [
   "id",
   "uf",
@@ -181,9 +181,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415484750",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -11.4379138,
-    "lng": -61.4829917,
-    "fonte": "google"
+    "lng": -61.4829917
    },
    "geo_pendente": false
   },
@@ -219,7 +219,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 60.10 de área privativa, 165.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444432936689",
    "tipo": "casa",
    "geo": {
@@ -419,27 +419,6 @@
    "geo_pendente": false
   },
   {
-   "id": "10202885",
-   "uf": "RO",
-   "cidade": "OURO PRETO DO OESTE",
-   "bairro": "CENTRO",
-   "endereco": "RUA JOÃO WESLEY (ANTIGA MARGINAL IGARAPÉ), N. 00, ST 01, QD 31, LT 375",
-   "preco": 148497.74,
-   "valor_avaliacao": 470000.0,
-   "desconto": 68.41,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 7273.85 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10202885",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.7209164,
-    "lng": -62.2559803
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "10012278",
    "uf": "RO",
    "cidade": "PORTO VELHO",
@@ -499,27 +478,6 @@
     "fonte": "google",
     "lat": -8.7581036,
     "lng": -63.8662622
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444417460662",
-   "uf": "RO",
-   "cidade": "PORTO VELHO",
-   "bairro": "LAGOINHA",
-   "endereco": "RUA BENEDITO INOCENCIO, N. 6063, LT 11 QD W",
-   "preco": 292782.36,
-   "valor_avaliacao": 548000.0,
-   "desconto": 46.58,
-   "financiamento": "Sim",
-   "descricao": "Casa, 0.00 de área total, 268.03 de área privativa, 300.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417460662",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.7716069,
-    "lng": -63.8562335
    },
    "geo_pendente": false
   },
@@ -601,9 +559,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406163394",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -8.754902699999999,
-    "lng": -63.8527769,
-    "fonte": "google"
+    "lng": -63.8527769
    },
    "geo_pendente": false
   },
