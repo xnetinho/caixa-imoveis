@@ -1,9 +1,9 @@
 {
  "uf": "MA",
- "data_geracao_caixa": "11/11/2026",
- "coletado_em": "11/11/2026 22:27",
+ "data_geracao_caixa": "12/11/2026",
+ "coletado_em": "13/11/2026 04:47",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_MA.csv",
- "total": 197,
+ "total": 191,
  "colunas": [
   "id",
   "uf",
@@ -286,9 +286,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427115290",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -4.2310701,
-    "lng": -44.780044,
-    "fonte": "google"
+    "lng": -44.780044
    },
    "geo_pendente": false
   },
@@ -314,6 +314,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787710535108",
+   "uf": "MA",
+   "cidade": "BACABEIRA",
+   "bairro": "NOVA BACABEIRA",
+   "endereco": "AVENIDA JAPÃO, N. 200, Apto 203, BLOCO 06",
+   "preco": 65921.81,
+   "valor_avaliacao": 115000.0,
+   "desconto": 42.68,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 57.00 de área total, 50.16 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710535108",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.9722383,
+    "lng": -44.3172034
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787720874215",
    "uf": "MA",
    "cidade": "BACABEIRA",
@@ -326,6 +347,27 @@
    "descricao": "Apartamento, 57.00 de área total, 50.16 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720874215",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.9722383,
+    "lng": -44.3172034
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716789837",
+   "uf": "MA",
+   "cidade": "BACABEIRA",
+   "bairro": "NOVA BACABEIRA",
+   "endereco": "AVENIDA JAPÃO, N. 200, Apto 304, BLOCO 01",
+   "preco": 73857.32,
+   "valor_avaliacao": 127500.0,
+   "desconto": 42.08,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 50.16 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716789837",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -492,7 +534,7 @@
    "desconto": 45.76,
    "financiamento": "Não",
    "descricao": "Casa, 192.52 de área total, 192.52 de área privativa, 1184.40 de área do terreno,  3 qto(s), a.serv, WC, 3 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416787404",
    "tipo": "casa",
    "geo": {
@@ -587,27 +629,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444431292826",
-   "uf": "MA",
-   "cidade": "CURURUPU",
-   "bairro": "AREIA BRANCA",
-   "endereco": "RUA ÉBANO, N. SN, QD 15 LT 01",
-   "preco": 94111.43,
-   "valor_avaliacao": 181500.0,
-   "desconto": 48.15,
-   "financiamento": "Não",
-   "descricao": "Casa, 65.45 de área total, 65.45 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431292826",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -1.8259902,
-    "lng": -44.873904
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444420091484",
    "uf": "MA",
    "cidade": "CURURUPU",
@@ -618,13 +639,34 @@
    "desconto": 47.66,
    "financiamento": "Não",
    "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 192.44 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420091484",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -1.8513177,
     "lng": -44.8674647
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444431292826",
+   "uf": "MA",
+   "cidade": "CURURUPU",
+   "bairro": "AREIA BRANCA",
+   "endereco": "RUA ÉBANO, N. SN, QD 15 LT 01",
+   "preco": 100139.47,
+   "valor_avaliacao": 181500.0,
+   "desconto": 44.83,
+   "financiamento": "Não",
+   "descricao": "Casa, 65.45 de área total, 65.45 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431292826",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -1.8259902,
+    "lng": -44.873904
    },
    "geo_pendente": false
   },
@@ -1147,9 +1189,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715196484",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -2.5455147,
-    "lng": -44.1640611,
-    "fonte": "google"
+    "lng": -44.1640611
    },
    "geo_pendente": false
   },
@@ -1280,6 +1322,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787715509482",
+   "uf": "MA",
+   "cidade": "RAPOSA",
+   "bairro": "CAÚRA",
+   "endereco": "RUA 2 - ESTRADA CAVU, N. SN, LOTE 36 QUADRA 07",
+   "preco": 122091.53,
+   "valor_avaliacao": 202000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 44.18 de área total, 41.81 de área privativa, 125.60 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715509482",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.446909,
+    "lng": -44.1239556
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787715791005",
    "uf": "MA",
    "cidade": "RAPOSA",
@@ -1374,7 +1437,7 @@
    "desconto": 45.06,
    "financiamento": "Sim",
    "descricao": "Casa, 152.60 de área total, 51.60 de área privativa, 116.53 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412642892",
    "tipo": "casa",
    "geo": {
@@ -1511,27 +1574,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444410816478",
-   "uf": "MA",
-   "cidade": "SAO JOSE DE RIBAMAR",
-   "bairro": "SITIO BOA VISTA",
-   "endereco": "RUA PROJETADA, N. 01, LT 08 A, QD 63",
-   "preco": 111906.15,
-   "valor_avaliacao": 318500.0,
-   "desconto": 64.87,
-   "financiamento": "Sim",
-   "descricao": "Casa, 0.00 de área total, 67.00 de área privativa, 145.00 de área do terreno,  2 qto(s), WC, 1 sala(s), 1 lavabo(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410816478",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.53813,
-    "lng": -44.1916087
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555531618830",
    "uf": "MA",
    "cidade": "SAO JOSE DE RIBAMAR",
@@ -1553,107 +1595,44 @@
    "geo_pendente": false
   },
   {
-   "id": "8787705874536",
+   "id": "8787705893018",
    "uf": "MA",
    "cidade": "SAO JOSE DE RIBAMAR",
-   "bairro": "PINDAY",
-   "endereco": "ESTRADA DE RIBAMAR / ESTRADA DA BOA VIAGEM, N. SN, CASA 045 QUADRA 02",
-   "preco": 78201.87,
-   "valor_avaliacao": 135000.0,
-   "desconto": 42.08,
+   "bairro": "PINDAI",
+   "endereco": "ESTRADA DE RIBAMAR / ESTRADA DA BOA VIAGEM, N. SN, CASA 049 QUADRA 11 RUA J AREA 01",
+   "preco": 106667.03,
+   "valor_avaliacao": 180000.0,
+   "desconto": 40.75,
    "financiamento": "Não",
-   "descricao": "Casa, 71.82 de área total, 48.59 de área privativa, 150.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705874536",
+   "descricao": "Casa, 71.82 de área total, 48.59 de área privativa, 150.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705893018",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -2.5502461,
-    "lng": -44.1225363
+    "lat": -2.5590781,
+    "lng": -44.1124361
    },
    "geo_pendente": false
   },
   {
-   "id": "8555530722987",
+   "id": "1555516574862",
    "uf": "MA",
    "cidade": "SAO JOSE DE RIBAMAR",
-   "bairro": "MIRITIUA",
-   "endereco": "RUA SANTA MARIA, N. 01, Apto 306, BLOCO 01 QUADRA C 3º PAVIMENTO",
-   "preco": 90161.3,
-   "valor_avaliacao": 154000.0,
-   "desconto": 41.46,
+   "bairro": "MAIOBINHA",
+   "endereco": "RUA DOS GIRASSOIS, N. SN, QUADRA F ÁREA MAIOR 30",
+   "preco": 152955.43,
+   "valor_avaliacao": 240000.0,
+   "desconto": 36.27,
    "financiamento": "Não",
-   "descricao": "Apartamento, 53.65 de área total, 45.72 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555530722987",
-   "tipo": "apartamento",
+   "descricao": "Casa, 88.76 de área total, 88.76 de área privativa, 200.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s).",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555516574862",
+   "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -2.5511683,
-    "lng": -44.0850928
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555531104853",
-   "uf": "MA",
-   "cidade": "SAO JOSE DE RIBAMAR",
-   "bairro": "RIO AMARO",
-   "endereco": "RUA DO RESIDENCIAL FRUTEIRAS E CIDADES, N. SN, Apto 203, BLOCO 12 2º PAVIMENTO",
-   "preco": 115230.04,
-   "valor_avaliacao": 190647.69,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 60.71 de área total, 55.92 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555531104853",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.4871098,
-    "lng": -44.1939145
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555537921110",
-   "uf": "MA",
-   "cidade": "SAO JOSE DE RIBAMAR",
-   "bairro": "MIRITIUA",
-   "endereco": "1A RUA NONATO MATOS, N. SN, Apto 402, BL06",
-   "preco": 129344.49,
-   "valor_avaliacao": 214000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 107.30 de área total, 50.62 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537921110",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.489949,
-    "lng": -44.1831666
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555530509574",
-   "uf": "MA",
-   "cidade": "SAO JOSE DE RIBAMAR",
-   "bairro": "RIO AMARO",
-   "endereco": "RUA DO RESIDENCIAL FRUTEIRAS E CIDADES, N. SN, Apto 107, BLOCO 10 1º PAVIMENTO",
-   "preco": 98816.7,
-   "valor_avaliacao": 160000.0,
-   "desconto": 38.24,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 60.71 de área total, 55.92 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555530509574",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.4871098,
-    "lng": -44.1939145
+    "lat": -2.5592189,
+    "lng": -44.2047859
    },
    "geo_pendente": false
   },
@@ -1994,27 +1973,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787705738543",
-   "uf": "MA",
-   "cidade": "SAO LUIS",
-   "bairro": "CRUZEIRO DE SANTA BARBARA",
-   "endereco": "AVENIDA DA SAUDADE, N. 50, Apto 203, BLOCO 02 2º PAVIMENTO",
-   "preco": 76464.05,
-   "valor_avaliacao": 132000.0,
-   "desconto": 42.08,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 54.49 de área total, 43.62 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705738543",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.5965167,
-    "lng": -44.2176173
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787712870419",
    "uf": "MA",
    "cidade": "SAO LUIS",
@@ -2074,48 +2032,6 @@
     "fonte": "google",
     "lat": -2.5964726,
     "lng": -44.2329464
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444410527077",
-   "uf": "MA",
-   "cidade": "SAO LUIS",
-   "bairro": "SAO RAIMUNDO",
-   "endereco": "RUA UM, N. 12, QUADRA 19 CASA 12",
-   "preco": 83391.04,
-   "valor_avaliacao": 138000.0,
-   "desconto": 39.58,
-   "financiamento": "Não",
-   "descricao": "Casa, 125.00 de área total, 20.00 de área privativa, 150.00 de área do terreno, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410527077",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.5759663,
-    "lng": -44.1938199
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444423797760",
-   "uf": "MA",
-   "cidade": "SAO LUIS",
-   "bairro": "VILA JANAINA",
-   "endereco": "RUA JOSE GERARDO, N. SN, QUADRA 25",
-   "preco": 82786.76,
-   "valor_avaliacao": 137000.0,
-   "desconto": 39.58,
-   "financiamento": "Não",
-   "descricao": "Casa, 155.00 de área total, 74.84 de área privativa, 155.60 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423797760",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.5932536,
-    "lng": -44.1921909
    },
    "geo_pendente": false
   },
@@ -2183,27 +2099,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1555535787957",
-   "uf": "MA",
-   "cidade": "SAO LUIS",
-   "bairro": "JARDIM SAO CRISTOVAO",
-   "endereco": "RUA TRINTA E UM DE DEZEMBRO, N. 2581, QUADRA 189 LOTE 03",
-   "preco": 644136.75,
-   "valor_avaliacao": 1010705.0,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Galpão, 614.06 de área total, 614.06 de área privativa, 0.00 de área do terreno,  5 qto(s), WC, 4 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555535787957",
-   "tipo": "galpao",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.5696423,
-    "lng": -44.2312445
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1555526703150",
    "uf": "MA",
    "cidade": "SAO LUIS",
@@ -2218,9 +2113,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555526703150",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -2.5176848,
-    "lng": -44.2551678,
-    "fonte": "google"
+    "lng": -44.2551678
    },
    "geo_pendente": false
   },
@@ -2414,6 +2309,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444411393945",
+   "uf": "MA",
+   "cidade": "TIMON",
+   "bairro": "PLANALTO BOA ESPERANCA",
+   "endereco": "RUA 16, N. 660, QD 16 LOTE 04",
+   "preco": 66471.58,
+   "valor_avaliacao": 135000.0,
+   "desconto": 50.77,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 68.49 de área privativa, 270.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411393945",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.140104,
+    "lng": -42.8284005
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444414146096",
    "uf": "MA",
    "cidade": "TIMON",
@@ -2445,7 +2361,7 @@
    "desconto": 46.27,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 69.65 de área privativa, 160.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410146103",
    "tipo": "casa",
    "geo": {
@@ -2634,7 +2550,7 @@
    "desconto": 42.23,
    "financiamento": "Não",
    "descricao": "Casa, 69.90 de área total, 69.90 de área privativa, 257.10 de área do terreno,  3 qto(s), a.serv, WC, 2 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412328039",
    "tipo": "casa",
    "geo": {
@@ -2739,7 +2655,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 261.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414111460",
    "tipo": "casa",
    "geo": {
@@ -2907,7 +2823,7 @@
    "desconto": 41.07,
    "financiamento": "Sim",
    "descricao": "Casa, 84.50 de área total, 84.50 de área privativa, 202.50 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410798615",
    "tipo": "casa",
    "geo": {
@@ -3380,27 +3296,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444403421978",
-   "uf": "MA",
-   "cidade": "TIMON",
-   "bairro": "PARQUE PIAUI I",
-   "endereco": "RUA ANTONIO GUIMARAES, N. 2577, LT 09/10 QD 237",
-   "preco": 154867.37,
-   "valor_avaliacao": 243000.0,
-   "desconto": 36.27,
-   "financiamento": "Não",
-   "descricao": "Casa, 107.85 de área total, 107.85 de área privativa, 140.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403421978",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.1025266,
-    "lng": -42.846524
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444408534136",
    "uf": "MA",
    "cidade": "TIMON",
@@ -3565,27 +3460,6 @@
     "fonte": "google",
     "lat": -5.1396917,
     "lng": -42.8230094
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444419170120",
-   "uf": "MA",
-   "cidade": "TIMON",
-   "bairro": "JOIA",
-   "endereco": "AVENIDA REGIMENTO, N. 823, QD H LT 27",
-   "preco": 189277.0,
-   "valor_avaliacao": 189277.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 82.01 de área total, 82.01 de área privativa, 140.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419170120",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.1400694,
-    "lng": -42.8363846
    },
    "geo_pendente": false
   },

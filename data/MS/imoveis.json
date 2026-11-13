@@ -1,9 +1,9 @@
 {
  "uf": "MS",
- "data_geracao_caixa": "11/11/2026",
- "coletado_em": "11/11/2026 22:27",
+ "data_geracao_caixa": "12/11/2026",
+ "coletado_em": "13/11/2026 04:47",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_MS.csv",
- "total": 253,
+ "total": 241,
  "colunas": [
   "id",
   "uf",
@@ -93,7 +93,7 @@
    "desconto": 43.71,
    "financiamento": "Sim",
    "descricao": "Casa, 70.25 de área total, 70.25 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405135859",
    "tipo": "casa",
    "geo": {
@@ -121,6 +121,27 @@
     "fonte": "google",
     "lat": -20.4470127,
     "lng": -55.7608396
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716236250",
+   "uf": "MS",
+   "cidade": "AQUIDAUANA",
+   "bairro": "EXPOSIÇÃO",
+   "endereco": "RUA JOSE RODRIGUES DOS ANJOS, N. 955, UNIDADE 06 QUADRA 602 LOTE E",
+   "preco": 90746.77,
+   "valor_avaliacao": 155000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Casa, 49.18 de área total, 49.18 de área privativa, 144.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716236250",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.4474411,
+    "lng": -55.7621277
    },
    "geo_pendente": false
   },
@@ -335,27 +356,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444433095114",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "VILA NHANHÁ",
-   "endereco": "RUA SOL NASCENTE, N. 718, LT 01 QD 03",
-   "preco": 97310.57,
-   "valor_avaliacao": 230000.0,
-   "desconto": 57.7,
-   "financiamento": "Sim",
-   "descricao": "Casa, 41.71 de área total, 41.71 de área privativa, 204.75 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433095114",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.4910344,
-    "lng": -54.62911649999999
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444406667722",
    "uf": "MS",
    "cidade": "CAMPO GRANDE",
@@ -370,9 +370,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406667722",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.5378367,
-    "lng": -54.6490708,
-    "fonte": "google"
+    "lng": -54.6490708
    },
    "geo_pendente": false
   },
@@ -387,7 +387,7 @@
    "desconto": 54.8,
    "financiamento": "Não",
    "descricao": "Casa, 63.24 de área total, 63.24 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407840355",
    "tipo": "casa",
    "geo": {
@@ -618,7 +618,7 @@
    "desconto": 44.1,
    "financiamento": "Não",
    "descricao": "Casa, 68.71 de área total, 61.29 de área privativa, 132.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410276562",
    "tipo": "casa",
    "geo": {
@@ -702,34 +702,13 @@
    "desconto": 42.88,
    "financiamento": "Não",
    "descricao": "Casa, 69.93 de área total, 69.93 de área privativa, 360.00 de área do terreno, 2 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444400602165",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -20.5195092,
     "lng": -54.68206840000001
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555517998842",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "FLOR DE LIZ",
-   "endereco": "RUA CABREUVA, N. 316, Apto 03, BLOCO 11 1º ANDAR",
-   "preco": 63999.72,
-   "valor_avaliacao": 112000.0,
-   "desconto": 42.86,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 165.56 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555517998842",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.5590019,
-    "lng": -54.6042753
    },
    "geo_pendente": false
   },
@@ -839,111 +818,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555518670409",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "VARANDAS DO CAMPO",
-   "endereco": "RUA CABREUVA, N. 316, Apto 02, BLOCO 06 TERREO",
-   "preco": 65921.81,
-   "valor_avaliacao": 115000.0,
-   "desconto": 42.68,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 47.58 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518670409",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.5590019,
-    "lng": -54.6042753
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555518706055",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "VARANDAS DO CAMPO",
-   "endereco": "RUA CABREUVA, N. 316, Apto 02, BLOCO 12 TERREO",
-   "preco": 65921.81,
-   "valor_avaliacao": 115000.0,
-   "desconto": 42.68,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 47.58 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518706055",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.5590019,
-    "lng": -54.6042753
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555519750988",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "VARANDAS DO CAMPO",
-   "endereco": "RUA CABREUVA, N. 316, Apto 02, BLOCO 22 TERREO",
-   "preco": 65921.81,
-   "valor_avaliacao": 115000.0,
-   "desconto": 42.68,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 47.58 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555519750988",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.5590019,
-    "lng": -54.6042753
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555519983362",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "VARANDAS DO CAMPO",
-   "endereco": "RUA CABREUVA, N. 316, Apto 04, BLOCO 17 1 ANDAR",
-   "preco": 65921.81,
-   "valor_avaliacao": 115000.0,
-   "desconto": 42.68,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 47.58 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555519983362",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.5590019,
-    "lng": -54.6042753
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555521051838",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "VARANDAS DO CAMPO",
-   "endereco": "RUA MARIA DE LOURDES VIEIRA MATOS, N. 277, Apto 04, BLOCO 07 1º ANDAR",
-   "preco": 69361.21,
-   "valor_avaliacao": 121000.0,
-   "desconto": 42.68,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 47.78 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555521051838",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.5566448,
-    "lng": -54.6040106
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444425710425",
    "uf": "MS",
    "cidade": "CAMPO GRANDE",
@@ -1003,48 +877,6 @@
     "fonte": "google",
     "lat": -20.5590019,
     "lng": -54.6042753
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555518680668",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "VARANDAS DO CAMPO",
-   "endereco": "RUA CABREUVA, N. 316, Apto 01, BLOCO 23 TERREO",
-   "preco": 74146.96,
-   "valor_avaliacao": 128000.0,
-   "desconto": 42.08,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 47.58 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518680668",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.5590019,
-    "lng": -54.6042753
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555522567358",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "VARANDAS DO CAMPO",
-   "endereco": "RUA MARIA DE LOURDES VIEIRA MATOS, N. 277, Apto 02, BLOCO 06 TERREO",
-   "preco": 74726.23,
-   "valor_avaliacao": 129000.0,
-   "desconto": 42.08,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 47.78 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555522567358",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.5566448,
-    "lng": -54.6040106
    },
    "geo_pendente": false
   },
@@ -1112,27 +944,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444419775723",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "LOS ANGELES",
-   "endereco": "RUA JOSE MAURICIO, N. 153, CS 02 LT 06 QD 31",
-   "preco": 88404.91,
-   "valor_avaliacao": 151000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Casa, 56.86 de área total, 56.86 de área privativa, 113.75 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419775723",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.5490731,
-    "lng": -54.6252732
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444415296464",
    "uf": "MS",
    "cidade": "CAMPO GRANDE",
@@ -1154,27 +965,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444423119550",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "JARDIM COLUMBIA",
-   "endereco": "RUA MAPUERA, N. 1933, CASA 01",
-   "preco": 81964.82,
-   "valor_avaliacao": 140000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Casa, 61.42 de área total, 61.42 de área privativa, 132.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423119550",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.381472,
-    "lng": -54.543121
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444417211482",
    "uf": "MS",
    "cidade": "CAMPO GRANDE",
@@ -1185,7 +975,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 59.46 de área total, 59.46 de área privativa, 120.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417211482",
    "tipo": "casa",
    "geo": {
@@ -1217,44 +1007,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787712448253",
+   "id": "8444414787774",
    "uf": "MS",
    "cidade": "CAMPO GRANDE",
-   "bairro": "CENTENARIO",
-   "endereco": "RUA PADRE JULIAO URQUIZA, N. 146, Apto 01, TERREO BLOCO 07",
-   "preco": 83135.75,
-   "valor_avaliacao": 142000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 48.15 de área total, 48.16 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712448253",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.524671,
-    "lng": -54.6306348
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787703325926",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "Parati",
-   "endereco": "RUA LUIS COUTINHO, N. 295, Apto 303, BLOCO 23 3º PAVIMENTO",
-   "preco": 106667.03,
-   "valor_avaliacao": 180000.0,
+   "bairro": "PORTAL CAIOBA",
+   "endereco": "RUA DAS VALQUIRIAS, N. 331, 01, 4119",
+   "preco": 103704.06,
+   "valor_avaliacao": 175000.0,
    "desconto": 40.75,
    "financiamento": "Não",
-   "descricao": "Apartamento, 57.66 de área total, 39.95 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703325926",
-   "tipo": "apartamento",
+   "descricao": "Casa, 70.12 de área total, 70.12 de área privativa, 180.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414787774",
+   "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -20.5038219,
-    "lng": -54.6228195
+    "lat": -20.5218764,
+    "lng": -54.6827836
    },
    "geo_pendente": false
   },
@@ -1437,7 +1206,7 @@
    "desconto": 40.18,
    "financiamento": "Não",
    "descricao": "Apartamento, 48.14 de área total, 44.98 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416607708",
    "tipo": "apartamento",
    "geo": {
@@ -1647,7 +1416,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 76.62 de área total, 76.62 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555503382615",
    "tipo": "casa",
    "geo": {
@@ -1696,27 +1465,6 @@
     "fonte": "google",
     "lat": -20.4131661,
     "lng": -54.59542140000001
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787704486044",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "PIONEIROS",
-   "endereco": "AVENIDA SENADOR ANTONIO MENDES CANALE, N. 1299, Apto 302, BLOCO 15 3º PAVIMENTO",
-   "preco": 116651.81,
-   "valor_avaliacao": 193000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 61.11 de área total, 40.87 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704486044",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.5087564,
-    "lng": -54.6119391
    },
    "geo_pendente": false
   },
@@ -1906,27 +1654,6 @@
     "fonte": "google",
     "lat": -20.483715,
     "lng": -54.5991398
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1787701062180",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "CORONEL ANTONINO",
-   "endereco": "AVENIDA RODOVIARIA, N. 1486, Apto 102, BLOCO 5 1º PAVIMENTO",
-   "preco": 117702.16,
-   "valor_avaliacao": 187000.0,
-   "desconto": 37.06,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 51.47 de área total, 39.95 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701062180",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.4176033,
-    "lng": -54.5918097
    },
    "geo_pendente": false
   },
@@ -2134,9 +1861,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555503925198",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.4953434,
-    "lng": -54.6853627,
-    "fonte": "google"
+    "lng": -54.6853627
    },
    "geo_pendente": false
   },
@@ -2155,9 +1882,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702163230",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.5039955,
-    "lng": -54.6228321,
-    "fonte": "google"
+    "lng": -54.6228321
    },
    "geo_pendente": false
   },
@@ -2281,9 +2008,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435489411",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.5409154,
-    "lng": -54.6258057,
-    "fonte": "google"
+    "lng": -54.6258057
    },
    "geo_pendente": false
   },
@@ -2305,27 +2032,6 @@
     "fonte": "google",
     "lat": -20.5361636,
     "lng": -54.6501423
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444415926044",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "CAICARA",
-   "endereco": "RUA CARLOS CHAGAS, N. 940, CS 02 PARTE LT 12 QD 31",
-   "preco": 380000.0,
-   "valor_avaliacao": 380000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 91.79 de área total, 91.79 de área privativa, 180.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415926044",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.4876245,
-    "lng": -54.6512454
    },
    "geo_pendente": false
   },
@@ -2659,9 +2365,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555504975018",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.4427554,
-    "lng": -54.6134188,
-    "fonte": "google"
+    "lng": -54.6134188
    },
    "geo_pendente": false
   },
@@ -2806,9 +2512,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555521054497",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.5490155,
-    "lng": -54.6021052,
-    "fonte": "google"
+    "lng": -54.6021052
    },
    "geo_pendente": false
   },
@@ -2848,9 +2554,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555521073017",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.5566448,
-    "lng": -54.6040106,
-    "fonte": "google"
+    "lng": -54.6040106
    },
    "geo_pendente": false
   },
@@ -3079,9 +2785,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435540344",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.5590019,
-    "lng": -54.6042753,
-    "fonte": "google"
+    "lng": -54.6042753
    },
    "geo_pendente": false
   },
@@ -3562,9 +3268,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719642586",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.4100514,
-    "lng": -54.5808271,
-    "fonte": "google"
+    "lng": -54.5808271
    },
    "geo_pendente": false
   },
@@ -3835,9 +3541,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719441165",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.4229742,
-    "lng": -54.6230177,
-    "fonte": "google"
+    "lng": -54.6230177
    },
    "geo_pendente": false
   },
@@ -4108,9 +3814,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555521053431",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.5594327,
-    "lng": -54.60675879999999,
-    "fonte": "google"
+    "lng": -54.60675879999999
    },
    "geo_pendente": false
   },
@@ -4150,9 +3856,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787703041474",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -20.4816101,
-    "lng": -54.6588103,
-    "fonte": "google"
+    "lng": -54.6588103
    },
    "geo_pendente": false
   },
@@ -4237,6 +3943,27 @@
     "fonte": "google",
     "lat": -20.5161961,
     "lng": -54.62977540000001
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1555520769826",
+   "uf": "MS",
+   "cidade": "CORUMBA",
+   "bairro": "CENTRO",
+   "endereco": "RUA LADARIO, N. 939, 37-B",
+   "preco": 186414.43,
+   "valor_avaliacao": 325000.0,
+   "desconto": 42.65,
+   "financiamento": "Sim",
+   "descricao": "Casa, 98.07 de área total, 98.07 de área privativa, 146.41 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555520769826",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -19.0031928,
+    "lng": -57.6447995
    },
    "geo_pendente": false
   },
@@ -4860,7 +4587,7 @@
    "desconto": 45.85,
    "financiamento": "Não",
    "descricao": "Casa, 63.38 de área total, 63.38 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411389573",
    "tipo": "casa",
    "geo": {
@@ -4976,27 +4703,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8078800004370",
-   "uf": "MS",
-   "cidade": "NOVA ANDRADINA",
-   "bairro": "CENTRO EDUCACIONAL",
-   "endereco": "RUA JOHANN GILL, N. 2270, LOTE 04 QUADRA 409",
-   "preco": 132178.89,
-   "valor_avaliacao": 210000.0,
-   "desconto": 37.06,
-   "financiamento": "Não",
-   "descricao": "Casa, 109.80 de área total, 109.80 de área privativa, 400.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8078800004370",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -22.253899,
-    "lng": -53.3593748
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444421251045",
    "uf": "MS",
    "cidade": "NOVA ANDRADINA",
@@ -5060,6 +4766,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444434389898",
+   "uf": "MS",
+   "cidade": "RIO BRILHANTE",
+   "bairro": "Bairro Morada do Sol",
+   "endereco": "RUA MARIA DE JESUS CERVEIRA, N. 2801, QUADRA 195-A LOTE 14",
+   "preco": 180629.83,
+   "valor_avaliacao": 295000.0,
+   "desconto": 38.77,
+   "financiamento": "Sim",
+   "descricao": "Casa, 94.00 de área total, 94.00 de área privativa, 225.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434389898",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.790381,
+    "lng": -54.555148
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787707807143",
    "uf": "MS",
    "cidade": "SAO GABRIEL DO OESTE",
@@ -5074,9 +4801,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707807143",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -19.3881119,
-    "lng": -54.5968694,
-    "fonte": "google"
+    "lng": -54.5968694
    },
    "geo_pendente": false
   },
@@ -5161,6 +4888,27 @@
     "fonte": "google",
     "lat": -22.4866082,
     "lng": -53.3527358
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787704567370",
+   "uf": "MS",
+   "cidade": "TRES LAGOAS",
+   "bairro": "NOVA EUROPA",
+   "endereco": "RUA BULGARIA, N. 2008, RESIDENCIA 54 MODULO 2 QUADRA B",
+   "preco": 127401.54,
+   "valor_avaliacao": 210785.39,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 48.25 de área total, 48.25 de área privativa, 126.54 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704567370",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.7648127,
+    "lng": -51.7210528
    },
    "geo_pendente": false
   },
@@ -5326,9 +5074,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555539005120",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -20.8079712,
-    "lng": -51.7085575,
-    "fonte": "google"
+    "lng": -51.7085575
    },
    "geo_pendente": false
   }

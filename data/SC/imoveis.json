@@ -1,9 +1,9 @@
 {
  "uf": "SC",
- "data_geracao_caixa": "11/11/2026",
- "coletado_em": "11/11/2026 22:28",
+ "data_geracao_caixa": "12/11/2026",
+ "coletado_em": "13/11/2026 04:48",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_SC.csv",
- "total": 181,
+ "total": 176,
  "colunas": [
   "id",
   "uf",
@@ -30,7 +30,7 @@
    "desconto": 74.01,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 49.46 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420114506",
    "tipo": "apartamento",
    "geo": {
@@ -160,9 +160,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433865939",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -28.2631073,
-    "lng": -49.0198663,
-    "fonte": "google"
+    "lng": -49.0198663
    },
    "geo_pendente": false
   },
@@ -559,9 +559,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421805839",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -26.9089206,
-    "lng": -49.1272354,
-    "fonte": "google"
+    "lng": -49.1272354
    },
    "geo_pendente": false
   },
@@ -685,9 +685,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444425666282",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -26.9346506,
-    "lng": -49.1414355,
-    "fonte": "google"
+    "lng": -49.1414355
    },
    "geo_pendente": false
   },
@@ -772,27 +772,6 @@
     "fonte": "google",
     "lat": -27.097973,
     "lng": -48.916608
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444415932603",
-   "uf": "SC",
-   "cidade": "BRUSQUE",
-   "bairro": "RIO BRANCO",
-   "endereco": "RUA CALOPSITA, N. 270, RESIDÊNCIA- 02",
-   "preco": 238798.76,
-   "valor_avaliacao": 390000.0,
-   "desconto": 38.77,
-   "financiamento": "Não",
-   "descricao": "Casa, 69.97 de área total, 69.97 de área privativa, 119.09 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415932603",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -27.1225398,
-    "lng": -48.94721939999999
    },
    "geo_pendente": false
   },
@@ -916,9 +895,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714756869",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -27.0999518,
-    "lng": -52.65512450000001,
-    "fonte": "google"
+    "lng": -52.65512450000001
    },
    "geo_pendente": false
   },
@@ -1462,9 +1441,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423175239",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -27.579567,
-    "lng": -48.596501,
-    "fonte": "google"
+    "lng": -48.596501
    },
    "geo_pendente": false
   },
@@ -1679,27 +1658,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787700489650",
-   "uf": "SC",
-   "cidade": "ITAJAI",
-   "bairro": "ITAIPAVA",
-   "endereco": "AVENIDA ITAIPAVA, N. 3300, Apto 203, TIPO D 1º PAVIMENTO BLOCO 05",
-   "preco": 170220.65,
-   "valor_avaliacao": 278000.0,
-   "desconto": 38.77,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 54.03 de área total, 48.18 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700489650",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -26.9391992,
-    "lng": -48.73282589999999
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444401391168",
    "uf": "SC",
    "cidade": "ITAJAI",
@@ -1878,34 +1836,13 @@
    "desconto": 55.61,
    "financiamento": "Sim",
    "descricao": "Galpão, 0.00 de área total, 2048.20 de área privativa, 49559.45 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10193940",
    "tipo": "galpao",
    "geo": {
     "fonte": "google",
     "lat": -26.2648937,
     "lng": -48.8924604
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444407872909",
-   "uf": "SC",
-   "cidade": "JOINVILLE",
-   "bairro": "BOA VISTA",
-   "endereco": "RUA ALBANO SCHMIDT, N. 497, Apto 201, BLOCO 01, 2º PAVIMENTO",
-   "preco": 212094.22,
-   "valor_avaliacao": 332793.76,
-   "desconto": 36.27,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 96.92 de área total, 76.53 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444407872909",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -26.3088344,
-    "lng": -48.828225
    },
    "geo_pendente": false
   },
@@ -2239,9 +2176,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411253396",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -27.7825626,
-    "lng": -50.2888599,
-    "fonte": "google"
+    "lng": -50.2888599
    },
    "geo_pendente": false
   },
@@ -2263,27 +2200,6 @@
     "fonte": "google",
     "lat": -27.7860632,
     "lng": -50.2954933
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444401033156",
-   "uf": "SC",
-   "cidade": "LAGUNA",
-   "bairro": "CENTRO",
-   "endereco": "RUA PRINCIPAL CIGANA, N. SN,",
-   "preco": 258048.56,
-   "valor_avaliacao": 404900.0,
-   "desconto": 36.27,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 696.00 de área do terreno.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444401033156",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -28.4831896,
-    "lng": -48.7813403
    },
    "geo_pendente": false
   },
@@ -2519,27 +2435,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444427169071",
-   "uf": "SC",
-   "cidade": "NOVA VENEZA",
-   "bairro": "CENTRO",
-   "endereco": "RUA ITALO AMBONI, N. 150, ÁREA DESMEMBRADA 01",
-   "preco": 65260.8,
-   "valor_avaliacao": 113846.88,
-   "desconto": 42.68,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 390.80 de área do terreno.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427169071",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -28.7100987,
-    "lng": -49.5586284
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444429696923",
    "uf": "SC",
    "cidade": "PALHOCA",
@@ -2701,9 +2596,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403179778",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -27.6686549,
-    "lng": -48.6676317,
-    "fonte": "google"
+    "lng": -48.6676317
    },
    "geo_pendente": false
   },
@@ -2848,9 +2743,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712301635",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -27.6482141,
-    "lng": -48.7087265,
-    "fonte": "google"
+    "lng": -48.7087265
    },
    "geo_pendente": false
   },
@@ -2932,9 +2827,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715882515",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -27.6496374,
-    "lng": -48.70842409999999,
-    "fonte": "google"
+    "lng": -48.70842409999999
    },
    "geo_pendente": false
   },
@@ -3289,9 +3184,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701221548",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -22.4821041,
-    "lng": -42.1438373,
-    "fonte": "google"
+    "lng": -42.1438373
    },
    "geo_pendente": false
   },
