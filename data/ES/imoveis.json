@@ -1,9 +1,9 @@
 {
  "uf": "ES",
- "data_geracao_caixa": "12/11/2026",
- "coletado_em": "13/11/2026 04:47",
+ "data_geracao_caixa": "13/11/2026",
+ "coletado_em": "14/11/2026 04:31",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_ES.csv",
- "total": 49,
+ "total": 44,
  "colunas": [
   "id",
   "uf",
@@ -72,7 +72,7 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 334.75 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427665559",
    "tipo": "terreno",
    "geo": {
@@ -144,6 +144,21 @@
     "lng": -40.3772995
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10150159",
+   "uf": "ES",
+   "cidade": "GUARAPARI",
+   "bairro": "CENTRO",
+   "endereco": "AVENIDA DESEMBARGADOR LOURIVAL DE ALMEIDA, N. 330, Apto 101",
+   "preco": 440720.92,
+   "valor_avaliacao": 791000.0,
+   "desconto": 44.29,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 0.00 de área total, 130.00 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10150159",
+   "tipo": "apartamento"
   },
   {
    "id": "8787702968530",
@@ -377,48 +392,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787717950283",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "PRAIA DA BALEIA",
-   "endereco": "AVENIDA DESEMBARGADOR ANTONIO JOSE MIGUE, N. 395, Apto 302, BL 19",
-   "preco": 136597.45,
-   "valor_avaliacao": 226000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 62.36 de área total, 42.47 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717950283",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1746596,
-    "lng": -40.1928929
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787718113130",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "PRAIA DA BALEIA",
-   "endereco": "AVENIDA DESEMBARGADOR ANTONIO JOSE MIGUEL FEU ROSA, N. 395, Apto 402, BL.19  AP402",
-   "preco": 127158.93,
-   "valor_avaliacao": 210384.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 42.47 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718113130",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1776824,
-    "lng": -40.1935997
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787719057110",
    "uf": "ES",
    "cidade": "SERRA",
@@ -436,48 +409,6 @@
     "fonte": "google",
     "lat": -20.1776824,
     "lng": -40.1935997
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555520464888",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "JARDIM ATLANTICO",
-   "endereco": "RUA DEZESSEIS E RUA DOUTOR PEDRO FEU ROSA, N. S/N.º, Apto 802, BL 02",
-   "preco": 120882.7,
-   "valor_avaliacao": 200000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 79.22 de área total, 47.00 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555520464888",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1384742,
-    "lng": -40.1935581
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787714687255",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "BICANGA",
-   "endereco": "AVENIDA MERIDIONAL, N. 2100, Apto 308, TORRE E GLEBA 02",
-   "preco": 207571.23,
-   "valor_avaliacao": 339000.0,
-   "desconto": 38.77,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 87.25 de área total, 44.29 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714687255",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.2120154,
-    "lng": -40.2329494
    },
    "geo_pendente": false
   },
@@ -541,27 +472,6 @@
     "fonte": "google",
     "lat": -20.1728536,
     "lng": -40.2022342
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1787702095171",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "PORTO CANOA",
-   "endereco": "RUA PROJETADA 03, N. 80, Apto 502, TORRE D",
-   "preco": 174624.12,
-   "valor_avaliacao": 274000.0,
-   "desconto": 36.27,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 80.55 de área total, 44.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702095171",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1553252,
-    "lng": -40.2540525
    },
    "geo_pendente": false
   },
@@ -877,27 +787,6 @@
     "fonte": "google",
     "lat": -20.3386193,
     "lng": -40.2873403
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555524171826",
-   "uf": "ES",
-   "cidade": "VILA VELHA",
-   "bairro": "ULISSES GUIMARAES",
-   "endereco": "AVENIDA SERINGAL, N. 515, Apto 303, BL D",
-   "preco": 73567.68,
-   "valor_avaliacao": 127000.0,
-   "desconto": 42.08,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 43.74 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555524171826",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.4503779,
-    "lng": -40.3531718
    },
    "geo_pendente": false
   },
