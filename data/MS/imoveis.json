@@ -1,7 +1,7 @@
 {
  "uf": "MS",
- "data_geracao_caixa": "13/11/2026",
- "coletado_em": "14/11/2026 12:44",
+ "data_geracao_caixa": "16/11/2026",
+ "coletado_em": "17/11/2026 00:41",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_MS.csv",
  "total": 239,
  "colunas": [
@@ -198,7 +198,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 74.98 de área privativa, 630.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417682280",
    "tipo": "casa",
    "geo": {
@@ -366,7 +366,7 @@
    "desconto": 56.83,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 54.88 de área privativa, 112.50 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406667722",
    "tipo": "casa",
    "geo": {
@@ -660,7 +660,7 @@
    "desconto": 42.91,
    "financiamento": "Sim",
    "descricao": "Casa, 101.88 de área total, 49.54 de área privativa, 101.88 de área do terreno,  2 qto(s), a.serv, WC, cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409961907",
    "tipo": "casa",
    "geo": {
@@ -807,7 +807,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Casa, 31.56 de área total, 31.56 de área privativa, 205.90 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425710425",
    "tipo": "casa",
    "geo": {
@@ -986,6 +986,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444417164842",
+   "uf": "MS",
+   "cidade": "CAMPO GRANDE",
+   "bairro": "JARDIM SAO CONRADO",
+   "endereco": "RUA MAJOR JOSE PINTO, N. 721, Apto 203, BL L",
+   "preco": 76592.86,
+   "valor_avaliacao": 130000.0,
+   "desconto": 41.09,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 44.98 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417164842",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.4989395,
+    "lng": -54.6756287
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444435711572",
    "uf": "MS",
    "cidade": "CAMPO GRANDE",
@@ -1032,7 +1053,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 55.50 de área total, 55.50 de área privativa, 111.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420336207",
    "tipo": "casa",
    "geo": {
@@ -1207,27 +1228,6 @@
     "fonte": "google",
     "lat": -20.5277338,
     "lng": -54.626355
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444417164842",
-   "uf": "MS",
-   "cidade": "CAMPO GRANDE",
-   "bairro": "JARDIM SAO CONRADO",
-   "endereco": "RUA MAJOR JOSE PINTO, N. 721, Apto 203, BL L",
-   "preco": 78556.78,
-   "valor_avaliacao": 130000.0,
-   "desconto": 39.58,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 44.98 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417164842",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.4989395,
-    "lng": -54.6756287
    },
    "geo_pendente": false
   },
@@ -1452,7 +1452,7 @@
    "desconto": 38.96,
    "financiamento": "Não",
    "descricao": "Apartamento, 47.58 de área total, 42.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419251920",
    "tipo": "apartamento",
    "geo": {

@@ -1,9 +1,9 @@
 {
  "uf": "DF",
- "data_geracao_caixa": "13/11/2026",
- "coletado_em": "14/11/2026 12:44",
+ "data_geracao_caixa": "16/11/2026",
+ "coletado_em": "17/11/2026 00:41",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_DF.csv",
- "total": 80,
+ "total": 81,
  "colunas": [
   "id",
   "uf",
@@ -72,7 +72,7 @@
    "desconto": 40.47,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 340.00 de área privativa, 250.00 de área do terreno, 4 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444400617326",
    "tipo": "casa",
    "geo": {
@@ -775,6 +775,27 @@
     "fonte": "google",
     "lat": -15.8522323,
     "lng": -47.9492183
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444418600590",
+   "uf": "DF",
+   "cidade": "CEILANDIA",
+   "bairro": "CEILANDIA NORTE",
+   "endereco": "QNQ 5, N. SN, CJ 05 LT 13",
+   "preco": 205055.87,
+   "valor_avaliacao": 330000.0,
+   "desconto": 37.87,
+   "financiamento": "Sim",
+   "descricao": "Casa, 132.75 de área total, 130.00 de área privativa, 144.00 de área do terreno,  4 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418600590",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.8059008,
+    "lng": -48.1472944
    },
    "geo_pendente": false
   },
