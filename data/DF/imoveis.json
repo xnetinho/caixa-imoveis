@@ -1,9 +1,9 @@
 {
  "uf": "DF",
- "data_geracao_caixa": "16/11/2026",
- "coletado_em": "17/11/2026 19:50",
+ "data_geracao_caixa": "17/11/2026",
+ "coletado_em": "18/11/2026 01:08",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_DF.csv",
- "total": 81,
+ "total": 84,
  "colunas": [
   "id",
   "uf",
@@ -19,6 +19,27 @@
   "link"
  ],
  "imoveis": [
+  {
+   "id": "10215739",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "ALTO DA BOA VISTA (SOBRADINHO)",
+   "endereco": "RODOVIA BR-020, N. 00, BL B, LT 12, ENTRE QUADRA 101/102",
+   "preco": 192949.37,
+   "valor_avaliacao": 395000.0,
+   "desconto": 51.16,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 250.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10215739",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.6376151,
+    "lng": -47.7471453
+   },
+   "geo_pendente": false
+  },
   {
    "id": "10278243",
    "uf": "DF",
@@ -527,6 +548,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1787701779140",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "SAMAMBAIA NORTE",
+   "endereco": "CONJUNTO 8 TORRE C, N. SN, Apto 1203, QD 301 VG 434",
+   "preco": 340000.0,
+   "valor_avaliacao": 340000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 94.86 de área total, 54.10 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701779140",
+   "tipo": "apartamento"
+  },
+  {
    "id": "1787702195044",
    "uf": "DF",
    "cidade": "BRASILIA",
@@ -756,6 +792,21 @@
     "lng": -48.0644586
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444418398464",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "SETOR HAB TORORO",
+   "endereco": "CONDOMINIO LE PREMIER RESIDENCE, N. 25,  QD 1 LT 1",
+   "preco": 1136249.09,
+   "valor_avaliacao": 313000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 417.69 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418398464",
+   "tipo": "terreno"
   },
   {
    "id": "1555517513077",

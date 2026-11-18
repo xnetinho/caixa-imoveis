@@ -1,9 +1,9 @@
 {
  "uf": "MT",
- "data_geracao_caixa": "16/11/2026",
- "coletado_em": "17/11/2026 19:50",
+ "data_geracao_caixa": "17/11/2026",
+ "coletado_em": "18/11/2026 01:08",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_MT.csv",
- "total": 141,
+ "total": 158,
  "colunas": [
   "id",
   "uf",
@@ -219,7 +219,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 49.48 de área total, 49.48 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415673829",
    "tipo": "casa",
    "geo": {
@@ -402,13 +402,34 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 62.00 de área total, 62.00 de área privativa, 225.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423557603",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -15.8836187,
     "lng": -52.2402306
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444434643840",
+   "uf": "MT",
+   "cidade": "BARRA DO GARCAS",
+   "bairro": "JARDIM NOVA BARRA DO GARCAS",
+   "endereco": "RUA PRIMAVERA, N. SN, Nº 17-A QUADRA 332",
+   "preco": 211245.05,
+   "valor_avaliacao": 345000.0,
+   "desconto": 38.77,
+   "financiamento": "Sim",
+   "descricao": "Casa, 100.00 de área total, 100.00 de área privativa, 205.50 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434643840",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.8816681,
+    "lng": -52.3294539
    },
    "geo_pendente": false
   },
@@ -444,7 +465,7 @@
    "desconto": 36.27,
    "financiamento": "Não",
    "descricao": "Casa, 211.37 de área total, 180.00 de área privativa, 360.00 de área do terreno,  3 qto(s), varanda, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444404357043",
    "tipo": "casa",
    "geo": {
@@ -537,6 +558,21 @@
     "lng": -52.3294539
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444415377740",
+   "uf": "MT",
+   "cidade": "BARRA DO GARCAS",
+   "bairro": "JARDIM NOVA BARRA DO GARCAS",
+   "endereco": "AVENIDA AMAZONAS, N. 26, QD387",
+   "preco": 205400.0,
+   "valor_avaliacao": 205400.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Terreno, 72.92 de área total, 0.00 de área privativa, 206.25 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415377740",
+   "tipo": "terreno"
   },
   {
    "id": "8444415554030",
@@ -686,6 +722,48 @@
    "geo_pendente": false
   },
   {
+   "id": "1787701954669",
+   "uf": "MT",
+   "cidade": "CONFRESA",
+   "bairro": "LOT IMPERIAL ECO PAR",
+   "endereco": "RUA PROJETADA 17, N. SN, LOTE 14 QUADRA 48",
+   "preco": 147914.48,
+   "valor_avaliacao": 235000.0,
+   "desconto": 37.06,
+   "financiamento": "Não",
+   "descricao": "Casa, 50.74 de área total, 50.74 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701954669",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -10.6599515,
+    "lng": -51.5955717
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1787701972683",
+   "uf": "MT",
+   "cidade": "CONFRESA",
+   "bairro": "LOT IMPERIAL ECO PAR",
+   "endereco": "RUA PROJETADA 17, N. SN, LOTE 38 QUADRA 47",
+   "preco": 147914.48,
+   "valor_avaliacao": 235000.0,
+   "desconto": 37.06,
+   "financiamento": "Não",
+   "descricao": "Casa, 50.74 de área total, 50.74 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701972683",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -10.6599515,
+    "lng": -51.5955717
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444416721630",
    "uf": "MT",
    "cidade": "CONFRESA",
@@ -705,6 +783,21 @@
     "lng": -51.5614795
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444422904148",
+   "uf": "MT",
+   "cidade": "CONFRESA",
+   "bairro": "LOT IMPERIAL ECO PAK",
+   "endereco": "RUA PROJETADA, N. 13, 01  QUADRA 53  LOTE 07",
+   "preco": 330000.0,
+   "valor_avaliacao": 330000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 111.35 de área total, 63.85 de área privativa, 200.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422904148",
+   "tipo": "casa"
   },
   {
    "id": "1787701962580",
@@ -875,6 +968,48 @@
    "geo_pendente": false
   },
   {
+   "id": "10307847",
+   "uf": "MT",
+   "cidade": "CUIABA",
+   "bairro": "ALTOS DO COXIPO",
+   "endereco": "BR 364 AVENIDA A, N. 00, QD 26, LT 03",
+   "preco": 78556.78,
+   "valor_avaliacao": 130000.0,
+   "desconto": 39.58,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 312.50 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10307847",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.6332332,
+    "lng": -56.0208819
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "10307848",
+   "uf": "MT",
+   "cidade": "CUIABA",
+   "bairro": "ALTOS DO COXIPO",
+   "endereco": "BR 364 AVENIDA A, N. 00, QD 26, LT 04",
+   "preco": 78556.78,
+   "valor_avaliacao": 130000.0,
+   "desconto": 39.58,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 307.13 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10307848",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.6332332,
+    "lng": -56.0208819
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787710387060",
    "uf": "MT",
    "cidade": "CUIABA",
@@ -927,7 +1062,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 96.23 de área total, 39.95 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712082933",
    "tipo": "apartamento",
    "geo": {
@@ -997,6 +1132,27 @@
     "fonte": "google",
     "lat": -15.0426769,
     "lng": -56.5158578
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787700722142",
+   "uf": "MT",
+   "cidade": "CUIABA",
+   "bairro": "DT COXIPÓ DA PONTE",
+   "endereco": "RUA E, N. SN, TP 06 LT 50 QD 07",
+   "preco": 146953.08,
+   "valor_avaliacao": 240000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Casa, 81.69 de área total, 81.69 de área privativa, 240.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700722142",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.6597043,
+    "lng": -56.0603188
    },
    "geo_pendente": false
   },
@@ -1098,6 +1254,21 @@
     "lng": -56.0922674
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10305208",
+   "uf": "MT",
+   "cidade": "CUIABA",
+   "bairro": "PQ RES UNIVERSITARIO",
+   "endereco": "RUA B, N. 0, LT 24, QD 02",
+   "preco": 283625.74,
+   "valor_avaliacao": 420000.0,
+   "desconto": 32.48,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1044.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10305208",
+   "tipo": "terreno"
   },
   {
    "id": "8787700374918",
@@ -1730,6 +1901,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444421985888",
+   "uf": "MT",
+   "cidade": "RONDONOPOLIS",
+   "bairro": "JARDIM MARIA TEREZA",
+   "endereco": "RUA WALDOMIRO NICOLAU DA SILVA, N. 632, QD 29 LT 18",
+   "preco": 106667.03,
+   "valor_avaliacao": 180000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Casa, 51.35 de área total, 51.35 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421985888",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -16.4822178,
+    "lng": -54.6665492
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "10306595",
    "uf": "MT",
    "cidade": "RONDONOPOLIS",
@@ -2008,12 +2200,12 @@
    "cidade": "SANTO ANTONIO DO LEVERGER",
    "bairro": "LOT RES MARAZUL",
    "endereco": "RUA PROJETADA 02, N. S/N, QD 03 LT 15",
-   "preco": 79915.69,
+   "preco": 77866.57,
    "valor_avaliacao": 140000.0,
-   "desconto": 42.92,
+   "desconto": 44.39,
    "financiamento": "Não",
    "descricao": "Casa, 59.01 de área total, 59.01 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424026474",
    "tipo": "casa",
    "geo": {
@@ -2064,6 +2256,21 @@
     "lng": -55.495777
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10314871",
+   "uf": "MT",
+   "cidade": "SINOP",
+   "bairro": "RESIDENCIAL BELLA SUICA",
+   "endereco": "RUA GENEBRA, N. 00, QD 9, LT 13",
+   "preco": 1451000.0,
+   "valor_avaliacao": 1451000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Casa, 0.00 de área total, 205.79 de área privativa, 390.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10314871",
+   "tipo": "casa"
   },
   {
    "id": "1444416459164",
@@ -2171,44 +2378,44 @@
    "geo_pendente": false
   },
   {
-   "id": "8444425918379",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "PRIMAVERA",
-   "endereco": "RUA SAO PAULO, N. S/N, ÁREA  A02, QUADRA 170",
-   "preco": 107018.64,
-   "valor_avaliacao": 195000.0,
-   "desconto": 45.12,
-   "financiamento": "Sim",
-   "descricao": "Casa, 59.06 de área total, 59.06 de área privativa, 181.75 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425918379",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6893499,
-    "lng": -56.1472731
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "10276271",
    "uf": "MT",
    "cidade": "VARZEA GRANDE",
    "bairro": "CENTRO-SUL",
    "endereco": "RUA MARANHAO, N. S/N, LOCAL CHAMADO TRAÍRA",
-   "preco": 593134.02,
+   "preco": 576658.07,
    "valor_avaliacao": 1034086.01,
-   "desconto": 42.65,
+   "desconto": 44.24,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 9541.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10276271",
    "tipo": "terreno",
    "geo": {
     "fonte": "google",
     "lat": -15.6564438,
     "lng": -56.1387154
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1555512854941",
+   "uf": "MT",
+   "cidade": "VARZEA GRANDE",
+   "bairro": "CENTRO-SUL",
+   "endereco": "R PARA, N. 440, Apto 104, 1º PAVIMENTO",
+   "preco": 186842.98,
+   "valor_avaliacao": 320000.0,
+   "desconto": 41.62,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 0.00 de área total, 106.99 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, WC Emp, cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555512854941",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.6549151,
+    "lng": -56.1423759
    },
    "geo_pendente": false
   },
@@ -2230,6 +2437,27 @@
     "fonte": "google",
     "lat": -15.6962956,
     "lng": -56.1241402
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444436917581",
+   "uf": "MT",
+   "cidade": "VARZEA GRANDE",
+   "bairro": "SAO MATHEUS",
+   "endereco": "RUA JONAS PINHEIRO, N. SN, QD 86 AREA 7A",
+   "preco": 124932.26,
+   "valor_avaliacao": 212000.0,
+   "desconto": 41.07,
+   "financiamento": "Não",
+   "descricao": "Casa, 62.32 de área total, 62.32 de área privativa, 180.00 de área do terreno,  2 qto(s), WC, WC Emp, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436917581",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.6587503,
+    "lng": -56.1927925
    },
    "geo_pendente": false
   },
@@ -2265,7 +2493,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 64.29 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406195065",
    "tipo": "casa",
    "geo": {
@@ -2328,7 +2556,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 59.77 de área total, 59.77 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425775292",
    "tipo": "casa",
    "geo": {
@@ -2375,6 +2603,27 @@
    "tipo": "casa"
   },
   {
+   "id": "8444434745082",
+   "uf": "MT",
+   "cidade": "VARZEA GRANDE",
+   "bairro": "NOVO MUNDO",
+   "endereco": "RUA IRLANDA, N. SN, AREA 01 QUADRA 15",
+   "preco": 135993.04,
+   "valor_avaliacao": 225000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 67.43 de área total, 67.43 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434745082",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.6556397,
+    "lng": -56.1241557
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444421262843",
    "uf": "MT",
    "cidade": "VARZEA GRANDE",
@@ -2387,6 +2636,48 @@
    "descricao": "Casa, 54.44 de área total, 54.44 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421262843",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.6949013,
+    "lng": -56.1603541
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444433247046",
+   "uf": "MT",
+   "cidade": "VARZEA GRANDE",
+   "bairro": "SAO SIMAO",
+   "endereco": "RUA AMANCIO FERREIRA DA SILVA, N. SN, AREA 20B QUADRA 76",
+   "preco": 142037.17,
+   "valor_avaliacao": 235000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 69.58 de área total, 69.58 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433247046",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.6965206,
+    "lng": -56.162106
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444436116473",
+   "uf": "MT",
+   "cidade": "VARZEA GRANDE",
+   "bairro": "SAO SIMAO",
+   "endereco": "RUA JOSE PARANHOS DA SILVA, N. SN, AREA 22A",
+   "preco": 116047.39,
+   "valor_avaliacao": 192000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 69.58 de área total, 69.58 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436116473",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
@@ -2442,7 +2733,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 59.80 de área total, 59.80 de área privativa, 180.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430140909",
    "tipo": "casa",
    "geo": {
@@ -2474,23 +2765,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444436917581",
+   "id": "10282358",
    "uf": "MT",
    "cidade": "VARZEA GRANDE",
-   "bairro": "SAO MATHEUS",
-   "endereco": "RUA JONAS PINHEIRO, N. SN, QD 86 AREA 7A",
-   "preco": 128135.66,
-   "valor_avaliacao": 212000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Casa, 62.32 de área total, 62.32 de área privativa, 180.00 de área do terreno,  2 qto(s), WC, WC Emp, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436917581",
-   "tipo": "casa",
+   "bairro": "SANTA ISABEL",
+   "endereco": "RUA OCEANO ATLANTICO, N. 00, ÁREA REMANESCENTE",
+   "preco": 1634711.17,
+   "valor_avaliacao": 2700000.0,
+   "desconto": 39.46,
+   "financiamento": "Sim",
+   "descricao": "Gleba Urbana, 0.00 de área total, 0.00 de área privativa, 28270.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10282358",
+   "tipo": "gleba urbana",
    "geo": {
     "fonte": "google",
-    "lat": -15.6587503,
-    "lng": -56.1927925
+    "lat": -15.6460478,
+    "lng": -56.1743117
    },
    "geo_pendente": false
   },
@@ -2579,6 +2870,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8444421047365",
+   "uf": "MT",
+   "cidade": "VARZEA GRANDE",
+   "bairro": "CANELAS",
+   "endereco": "RUA MARCILIO DIAS, N. SN, 08B QUADRA 93",
+   "preco": 166179.44,
+   "valor_avaliacao": 271400.0,
+   "desconto": 38.77,
+   "financiamento": "Sim",
+   "descricao": "Casa, 54.10 de área total, 54.10 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421047365",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.6613504,
+    "lng": -56.1510854
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787719352421",
+   "uf": "MT",
+   "cidade": "VARZEA GRANDE",
+   "bairro": "NOVO MUNDO",
+   "endereco": "AVENIDA PERU, N. SN, AREA B8 QUADRA 11",
+   "preco": 100669.52,
+   "valor_avaliacao": 163000.0,
+   "desconto": 38.24,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 50.42 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719352421",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.6562664,
+    "lng": -56.1998076
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787719621120",
    "uf": "MT",
    "cidade": "VARZEA GRANDE",
@@ -2600,27 +2933,6 @@
    "geo_pendente": false
   },
   {
-   "id": "10282358",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "SANTA ISABEL",
-   "endereco": "RUA OCEANO ATLANTICO, N. 00, ÁREA REMANESCENTE",
-   "preco": 1677729.89,
-   "valor_avaliacao": 2700000.0,
-   "desconto": 37.87,
-   "financiamento": "Sim",
-   "descricao": "Gleba Urbana, 0.00 de área total, 0.00 de área privativa, 28270.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10282358",
-   "tipo": "gleba urbana",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6460478,
-    "lng": -56.1743117
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "10289431",
    "uf": "MT",
    "cidade": "VARZEA GRANDE",
@@ -2638,6 +2950,27 @@
     "fonte": "google",
     "lat": -15.6448604,
     "lng": -56.1438108
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787719550363",
+   "uf": "MT",
+   "cidade": "VARZEA GRANDE",
+   "bairro": "PAIAGUAS",
+   "endereco": "RUA PEDRO, N. SN, AREA 30B QUADRA 106",
+   "preco": 125884.66,
+   "valor_avaliacao": 200000.0,
+   "desconto": 37.06,
+   "financiamento": "Não",
+   "descricao": "Casa, 59.84 de área total, 59.84 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719550363",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.672864,
+    "lng": -56.1651161
    },
    "geo_pendente": false
   },
@@ -2673,7 +3006,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Comercial, 0.00 de área total, 367.50 de área privativa, 750.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555521261036",
    "tipo": "comercial",
    "geo": {
