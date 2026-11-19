@@ -1,9 +1,9 @@
 {
  "uf": "AM",
- "data_geracao_caixa": "17/11/2026",
- "coletado_em": "18/11/2026 10:47",
+ "data_geracao_caixa": "18/11/2026",
+ "coletado_em": "19/11/2026 01:04",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_AM.csv",
- "total": 209,
+ "total": 214,
  "colunas": [
   "id",
   "uf",
@@ -83,6 +83,42 @@
    "geo_pendente": false
   },
   {
+   "id": "8444418739278",
+   "uf": "AM",
+   "cidade": "BORBA",
+   "bairro": "CENTRO",
+   "endereco": "RUA PROJETADA A ESTRADA BORBA/MAPIA, N. 07",
+   "preco": 31659.63,
+   "valor_avaliacao": 54500.0,
+   "desconto": 41.91,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 41.76 de área privativa, 125.96 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418739278",
+   "tipo": "casa"
+  },
+  {
+   "id": "8444406059471",
+   "uf": "AM",
+   "cidade": "BORBA",
+   "bairro": "IPIRANGA",
+   "endereco": "RUA LUIZ PEDRO FADOUL, N. SN, ANTIGA RUA LO 4",
+   "preco": 50291.39,
+   "valor_avaliacao": 83000.0,
+   "desconto": 39.41,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 405.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406059471",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.393167,
+    "lng": -59.5893861
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444408437317",
    "uf": "AM",
    "cidade": "COARI",
@@ -130,18 +166,81 @@
    "cidade": "IRANDUBA",
    "bairro": "KM 08",
    "endereco": "RUA ACAJATUBA, N. 10, QD 41",
-   "preco": 98667.0,
+   "preco": 96000.32,
    "valor_avaliacao": 180000.0,
-   "desconto": 45.19,
-   "financiamento": "Não",
+   "desconto": 46.67,
+   "financiamento": "Sim",
    "descricao": "Casa, 54.09 de área total, 54.09 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714509934",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -3.214221,
     "lng": -60.1785131
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787711334327",
+   "uf": "AM",
+   "cidade": "IRANDUBA",
+   "bairro": "LOT NOVA AMAZONAS I",
+   "endereco": "RUA LAGO DO GUEDES, N. 14, LOTE 14 QUADRA 36",
+   "preco": 108061.38,
+   "valor_avaliacao": 196900.0,
+   "desconto": 45.12,
+   "financiamento": "Sim",
+   "descricao": "Casa, 52.30 de área total, 52.30 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711334327",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.2128893,
+    "lng": -60.18131810000001
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787714315161",
+   "uf": "AM",
+   "cidade": "IRANDUBA",
+   "bairro": "LOT NOVA AMAZONAS I",
+   "endereco": "RUA AÇUTUBA, N. SN, LOTE 28 QUADRA 12",
+   "preco": 104274.58,
+   "valor_avaliacao": 190000.0,
+   "desconto": 45.12,
+   "financiamento": "Sim",
+   "descricao": "Casa, 54.09 de área total, 54.09 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714315161",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.2762336,
+    "lng": -60.1827884
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787714661736",
+   "uf": "AM",
+   "cidade": "IRANDUBA",
+   "bairro": "EST CARLOS BRAGA",
+   "endereco": "RUA DO INGLÊS, N. SN, QD 17 LT 31 ESTRADA CARLOS BRAGA KM 08",
+   "preco": 104274.58,
+   "valor_avaliacao": 190000.0,
+   "desconto": 45.12,
+   "financiamento": "Sim",
+   "descricao": "Casa, 54.09 de área total, 54.09 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714661736",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.2481168,
+    "lng": -60.16304839999999
    },
    "geo_pendente": false
   },
@@ -205,69 +304,6 @@
     "fonte": "google",
     "lat": -3.215323,
     "lng": -60.168204
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787711334327",
-   "uf": "AM",
-   "cidade": "IRANDUBA",
-   "bairro": "LOT NOVA AMAZONAS I",
-   "endereco": "RUA LAGO DO GUEDES, N. 14, LOTE 14 QUADRA 36",
-   "preco": 110905.1,
-   "valor_avaliacao": 196900.0,
-   "desconto": 43.68,
-   "financiamento": "Não",
-   "descricao": "Casa, 52.30 de área total, 52.30 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711334327",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.2128893,
-    "lng": -60.18131810000001
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787714315161",
-   "uf": "AM",
-   "cidade": "IRANDUBA",
-   "bairro": "LOT NOVA AMAZONAS I",
-   "endereco": "RUA AÇUTUBA, N. SN, LOTE 28 QUADRA 12",
-   "preco": 107018.65,
-   "valor_avaliacao": 190000.0,
-   "desconto": 43.68,
-   "financiamento": "Não",
-   "descricao": "Casa, 54.09 de área total, 54.09 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714315161",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.2762336,
-    "lng": -60.1827884
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787714661736",
-   "uf": "AM",
-   "cidade": "IRANDUBA",
-   "bairro": "EST CARLOS BRAGA",
-   "endereco": "RUA DO INGLÊS, N. SN, QD 17 LT 31 ESTRADA CARLOS BRAGA KM 08",
-   "preco": 107018.65,
-   "valor_avaliacao": 190000.0,
-   "desconto": 43.68,
-   "financiamento": "Não",
-   "descricao": "Casa, 54.09 de área total, 54.09 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714661736",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.2481168,
-    "lng": -60.16304839999999
    },
    "geo_pendente": false
   },
@@ -1427,6 +1463,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8555522712234",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "TARUMA-ACU",
+   "endereco": "RUA DOS TIGRES, N. 2, Apto 202, BL 04",
+   "preco": 89600.3,
+   "valor_avaliacao": 168000.0,
+   "desconto": 46.67,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 102.46 de área total, 41.86 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555522712234",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.9778939,
+    "lng": -60.0229899
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555508054268",
    "uf": "AM",
    "cidade": "MANAUS",
@@ -1465,27 +1522,6 @@
     "fonte": "google",
     "lat": -3.0592438,
     "lng": -59.9944526
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555522712234",
-   "uf": "AM",
-   "cidade": "MANAUS",
-   "bairro": "TARUMA-ACU",
-   "endereco": "RUA DOS TIGRES, N. 2, Apto 202, BL 04",
-   "preco": 92089.19,
-   "valor_avaliacao": 168000.0,
-   "desconto": 45.19,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 102.46 de área total, 41.86 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555522712234",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.9778939,
-    "lng": -60.0229899
    },
    "geo_pendente": false
   },
@@ -1595,6 +1631,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787718893232",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "LAGO AZUL",
+   "endereco": "RUA DONA DEBLA HENRIQUES, N. 244, Apto 106, BL 05",
+   "preco": 112375.57,
+   "valor_avaliacao": 201000.0,
+   "desconto": 44.1,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 102.97 de área total, 57.67 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718893232",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.0608499,
+    "lng": -60.0239585
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555500570380",
    "uf": "AM",
    "cidade": "MANAUS",
@@ -1689,7 +1746,7 @@
    "desconto": 42.65,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 794.40 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401888412",
    "tipo": "terreno",
    "geo": {
@@ -1864,27 +1921,6 @@
     "fonte": "google",
     "lat": -2.958359,
     "lng": -60.0236955
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555535633303",
-   "uf": "AM",
-   "cidade": "MANAUS",
-   "bairro": "LAGO AZUL",
-   "endereco": "AVENIDA COMENDADOR JOSE CRUZ, N. 653, Apto 103, BL 21",
-   "preco": 85477.6,
-   "valor_avaliacao": 146000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 76.00 de área total, 42.43 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535633303",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.971976,
-    "lng": -60.0098813
    },
    "geo_pendente": false
   },
@@ -2246,6 +2282,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787705711270",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "COLONIA TERRA NOVA",
+   "endereco": "AVENIDA TORQUATO TAPAJOS, N. 7080, Apto 502, TORRE 05",
+   "preco": 104296.65,
+   "valor_avaliacao": 176000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 83.86 de área total, 41.46 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705711270",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.0222891,
+    "lng": -60.02394340000001
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787705719158",
    "uf": "AM",
    "cidade": "MANAUS",
@@ -2494,6 +2551,27 @@
     "fonte": "google",
     "lat": -2.9733799,
     "lng": -60.00899800000001
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787710504865",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "LAGO AZUL",
+   "endereco": "AVENIDA COMENDADOR JOSE CRUZ, N. 1081, Apto 503,  5º PAV BL 07 LT 09",
+   "preco": 106667.03,
+   "valor_avaliacao": 180000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 90.76 de área total, 41.37 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710504865",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.972077,
+    "lng": -60.0055558
    },
    "geo_pendente": false
   },
@@ -3061,6 +3139,27 @@
     "fonte": "google",
     "lat": -2.972077,
     "lng": -60.0055558
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1787702019530",
+   "uf": "AM",
+   "cidade": "MANAUS",
+   "bairro": "TARUMA",
+   "endereco": "AVENIDA DO TURISMO, N. 13830, Apto 404, BL.16",
+   "preco": 120219.85,
+   "valor_avaliacao": 191000.0,
+   "desconto": 37.06,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 41.12 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702019530",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.9883731,
+    "lng": -60.03835909999999
    },
    "geo_pendente": false
   },

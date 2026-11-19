@@ -1,9 +1,9 @@
 {
  "uf": "MA",
- "data_geracao_caixa": "17/11/2026",
- "coletado_em": "18/11/2026 10:47",
+ "data_geracao_caixa": "18/11/2026",
+ "coletado_em": "19/11/2026 01:04",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_MA.csv",
- "total": 193,
+ "total": 197,
  "colunas": [
   "id",
   "uf",
@@ -586,12 +586,12 @@
    "cidade": "CHAPADINHA",
    "bairro": "BOA VISTA",
    "endereco": "RUA 03, N. 14, QD 01",
-   "preco": 109843.58,
+   "preco": 106792.37,
    "valor_avaliacao": 202500.0,
-   "desconto": 45.76,
-   "financiamento": "Não",
+   "desconto": 47.27,
+   "financiamento": "Sim",
    "descricao": "Casa, 192.52 de área total, 192.52 de área privativa, 1184.40 de área do terreno,  3 qto(s), a.serv, WC, 3 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416787404",
    "tipo": "casa",
    "geo": {
@@ -691,12 +691,12 @@
    "cidade": "CURURUPU",
    "bairro": "AREIA BRANCA",
    "endereco": "TRAVESSA CASTELO BRANCO, N. 07, LT 07",
-   "preco": 86367.37,
+   "preco": 84033.11,
    "valor_avaliacao": 165000.0,
-   "desconto": 47.66,
-   "financiamento": "Não",
+   "desconto": 49.08,
+   "financiamento": "Sim",
    "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 192.44 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420091484",
    "tipo": "casa",
    "geo": {
@@ -712,12 +712,12 @@
    "cidade": "CURURUPU",
    "bairro": "AREIA BRANCA",
    "endereco": "RUA ÉBANO, N. SN, QD 15 LT 01",
-   "preco": 100139.47,
+   "preco": 97571.79,
    "valor_avaliacao": 181500.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
+   "desconto": 46.25,
+   "financiamento": "Sim",
    "descricao": "Casa, 65.45 de área total, 65.45 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431292826",
    "tipo": "casa",
    "geo": {
@@ -875,6 +875,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444407047746",
+   "uf": "MA",
+   "cidade": "HUMBERTO DE CAMPOS",
+   "bairro": "CENTRO",
+   "endereco": "RUA 03, N. 10, LT 10 QD 08",
+   "preco": 82755.26,
+   "valor_avaliacao": 149224.22,
+   "desconto": 44.55,
+   "financiamento": "Sim",
+   "descricao": "Casa, 66.34 de área total, 66.34 de área privativa, 420.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444407047746",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.5396225,
+    "lng": -44.2010218
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444404449086",
    "uf": "MA",
    "cidade": "HUMBERTO DE CAMPOS",
@@ -892,27 +913,6 @@
     "fonte": "google",
     "lat": -3.210773,
     "lng": -43.4107423
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444407047746",
-   "uf": "MA",
-   "cidade": "HUMBERTO DE CAMPOS",
-   "bairro": "CENTRO",
-   "endereco": "RUA 03, N. 10, LT 10 QD 08",
-   "preco": 84933.03,
-   "valor_avaliacao": 149224.22,
-   "desconto": 43.09,
-   "financiamento": "Não",
-   "descricao": "Casa, 66.34 de área total, 66.34 de área privativa, 420.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444407047746",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.5396225,
-    "lng": -44.2010218
    },
    "geo_pendente": false
   },
@@ -1394,6 +1394,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787717308859",
+   "uf": "MA",
+   "cidade": "RAPOSA",
+   "bairro": "RAPOSA",
+   "endereco": "ESTRADA CAVU, N. 11, QD 05",
+   "preco": 111816.5,
+   "valor_avaliacao": 185000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 44.18 de área total, 41.81 de área privativa, 125.60 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717308859",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.445535,
+    "lng": -44.10595259999999
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444411729854",
    "uf": "MA",
    "cidade": "SANTA HELENA",
@@ -1594,6 +1615,27 @@
     "fonte": "google",
     "lat": -2.5524308,
     "lng": -45.7793808
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555537921110",
+   "uf": "MA",
+   "cidade": "SAO JOSE DE RIBAMAR",
+   "bairro": "MIRITIUA",
+   "endereco": "1A RUA NONATO MATOS, N. SN, Apto 402, BL06",
+   "preco": 129344.49,
+   "valor_avaliacao": 214000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 107.30 de área total, 50.62 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537921110",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.489949,
+    "lng": -44.1831666
    },
    "geo_pendente": false
   },
@@ -2096,27 +2138,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444404319672",
-   "uf": "MA",
-   "cidade": "SAO LUIS",
-   "bairro": "CIDADE OPERARIA",
-   "endereco": "AV ARTERIAL EXTERNA, N. 12, QD 08C",
-   "preco": 158691.26,
-   "valor_avaliacao": 249000.0,
-   "desconto": 36.27,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 143.38 de área privativa, 200.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444404319672",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -2.5960968,
-    "lng": -44.1973319
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1555535787957",
    "uf": "MA",
    "cidade": "SAO LUIS",
@@ -2368,12 +2389,12 @@
    "cidade": "TIMON",
    "bairro": "Baixa do Côco",
    "endereco": "AVENIDA 02, N. 2708, QD 13 LT 36 A",
-   "preco": 80124.55,
+   "preco": 77835.28,
    "valor_avaliacao": 150000.0,
-   "desconto": 46.59,
-   "financiamento": "Não",
+   "desconto": 48.11,
+   "financiamento": "Sim",
    "descricao": "Casa, 69.70 de área total, 69.70 de área privativa, 179.90 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414146096",
    "tipo": "casa",
    "geo": {
@@ -2415,13 +2436,55 @@
    "desconto": 45.85,
    "financiamento": "Não",
    "descricao": "Casa, 69.00 de área total, 69.00 de área privativa, 144.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425320520",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -5.1035637,
     "lng": -42.8486136
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444417111747",
+   "uf": "MA",
+   "cidade": "TIMON",
+   "bairro": "JOIA",
+   "endereco": "RUA A, N. 63, LT02 QD I",
+   "preco": 101178.81,
+   "valor_avaliacao": 186000.0,
+   "desconto": 45.61,
+   "financiamento": "Sim",
+   "descricao": "Casa, 69.49 de área total, 69.49 de área privativa, 140.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417111747",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.140801,
+    "lng": -42.8364783
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444417927321",
+   "uf": "MA",
+   "cidade": "TIMON",
+   "bairro": "PLANALTO BOA ESPERANCA",
+   "endereco": "RUA VINTE E TRES, N. 536, QD 67 LT 01/20A",
+   "preco": 97627.33,
+   "valor_avaliacao": 178103.32,
+   "desconto": 45.19,
+   "financiamento": "Sim",
+   "descricao": "Casa, 69.80 de área total, 69.80 de área privativa, 240.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417927321",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.1437389,
+    "lng": -42.8321253
    },
    "geo_pendente": false
   },
@@ -2447,44 +2510,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444417111747",
-   "uf": "MA",
-   "cidade": "TIMON",
-   "bairro": "JOIA",
-   "endereco": "RUA A, N. 63, LT02 QD I",
-   "preco": 103989.34,
-   "valor_avaliacao": 186000.0,
-   "desconto": 44.1,
-   "financiamento": "Não",
-   "descricao": "Casa, 69.49 de área total, 69.49 de área privativa, 140.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417111747",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.140801,
-    "lng": -42.8364783
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444417927321",
+   "id": "8444412328039",
    "uf": "MA",
    "cidade": "TIMON",
    "bairro": "PLANALTO BOA ESPERANCA",
-   "endereco": "RUA VINTE E TRES, N. 536, QD 67 LT 01/20A",
-   "preco": 100265.91,
-   "valor_avaliacao": 178103.32,
+   "endereco": "RUA 18, N. 775, QD 50 LT 16",
+   "preco": 100489.23,
+   "valor_avaliacao": 178500.0,
    "desconto": 43.71,
-   "financiamento": "Não",
-   "descricao": "Casa, 69.80 de área total, 69.80 de área privativa, 240.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417927321",
+   "financiamento": "Sim",
+   "descricao": "Casa, 69.90 de área total, 69.90 de área privativa, 257.10 de área do terreno,  3 qto(s), a.serv, WC, 2 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412328039",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -5.1437389,
-    "lng": -42.8321253
+    "lat": -5.141606299999999,
+    "lng": -42.8290371
    },
    "geo_pendente": false
   },
@@ -2611,27 +2653,6 @@
     "fonte": "google",
     "lat": -2.521032,
     "lng": -44.2383055
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444412328039",
-   "uf": "MA",
-   "cidade": "TIMON",
-   "bairro": "PLANALTO BOA ESPERANCA",
-   "endereco": "RUA 18, N. 775, QD 50 LT 16",
-   "preco": 103133.68,
-   "valor_avaliacao": 178500.0,
-   "desconto": 42.23,
-   "financiamento": "Não",
-   "descricao": "Casa, 69.90 de área total, 69.90 de área privativa, 257.10 de área do terreno,  3 qto(s), a.serv, WC, 2 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412328039",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -5.141606299999999,
-    "lng": -42.8290371
    },
    "geo_pendente": false
   },
@@ -3077,6 +3098,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444413096840",
+   "uf": "MA",
+   "cidade": "TIMON",
+   "bairro": "Baixa do Côco",
+   "endereco": "AVENIDA 03, N. 2055, QD 23 LT 15",
+   "preco": 125718.01,
+   "valor_avaliacao": 208000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 127.40 de área privativa, 300.00 de área do terreno, a.serv, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413096840",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.1085154,
+    "lng": -42.8237318
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444412076986",
    "uf": "MA",
    "cidade": "TIMON",
@@ -3182,6 +3224,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444403421978",
+   "uf": "MA",
+   "cidade": "TIMON",
+   "bairro": "PARQUE PIAUI I",
+   "endereco": "RUA ANTONIO GUIMARAES, N. 2577, LT 09/10 QD 237",
+   "preco": 150995.68,
+   "valor_avaliacao": 243000.0,
+   "desconto": 37.87,
+   "financiamento": "Sim",
+   "descricao": "Casa, 107.85 de área total, 107.85 de área privativa, 140.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403421978",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.1025266,
+    "lng": -42.846524
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444413328220",
    "uf": "MA",
    "cidade": "TIMON",
@@ -3220,6 +3283,27 @@
     "fonte": "google",
     "lat": -5.1329045,
     "lng": -42.8392816
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "10304798",
+   "uf": "MA",
+   "cidade": "TIMON",
+   "bairro": "TIMON",
+   "endereco": "RUA 16 - BAIRRO POPULAR, N. 0, QD 27J, LT 11B, 12A, 13 A 22,",
+   "preco": 234613.21,
+   "valor_avaliacao": 368127.96,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 2372.57 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10304798",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -5.1045734,
+    "lng": -42.8289187
    },
    "geo_pendente": false
   },

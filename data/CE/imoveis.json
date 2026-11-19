@@ -1,9 +1,9 @@
 {
  "uf": "CE",
- "data_geracao_caixa": "17/11/2026",
- "coletado_em": "18/11/2026 10:47",
+ "data_geracao_caixa": "18/11/2026",
+ "coletado_em": "19/11/2026 01:04",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_CE.csv",
- "total": 654,
+ "total": 662,
  "colunas": [
   "id",
   "uf",
@@ -19,6 +19,27 @@
   "link"
  ],
  "imoveis": [
+  {
+   "id": "1444417119316",
+   "uf": "CE",
+   "cidade": "ACARAU",
+   "bairro": "TRAV MONGUBAS-SEDE",
+   "endereco": "RUA SDO, N. 324, QUADRA 03 LOTE 15",
+   "preco": 104992.75,
+   "valor_avaliacao": 170000.0,
+   "desconto": 38.24,
+   "financiamento": "Não",
+   "descricao": "Casa, 76.75 de área total, 76.75 de área privativa, 150.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 2 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417119316",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -2.8772694,
+    "lng": -40.1132698
+   },
+   "geo_pendente": false
+  },
   {
    "id": "1444419341458",
    "uf": "CE",
@@ -319,12 +340,12 @@
    "cidade": "CAUCAIA",
    "bairro": "ITAMBE",
    "endereco": "RUA QUINZE DE NOVEMBRO, N. 941, Apto 304, BL 11",
-   "preco": 117407.32,
+   "preco": 114234.15,
    "valor_avaliacao": 210000.0,
-   "desconto": 44.1,
-   "financiamento": "Não",
+   "desconto": 45.61,
+   "financiamento": "Sim",
    "descricao": "Apartamento, 64.51 de área total, 47.76 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716931560",
    "tipo": "apartamento",
    "geo": {
@@ -1310,17 +1331,38 @@
    "geo_pendente": false
   },
   {
+   "id": "8787712835192",
+   "uf": "CE",
+   "cidade": "FORTALEZA",
+   "bairro": "CAJAZEIRAS",
+   "endereco": "AVENIDA GEOGRAFO ANTONIO RIBEIRO ZARANZA, N. 2598, Apto 304, BL 16",
+   "preco": 105772.36,
+   "valor_avaliacao": 200000.0,
+   "desconto": 47.12,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 44.28 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712835192",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.8082764,
+    "lng": -38.5132313
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787718186820",
    "uf": "CE",
    "cidade": "FORTALEZA",
    "bairro": "NOVO MONDUBIM",
    "endereco": "RUA 101, N. 420, Apto 406, T 03",
-   "preco": 106225.67,
+   "preco": 103354.71,
    "valor_avaliacao": 190000.0,
-   "desconto": 44.1,
-   "financiamento": "Não",
+   "desconto": 45.61,
+   "financiamento": "Sim",
    "descricao": "Apartamento, 75.28 de área total, 38.66 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718186820",
    "tipo": "apartamento",
    "geo": {
@@ -1336,12 +1378,12 @@
    "cidade": "FORTALEZA",
    "bairro": "TATU-MUNDE",
    "endereco": "RUA PAULINO ROCHA, N. 798,",
-   "preco": 81879.66,
+   "preco": 79666.7,
    "valor_avaliacao": 145000.0,
-   "desconto": 43.54,
-   "financiamento": "Não",
+   "desconto": 45.06,
+   "financiamento": "Sim",
    "descricao": "Casa, 63.80 de área total, 63.80 de área privativa, 134.40 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405699337",
    "tipo": "casa",
    "geo": {
@@ -1357,12 +1399,12 @@
    "cidade": "FORTALEZA",
    "bairro": "PARQUE SANTA MARIA",
    "endereco": "TAVESSA RIO JORDAO, N. 1190, Apto 204, BL 01",
-   "preco": 90262.88,
+   "preco": 87823.35,
    "valor_avaliacao": 158000.0,
-   "desconto": 42.88,
-   "financiamento": "Não",
+   "desconto": 44.42,
+   "financiamento": "Sim",
    "descricao": "Apartamento, 0.00 de área total, 52.63 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408360705",
    "tipo": "apartamento",
    "geo": {
@@ -1823,6 +1865,27 @@
    "tipo": "casa"
   },
   {
+   "id": "8787716813940",
+   "uf": "CE",
+   "cidade": "FORTALEZA",
+   "bairro": "CONJUNTO ESPERANCA",
+   "endereco": "RUA 101 (SDO), N. 420, Apto 215, TORRE 04",
+   "preco": 114838.57,
+   "valor_avaliacao": 190000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 74.77 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716813940",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.8105478,
+    "lng": -38.5886361
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444429946920",
    "uf": "CE",
    "cidade": "FORTALEZA",
@@ -1928,6 +1991,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787706086264",
+   "uf": "CE",
+   "cidade": "FORTALEZA",
+   "bairro": "PARQUE DOIS IRMAOS",
+   "endereco": "RUA D, N. 127, Apto 304, BL 01 3° PAVIMENTO",
+   "preco": 120882.7,
+   "valor_avaliacao": 200000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 89.33 de área total, 42.64 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706086264",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.810618799999999,
+    "lng": -38.54851
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787708550189",
    "uf": "CE",
    "cidade": "FORTALEZA",
@@ -2019,6 +2103,27 @@
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710885850",
    "tipo": "apartamento"
+  },
+  {
+   "id": "8787717107560",
+   "uf": "CE",
+   "cidade": "FORTALEZA",
+   "bairro": "BARROSO",
+   "endereco": "RUA B, N. 184, Apto 304, BL 6 LT 1 QD 3",
+   "preco": 156137.65,
+   "valor_avaliacao": 255000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 45.82 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717107560",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.826562399999999,
+    "lng": -38.5208084
+   },
+   "geo_pendente": false
   },
   {
    "id": "1787702024436",
@@ -2284,27 +2389,6 @@
     "fonte": "google",
     "lat": -3.8287006,
     "lng": -38.5652944
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555513275587",
-   "uf": "CE",
-   "cidade": "FORTALEZA",
-   "bairro": "MARAPONGA",
-   "endereco": "RUA SUICA, N. 250, Apto 101, BL 12A",
-   "preco": 186000.0,
-   "valor_avaliacao": 186000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 66.43 de área total, 60.20 de área privativa, 0.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555513275587",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -3.792956,
-    "lng": -38.570722
    },
    "geo_pendente": false
   },
@@ -4160,6 +4244,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444404455035",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "VERTENTE",
+   "endereco": "AVENIDA MARINA FERREIRA DE ALMEIDA, N. 5297-A,  CS A",
+   "preco": 27931.45,
+   "valor_avaliacao": 84000.0,
+   "desconto": 66.75,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 53.14 de área privativa, 282.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404455035",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0946597,
+    "lng": -38.4518864
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444425461956",
    "uf": "CE",
    "cidade": "HORIZONTE",
@@ -5252,6 +5357,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444433285665",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "DIADEMA",
+   "endereco": "RUA FIRENZINI, N. 80, LT 02 QD 02",
+   "preco": 85788.22,
+   "valor_avaliacao": 198000.0,
+   "desconto": 56.68,
+   "financiamento": "Sim",
+   "descricao": "Casa, 78.41 de área total, 78.41 de área privativa, 149.65 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433285665",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.090631399999999,
+    "lng": -38.4836782
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444427296740",
    "uf": "CE",
    "cidade": "HORIZONTE",
@@ -5714,27 +5840,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444433285665",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "DIADEMA",
-   "endereco": "RUA FIRENZINI, N. 80, LT 02 QD 02",
-   "preco": 91507.44,
-   "valor_avaliacao": 198000.0,
-   "desconto": 53.79,
-   "financiamento": "Não",
-   "descricao": "Casa, 78.41 de área total, 78.41 de área privativa, 149.65 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433285665",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.090631399999999,
-    "lng": -38.4836782
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444426391790",
    "uf": "CE",
    "cidade": "HORIZONTE",
@@ -6071,6 +6176,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444428388621",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "PLANALTO DA GALILÉIA",
+   "endereco": "RUA JUVENAL SEMEAO, N. 555-B, TERRENO 15",
+   "preco": 79223.14,
+   "valor_avaliacao": 160000.0,
+   "desconto": 50.49,
+   "financiamento": "Sim",
+   "descricao": "Casa, 63.53 de área total, 63.53 de área privativa, 198.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428388621",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.119382799999999,
+    "lng": -38.52740259999999
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "10189480",
    "uf": "CE",
    "cidade": "HORIZONTE",
@@ -6365,6 +6491,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444415106525",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "ALTO DA ESTRELA",
+   "endereco": "RUA ROMAO RAMALHO DA SILVA, N. 768A, LT 01",
+   "preco": 78796.87,
+   "valor_avaliacao": 156434.45,
+   "desconto": 49.63,
+   "financiamento": "Sim",
+   "descricao": "Casa, 83.17 de área total, 83.17 de área privativa, 312.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415106525",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.1337205,
+    "lng": -38.48697
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444408144026",
    "uf": "CE",
    "cidade": "HORIZONTE",
@@ -6428,27 +6575,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444428388621",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "PLANALTO DA GALILÉIA",
-   "endereco": "RUA JUVENAL SEMEAO, N. 555-B, TERRENO 15",
-   "preco": 81486.66,
-   "valor_avaliacao": 160000.0,
-   "desconto": 49.08,
-   "financiamento": "Não",
-   "descricao": "Casa, 63.53 de área total, 63.53 de área privativa, 198.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428388621",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.119382799999999,
-    "lng": -38.52740259999999
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444429328320",
    "uf": "CE",
    "cidade": "HORIZONTE",
@@ -6461,6 +6587,27 @@
    "descricao": "Casa, 66.15 de área total, 66.15 de área privativa, 132.64 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429328320",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0939301,
+    "lng": -38.449129
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444430050144",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "VERTENTE",
+   "endereco": "RUA ROMÊNIA, N. 81 H, QD 01 LT 03",
+   "preco": 83523.82,
+   "valor_avaliacao": 164000.0,
+   "desconto": 49.08,
+   "financiamento": "Sim",
+   "descricao": "Casa, 468.99 de área total, 66.15 de área privativa, 66.15 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430050144",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
@@ -6596,6 +6743,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444412851270",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "PLANALTO DA GALILÉIA",
+   "endereco": "RUA JUVENAL SEMEAO, N. 556, CS A",
+   "preco": 118987.15,
+   "valor_avaliacao": 231604.51,
+   "desconto": 48.63,
+   "financiamento": "Sim",
+   "descricao": "Casa, 75.98 de área total, 75.98 de área privativa, 396.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412851270",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.1193824,
+    "lng": -38.52740050000001
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444430082240",
    "uf": "CE",
    "cidade": "HORIZONTE",
@@ -6613,27 +6781,6 @@
     "fonte": "google",
     "lat": -4.0998348,
     "lng": -38.4948697
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444415106525",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "ALTO DA ESTRELA",
-   "endereco": "RUA ROMAO RAMALHO DA SILVA, N. 768A, LT 01",
-   "preco": 81114.43,
-   "valor_avaliacao": 156434.45,
-   "desconto": 48.15,
-   "financiamento": "Não",
-   "descricao": "Casa, 83.17 de área total, 83.17 de área privativa, 312.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415106525",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.1337205,
-    "lng": -38.48697
    },
    "geo_pendente": false
   },
@@ -6659,27 +6806,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444430050144",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "VERTENTE",
-   "endereco": "RUA ROMÊNIA, N. 81 H, QD 01 LT 03",
-   "preco": 85843.93,
-   "valor_avaliacao": 164000.0,
-   "desconto": 47.66,
-   "financiamento": "Não",
-   "descricao": "Casa, 468.99 de área total, 66.15 de área privativa, 66.15 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430050144",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.0939301,
-    "lng": -38.449129
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444421866692",
    "uf": "CE",
    "cidade": "HORIZONTE",
@@ -6701,27 +6827,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444412851270",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "PLANALTO DA GALILÉIA",
-   "endereco": "RUA JUVENAL SEMEAO, N. 556, CS A",
-   "preco": 122486.77,
-   "valor_avaliacao": 231604.51,
-   "desconto": 47.12,
-   "financiamento": "Não",
-   "descricao": "Casa, 75.98 de área total, 75.98 de área privativa, 396.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412851270",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.1193824,
-    "lng": -38.52740050000001
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444426400241",
    "uf": "CE",
    "cidade": "HORIZONTE",
@@ -6739,6 +6844,69 @@
     "fonte": "google",
     "lat": -3.7903848,
     "lng": -38.5650429
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444426940238",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "CANAUBAL",
+   "endereco": "RUA CROÁCIA, N. 53-G, QD 01 LT 02",
+   "preco": 82275.64,
+   "valor_avaliacao": 155000.0,
+   "desconto": 46.92,
+   "financiamento": "Sim",
+   "descricao": "Casa, 60.70 de área total, 60.70 de área privativa, 115.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426940238",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0935156,
+    "lng": -38.4447217
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444434596311",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "PLA DA GALILEIA",
+   "endereco": "RUA JUVENAL SEMEAO, N. 340, CASA B",
+   "preco": 79621.59,
+   "valor_avaliacao": 150000.0,
+   "desconto": 46.92,
+   "financiamento": "Sim",
+   "descricao": "Casa, 60.68 de área total, 60.68 de área privativa, 259.82 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434596311",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.119462899999999,
+    "lng": -38.5278558
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444429649950",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "VERTENTE",
+   "endereco": "RUA L, N. 180, CS B",
+   "preco": 82275.64,
+   "valor_avaliacao": 155000.0,
+   "desconto": 46.92,
+   "financiamento": "Sim",
+   "descricao": "Casa, 66.15 de área total, 66.15 de área privativa, 932.04 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429649950",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0998348,
+    "lng": -38.4948697
    },
    "geo_pendente": false
   },
@@ -6785,6 +6953,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444408849372",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "NOVO DIADEMA",
+   "endereco": "RUA PROFESSORA MARIA OZELIA COSTA, N. 1120,",
+   "preco": 86933.62,
+   "valor_avaliacao": 163000.0,
+   "desconto": 46.67,
+   "financiamento": "Sim",
+   "descricao": "Casa, 107.72 de área total, 107.72 de área privativa, 197.51 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408849372",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.089695,
+    "lng": -38.4792839
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444434444562",
    "uf": "CE",
    "cidade": "HORIZONTE",
@@ -6802,6 +6991,69 @@
     "fonte": "google",
     "lat": -4.093184,
     "lng": -38.4504171
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444435683722",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "VERTENTE",
+   "endereco": "RUA M, N. 185, LT 02 CS A",
+   "preco": 85333.62,
+   "valor_avaliacao": 160000.0,
+   "desconto": 46.67,
+   "financiamento": "Sim",
+   "descricao": "Casa, 66.15 de área total, 66.15 de área privativa, 113.13 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435683722",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.093184,
+    "lng": -38.4504171
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444434428400",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "OLHO D'AGUA",
+   "endereco": "RUA PALMACIA, N. 53, QD 03 CS B",
+   "preco": 88533.63,
+   "valor_avaliacao": 166000.0,
+   "desconto": 46.67,
+   "financiamento": "Sim",
+   "descricao": "Casa, 76.96 de área total, 76.96 de área privativa, 144.47 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434428400",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0855597,
+    "lng": -38.48338270000001
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444435921402",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "OLHO D'AGUA",
+   "endereco": "RUA ARACOIABA, N. 132B, QUADRA 06",
+   "preco": 95466.98,
+   "valor_avaliacao": 179000.0,
+   "desconto": 46.67,
+   "financiamento": "Sim",
+   "descricao": "Casa, 73.13 de área total, 73.13 de área privativa, 265.71 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435921402",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0852842,
+    "lng": -38.4822317
    },
    "geo_pendente": false
   },
@@ -6844,6 +7096,321 @@
     "fonte": "google",
     "lat": -4.1324988,
     "lng": -38.4844325
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444428163360",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "ALTO ALEGRE",
+   "endereco": "RUA JOSÉ NÉRIS DA SILVA, N. 2951, CS C",
+   "preco": 96765.41,
+   "valor_avaliacao": 180000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 280.33 de área total, 81.79 de área privativa, 152.45 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428163360",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0682117,
+    "lng": -38.5146029
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444428273611",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "ALTO ALEGRE",
+   "endereco": "RUA ESCARLATE, N. 46, CA B",
+   "preco": 95690.24,
+   "valor_avaliacao": 178000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 72.16 de área total, 72.16 de área privativa, 548.33 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428273611",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.1365557,
+    "lng": -38.4969979
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444428373551",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "DESTRITO DOURADO",
+   "endereco": "R GRECIA, N. 36-A, LT 04 QD 01",
+   "preco": 89239.2,
+   "valor_avaliacao": 166000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 388.58 de área total, 60.70 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428373551",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0998348,
+    "lng": -38.4948697
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444426499973",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "CATOLE",
+   "endereco": "RUA JOAO PEREIRA DE NORONHA, N. 40-A, QD 14 LT 01",
+   "preco": 86013.7,
+   "valor_avaliacao": 160000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 72.30 de área total, 72.30 de área privativa, 135.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426499973",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0706188,
+    "lng": -38.5116499
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444429344814",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "MAL COZINHADO",
+   "endereco": "RUA NICE, N. 25-C,",
+   "preco": 97125.27,
+   "valor_avaliacao": 180669.41,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 463.89 de área total, 71.71 de área privativa, 392.18 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429344814",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0842989,
+    "lng": -38.4908671
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444403762520",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "DIADEMA",
+   "endereco": "RUA GILBERTO GOMES PEREIRA, N. 469, CS B",
+   "preco": 86013.7,
+   "valor_avaliacao": 160000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 75.68 de área total, 75.68 de área privativa, 168.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s).",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403762520",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.09249,
+    "lng": -38.4819929
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444412460298",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "DIADEMA",
+   "endereco": "RUA EDVIRGENS MARIA DA CONCEICAO, N. 224, CS B",
+   "preco": 92464.72,
+   "valor_avaliacao": 172000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 74.42 de área total, 74.42 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412460298",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.090631399999999,
+    "lng": -38.4836782
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444431602175",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "DIADEMA",
+   "endereco": "RUA MILANO, N. 40-H, QD 02",
+   "preco": 92464.72,
+   "valor_avaliacao": 172000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 701.89 de área total, 78.41 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431602175",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0891635,
+    "lng": -38.4834443
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444429120983",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "VERTENTE",
+   "endereco": "RUA ROMENIA, N. 32E, QUADRA 02 LOTE 06",
+   "preco": 88701.62,
+   "valor_avaliacao": 165000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 468.99 de área total, 66.15 de área privativa, 932.04 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429120983",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0939301,
+    "lng": -38.449129
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444429323981",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "VERTENTE",
+   "endereco": "RUA ROMENIA, N. 32G, QUADRA 02 LOTE 06",
+   "preco": 88701.62,
+   "valor_avaliacao": 165000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 66.15 de área total, 66.15 de área privativa, 932.04 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429323981",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0939301,
+    "lng": -38.449129
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444431522538",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "VERTENTE",
+   "endereco": "RUA TURQUIA, N. 30B, QD 02 LT 06",
+   "preco": 86013.7,
+   "valor_avaliacao": 160000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 66.15 de área total, 66.15 de área privativa, 116.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431522538",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0998348,
+    "lng": -38.4948697
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444435655079",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "VERTENTE",
+   "endereco": "RUA CENI MENDES VALE (ANTIGA RUA M), N. 173 A, CS A PARTE LT 03 QD 03",
+   "preco": 91389.55,
+   "valor_avaliacao": 170000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 0.00 de área total, 66.15 de área privativa, 113.13 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435655079",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.093184,
+    "lng": -38.4504171
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444435915399",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "VERTENTE",
+   "endereco": "RUA MONTENEGRO, N. 17B, FI 0,47 DO TERRENO",
+   "preco": 88701.62,
+   "valor_avaliacao": 165000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 66.15 de área total, 66.15 de área privativa, 258.22 de área do terreno,  2 qto(s), 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435915399",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0931497,
+    "lng": -38.45086920000001
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444436169089",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "VERTENTE",
+   "endereco": "RUA MONTENEGRO, N. 29-A, LT  07",
+   "preco": 86743.04,
+   "valor_avaliacao": 161356.71,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 66.15 de área total, 66.15 de área privativa, 226.26 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436169089",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.5247716,
+    "lng": -37.7075146
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444434066266",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "ALTO DA ESTRELA",
+   "endereco": "RUA MANOEL FELICIANO DA SILVA, N. 4331, CS 04",
+   "preco": 96765.41,
+   "valor_avaliacao": 180000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Casa, 64.50 de área total, 64.50 de área privativa, 136.35 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434066266",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.1014438,
+    "lng": -38.4860181
    },
    "geo_pendente": false
   },
@@ -6953,6 +7520,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444435793293",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "VERTENTE",
+   "endereco": "RUA M, N. 197, LT 01 CS B",
+   "preco": 100634.85,
+   "valor_avaliacao": 185000.0,
+   "desconto": 45.61,
+   "financiamento": "Sim",
+   "descricao": "Casa, 73.71 de área total, 73.71 de área privativa, 258.22 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435793293",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.093184,
+    "lng": -38.4504171
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444422661431",
    "uf": "CE",
    "cidade": "HORIZONTE",
@@ -7037,149 +7625,44 @@
    "geo_pendente": false
   },
   {
-   "id": "8444426940238",
+   "id": "8444428336400",
    "uf": "CE",
    "cidade": "HORIZONTE",
-   "bairro": "CANAUBAL",
-   "endereco": "RUA CROÁCIA, N. 53-G, QD 01 LT 02",
-   "preco": 84440.79,
-   "valor_avaliacao": 155000.0,
-   "desconto": 45.53,
-   "financiamento": "Não",
-   "descricao": "Casa, 60.70 de área total, 60.70 de área privativa, 115.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426940238",
+   "bairro": "DIADEMA",
+   "endereco": "RUA PROFESSORA ZULEIDE BEZERRA DE CARVAL, N. SN, CS 610H",
+   "preco": 109517.71,
+   "valor_avaliacao": 199553.59,
+   "desconto": 45.12,
+   "financiamento": "Sim",
+   "descricao": "Casa, 82.60 de área total, 82.60 de área privativa, 3188.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428336400",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -4.0935156,
-    "lng": -38.4447217
+    "lat": -4.0934458,
+    "lng": -38.4775156
    },
    "geo_pendente": false
   },
   {
-   "id": "8444434596311",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "PLA DA GALILEIA",
-   "endereco": "RUA JUVENAL SEMEAO, N. 340, CASA B",
-   "preco": 81716.89,
-   "valor_avaliacao": 150000.0,
-   "desconto": 45.53,
-   "financiamento": "Não",
-   "descricao": "Casa, 60.68 de área total, 60.68 de área privativa, 259.82 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434596311",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.119462899999999,
-    "lng": -38.5278558
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444429649950",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "VERTENTE",
-   "endereco": "RUA L, N. 180, CS B",
-   "preco": 84440.79,
-   "valor_avaliacao": 155000.0,
-   "desconto": 45.53,
-   "financiamento": "Não",
-   "descricao": "Casa, 66.15 de área total, 66.15 de área privativa, 932.04 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429649950",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.0998348,
-    "lng": -38.4948697
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444408849372",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "NOVO DIADEMA",
-   "endereco": "RUA PROFESSORA MARIA OZELIA COSTA, N. 1120,",
-   "preco": 89348.45,
-   "valor_avaliacao": 163000.0,
-   "desconto": 45.19,
-   "financiamento": "Não",
-   "descricao": "Casa, 107.72 de área total, 107.72 de área privativa, 197.51 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408849372",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.089695,
-    "lng": -38.4792839
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444435683722",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "VERTENTE",
-   "endereco": "RUA M, N. 185, LT 02 CS A",
-   "preco": 87704.0,
-   "valor_avaliacao": 160000.0,
-   "desconto": 45.19,
-   "financiamento": "Não",
-   "descricao": "Casa, 66.15 de área total, 66.15 de área privativa, 113.13 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435683722",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.093184,
-    "lng": -38.4504171
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444434428400",
+   "id": "8444434884848",
    "uf": "CE",
    "cidade": "HORIZONTE",
    "bairro": "OLHO D'AGUA",
-   "endereco": "RUA PALMACIA, N. 53, QD 03 CS B",
-   "preco": 90992.89,
-   "valor_avaliacao": 166000.0,
-   "desconto": 45.19,
-   "financiamento": "Não",
-   "descricao": "Casa, 76.96 de área total, 76.96 de área privativa, 144.47 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434428400",
+   "endereco": "RUA GUARAMIRANGA, N. 285B, QD 01",
+   "preco": 105921.01,
+   "valor_avaliacao": 193000.0,
+   "desconto": 45.12,
+   "financiamento": "Sim",
+   "descricao": "Casa, 75.00 de área total, 75.00 de área privativa, 126.30 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434884848",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -4.0855597,
-    "lng": -38.48338270000001
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444435921402",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "OLHO D'AGUA",
-   "endereco": "RUA ARACOIABA, N. 132B, QUADRA 06",
-   "preco": 98118.84,
-   "valor_avaliacao": 179000.0,
-   "desconto": 45.19,
-   "financiamento": "Não",
-   "descricao": "Casa, 73.13 de área total, 73.13 de área privativa, 265.71 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435921402",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.0852842,
-    "lng": -38.4822317
+    "lat": -4.084908599999999,
+    "lng": -38.4822225
    },
    "geo_pendente": false
   },
@@ -7268,111 +7751,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444428163360",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "ALTO ALEGRE",
-   "endereco": "RUA JOSÉ NÉRIS DA SILVA, N. 2951, CS C",
-   "preco": 99311.87,
-   "valor_avaliacao": 180000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 280.33 de área total, 81.79 de área privativa, 152.45 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428163360",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.0682117,
-    "lng": -38.5146029
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444428273611",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "ALTO ALEGRE",
-   "endereco": "RUA ESCARLATE, N. 46, CA B",
-   "preco": 98208.4,
-   "valor_avaliacao": 178000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 72.16 de área total, 72.16 de área privativa, 548.33 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428273611",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.1365557,
-    "lng": -38.4969979
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444428373551",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "DESTRITO DOURADO",
-   "endereco": "R GRECIA, N. 36-A, LT 04 QD 01",
-   "preco": 91587.6,
-   "valor_avaliacao": 166000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 388.58 de área total, 60.70 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428373551",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.0998348,
-    "lng": -38.4948697
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444426499973",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "CATOLE",
-   "endereco": "RUA JOAO PEREIRA DE NORONHA, N. 40-A, QD 14 LT 01",
-   "preco": 88277.22,
-   "valor_avaliacao": 160000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 72.30 de área total, 72.30 de área privativa, 135.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426499973",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.0706188,
-    "lng": -38.5116499
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444429344814",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "MAL COZINHADO",
-   "endereco": "RUA NICE, N. 25-C,",
-   "preco": 99681.2,
-   "valor_avaliacao": 180669.41,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 463.89 de área total, 71.71 de área privativa, 392.18 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429344814",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.0842989,
-    "lng": -38.4908671
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787700232366",
    "uf": "CE",
    "cidade": "HORIZONTE",
@@ -7390,216 +7768,6 @@
     "fonte": "google",
     "lat": -4.0861048,
     "lng": -38.4931936
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444403762520",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "DIADEMA",
-   "endereco": "RUA GILBERTO GOMES PEREIRA, N. 469, CS B",
-   "preco": 88277.22,
-   "valor_avaliacao": 160000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 75.68 de área total, 75.68 de área privativa, 168.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s).",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403762520",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.09249,
-    "lng": -38.4819929
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444412460298",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "DIADEMA",
-   "endereco": "RUA EDVIRGENS MARIA DA CONCEICAO, N. 224, CS B",
-   "preco": 94898.0,
-   "valor_avaliacao": 172000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 74.42 de área total, 74.42 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412460298",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.090631399999999,
-    "lng": -38.4836782
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444431602175",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "DIADEMA",
-   "endereco": "RUA MILANO, N. 40-H, QD 02",
-   "preco": 94898.0,
-   "valor_avaliacao": 172000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 701.89 de área total, 78.41 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431602175",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.0891635,
-    "lng": -38.4834443
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444429120983",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "VERTENTE",
-   "endereco": "RUA ROMENIA, N. 32E, QUADRA 02 LOTE 06",
-   "preco": 91035.87,
-   "valor_avaliacao": 165000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 468.99 de área total, 66.15 de área privativa, 932.04 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429120983",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.0939301,
-    "lng": -38.449129
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444429323981",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "VERTENTE",
-   "endereco": "RUA ROMENIA, N. 32G, QUADRA 02 LOTE 06",
-   "preco": 91035.87,
-   "valor_avaliacao": 165000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 66.15 de área total, 66.15 de área privativa, 932.04 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429323981",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.0939301,
-    "lng": -38.449129
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444431522538",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "VERTENTE",
-   "endereco": "RUA TURQUIA, N. 30B, QD 02 LT 06",
-   "preco": 88277.22,
-   "valor_avaliacao": 160000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 66.15 de área total, 66.15 de área privativa, 116.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431522538",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.0998348,
-    "lng": -38.4948697
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444435655079",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "VERTENTE",
-   "endereco": "RUA CENI MENDES VALE (ANTIGA RUA M), N. 173 A, CS A PARTE LT 03 QD 03",
-   "preco": 93794.54,
-   "valor_avaliacao": 170000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 66.15 de área privativa, 113.13 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435655079",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.093184,
-    "lng": -38.4504171
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444435915399",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "VERTENTE",
-   "endereco": "RUA MONTENEGRO, N. 17B, FI 0,47 DO TERRENO",
-   "preco": 91035.87,
-   "valor_avaliacao": 165000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 66.15 de área total, 66.15 de área privativa, 258.22 de área do terreno,  2 qto(s), 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435915399",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.0931497,
-    "lng": -38.45086920000001
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444436169089",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "VERTENTE",
-   "endereco": "RUA MONTENEGRO, N. 29-A, LT  07",
-   "preco": 89025.75,
-   "valor_avaliacao": 161356.71,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 66.15 de área total, 66.15 de área privativa, 226.26 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436169089",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.5247716,
-    "lng": -37.7075146
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444434066266",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "ALTO DA ESTRELA",
-   "endereco": "RUA MANOEL FELICIANO DA SILVA, N. 4331, CS 04",
-   "preco": 99311.87,
-   "valor_avaliacao": 180000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Casa, 64.50 de área total, 64.50 de área privativa, 136.35 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434066266",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.1014438,
-    "lng": -38.4860181
    },
    "geo_pendente": false
   },
@@ -7642,69 +7810,6 @@
     "fonte": "google",
     "lat": -4.1384208,
     "lng": -38.4914234
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444435793293",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "VERTENTE",
-   "endereco": "RUA M, N. 197, LT 01 CS B",
-   "preco": 103430.26,
-   "valor_avaliacao": 185000.0,
-   "desconto": 44.1,
-   "financiamento": "Não",
-   "descricao": "Casa, 73.71 de área total, 73.71 de área privativa, 258.22 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435793293",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.093184,
-    "lng": -38.4504171
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444428336400",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "DIADEMA",
-   "endereco": "RUA PROFESSORA ZULEIDE BEZERRA DE CARVAL, N. SN, CS 610H",
-   "preco": 112399.76,
-   "valor_avaliacao": 199553.59,
-   "desconto": 43.68,
-   "financiamento": "Não",
-   "descricao": "Casa, 82.60 de área total, 82.60 de área privativa, 3188.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428336400",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.0934458,
-    "lng": -38.4775156
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444434884848",
-   "uf": "CE",
-   "cidade": "HORIZONTE",
-   "bairro": "OLHO D'AGUA",
-   "endereco": "RUA GUARAMIRANGA, N. 285B, QD 01",
-   "preco": 108708.41,
-   "valor_avaliacao": 193000.0,
-   "desconto": 43.68,
-   "financiamento": "Não",
-   "descricao": "Casa, 75.00 de área total, 75.00 de área privativa, 126.30 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434884848",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.084908599999999,
-    "lng": -38.4822225
    },
    "geo_pendente": false
   },
@@ -7768,6 +7873,27 @@
     "fonte": "google",
     "lat": -4.0869782,
     "lng": -38.47579289999999
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444407742094",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "BUENOS AIRES",
+   "endereco": "RUA SEBASTIAO SALES DO CARMO, N. 369, CASA A",
+   "preco": 62285.44,
+   "valor_avaliacao": 109000.0,
+   "desconto": 42.86,
+   "financiamento": "Não",
+   "descricao": "Casa, 163.50 de área total, 74.33 de área privativa, 351.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407742094",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.0994559,
+    "lng": -38.507785
    },
    "geo_pendente": false
   },
@@ -7978,6 +8104,27 @@
     "fonte": "google",
     "lat": -4.0998348,
     "lng": -38.4948697
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444421292092",
+   "uf": "CE",
+   "cidade": "HORIZONTE",
+   "bairro": "MAL COZINHADO",
+   "endereco": "AVENIDA JOAO DOMINGOS DE SOUSA, N. 838, LT 02",
+   "preco": 78201.87,
+   "valor_avaliacao": 135000.0,
+   "desconto": 42.08,
+   "financiamento": "Não",
+   "descricao": "Casa, 74.58 de área total, 74.58 de área privativa, 155.02 de área do terreno,  2 qto(s), a.serv, WC, cozinha, Terraco, 2 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421292092",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.085329499999999,
+    "lng": -38.48674
    },
    "geo_pendente": false
   },
@@ -9345,6 +9492,27 @@
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408402050",
    "tipo": "casa"
+  },
+  {
+   "id": "8444410323285",
+   "uf": "CE",
+   "cidade": "ITAITINGA",
+   "bairro": "PEDRAS",
+   "endereco": "RUA DONA FILISBELA BENVINDA GUIMARAES, N. 359, LOT PEDRAS BELAS",
+   "preco": 75305.5,
+   "valor_avaliacao": 130000.0,
+   "desconto": 42.08,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 68.51 de área privativa, 575.95 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410323285",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -3.892834399999999,
+    "lng": -38.5094932
+   },
+   "geo_pendente": false
   },
   {
    "id": "8444413107249",
@@ -12065,6 +12233,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8444427308462",
+   "uf": "CE",
+   "cidade": "PACAJUS",
+   "bairro": "CROATA 2",
+   "endereco": "RUA FRANCISCO JEOVANE SANTIAGO COSTA, N. 224, TERRENO 07",
+   "preco": 89177.9,
+   "valor_avaliacao": 167208.0,
+   "desconto": 46.67,
+   "financiamento": "Sim",
+   "descricao": "Casa, 84.12 de área total, 84.12 de área privativa, 164.79 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427308462",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.1727159,
+    "lng": -38.448822
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444435036042",
+   "uf": "CE",
+   "cidade": "PACAJUS",
+   "bairro": "CROATA II",
+   "endereco": "AVENIDA DEMOCRITO DUMMAR, N. 142,",
+   "preco": 85333.62,
+   "valor_avaliacao": 160000.0,
+   "desconto": 46.67,
+   "financiamento": "Sim",
+   "descricao": "Casa, 63.43 de área total, 63.43 de área privativa, 125.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435036042",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -4.1726885,
+    "lng": -38.443194
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444429345497",
    "uf": "CE",
    "cidade": "PACAJUS",
@@ -12086,59 +12296,17 @@
    "geo_pendente": false
   },
   {
-   "id": "8444427308462",
-   "uf": "CE",
-   "cidade": "PACAJUS",
-   "bairro": "CROATA 2",
-   "endereco": "RUA FRANCISCO JEOVANE SANTIAGO COSTA, N. 224, TERRENO 07",
-   "preco": 91655.06,
-   "valor_avaliacao": 167208.0,
-   "desconto": 45.19,
-   "financiamento": "Não",
-   "descricao": "Casa, 84.12 de área total, 84.12 de área privativa, 164.79 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427308462",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.1727159,
-    "lng": -38.448822
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444435036042",
-   "uf": "CE",
-   "cidade": "PACAJUS",
-   "bairro": "CROATA II",
-   "endereco": "AVENIDA DEMOCRITO DUMMAR, N. 142,",
-   "preco": 87704.0,
-   "valor_avaliacao": 160000.0,
-   "desconto": 45.19,
-   "financiamento": "Não",
-   "descricao": "Casa, 63.43 de área total, 63.43 de área privativa, 125.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435036042",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -4.1726885,
-    "lng": -38.443194
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444429226382",
    "uf": "CE",
    "cidade": "PACAJUS",
    "bairro": "CROATA 2",
    "endereco": "RUA JOSE FRANCISCO, N. 28, LT 3A QD A",
-   "preco": 91587.6,
+   "preco": 89239.2,
    "valor_avaliacao": 166000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
+   "desconto": 46.25,
+   "financiamento": "Sim",
    "descricao": "Casa, 61.51 de área total, 61.51 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429226382",
    "tipo": "casa",
    "geo": {
@@ -12154,12 +12322,12 @@
    "cidade": "PACAJUS",
    "bairro": "CROATA 2",
    "endereco": "RUA JOSE FRANCISCO, N. 20, LT 01 E 02- QU 01- LTA CROATA VILLE",
-   "preco": 91587.6,
+   "preco": 89239.2,
    "valor_avaliacao": 166000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
+   "desconto": 46.25,
+   "financiamento": "Sim",
    "descricao": "Casa, 61.51 de área total, 61.51 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429320621",
    "tipo": "casa",
    "geo": {
@@ -12175,12 +12343,12 @@
    "cidade": "PACAJUS",
    "bairro": "BAIRRO BURITI",
    "endereco": "RUA JOAO INACIO DOS SANTOS, N. 18,",
-   "preco": 109834.92,
+   "preco": 107018.64,
    "valor_avaliacao": 195000.0,
-   "desconto": 43.68,
-   "financiamento": "Não",
+   "desconto": 45.12,
+   "financiamento": "Sim",
    "descricao": "Casa, 91.02 de área total, 91.02 de área privativa, 150.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412885981",
    "tipo": "casa",
    "geo": {
@@ -12589,12 +12757,12 @@
    "cidade": "PACATUBA",
    "bairro": "PAVUNA",
    "endereco": "RUA PEDRO DE SA RORIZ, N. 633, QD 112 LT 23",
-   "preco": 85602.54,
+   "preco": 83407.6,
    "valor_avaliacao": 155152.22,
-   "desconto": 44.83,
-   "financiamento": "Não",
+   "desconto": 46.25,
+   "financiamento": "Sim",
    "descricao": "Casa, 70.00 de área total, 75.20 de área privativa, 435.60 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407892878",
    "tipo": "casa",
    "geo": {
@@ -12610,12 +12778,12 @@
    "cidade": "PACATUBA",
    "bairro": "PAVUNA",
    "endereco": "RUA JOSE ALVES MOURA, N. 426,",
-   "preco": 83097.92,
+   "preco": 80967.2,
    "valor_avaliacao": 146000.0,
-   "desconto": 43.09,
-   "financiamento": "Não",
+   "desconto": 44.55,
+   "financiamento": "Sim",
    "descricao": "Casa, 70.67 de área total, 70.67 de área privativa, 300.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415802418",
    "tipo": "casa",
    "geo": {
@@ -13003,12 +13171,12 @@
    "cidade": "QUEIMADAS",
    "bairro": "ALTO D B VISTA",
    "endereco": "RUA MANOEL MANDUCA DA SILVA, N. 626, QD 09,",
-   "preco": 90741.05,
+   "preco": 88148.45,
    "valor_avaliacao": 175000.0,
-   "desconto": 48.15,
-   "financiamento": "Não",
+   "desconto": 49.63,
+   "financiamento": "Sim",
    "descricao": "Casa, 0.00 de área total, 83.40 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435692870",
    "tipo": "casa",
    "geo": {
@@ -13207,12 +13375,12 @@
    "cidade": "SAO GONCALO DO AMARANTE",
    "bairro": "CROATA",
    "endereco": "RUA LOCAL 17, N. SN, LT 19 QD 08 LOT LAGUNA ECOPARK",
-   "preco": 96553.2,
+   "preco": 94077.48,
    "valor_avaliacao": 175000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
+   "desconto": 46.25,
+   "financiamento": "Sim",
    "descricao": "Casa, 63.48 de área total, 63.48 de área privativa, 188.55 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706891680",
    "tipo": "casa",
    "geo": {

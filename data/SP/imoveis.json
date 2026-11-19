@@ -1,9 +1,9 @@
 {
  "uf": "SP",
- "data_geracao_caixa": "17/11/2026",
- "coletado_em": "18/11/2026 10:48",
+ "data_geracao_caixa": "18/11/2026",
+ "coletado_em": "19/11/2026 01:06",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_SP.csv",
- "total": 3471,
+ "total": 3538,
  "colunas": [
   "id",
   "uf",
@@ -512,21 +512,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444433131242",
-   "uf": "SP",
-   "cidade": "AMERICANA",
-   "bairro": "MORADA DO SOL",
-   "endereco": "AVENIDA SAO JERONIMO, N. 2750, Apto 403, BL 20 PAV 03 GAR 657 GL  A3B",
-   "preco": 111495.81,
-   "valor_avaliacao": 193000.0,
-   "desconto": 42.24,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 79.08 de área total, 38.92 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433131242",
-   "tipo": "apartamento"
-  },
-  {
    "id": "8787706959870",
    "uf": "SP",
    "cidade": "AMERICANA",
@@ -898,12 +883,12 @@
    "cidade": "ARACATUBA",
    "bairro": "SANTA LUZIA",
    "endereco": "R GOULART, N. 471, Apto 202, BL 12",
-   "preco": 91466.97,
+   "preco": 88926.22,
    "valor_avaliacao": 171500.0,
-   "desconto": 46.67,
-   "financiamento": "Não",
+   "desconto": 48.15,
+   "financiamento": "Sim",
    "descricao": "Apartamento, 101.21 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702539841",
    "tipo": "apartamento",
    "geo": {
@@ -914,32 +899,17 @@
    "geo_pendente": false
   },
   {
-   "id": "8787701853585",
-   "uf": "SP",
-   "cidade": "ARACATUBA",
-   "bairro": "CONJUNTO HABITACIONAL DOUTOR ANTONIO VIL",
-   "endereco": "RUA ANTONIO DOS SANTOS RIBEIRO, N. 300, Apto 304, BL. 20",
-   "preco": 77511.67,
-   "valor_avaliacao": 143128.44,
-   "desconto": 45.85,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 87.78 de área total, 44.01 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701853585",
-   "tipo": "apartamento"
-  },
-  {
    "id": "8787716113256",
    "uf": "SP",
    "cidade": "ARACATUBA",
    "bairro": "CHACARAS TV",
    "endereco": "RUA NOEL ROSA, N. 719, Apto 303, BL 05, VG 28",
-   "preco": 83911.48,
+   "preco": 81759.9,
    "valor_avaliacao": 147000.0,
-   "desconto": 42.92,
-   "financiamento": "Não",
+   "desconto": 44.39,
+   "financiamento": "Sim",
    "descricao": "Apartamento, 84.65 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716113256",
    "tipo": "apartamento",
    "geo": {
@@ -1007,6 +977,27 @@
    "tipo": "casa"
   },
   {
+   "id": "8787709496978",
+   "uf": "SP",
+   "cidade": "ARACATUBA",
+   "bairro": "JARDIM PAULISTA",
+   "endereco": "ESTRADA VICINAL FAUSE CHADE, N. 399, Apto 304, BL 17  3º PAVIMENTO  VG 179",
+   "preco": 84892.14,
+   "valor_avaliacao": 145000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 83.41 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709496978",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1992145,
+    "lng": -50.4273679
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787709546681",
    "uf": "SP",
    "cidade": "ARACATUBA",
@@ -1024,6 +1015,27 @@
     "fonte": "google",
     "lat": -21.1996761,
     "lng": -50.4266362
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787717001389",
+   "uf": "SP",
+   "cidade": "ARACATUBA",
+   "bairro": "RESIDENCIAL SYLVIO JOSE VENTUROLLI",
+   "endereco": "RUA PASTOR JOSE FERREIRA DE FREITAS, N. 144, ANTIGA RUA 07",
+   "preco": 81964.82,
+   "valor_avaliacao": 140000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Casa, 44.82 de área total, 44.82 de área privativa, 152.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717001389",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.156727,
+    "lng": -50.47213619999999
    },
    "geo_pendente": false
   },
@@ -1171,6 +1183,27 @@
     "fonte": "google",
     "lat": -21.2066711,
     "lng": -50.4387286
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716938263",
+   "uf": "SP",
+   "cidade": "ARACATUBA",
+   "bairro": "RESIDENCIAL SYLVIO JOSE VENTUROLLI",
+   "endereco": "RUA BELARMINO PIRES, N. 38, QD 4  LT 15  ANTIGA RUA SEIS",
+   "preco": 116651.81,
+   "valor_avaliacao": 193000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 44.82 de área total, 44.82 de área privativa, 167.15 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716938263",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.156727,
+    "lng": -50.47213619999999
    },
    "geo_pendente": false
   },
@@ -1658,6 +1691,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8787716008932",
+   "uf": "SP",
+   "cidade": "ARARAQUARA",
+   "bairro": "JARDIM BRASIL (VILA XAVIER)",
+   "endereco": "AVENIDA JOAQUIM VIEIRA DOS SANTOS, N. 2929, Apto 22, BL C, TORRE 3",
+   "preco": 92110.13,
+   "valor_avaliacao": 172705.91,
+   "desconto": 46.67,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 90.49 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716008932",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.7838792,
+    "lng": -48.1471367
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555537929986",
+   "uf": "SP",
+   "cidade": "ARARAQUARA",
+   "bairro": "JARDIM DAS FLORES",
+   "endereco": "RUA MAHIBA BARCHA, N. 90, Apto 401, PAV 04 ANDAR 03 BL 11",
+   "preco": 84967.27,
+   "valor_avaliacao": 159313.1,
+   "desconto": 46.67,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 117.45 de área total, 39.30 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537929986",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.791225,
+    "lng": -48.20953730000001
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444430090600",
    "uf": "SP",
    "cidade": "ARARAQUARA",
@@ -1679,44 +1754,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787716008932",
+   "id": "8787711505571",
    "uf": "SP",
    "cidade": "ARARAQUARA",
-   "bairro": "JARDIM BRASIL (VILA XAVIER)",
-   "endereco": "AVENIDA JOAQUIM VIEIRA DOS SANTOS, N. 2929, Apto 22, BL C, TORRE 3",
-   "preco": 94668.74,
-   "valor_avaliacao": 172705.91,
-   "desconto": 45.19,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 90.49 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716008932",
+   "bairro": "JARDIM SAO RAFAEL I",
+   "endereco": "ESTRADA MUNICIPAL ARA 347, N. 145, Apto 204, TORRE 1",
+   "preco": 108794.43,
+   "valor_avaliacao": 200000.0,
+   "desconto": 45.61,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 105.01 de área total, 47.85 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711505571",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -21.7838792,
-    "lng": -48.1471367
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555537929986",
-   "uf": "SP",
-   "cidade": "ARARAQUARA",
-   "bairro": "JARDIM DAS FLORES",
-   "endereco": "RUA MAHIBA BARCHA, N. 90, Apto 401, PAV 04 ANDAR 03 BL 11",
-   "preco": 87327.47,
-   "valor_avaliacao": 159313.1,
-   "desconto": 45.19,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 117.45 de área total, 39.30 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537929986",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.791225,
-    "lng": -48.20953730000001
+    "lat": -21.7742763,
+    "lng": -48.1742397
    },
    "geo_pendente": false
   },
@@ -1780,27 +1834,6 @@
     "fonte": "google",
     "lat": -21.7636499,
     "lng": -48.1914433
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787711505571",
-   "uf": "SP",
-   "cidade": "ARARAQUARA",
-   "bairro": "JARDIM SAO RAFAEL I",
-   "endereco": "ESTRADA MUNICIPAL ARA 347, N. 145, Apto 204, TORRE 1",
-   "preco": 111816.49,
-   "valor_avaliacao": 200000.0,
-   "desconto": 44.1,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 105.01 de área total, 47.85 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711505571",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.7742763,
-    "lng": -48.1742397
    },
    "geo_pendente": false
   },
@@ -2395,6 +2428,27 @@
     "fonte": "google",
     "lat": -21.740562,
     "lng": -48.1432411
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787707699421",
+   "uf": "SP",
+   "cidade": "ARARAQUARA",
+   "bairro": "JARDIM QUITANDINHA II",
+   "endereco": "AVENIDA MARIA LUCIA CABRERA, N. 173, Apto 401, 4 PV  3 ANDAR  BL 5",
+   "preco": 98370.7,
+   "valor_avaliacao": 166000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 89.57 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707699421",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.800223,
+    "lng": -48.2002743
    },
    "geo_pendente": false
   },
@@ -3632,6 +3686,27 @@
    "tipo": "apartamento"
   },
   {
+   "id": "8555539363688",
+   "uf": "SP",
+   "cidade": "ARARAS",
+   "bairro": "JARDIM JOSE OMETTO II",
+   "endereco": "AVENIDA AUGUSTA VIOLA DA COSTA, N. 896, Apto 103, BL 9  TERREO",
+   "preco": 87819.45,
+   "valor_avaliacao": 150000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 94.64 de área total, 41.85 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555539363688",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.3612353,
+    "lng": -47.344007
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787711875484",
    "uf": "SP",
    "cidade": "ARARAS",
@@ -4307,27 +4382,6 @@
    "geo_pendente": false
   },
   {
-   "id": "10275689",
-   "uf": "SP",
-   "cidade": "ATIBAIA",
-   "bairro": "MATO DENTRO",
-   "endereco": "RODOVIA D. PEDRO I, N. 00, ÁREA B, PARTE DA GLEBA 06",
-   "preco": 1410618.07,
-   "valor_avaliacao": 2529575.97,
-   "desconto": 44.24,
-   "financiamento": "Não",
-   "descricao": "Gleba, 0.00 de área total, 0.00 de área privativa, 11562.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10275689",
-   "tipo": "gleba",
-   "geo": {
-    "fonte": "google",
-    "lat": -23.1159283,
-    "lng": -46.483312
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444406325483",
    "uf": "SP",
    "cidade": "ATIBAIA",
@@ -4513,27 +4567,6 @@
     "fonte": "google",
     "lat": -21.4616744,
     "lng": -49.9481578
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8028660276414",
-   "uf": "SP",
-   "cidade": "AVARE",
-   "bairro": "VILA MARTINS III",
-   "endereco": "RUA NICOLA PIZZA, N. 1762,",
-   "preco": 186752.87,
-   "valor_avaliacao": 305000.0,
-   "desconto": 38.77,
-   "financiamento": "Sim",
-   "descricao": "Casa, 105.67 de área total, 105.67 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8028660276414",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -23.1156293,
-    "lng": -48.9110998
    },
    "geo_pendente": false
   },
@@ -5229,7 +5262,7 @@
    "desconto": 48.1,
    "financiamento": "Sim",
    "descricao": "Casa, 334.32 de área total, 334.32 de área privativa, 513.00 de área do terreno,  5 qto(s), a.serv, WC, 2 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444413308009",
    "tipo": "casa",
    "geo": {
@@ -5299,6 +5332,27 @@
     "fonte": "google",
     "lat": -22.3626857,
     "lng": -49.1091699
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444433725290",
+   "uf": "SP",
+   "cidade": "BAURU",
+   "bairro": "JARDIM DAS ORQUIDEAS",
+   "endereco": "AVENIDA DO HIPODROMO, N. 8-55, Apto 924, BL 09",
+   "preco": 90666.97,
+   "valor_avaliacao": 170000.0,
+   "desconto": 46.67,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 108.16 de área total, 46.36 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433725290",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.3271542,
+    "lng": -49.0250145
    },
    "geo_pendente": false
   },
@@ -5387,27 +5441,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444433725290",
-   "uf": "SP",
-   "cidade": "BAURU",
-   "bairro": "JARDIM DAS ORQUIDEAS",
-   "endereco": "AVENIDA DO HIPODROMO, N. 8-55, Apto 924, BL 09",
-   "preco": 93185.49,
-   "valor_avaliacao": 170000.0,
-   "desconto": 45.19,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 108.16 de área total, 46.36 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433725290",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -22.3271542,
-    "lng": -49.0250145
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444436359988",
    "uf": "SP",
    "cidade": "BAURU",
@@ -5446,6 +5479,27 @@
     "fonte": "google",
     "lat": -22.3160971,
     "lng": -49.12028429999999
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555537615590",
+   "uf": "SP",
+   "cidade": "BAURU",
+   "bairro": "PARQUE SANTA CECILIA",
+   "endereco": "RUA BENEDITA CARDOSO MADUREIRA, N. SN, Apto 504, BL 01 VAGA 78",
+   "preco": 106225.67,
+   "valor_avaliacao": 190000.0,
+   "desconto": 44.1,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 112.46 de área total, 47.85 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537615590",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.2975221,
+    "lng": -49.0792885
    },
    "geo_pendente": false
   },
@@ -5732,6 +5786,27 @@
    "tipo": "casa"
   },
   {
+   "id": "8444430360313",
+   "uf": "SP",
+   "cidade": "BAURU",
+   "bairro": "RESIDENCIAL PARQUE COLINA VERDE",
+   "endereco": "RUA MARIO DOS REIS PEREIRA, N. 3-25, Apto 1124, 2 PV  1º ANDAR  BL 11",
+   "preco": 76464.05,
+   "valor_avaliacao": 132000.0,
+   "desconto": 42.08,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 47.03 de área total, 42.05 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430360313",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.2891226,
+    "lng": -49.0731798
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444438778830",
    "uf": "SP",
    "cidade": "BAURU",
@@ -5978,6 +6053,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444437653375",
+   "uf": "SP",
+   "cidade": "BAURU",
+   "bairro": "NUCLEO HABITACIONAL JOSE REGINO",
+   "endereco": "RUA LAMIA COHLMIA SOUBIHE, N. 3-33, Apto 42, 4 PAVIMENTO  BL 08",
+   "preco": 84892.14,
+   "valor_avaliacao": 145000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 50.84 de área total, 45.72 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444437653375",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.3302216,
+    "lng": -49.0153409
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444434670350",
    "uf": "SP",
    "cidade": "BAURU",
@@ -6058,6 +6154,27 @@
     "fonte": "google",
     "lat": -22.2987856,
     "lng": -49.0335213
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444437331386",
+   "uf": "SP",
+   "cidade": "BAURU",
+   "bairro": "MONTE VERDE",
+   "endereco": "RUA DOIS, N. 1-96, Apto 1223, 2 PV  BL 12",
+   "preco": 86063.06,
+   "valor_avaliacao": 147000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 48.11 de área total, 42.84 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444437331386",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.3634788,
+    "lng": -49.1082638
    },
    "geo_pendente": false
   },
@@ -6502,6 +6619,27 @@
     "fonte": "google",
     "lat": -22.2987856,
     "lng": -49.0335213
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444426818394",
+   "uf": "SP",
+   "cidade": "BAURU",
+   "bairro": "POUSADA DA ESPERANCA II",
+   "endereco": "RUA RAMIRO VIEIRA, N. SN, LT 47B  QD 105  QT 1",
+   "preco": 93629.95,
+   "valor_avaliacao": 158000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Casa, 24.15 de área total, 24.15 de área privativa, 127.92 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426818394",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.2719527,
+    "lng": -49.0761519
    },
    "geo_pendente": false
   },
@@ -9566,6 +9704,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444424425816",
+   "uf": "SP",
+   "cidade": "BRAUNA",
+   "bairro": "RESIDENCIAL MONTE LIBANO",
+   "endereco": "RUA MARIO JOSE COSTA, N. 19, QD P",
+   "preco": 89575.84,
+   "valor_avaliacao": 153000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 68.21 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424425816",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.5062169,
+    "lng": -50.3256428
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444430691131",
    "uf": "SP",
    "cidade": "BRODOWSKI",
@@ -9944,6 +10103,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8787717568753",
+   "uf": "SP",
+   "cidade": "CAMPINAS",
+   "bairro": "JARDIM ROSSIN",
+   "endereco": "RUA GERTRUDES MORO ROSSIN, N. 397, Apto 34, 3 PV  TORRE 8",
+   "preco": 106667.03,
+   "valor_avaliacao": 180000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 68.40 de área total, 39.12 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717568753",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.9278597,
+    "lng": -47.16477159999999
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787709660719",
+   "uf": "SP",
+   "cidade": "CAMPINAS",
+   "bairro": "RESIDENCIAL VILA PARK",
+   "endereco": "RUA 05, N. 48, Apto 44, BL A",
+   "preco": 107496.66,
+   "valor_avaliacao": 181400.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 59.44 de área total, 52.15 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709660719",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.1249137,
+    "lng": -47.2680565
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444407733364",
    "uf": "SP",
    "cidade": "CAMPINAS",
@@ -10070,6 +10271,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787711895248",
+   "uf": "SP",
+   "cidade": "CAMPINAS",
+   "bairro": "RESIDENCIAL MORADAS DO VALLE",
+   "endereco": "RUA PLACIDA PRETINI, N. 540, Apto 21, 2 PV  BL F",
+   "preco": 117256.22,
+   "valor_avaliacao": 194000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 58.69 de área total, 51.58 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711895248",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.8955951,
+    "lng": -47.1605421
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787714718231",
    "uf": "SP",
    "cidade": "CAMPINAS",
@@ -10102,6 +10324,27 @@
     "fonte": "google",
     "lat": -22.95548,
     "lng": -47.1274492
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444408919605",
+   "uf": "SP",
+   "cidade": "CAMPINAS",
+   "bairro": "CONJUNTO MAURO MARCONDES",
+   "endereco": "RUA MIGUEL RICCI, N. 310, QD N  LT 12",
+   "preco": 104992.75,
+   "valor_avaliacao": 170000.0,
+   "desconto": 38.24,
+   "financiamento": "Não",
+   "descricao": "Prédio, 40.00 de área total, 40.00 de área privativa, 201.24 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408919605",
+   "tipo": "predio",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.9724861,
+    "lng": -47.16696340000001
    },
    "geo_pendente": false
   },
@@ -11516,6 +11759,48 @@
    "geo_pendente": false
   },
   {
+   "id": "1444416455290",
+   "uf": "SP",
+   "cidade": "CARAPICUIBA",
+   "bairro": "JD MARIA HONORIA",
+   "endereco": "RUA LUIS VAZ DE CAMOES, N. 37, QD A LT 4",
+   "preco": 188007.72,
+   "valor_avaliacao": 295000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Prédio, 130.00 de área total, 54.95 de área privativa, 125.00 de área do terreno,  1 qto(s), 2 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416455290",
+   "tipo": "predio",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5432585,
+    "lng": -46.8410462
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555502143927",
+   "uf": "SP",
+   "cidade": "CARAPICUIBA",
+   "bairro": "CIDADE ARISTON ESTELA AZEVEDO",
+   "endereco": "RUA ILHA BELA, N. 784, QD 71  LT 16B",
+   "preco": 201618.26,
+   "valor_avaliacao": 316356.09,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 55.00 de área total, 55.00 de área privativa, 128.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555502143927",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5343321,
+    "lng": -46.8495091
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1555512638904",
    "uf": "SP",
    "cidade": "CARAPICUIBA",
@@ -12191,6 +12476,48 @@
    "tipo": "casa"
   },
   {
+   "id": "8444433716798",
+   "uf": "SP",
+   "cidade": "CERQUILHO",
+   "bairro": "SAO LUIZ",
+   "endereco": "RUA ATALIBIO PIRES, N. 351, QD B  LT 19",
+   "preco": 192875.92,
+   "valor_avaliacao": 315000.0,
+   "desconto": 38.77,
+   "financiamento": "Sim",
+   "descricao": "Casa, 121.27 de área total, 121.27 de área privativa, 219.04 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433716798",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.157809,
+    "lng": -47.728361
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444425588743",
+   "uf": "SP",
+   "cidade": "COLINA",
+   "bairro": "DESMEMBRAMENTO PARKE",
+   "endereco": "RUA B, N. 514, QD 04 LT 06",
+   "preco": 102518.87,
+   "valor_avaliacao": 173000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Prédio, 53.79 de área total, 53.79 de área privativa, 250.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425588743",
+   "tipo": "predio",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.7177149,
+    "lng": -48.52723169999999
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787718435382",
    "uf": "SP",
    "cidade": "COLINA",
@@ -12662,6 +12989,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8555525977620",
+   "uf": "SP",
+   "cidade": "COTIA",
+   "bairro": "GRACA",
+   "endereco": "RUA ENGENHEIRO MARIO ANGELINO DI IANNI, N. 550, Apto 102, TORRE 3  TERREO  RUA MIL FOLHAS",
+   "preco": 121487.11,
+   "valor_avaliacao": 201000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 99.35 de área total, 44.33 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525977620",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.6286005,
+    "lng": -46.9483914
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555536053998",
    "uf": "SP",
    "cidade": "COTIA",
@@ -12809,6 +13157,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444400938149",
+   "uf": "SP",
+   "cidade": "COTIA",
+   "bairro": "JARDIM DA GLORIA",
+   "endereco": "AVENIDA JOAO PAULO ABLAS, N. 1764, Apto 505C, EDIFICIO 5",
+   "preco": 123996.39,
+   "valor_avaliacao": 197000.0,
+   "desconto": 37.06,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 111.92 de área total, 45.09 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444400938149",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.6129374,
+    "lng": -46.83893510000001
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555533742954",
    "uf": "SP",
    "cidade": "COTIA",
@@ -12819,7 +13188,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Apartamento, 134.09 de área total, 57.54 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533742954",
    "tipo": "apartamento",
    "geo": {
@@ -13901,6 +14270,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787704387755",
+   "uf": "SP",
+   "cidade": "FERNANDOPOLIS",
+   "bairro": "WILSON MOREIRA DA SILVA",
+   "endereco": "AVENIDA ANTONIO BENTO BARRETO, N. 128, LOTE 15 QUADRA 09",
+   "preco": 100741.08,
+   "valor_avaliacao": 170000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Casa, 82.59 de área total, 47.59 de área privativa, 180.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704387755",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.2521788,
+    "lng": -50.2506724
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444406050970",
    "uf": "SP",
    "cidade": "FERNANDOPOLIS",
@@ -13979,6 +14369,27 @@
    "tipo": "apartamento"
   },
   {
+   "id": "8787709367248",
+   "uf": "SP",
+   "cidade": "FERRAZ DE VASCONCELOS",
+   "bairro": "CAMBERY",
+   "endereco": "AVENIDA DOM PEDRO II, N. 2455, Apto D053, 5 PAVIMENTO  BLOCO D  BELÉM",
+   "preco": 171445.26,
+   "valor_avaliacao": 280000.0,
+   "desconto": 38.77,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 84.78 de área total, 40.84 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709367248",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5567031,
+    "lng": -46.365874
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787710075247",
    "uf": "SP",
    "cidade": "FERRAZ DE VASCONCELOS",
@@ -13991,6 +14402,27 @@
    "descricao": "Apartamento, 84.78 de área total, 40.84 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710075247",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5567031,
+    "lng": -46.365874
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787720627420",
+   "uf": "SP",
+   "cidade": "FERRAZ DE VASCONCELOS",
+   "bairro": "CAMBERY",
+   "endereco": "AVENIDA DOM PEDRO II, N. 2455, Apto F174, 17 PAVIMENTO  BL FSÃO PAULO",
+   "preco": 168383.74,
+   "valor_avaliacao": 275000.0,
+   "desconto": 38.77,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 84.78 de área total, 40.84 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720627420",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -14143,48 +14575,6 @@
     "fonte": "google",
     "lat": -23.5567031,
     "lng": -46.365874
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444411882784",
-   "uf": "SP",
-   "cidade": "FRANCA",
-   "bairro": "JARDIM AEROPORTO III",
-   "endereco": "RUA PACIFICO ALVES CARRIJO, N. 2330, Apto 02,",
-   "preco": 108444.81,
-   "valor_avaliacao": 183000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 108.80 de área total, 88.80 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, WC Emp, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411882784",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.5934632,
-    "lng": -47.3663292
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787714004026",
-   "uf": "SP",
-   "cidade": "FRANCA",
-   "bairro": "CHACARA ESPRAIADO",
-   "endereco": "RUA HAJJI TOUFIK KANAWATI, N. 5023, Apto 302, 3º PAVIMENTO, BLOCO 05, VAGA 20",
-   "preco": 92444.76,
-   "valor_avaliacao": 156000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 96.95 de área total, 43.54 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714004026",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.5610779,
-    "lng": -47.3777913
    },
    "geo_pendente": false
   },
@@ -15362,6 +15752,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444419344244",
+   "uf": "SP",
+   "cidade": "GUAIRA",
+   "bairro": "RESIDENCIAL R GUIMARAES",
+   "endereco": "RUA 13 B, N. 1738, QD C  LT 55",
+   "preco": 165701.72,
+   "valor_avaliacao": 260000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 106.06 de área total, 106.06 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419344244",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.3216014,
+    "lng": -48.3050915
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444420929730",
    "uf": "SP",
    "cidade": "GUAIRA",
@@ -15698,6 +16109,27 @@
    "geo_pendente": false
   },
   {
+   "id": "10302827",
+   "uf": "SP",
+   "cidade": "GUARUJA",
+   "bairro": "VILA SANTA ROSA",
+   "endereco": "AVENIDA ADHEMAR DE BARROS, N. 1347, BL A, SL 21-A",
+   "preco": 104992.75,
+   "valor_avaliacao": 170000.0,
+   "desconto": 38.24,
+   "financiamento": "Não",
+   "descricao": "Sala, 0.00 de área total, 23.89 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10302827",
+   "tipo": "sala",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.9923768,
+    "lng": -46.2731393
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444422214992",
    "uf": "SP",
    "cidade": "GUARUJA",
@@ -15870,7 +16302,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 45.87 de área total, 38.42 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704234797",
    "tipo": "apartamento",
    "geo": {
@@ -15940,27 +16372,6 @@
     "fonte": "google",
     "lat": -23.4101328,
     "lng": -46.3799086
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787713268119",
-   "uf": "SP",
-   "cidade": "GUARULHOS",
-   "bairro": "VILA NOVA BONSUCESSO",
-   "endereco": "RUA TURVOLANDIA, N. 867, Apto 01, BL 03",
-   "preco": 124509.18,
-   "valor_avaliacao": 206000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 42.72 de área total, 34.14 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713268119",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -23.4129303,
-    "lng": -46.3960894
    },
    "geo_pendente": false
   },
@@ -16045,6 +16456,48 @@
     "fonte": "google",
     "lat": -23.4400602,
     "lng": -46.3890607
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716471705",
+   "uf": "SP",
+   "cidade": "GUARULHOS",
+   "bairro": "AGUA CHATA",
+   "endereco": "ESTRADA AGUA CHATA, N. 3193, Apto 61, 6 ANDAR  BL B  TORRE 1",
+   "preco": 198386.66,
+   "valor_avaliacao": 324000.0,
+   "desconto": 38.77,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 65.25 de área total, 44.33 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716471705",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.4344408,
+    "lng": -46.4014719
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444423302909",
+   "uf": "SP",
+   "cidade": "GUARULHOS",
+   "bairro": "JARDIM ALBERTINA",
+   "endereco": "AVENIDA PRESIDENTE JUSCELINO KUBITSCHEK, N. 3000, Apto 21-B, 2 ANDAR  BL 3  ED. MARESIAS",
+   "preco": 242179.43,
+   "valor_avaliacao": 380000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 118.58 de área total, 59.25 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444423302909",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.4345891,
+    "lng": -46.4088561
    },
    "geo_pendente": false
   },
@@ -16683,6 +17136,27 @@
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719576290",
    "tipo": "apartamento"
+  },
+  {
+   "id": "8444410083110",
+   "uf": "SP",
+   "cidade": "HORTOLANDIA",
+   "bairro": "CHACARAS FAZENDA COELHO",
+   "endereco": "RUA JOAQUIM DOMINGOS DE OLIVEIRA, N. SN, Apto 403, BLOCO 01, 3º PAVIMENTO, VAGA 155, HIS",
+   "preco": 100978.32,
+   "valor_avaliacao": 163500.0,
+   "desconto": 38.24,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 79.89 de área total, 45.90 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410083110",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.8923042,
+    "lng": -47.1678332
+   },
+   "geo_pendente": false
   },
   {
    "id": "8787716401065",
@@ -17378,6 +17852,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1600000192175",
+   "uf": "SP",
+   "cidade": "INDAIATUBA",
+   "bairro": "VILA SFEIR",
+   "endereco": "RUA PADRE MANOEL DA NOBREGA, N. 730, Apto 93",
+   "preco": 1083434.31,
+   "valor_avaliacao": 1700000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 0.00 de área total, 180.82 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, WC Emp, 2 sala(s), 1 lavabo(s), cozinha, Terraco, 2 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1600000192175",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.0862166,
+    "lng": -47.2224687
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444413873679",
    "uf": "SP",
    "cidade": "INDAIATUBA",
@@ -17788,6 +18283,27 @@
     "fonte": "google",
     "lat": -24.1569951,
     "lng": -46.7872549
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444401484069",
+   "uf": "SP",
+   "cidade": "ITANHAEM",
+   "bairro": "NOSSA SENHORA DO SION",
+   "endereco": "RUA DA SAUDE, N. 95, QD 33  LT 07  CS 01",
+   "preco": 111695.61,
+   "valor_avaliacao": 184800.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 49.73 de área total, 49.73 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444401484069",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -24.1506796,
+    "lng": -46.7767011
    },
    "geo_pendente": false
   },
@@ -18256,10 +18772,10 @@
    "cidade": "ITAPIRA",
    "bairro": "LOTEAMENTO JOSE BORSATO (BARAO ATALIBA N",
    "endereco": "RUA 08, N. SN, QD A LT 02",
-   "preco": 121793.4,
+   "preco": 118410.25,
    "valor_avaliacao": 215000.0,
-   "desconto": 43.36,
-   "financiamento": "Não",
+   "desconto": 44.93,
+   "financiamento": "Sim",
    "descricao": "Casa, 60.00 de área total, 60.00 de área privativa, 160.00 de área do terreno.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8030858383522",
@@ -20168,6 +20684,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787714089161",
+   "uf": "SP",
+   "cidade": "JARDINOPOLIS",
+   "bairro": "DESMEMBRAMENTO CASTILHANO",
+   "endereco": "RUA VICE-PREFEITO OCTAVIANO RIUL, N. 593, CASA 112",
+   "preco": 129948.9,
+   "valor_avaliacao": 215000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 63.18 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714089161",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.0300713,
+    "lng": -47.763341
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555529160970",
    "uf": "SP",
    "cidade": "JARDINOPOLIS",
@@ -20389,6 +20926,48 @@
     "fonte": "google",
     "lat": -22.2607898,
     "lng": -48.550576
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787719303013",
+   "uf": "SP",
+   "cidade": "JAU",
+   "bairro": "JARDIM DOS IPES",
+   "endereco": "RUA ENGENHEIRO JOSE LUIZ MUNHOZ, N. 925, QD P LT 03",
+   "preco": 123904.77,
+   "valor_avaliacao": 205000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 44.08 de área total, 44.08 de área privativa, 180.00 de área do terreno,  2 qto(s), WC Emp, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719303013",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.3090322,
+    "lng": -48.5978117
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787719387420",
+   "uf": "SP",
+   "cidade": "JAU",
+   "bairro": "JARDIM DOS IPES",
+   "endereco": "RUA AUGUSTO PEREIRA MACHADO, N. 285, QD S LT 10",
+   "preco": 119069.46,
+   "valor_avaliacao": 197000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 44.08 de área total, 44.08 de área privativa, 180.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719387420",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.3023754,
+    "lng": -48.5723053
    },
    "geo_pendente": false
   },
@@ -20738,27 +21317,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555535592291",
-   "uf": "SP",
-   "cidade": "LEME",
-   "bairro": "JARDIM EMPYREO",
-   "endereco": "RUA CONSTANTINO PAROLIN, N. 1124,",
-   "preco": 107162.51,
-   "valor_avaliacao": 197000.0,
-   "desconto": 45.61,
-   "financiamento": "Não",
-   "descricao": "Casa, 49.62 de área total, 49.62 de área privativa, 154.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535592291",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -22.2118594,
-    "lng": -47.3753104
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787713403717",
    "uf": "SP",
    "cidade": "LEME",
@@ -20896,6 +21454,27 @@
     "fonte": "google",
     "lat": -22.5836318,
     "lng": -48.8301565
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787711061762",
+   "uf": "SP",
+   "cidade": "LIMEIRA",
+   "bairro": "FAZENDA DUAS BARRAS",
+   "endereco": "AVENIDA PEDRO PERISSOTTO, N. 2611, Apto 101, TERREO  1 PAV   BL 3  VGS 18 E M09",
+   "preco": 146143.37,
+   "valor_avaliacao": 238677.6,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 105.28 de área total, 53.35 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711061762",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.6032789,
+    "lng": -47.3839538
    },
    "geo_pendente": false
   },
@@ -21383,27 +21962,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444419524005",
-   "uf": "SP",
-   "cidade": "MAIRINQUE",
-   "bairro": "JARDIM V G B",
-   "endereco": "RUA RAUL SEIXAS, N. 178, LT 04 QD 01",
-   "preco": 267672.01,
-   "valor_avaliacao": 420000.0,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Casa, 0.00 de área total, 57.00 de área privativa, 250.81 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419524005",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -23.5502396,
-    "lng": -47.2098375
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444421090645",
    "uf": "SP",
    "cidade": "MAIRIPORA",
@@ -21749,6 +22307,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787715536919",
+   "uf": "SP",
+   "cidade": "MARILIA",
+   "bairro": "JARDIM CALIFORNIA",
+   "endereco": "RUA ABS YASBEK, N. 162, Apto 403, BL 20 4 PAV",
+   "preco": 94908.21,
+   "valor_avaliacao": 160157.06,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 87.16 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715536919",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.2216341,
+    "lng": -49.97768670000001
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555537611730",
    "uf": "SP",
    "cidade": "MARILIA",
@@ -21892,6 +22471,69 @@
     "fonte": "google",
     "lat": -22.2207806,
     "lng": -49.9755158
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444431926698",
+   "uf": "SP",
+   "cidade": "MARILIA",
+   "bairro": "JARDIM VIRGINIA",
+   "endereco": "RUA LAZARO FONSECA, N. 215, QD 18 LT B  DESTACADO DO LOTE N° 20",
+   "preco": 173282.17,
+   "valor_avaliacao": 283000.0,
+   "desconto": 38.77,
+   "financiamento": "Sim",
+   "descricao": "Casa, 91.16 de área total, 91.16 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431926698",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.1991902,
+    "lng": -49.9709916
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "10302974",
+   "uf": "SP",
+   "cidade": "MARILIA",
+   "bairro": "JARDIM ACAPULCO",
+   "endereco": "RUA OLINDO VERONEZ, N. 26, JD ACAPULCO II",
+   "preco": 1126771.68,
+   "valor_avaliacao": 1768000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Prédio, 0.00 de área total, 852.64 de área privativa, 687.82 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10302974",
+   "tipo": "predio",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.2294262,
+    "lng": -49.9632046
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444405759994",
+   "uf": "SP",
+   "cidade": "MARILIA",
+   "bairro": "CENTRO",
+   "endereco": "RUA MARANHAO, N. 25, Apto 111, 11 ANDAR  AV. SAMPAIIO VIDAL",
+   "preco": 203940.58,
+   "valor_avaliacao": 320000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 128.26 de área total, 112.89 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), DCE, cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444405759994",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.2185062,
+    "lng": -49.9482788
    },
    "geo_pendente": false
   },
@@ -22682,27 +23324,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787717358589",
-   "uf": "SP",
-   "cidade": "MATAO",
-   "bairro": "RESIDENCIAL VILA FLORIDA",
-   "endereco": "RUA GABRIEL SCUTARE DA SILVA, N. 821, QUADRA B LOTE 02",
-   "preco": 101071.48,
-   "valor_avaliacao": 170557.54,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Casa, 49.53 de área total, 49.53 de área privativa, 349.59 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717358589",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.6390711,
-    "lng": -48.3380588
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787720062091",
    "uf": "SP",
    "cidade": "MATAO",
@@ -22783,6 +23404,27 @@
     "fonte": "google",
     "lat": -21.5813054,
     "lng": -48.3437669
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787717644948",
+   "uf": "SP",
+   "cidade": "MATAO",
+   "bairro": "RESIDENCIAL VILA FLORIDA",
+   "endereco": "RUA CESAR AUGUSTO APPOLONI, N. 488, QD F  LT 4  RUA TRES",
+   "preco": 117860.63,
+   "valor_avaliacao": 195000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 44.82 de área total, 44.82 de área privativa, 160.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717644948",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.5822608,
+    "lng": -48.3431844
    },
    "geo_pendente": false
   },
@@ -23739,21 +24381,6 @@
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720582516",
    "tipo": "apartamento"
-  },
-  {
-   "id": "8555535455626",
-   "uf": "SP",
-   "cidade": "MOGI GUACU",
-   "bairro": "JARDIM ARAUCARIA",
-   "endereco": "RUA LAZARO BENEDITO RIBEIRO, N. 55, LT 23, QD E",
-   "preco": 121316.69,
-   "valor_avaliacao": 220000.0,
-   "desconto": 44.86,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 44.98 de área privativa, 160.00 de área do terreno.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535455626",
-   "tipo": "casa"
   },
   {
    "id": "1444423680407",
@@ -26162,27 +26789,6 @@
    "tipo": "casa"
   },
   {
-   "id": "8555539182942",
-   "uf": "SP",
-   "cidade": "OSASCO",
-   "bairro": "NOVO OSASCO",
-   "endereco": "VIA TRANSVERSAL SUL, N. 200, Apto 51, TR 08",
-   "preco": 184460.69,
-   "valor_avaliacao": 315000.0,
-   "desconto": 41.45,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 0.00 de área total, 46.58 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555539182942",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -23.5776771,
-    "lng": -46.7968804
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555515913840",
    "uf": "SP",
    "cidade": "OSASCO",
@@ -26200,6 +26806,27 @@
     "fonte": "google",
     "lat": -23.5719298,
     "lng": -46.8104399
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787706700221",
+   "uf": "SP",
+   "cidade": "OSASCO",
+   "bairro": "HELENA MARIA",
+   "endereco": "RUA PATRICIO DE CAMARGO, N. 62, Apto 143, TIPO 2  14 ANDAR",
+   "preco": 245366.01,
+   "valor_avaliacao": 385000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 92.75 de área total, 44.73 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706700221",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.501558,
+    "lng": -46.788376
    },
    "geo_pendente": false
   },
@@ -28067,23 +28694,65 @@
    "geo_pendente": false
   },
   {
+   "id": "8787702965921",
+   "uf": "SP",
+   "cidade": "PIRACICABA",
+   "bairro": "VILA SONIA",
+   "endereco": "AVENIDA ROMA, N. 500, Apto 301, 3 PAV  BL 10  RUA 5",
+   "preco": 128250.44,
+   "valor_avaliacao": 241000.0,
+   "desconto": 46.79,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 48.18 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702965921",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.6662788,
+    "lng": -47.6875423
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787715383870",
    "uf": "SP",
    "cidade": "PIRACICABA",
    "bairro": "SAO JORGE",
    "endereco": "RUA ANDRES JOSE TUMANG, N. 800, Apto 136, CONJUNTO AH VG 136",
-   "preco": 90444.75,
+   "preco": 88000.29,
    "valor_avaliacao": 165000.0,
-   "desconto": 45.19,
-   "financiamento": "Não",
+   "desconto": 46.67,
+   "financiamento": "Sim",
    "descricao": "Apartamento, 113.12 de área total, 45.37 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715383870",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -22.7486539,
     "lng": -47.695026
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555527308008",
+   "uf": "SP",
+   "cidade": "PIRACICABA",
+   "bairro": "POMPEIA",
+   "endereco": "AVENIDA RIO DAS PEDRAS, N. 2255, Apto 402, BL 25",
+   "preco": 88962.16,
+   "valor_avaliacao": 165000.0,
+   "desconto": 46.09,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 45.95 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555527308008",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.7556345,
+    "lng": -47.6139725
    },
    "geo_pendente": false
   },
@@ -28408,6 +29077,27 @@
     "fonte": "google",
     "lat": -22.7486539,
     "lng": -47.695026
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787717623878",
+   "uf": "SP",
+   "cidade": "PIRACICABA",
+   "bairro": "SAO JORGE",
+   "endereco": "RUA ANDRES JOSE TUMANG, N. 1001, CS 03 PAV SUP CJTO A RUA PRINC 01 VG 0",
+   "preco": 102518.87,
+   "valor_avaliacao": 173000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Casa, 117.00 de área total, 45.37 de área privativa, 117.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717623878",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.7506472,
+    "lng": -47.6955359
    },
    "geo_pendente": false
   },
@@ -30884,6 +31574,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444432361511",
+   "uf": "SP",
+   "cidade": "PONTAL",
+   "bairro": "CENTRO (CANDIA)",
+   "endereco": "RUA CARAMURU, N. 899,",
+   "preco": 106785.55,
+   "valor_avaliacao": 180200.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 195.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444432361511",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.895378,
+    "lng": -47.98585550000001
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555538846367",
    "uf": "SP",
    "cidade": "PORTO FELIZ",
@@ -31010,27 +31721,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444429946130",
-   "uf": "SP",
-   "cidade": "PRAIA GRANDE",
-   "bairro": "BALNEARIO ABC",
-   "endereco": "AVENIDA BRIGADEIRO EDUARDO GOMES, N. 408, CS 03",
-   "preco": 169149.11,
-   "valor_avaliacao": 325000.0,
-   "desconto": 47.96,
-   "financiamento": "Sim",
-   "descricao": "Casa, 53.16 de área total, 46.04 de área privativa, 46.04 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429946130",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -24.0401547,
-    "lng": -46.5305372
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444424820812",
    "uf": "SP",
    "cidade": "PRAIA GRANDE",
@@ -31041,34 +31731,13 @@
    "desconto": 47.96,
    "financiamento": "Sim",
    "descricao": "Casa, 50.82 de área total, 44.14 de área privativa, 50.81 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424820812",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -24.0240806,
     "lng": -46.5241279
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444427182388",
-   "uf": "SP",
-   "cidade": "PRAIA GRANDE",
-   "bairro": "VILA RIOMAR",
-   "endereco": "AVENIDA JOSE LEANDRO DE CARVALHO, N. 2087, CS 02",
-   "preco": 117407.32,
-   "valor_avaliacao": 222000.0,
-   "desconto": 47.12,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 44.08 de área privativa, 51.20 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427182388",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -24.0244381,
-    "lng": -46.53142010000001
    },
    "geo_pendente": false
   },
@@ -32477,27 +33146,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787702995634",
-   "uf": "SP",
-   "cidade": "PRESIDENTE PRUDENTE",
-   "bairro": "VILA RAMOS DE FREITAS",
-   "endereco": "RUA ERMINIO TERIM, N. 900, Apto 401, BL 4",
-   "preco": 90074.38,
-   "valor_avaliacao": 160000.0,
-   "desconto": 43.71,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 81.45 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702995634",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -22.1401006,
-    "lng": -51.37788030000001
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444427473692",
    "uf": "SP",
    "cidade": "PRESIDENTE PRUDENTE",
@@ -33292,12 +33940,12 @@
    "cidade": "REGINOPOLIS",
    "bairro": "JARDIM MARIA LUIZA II",
    "endereco": "RUA JOSE MAFFEI, N. 82,",
-   "preco": 97570.7,
+   "preco": 94933.65,
    "valor_avaliacao": 178000.0,
-   "desconto": 45.19,
-   "financiamento": "Não",
+   "desconto": 46.67,
+   "financiamento": "Sim",
    "descricao": "Casa, 41.10 de área total, 41.10 de área privativa, 179.79 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434533034",
    "tipo": "casa",
    "geo": {
@@ -33370,18 +34018,60 @@
    "cidade": "RIBEIRAO PRETO",
    "bairro": "CONJUNTO HABITACIONAL JARDIM DAS PALMEIR",
    "endereco": "AV ALFREDO RAVANELI, N. 3409, Apto 305, BL 4",
-   "preco": 97053.35,
+   "preco": 90987.51,
    "valor_avaliacao": 210000.0,
-   "desconto": 53.79,
-   "financiamento": "Não",
+   "desconto": 56.68,
+   "financiamento": "Sim",
    "descricao": "Apartamento, 105.46 de área total, 47.45 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533516407",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -21.1832719,
     "lng": -47.7367265
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787713798711",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "VALENTINA FIGUEIREDO",
+   "endereco": "AVENIDA GOVERNADOR MARIO COVAS, N. 7555, Apto 31, BL B TORRE 4",
+   "preco": 75555.81,
+   "valor_avaliacao": 170000.0,
+   "desconto": 55.56,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 89.20 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713798711",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1150399,
+    "lng": -47.8067472
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787708436440",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "JARDIM FLORESTAN FERNANDES",
+   "endereco": "RUA JERÔNIMO ALFREDO AMOR SPIN, N. 400, Apto 04, BL E TORRE 02 TÉRREO",
+   "preco": 76222.47,
+   "valor_avaliacao": 171500.0,
+   "desconto": 55.56,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 108.39 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708436440",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1315651,
+    "lng": -47.7550891
    },
    "geo_pendente": false
   },
@@ -33407,44 +34097,44 @@
    "geo_pendente": false
   },
   {
-   "id": "8787713798711",
+   "id": "8444432586998",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
-   "bairro": "VALENTINA FIGUEIREDO",
-   "endereco": "AVENIDA GOVERNADOR MARIO COVAS, N. 7555, Apto 31, BL B TORRE 4",
-   "preco": 80592.86,
-   "valor_avaliacao": 170000.0,
-   "desconto": 52.6,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 89.20 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713798711",
+   "bairro": "PARQUE DOS PINUS",
+   "endereco": "RUA PALMIRO BIM, N. 597, Apto 22, TR 05 BL F",
+   "preco": 103959.12,
+   "valor_avaliacao": 215000.0,
+   "desconto": 51.65,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 88.42 de área total, 40.71 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444432586998",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -21.1150399,
-    "lng": -47.8067472
+    "lat": -21.1207388,
+    "lng": -47.8214706
    },
    "geo_pendente": false
   },
   {
-   "id": "8787708436440",
+   "id": "8787714793322",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
-   "bairro": "JARDIM FLORESTAN FERNANDES",
-   "endereco": "RUA JERÔNIMO ALFREDO AMOR SPIN, N. 400, Apto 04, BL E TORRE 02 TÉRREO",
-   "preco": 81303.97,
-   "valor_avaliacao": 171500.0,
-   "desconto": 52.6,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 108.39 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708436440",
+   "bairro": "JARDIM OURO BRANCO",
+   "endereco": "RUA PROFESSOR AYLTON RICOY DE OLIVEIRA, N. 605, Apto 203, BL 09 VG 75",
+   "preco": 99656.81,
+   "valor_avaliacao": 206102.31,
+   "desconto": 51.65,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 79.93 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714793322",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -21.1315651,
-    "lng": -47.7550891
+    "lat": -21.157767,
+    "lng": -47.7514935
    },
    "geo_pendente": false
   },
@@ -33491,6 +34181,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787712024810",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "VALENTINA FIGUEIREDO",
+   "endereco": "AVENIDA GOVERNADOR MARIO COVAS, N. 7555, Apto 03, BL D TORRE 3",
+   "preco": 74646.53,
+   "valor_avaliacao": 150000.0,
+   "desconto": 50.24,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 89.20 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712024810",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1150399,
+    "lng": -47.8067472
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444435128605",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
@@ -33529,6 +34240,90 @@
     "fonte": "google",
     "lat": -21.1137519,
     "lng": -47.8184692
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787710778710",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "VALENTINA FIGUEIREDO",
+   "endereco": "AVENIDA GOVERNADOR MARIO COVAS, N. 7555, Apto 31, PAV 03, TR 01, BL E,",
+   "preco": 87644.74,
+   "valor_avaliacao": 174000.0,
+   "desconto": 49.63,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 65.62 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710778710",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1354127,
+    "lng": -47.8045383
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787708806876",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "VILA ABRANCHES",
+   "endereco": "RUA MARIA AUXILIA ABRANCHES FARIA, N. 565, Apto 24, BL B TORRE 1",
+   "preco": 98569.8,
+   "valor_avaliacao": 195000.0,
+   "desconto": 49.46,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 94.24 de área total, 42.14 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708806876",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1859199,
+    "lng": -47.7532627
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444429179104",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "JARDIM JAVARI",
+   "endereco": "RUA ITAJUBA, N. 1161, Apto 02, BL A TORRE 2",
+   "preco": 88616.74,
+   "valor_avaliacao": 174000.0,
+   "desconto": 49.08,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 89.41 de área total, 42.96 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429179104",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1389354,
+    "lng": -47.8239627
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787707874720",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "RESERVA REAL",
+   "endereco": "RUA JOAO E GUIOMAR SOEIRA, N. 155, Apto 401, BL 30",
+   "preco": 87088.86,
+   "valor_avaliacao": 171000.0,
+   "desconto": 49.08,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 80.32 de área total, 41.85 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707874720",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1900881,
+    "lng": -47.73104420000001
    },
    "geo_pendente": false
   },
@@ -33575,44 +34370,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444432586998",
+   "id": "8787702993895",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
-   "bairro": "PARQUE DOS PINUS",
-   "endereco": "RUA PALMIRO BIM, N. 597, Apto 22, TR 05 BL F",
-   "preco": 110456.56,
-   "valor_avaliacao": 215000.0,
+   "bairro": "RESERVA REAL",
+   "endereco": "RUA JOAO E GUIOMAR SOEIRA, N. 155, Apto 402, BL 37 VG 389",
+   "preco": 103982.17,
+   "valor_avaliacao": 202397.81,
    "desconto": 48.63,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 88.42 de área total, 40.71 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444432586998",
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 80.32 de área total, 41.85 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702993895",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -21.1207388,
-    "lng": -47.8214706
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787714793322",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "JARDIM OURO BRANCO",
-   "endereco": "RUA PROFESSOR AYLTON RICOY DE OLIVEIRA, N. 605, Apto 203, BL 09 VG 75",
-   "preco": 105885.36,
-   "valor_avaliacao": 206102.31,
-   "desconto": 48.63,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 79.93 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714793322",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.157767,
-    "lng": -47.7514935
+    "lat": -21.1900881,
+    "lng": -47.73104420000001
    },
    "geo_pendente": false
   },
@@ -33638,23 +34412,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787710778710",
+   "id": "8555538413568",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
-   "bairro": "VALENTINA FIGUEIREDO",
-   "endereco": "AVENIDA GOVERNADOR MARIO COVAS, N. 7555, Apto 31, PAV 03, TR 01, BL E,",
-   "preco": 90222.52,
-   "valor_avaliacao": 174000.0,
+   "bairro": "JARDIM DIVA TARLA DE CARVALHO",
+   "endereco": "AVENIDA DOUTOR FERNANDO MENDES GARCIA, N. 2720, Apto 13, BL B, TORRE 07",
+   "preco": 80629.9,
+   "valor_avaliacao": 155500.0,
    "desconto": 48.15,
    "financiamento": "Não",
-   "descricao": "Apartamento, 65.62 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710778710",
+   "descricao": "Apartamento, 101.48 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555538413568",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -21.1354127,
-    "lng": -47.8045383
+    "lat": -21.1360448,
+    "lng": -47.7420732
    },
    "geo_pendente": false
   },
@@ -33680,23 +34454,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787708806876",
+   "id": "1444420855869",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
-   "bairro": "VILA ABRANCHES",
-   "endereco": "RUA MARIA AUXILIA ABRANCHES FARIA, N. 565, Apto 24, BL B TORRE 1",
-   "preco": 101386.08,
-   "valor_avaliacao": 195000.0,
-   "desconto": 48.01,
+   "bairro": "PARQUE ROMANCE",
+   "endereco": "AVENIDA ALFREDO RAVANELI, N. 3409, Apto 407, BL 05",
+   "preco": 80429.78,
+   "valor_avaliacao": 155000.0,
+   "desconto": 48.11,
    "financiamento": "Não",
-   "descricao": "Apartamento, 94.24 de área total, 42.14 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708806876",
+   "descricao": "Apartamento, 103.07 de área total, 46.02 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444420855869",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -21.1859199,
-    "lng": -47.7532627
+    "lat": -21.1827229,
+    "lng": -47.7364921
    },
    "geo_pendente": false
   },
@@ -33722,65 +34496,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444429179104",
+   "id": "8555525536933",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
    "bairro": "JARDIM JAVARI",
-   "endereco": "RUA ITAJUBA, N. 1161, Apto 02, BL A TORRE 2",
-   "preco": 91078.32,
-   "valor_avaliacao": 174000.0,
-   "desconto": 47.66,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 89.41 de área total, 42.96 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429179104",
+   "endereco": "RUA ITAJUBA, N. 1161, Apto 21, BL B TORRE 03",
+   "preco": 110223.35,
+   "valor_avaliacao": 208416.18,
+   "desconto": 47.12,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 89.41 de área total, 42.96 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525536933",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -21.1389354,
     "lng": -47.8239627
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787707874720",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "RESERVA REAL",
-   "endereco": "RUA JOAO E GUIOMAR SOEIRA, N. 155, Apto 401, BL 30",
-   "preco": 89508.0,
-   "valor_avaliacao": 171000.0,
-   "desconto": 47.66,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 80.32 de área total, 41.85 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707874720",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.1900881,
-    "lng": -47.73104420000001
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787702993895",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "RESERVA REAL",
-   "endereco": "RUA JOAO E GUIOMAR SOEIRA, N. 155, Apto 402, BL 37 VG 389",
-   "preco": 107040.47,
-   "valor_avaliacao": 202397.81,
-   "desconto": 47.12,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 80.32 de área total, 41.85 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702993895",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.1900881,
-    "lng": -47.73104420000001
    },
    "geo_pendente": false
   },
@@ -33802,6 +34534,48 @@
     "fonte": "google",
     "lat": -21.1137519,
     "lng": -47.8184692
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787711646507",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "RIBEIRAO PRETO",
+   "endereco": "RUA GERALDO RINHEL SOBRINHO, N. 250, Apto 312, BL 05",
+   "preco": 85333.62,
+   "valor_avaliacao": 160000.0,
+   "desconto": 46.67,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 93.82 de área total, 43.27 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711646507",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1305012,
+    "lng": -47.8556854
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555526282170",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "IPIRANGA",
+   "endereco": "RUA ITAJUBA, N. 1161, Apto 11, TORRE 05, BL D",
+   "preco": 84266.95,
+   "valor_avaliacao": 158000.0,
+   "desconto": 46.67,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 89.41 de área total, 42.96 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555526282170",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1389354,
+    "lng": -47.8239627
    },
    "geo_pendente": false
   },
@@ -33869,6 +34643,69 @@
    "geo_pendente": false
   },
   {
+   "id": "8555540138544",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "JARDIM DIVA TARLA DE CARVALHO",
+   "endereco": "AVENIDA DOUTOR FERNANDO MENDES GARCIA, N. 2720, Apto 12, BL E, TORRE 05",
+   "preco": 89776.79,
+   "valor_avaliacao": 167000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 101.48 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555540138544",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1360448,
+    "lng": -47.7420732
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787705162250",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "JARDIM HEITOR RIGON",
+   "endereco": "RUA JOSE DE ALCANTARA, N. 765, Apto 24, TORRE 04 BL C",
+   "preco": 94615.06,
+   "valor_avaliacao": 176000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 89.45 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705162250",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1137519,
+    "lng": -47.8184692
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555523741661",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "JARDIM MARCHESI",
+   "endereco": "AVENIDA DOS ANDRADAS, N. 700, Apto 24, BL 11",
+   "preco": 96765.41,
+   "valor_avaliacao": 180000.0,
+   "desconto": 46.25,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 102.56 de área total, 43.75 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523741661",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.206609,
+    "lng": -47.8346209
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787702995596",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
@@ -33886,6 +34723,27 @@
     "fonte": "google",
     "lat": -21.1177736,
     "lng": -47.8085554
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555540138269",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "JARDIM DIVA TARLA DE CARVALHO",
+   "endereco": "AVENIDA DOUTOR FERNANDO MENDES GARCIA, N. 2720, Apto 1, BL E, TORRE 03",
+   "preco": 83940.76,
+   "valor_avaliacao": 155000.0,
+   "desconto": 45.85,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 101.48 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555540138269",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1360448,
+    "lng": -47.7420732
    },
    "geo_pendente": false
   },
@@ -33911,23 +34769,44 @@
    "geo_pendente": false
   },
   {
-   "id": "8555525536933",
+   "id": "8787713684805",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
-   "bairro": "JARDIM JAVARI",
-   "endereco": "RUA ITAJUBA, N. 1161, Apto 21, BL B TORRE 03",
-   "preco": 113372.59,
-   "valor_avaliacao": 208416.18,
+   "bairro": "JARDIM OURO BRANCO",
+   "endereco": "RUA PROFESSOR AYLTON RICOY DE OLIVEIRA, N. 605, Apto 302, BL 14",
+   "preco": 100634.85,
+   "valor_avaliacao": 185000.0,
    "desconto": 45.61,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 89.41 de área total, 42.96 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525536933",
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 79.93 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713684805",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -21.1389354,
-    "lng": -47.8239627
+    "lat": -21.157767,
+    "lng": -47.7514935
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787710182973",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "RESERVA REAL",
+   "endereco": "RUA ANTENOR DE SOUZA, N. 605, Apto 303, BL 08, VG 43",
+   "preco": 114234.15,
+   "valor_avaliacao": 210000.0,
+   "desconto": 45.61,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 94.54 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710182973",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1878644,
+    "lng": -47.7268543
    },
    "geo_pendente": false
   },
@@ -33995,44 +34874,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787711646507",
+   "id": "8787715310961",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
-   "bairro": "RIBEIRAO PRETO",
-   "endereco": "RUA GERALDO RINHEL SOBRINHO, N. 250, Apto 312, BL 05",
-   "preco": 87704.0,
-   "valor_avaliacao": 160000.0,
-   "desconto": 45.19,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 93.82 de área total, 43.27 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711646507",
+   "bairro": "RESERVA MACAUBA",
+   "endereco": "RUA GERALDO RINHEL SOBRINHO, N. 250, Apto 208, BL 10",
+   "preco": 103725.76,
+   "valor_avaliacao": 189000.0,
+   "desconto": 45.12,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 93.82 de área total, 43.27 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715310961",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -21.1305012,
     "lng": -47.8556854
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555526282170",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "IPIRANGA",
-   "endereco": "RUA ITAJUBA, N. 1161, Apto 11, TORRE 05, BL D",
-   "preco": 86607.7,
-   "valor_avaliacao": 158000.0,
-   "desconto": 45.19,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 89.41 de área total, 42.96 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555526282170",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.1389354,
-    "lng": -47.8239627
    },
    "geo_pendente": false
   },
@@ -34100,69 +34958,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555540138544",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "JARDIM DIVA TARLA DE CARVALHO",
-   "endereco": "AVENIDA DOUTOR FERNANDO MENDES GARCIA, N. 2720, Apto 12, BL E, TORRE 05",
-   "preco": 92139.34,
-   "valor_avaliacao": 167000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 101.48 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555540138544",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.1360448,
-    "lng": -47.7420732
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787705162250",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "JARDIM HEITOR RIGON",
-   "endereco": "RUA JOSE DE ALCANTARA, N. 765, Apto 24, TORRE 04 BL C",
-   "preco": 97104.93,
-   "valor_avaliacao": 176000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 89.45 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705162250",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.1137519,
-    "lng": -47.8184692
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555523741661",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "JARDIM MARCHESI",
-   "endereco": "AVENIDA DOS ANDRADAS, N. 700, Apto 24, BL 11",
-   "preco": 99311.87,
-   "valor_avaliacao": 180000.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 102.56 de área total, 43.75 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523741661",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.206609,
-    "lng": -47.8346209
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444420208993",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
@@ -34184,6 +34979,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787720157939",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "JARDIM OURO BRANCO",
+   "endereco": "RUA PROFESSOR AYLTON RICOY DE OLIVEIRA, N. 925, Apto 301, BL 01",
+   "preco": 78422.76,
+   "valor_avaliacao": 141000.0,
+   "desconto": 44.39,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 0.00 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720157939",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1568208,
+    "lng": -47.7472091
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "10145275",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
@@ -34199,44 +35015,23 @@
    "tipo": "loja"
   },
   {
-   "id": "8787713684805",
+   "id": "8444410998487",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
-   "bairro": "JARDIM OURO BRANCO",
-   "endereco": "RUA PROFESSOR AYLTON RICOY DE OLIVEIRA, N. 605, Apto 302, BL 14",
-   "preco": 103430.26,
-   "valor_avaliacao": 185000.0,
-   "desconto": 44.1,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 79.93 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713684805",
+   "bairro": "VILA ABRANCHES",
+   "endereco": "RUA FELICIANO ALVES FARIA, N. 311, Apto 202, BL 3 VG 87",
+   "preco": 99358.04,
+   "valor_avaliacao": 177000.0,
+   "desconto": 43.87,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 127.91 de área total, 46.67 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410998487",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -21.157767,
-    "lng": -47.7514935
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787710182973",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "RESERVA REAL",
-   "endereco": "RUA ANTENOR DE SOUZA, N. 605, Apto 303, BL 08, VG 43",
-   "preco": 117407.32,
-   "valor_avaliacao": 210000.0,
-   "desconto": 44.1,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 94.54 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710182973",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.1878644,
-    "lng": -47.7268543
+    "lat": -21.1847101,
+    "lng": -47.75374129999999
    },
    "geo_pendente": false
   },
@@ -34445,27 +35240,6 @@
    "tipo": "apartamento"
   },
   {
-   "id": "8787715310961",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "RESERVA MACAUBA",
-   "endereco": "RUA GERALDO RINHEL SOBRINHO, N. 250, Apto 208, BL 10",
-   "preco": 106455.39,
-   "valor_avaliacao": 189000.0,
-   "desconto": 43.68,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 93.82 de área total, 43.27 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715310961",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.1305012,
-    "lng": -47.8556854
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444415736081",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
@@ -34550,27 +35324,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787720157939",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "JARDIM OURO BRANCO",
-   "endereco": "RUA PROFESSOR AYLTON RICOY DE OLIVEIRA, N. 925, Apto 301, BL 01",
-   "preco": 80486.52,
-   "valor_avaliacao": 141000.0,
-   "desconto": 42.92,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720157939",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.1568208,
-    "lng": -47.7472091
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787701951757",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
@@ -34613,6 +35366,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444406041904",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "VILA VIRGINIA",
+   "endereco": "RUA PAULO DE FRONTIM, N. 2005, Apto 12, BL C TR 5 PAV 2",
+   "preco": 107643.7,
+   "valor_avaliacao": 188000.0,
+   "desconto": 42.75,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 49.42 de área total, 42.96 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406041904",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1967947,
+    "lng": -47.83119199999999
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555539905430",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
@@ -34646,27 +35420,6 @@
    "descricao": "Apartamento, 65.21 de área total, 39.21 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712853883",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.1816081,
-    "lng": -47.752113
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787716393992",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "PARQUE SAO SEBASTIAO",
-   "endereco": "AVENIDA DOUTOR WALTER BELIAN, N. 1607, Apto 22, BL G TORRE 04",
-   "preco": 105651.47,
-   "valor_avaliacao": 184000.0,
-   "desconto": 42.59,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 53.21 de área total, 39.21 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716393992",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -34714,27 +35467,6 @@
     "fonte": "google",
     "lat": -21.1568208,
     "lng": -47.7472091
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444410998487",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "VILA ABRANCHES",
-   "endereco": "RUA FELICIANO ALVES FARIA, N. 311, Apto 202, BL 3 VG 87",
-   "preco": 101972.73,
-   "valor_avaliacao": 177000.0,
-   "desconto": 42.39,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 127.91 de área total, 46.67 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410998487",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.1847101,
-    "lng": -47.75374129999999
    },
    "geo_pendente": false
   },
@@ -35247,7 +35979,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 110.65 de área total, 41.85 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537596839",
    "tipo": "apartamento",
    "geo": {
@@ -35380,6 +36112,48 @@
     "fonte": "google",
     "lat": -21.1150399,
     "lng": -47.8067472
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555538493510",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "JARDIM DIVA TARLA DE CARVALHO",
+   "endereco": "AVENIDA DOUTOR FERNANDO MENDES GARCIA, N. 2720, Apto 34, 3 PAV  BL E  TORRE 4",
+   "preco": 87819.45,
+   "valor_avaliacao": 150000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 101.48 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555538493510",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1360448,
+    "lng": -47.7420732
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555540166661",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "JARDIM DIVA TARLA DE CARVALHO",
+   "endereco": "AVENIDA DOUTOR FERNANDO MENDES GARCIA, N. 2720, Apto 34, 3 PAV  BL B  TORRE 7",
+   "preco": 90746.77,
+   "valor_avaliacao": 155000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 101.48 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555540166661",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1360448,
+    "lng": -47.7420732
    },
    "geo_pendente": false
   },
@@ -35849,6 +36623,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787715443570",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "RESERVA MACAUBA",
+   "endereco": "RUA GERALDO RINHEL SOBRINHO, N. 400, Apto 409, 3 PAV  BL 2",
+   "preco": 81964.82,
+   "valor_avaliacao": 140000.0,
+   "desconto": 41.46,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 91.21 de área total, 43.16 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715443570",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1296277,
+    "lng": -47.8568664
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787702999320",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
@@ -35929,27 +36724,6 @@
     "fonte": "google",
     "lat": -21.1900881,
     "lng": -47.73104420000001
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444406041904",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "VILA VIRGINIA",
-   "endereco": "RUA PAULO DE FRONTIM, N. 2005, Apto 12, BL C TR 5 PAV 2",
-   "preco": 110476.43,
-   "valor_avaliacao": 188000.0,
-   "desconto": 41.24,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 49.42 de área total, 42.96 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406041904",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.1967947,
-    "lng": -47.83119199999999
    },
    "geo_pendente": false
   },
@@ -36244,27 +37018,6 @@
     "fonte": "google",
     "lat": -21.135623,
     "lng": -47.8051
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787710486506",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "IPIRANGA",
-   "endereco": "RUA JAPURA, N. 3055, Apto 14, T 3 BL C",
-   "preco": 91893.77,
-   "valor_avaliacao": 155070.21,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 85.34 de área total, 42.50 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710486506",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.1358856,
-    "lng": -47.8162976
    },
    "geo_pendente": false
   },
@@ -37154,6 +37907,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787712697059",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "RESERVA REAL",
+   "endereco": "RUA ANTENOR DE SOUZA, N. 605, Apto 302, QD 3 LT 1 BL 13 VG 90",
+   "preco": 103704.06,
+   "valor_avaliacao": 175000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 95.38 de área total, 40.82 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712697059",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1867548,
+    "lng": -47.7300254
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787713106763",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
@@ -37358,27 +38132,6 @@
    "tipo": "casa"
   },
   {
-   "id": "8787710882274",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "ADELINO SIMIONI",
-   "endereco": "AVENIDA EDUARDO ANDREA MATARAZZO, N. 6130, Apto 103, 1º  PAV TORRE 10",
-   "preco": 113025.32,
-   "valor_avaliacao": 187000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 117.57 de área total, 47.85 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710882274",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.1229147,
-    "lng": -47.8020444
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787713918946",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
@@ -37494,7 +38247,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 97.18 de área total, 43.06 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704840689",
    "tipo": "apartamento",
    "geo": {
@@ -38249,6 +39002,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8444431708011",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "JARDIM JANDAIA",
+   "endereco": "RUA PAULO MARZOLA, N. 845,",
+   "preco": 198998.96,
+   "valor_avaliacao": 325000.0,
+   "desconto": 38.77,
+   "financiamento": "Sim",
+   "descricao": "Casa, 178.51 de área total, 129.90 de área privativa, 125.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431708011",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1306647,
+    "lng": -47.8100417
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787713585840",
+   "uf": "SP",
+   "cidade": "RIBEIRAO PRETO",
+   "bairro": "CHACARAS PEDRO CORREA DE CARVALHO",
+   "endereco": "AVENIDA EDUARDO ANDREA MATARAZZO, N. 6050, Apto 304, 3 PAV  TORRE 7",
+   "preco": 146953.08,
+   "valor_avaliacao": 240000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 122.50 de área total, 56.33 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713585840",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.1237912,
+    "lng": -47.801923
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787713819018",
    "uf": "SP",
    "cidade": "RIBEIRAO PRETO",
@@ -38392,27 +39187,6 @@
     "fonte": "google",
     "lat": -21.1229147,
     "lng": -47.8020444
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444406403018",
-   "uf": "SP",
-   "cidade": "RIBEIRAO PRETO",
-   "bairro": "CAMPOS ELISEOS",
-   "endereco": "RUA VICENTE GOLFETO, N. 251, Apto 61, TORRE 1 - ED SÃO PAULO",
-   "preco": 120219.85,
-   "valor_avaliacao": 191000.0,
-   "desconto": 37.06,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 106.64 de área total, 58.35 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406403018",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -21.1544723,
-    "lng": -47.7975596
    },
    "geo_pendente": false
   },
@@ -42907,12 +43681,12 @@
    "cidade": "SALTO DE PIRAPORA",
    "bairro": "JARDIM CACHOEIRA",
    "endereco": "RUA JOSE RODRIGUES FERNANDES, N. 163, SN, LT 38 QD G",
-   "preco": 122998.14,
+   "preco": 119673.87,
    "valor_avaliacao": 220000.0,
-   "desconto": 44.1,
-   "financiamento": "Não",
+   "desconto": 45.61,
+   "financiamento": "Sim",
    "descricao": "Casa, 50.00 de área total, 50.00 de área privativa, 137.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444401729207",
    "tipo": "casa",
    "geo": {
@@ -43217,6 +43991,27 @@
    "descricao": "Apartamento, 0.00 de área total, 52.70 de área privativa, 0.00 de área do terreno.",
    "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717343573",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.7126709,
+    "lng": -47.3730458
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787717410939",
+   "uf": "SP",
+   "cidade": "SANTA BARBARA D'OESTE",
+   "bairro": "JARDIM DOS MANACAS",
+   "endereco": "RUA VICENTE PASCHOAL, N. 310, Apto 202, TORRE 4",
+   "preco": 156749.95,
+   "valor_avaliacao": 256000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 52.70 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717410939",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -44951,6 +45746,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8555537594011",
+   "uf": "SP",
+   "cidade": "SAO CARLOS",
+   "bairro": "PARQUE FEHR",
+   "endereco": "RUA JOAO DERIGGI, N. 181, Apto 104, 1 PAV  TERREO   BL 03",
+   "preco": 94815.14,
+   "valor_avaliacao": 160000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 88.01 de área total, 41.85 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537594011",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -21.9784205,
+    "lng": -47.9397308
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444416713028",
    "uf": "SP",
    "cidade": "SAO CARLOS",
@@ -45970,12 +46786,12 @@
    "cidade": "SAO JOSE DO RIO PRETO",
    "bairro": "JARDIM MANOEL DEL ARCO",
    "endereco": "AVENIDA CATARINA MARCOLIN ADOLFO, N. 500, Apto 403, PAV 03, BL 02, VG 59",
-   "preco": 90741.05,
+   "preco": 88148.45,
    "valor_avaliacao": 175000.0,
-   "desconto": 48.15,
-   "financiamento": "Não",
+   "desconto": 49.63,
+   "financiamento": "Sim",
    "descricao": "Apartamento, 47.25 de área total, 47.25 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408480964",
    "tipo": "apartamento",
    "geo": {
@@ -45991,12 +46807,12 @@
    "cidade": "SAO JOSE DO RIO PRETO",
    "bairro": "JARDIM NUNES",
    "endereco": "RUA ALFREDO RICARDO DA COSTA, N. 2195, Apto 401, BL 11 VG 121",
-   "preco": 96277.34,
+   "preco": 93808.69,
    "valor_avaliacao": 174500.0,
-   "desconto": 44.83,
-   "financiamento": "Não",
+   "desconto": 46.25,
+   "financiamento": "Sim",
    "descricao": "Apartamento, 90.92 de área total, 39.30 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704419215",
    "tipo": "apartamento",
    "geo": {
@@ -46012,18 +46828,60 @@
    "cidade": "SAO JOSE DO RIO PRETO",
    "bairro": "RESIDENCIAL JOSE BERNARDES COELHO",
    "endereco": "AVENIDA GRACINDA MARIA FERNANDES, N. 170, ANTIGA AV PROJETADA 1",
-   "preco": 106225.67,
+   "preco": 103354.71,
    "valor_avaliacao": 190000.0,
-   "desconto": 44.1,
-   "financiamento": "Não",
+   "desconto": 45.61,
+   "financiamento": "Sim",
    "descricao": "Casa, 43.85 de área total, 43.85 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718486300",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -20.7462128,
     "lng": -49.4333402
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716419100",
+   "uf": "SP",
+   "cidade": "SAO JOSE DO RIO PRETO",
+   "bairro": "JARDIM PAULISTANO",
+   "endereco": "RUA PROJETADA 8, N. 722,",
+   "preco": 106225.67,
+   "valor_avaliacao": 190000.0,
+   "desconto": 44.1,
+   "financiamento": "Não",
+   "descricao": "Casa, 43.85 de área total, 43.85 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716419100",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.7975839,
+    "lng": -49.37659559999999
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716407853",
+   "uf": "SP",
+   "cidade": "SAO JOSE DO RIO PRETO",
+   "bairro": "RESIDENCIAL JOSE BERNARDES COELHO",
+   "endereco": "RUA LUCIA ALVES SANTANA, N. 720,",
+   "preco": 115730.07,
+   "valor_avaliacao": 207000.0,
+   "desconto": 44.1,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 43.85 de área privativa, 227.24 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716407853",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.7513889,
+    "lng": -49.43420620000001
    },
    "geo_pendente": false
   },
@@ -47093,6 +47951,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787711802878",
+   "uf": "SP",
+   "cidade": "SAO JOSE DO RIO PRETO",
+   "bairro": "RESIDENCIAL MARIA CLARA 2",
+   "endereco": "RUA PROJETADA 9, N. 223, LT 27 QD 15",
+   "preco": 114838.57,
+   "valor_avaliacao": 190000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 44.82 de área total, 44.82 de área privativa, 200.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711802878",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.8725487,
+    "lng": -49.3429227
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787719935850",
    "uf": "SP",
    "cidade": "SAO JOSE DO RIO PRETO",
@@ -47215,6 +48094,27 @@
     "fonte": "google",
     "lat": -20.8387823,
     "lng": -49.41026910000001
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787710982287",
+   "uf": "SP",
+   "cidade": "SAO JOSE DO RIO PRETO",
+   "bairro": "LOTEAMENTO ABILIO JORGE CURY",
+   "endereco": "RUA ANTONIO BALISTA DA SILVA, N. 255, Apto 401, QUARTO PAV BL 4 VG 75",
+   "preco": 153076.13,
+   "valor_avaliacao": 250000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 86.50 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710982287",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.782505,
+    "lng": -49.3577677
    },
    "geo_pendente": false
   },
@@ -49064,27 +49964,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555509931700",
-   "uf": "SP",
-   "cidade": "SAO JOSE DOS CAMPOS",
-   "bairro": "VILA ZIZINHA",
-   "endereco": "RUA KENKITI SHIMOMOTO, N. 180, Apto 222, BL V",
-   "preco": 255000.0,
-   "valor_avaliacao": 255000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 95.95 de área total, 51.15 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555509931700",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -23.1719988,
-    "lng": -45.8928196
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787701107140",
    "uf": "SP",
    "cidade": "SAO JOSE DOS CAMPOS",
@@ -49461,7 +50340,7 @@
    "desconto": 58.1,
    "financiamento": "Não",
    "descricao": "Terreno, 66.37 de área total, 0.00 de área privativa, 42.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10155583",
    "tipo": "terreno",
    "geo": {
@@ -49718,6 +50597,69 @@
    "tipo": "apartamento"
   },
   {
+   "id": "8787714847350",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "GUAIANAZES",
+   "endereco": "RUA INACIO DE OLIVEIRA CAMPOS, N. 550, Apto 1003, TORRE 02 HIS",
+   "preco": 117407.32,
+   "valor_avaliacao": 210000.0,
+   "desconto": 44.1,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 60.27 de área total, 33.90 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714847350",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5457294,
+    "lng": -46.39456
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787709896461",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "TUCURUVI",
+   "endereco": "RUA BARAO CARLOS DE SOUSA ANHUMAS, N. 380, Apto 42, BL18",
+   "preco": 117407.32,
+   "valor_avaliacao": 210000.0,
+   "desconto": 44.1,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 78.08 de área total, 38.70 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709896461",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.4357912,
+    "lng": -46.5827913
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716325423",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "JARDIM FANGANIELLO",
+   "endereco": "RUA INACIO DE OLIVEIRA CAMPOS, N. 550, Apto 706, TORRE 03 HIS",
+   "preco": 119084.57,
+   "valor_avaliacao": 213000.0,
+   "desconto": 44.1,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 60.27 de área total, 33.90 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716325423",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5457294,
+    "lng": -46.39456
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "10217325",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -49777,6 +50719,48 @@
     "fonte": "google",
     "lat": -23.5509226,
     "lng": -46.6484508
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787713355976",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "ITAQUERA",
+   "endereco": "RUA CLENIO WANDERLEY, N. 80, Apto 1608, 16º PAV BL 02 - SUBCONDOMINIO 1",
+   "preco": 123451.45,
+   "valor_avaliacao": 215000.0,
+   "desconto": 42.59,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 35.03 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713355976",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.6193218,
+    "lng": -46.4923402
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787717310241",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "SAUDE",
+   "endereco": "RUA PROFESSOR ARTUR PRIMAVESI, N. 154, Apto 08, TORRE A",
+   "preco": 124025.65,
+   "valor_avaliacao": 216000.0,
+   "desconto": 42.59,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 46.61 de área total, 29.17 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717310241",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.6423898,
+    "lng": -46.60788789999999
    },
    "geo_pendente": false
   },
@@ -49865,44 +50849,44 @@
    "geo_pendente": false
   },
   {
-   "id": "8444431400408",
+   "id": "1555528699177",
    "uf": "SP",
    "cidade": "SAO PAULO",
-   "bairro": "CIDADE TIRADENTES",
-   "endereco": "AVENIDA NAYLOR DE OLIVEIRA, N. 1610, Apto 33A, 3 PAV",
-   "preco": 90746.77,
-   "valor_avaliacao": 155000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 47.00 de área total, 44.20 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431400408",
+   "bairro": "VILA MOREIRA",
+   "endereco": "RUA ARNALDO CINTRA, N. 400, Apto 65, 6 ANDAR TORRE 01",
+   "preco": 250008.47,
+   "valor_avaliacao": 428181.52,
+   "desconto": 41.62,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 0.00 de área total, 61.62 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555528699177",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -23.5879041,
-    "lng": -46.3955733
+    "lat": -23.5258054,
+    "lng": -46.5620753
    },
    "geo_pendente": false
   },
   {
-   "id": "8787717310241",
+   "id": "1444413540874",
    "uf": "SP",
    "cidade": "SAO PAULO",
    "bairro": "SAUDE",
-   "endereco": "RUA PROFESSOR ARTUR PRIMAVESI, N. 154, Apto 08, TORRE A",
-   "preco": 127289.48,
-   "valor_avaliacao": 216000.0,
-   "desconto": 41.07,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 46.61 de área total, 29.17 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717310241",
+   "endereco": "RUA VIGARIO ALBERNAZ, N. 750, Apto 184, .",
+   "preco": 556966.0,
+   "valor_avaliacao": 953897.89,
+   "desconto": 41.62,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 0.00 de área total, 141.48 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, WC Emp, 1 sala(s), 1 lavabo(s), cozinha, Terraco.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444413540874",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -23.6423898,
-    "lng": -46.60788789999999
+    "lat": -23.6072745,
+    "lng": -46.6213294
    },
    "geo_pendente": false
   },
@@ -50309,6 +51293,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787712585625",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "FAZENDA ARICANDUVA",
+   "endereco": "RUA INDAIA GRANDE, N. 380, Apto 604, TORRE B, 6º PAVIMENTO",
+   "preco": 137201.86,
+   "valor_avaliacao": 227000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 46.58 de área total, 32.58 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712585625",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5664272,
+    "lng": -46.476195
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787703321548",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -50513,6 +51518,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787708399898",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "JARDIM AURORA (ZONA LESTE)",
+   "endereco": "AVENIDA NORDESTINA, N. 2780, Apto 1410, TORRE 01",
+   "preco": 129948.9,
+   "valor_avaliacao": 215000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 52.98 de área total, 35.17 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708399898",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5123573,
+    "lng": -46.4323317
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787704032442",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -50669,6 +51695,27 @@
    "tipo": "apartamento"
   },
   {
+   "id": "8787717383710",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "PARADA XV DE NOVEMBRO",
+   "endereco": "RUA GOIATA, N. 232, Apto 401, 4 PAV TORRE 1",
+   "preco": 132970.97,
+   "valor_avaliacao": 220000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 58.37 de área total, 41.30 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717383710",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5331084,
+    "lng": -46.4371933
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787717102711",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -50774,6 +51821,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787719163920",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "PARQUE SAO LOURENCO",
+   "endereco": "RUA FORTE DO RIO BRANCO, N. 811, Apto 507, PAVIMENTO 5   BLOCO 01 HIS1",
+   "preco": 137806.28,
+   "valor_avaliacao": 228000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 47.18 de área total, 31.42 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719163920",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.6029048,
+    "lng": -46.4606264
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787721164203",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -50833,6 +51901,48 @@
     "fonte": "google",
     "lat": -23.5085554,
     "lng": -46.5601768
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716171884",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "PARQUE COLONIAL",
+   "endereco": "RUA ANDRE DE ALMEIDA, N. 2665, Apto 803, 8 PAV TORRE 3 SUBCOND 2",
+   "preco": 142037.17,
+   "valor_avaliacao": 235000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 61.44 de área total, 36.67 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716171884",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5978951,
+    "lng": -46.4705567
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716630064",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "PARQUE COLONIAL",
+   "endereco": "RUA ANDRE DE ALMEIDA, N. 2665, Apto 906, 9 PAV TORRE 1 SUBCOND 1 HIS2",
+   "preco": 142037.17,
+   "valor_avaliacao": 235000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 57.29 de área total, 34.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716630064",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5978951,
+    "lng": -46.4705567
    },
    "geo_pendente": false
   },
@@ -50921,6 +52031,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787714685937",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "VILA LOURDES",
+   "endereco": "PRACA AMIANTO, N. 30, Apto 1208, 12 PAV BL 1",
+   "preco": 119673.87,
+   "valor_avaliacao": 198000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 78.17 de área total, 44.17 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714685937",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5457834,
+    "lng": -46.4220298
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787705317653",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -50978,6 +52109,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787713341789",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "VILA NOVA CURUCA",
+   "endereco": "RUA OSORIO FRANCO VILHENA, N. 1260, Apto 308, 3 PAV TORRE B",
+   "preco": 120882.7,
+   "valor_avaliacao": 200000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 45.74 de área total, 32.22 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713341789",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5127165,
+    "lng": -46.4192392
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787713960403",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -51020,6 +52172,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787715272709",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "VILA NOVA CURUCA",
+   "endereco": "RUA OSORIO FRANCO VILHENA, N. 1217, Apto 209, 2 PV  TORRE B  HIS1",
+   "preco": 140223.93,
+   "valor_avaliacao": 232000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 46.30 de área total, 32.39 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715272709",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5089925,
+    "lng": -46.4186213
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787715295563",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -51053,27 +52226,6 @@
    "descricao": "Apartamento, 46.44 de área total, 32.48 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715709562",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -23.5089925,
-    "lng": -46.4186213
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787718162688",
-   "uf": "SP",
-   "cidade": "SAO PAULO",
-   "bairro": "VILA NOVA CURUCA",
-   "endereco": "RUA OSORIO FRANCO VILHENA, N. 1217, Apto 901, TORRE B, HIS-1",
-   "preco": 127227.87,
-   "valor_avaliacao": 210498.06,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 46.82 de área total, 3275.55 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718162688",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -51440,6 +52592,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787709603804",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "VILA CARMOSINA",
+   "endereco": "RUA SHO YOSHIOKA, N. 511, Apto 506, 5 PAV  TORRE 2",
+   "preco": 117086.98,
+   "valor_avaliacao": 193720.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 53.66 de área total, 44.74 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709603804",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5785599,
+    "lng": -46.4480028
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787710134855",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -51761,6 +52934,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787718747600",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "JARDIM PEREIRA LEITE",
+   "endereco": "RUA MAESTRO GABRIEL MIGLIORI, N. 410-410A, Apto 1705, BL 2, SUBCOND. 3, HIS-2",
+   "preco": 154913.04,
+   "valor_avaliacao": 253000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 33.23 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718747600",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5059829,
+    "lng": -46.6795553
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787718754747",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -51774,6 +52968,48 @@
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718754747",
    "tipo": "apartamento"
+  },
+  {
+   "id": "8787716054667",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "ITAQUERA",
+   "endereco": "RUA ANDRE DE ALMEIDA, N. 2665, Apto 809, TORRE 04 SUBCON 02",
+   "preco": 144628.28,
+   "valor_avaliacao": 236203.2,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 57.92 de área total, 34.57 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716054667",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5978951,
+    "lng": -46.4705567
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716861554",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "ITAQUERA",
+   "endereco": "RUA ANDRE DE ALMEIDA, N. 2665, Apto 209, TORRE 04 SUBCOND 02",
+   "preco": 148789.99,
+   "valor_avaliacao": 243000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 57.91 de área total, 34.57 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716861554",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5978951,
+    "lng": -46.4705567
+   },
+   "geo_pendente": false
   },
   {
    "id": "8787718020379",
@@ -51861,6 +53097,27 @@
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717355962",
    "tipo": "apartamento"
+  },
+  {
+   "id": "8787706736439",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "JARDIM DO LAGO",
+   "endereco": "RUA SANTA AMELIA, N. 141, Apto 95, 9º PAV BL 5 - SUBCONDOMINIO 2",
+   "preco": 145116.17,
+   "valor_avaliacao": 237000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 62.44 de área total, 41.56 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706736439",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5752474,
+    "lng": -46.7810303
+   },
+   "geo_pendente": false
   },
   {
    "id": "8787711155244",
@@ -52280,6 +53537,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787716660630",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "VILA PALMEIRAS",
+   "endereco": "AVENIDA JOSE BENEDITO MARI, N. 30, Apto 202, 2º PAV BL 1 SUBCOND 1 HIS-1",
+   "preco": 146576.01,
+   "valor_avaliacao": 239384.18,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 48.29 de área total, 31.42 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716660630",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.611477,
+    "lng": -46.7351119
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787717084802",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -52430,6 +53708,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8787720352847",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "VILA EMA",
+   "endereco": "AVENIDA VILA EMA, N. 2258, Apto 1808, TORRE B PAVIMENTO 18  HIS2",
+   "preco": 189814.4,
+   "valor_avaliacao": 310000.0,
+   "desconto": 38.77,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 45.21 de área total, 32.39 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720352847",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5814386,
+    "lng": -46.5546866
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787714810987",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "VILA GUILHERME",
+   "endereco": "RUA JOAO VENTURA BATISTA, N. 200, Apto 144, 14 PAV TORRE 1 HIS2",
+   "preco": 203285.09,
+   "valor_avaliacao": 332000.0,
+   "desconto": 38.77,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 56.26 de área total, 38.49 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714810987",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5147557,
+    "lng": -46.60966370000001
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787717702026",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -52487,21 +53807,6 @@
    "tipo": "apartamento"
   },
   {
-   "id": "8787716786056",
-   "uf": "SP",
-   "cidade": "SAO PAULO",
-   "bairro": "SAUDE",
-   "endereco": "RUA EUGENIO FALK, N. 506, Apto 1704, TR 01",
-   "preco": 163485.3,
-   "valor_avaliacao": 267000.0,
-   "desconto": 38.77,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 50.82 de área total, 34.97 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716786056",
-   "tipo": "apartamento"
-  },
-  {
    "id": "8787706492009",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -52523,27 +53828,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787711620605",
-   "uf": "SP",
-   "cidade": "SAO PAULO",
-   "bairro": "VILA ANDRADE",
-   "endereco": "RUA DOM SALOMAO FERRAZ, N. 04, Apto 81, PAV 8 BL 3 SUB COND 3",
-   "preco": 158893.02,
-   "valor_avaliacao": 259500.0,
-   "desconto": 38.77,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 66.04 de área total, 43.31 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711620605",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -23.6345046,
-    "lng": -46.7402899
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787711816429",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -52561,6 +53845,27 @@
     "fonte": "google",
     "lat": -23.6347435,
     "lng": -46.7399157
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787717317408",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "JARDIM HELIAN",
+   "endereco": "AVENIDA ADRIANO BERTOZZI, N. 850, Apto 53, 5 PAV BL 4 SUBCOND 2 HIS2",
+   "preco": 172057.56,
+   "valor_avaliacao": 281000.0,
+   "desconto": 38.77,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 68.39 de área total, 40.20 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717317408",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5738401,
+    "lng": -46.4534761
    },
    "geo_pendente": false
   },
@@ -52811,6 +54116,27 @@
    "tipo": "casa"
   },
   {
+   "id": "10306957",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "JARDIM MONJOLO",
+   "endereco": "RUA PAULO RAIMONDI, N. 32",
+   "preco": 311009.38,
+   "valor_avaliacao": 488000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 0.00 de área total, 71.10 de área privativa, 74.45 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10306957",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.4917925,
+    "lng": -46.6972554
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444417736609",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -52940,6 +54266,27 @@
    "tipo": "apartamento"
   },
   {
+   "id": "1444420087853",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "PARQUE CISPER",
+   "endereco": "RUA SAO JOSE DE CAIANA, N. 13, LOTE 13  QD R",
+   "preco": 522597.73,
+   "valor_avaliacao": 820000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 180.00 de área total, 180.00 de área privativa, 300.00 de área do terreno, 4 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444420087853",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5033465,
+    "lng": -46.4983393
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444425635905",
    "uf": "SP",
    "cidade": "SAO PAULO",
@@ -53062,6 +54409,27 @@
     "fonte": "google",
     "lat": -23.5455617,
     "lng": -46.6438821
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1600000129694",
+   "uf": "SP",
+   "cidade": "SAO PAULO",
+   "bairro": "VILA DO BOSQUE",
+   "endereco": "RUA VUTURUNA, N. 126, LOTE B DO DESDOBRO",
+   "preco": 490732.01,
+   "valor_avaliacao": 770000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 176.32 de área total, 176.32 de área privativa, 150.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha, Terraco, 2 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1600000129694",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.6211259,
+    "lng": -46.6297684
    },
    "geo_pendente": false
   },
@@ -63814,12 +65182,12 @@
    "cidade": "SERTAOZINHO",
    "bairro": "JARDIM SANTA BARBARA",
    "endereco": "RUA ANTONIO MILAN, N. 314, Apto SN, PAV TERREO VG 04",
-   "preco": 99393.02,
+   "preco": 96706.72,
    "valor_avaliacao": 186000.0,
-   "desconto": 46.57,
-   "financiamento": "Não",
+   "desconto": 48.01,
+   "financiamento": "Sim",
    "descricao": "Apartamento, 60.73 de área total, 36.92 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427174121",
    "tipo": "apartamento",
    "geo": {
@@ -64298,6 +65666,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444439767661",
+   "uf": "SP",
+   "cidade": "SOROCABA",
+   "bairro": "PARQUE SAO BENTO",
+   "endereco": "RUA THEREZINHA DE JESUS ROSA RAPHANELLI, N. 467, KIT 10 PAV SUPERIOR VG 10",
+   "preco": 78201.87,
+   "valor_avaliacao": 135000.0,
+   "desconto": 42.08,
+   "financiamento": "Não",
+   "descricao": "Casa, 27.18 de área total, 22.40 de área privativa, 27.18 de área do terreno,  1 qto(s), a.serv, WC, cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444439767661",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.4349954,
+    "lng": -47.5054514
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444438390220",
    "uf": "SP",
    "cidade": "SOROCABA",
@@ -64378,6 +65767,27 @@
     "fonte": "google",
     "lat": -23.452495,
     "lng": -47.48233
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444424886791",
+   "uf": "SP",
+   "cidade": "SOROCABA",
+   "bairro": "TERRA VERMELHA",
+   "endereco": "RUA VICTOR ALFARANO, N. 566, QD E LT 10A",
+   "preco": 123300.35,
+   "valor_avaliacao": 204000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 50.00 de área total, 50.00 de área privativa, 160.35 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424886791",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.4478301,
+    "lng": -47.4809811
    },
    "geo_pendente": false
   },
@@ -66143,6 +67553,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444430349697",
+   "uf": "SP",
+   "cidade": "SUMARE",
+   "bairro": "CHACARA SANTA ANTONIETA (NOVA VENEZA)",
+   "endereco": "RUA ARIOVALDO LUIS MAZON, N. 81, Apto 204, TIPO III 2 ANDAR BL F",
+   "preco": 150014.6,
+   "valor_avaliacao": 245000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 52.33 de área total, 52.33 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430349697",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.8091073,
+    "lng": -47.243272
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787717156501",
    "uf": "SP",
    "cidade": "SUMARE",
@@ -66177,6 +67608,27 @@
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702120786",
    "tipo": "apartamento"
+  },
+  {
+   "id": "8444402633106",
+   "uf": "SP",
+   "cidade": "SUMARE",
+   "bairro": "RESIDENCIAL GUAIRA",
+   "endereco": "RUA ANTONIO BAREJAN FILHO, N. 1367, QD G  LOTE 18A",
+   "preco": 189814.4,
+   "valor_avaliacao": 310000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Casa, 71.27 de área total, 71.27 de área privativa, 150.35 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444402633106",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -22.8068915,
+    "lng": -47.2772094
+   },
+   "geo_pendente": false
   },
   {
    "id": "8444419411616",
@@ -67027,27 +68479,6 @@
     "fonte": "google",
     "lat": -23.5045036,
     "lng": -46.2904106
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444419436580",
-   "uf": "SP",
-   "cidade": "SUZANO",
-   "bairro": "CHACARA FAGGION",
-   "endereco": "RUA GONROKU YOSHIMOTO, N. 600, CS 323",
-   "preco": 198421.89,
-   "valor_avaliacao": 311340.72,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Casa, 89.80 de área total, 54.80 de área privativa, 89.80 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419436580",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -23.559185,
-    "lng": -46.3262328
    },
    "geo_pendente": false
   },
@@ -68996,6 +70427,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444415723273",
+   "uf": "SP",
+   "cidade": "TAUBATE",
+   "bairro": "RESIDENCIAL D'NAPOLI",
+   "endereco": "RUA CONSTANTINO FRUGOLI, N. 255, Apto 41, 4 PAV VG 16",
+   "preco": 154300.73,
+   "valor_avaliacao": 252000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 106.86 de área total, 73.51 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415723273",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.0502495,
+    "lng": -45.5577045
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787716841243",
    "uf": "SP",
    "cidade": "TAUBATE",
@@ -69775,12 +71227,12 @@
    "cidade": "VALENTIM GENTIL",
    "bairro": "JARDIM CAMPO BELO",
    "endereco": "RUA JOSE GERALDO ALBERTONI, N. 2-46, LT 04 QD C",
-   "preco": 92178.74,
+   "preco": 89815.18,
    "valor_avaliacao": 160000.0,
-   "desconto": 42.39,
-   "financiamento": "Não",
+   "desconto": 43.87,
+   "financiamento": "Sim",
    "descricao": "Casa, 65.98 de área total, 65.98 de área privativa, 178.45 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409082997",
    "tipo": "casa",
    "geo": {
@@ -69989,6 +71441,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8787708998333",
+   "uf": "SP",
+   "cidade": "VARGEM GRANDE PAULISTA",
+   "bairro": "CAPELA DE SAO PEDRO",
+   "endereco": "RUA BENEDICTO SOARES, N. 517, CS 56  TIPO A1  AREA 1",
+   "preco": 122091.53,
+   "valor_avaliacao": 202000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 168.39 de área total, 49.52 de área privativa, 55.69 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708998333",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.5824842,
+    "lng": -46.99972
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1600000102656",
+   "uf": "SP",
+   "cidade": "VARGEM GRANDE PAULISTA",
+   "bairro": "SAN DIEGO",
+   "endereco": "RUA GEORGIA, N. 750,",
+   "preco": 571395.5,
+   "valor_avaliacao": 919556.75,
+   "desconto": 37.87,
+   "financiamento": "Sim",
+   "descricao": "Casa, 204.88 de área total, 204.88 de área privativa, 794.93 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha, 5 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1600000102656",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -23.6342558,
+    "lng": -47.0299602
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787705080424",
    "uf": "SP",
    "cidade": "VARGEM GRANDE PAULISTA",
@@ -70126,27 +71620,6 @@
     "fonte": "google",
     "lat": -23.5745115,
     "lng": -47.4653019
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712373580",
-   "uf": "SP",
-   "cidade": "VOTORANTIM",
-   "bairro": "VILLA BELLA DE VOTORANTIM",
-   "endereco": "RUA PARMA, N. 55, Apto 102, TERREO BL 12 VG 96 E 97",
-   "preco": 140828.35,
-   "valor_avaliacao": 233000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 113.90 de área total, 72.23 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712373580",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -23.5800406,
-    "lng": -47.4656433
    },
    "geo_pendente": false
   },
@@ -70550,27 +72023,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787708328826",
-   "uf": "SP",
-   "cidade": "VOTUPORANGA",
-   "bairro": "RESIDENCIAL FORLIFE VERSATO",
-   "endereco": "ESTRADA MUNICIPAL PRIMO FURLANI, N. 240, Apto 03, BL 07",
-   "preco": 96829.95,
-   "valor_avaliacao": 172000.0,
-   "desconto": 43.71,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 86.28 de área total, 40.28 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708328826",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.4222685,
-    "lng": -49.935013
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787712151560",
    "uf": "SP",
    "cidade": "VOTUPORANGA",
@@ -70583,27 +72035,6 @@
    "descricao": "Apartamento, 86.28 de área total, 40.28 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712151560",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.4222685,
-    "lng": -49.935013
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787713251909",
-   "uf": "SP",
-   "cidade": "VOTUPORANGA",
-   "bairro": "RESIDENCIAL FORLIFE VERSATO",
-   "endereco": "ESTRADA MUNICIPAL PRIMO FURLANI, N. 240, Apto 03, BL 03",
-   "preco": 90074.38,
-   "valor_avaliacao": 160000.0,
-   "desconto": 43.71,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 0.00 de área total, 40.28 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713251909",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
