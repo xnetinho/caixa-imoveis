@@ -1,9 +1,9 @@
 {
  "uf": "PE",
- "data_geracao_caixa": "18/11/2026",
- "coletado_em": "19/11/2026 11:17",
+ "data_geracao_caixa": "19/11/2026",
+ "coletado_em": "20/11/2026 00:56",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_PE.csv",
- "total": 1127,
+ "total": 1115,
  "colunas": [
   "id",
   "uf",
@@ -177,7 +177,7 @@
    "desconto": 44.39,
    "financiamento": "Não",
    "descricao": "Apartamento, 54.70 de área total, 54.70 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419233440",
    "tipo": "apartamento",
    "geo": {
@@ -324,7 +324,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 83.10 de área total, 46.84 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715650657",
    "tipo": "apartamento",
    "geo": {
@@ -776,23 +776,44 @@
    "geo_pendente": false
   },
   {
-   "id": "8787714569775",
+   "id": "8787714660225",
    "uf": "PE",
    "cidade": "BELO JARDIM",
    "bairro": "EUNO ANDRADE DA SILVA",
-   "endereco": "RUA SEBASTIAO BARBOSA DA SILVA, N. 104, LT 31 QD 39",
-   "preco": 34567.26,
-   "valor_avaliacao": 115000.0,
-   "desconto": 69.95,
+   "endereco": "RUA MIGUEL BARROS, N. 19, 5038",
+   "preco": 29511.97,
+   "valor_avaliacao": 96100.0,
+   "desconto": 69.3,
    "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 50.18 de área privativa, 125.02 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Casa, 0.00 de área total, 46.30 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714569775",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714660225",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -8.323399000000002,
-    "lng": -36.413026
+    "lat": -8.3255957,
+    "lng": -36.3881656
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787714857436",
+   "uf": "PE",
+   "cidade": "BELO JARDIM",
+   "bairro": "EUNO ANDRADE DA SILVA",
+   "endereco": "RUA SEBASTIAO BARBOSA DA SILVA, N. 108, LT 30 QD 39",
+   "preco": 31424.79,
+   "valor_avaliacao": 101900.0,
+   "desconto": 69.17,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 50.18 de área privativa, 125.02 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714857436",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -8.323352,
+    "lng": -36.412967
    },
    "geo_pendente": false
   },
@@ -807,7 +828,7 @@
    "desconto": 66.87,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 50.00 de área privativa, 148.20 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535243262",
    "tipo": "casa",
    "geo": {
@@ -835,48 +856,6 @@
     "fonte": "google",
     "lat": -8.324622999999999,
     "lng": -36.392722
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712865253",
-   "uf": "PE",
-   "cidade": "BELO JARDIM",
-   "bairro": "EUNO ANDRADE DA SILVA",
-   "endereco": "RUA SEBASTIÃO BARBOSA DA SILVA, N. 24, QD 39 LT 51",
-   "preco": 28457.94,
-   "valor_avaliacao": 79000.0,
-   "desconto": 63.98,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 50.18 de área privativa, 125.02 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712865253",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.3338176,
-    "lng": -36.41849
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787713558761",
-   "uf": "PE",
-   "cidade": "BELO JARDIM",
-   "bairro": "EUNO ANDRADE DA SILVA",
-   "endereco": "RUA SEBASTIÃO BARBOSA DA SILVA, N. 59, QD 41 LT 15",
-   "preco": 29538.62,
-   "valor_avaliacao": 82000.0,
-   "desconto": 63.98,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 50.18 de área privativa, 125.02 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713558761",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.3338176,
-    "lng": -36.41849
    },
    "geo_pendente": false
   },
@@ -912,55 +891,13 @@
    "desconto": 61.35,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 50.00 de área privativa, 148.20 de área do terreno,  2 qto(s), WC, 1 sala(s), Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535626617",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -8.3393522,
     "lng": -36.4391252
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787715152533",
-   "uf": "PE",
-   "cidade": "BELO JARDIM",
-   "bairro": "EUNO ANDRADE DA SILVA",
-   "endereco": "RUA SEBASTIAO BARBOSA DA SILVA (ANTIGA RUA PROJET, N. 88, LT 35 QD 39",
-   "preco": 35561.86,
-   "valor_avaliacao": 92000.0,
-   "desconto": 61.35,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 50.18 de área privativa, 125.02 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715152533",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.3359363,
-    "lng": -36.424018
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787716025241",
-   "uf": "PE",
-   "cidade": "BELO JARDIM",
-   "bairro": "EUNO ANDRADE DA SILVA",
-   "endereco": "RUA ROSELI MARIA DE LIRA SILVA (ANTIGA RUA PROJETA, N. 71, LT 18, QD 43",
-   "preco": 36721.48,
-   "valor_avaliacao": 95000.0,
-   "desconto": 61.35,
-   "financiamento": "Não",
-   "descricao": "Casa, 40.00 de área total, 40.00 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716025241",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.3338158,
-    "lng": -36.4184756
    },
    "geo_pendente": false
   },
@@ -975,29 +912,8 @@
    "desconto": 59.15,
    "financiamento": "Não",
    "descricao": "Casa, 50.00 de área total, 50.00 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533648532",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.3359363,
-    "lng": -36.424018
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787713970387",
-   "uf": "PE",
-   "cidade": "BELO JARDIM",
-   "bairro": "EUNO ANDRADE DA SILVA",
-   "endereco": "RUA SEBASTIÃO BARBOSA DA SILVA, N. 56, LT 41 QD 39",
-   "preco": 46677.74,
-   "valor_avaliacao": 113879.1,
-   "desconto": 59.02,
-   "financiamento": "Não",
-   "descricao": "Casa, 50.18 de área total, 50.18 de área privativa, 125.02 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713970387",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
@@ -1017,7 +933,7 @@
    "desconto": 59.02,
    "financiamento": "Não",
    "descricao": "Casa, 40.00 de área total, 40.00 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716025462",
    "tipo": "casa",
    "geo": {
@@ -1038,34 +954,13 @@
    "desconto": 58.59,
    "financiamento": "Não",
    "descricao": "Casa, 50.00 de área total, 50.00 de área privativa, 148.20 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535164052",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -8.3262345,
     "lng": -36.3878218
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712863390",
-   "uf": "PE",
-   "cidade": "BELO JARDIM",
-   "bairro": "EUNO ANDRADE DA SILVA",
-   "endereco": "RUA SEBASTIAO BARBOSA DA SILVA, N. 28, QD 39, LT 50",
-   "preco": 38101.99,
-   "valor_avaliacao": 92000.0,
-   "desconto": 58.59,
-   "financiamento": "Não",
-   "descricao": "Casa, 50.18 de área total, 50.18 de área privativa, 125.02 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712863390",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.3359363,
-    "lng": -36.424018
    },
    "geo_pendente": false
   },
@@ -1122,7 +1017,7 @@
    "desconto": 56.43,
    "financiamento": "Não",
    "descricao": "Casa, 46.30 de área total, 46.30 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703601818",
    "tipo": "casa",
    "geo": {
@@ -1143,7 +1038,7 @@
    "desconto": 56.28,
    "financiamento": "Não",
    "descricao": "Casa, 50.00 de área total, 50.00 de área privativa, 148.20 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701098060",
    "tipo": "casa",
    "geo": {
@@ -1164,7 +1059,7 @@
    "desconto": 55.83,
    "financiamento": "Não",
    "descricao": "Casa, 50.18 de área total, 50.18 de área privativa, 125.02 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713967653",
    "tipo": "casa",
    "geo": {
@@ -1185,7 +1080,7 @@
    "desconto": 55.83,
    "financiamento": "Não",
    "descricao": "Casa, 50.18 de área total, 50.18 de área privativa, 125.08 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715326272",
    "tipo": "casa",
    "geo": {
@@ -1206,7 +1101,7 @@
    "desconto": 55.83,
    "financiamento": "Não",
    "descricao": "Casa, 40.00 de área total, 40.00 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715839687",
    "tipo": "casa",
    "geo": {
@@ -1248,7 +1143,7 @@
    "desconto": 53.7,
    "financiamento": "Não",
    "descricao": "Casa, 46.30 de área total, 46.30 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709920389",
    "tipo": "casa",
    "geo": {
@@ -1269,7 +1164,7 @@
    "desconto": 53.68,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 50.00 de área privativa, 190.53 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535631858",
    "tipo": "casa",
    "geo": {
@@ -1290,7 +1185,7 @@
    "desconto": 53.04,
    "financiamento": "Não",
    "descricao": "Casa, 46.30 de área total, 46.30 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704517500",
    "tipo": "casa",
    "geo": {
@@ -1311,7 +1206,7 @@
    "desconto": 50.98,
    "financiamento": "Não",
    "descricao": "Casa, 50.00 de área total, 50.00 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555538040273",
    "tipo": "casa",
    "geo": {
@@ -1353,7 +1248,7 @@
    "desconto": 50.98,
    "financiamento": "Não",
    "descricao": "Casa, 46.30 de área total, 46.30 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715174588",
    "tipo": "casa",
    "geo": {
@@ -1374,7 +1269,7 @@
    "desconto": 50.98,
    "financiamento": "Não",
    "descricao": "Casa, 40.00 de área total, 40.00 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717472527",
    "tipo": "casa",
    "geo": {
@@ -1416,7 +1311,7 @@
    "desconto": 50.31,
    "financiamento": "Não",
    "descricao": "Casa, 40.00 de área total, 40.00 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716740714",
    "tipo": "casa",
    "geo": {
@@ -1437,7 +1332,7 @@
    "desconto": 50.27,
    "financiamento": "Não",
    "descricao": "Casa, 46.30 de área total, 46.30 de área privativa, 148.39 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702393642",
    "tipo": "casa",
    "geo": {
@@ -1458,7 +1353,7 @@
    "desconto": 50.27,
    "financiamento": "Não",
    "descricao": "Casa, 46.30 de área total, 46.30 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704899845",
    "tipo": "casa",
    "geo": {
@@ -1542,7 +1437,7 @@
    "desconto": 48.58,
    "financiamento": "Não",
    "descricao": "Casa, 46.30 de área total, 46.30 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711028510",
    "tipo": "casa",
    "geo": {
@@ -1563,7 +1458,7 @@
    "desconto": 48.32,
    "financiamento": "Não",
    "descricao": "Casa, 85.59 de área total, 85.59 de área privativa, 189.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430629002",
    "tipo": "casa",
    "geo": {
@@ -1899,7 +1794,7 @@
    "desconto": 45.85,
    "financiamento": "Não",
    "descricao": "Casa, 40.00 de área total, 40.00 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716690334",
    "tipo": "casa",
    "geo": {
@@ -1920,7 +1815,7 @@
    "desconto": 45.01,
    "financiamento": "Não",
    "descricao": "Casa, 50.00 de área total, 50.00 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433682419",
    "tipo": "casa",
    "geo": {
@@ -1941,7 +1836,7 @@
    "desconto": 44.11,
    "financiamento": "Não",
    "descricao": "Casa, 56.00 de área total, 56.00 de área privativa, 126.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433312450",
    "tipo": "casa",
    "geo": {
@@ -1962,7 +1857,7 @@
    "desconto": 43.56,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 46.30 de área privativa, 148.20 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711004637",
    "tipo": "casa",
    "geo": {
@@ -1983,7 +1878,7 @@
    "desconto": 43.56,
    "financiamento": "Não",
    "descricao": "Casa, 40.00 de área total, 40.00 de área privativa, 288.07 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718680859",
    "tipo": "casa",
    "geo": {
@@ -2004,7 +1899,7 @@
    "desconto": 43.56,
    "financiamento": "Não",
    "descricao": "Casa, 40.00 de área total, 40.00 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718690633",
    "tipo": "casa",
    "geo": {
@@ -2067,7 +1962,7 @@
    "desconto": 42.86,
    "financiamento": "Não",
    "descricao": "Casa, 0.01 de área total, 50.18 de área privativa, 125.02 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711606548",
    "tipo": "casa",
    "geo": {
@@ -2151,7 +2046,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Casa, 46.30 de área total, 46.30 de área privativa, 148.20 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705688988",
    "tipo": "casa",
    "geo": {
@@ -2235,7 +2130,7 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Casa, 50.18 de área total, 50.18 de área privativa, 125.02 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711559159",
    "tipo": "casa",
    "geo": {
@@ -2634,7 +2529,7 @@
    "desconto": 55.31,
    "financiamento": "Não",
    "descricao": "Casa, 73.80 de área total, 73.80 de área privativa, 82.80 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415406766",
    "tipo": "casa",
    "geo": {
@@ -3348,7 +3243,7 @@
    "desconto": 41.07,
    "financiamento": "Não",
    "descricao": "Apartamento, 65.41 de área total, 41.67 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703583593",
    "tipo": "apartamento",
    "geo": {
@@ -3369,7 +3264,7 @@
    "desconto": 41.07,
    "financiamento": "Não",
    "descricao": "Apartamento, 57.56 de área total, 40.57 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710461538",
    "tipo": "apartamento",
    "geo": {
@@ -3857,27 +3752,6 @@
    "geo_pendente": false
   },
   {
-   "id": "10283568",
-   "uf": "PE",
-   "cidade": "CANHOTINHO",
-   "bairro": "ZONA RURAL",
-   "endereco": "SÍTIO COTOVELO - ESTRADA CANHOTINHO - OLHO D AGUA, N. 00, LT 07/11.255",
-   "preco": 116758.02,
-   "valor_avaliacao": 185500.0,
-   "desconto": 37.06,
-   "financiamento": "Não",
-   "descricao": "Gleba, 0.00 de área total, 0.00 de área privativa, 30003.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10283568",
-   "tipo": "gleba",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.8814424,
-    "lng": -36.1923642
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "10316750",
    "uf": "PE",
    "cidade": "CANHOTINHO",
@@ -4035,7 +3909,7 @@
    "desconto": 51.91,
    "financiamento": "Não",
    "descricao": "Casa, 77.27 de área total, 77.27 de área privativa, 130.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420689827",
    "tipo": "casa",
    "geo": {
@@ -4350,7 +4224,7 @@
    "desconto": 42.68,
    "financiamento": "Não",
    "descricao": "Casa, 68.32 de área total, 68.32 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403596530",
    "tipo": "casa",
    "geo": {
@@ -4886,6 +4760,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787707481094",
+   "uf": "PE",
+   "cidade": "CARUARU",
+   "bairro": "ANDORINHA",
+   "endereco": "RUA PROJETADA 30, N. 164, LT 05 QD BH",
+   "preco": 68787.97,
+   "valor_avaliacao": 120000.0,
+   "desconto": 42.68,
+   "financiamento": "Não",
+   "descricao": "Casa, 46.30 de área total, 46.30 de área privativa, 160.55 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707481094",
+   "tipo": "casa"
+  },
+  {
    "id": "8555533814653",
    "uf": "PE",
    "cidade": "CARUARU",
@@ -4896,7 +4785,7 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Casa, 50.00 de área total, 50.00 de área privativa, 160.55 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533814653",
    "tipo": "casa",
    "geo": {
@@ -5436,7 +5325,7 @@
    "desconto": 79.29,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 50.36 de área privativa, 111.60 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409847675",
    "tipo": "casa",
    "geo": {
@@ -5478,7 +5367,7 @@
    "desconto": 75.49,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 84.00 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406477850",
    "tipo": "casa",
    "geo": {
@@ -5499,7 +5388,7 @@
    "desconto": 73.73,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 55.74 de área privativa, 91.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412636876",
    "tipo": "casa",
    "geo": {
@@ -5520,7 +5409,7 @@
    "desconto": 72.77,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 42.00 de área privativa, 70.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407259105",
    "tipo": "casa",
    "geo": {
@@ -5541,34 +5430,13 @@
    "desconto": 72.07,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426655380",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -8.00149,
     "lng": -35.2133
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444410708608",
-   "uf": "PE",
-   "cidade": "CHA DE ALEGRIA",
-   "bairro": "LOT NOVA CHA DE ALEG",
-   "endereco": "RUA PROJETADA G, N. S/N, LT 01, QD G, IMÓVEL C",
-   "preco": 31816.78,
-   "valor_avaliacao": 106200.7,
-   "desconto": 70.05,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 55.74 de área privativa, 91.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410708608",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.997888,
-    "lng": -35.2133083
    },
    "geo_pendente": false
   },
@@ -5583,7 +5451,7 @@
    "desconto": 70.05,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427322651",
    "tipo": "casa",
    "geo": {
@@ -5625,7 +5493,7 @@
    "desconto": 69.63,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427388210",
    "tipo": "casa",
    "geo": {
@@ -5646,7 +5514,7 @@
    "desconto": 66.87,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 50.36 de área privativa, 126.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406095052",
    "tipo": "casa",
    "geo": {
@@ -5678,27 +5546,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444422779734",
-   "uf": "PE",
-   "cidade": "CHA DE ALEGRIA",
-   "bairro": "LOT N CHA ALEGRIA 3",
-   "endereco": "RUA PROJETADA R18, N. SN, QD E1 LT 03",
-   "preco": 36468.4,
-   "valor_avaliacao": 103000.0,
-   "desconto": 64.6,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422779734",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.00149,
-    "lng": -35.2133
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444411311094",
    "uf": "PE",
    "cidade": "CHA DE ALEGRIA",
@@ -5709,55 +5556,13 @@
    "desconto": 64.11,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 50.36 de área privativa, 91.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411311094",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -7.9975107,
     "lng": -35.2230192
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444418397245",
-   "uf": "PE",
-   "cidade": "CHA DE ALEGRIA",
-   "bairro": "CHA DE ALEGRIA",
-   "endereco": "RUA PROJETADA R17, N. SN, LT 02, QD D1",
-   "preco": 34457.45,
-   "valor_avaliacao": 96000.0,
-   "desconto": 64.11,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 55.75 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418397245",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.997093,
-    "lng": -35.2221927
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444415289930",
-   "uf": "PE",
-   "cidade": "CHA DE ALEGRIA",
-   "bairro": "VILA DO CAMPO",
-   "endereco": "RUA EULINO PESSOA DE LUNA, N. 36, CASA",
-   "preco": 25576.12,
-   "valor_avaliacao": 71000.0,
-   "desconto": 63.98,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 50.36 de área privativa, 135.37 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415289930",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.990582799999999,
-    "lng": -35.217387
    },
    "geo_pendente": false
   },
@@ -5772,7 +5577,7 @@
    "desconto": 63.75,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 48.09 de área privativa, 127.50 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420489160",
    "tipo": "casa",
    "geo": {
@@ -5793,7 +5598,7 @@
    "desconto": 61.88,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 48.09 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422843378",
    "tipo": "casa",
    "geo": {
@@ -5814,7 +5619,7 @@
    "desconto": 61.21,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 57.81 de área privativa, 125.66 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418747866",
    "tipo": "casa",
    "geo": {
@@ -5835,7 +5640,7 @@
    "desconto": 61.21,
    "financiamento": "Não",
    "descricao": "Casa, 50.36 de área total, 50.36 de área privativa, 126.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424673194",
    "tipo": "casa",
    "geo": {
@@ -5856,7 +5661,7 @@
    "desconto": 60.59,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426298986",
    "tipo": "casa",
    "geo": {
@@ -5877,7 +5682,7 @@
    "desconto": 59.15,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 61.11 de área privativa, 126.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409321746",
    "tipo": "casa",
    "geo": {
@@ -5898,7 +5703,7 @@
    "desconto": 58.59,
    "financiamento": "Não",
    "descricao": "Casa, 55.74 de área total, 55.74 de área privativa, 91.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411373448",
    "tipo": "casa",
    "geo": {
@@ -5919,7 +5724,7 @@
    "desconto": 58.59,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426018975",
    "tipo": "casa",
    "geo": {
@@ -5940,7 +5745,7 @@
    "desconto": 57.97,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 48.09 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420197444",
    "tipo": "casa",
    "geo": {
@@ -5961,7 +5766,7 @@
    "desconto": 57.97,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423314999",
    "tipo": "casa",
    "geo": {
@@ -5982,7 +5787,7 @@
    "desconto": 56.43,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 84.00 de área privativa, 126.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405279630",
    "tipo": "casa",
    "geo": {
@@ -6003,7 +5808,7 @@
    "desconto": 55.67,
    "financiamento": "Não",
    "descricao": "Casa, 50.36 de área total, 84.00 de área privativa, 126.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405401168",
    "tipo": "casa",
    "geo": {
@@ -6024,7 +5829,7 @@
    "desconto": 55.67,
    "financiamento": "Não",
    "descricao": "Casa, 42.00 de área total, 42.00 de área privativa, 42.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407299336",
    "tipo": "casa",
    "geo": {
@@ -6045,7 +5850,7 @@
    "desconto": 55.67,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 45.00 de área privativa, 45.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410911454",
    "tipo": "casa",
    "geo": {
@@ -6066,7 +5871,7 @@
    "desconto": 55.67,
    "financiamento": "Não",
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425969216",
    "tipo": "casa",
    "geo": {
@@ -6087,7 +5892,7 @@
    "desconto": 55.67,
    "financiamento": "Não",
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429007141",
    "tipo": "casa",
    "geo": {
@@ -6108,7 +5913,7 @@
    "desconto": 53.7,
    "financiamento": "Não",
    "descricao": "Casa, 62.69 de área total, 62.69 de área privativa, 135.37 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415660506",
    "tipo": "casa",
    "geo": {
@@ -6129,7 +5934,7 @@
    "desconto": 53.7,
    "financiamento": "Não",
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 150.41 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428643745",
    "tipo": "casa",
    "geo": {
@@ -6234,7 +6039,7 @@
    "desconto": 50.98,
    "financiamento": "Não",
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426423195",
    "tipo": "casa",
    "geo": {
@@ -6255,7 +6060,7 @@
    "desconto": 50.98,
    "financiamento": "Não",
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427105588",
    "tipo": "casa",
    "geo": {
@@ -6276,7 +6081,7 @@
    "desconto": 50.98,
    "financiamento": "Não",
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 167.21 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427972761",
    "tipo": "casa",
    "geo": {
@@ -6297,7 +6102,7 @@
    "desconto": 50.82,
    "financiamento": "Não",
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 146.72 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429733888",
    "tipo": "casa",
    "geo": {
@@ -6318,7 +6123,7 @@
    "desconto": 50.82,
    "financiamento": "Não",
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426417365",
    "tipo": "casa",
    "geo": {
@@ -6339,7 +6144,7 @@
    "desconto": 50.31,
    "financiamento": "Não",
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428085696",
    "tipo": "casa",
    "geo": {
@@ -6360,7 +6165,7 @@
    "desconto": 50.13,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 50.36 de área privativa, 126.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405263547",
    "tipo": "casa",
    "geo": {
@@ -6465,7 +6270,7 @@
    "desconto": 49.45,
    "financiamento": "Não",
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428133488",
    "tipo": "casa",
    "geo": {
@@ -6486,7 +6291,7 @@
    "desconto": 49.35,
    "financiamento": "Não",
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 127.39 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426704704",
    "tipo": "casa",
    "geo": {
@@ -6549,7 +6354,7 @@
    "desconto": 48.74,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 57.81 de área privativa, 127.50 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427039526",
    "tipo": "casa",
    "geo": {
@@ -6570,8 +6375,29 @@
    "desconto": 48.74,
    "financiamento": "Não",
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 140.25 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427956073",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.997888,
+    "lng": -35.2133083
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444408586185",
+   "uf": "PE",
+   "cidade": "CHA DE ALEGRIA",
+   "bairro": "NOVA CHA DE ALEGRIA",
+   "endereco": "RUA PROJETADA G N SN QDL LT10 LOTEAMENTO RESIDENCI, N. 0, CASA B LT10 QDL",
+   "preco": 31510.52,
+   "valor_avaliacao": 61269.53,
+   "desconto": 48.58,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 50.36 de área privativa, 115.50 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408586185",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
@@ -6591,7 +6417,7 @@
    "desconto": 47.15,
    "financiamento": "Não",
    "descricao": "Casa, 84.00 de área total, 84.00 de área privativa, 126.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406381896",
    "tipo": "casa",
    "geo": {
@@ -6612,7 +6438,7 @@
    "desconto": 47.15,
    "financiamento": "Não",
    "descricao": "Casa, 50.36 de área total, 50.36 de área privativa, 126.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406619000",
    "tipo": "casa",
    "geo": {
@@ -6948,7 +6774,7 @@
    "desconto": 45.72,
    "financiamento": "Não",
    "descricao": "Casa, 84.00 de área total, 84.00 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406164020",
    "tipo": "casa",
    "geo": {
@@ -6969,7 +6795,7 @@
    "desconto": 45.72,
    "financiamento": "Não",
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 140.25 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428810307",
    "tipo": "casa",
    "geo": {
@@ -7032,7 +6858,7 @@
    "desconto": 43.56,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 66.00 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408860856",
    "tipo": "casa",
    "geo": {
@@ -7053,7 +6879,7 @@
    "desconto": 43.37,
    "financiamento": "Não",
    "descricao": "Casa, 57.81 de área total, 57.81 de área privativa, 140.25 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427458790",
    "tipo": "casa",
    "geo": {
@@ -7137,7 +6963,7 @@
    "desconto": 42.11,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 60.00 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410036901",
    "tipo": "casa",
    "geo": {
@@ -7493,27 +7319,6 @@
    "tipo": "casa"
   },
   {
-   "id": "10208873",
-   "uf": "PE",
-   "cidade": "GARANHUNS",
-   "bairro": "ALOISIO SOUTO PINTO",
-   "endereco": "BR-424 - MAGANO - SENTIDO GARANHUNS/CAETÉS, N. 00, PARTE FAZENDA BELA VISTA - 1º DISTRITO",
-   "preco": 801728.42,
-   "valor_avaliacao": 2020029.1,
-   "desconto": 60.32,
-   "financiamento": "Não",
-   "descricao": "Imóvel rural, 0.00 de área total, 0.00 de área privativa, 30000.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10208873",
-   "tipo": "imovel rural",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.9254219,
-    "lng": -36.4895227
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787720912702",
    "uf": "PE",
    "cidade": "GARANHUNS",
@@ -7581,7 +7386,7 @@
    "desconto": 78.91,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423370562",
    "tipo": "casa",
    "geo": {
@@ -7623,7 +7428,7 @@
    "desconto": 73.73,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 50.36 de área privativa, 140.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408448645",
    "tipo": "casa",
    "geo": {
@@ -7686,7 +7491,7 @@
    "desconto": 66.34,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 54.55 de área privativa, 140.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428078835",
    "tipo": "casa",
    "geo": {
@@ -7749,7 +7554,7 @@
    "desconto": 63.75,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 55.80 de área privativa, 288.42 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427974454",
    "tipo": "casa",
    "geo": {
@@ -7812,7 +7617,7 @@
    "desconto": 61.02,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 55.80 de área privativa, 140.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428458026",
    "tipo": "casa",
    "geo": {
@@ -7833,7 +7638,7 @@
    "desconto": 58.59,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 54.55 de área privativa, 140.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426568088",
    "tipo": "casa",
    "geo": {
@@ -7938,7 +7743,7 @@
    "desconto": 46.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 63.48 de área total, 63.48 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418233501",
    "tipo": "apartamento",
    "geo": {
@@ -7959,7 +7764,7 @@
    "desconto": 46.42,
    "financiamento": "Não",
    "descricao": "Apartamento, 63.44 de área total, 63.44 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421517620",
    "tipo": "apartamento",
    "geo": {
@@ -8022,7 +7827,7 @@
    "desconto": 42.86,
    "financiamento": "Não",
    "descricao": "Apartamento, 61.68 de área total, 61.68 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412515645",
    "tipo": "apartamento",
    "geo": {
@@ -8457,7 +8262,7 @@
    "desconto": 64.09,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 47.11 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412198437",
    "tipo": "apartamento",
    "geo": {
@@ -8499,7 +8304,7 @@
    "desconto": 58.1,
    "financiamento": "Não",
    "descricao": "Apartamento, 56.57 de área total, 52.46 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707845185",
    "tipo": "apartamento",
    "geo": {
@@ -8604,7 +8409,7 @@
    "desconto": 49.72,
    "financiamento": "Não",
    "descricao": "Apartamento, 74.67 de área total, 54.93 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417961147",
    "tipo": "apartamento",
    "geo": {
@@ -8625,7 +8430,7 @@
    "desconto": 49.72,
    "financiamento": "Não",
    "descricao": "Casa, 51.65 de área total, 51.65 de área privativa, 133.32 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417708360",
    "tipo": "casa",
    "geo": {
@@ -8751,7 +8556,7 @@
    "desconto": 47.9,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 55.22 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408284464",
    "tipo": "apartamento",
    "geo": {
@@ -8772,7 +8577,7 @@
    "desconto": 47.66,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 47.34 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430240032",
    "tipo": "apartamento",
    "geo": {
@@ -8793,7 +8598,7 @@
    "desconto": 47.66,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 47.13 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715647095",
    "tipo": "apartamento",
    "geo": {
@@ -8846,27 +8651,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444410464237",
-   "uf": "PE",
-   "cidade": "IGARASSU",
-   "bairro": "UMBURA - CRUZ DE REBOUCAS",
-   "endereco": "RUA ACUCENA, N. SN, Apto 102, QD D LT 10",
-   "preco": 63942.61,
-   "valor_avaliacao": 120000.0,
-   "desconto": 46.72,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 49.61 de área total, 49.61 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410464237",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.8633039,
-    "lng": -34.9015939
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444407655426",
    "uf": "PE",
    "cidade": "IGARASSU",
@@ -8886,21 +8670,6 @@
     "lng": -34.9203245
    },
    "geo_pendente": false
-  },
-  {
-   "id": "8444415008132",
-   "uf": "PE",
-   "cidade": "IGARASSU",
-   "bairro": "UMBURA - CRUZ DE REBOUCAS",
-   "endereco": "RUA DAS CARNAUBEIRAS, N. SN, Apto 02,  TÉRREO, LT 12, QD N",
-   "preco": 51429.76,
-   "valor_avaliacao": 96040.84,
-   "desconto": 46.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 56.07 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415008132",
-   "tipo": "apartamento"
   },
   {
    "id": "8219100010587",
@@ -9081,7 +8850,7 @@
    "desconto": 45.01,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 49.03 de área privativa, 618.75 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555514360464",
    "tipo": "casa",
    "geo": {
@@ -9092,23 +8861,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787715834472",
+   "id": "8787707535950",
    "uf": "PE",
    "cidade": "IGARASSU",
-   "bairro": "AGAMENON MAGALHAES",
-   "endereco": "ESTRADA COMERCIAL DA PITANGA, N. SN, Apto 203, BLOCO 02",
-   "preco": 88277.22,
-   "valor_avaliacao": 160000.0,
-   "desconto": 44.83,
+   "bairro": "JABACO",
+   "endereco": "R PROJETADA 01, N. 14,",
+   "preco": 70635.6,
+   "valor_avaliacao": 128356.16,
+   "desconto": 44.97,
    "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 43.40 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715834472",
-   "tipo": "apartamento",
+   "descricao": "Casa, 46.30 de área total, 46.30 de área privativa, 144.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707535950",
+   "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -7.8404642,
-    "lng": -34.9255481
+    "lat": -7.8302276,
+    "lng": -34.9280018
    },
    "geo_pendente": false
   },
@@ -9186,7 +8955,7 @@
    "desconto": 43.53,
    "financiamento": "Não",
    "descricao": "Casa, 58.70 de área total, 58.70 de área privativa, 326.42 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416613528",
    "tipo": "casa",
    "geo": {
@@ -9207,7 +8976,7 @@
    "desconto": 43.53,
    "financiamento": "Não",
    "descricao": "Apartamento, 48.97 de área total, 48.97 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423959833",
    "tipo": "apartamento",
    "geo": {
@@ -9228,7 +8997,7 @@
    "desconto": 43.53,
    "financiamento": "Não",
    "descricao": "Apartamento, 61.54 de área total, 45.10 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427269955",
    "tipo": "apartamento",
    "geo": {
@@ -9249,7 +9018,7 @@
    "desconto": 42.92,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 59.74 de área privativa, 0.00 de área do terreno,  3 qto(s), varanda, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409068536",
    "tipo": "apartamento",
    "geo": {
@@ -9270,7 +9039,7 @@
    "desconto": 42.92,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 51.14 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405376783",
    "tipo": "apartamento",
    "geo": {
@@ -9375,7 +9144,7 @@
    "desconto": 42.23,
    "financiamento": "Não",
    "descricao": "Apartamento, 55.69 de área total, 51.19 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425103430",
    "tipo": "apartamento",
    "geo": {
@@ -9396,7 +9165,7 @@
    "desconto": 42.23,
    "financiamento": "Não",
    "descricao": "Apartamento, 78.29 de área total, 43.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711144471",
    "tipo": "apartamento",
    "geo": {
@@ -9417,7 +9186,7 @@
    "desconto": 42.23,
    "financiamento": "Não",
    "descricao": "Apartamento, 82.47 de área total, 47.13 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712118164",
    "tipo": "apartamento",
    "geo": {
@@ -9459,7 +9228,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 61.57 de área total, 47.27 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428408576",
    "tipo": "apartamento",
    "geo": {
@@ -9695,6 +9464,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787716756645",
+   "uf": "PE",
+   "cidade": "IGARASSU",
+   "bairro": "CRUZ DE REBOUCAS - CENTRO",
+   "endereco": "RUA JOSE DE HOLANDA, N. SN, Apto 101, PAV TERREO BL R VG 292 LT 01",
+   "preco": 94815.14,
+   "valor_avaliacao": 160000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 45.24 de área total, 40.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716756645",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444437293301",
    "uf": "PE",
    "cidade": "IGARASSU",
@@ -9735,6 +9519,36 @@
     "lng": -34.896592
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444437150012",
+   "uf": "PE",
+   "cidade": "IGARASSU",
+   "bairro": "UMBURA - CRUZ DE REBOUCAS",
+   "endereco": "RUA DAMAS VERDES, N. 11, Apto 202, PAV 3 LT 11 QD 14 DESM LT 01.1",
+   "preco": 94815.14,
+   "valor_avaliacao": 160000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 50.12 de área total, 44.71 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444437150012",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8444418984647",
+   "uf": "PE",
+   "cidade": "IGARASSU",
+   "bairro": "AGAMENON MAGALHAES",
+   "endereco": "ESTRADA COMERCIAL DO PITANGA, N. SN, Apto 101, PAV SUP LT 03",
+   "preco": 93162.64,
+   "valor_avaliacao": 157211.43,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 70.25 de área total, 55.76 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418984647",
+   "tipo": "apartamento"
   },
   {
    "id": "8444425325351",
@@ -9783,7 +9597,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 46.30 de área total, 46.30 de área privativa, 144.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714160079",
    "tipo": "casa",
    "geo": {
@@ -9792,6 +9606,36 @@
     "lng": -34.9329067
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444424710081",
+   "uf": "PE",
+   "cidade": "IGARASSU",
+   "bairro": "SITIO DOS MARCOS",
+   "endereco": "RUA DOM PEDRO I RUA PROJ 2, N. 90, LT 09 QD C",
+   "preco": 113629.74,
+   "valor_avaliacao": 188000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Casa, 58.05 de área total, 58.05 de área privativa, 147.72 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424710081",
+   "tipo": "casa"
+  },
+  {
+   "id": "8444436749301",
+   "uf": "PE",
+   "cidade": "IGARASSU",
+   "bairro": "AGAMENON MAGALHAES",
+   "endereco": "ESTRADA COMERCIAL DO PITANGA, N. 1, Apto 104, PAV SUP LT 01",
+   "preco": 132970.97,
+   "valor_avaliacao": 220000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 52.15 de área total, 52.15 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436749301",
+   "tipo": "apartamento"
   },
   {
    "id": "1444413531000",
@@ -10214,6 +10058,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8555539969870",
+   "uf": "PE",
+   "cidade": "IPOJUCA",
+   "bairro": "CALIFORNIA",
+   "endereco": "RUA SANTA ANA, N. SN, Apto 404, TP B BL 04 PAV 4 LT 01 QD 31",
+   "preco": 97778.11,
+   "valor_avaliacao": 165000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 69.52 de área total, 50.90 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555539969870",
+   "tipo": "apartamento"
+  },
+  {
    "id": "1444415510085",
    "uf": "PE",
    "cidade": "IPOJUCA",
@@ -10392,7 +10251,7 @@
    "desconto": 39.61,
    "financiamento": "Não",
    "descricao": "Casa, 63.25 de área total, 63.25 de área privativa, 120.00 de área do terreno,  2 qto(s), WC, 2 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404982116",
    "tipo": "casa",
    "geo": {
@@ -10497,7 +10356,7 @@
    "desconto": 69.61,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 49.17 de área privativa, 70.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414104561",
    "tipo": "casa",
    "geo": {
@@ -10518,7 +10377,7 @@
    "desconto": 68.48,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 26.76 de área privativa, 41.85 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412758068",
    "tipo": "casa",
    "geo": {
@@ -10539,7 +10398,7 @@
    "desconto": 67.32,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 52.16 de área privativa, 52.16 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418469777",
    "tipo": "casa",
    "geo": {
@@ -10560,7 +10419,7 @@
    "desconto": 67.21,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 50.00 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407883747",
    "tipo": "casa",
    "geo": {
@@ -10592,27 +10451,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444408076870",
-   "uf": "PE",
-   "cidade": "ITAPISSUMA",
-   "bairro": "CENTRO",
-   "endereco": "RUA ARACATU, N. 04, CS 04 QD E LT 07",
-   "preco": 37494.96,
-   "valor_avaliacao": 105899.36,
-   "desconto": 64.6,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 50.00 de área privativa, 100.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408076870",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.7772628,
-    "lng": -34.9019676
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444418674460",
    "uf": "PE",
    "cidade": "ITAPISSUMA",
@@ -10623,7 +10461,7 @@
    "desconto": 64.6,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 52.16 de área privativa, 52.16 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418674460",
    "tipo": "casa",
    "geo": {
@@ -10644,7 +10482,7 @@
    "desconto": 61.88,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 52.16 de área privativa, 0.01 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414990693",
    "tipo": "casa",
    "geo": {
@@ -10665,7 +10503,7 @@
    "desconto": 61.75,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 59.09 de área privativa, 0.01 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407574973",
    "tipo": "casa",
    "geo": {
@@ -10686,7 +10524,7 @@
    "desconto": 61.35,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 46.08 de área privativa, 0.01 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404911650",
    "tipo": "casa",
    "geo": {
@@ -10707,7 +10545,7 @@
    "desconto": 61.21,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 50.00 de área privativa, 0.01 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408197588",
    "tipo": "casa",
    "geo": {
@@ -10749,7 +10587,7 @@
    "desconto": 59.02,
    "financiamento": "Não",
    "descricao": "Casa, 49.17 de área total, 49.17 de área privativa, 72.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417240466",
    "tipo": "casa",
    "geo": {
@@ -10812,7 +10650,7 @@
    "desconto": 50.13,
    "financiamento": "Não",
    "descricao": "Casa, 52.16 de área total, 52.16 de área privativa, 260.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417154330",
    "tipo": "casa",
    "geo": {
@@ -10833,7 +10671,7 @@
    "desconto": 50.01,
    "financiamento": "Não",
    "descricao": "Casa, 48.48 de área total, 48.48 de área privativa, 72.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416025987",
    "tipo": "casa",
    "geo": {
@@ -10875,7 +10713,7 @@
    "desconto": 48.74,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 41.85 de área privativa, 41.85 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413174604",
    "tipo": "casa",
    "geo": {
@@ -10917,7 +10755,7 @@
    "desconto": 47.15,
    "financiamento": "Não",
    "descricao": "Casa, 52.16 de área total, 52.16 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417203862",
    "tipo": "casa",
    "geo": {
@@ -10938,7 +10776,7 @@
    "desconto": 46.98,
    "financiamento": "Não",
    "descricao": "Casa, 50.47 de área total, 50.47 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409107248",
    "tipo": "casa",
    "geo": {
@@ -11043,7 +10881,7 @@
    "desconto": 43.56,
    "financiamento": "Não",
    "descricao": "Casa, 50.00 de área total, 50.00 de área privativa, 50.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407862154",
    "tipo": "casa",
    "geo": {
@@ -11108,48 +10946,6 @@
    "descricao": "Apartamento, 85.87 de área total, 41.79 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709709971",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.2251694,
-    "lng": -34.945714
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555533275043",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "ZUMBI DO PACHECO",
-   "endereco": "RUA SANTA LUZIA, N. 221, Apto 101, QD C BL 4",
-   "preco": 55220.28,
-   "valor_avaliacao": 135000.0,
-   "desconto": 59.1,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533275043",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1203801,
-    "lng": -34.9665424
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787712251255",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "BARRA DE JANGADA",
-   "endereco": "RUA GUARULHOS, N. 121, Apto 01, BL 12 LT A1A",
-   "preco": 62440.08,
-   "valor_avaliacao": 149000.0,
-   "desconto": 58.1,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 41.79 de área total, 41.79 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712251255",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -11243,6 +11039,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8787700790920",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "ZUMBI DO PACHECO",
+   "endereco": "RUA SANTA LUZIA, N. 221, Apto 302, BL 45",
+   "preco": 63875.71,
+   "valor_avaliacao": 136000.0,
+   "desconto": 53.04,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 50.36 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700790920",
+   "tipo": "apartamento"
+  },
+  {
    "id": "1444404026519",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
@@ -11316,7 +11127,7 @@
    "desconto": 50.24,
    "financiamento": "Não",
    "descricao": "Apartamento, 54.73 de área total, 44.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534437780",
    "tipo": "apartamento",
    "geo": {
@@ -11457,7 +11268,7 @@
    "desconto": 48.78,
    "financiamento": "Não",
    "descricao": "Apartamento, 54.73 de área total, 44.91 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535350077",
    "tipo": "apartamento",
    "geo": {
@@ -11478,7 +11289,7 @@
    "desconto": 48.78,
    "financiamento": "Não",
    "descricao": "Apartamento, 61.64 de área total, 45.65 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708832249",
    "tipo": "apartamento",
    "geo": {
@@ -11625,7 +11436,7 @@
    "desconto": 47.87,
    "financiamento": "Não",
    "descricao": "Apartamento, 53.80 de área total, 44.15 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418942367",
    "tipo": "apartamento",
    "geo": {
@@ -11646,7 +11457,7 @@
    "desconto": 47.87,
    "financiamento": "Não",
    "descricao": "Apartamento, 53.80 de área total, 44.15 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533231925",
    "tipo": "apartamento",
    "geo": {
@@ -12108,7 +11919,7 @@
    "desconto": 45.85,
    "financiamento": "Não",
    "descricao": "Apartamento, 87.30 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706929555",
    "tipo": "apartamento",
    "geo": {
@@ -12287,27 +12098,6 @@
    "geo_pendente": false
   },
   {
-   "id": "10219409",
-   "uf": "PE",
-   "cidade": "JABOATAO DOS GUARARAPES",
-   "bairro": "SUCUPIRA",
-   "endereco": "RUA MANOEL CARNEIRO LEAO, N. 00, QD B, LT 31",
-   "preco": 1470006.82,
-   "valor_avaliacao": 2674980.0,
-   "desconto": 45.05,
-   "financiamento": "Não",
-   "descricao": "Gleba, 0.00 de área total, 0.00 de área privativa, 18000.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10219409",
-   "tipo": "gleba",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.1093616,
-    "lng": -34.9752961
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787706896525",
    "uf": "PE",
    "cidade": "JABOATAO DOS GUARARAPES",
@@ -12318,7 +12108,7 @@
    "desconto": 44.97,
    "financiamento": "Não",
    "descricao": "Apartamento, 87.31 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706896525",
    "tipo": "apartamento",
    "geo": {
@@ -12339,7 +12129,7 @@
    "desconto": 44.97,
    "financiamento": "Não",
    "descricao": "Apartamento, 87.31 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708133847",
    "tipo": "apartamento",
    "geo": {
@@ -12381,7 +12171,7 @@
    "desconto": 44.97,
    "financiamento": "Não",
    "descricao": "Apartamento, 59.99 de área total, 43.50 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533087646",
    "tipo": "apartamento",
    "geo": {
@@ -12402,7 +12192,7 @@
    "desconto": 44.97,
    "financiamento": "Não",
    "descricao": "Apartamento, 53.80 de área total, 44.15 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533776336",
    "tipo": "apartamento",
    "geo": {
@@ -12495,6 +12285,21 @@
     "lng": -34.9665424
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787710388245",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "SUCUPIRA",
+   "endereco": "VIA PRINCIPAL, N. 385, Apto 203, BL 09",
+   "preco": 91035.87,
+   "valor_avaliacao": 165000.0,
+   "desconto": 44.83,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 76.75 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710388245",
+   "tipo": "apartamento"
   },
   {
    "id": "1444415953785",
@@ -12759,7 +12564,7 @@
    "desconto": 43.53,
    "financiamento": "Não",
    "descricao": "Apartamento, 87.31 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707556400",
    "tipo": "apartamento",
    "geo": {
@@ -12780,7 +12585,7 @@
    "desconto": 43.53,
    "financiamento": "Não",
    "descricao": "Apartamento, 53.80 de área total, 44.15 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421428571",
    "tipo": "apartamento",
    "geo": {
@@ -12885,7 +12690,7 @@
    "desconto": 42.92,
    "financiamento": "Não",
    "descricao": "Apartamento, 85.87 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709898731",
    "tipo": "apartamento",
    "geo": {
@@ -12906,7 +12711,7 @@
    "desconto": 42.92,
    "financiamento": "Não",
    "descricao": "Apartamento, 85.86 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710397783",
    "tipo": "apartamento",
    "geo": {
@@ -12927,7 +12732,7 @@
    "desconto": 42.92,
    "financiamento": "Não",
    "descricao": "Apartamento, 85.86 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713098230",
    "tipo": "apartamento",
    "geo": {
@@ -12948,7 +12753,7 @@
    "desconto": 42.92,
    "financiamento": "Não",
    "descricao": "Apartamento, 85.87 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713963925",
    "tipo": "apartamento",
    "geo": {
@@ -13179,7 +12984,7 @@
    "desconto": 42.23,
    "financiamento": "Não",
    "descricao": "Apartamento, 78.09 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708032005",
    "tipo": "apartamento",
    "geo": {
@@ -13200,7 +13005,7 @@
    "desconto": 42.23,
    "financiamento": "Não",
    "descricao": "Apartamento, 76.75 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711399852",
    "tipo": "apartamento",
    "geo": {
@@ -13221,7 +13026,7 @@
    "desconto": 42.23,
    "financiamento": "Não",
    "descricao": "Apartamento, 76.58 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436446104",
    "tipo": "apartamento",
    "geo": {
@@ -13242,7 +13047,7 @@
    "desconto": 42.23,
    "financiamento": "Não",
    "descricao": "Apartamento, 61.74 de área total, 42.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704149013",
    "tipo": "apartamento",
    "geo": {
@@ -13284,7 +13089,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 87.31 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707348912",
    "tipo": "apartamento",
    "geo": {
@@ -13473,7 +13278,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 87.31 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706963907",
    "tipo": "apartamento",
    "geo": {
@@ -13593,7 +13398,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 85.86 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712131888",
    "tipo": "apartamento",
    "geo": {
@@ -14016,7 +13821,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 76.58 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434231151",
    "tipo": "apartamento",
    "geo": {
@@ -14241,7 +14046,7 @@
    "desconto": 40.48,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 43.50 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555532971439",
    "tipo": "apartamento",
    "geo": {
@@ -14262,7 +14067,7 @@
    "desconto": 40.31,
    "financiamento": "Não",
    "descricao": "Apartamento, 78.09 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787710588430",
    "tipo": "apartamento",
    "geo": {
@@ -14508,7 +14313,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Apartamento, 73.45 de área total, 42.19 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708107749",
    "tipo": "apartamento",
    "geo": {
@@ -14592,7 +14397,7 @@
    "desconto": 38.77,
    "financiamento": "Sim",
    "descricao": "Apartamento, 76.75 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708062338",
    "tipo": "apartamento",
    "geo": {
@@ -14655,7 +14460,7 @@
    "desconto": 38.64,
    "financiamento": "Não",
    "descricao": "Apartamento, 78.10 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700777755",
    "tipo": "apartamento",
    "geo": {
@@ -14748,6 +14553,21 @@
     "lng": -34.9193184
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10309369",
+   "uf": "PE",
+   "cidade": "JABOATAO DOS GUARARAPES",
+   "bairro": "PIEDADE",
+   "endereco": "AVENIDA BERNARDO VIEIRA DE MELO, N. 3462, SL 306",
+   "preco": 142249.67,
+   "valor_avaliacao": 226000.0,
+   "desconto": 37.06,
+   "financiamento": "Não",
+   "descricao": "Sala, 0.00 de área total, 37.00 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10309369",
+   "tipo": "sala"
   },
   {
    "id": "1444407737777",
@@ -15353,27 +15173,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444422689999",
-   "uf": "PE",
-   "cidade": "JATAUBA",
-   "bairro": "LOTJOÃO NEPOMUCENO",
-   "endereco": "RUA PROJETADA 01, N. 16, QD B LT 18",
-   "preco": 54906.87,
-   "valor_avaliacao": 112000.0,
-   "desconto": 50.98,
-   "financiamento": "Não",
-   "descricao": "Casa, 67.35 de área total, 67.35 de área privativa, 126.00 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422689999",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -9.3895223,
-    "lng": -40.4772377
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "10187225",
    "uf": "PE",
    "cidade": "JATAUBA",
@@ -15783,7 +15582,7 @@
    "desconto": 74.37,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 52.80 de área privativa, 52.80 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423292987",
    "tipo": "casa",
    "geo": {
@@ -15867,7 +15666,7 @@
    "desconto": 43.96,
    "financiamento": "Não",
    "descricao": "Casa, 55.00 de área total, 55.00 de área privativa, 70.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421035162",
    "tipo": "casa",
    "geo": {
@@ -15993,7 +15792,7 @@
    "desconto": 73.73,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1592.50 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416709969",
    "tipo": "terreno",
    "geo": {
@@ -16014,7 +15813,7 @@
    "desconto": 64.11,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 62.56 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419604880",
    "tipo": "casa",
    "geo": {
@@ -16035,7 +15834,7 @@
    "desconto": 60.51,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1782.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415596281",
    "tipo": "terreno",
    "geo": {
@@ -16077,7 +15876,7 @@
    "desconto": 59.15,
    "financiamento": "Não",
    "descricao": "Casa, 59.47 de área total, 59.47 de área privativa, 166.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427150800",
    "tipo": "casa",
    "geo": {
@@ -16098,7 +15897,7 @@
    "desconto": 58.1,
    "financiamento": "Não",
    "descricao": "Casa, 58.74 de área total, 58.74 de área privativa, 126.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416196900",
    "tipo": "casa",
    "geo": {
@@ -16140,7 +15939,7 @@
    "desconto": 55.8,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 55.00 de área privativa, 76.65 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411550862",
    "tipo": "casa",
    "geo": {
@@ -16182,7 +15981,7 @@
    "desconto": 50.98,
    "financiamento": "Não",
    "descricao": "Casa, 58.74 de área total, 58.74 de área privativa, 128.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425000193",
    "tipo": "casa",
    "geo": {
@@ -16224,7 +16023,7 @@
    "desconto": 50.82,
    "financiamento": "Não",
    "descricao": "Casa, 56.36 de área total, 56.36 de área privativa, 149.61 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416270990",
    "tipo": "casa",
    "geo": {
@@ -16245,7 +16044,7 @@
    "desconto": 50.27,
    "financiamento": "Não",
    "descricao": "Casa, 59.47 de área total, 59.47 de área privativa, 164.71 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427268185",
    "tipo": "casa",
    "geo": {
@@ -16266,7 +16065,7 @@
    "desconto": 50.13,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 62.56 de área privativa, 125.01 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418530182",
    "tipo": "casa",
    "geo": {
@@ -16371,7 +16170,7 @@
    "desconto": 44.97,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 60.37 de área privativa, 128.90 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413927734",
    "tipo": "casa",
    "geo": {
@@ -16401,6 +16200,21 @@
     "lng": -35.3136264
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444408924854",
+   "uf": "PE",
+   "cidade": "LAGOA DO CARRO",
+   "bairro": "LOT RECANTO CARPINA",
+   "endereco": "VIA DE ACESSO DA RUA D3, N. SN, AREA 07",
+   "preco": 57891.78,
+   "valor_avaliacao": 100000.0,
+   "desconto": 42.11,
+   "financiamento": "Não",
+   "descricao": "Casa, 74.00 de área total, 74.00 de área privativa, 133.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408924854",
+   "tipo": "casa"
   },
   {
    "id": "8444418839124",
@@ -16613,27 +16427,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444406147712",
-   "uf": "PE",
-   "cidade": "OLINDA",
-   "bairro": "RIO DOCE",
-   "endereco": "RUA BRIGADEIRO EDUARDO GOMES, N. 4, LOTE 10 QUADRA 77",
-   "preco": 220578.99,
-   "valor_avaliacao": 425000.0,
-   "desconto": 48.1,
-   "financiamento": "Não",
-   "descricao": "Casa, 200.00 de área total, 200.00 de área privativa, 200.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406147712",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.960476699999999,
-    "lng": -34.8353437
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "10215787",
    "uf": "PE",
    "cidade": "OLINDA",
@@ -16749,7 +16542,7 @@
    "desconto": 43.54,
    "financiamento": "Não",
    "descricao": "Apartamento, 102.52 de área total, 77.13 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), DCE, cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444400589730",
    "tipo": "apartamento",
    "geo": {
@@ -16777,27 +16570,6 @@
     "fonte": "google",
     "lat": -7.968494,
     "lng": -34.8497865
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444401449478",
-   "uf": "PE",
-   "cidade": "OLINDA",
-   "bairro": "JARDIM ATLANTICO",
-   "endereco": "RUA RIVIERA, N. 15, CS 02 BL E",
-   "preco": 82827.75,
-   "valor_avaliacao": 142818.99,
-   "desconto": 42.01,
-   "financiamento": "Sim",
-   "descricao": "Casa, 0.00 de área total, 52.30 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401449478",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.9820609,
-    "lng": -34.8462988
    },
    "geo_pendente": false
   },
@@ -16896,7 +16668,7 @@
    "desconto": 40.36,
    "financiamento": "Não",
    "descricao": "Apartamento, 55.75 de área total, 48.06 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8065100003034",
    "tipo": "apartamento",
    "geo": {
@@ -17031,6 +16803,21 @@
     "lng": -34.8418127
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444404604156",
+   "uf": "PE",
+   "cidade": "OLINDA",
+   "bairro": "CASA CAIADA",
+   "endereco": "RUA CARLOS LEITE MOREIRA, N. 475, Apto 202, PAV 1ELEV LT 15 QD B",
+   "preco": 116985.87,
+   "valor_avaliacao": 185862.0,
+   "desconto": 37.06,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 78.28 de área total, 68.54 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, WC Emp, 1 sala(s), DCE, cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444404604156",
+   "tipo": "apartamento"
   },
   {
    "id": "8065100003182",
@@ -17421,7 +17208,7 @@
    "desconto": 37.87,
    "financiamento": "Sim",
    "descricao": "Casa, 0.00 de área total, 110.74 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444409564292",
    "tipo": "casa",
    "geo": {
@@ -17510,6 +17297,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8444422254402",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "MARANGUAPE II",
+   "endereco": "RUA VINICIUS DE MORAES, N. 296, Apto 01, PAV TERREO LT 07 QD VI",
+   "preco": 34807.74,
+   "valor_avaliacao": 115800.0,
+   "desconto": 69.95,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 51.00 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422254402",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.938308900000001,
+    "lng": -34.8573495
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444405755482",
    "uf": "PE",
    "cidade": "PAULISTA",
@@ -17562,7 +17370,7 @@
    "desconto": 58.1,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 56.21 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407093339",
    "tipo": "apartamento",
    "geo": {
@@ -17583,34 +17391,13 @@
    "desconto": 55.8,
    "financiamento": "Não",
    "descricao": "Casa, 51.00 de área total, 51.00 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422686787",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -7.938308900000001,
     "lng": -34.8573495
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444418649430",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "MARANGUAPE II",
-   "endereco": "RUA JOSE ANACLETO, N. 217, Apto 102, QD XV LT 12",
-   "preco": 66862.02,
-   "valor_avaliacao": 149580.0,
-   "desconto": 55.31,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 53.01 de área total, 49.86 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418649430",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.938034699999999,
-    "lng": -34.8538482
    },
    "geo_pendente": false
   },
@@ -17667,7 +17454,7 @@
    "desconto": 55.31,
    "financiamento": "Não",
    "descricao": "Casa, 48.46 de área total, 48.46 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418194000",
    "tipo": "casa",
    "geo": {
@@ -17688,7 +17475,7 @@
    "desconto": 54.78,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 52.06 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408554470",
    "tipo": "apartamento",
    "geo": {
@@ -17741,27 +17528,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444407195654",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "NOSSA SENHORA DA CONCEICAO",
-   "endereco": "RUA CARATINGA, N. 762, CS 02, LT 14, QD B9",
-   "preco": 68428.18,
-   "valor_avaliacao": 144078.81,
-   "desconto": 52.51,
-   "financiamento": "Não",
-   "descricao": "Casa, 53.02 de área total, 53.02 de área privativa, 360.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407195654",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.8866387,
-    "lng": -34.8377174
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444420819658",
    "uf": "PE",
    "cidade": "PAULISTA",
@@ -17793,7 +17559,7 @@
    "desconto": 50.29,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 54.21 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408468549",
    "tipo": "apartamento",
    "geo": {
@@ -17814,7 +17580,7 @@
    "desconto": 50.27,
    "financiamento": "Não",
    "descricao": "Apartamento, 52.32 de área total, 49.17 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415962189",
    "tipo": "apartamento",
    "geo": {
@@ -17835,7 +17601,7 @@
    "desconto": 50.27,
    "financiamento": "Não",
    "descricao": "Apartamento, 58.75 de área total, 56.94 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407567985",
    "tipo": "apartamento",
    "geo": {
@@ -17877,7 +17643,7 @@
    "desconto": 49.72,
    "financiamento": "Não",
    "descricao": "Casa, 55.37 de área total, 55.37 de área privativa, 360.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405609184",
    "tipo": "casa",
    "geo": {
@@ -17898,7 +17664,7 @@
    "desconto": 49.72,
    "financiamento": "Não",
    "descricao": "Casa, 47.33 de área total, 47.33 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418458279",
    "tipo": "casa",
    "geo": {
@@ -17940,7 +17706,7 @@
    "desconto": 48.78,
    "financiamento": "Não",
    "descricao": "Casa, 56.62 de área total, 53.95 de área privativa, 377.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406054186",
    "tipo": "casa",
    "geo": {
@@ -17972,27 +17738,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444431280895",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "NOSSA SENHORA DA CONCEICAO",
-   "endereco": "RUA FUNILANDIA, N. 1633, Apto 01, LT 3 QD B 21",
-   "preco": 79076.8,
-   "valor_avaliacao": 153000.0,
-   "desconto": 48.32,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 67.84 de área total, 67.84 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431280895",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.890162999999999,
-    "lng": -34.8377673
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444415790469",
    "uf": "PE",
    "cidade": "PAULISTA",
@@ -18003,7 +17748,7 @@
    "desconto": 47.87,
    "financiamento": "Não",
    "descricao": "Casa, 57.99 de área total, 43.73 de área privativa, 361.47 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415790469",
    "tipo": "casa",
    "geo": {
@@ -18024,7 +17769,7 @@
    "desconto": 47.14,
    "financiamento": "Não",
    "descricao": "Casa, 48.45 de área total, 48.45 de área privativa, 360.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444407826646",
    "tipo": "casa",
    "geo": {
@@ -18329,6 +18074,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1787701746659",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "FRAGOSO",
+   "endereco": "AVENIDA NAPOLES, N. SN, Apto 401, BL 8",
+   "preco": 85832.47,
+   "valor_avaliacao": 152000.0,
+   "desconto": 43.54,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 45.26 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701746659",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -7.9670081,
+    "lng": -34.8553706
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444416816640",
    "uf": "PE",
    "cidade": "PAULISTA",
@@ -18381,7 +18147,7 @@
    "desconto": 42.92,
    "financiamento": "Não",
    "descricao": "Apartamento, 48.32 de área total, 48.32 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419864963",
    "tipo": "apartamento",
    "geo": {
@@ -18486,7 +18252,7 @@
    "desconto": 42.23,
    "financiamento": "Não",
    "descricao": "Apartamento, 72.47 de área total, 44.15 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412875820",
    "tipo": "apartamento",
    "geo": {
@@ -18549,7 +18315,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 46.68 de área total, 45.10 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417760249",
    "tipo": "apartamento",
    "geo": {
@@ -18591,7 +18357,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 46.27 de área total, 43.12 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412998441",
    "tipo": "apartamento",
    "geo": {
@@ -18759,7 +18525,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 62.29 de área total, 43.39 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534335767",
    "tipo": "apartamento",
    "geo": {
@@ -18843,7 +18609,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Casa, 65.60 de área total, 60.17 de área privativa, 360.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418987735",
    "tipo": "casa",
    "geo": {
@@ -18871,27 +18637,6 @@
     "fonte": "google",
     "lat": -7.937935200000001,
     "lng": -34.8639602
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787715936127",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "MARANGUAPE I",
-   "endereco": "AVENIDA ANTONIO CABRAL DE SOUZA, N. 1720, Apto 301, BL 11",
-   "preco": 111967.6,
-   "valor_avaliacao": 190000.0,
-   "desconto": 41.07,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 40.28 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715936127",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.943330199999999,
-    "lng": -34.8616101
    },
    "geo_pendente": false
   },
@@ -18927,7 +18672,7 @@
    "desconto": 41.07,
    "financiamento": "Não",
    "descricao": "Apartamento, 50.02 de área total, 45.14 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435947983",
    "tipo": "apartamento",
    "geo": {
@@ -18948,7 +18693,7 @@
    "desconto": 41.07,
    "financiamento": "Não",
    "descricao": "Apartamento, 55.20 de área total, 45.87 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716700780",
    "tipo": "apartamento",
    "geo": {
@@ -18969,7 +18714,7 @@
    "desconto": 41.07,
    "financiamento": "Não",
    "descricao": "Apartamento, 62.75 de área total, 46.47 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707629555",
    "tipo": "apartamento",
    "geo": {
@@ -18990,7 +18735,7 @@
    "desconto": 41.07,
    "financiamento": "Não",
    "descricao": "Apartamento, 50.63 de área total, 47.48 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429020393",
    "tipo": "apartamento",
    "geo": {
@@ -19095,7 +18840,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 45.87 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787714602667",
    "tipo": "apartamento",
    "geo": {
@@ -19116,7 +18861,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 45.87 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715707020",
    "tipo": "apartamento",
    "geo": {
@@ -19137,7 +18882,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 72.25 de área total, 72.25 de área privativa, 600.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431957909",
    "tipo": "casa",
    "geo": {
@@ -19200,7 +18945,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 50.55 de área total, 50.55 de área privativa, 360.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444416934596",
    "tipo": "casa",
    "geo": {
@@ -19236,7 +18981,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 58.29 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713426172",
    "tipo": "apartamento",
    "geo": {
@@ -19257,7 +19002,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 58.29 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715375494",
    "tipo": "apartamento",
    "geo": {
@@ -19278,7 +19023,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 50.00 de área total, 43.14 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716117723",
    "tipo": "apartamento",
    "geo": {
@@ -19356,34 +19101,13 @@
    "desconto": 40.48,
    "financiamento": "Não",
    "descricao": "Apartamento, 57.02 de área total, 53.15 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405752416",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -7.899675200000001,
     "lng": -34.8320137
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444412437970",
-   "uf": "PE",
-   "cidade": "PAULISTA",
-   "bairro": "JANGA",
-   "endereco": "RUA GLORIA DO GOITA, N. 527, Apto 101,",
-   "preco": 119670.55,
-   "valor_avaliacao": 200134.0,
-   "desconto": 40.21,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 66.88 de área total, 66.88 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412437970",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.9278248,
-    "lng": -34.8279876
    },
    "geo_pendente": false
   },
@@ -19482,7 +19206,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 59.23 de área total, 59.23 de área privativa, 450.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444402657749",
    "tipo": "casa",
    "geo": {
@@ -19617,6 +19341,21 @@
     "lng": -34.8336381
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444405357675",
+   "uf": "PE",
+   "cidade": "PAULISTA",
+   "bairro": "JANGA",
+   "endereco": "RUA ALCINO FERREIRA DA PAZ, N. 169, CS 26 LT 1A QD C",
+   "preco": 117702.16,
+   "valor_avaliacao": 187000.0,
+   "desconto": 37.06,
+   "financiamento": "Não",
+   "descricao": "Casa, 87.61 de área total, 87.61 de área privativa, 110.91 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444405357675",
+   "tipo": "casa"
   },
   {
    "id": "1787701823521",
@@ -20442,7 +20181,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 60.50 de área total, 41.79 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704882438",
    "tipo": "apartamento",
    "geo": {
@@ -20985,7 +20724,7 @@
    "desconto": 47.87,
    "financiamento": "Não",
    "descricao": "Casa, 51.44 de área total, 51.44 de área privativa, 148.20 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703313855",
    "tipo": "casa",
    "geo": {
@@ -21090,7 +20829,7 @@
    "desconto": 42.23,
    "financiamento": "Não",
    "descricao": "Casa, 67.25 de área total, 67.25 de área privativa, 126.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427528063",
    "tipo": "casa",
    "geo": {
@@ -21132,7 +20871,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Casa, 65.21 de área total, 65.21 de área privativa, 100.80 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430465450",
    "tipo": "casa",
    "geo": {
@@ -21141,6 +20880,21 @@
     "lng": -36.19977
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8555530810606",
+   "uf": "PE",
+   "cidade": "SANTA CRUZ DO CAPIBARIBE",
+   "bairro": "MALHADA DO MEIO",
+   "endereco": "RUA OTACILIO LOPES DA SILVA RUA PROJ 12, N. 115, LT 14 QD O",
+   "preco": 96000.33,
+   "valor_avaliacao": 162000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Casa, 50.00 de área total, 50.00 de área privativa, 159.90 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555530810606",
+   "tipo": "casa"
   },
   {
    "id": "8444435211251",
@@ -21216,7 +20970,7 @@
    "desconto": 55.8,
    "financiamento": "Não",
    "descricao": "Casa, 92.05 de área total, 92.05 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421457571",
    "tipo": "casa",
    "geo": {
@@ -21626,27 +21380,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555537101740",
-   "uf": "PE",
-   "cidade": "SAO LOURENCO DA MATA",
-   "bairro": "MURIBARA",
-   "endereco": "RUA SEVERINO ANTONIO DA SILVA, N. 168, Apto 103, BLOCO A TIPO C",
-   "preco": 58925.58,
-   "valor_avaliacao": 119800.0,
-   "desconto": 50.82,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 65.45 de área total, 41.66 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537101740",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.0013696,
-    "lng": -35.0509436
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555534998308",
    "uf": "PE",
    "cidade": "SAO LOURENCO DA MATA",
@@ -21678,7 +21411,7 @@
    "desconto": 50.27,
    "financiamento": "Não",
    "descricao": "Apartamento, 81.10 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555531659162",
    "tipo": "apartamento",
    "geo": {
@@ -21699,29 +21432,8 @@
    "desconto": 50.27,
    "financiamento": "Não",
    "descricao": "Apartamento, 81.10 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532120453",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.985678000000001,
-    "lng": -35.0490462
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555533875121",
-   "uf": "PE",
-   "cidade": "SAO LOURENCO DA MATA",
-   "bairro": "TIUMA",
-   "endereco": "AVENIDA DOUTOR PAULO PETRIBU, N. 550, Apto 201, BL26",
-   "preco": 65146.59,
-   "valor_avaliacao": 131000.0,
-   "desconto": 50.27,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533875121",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -21741,7 +21453,7 @@
    "desconto": 50.27,
    "financiamento": "Não",
    "descricao": "Apartamento, 81.52 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555527867414",
    "tipo": "apartamento",
    "geo": {
@@ -21762,7 +21474,7 @@
    "desconto": 50.27,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706155525",
    "tipo": "apartamento",
    "geo": {
@@ -21783,7 +21495,7 @@
    "desconto": 50.24,
    "financiamento": "Não",
    "descricao": "Apartamento, 81.52 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555527553819",
    "tipo": "apartamento",
    "geo": {
@@ -21804,7 +21516,7 @@
    "desconto": 49.72,
    "financiamento": "Não",
    "descricao": "Apartamento, 81.52 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555527711058",
    "tipo": "apartamento",
    "geo": {
@@ -21846,7 +21558,7 @@
    "desconto": 48.93,
    "financiamento": "Não",
    "descricao": "Apartamento, 67.74 de área total, 49.12 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555533900500",
    "tipo": "apartamento",
    "geo": {
@@ -21867,7 +21579,7 @@
    "desconto": 48.89,
    "financiamento": "Não",
    "descricao": "Apartamento, 81.10 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532363100",
    "tipo": "apartamento",
    "geo": {
@@ -21888,7 +21600,7 @@
    "desconto": 48.89,
    "financiamento": "Não",
    "descricao": "Apartamento, 81.10 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534809963",
    "tipo": "apartamento",
    "geo": {
@@ -21909,7 +21621,7 @@
    "desconto": 48.78,
    "financiamento": "Não",
    "descricao": "Apartamento, 63.62 de área total, 46.35 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701208159",
    "tipo": "apartamento",
    "geo": {
@@ -21930,7 +21642,7 @@
    "desconto": 48.64,
    "financiamento": "Não",
    "descricao": "Apartamento, 81.52 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413947182",
    "tipo": "apartamento",
    "geo": {
@@ -21972,34 +21684,13 @@
    "desconto": 48.02,
    "financiamento": "Não",
    "descricao": "Apartamento, 81.10 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555532664080",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -7.985678000000001,
     "lng": -35.0490462
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555534833007",
-   "uf": "PE",
-   "cidade": "SAO LOURENCO DA MATA",
-   "bairro": "TIUMA",
-   "endereco": "AVENIDA DOUTOR PAULO PETRIBU, N. 400, Apto 203, BL 01 BOSQUE D GLEBA 03",
-   "preco": 64909.35,
-   "valor_avaliacao": 124000.0,
-   "desconto": 47.66,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 45.35 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534833007",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.9861498,
-    "lng": -35.0502059
    },
    "geo_pendente": false
   },
@@ -22203,7 +21894,7 @@
    "desconto": 44.97,
    "financiamento": "Não",
    "descricao": "Apartamento, 63.97 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555531677667",
    "tipo": "apartamento",
    "geo": {
@@ -22224,7 +21915,7 @@
    "desconto": 44.97,
    "financiamento": "Não",
    "descricao": "Apartamento, 81.10 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532308606",
    "tipo": "apartamento",
    "geo": {
@@ -22245,34 +21936,13 @@
    "desconto": 44.11,
    "financiamento": "Não",
    "descricao": "Apartamento, 65.64 de área total, 41.82 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555536456383",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
     "lat": -8.0013696,
     "lng": -35.0509436
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787711299637",
-   "uf": "PE",
-   "cidade": "SAO LOURENCO DA MATA",
-   "bairro": "MURIBARA",
-   "endereco": "RUA BARAO DE CARUARU, N. 1496, Apto 104, BL 05",
-   "preco": 72293.28,
-   "valor_avaliacao": 128000.0,
-   "desconto": 43.53,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 45.90 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711299637",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -8.0036487,
-    "lng": -35.0428066
    },
    "geo_pendente": false
   },
@@ -22287,7 +21957,7 @@
    "desconto": 43.53,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700456906",
    "tipo": "apartamento",
    "geo": {
@@ -22308,7 +21978,7 @@
    "desconto": 43.53,
    "financiamento": "Não",
    "descricao": "Apartamento, 64.37 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702585614",
    "tipo": "apartamento",
    "geo": {
@@ -22329,7 +21999,7 @@
    "desconto": 42.92,
    "financiamento": "Não",
    "descricao": "Apartamento, 81.52 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555527630333",
    "tipo": "apartamento",
    "geo": {
@@ -22350,7 +22020,7 @@
    "desconto": 42.92,
    "financiamento": "Não",
    "descricao": "Apartamento, 45.35 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533454886",
    "tipo": "apartamento",
    "geo": {
@@ -22371,7 +22041,7 @@
    "desconto": 42.92,
    "financiamento": "Não",
    "descricao": "Apartamento, 63.97 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700407549",
    "tipo": "apartamento",
    "geo": {
@@ -22434,7 +22104,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 83.10 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532404575",
    "tipo": "apartamento",
    "geo": {
@@ -22476,7 +22146,7 @@
    "desconto": 42.08,
    "financiamento": "Não",
    "descricao": "Apartamento, 45.35 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700417943",
    "tipo": "apartamento",
    "geo": {
@@ -22512,7 +22182,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 67.66 de área total, 49.12 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555539916105",
    "tipo": "apartamento",
    "geo": {
@@ -22554,7 +22224,7 @@
    "desconto": 41.46,
    "financiamento": "Não",
    "descricao": "Apartamento, 63.97 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700433949",
    "tipo": "apartamento",
    "geo": {
@@ -22577,27 +22247,6 @@
    "descricao": "Apartamento, 63.97 de área total, 45.35 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702930907",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -7.9858915,
-    "lng": -35.050854
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787709666083",
-   "uf": "PE",
-   "cidade": "SAO LOURENCO DA MATA",
-   "bairro": "PIXETE",
-   "endereco": "AVENIDA DOUTOR PAULO PETRIBU, N. SN, Apto 003, BL 20",
-   "preco": 87233.99,
-   "valor_avaliacao": 149000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 75.18 de área total, 57.77 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709666083",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -22659,7 +22308,7 @@
    "desconto": 40.75,
    "financiamento": "Não",
    "descricao": "Apartamento, 69.46 de área total, 53.55 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715593947",
    "tipo": "apartamento",
    "geo": {
@@ -22722,7 +22371,7 @@
    "desconto": 38.24,
    "financiamento": "Não",
    "descricao": "Apartamento, 0.00 de área total, 60.12 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700440203",
    "tipo": "apartamento",
    "geo": {
@@ -23273,6 +22922,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1444416458672",
+   "uf": "PE",
+   "cidade": "TORITAMA",
+   "bairro": "CENTRO",
+   "endereco": "R 04 DE OUTUBRO, N. 29,",
+   "preco": 332654.49,
+   "valor_avaliacao": 906000.0,
+   "desconto": 63.29,
+   "financiamento": "Sim",
+   "descricao": "Casa, 0.00 de área total, 403.41 de área privativa, 103.41 de área do terreno, WC.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416458672",
+   "tipo": "casa"
+  },
+  {
    "id": "1444416015720",
    "uf": "PE",
    "cidade": "TORITAMA",
@@ -23304,7 +22968,7 @@
    "desconto": 54.21,
    "financiamento": "Sim",
    "descricao": "Loja, 16.00 de área total, 16.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414524660",
    "tipo": "loja",
    "geo": {
@@ -23388,7 +23052,7 @@
    "desconto": 45.05,
    "financiamento": "Não",
    "descricao": "Loja, 19.99 de área total, 16.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414264960",
    "tipo": "loja",
    "geo": {
@@ -23409,7 +23073,7 @@
    "desconto": 45.05,
    "financiamento": "Não",
    "descricao": "Loja, 23.99 de área total, 20.00 de área privativa, 0.00 de área do terreno, 1 sala(s).",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418583695",
    "tipo": "loja",
    "geo": {
@@ -23430,7 +23094,7 @@
    "desconto": 43.52,
    "financiamento": "Sim",
    "descricao": "Loja, 16.00 de área total, 16.00 de área privativa, 0.00 de área do terreno, 1 sala(s).",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414076462",
    "tipo": "loja",
    "geo": {
