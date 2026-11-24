@@ -1,7 +1,7 @@
 {
  "uf": "DF",
- "data_geracao_caixa": "19/11/2026",
- "coletado_em": "20/11/2026 10:56",
+ "data_geracao_caixa": "23/11/2026",
+ "coletado_em": "24/11/2026 03:54",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_DF.csv",
  "total": 85,
  "colunas": [
@@ -25,9 +25,9 @@
    "cidade": "BRASILIA",
    "bairro": "ALTO DA BOA VISTA (SOBRADINHO)",
    "endereco": "RODOVIA BR-020, N. 00, BL B, LT 12, ENTRE QUADRA 101/102",
-   "preco": 192949.37,
+   "preco": 180890.04,
    "valor_avaliacao": 395000.0,
-   "desconto": 51.16,
+   "desconto": 54.21,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 250.00 de área do terreno.",
    "modalidade": "Venda Online",
@@ -192,7 +192,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Loja, 0.00 de área total, 50.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300591",
    "tipo": "loja",
    "geo": {
@@ -213,7 +213,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Loja, 0.00 de área total, 50.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300792",
    "tipo": "loja",
    "geo": {
@@ -232,9 +232,9 @@
    "preco": 133437.74,
    "valor_avaliacao": 212000.0,
    "desconto": 37.06,
-   "financiamento": "Sim",
+   "financiamento": "Não",
    "descricao": "Sala, 0.00 de área total, 32.90 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10290993",
    "tipo": "sala",
    "geo": {
@@ -337,9 +337,9 @@
    "preco": 132178.89,
    "valor_avaliacao": 210000.0,
    "desconto": 37.06,
-   "financiamento": "Sim",
+   "financiamento": "Não",
    "descricao": "Sala, 0.00 de área total, 32.33 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10290998",
    "tipo": "sala",
    "geo": {
@@ -845,6 +845,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444418600590",
+   "uf": "DF",
+   "cidade": "CEILANDIA",
+   "bairro": "CEILANDIA NORTE",
+   "endereco": "QNQ 5, N. SN, CJ 05 LT 13",
+   "preco": 199798.03,
+   "valor_avaliacao": 330000.0,
+   "desconto": 39.46,
+   "financiamento": "Sim",
+   "descricao": "Casa, 132.75 de área total, 130.00 de área privativa, 144.00 de área do terreno,  4 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418600590",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.8059008,
+    "lng": -48.1472944
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444416889304",
    "uf": "DF",
    "cidade": "CEILANDIA",
@@ -876,7 +897,7 @@
    "desconto": 36.27,
    "financiamento": "Não",
    "descricao": "Casa, 160.00 de área total, 91.13 de área privativa, 132.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555515916255",
    "tipo": "casa",
    "geo": {
@@ -988,27 +1009,6 @@
     "fonte": "google",
     "lat": -15.8249871,
     "lng": -48.0927235
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8000802187181",
-   "uf": "DF",
-   "cidade": "CEILANDIA",
-   "bairro": "CEILANDIA SUL",
-   "endereco": "QNP 32, N. S/N, LT 33  CONJ M",
-   "preco": 253000.0,
-   "valor_avaliacao": 253000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 127.46 de área total, 127.46 de área privativa, 135.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8000802187181",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.8483721,
-    "lng": -48.1235414
    },
    "geo_pendente": false
   },
