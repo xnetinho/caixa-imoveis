@@ -1,9 +1,9 @@
 {
  "uf": "TO",
- "data_geracao_caixa": "23/11/2026",
- "coletado_em": "24/11/2026 15:49",
+ "data_geracao_caixa": "24/11/2026",
+ "coletado_em": "25/11/2026 09:36",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_TO.csv",
- "total": 29,
+ "total": 30,
  "colunas": [
   "id",
   "uf",
@@ -20,6 +20,21 @@
  ],
  "imoveis": [
   {
+   "id": "10281979",
+   "uf": "TO",
+   "cidade": "ABREULANDIA",
+   "bairro": "EST. STA VICTÓRIA II",
+   "endereco": "LOTEAMENTO MARIANÓPOLIS - GLEBA 08, N. 00, GLEBA II - LT 16",
+   "preco": 1165647.85,
+   "valor_avaliacao": 1829000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Imóvel rural, 0.00 de área total, 0.00 de área privativa, 589259.00 de área do terreno.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10281979",
+   "tipo": "imovel rural"
+  },
+  {
    "id": "8787708909071",
    "uf": "TO",
    "cidade": "ARAGUAINA",
@@ -30,7 +45,7 @@
    "desconto": 39.56,
    "financiamento": "Não",
    "descricao": "Casa, 55.94 de área total, 55.94 de área privativa, 240.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708909071",
    "tipo": "casa",
    "geo": {
@@ -250,18 +265,39 @@
    "cidade": "PALMAS",
    "bairro": "PLANO DIRETOR SUL",
    "endereco": "ALAMEDA 10, N. 19, QD ARSE-12 CJ QIB",
-   "preco": 868121.05,
+   "preco": 845861.54,
    "valor_avaliacao": 1397082.36,
-   "desconto": 37.87,
+   "desconto": 39.46,
    "financiamento": "Sim",
    "descricao": "Casa, 326.00 de área total, 139.44 de área privativa, 364.00 de área do terreno,  5 qto(s), a.serv, WC, 3 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416071956",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -10.2149134,
     "lng": -48.3465034
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444412498961",
+   "uf": "TO",
+   "cidade": "PALMAS",
+   "bairro": "JARDIM AURENY III",
+   "endereco": "AVENIDA D, N. SN, CS 03",
+   "preco": 101548.44,
+   "valor_avaliacao": 143000.0,
+   "desconto": 28.99,
+   "financiamento": "Não",
+   "descricao": "Casa, 90.00 de área total, 49.25 de área privativa, 49.25 de área do terreno,  2 qto(s), a.serv, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412498961",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -10.3193687,
+    "lng": -48.3239731
    },
    "geo_pendente": false
   },
@@ -476,27 +512,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444412498961",
-   "uf": "TO",
-   "cidade": "PALMAS",
-   "bairro": "JARDIM AURENY III",
-   "endereco": "AVENIDA D, N. SN, CS 03",
-   "preco": 143000.0,
-   "valor_avaliacao": 143000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 90.00 de área total, 49.25 de área privativa, 49.25 de área do terreno,  2 qto(s), a.serv, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412498961",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -10.3193687,
-    "lng": -48.3239731
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444416518462",
    "uf": "TO",
    "cidade": "PALMAS",
@@ -559,12 +574,12 @@
    "cidade": "PARAISO DO TOCANTINS",
    "bairro": "JARDIM AMERICA",
    "endereco": "RUA 14, N. SN, LT 07 QD 55",
-   "preco": 79756.75,
+   "preco": 77711.71,
    "valor_avaliacao": 135370.04,
-   "desconto": 41.09,
+   "desconto": 42.6,
    "financiamento": "Não",
    "descricao": "Casa, 52.00 de área total, 52.00 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403502722",
    "tipo": "casa",
    "geo": {
