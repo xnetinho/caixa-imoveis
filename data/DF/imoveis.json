@@ -1,9 +1,9 @@
 {
  "uf": "DF",
- "data_geracao_caixa": "23/11/2026",
- "coletado_em": "24/11/2026 15:48",
+ "data_geracao_caixa": "24/11/2026",
+ "coletado_em": "24/11/2026 23:59",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_DF.csv",
- "total": 85,
+ "total": 93,
  "colunas": [
   "id",
   "uf",
@@ -46,12 +46,12 @@
    "cidade": "BRASILIA",
    "bairro": "ASA NORTE",
    "endereco": "SETOR SRTVN LT P, N. S/N, CJ P, LOJA SS-1",
-   "preco": 1892823.47,
+   "preco": 1840245.04,
    "valor_avaliacao": 3300000.0,
-   "desconto": 42.65,
+   "desconto": 44.24,
    "financiamento": "Sim",
    "descricao": "Sala, 0.00 de área total, 600.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10278243",
    "tipo": "sala",
    "geo": {
@@ -62,23 +62,38 @@
    "geo_pendente": false
   },
   {
-   "id": "8787716242854",
+   "id": "8787707200788",
    "uf": "DF",
    "cidade": "BRASILIA",
-   "bairro": "RECANTO DAS EMAS",
-   "endereco": "RUA 06, N. SN, Apto 344, SUBCENTRO URBANO 400 600",
-   "preco": 88404.91,
-   "valor_avaliacao": 151000.0,
+   "bairro": "SETOR MEIRELES (SANTA MARIA)",
+   "endereco": "RUA 200  RESIDENCIAL PORTO PILAR, N. SN, Apto 401, BL.09 LT.RES.201 VG.N°430",
+   "preco": 81379.36,
+   "valor_avaliacao": 139000.0,
    "desconto": 41.46,
    "financiamento": "Não",
-   "descricao": "Apartamento, 44.58 de área total, 27.79 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
+   "descricao": "Apartamento, 107.88 de área total, 44.96 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707200788",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8444428274707",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "SAMAMBAIA NORTE",
+   "endereco": "QUADRA QR, N. SN, LOTE 20 CONJUNTO 2 QUADRA QR 1031",
+   "preco": 196898.25,
+   "valor_avaliacao": 334000.0,
+   "desconto": 41.05,
+   "financiamento": "Sim",
+   "descricao": "Casa, 108.00 de área total, 108.00 de área privativa, 112.50 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716242854",
-   "tipo": "apartamento",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428274707",
+   "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -15.9093102,
-    "lng": -48.0648157
+    "lat": -15.8863982,
+    "lng": -48.1481879
    },
    "geo_pendente": false
   },
@@ -98,23 +113,44 @@
    "tipo": "apartamento"
   },
   {
-   "id": "8787700688831",
+   "id": "8787720652026",
    "uf": "DF",
    "cidade": "BRASILIA",
-   "bairro": "RIACHO FUNDO II",
-   "endereco": "QN 22 CONJUNTO 3, N. SN, Apto 203, BL 18 LT 01 AO 05",
-   "preco": 92429.17,
-   "valor_avaliacao": 155973.69,
+   "bairro": "ITAPOA PARQUE",
+   "endereco": "QUADRA 402, N. SN, Apto 02, BL C1 LT 08 CJ 01",
+   "preco": 103704.06,
+   "valor_avaliacao": 175000.0,
    "desconto": 40.75,
    "financiamento": "Não",
-   "descricao": "Apartamento, 97.73 de área total, 50.10 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "descricao": "Apartamento, 63.60 de área total, 46.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700688831",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720652026",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -15.6458452,
-    "lng": -47.8019457
+    "lat": -15.7366847,
+    "lng": -47.8992324
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716665020",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "RECANTO DAS EMAS",
+   "endereco": "RUA 6, N. SN, Apto 709, LT 01 SU 400 600",
+   "preco": 94815.14,
+   "valor_avaliacao": 160000.0,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 44.58 de área total, 27.79 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716665020",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.9268107,
+    "lng": -48.0644586
    },
    "geo_pendente": false
   },
@@ -140,23 +176,86 @@
    "geo_pendente": false
   },
   {
-   "id": "8444428274707",
+   "id": "8444410234533",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "SAMAMBAIA SUL",
+   "endereco": "QUADRA 301 CONJUNTO 1, N. SN, Apto 902, BL B LT 03 04 E 05 VG 332",
+   "preco": 123904.77,
+   "valor_avaliacao": 205000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 74.85 de área total, 35.81 de área privativa, 0.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410234533",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.8700986,
+    "lng": -48.0900942
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444423255674",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "SETOR MEIRELES (SANTA MARIA)",
+   "endereco": "AVENIDA MONUMENTAL, N. SN, Apto 302, BL C1 SETOR TOTAL VILLE COND 07 LT 21",
+   "preco": 123904.77,
+   "valor_avaliacao": 205000.0,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 80.20 de área total, 58.60 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423255674",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -16.0277403,
+    "lng": -47.9843578
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787708115091",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "SETOR MEIRELES (SANTA MARIA)",
+   "endereco": "RUA 200, N. SN, Apto 404, BL 25 LT 201 VG 276 RES PORTO PILAR",
+   "preco": 129737.68,
+   "valor_avaliacao": 214650.53,
+   "desconto": 39.56,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 140.57 de área total, 60.50 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708115091",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -16.031069,
+    "lng": -47.9875602
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787715178338",
    "uf": "DF",
    "cidade": "BRASILIA",
    "bairro": "SAMAMBAIA NORTE",
-   "endereco": "QUADRA QR, N. SN, LOTE 20 CONJUNTO 2 QUADRA QR 1031",
-   "preco": 202219.83,
-   "valor_avaliacao": 334000.0,
-   "desconto": 39.46,
-   "financiamento": "Sim",
-   "descricao": "Casa, 108.00 de área total, 108.00 de área privativa, 112.50 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428274707",
-   "tipo": "casa",
+   "endereco": "QUADRA QR 412, N. SN, Apto 404, LT 03 CJ 17A VG 27",
+   "preco": 147451.31,
+   "valor_avaliacao": 240813.69,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 47.30 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715178338",
+   "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -15.8863982,
-    "lng": -48.1481879
+    "lat": -15.8752267,
+    "lng": -48.0883427
    },
    "geo_pendente": false
   },
@@ -171,7 +270,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Loja, 0.00 de área total, 50.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300590",
    "tipo": "loja",
    "geo": {
@@ -380,23 +479,44 @@
    "tipo": "apartamento"
   },
   {
-   "id": "10305200",
+   "id": "1444415560686",
    "uf": "DF",
    "cidade": "BRASILIA",
-   "bairro": "ASA NORTE",
-   "endereco": "S SRTVN  CONJ P, N. 0, UN 2131",
-   "preco": 286791.44,
-   "valor_avaliacao": 450000.0,
+   "bairro": "SET HAB COL SUDOESTE",
+   "endereco": "SUPER QUADRA SUDOESTE 101, N. SN, Apto 411, BL H SHCSW VG 52",
+   "preco": 796642.88,
+   "valor_avaliacao": 1250000.0,
    "desconto": 36.27,
    "financiamento": "Sim",
-   "descricao": "Sala, 0.00 de área total, 68.77 de área privativa, 0.00 de área do terreno.",
+   "descricao": "Apartamento, 90.66 de área total, 90.66 de área privativa, 0.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, WC Emp, 1 sala(s), DCE, cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10305200",
-   "tipo": "sala",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415560686",
+   "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -15.7857367,
-    "lng": -47.8895599
+    "lat": -15.7904379,
+    "lng": -47.9295342
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444416725972",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "SÃO SEBASTIAO RA XIV",
+   "endereco": "RUA SIÃO, N. SN, LT 11",
+   "preco": 866110.13,
+   "valor_avaliacao": 1359000.0,
+   "desconto": 36.27,
+   "financiamento": "Não",
+   "descricao": "Casa, 525.10 de área total, 525.10 de área privativa, 895.56 de área do terreno,  5 qto(s), a.serv, WC, WC Emp, 3 sala(s), 1 lavabo(s), DCE, cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416725972",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.9028899,
+    "lng": -47.7760971
    },
    "geo_pendente": false
   },
@@ -414,6 +534,27 @@
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702678916",
    "tipo": "casa"
+  },
+  {
+   "id": "1444419196792",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "SÃO SEBASTIAO RA XIV",
+   "endereco": "CONDOMINIO OURO VERMELHO II, N. SN, QD 22 LT 12",
+   "preco": 848413.61,
+   "valor_avaliacao": 897500.0,
+   "desconto": 5.47,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.01 de área total, 189.78 de área privativa, 804.22 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419196792",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.9079224,
+    "lng": -47.7621684
+   },
+   "geo_pendente": false
   },
   {
    "id": "1444402532131",
@@ -662,27 +803,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444419196792",
-   "uf": "DF",
-   "cidade": "BRASILIA",
-   "bairro": "SÃO SEBASTIAO RA XIV",
-   "endereco": "CONDOMINIO OURO VERMELHO II, N. SN, QD 22 LT 12",
-   "preco": 903526.81,
-   "valor_avaliacao": 897500.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.01 de área total, 189.78 de área privativa, 804.22 de área do terreno.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419196792",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.9079224,
-    "lng": -47.7621684
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787716752585",
    "uf": "DF",
    "cidade": "BRASILIA",
@@ -725,27 +845,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787708618395",
-   "uf": "DF",
-   "cidade": "BRASILIA",
-   "bairro": "SETOR MEIRELES (SANTA MARIA)",
-   "endereco": "RUA 100, N. SN, Apto 401, BL 10 LT 102",
-   "preco": 154642.24,
-   "valor_avaliacao": 145000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 109.65 de área total, 44.96 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708618395",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -16.0275612,
-    "lng": -47.9836367
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444403310957",
    "uf": "DF",
    "cidade": "BRASILIA",
@@ -784,6 +883,27 @@
     "fonte": "google",
     "lat": -15.9268107,
     "lng": -48.0644586
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787708618395",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "SETOR MEIRELES (SANTA MARIA)",
+   "endereco": "RUA 100, N. SN, Apto 401, BL 10 LT 102",
+   "preco": 195467.57,
+   "valor_avaliacao": 145000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 109.65 de área total, 44.96 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708618395",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -16.0275612,
+    "lng": -47.9836367
    },
    "geo_pendente": false
   },
@@ -845,6 +965,21 @@
    "geo_pendente": false
   },
   {
+   "id": "8555518781405",
+   "uf": "DF",
+   "cidade": "CEILANDIA",
+   "bairro": "CEILANDIA NORTE",
+   "endereco": "QUADRA NORTE N, N. SN, Apto 201, LOTE 43",
+   "preco": 96134.19,
+   "valor_avaliacao": 162225.9,
+   "desconto": 40.75,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 35.79 de área total, 23.45 de área privativa, 0.00 de área do terreno,  1 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518781405",
+   "tipo": "apartamento"
+  },
+  {
    "id": "1444418600590",
    "uf": "DF",
    "cidade": "CEILANDIA",
@@ -876,7 +1011,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Casa, 115.00 de área total, 115.00 de área privativa, 126.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416889304",
    "tipo": "casa",
    "geo": {
@@ -908,23 +1043,23 @@
    "geo_pendente": false
   },
   {
-   "id": "1555534558989",
+   "id": "1787700762944",
    "uf": "DF",
    "cidade": "CEILANDIA",
    "bairro": "CEILANDIA NORTE",
-   "endereco": "ÁREA ESPECIAL C, N. SN, Apto 102, QNO 12 TR L EDF VIOLETA  QNO 12 V BOX",
-   "preco": 172074.86,
-   "valor_avaliacao": 270000.0,
+   "endereco": "QUADRA NORTE N 11, N. SN, Apto 501, LT 23 VIA NN 11 A VG 45",
+   "preco": 184821.15,
+   "valor_avaliacao": 290000.0,
    "desconto": 36.27,
    "financiamento": "Não",
-   "descricao": "Apartamento, 109.53 de área total, 51.51 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 123.57 de área total, 59.50 de área privativa, 0.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555534558989",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700762944",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -15.7918399,
-    "lng": -48.1319661
+    "lat": -15.8051898,
+    "lng": -48.11841949999999
    },
    "geo_pendente": false
   },
@@ -1106,23 +1241,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8444430252766",
+   "id": "8787712173300",
    "uf": "DF",
    "cidade": "SAMAMBAIA",
    "bairro": "SAMAMBAIA NORTE",
-   "endereco": "QR 421, N. SN,  LT 30",
-   "preco": 221041.92,
-   "valor_avaliacao": 361000.0,
-   "desconto": 38.77,
+   "endereco": "QUADRA QS 423, N. SN, Apto AP 31, LT 2 CJ M QD QS 423",
+   "preco": 137201.86,
+   "valor_avaliacao": 227000.0,
+   "desconto": 39.56,
    "financiamento": "Não",
-   "descricao": "Casa, 126.00 de área total, 84.90 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 2 sala(s), cozinha.",
+   "descricao": "Apartamento, 39.85 de área total, 32.20 de área privativa, 0.00 de área do terreno,  2 qto(s), 1 sala(s), 1 vaga(s) de garagem.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430252766",
-   "tipo": "casa",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712173300",
+   "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -15.8747533,
-    "lng": -48.0892751
+    "lat": -15.8560872,
+    "lng": -48.1113346
    },
    "geo_pendente": false
   },
@@ -1144,6 +1279,27 @@
     "fonte": "google",
     "lat": -15.875144,
     "lng": -48.11658560000001
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444428845089",
+   "uf": "DF",
+   "cidade": "SAMAMBAIA",
+   "bairro": "SAMAMBAIA SUL",
+   "endereco": "QUADRA QR 314, N. SN, CONJUNTO 5 LOTE 15",
+   "preco": 190902.93,
+   "valor_avaliacao": 255000.0,
+   "desconto": 25.14,
+   "financiamento": "Não",
+   "descricao": "Casa, 0.00 de área total, 98.50 de área privativa, 105.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428845089",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.8740629,
+    "lng": -48.0679233
    },
    "geo_pendente": false
   },
@@ -1484,27 +1640,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444428845089",
-   "uf": "DF",
-   "cidade": "SAMAMBAIA",
-   "bairro": "SAMAMBAIA SUL",
-   "endereco": "QUADRA QR 314, N. SN, CONJUNTO 5 LOTE 15",
-   "preco": 389099.13,
-   "valor_avaliacao": 255000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 98.50 de área privativa, 105.00 de área do terreno.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428845089",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.8740629,
-    "lng": -48.0679233
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787707195288",
    "uf": "DF",
    "cidade": "SANTA MARIA",
@@ -1537,6 +1672,27 @@
     "fonte": "google",
     "lat": -15.8255446,
     "lng": -48.0549306
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1555517622224",
+   "uf": "DF",
+   "cidade": "TAGUATINGA",
+   "bairro": "TAGUATINGA NORTE",
+   "endereco": "QUADRA CNB 14, N. SN, Apto AP 11, LT 10 QD CNB 14",
+   "preco": 231982.41,
+   "valor_avaliacao": 364000.0,
+   "desconto": 36.27,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 99.33 de área total, 67.72 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555517622224",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.8208821,
+    "lng": -48.0642254
    },
    "geo_pendente": false
   },

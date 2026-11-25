@@ -1,9 +1,9 @@
 {
  "uf": "ES",
- "data_geracao_caixa": "23/11/2026",
- "coletado_em": "24/11/2026 15:48",
+ "data_geracao_caixa": "24/11/2026",
+ "coletado_em": "24/11/2026 23:59",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_ES.csv",
- "total": 46,
+ "total": 47,
  "colunas": [
   "id",
   "uf",
@@ -51,7 +51,7 @@
    "desconto": 38.95,
    "financiamento": "Sim",
    "descricao": "Galpão, 0.00 de área total, 10480.15 de área privativa, 11602.38 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10208964",
    "tipo": "galpao",
    "geo": {
@@ -109,7 +109,7 @@
    "cidade": "CARIACICA",
    "bairro": "TUCUM",
    "endereco": "RUA SAO PAULO APOSTOLO, N. SN, Apto 402, BL 12  VG 182",
-   "preco": 258000.0,
+   "preco": 207758.93,
    "valor_avaliacao": 191000.0,
    "desconto": 0.0,
    "financiamento": "Não",
@@ -224,6 +224,27 @@
    "geo_pendente": false
   },
   {
+   "id": "10258733",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "BELVEDERE",
+   "endereco": "RUA CONCEICAO DO CASTELO, N. S/N, QD 05, LT 13",
+   "preco": 46173.2,
+   "valor_avaliacao": 87377.0,
+   "desconto": 47.16,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10258733",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.1003383,
+    "lng": -40.3383067
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "10258726",
    "uf": "ES",
    "cidade": "SERRA",
@@ -257,6 +278,27 @@
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
    "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10258729",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.1009215,
+    "lng": -40.3381779
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "10258736",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "BELVEDERE",
+   "endereco": "RUA DIVINO DE SAO LOURENCO, N. S/N, QD 05, LT 16",
+   "preco": 35136.08,
+   "valor_avaliacao": 66271.95,
+   "desconto": 46.99,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10258736",
    "tipo": "terreno",
    "geo": {
     "fonte": "google",
@@ -308,48 +350,6 @@
    "geo_pendente": false
   },
   {
-   "id": "10258733",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "BELVEDERE",
-   "endereco": "RUA CONCEICAO DO CASTELO, N. S/N, QD 05, LT 13",
-   "preco": 47492.44,
-   "valor_avaliacao": 87377.0,
-   "desconto": 45.65,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10258733",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1003383,
-    "lng": -40.3383067
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "10258736",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "BELVEDERE",
-   "endereco": "RUA DIVINO DE SAO LOURENCO, N. S/N, QD 05, LT 16",
-   "preco": 36139.97,
-   "valor_avaliacao": 66271.95,
-   "desconto": 45.47,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10258736",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1009215,
-    "lng": -40.3381779
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444412258138",
    "uf": "ES",
    "cidade": "SERRA",
@@ -367,27 +367,6 @@
     "fonte": "google",
     "lat": -20.1165689,
     "lng": -40.312728
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787719057110",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "PRAIA DA BALEIA",
-   "endereco": "AVENIDA DESEMBARGADOR ANTONIO JOSE MIGUEL FEU ROSA, N. 395, Apto 302, BL 20 VG 304 LT 1A2B",
-   "preco": 136597.45,
-   "valor_avaliacao": 226000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 62.36 de área total, 42.47 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719057110",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1776824,
-    "lng": -40.1935997
    },
    "geo_pendente": false
   },
@@ -413,23 +392,23 @@
    "geo_pendente": false
   },
   {
-   "id": "8787717223900",
+   "id": "8444430177268",
    "uf": "ES",
    "cidade": "SERRA",
-   "bairro": "PORTO CANOA",
-   "endereco": "RUA PROJETADA 03, N. 80, Apto 208, TR B AREA A3.A1",
-   "preco": 146953.08,
-   "valor_avaliacao": 240000.0,
+   "bairro": "SAO PEDRO",
+   "endereco": "RUA SAO PEDRO, N. 104, Apto 107, T 01",
+   "preco": 202060.49,
+   "valor_avaliacao": 330000.0,
    "desconto": 38.77,
    "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 44.29 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Apartamento, 87.46 de área total, 56.21 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717223900",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430177268",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
-    "lat": -20.1553252,
-    "lng": -40.2540525
+    "lat": -20.1571167,
+    "lng": -40.1885708
    },
    "geo_pendente": false
   },
@@ -449,6 +428,27 @@
    "tipo": "apartamento"
   },
   {
+   "id": "8787716762033",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "PRAIA DA BALEIA",
+   "endereco": "AVENIDA DESEMBARGADOR ANTONIO JOSE MIGUEL FEU ROSA, N. 395, Apto 402, BL 12",
+   "preco": 159199.17,
+   "valor_avaliacao": 260000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 62.36 de área total, 42.47 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716762033",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.1776824,
+    "lng": -40.1935997
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787717106636",
    "uf": "ES",
    "cidade": "SERRA",
@@ -462,6 +462,132 @@
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717106636",
    "tipo": "apartamento"
+  },
+  {
+   "id": "8787718639905",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "PRAIA DA BALEIA",
+   "endereco": "AVENIDA DESEMBARGADOR ANTONIO JOSE MIGUEL FEU ROSA, N. 395, Apto 104, BL 22",
+   "preco": 185222.11,
+   "valor_avaliacao": 302500.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 77.50 de área total, 55.69 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718639905",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.1776824,
+    "lng": -40.1935997
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787718666228",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "PRAIA DA BALEIA",
+   "endereco": "AVENIDA DES. A. JOSE M. FEU ROSA, N. 395, Apto 503, BL 20",
+   "preco": 145116.17,
+   "valor_avaliacao": 237000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 62.36 de área total, 42.47 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718666228",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.1776824,
+    "lng": -40.1935997
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787717612930",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "PRAIA DA BALEIA",
+   "endereco": "AVENIDA DES ANTONIO JOSE MIGUEL FEU ROSA, N. 395, Apto 304, BL 17 VG 322 AREA 01A2B",
+   "preco": 195274.24,
+   "valor_avaliacao": 277000.0,
+   "desconto": 29.51,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 62.36 de área total, 42.47 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717612930",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.1776824,
+    "lng": -40.1935997
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787716120333",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "PRAIA DA BALEIA",
+   "endereco": "AVENIDA DES ANTONIO JOSE MIGUEL FEU ROSA, N. 395, Apto 402, BL 16 VG 349",
+   "preco": 163571.07,
+   "valor_avaliacao": 232000.0,
+   "desconto": 29.5,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 62.36 de área total, 42.47 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716120333",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.1776824,
+    "lng": -40.1935997
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8787717083032",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "PRAIA DA BALEIA",
+   "endereco": "AVENIDA DES JOSE MIGUEL FEU ROSA, N. 395, Apto 504, BL 11 VG 225",
+   "preco": 192604.11,
+   "valor_avaliacao": 260000.0,
+   "desconto": 25.93,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 62.36 de área total, 42.47 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717083032",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.1776824,
+    "lng": -40.1935997
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555518085956",
+   "uf": "ES",
+   "cidade": "SERRA",
+   "bairro": "RESIDENCIAL JACARAIPE",
+   "endereco": "RUA PRUDENTE DE MORAES, N. SN, LT 01 E LT 02 DA QD IV SETOR E",
+   "preco": 221098.91,
+   "valor_avaliacao": 275000.0,
+   "desconto": 19.61,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 667.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518085956",
+   "tipo": "terreno",
+   "geo": {
+    "fonte": "google",
+    "lat": -20.1354201,
+    "lng": -40.2028365
+   },
+   "geo_pendente": false
   },
   {
    "id": "8787700901500",
@@ -527,69 +653,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787717083032",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "PRAIA DA BALEIA",
-   "endereco": "AVENIDA DES JOSE MIGUEL FEU ROSA, N. 395, Apto 504, BL 11 VG 225",
-   "preco": 260000.0,
-   "valor_avaliacao": 260000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 62.36 de área total, 42.47 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717083032",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1776824,
-    "lng": -40.1935997
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787717612930",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "PRAIA DA BALEIA",
-   "endereco": "AVENIDA DES ANTONIO JOSE MIGUEL FEU ROSA, N. 395, Apto 304, BL 17 VG 322 AREA 01A2B",
-   "preco": 277000.0,
-   "valor_avaliacao": 277000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 62.36 de área total, 42.47 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717612930",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1776824,
-    "lng": -40.1935997
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555518085956",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "RESIDENCIAL JACARAIPE",
-   "endereco": "RUA PRUDENTE DE MORAES, N. SN, LT 01 E LT 02 DA QD IV SETOR E",
-   "preco": 275000.0,
-   "valor_avaliacao": 275000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 667.00 de área do terreno.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518085956",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1354201,
-    "lng": -40.2028365
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787709052743",
    "uf": "ES",
    "cidade": "SERRA",
@@ -628,27 +691,6 @@
     "fonte": "google",
     "lat": -20.2073746,
     "lng": -40.2248217
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787716120333",
-   "uf": "ES",
-   "cidade": "SERRA",
-   "bairro": "PRAIA DA BALEIA",
-   "endereco": "AVENIDA DES ANTONIO JOSE MIGUEL FEU ROSA, N. 395, Apto 402, BL 16 VG 349",
-   "preco": 241639.72,
-   "valor_avaliacao": 232000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 62.36 de área total, 42.47 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716120333",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.1776824,
-    "lng": -40.1935997
    },
    "geo_pendente": false
   },
@@ -778,12 +820,12 @@
    "cidade": "VILA VELHA",
    "bairro": "PRAIA DA COSTA",
    "endereco": "RUA INACIO HIGINO, N. 673, LOJA 01",
-   "preco": 3802254.56,
+   "preco": 3564613.65,
    "valor_avaliacao": 8140000.0,
-   "desconto": 53.29,
+   "desconto": 56.21,
    "financiamento": "Sim",
    "descricao": "Loja, 0.00 de área total, 716.82 de área privativa, 0.00 de área do terreno, 19 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1155532800019",
    "tipo": "loja",
    "geo": {
@@ -804,7 +846,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 2004.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415324443",
    "tipo": "terreno",
    "geo": {
@@ -895,27 +937,6 @@
     "fonte": "google",
     "lat": -20.3215907,
     "lng": -40.3380155
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "10307845",
-   "uf": "ES",
-   "cidade": "VITORIA",
-   "bairro": "PARQUE MOSCOSO",
-   "endereco": "AVENIDA MARCOS DE AZEVEDO, N. 375, LJ 1",
-   "preco": 351797.49,
-   "valor_avaliacao": 552000.0,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Loja, 0.00 de área total, 140.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Licitação Aberta",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10307845",
-   "tipo": "loja",
-   "geo": {
-    "fonte": "google",
-    "lat": -20.3191371,
-    "lng": -40.3428274
    },
    "geo_pendente": false
   },
