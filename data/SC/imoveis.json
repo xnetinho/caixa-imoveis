@@ -1,9 +1,9 @@
 {
  "uf": "SC",
- "data_geracao_caixa": "24/11/2026",
- "coletado_em": "25/11/2026 19:24",
+ "data_geracao_caixa": "25/11/2026",
+ "coletado_em": "26/11/2026 01:55",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_SC.csv",
- "total": 211,
+ "total": 227,
  "colunas": [
   "id",
   "uf",
@@ -143,6 +143,27 @@
    "tipo": "casa"
   },
   {
+   "id": "8444434042731",
+   "uf": "SC",
+   "cidade": "ARARANGUA",
+   "bairro": "CAVERAZINHO",
+   "endereco": "RUA PEDRO DOS SANTOS SEVERINO, N. 0, LOTE 14 QUADRA F JARDIM FLAMBOYANT",
+   "preco": 170739.39,
+   "valor_avaliacao": 200000.0,
+   "desconto": 14.64,
+   "financiamento": "Não",
+   "descricao": "Casa, 100.00 de área total, 100.00 de área privativa, 377.45 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434042731",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -28.9658068,
+    "lng": -49.4806702
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444418901750",
    "uf": "SC",
    "cidade": "ARARANGUA",
@@ -179,25 +200,19 @@
    "tipo": "terreno"
   },
   {
-   "id": "8444434042731",
+   "id": "8444426371586",
    "uf": "SC",
    "cidade": "ARARANGUA",
    "bairro": "CAVERAZINHO",
-   "endereco": "RUA PEDRO DOS SANTOS SEVERINO, N. 0, LOTE 14 QUADRA F JARDIM FLAMBOYANT",
-   "preco": 587442.94,
-   "valor_avaliacao": 200000.0,
+   "endereco": "RUA DEROTIDES BATISTA DOS SANTOS, N. 341, CS 01",
+   "preco": 183000.0,
+   "valor_avaliacao": 183000.0,
    "desconto": 0.0,
    "financiamento": "Não",
-   "descricao": "Casa, 100.00 de área total, 100.00 de área privativa, 377.45 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "descricao": "Casa, 68.19 de área total, 67.74 de área privativa, 150.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434042731",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -28.9658068,
-    "lng": -49.4806702
-   },
-   "geo_pendente": false
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426371586",
+   "tipo": "casa"
   },
   {
    "id": "8444433865939",
@@ -251,6 +266,27 @@
    "tipo": "apartamento"
   },
   {
+   "id": "1444415404218",
+   "uf": "SC",
+   "cidade": "BALNEARIO CAMBORIU",
+   "bairro": "SAO JUDAS TADEU",
+   "endereco": "RUA DANIEL VIEIRA, N. 315, Apto 18, BL E",
+   "preco": 367047.09,
+   "valor_avaliacao": 370000.0,
+   "desconto": 0.8,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 53.37 de área total, 46.32 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415404218",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -27.0191995,
+    "lng": -48.6046305
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "10315829",
    "uf": "SC",
    "cidade": "BALNEARIO CAMBORIU",
@@ -268,27 +304,6 @@
     "fonte": "google",
     "lat": -26.9706909,
     "lng": -48.6328379
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444415404218",
-   "uf": "SC",
-   "cidade": "BALNEARIO CAMBORIU",
-   "bairro": "SAO JUDAS TADEU",
-   "endereco": "RUA DANIEL VIEIRA, N. 315, Apto 18, BL E",
-   "preco": 370000.0,
-   "valor_avaliacao": 370000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 53.37 de área total, 46.32 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415404218",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -27.0191995,
-    "lng": -48.6046305
    },
    "geo_pendente": false
   },
@@ -313,9 +328,9 @@
    "cidade": "BARRA VELHA",
    "bairro": "SÃO CRISTÓVÃO",
    "endereco": "RUA JOSÉ CEARÁ DA COSTA, N. 1817, CS 02",
-   "preco": 238000.0,
+   "preco": 142800.0,
    "valor_avaliacao": 238000.0,
-   "desconto": 0.0,
+   "desconto": 40.0,
    "financiamento": "Não",
    "descricao": "Casa, 44.88 de área total, 44.88 de área privativa, 59.28 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
@@ -341,6 +356,21 @@
    "descricao": "Apartamento, 53.31 de área total, 45.93 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700614692",
+   "tipo": "apartamento"
+  },
+  {
+   "id": "8787718599679",
+   "uf": "SC",
+   "cidade": "BIGUACU",
+   "bairro": "JARDIM JANAINA",
+   "endereco": "RUA HUMBERTO CESAR DE MORAES, N. 65, Apto 304, BL 16",
+   "preco": 162260.69,
+   "valor_avaliacao": 265000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 87.31 de área total, 47.80 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718599679",
    "tipo": "apartamento"
   },
   {
@@ -384,6 +414,21 @@
     "lng": -48.7172527
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787709831670",
+   "uf": "SC",
+   "cidade": "BIGUACU",
+   "bairro": "BOM VIVER",
+   "endereco": "RUA ADELINO MACHADO, N. 329, Apto 403, BL 17 VG GARAGEM 271",
+   "preco": 245000.0,
+   "valor_avaliacao": 245000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 82.70 de área total, 43.80 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709831670",
+   "tipo": "apartamento"
   },
   {
    "id": "8555507603128",
@@ -449,6 +494,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8555533659569",
+   "uf": "SC",
+   "cidade": "BLUMENAU",
+   "bairro": "AGUA VERDE",
+   "endereco": "RUA MARGARIDA WALDRICH, N. 56, Apto 721, PAV 02 BL 07",
+   "preco": 151800.0,
+   "valor_avaliacao": 253000.0,
+   "desconto": 40.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 54.98 de área total, 47.56 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533659569",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -26.9089206,
+    "lng": -49.1272354
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8444415383685",
    "uf": "SC",
    "cidade": "BLUMENAU",
@@ -462,6 +528,27 @@
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415383685",
    "tipo": "apartamento"
+  },
+  {
+   "id": "8787708026013",
+   "uf": "SC",
+   "cidade": "BLUMENAU",
+   "bairro": "ITOUPAVA CENTRAL",
+   "endereco": "RUA RUDOLFO WALTER, N. 1445, Apto 401, 3 ANDAR BL 10",
+   "preco": 153301.41,
+   "valor_avaliacao": 230000.0,
+   "desconto": 33.35,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 58.83 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708026013",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -26.8098815,
+    "lng": -49.104104
+   },
+   "geo_pendente": false
   },
   {
    "id": "8787718631750",
@@ -485,6 +572,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444417611547",
+   "uf": "SC",
+   "cidade": "BLUMENAU",
+   "bairro": "ITOUPAVA CENTRAL",
+   "endereco": "RUA UDO JANSEN, N. 209, PAV 02",
+   "preco": 350085.35,
+   "valor_avaliacao": 414000.0,
+   "desconto": 15.44,
+   "financiamento": "Não",
+   "descricao": "Casa, 105.39 de área total, 101.33 de área privativa, 131.50 de área do terreno,  1 qto(s), 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417611547",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -26.8269339,
+    "lng": -49.1036848
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444413680943",
    "uf": "SC",
    "cidade": "BLUMENAU",
@@ -502,27 +610,6 @@
     "fonte": "google",
     "lat": -26.8122243,
     "lng": -49.0957945
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444417611547",
-   "uf": "SC",
-   "cidade": "BLUMENAU",
-   "bairro": "ITOUPAVA CENTRAL",
-   "endereco": "RUA UDO JANSEN, N. 209, PAV 02",
-   "preco": 414000.0,
-   "valor_avaliacao": 414000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 105.39 de área total, 101.33 de área privativa, 131.50 de área do terreno,  1 qto(s), 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417611547",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -26.8269339,
-    "lng": -49.1036848
    },
    "geo_pendente": false
   },
@@ -647,27 +734,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555533659569",
-   "uf": "SC",
-   "cidade": "BLUMENAU",
-   "bairro": "AGUA VERDE",
-   "endereco": "RUA MARGARIDA WALDRICH, N. 56, Apto 721, PAV 02 BL 07",
-   "preco": 253000.0,
-   "valor_avaliacao": 253000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 54.98 de área total, 47.56 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533659569",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -26.9089206,
-    "lng": -49.1272354
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8041100014888",
    "uf": "SC",
    "cidade": "BLUMENAU",
@@ -685,27 +751,6 @@
     "fonte": "google",
     "lat": -26.9196913,
     "lng": -49.1259215
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787708026013",
-   "uf": "SC",
-   "cidade": "BLUMENAU",
-   "bairro": "ITOUPAVA CENTRAL",
-   "endereco": "RUA RUDOLFO WALTER, N. 1445, Apto 401, 3 ANDAR BL 10",
-   "preco": 230200.0,
-   "valor_avaliacao": 230000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 58.83 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787708026013",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -26.8098815,
-    "lng": -49.104104
    },
    "geo_pendente": false
   },
@@ -941,27 +986,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444415815684",
-   "uf": "SC",
-   "cidade": "BRUSQUE",
-   "bairro": "CENTRO I",
-   "endereco": "PRACA BARAO DE SCHNEEBURG, N. 39, Apto 102,",
-   "preco": 459439.87,
-   "valor_avaliacao": 801000.0,
-   "desconto": 42.65,
-   "financiamento": "Sim",
-   "descricao": "Apartamento, 156.86 de área total, 150.00 de área privativa, 0.00 de área do terreno, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415815684",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -27.097973,
-    "lng": -48.916608
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444413692109",
    "uf": "SC",
    "cidade": "BRUSQUE",
@@ -975,6 +999,36 @@
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413692109",
    "tipo": "casa"
+  },
+  {
+   "id": "8444422025870",
+   "uf": "SC",
+   "cidade": "BRUSQUE",
+   "bairro": "DOM JOAQUIM",
+   "endereco": "RUA JOSE RADAVELLI, N. 77, CS 02",
+   "preco": 410000.0,
+   "valor_avaliacao": 325000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 70.54 de área total, 70.54 de área privativa, 72.63 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422025870",
+   "tipo": "casa"
+  },
+  {
+   "id": "10321420",
+   "uf": "SC",
+   "cidade": "CACADOR",
+   "bairro": "MARTELLO",
+   "endereco": "RUA ELVIRA POPIA PAVELSKI, N. 0, QD 5, LT 90-C",
+   "preco": 750000.0,
+   "valor_avaliacao": 720000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 800.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10321420",
+   "tipo": "terreno"
   },
   {
    "id": "8444416691677",
@@ -996,6 +1050,36 @@
     "lng": -51.215833
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444425574386",
+   "uf": "SC",
+   "cidade": "CAMPOS NOVOS",
+   "bairro": "BOA VISTA",
+   "endereco": "RUA PROJETADA J, N. 400, CS 02 LOT PQ SANTA CLARA",
+   "preco": 175119.09,
+   "valor_avaliacao": 286000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Casa, 77.67 de área total, 74.97 de área privativa, 150.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425574386",
+   "tipo": "casa"
+  },
+  {
+   "id": "8444417605510",
+   "uf": "SC",
+   "cidade": "CAPIVARI DE BAIXO",
+   "bairro": "VILA FLOR",
+   "endereco": "RUA ANTONIO ELIZIÁRIO MENDES, N. 382, QD J LT 10 LOT CIDADE NOVA II",
+   "preco": 65921.81,
+   "valor_avaliacao": 115000.0,
+   "desconto": 42.68,
+   "financiamento": "Não",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 300.00 de área do terreno.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417605510",
+   "tipo": "terreno"
   },
   {
    "id": "1555504567882",
@@ -1202,6 +1286,21 @@
    "tipo": "apartamento"
   },
   {
+   "id": "8787720158048",
+   "uf": "SC",
+   "cidade": "CRICIUMA",
+   "bairro": "ANA MARIA",
+   "endereco": "RUA 5 DE MAIO, N. 634, Apto 204, BL 07",
+   "preco": 146953.08,
+   "valor_avaliacao": 240000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 53.51 de área total, 45.93 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720158048",
+   "tipo": "apartamento"
+  },
+  {
    "id": "10305191",
    "uf": "SC",
    "cidade": "CRICIUMA",
@@ -1236,27 +1335,6 @@
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444412774456",
    "tipo": "casa"
-  },
-  {
-   "id": "10308544",
-   "uf": "SC",
-   "cidade": "CRICIUMA",
-   "bairro": "PRIMEIRA LINHA",
-   "endereco": "RODOVIA ALEXANDRE BELOLI, N. 630, QD B, LT 38",
-   "preco": 955971.45,
-   "valor_avaliacao": 1500000.0,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Casa, 0.00 de área total, 264.80 de área privativa, 618.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10308544",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -28.7199391,
-    "lng": -49.397341
-   },
-   "geo_pendente": false
   },
   {
    "id": "8787718314232",
@@ -1536,13 +1614,34 @@
    "desconto": 37.87,
    "financiamento": "Sim",
    "descricao": "Comercial, 0.00 de área total, 577.10 de área privativa, 362.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286344",
    "tipo": "comercial",
    "geo": {
     "fonte": "google",
     "lat": -27.6000431,
     "lng": -48.59105
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1444402998416",
+   "uf": "SC",
+   "cidade": "FLORIANOPOLIS",
+   "bairro": "CENTRO",
+   "endereco": "RUA DESEMBARGADOR ARNO HOESCHL, N. 121, Apto 102,",
+   "preco": 809389.16,
+   "valor_avaliacao": 1270000.0,
+   "desconto": 36.27,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 149.18 de área total, 115.49 de área privativa, 0.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444402998416",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -27.5914017,
+    "lng": -48.5574342
    },
    "geo_pendente": false
   },
@@ -1608,6 +1707,21 @@
     "lng": -48.596501
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444420163159",
+   "uf": "SC",
+   "cidade": "FORQUILHINHA",
+   "bairro": "Santa Cruz",
+   "endereco": "RUA ANTONIO BERETTA, N. 576, LT 10 QD 19",
+   "preco": 165000.0,
+   "valor_avaliacao": 165000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 50.06 de área total, 50.06 de área privativa, 369.80 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444420163159",
+   "tipo": "casa"
   },
   {
    "id": "8444405883294",
@@ -1733,6 +1847,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1444417624290",
+   "uf": "SC",
+   "cidade": "ICARA",
+   "bairro": "PRESIDENTE VARGAS",
+   "endereco": "RUA SENADOR TEOTONIO VILELLA, N. 792, QD 108 LT 15",
+   "preco": 401508.01,
+   "valor_avaliacao": 630000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Casa, 289.69 de área total, 289.69 de área privativa, 377.50 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), 1 lavabo(s), 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417624290",
+   "tipo": "casa"
+  },
+  {
    "id": "1444420089724",
    "uf": "SC",
    "cidade": "ICARA",
@@ -1773,6 +1902,21 @@
     "lng": -49.2821524
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1444403818349",
+   "uf": "SC",
+   "cidade": "ICARA",
+   "bairro": "BARRACAO",
+   "endereco": "RUA JORGE DE SOUZA FERNANDES, N. 70, LT 04 QD C",
+   "preco": 205000.0,
+   "valor_avaliacao": 205000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 74.52 de área total, 74.52 de área privativa, 372.60 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444403818349",
+   "tipo": "casa"
   },
   {
    "id": "8444429034963",
@@ -1937,6 +2081,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1444412924253",
+   "uf": "SC",
+   "cidade": "ITAPEMA",
+   "bairro": "Casa Branca",
+   "endereco": "RUA 708, N. 44, LT 04 QD H",
+   "preco": 14185000.0,
+   "valor_avaliacao": 14185000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 704.62 de área total, 704.62 de área privativa, 1362.50 de área do terreno,  3 qto(s), a.serv, WC, 5 sala(s), 1 lavabo(s), cozinha, Terraco, 4 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444412924253",
+   "tipo": "casa"
+  },
+  {
    "id": "1444418401155",
    "uf": "SC",
    "cidade": "ITUPORANGA",
@@ -1947,7 +2106,7 @@
    "desconto": 38.64,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 800.22 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418401155",
    "tipo": "terreno",
    "geo": {
@@ -1993,9 +2152,9 @@
    "cidade": "JARAGUA DO SUL",
    "bairro": "VILA BAEPENDI",
    "endereco": "RUA CARLOS MAY, N. 199, Apto 1204, TORRE 01 PAV 12",
-   "preco": 350000.0,
+   "preco": 266489.06,
    "valor_avaliacao": 350000.0,
-   "desconto": 0.0,
+   "desconto": 23.87,
    "financiamento": "Não",
    "descricao": "Apartamento, 63.26 de área total, 50.26 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), 1 vaga(s) de garagem.",
    "modalidade": "Leilão SFI - Edital Único",
@@ -2108,6 +2267,42 @@
    "tipo": "apartamento"
   },
   {
+   "id": "8555537458339",
+   "uf": "SC",
+   "cidade": "JOINVILLE",
+   "bairro": "VILA NOVA",
+   "endereco": "RUA ROLF F PENSKI, N. 0, Apto 403, BL C",
+   "preco": 144000.0,
+   "valor_avaliacao": 240000.0,
+   "desconto": 40.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 50.75 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537458339",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -26.2909418,
+    "lng": -48.92454679999999
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8444434268535",
+   "uf": "SC",
+   "cidade": "JOINVILLE",
+   "bairro": "SANTA CATARINA",
+   "endereco": "RUA CARLOS DOBNER, N. 130, Apto 301,",
+   "preco": 146953.08,
+   "valor_avaliacao": 240000.0,
+   "desconto": 38.77,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 71.76 de área total, 45.06 de área privativa, 0.00 de área do terreno,  1 qto(s), 1 vaga(s) de garagem.",
+   "modalidade": "Licitação Aberta",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434268535",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8555538989753",
    "uf": "SC",
    "cidade": "JOINVILLE",
@@ -2207,27 +2402,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555537458339",
-   "uf": "SC",
-   "cidade": "JOINVILLE",
-   "bairro": "VILA NOVA",
-   "endereco": "RUA ROLF F PENSKI, N. 0, Apto 403, BL C",
-   "preco": 240000.0,
-   "valor_avaliacao": 240000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 50.75 de área privativa, 0.00 de área do terreno, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537458339",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -26.2909418,
-    "lng": -48.92454679999999
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444407577788",
    "uf": "SC",
    "cidade": "JOINVILLE",
@@ -2289,6 +2463,21 @@
     "lng": -48.8190573
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787712150637",
+   "uf": "SC",
+   "cidade": "JOINVILLE",
+   "bairro": "ADHEMAR GARCIA",
+   "endereco": "RUA JARIVATUBA, N. 2120, Apto 203, BL 01 VG GARAGEM 76",
+   "preco": 243000.0,
+   "valor_avaliacao": 243000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 74.25 de área total, 39.30 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712150637",
+   "tipo": "apartamento"
   },
   {
    "id": "1444414591049",
@@ -2431,7 +2620,7 @@
    "cidade": "JOINVILLE",
    "bairro": "PARANAGUAMIRIM",
    "endereco": "RUA MONSENHOR GERCINO, N. 6315, Apto 101, TORRE 14 PAV TERREO VAGA DA GARAGEM 38",
-   "preco": 299562.75,
+   "preco": 264666.26,
    "valor_avaliacao": 227000.0,
    "desconto": 0.0,
    "financiamento": "Não",
@@ -2445,6 +2634,21 @@
     "lng": -48.7746049
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8787719961606",
+   "uf": "SC",
+   "cidade": "JOINVILLE",
+   "bairro": "PARANAGUAMIRIM",
+   "endereco": "RUA MONSENHOR GERCINO, N. 6315, Apto 101, TR 15 VG GARAGEM 270",
+   "preco": 301375.09,
+   "valor_avaliacao": 251000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 133.68 de área total, 45.32 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719961606",
+   "tipo": "apartamento"
   },
   {
    "id": "8444435259246",
@@ -2504,6 +2708,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1444419718772",
+   "uf": "SC",
+   "cidade": "LAGES",
+   "bairro": "CENTENARIO",
+   "endereco": "RUA GLICERIO PEREIRA, N. 250, Apto 208, BL A",
+   "preco": 328132.75,
+   "valor_avaliacao": 320000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 73.22 de área total, 51.18 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419718772",
+   "tipo": "apartamento"
+  },
+  {
    "id": "8444401033156",
    "uf": "SC",
    "cidade": "LAGUNA",
@@ -2546,6 +2765,27 @@
    "geo_pendente": false
   },
   {
+   "id": "8787709626006",
+   "uf": "SC",
+   "cidade": "LUZERNA",
+   "bairro": "EMPRESARIAL",
+   "endereco": "RUA PROJETADA A, N. S/N, Apto 304, BL C",
+   "preco": 129873.34,
+   "valor_avaliacao": 200000.0,
+   "desconto": 35.07,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 57.83 de área total, 45.78 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709626006",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -27.1291581,
+    "lng": -51.4683177
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8787706420717",
    "uf": "SC",
    "cidade": "LUZERNA",
@@ -2558,27 +2798,6 @@
    "descricao": "Apartamento, 57.83 de área total, 45.78 de área privativa, 0.00 de área do terreno.",
    "modalidade": "Leilão SFI - Edital Único",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706420717",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -27.1291581,
-    "lng": -51.4683177
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787709626006",
-   "uf": "SC",
-   "cidade": "LUZERNA",
-   "bairro": "EMPRESARIAL",
-   "endereco": "RUA PROJETADA A, N. S/N, Apto 304, BL C",
-   "preco": 220000.0,
-   "valor_avaliacao": 200000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 57.83 de área total, 45.78 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787709626006",
    "tipo": "apartamento",
    "geo": {
     "fonte": "google",
@@ -2703,7 +2922,7 @@
    "desconto": 38.64,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 390.79 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418848397",
    "tipo": "terreno",
    "geo": {
@@ -2792,6 +3011,27 @@
    "tipo": "casa"
   },
   {
+   "id": "8787711594973",
+   "uf": "SC",
+   "cidade": "PALHOCA",
+   "bairro": "PRAIA DE FORA",
+   "endereco": "AVENIDA ARCANJO CANDIDO DA SILVA, N. 702, Apto 206, PAV 02 BL 02",
+   "preco": 168000.0,
+   "valor_avaliacao": 280000.0,
+   "desconto": 40.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 64.12 de área total, 49.07 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711594973",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -27.7251497,
+    "lng": -48.63935730000001
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444417644020",
    "uf": "SC",
    "cidade": "PALHOCA",
@@ -2805,27 +3045,6 @@
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417644020",
    "tipo": "apartamento"
-  },
-  {
-   "id": "8787711594973",
-   "uf": "SC",
-   "cidade": "PALHOCA",
-   "bairro": "PRAIA DE FORA",
-   "endereco": "AVENIDA ARCANJO CANDIDO DA SILVA, N. 702, Apto 206, PAV 02 BL 02",
-   "preco": 280000.0,
-   "valor_avaliacao": 280000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 64.12 de área total, 49.07 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711594973",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -27.7251497,
-    "lng": -48.63935730000001
-   },
-   "geo_pendente": false
   },
   {
    "id": "8444407446703",
@@ -3263,27 +3482,6 @@
    "geo_pendente": false
   },
   {
-   "id": "10300974",
-   "uf": "SC",
-   "cidade": "PRESIDENTE GETULIO",
-   "bairro": "CENTRO",
-   "endereco": "Rua 1º de Junho, N. 00, Lt 10",
-   "preco": 172074.86,
-   "valor_avaliacao": 270000.0,
-   "desconto": 36.27,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 450.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300974",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -27.0502751,
-    "lng": -49.6287562
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8555516831138",
    "uf": "SC",
    "cidade": "QUILOMBO",
@@ -3491,6 +3689,48 @@
    "geo_pendente": false
   },
   {
+   "id": "8444415774463",
+   "uf": "SC",
+   "cidade": "SAO JOSE",
+   "bairro": "FORQUILHAS LESTE",
+   "endereco": "RUA OLINDO CORTINA, N. 251, LOTE 15 QUADRA 01",
+   "preco": 202200.0,
+   "valor_avaliacao": 337000.0,
+   "desconto": 40.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 66.87 de área total, 53.40 de área privativa, 100.03 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415774463",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -27.5699632,
+    "lng": -48.6695419
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "8555535926823",
+   "uf": "SC",
+   "cidade": "SAO JOSE",
+   "bairro": "FORQUILHAS LESTE",
+   "endereco": "RUA ANTONIO JOVITA DUARTE, N. 3147, Apto 101, PAV TERREO BL 10",
+   "preco": 159000.0,
+   "valor_avaliacao": 265000.0,
+   "desconto": 40.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 49.60 de área total, 44.78 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535926823",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -27.5885396,
+    "lng": -48.6598272
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444417185793",
    "uf": "SC",
    "cidade": "SAO JOSE",
@@ -3564,7 +3804,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Apartamento, 250.33 de área total, 186.64 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 2 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1600000160770",
    "tipo": "apartamento",
    "geo": {
@@ -3585,7 +3825,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 382.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444403317277",
    "tipo": "terreno"
   },
@@ -3603,6 +3843,27 @@
    "modalidade": "Licitação Aberta",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444423324740",
    "tipo": "casa"
+  },
+  {
+   "id": "8787715290553",
+   "uf": "SC",
+   "cidade": "SAO JOSE",
+   "bairro": "SERTAO DO MARUIM",
+   "endereco": "RUA VALTELINO LEAL DEMETRIO, N. 18, Apto 303, BL 04 PAV 03",
+   "preco": 199679.4,
+   "valor_avaliacao": 285000.0,
+   "desconto": 29.94,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 57.16 de área total, 48.08 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715290553",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -27.6025633,
+    "lng": -48.6819985
+   },
+   "geo_pendente": false
   },
   {
    "id": "8787713629324",
@@ -3664,48 +3925,6 @@
     "fonte": "google",
     "lat": -27.5471013,
     "lng": -48.6344631
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444415774463",
-   "uf": "SC",
-   "cidade": "SAO JOSE",
-   "bairro": "FORQUILHAS LESTE",
-   "endereco": "RUA OLINDO CORTINA, N. 251, LOTE 15 QUADRA 01",
-   "preco": 337000.0,
-   "valor_avaliacao": 337000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 66.87 de área total, 53.40 de área privativa, 100.03 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415774463",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -27.5699632,
-    "lng": -48.6695419
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555535926823",
-   "uf": "SC",
-   "cidade": "SAO JOSE",
-   "bairro": "FORQUILHAS LESTE",
-   "endereco": "RUA ANTONIO JOVITA DUARTE, N. 3147, Apto 101, PAV TERREO BL 10",
-   "preco": 265000.0,
-   "valor_avaliacao": 265000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 49.60 de área total, 44.78 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535926823",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -27.5885396,
-    "lng": -48.6598272
    },
    "geo_pendente": false
   },
@@ -3794,27 +4013,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787715290553",
-   "uf": "SC",
-   "cidade": "SAO JOSE",
-   "bairro": "SERTAO DO MARUIM",
-   "endereco": "RUA VALTELINO LEAL DEMETRIO, N. 18, Apto 303, BL 04 PAV 03",
-   "preco": 285000.0,
-   "valor_avaliacao": 285000.0,
-   "desconto": 0.0,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 57.16 de área total, 48.08 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Leilão SFI - Edital Único",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715290553",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -27.6025633,
-    "lng": -48.6819985
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787715747103",
    "uf": "SC",
    "cidade": "SAO JOSE",
@@ -3849,6 +4047,21 @@
     "lng": -48.6599021
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444412533767",
+   "uf": "SC",
+   "cidade": "SAO JOSE",
+   "bairro": "POTECAS",
+   "endereco": "RUA TABELIAO QUINTINO DA SILVA FURTADO, N. 311, Apto 101, VG GARAGEM 03",
+   "preco": 243817.26,
+   "valor_avaliacao": 242000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 71.80 de área total, 59.29 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412533767",
+   "tipo": "apartamento"
   },
   {
    "id": "8787715562090",
@@ -3891,6 +4104,21 @@
     "lng": -48.6379774
    },
    "geo_pendente": false
+  },
+  {
+   "id": "8444419104489",
+   "uf": "SC",
+   "cidade": "SAO JOSE",
+   "bairro": "POTECAS",
+   "endereco": "RUA GUAMIRIM, N. 74, CS 02 VG GARAGEM 02",
+   "preco": 365501.64,
+   "valor_avaliacao": 344000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Casa, 74.98 de área total, 60.91 de área privativa, 125.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419104489",
+   "tipo": "casa"
   },
   {
    "id": "10311520",
@@ -3939,7 +4167,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 23311.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555536433040",
    "tipo": "terreno",
    "geo": {
