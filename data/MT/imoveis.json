@@ -1,9 +1,9 @@
 {
  "uf": "MT",
- "data_geracao_caixa": "25/11/2026",
- "coletado_em": "26/11/2026 01:54",
+ "data_geracao_caixa": "26/11/2026",
+ "coletado_em": "27/11/2026 06:36",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_MT.csv",
- "total": 202,
+ "total": 172,
  "colunas": [
   "id",
   "uf",
@@ -41,48 +41,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444429771500",
-   "uf": "MT",
-   "cidade": "ACORIZAL",
-   "bairro": "SALGADO",
-   "endereco": "AVENIDA  SAMAMBAIA, N. 06, ST 04, QD 6, LT 06",
-   "preco": 77526.28,
-   "valor_avaliacao": 150000.0,
-   "desconto": 48.32,
-   "financiamento": "Não",
-   "descricao": "Casa, 56.84 de área total, 56.84 de área privativa, 290.17 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429771500",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.1966619,
-    "lng": -56.3699011
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444412575052",
-   "uf": "MT",
-   "cidade": "ACORIZAL",
-   "bairro": "NOVA ACORIZAL",
-   "endereco": "RUA 02, N. SN, QD 05 LT 03",
-   "preco": 100741.08,
-   "valor_avaliacao": 170000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Casa, 76.43 de área total, 76.43 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412575052",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.193283,
-    "lng": -56.3714237
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787704889068",
    "uf": "MT",
    "cidade": "AGUA BOA",
@@ -97,9 +55,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704889068",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -14.0790153,
-    "lng": -52.1744555,
-    "fonte": "google"
+    "lng": -52.1744555
    },
    "geo_pendente": false
   },
@@ -139,51 +97,30 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705192427",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -14.0795123,
-    "lng": -52.1747764,
-    "fonte": "google"
+    "lng": -52.1747764
    },
    "geo_pendente": false
   },
   {
-   "id": "10278706",
+   "id": "10215016",
    "uf": "MT",
-   "cidade": "ALTA FLORESTA",
-   "bairro": "SETOR C",
-   "endereco": "AVENIDA JAIME VERISSIMO DE CAMPOS, N. S/N, Apto 42, AP 42,LT LE-20C",
-   "preco": 986562.54,
-   "valor_avaliacao": 1720000.0,
-   "desconto": 42.65,
+   "cidade": "ALTO ARAGUAIA",
+   "bairro": "AEROPORTO",
+   "endereco": "AVENIDA VEREADOR JOÃO FERREIRA NEVES, N. 00, QD 174, LT 007/B",
+   "preco": 151123.32,
+   "valor_avaliacao": 330000.0,
+   "desconto": 54.21,
    "financiamento": "Sim",
-   "descricao": "Apartamento, 0.00 de área total, 184.56 de área privativa, 0.00 de área do terreno, 3 vaga(s) de garagem.",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1824.71 de área do terreno.",
    "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10278706",
-   "tipo": "apartamento",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10215016",
+   "tipo": "terreno",
    "geo": {
     "fonte": "google",
-    "lat": -9.873729,
-    "lng": -56.0941488
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444428713522",
-   "uf": "MT",
-   "cidade": "ARENAPOLIS",
-   "bairro": "CENTRO",
-   "endereco": "RUA MATO GROSSO, N. 7, LT 561, QD 31",
-   "preco": 69500.0,
-   "valor_avaliacao": 695000.0,
-   "desconto": 90.0,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 259.00 de área privativa, 283.72 de área do terreno,  5 qto(s), WC, 3 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444428713522",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -14.4510594,
-    "lng": -56.8437856
+    "lat": -17.3259886,
+    "lng": -53.22598499999999
    },
    "geo_pendente": false
   },
@@ -251,27 +188,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444415673829",
-   "uf": "MT",
-   "cidade": "BARRA DO GARCAS",
-   "bairro": "JARDIM NOVA BARRA DO GARCAS",
-   "endereco": "RUA SAO SALVADOR, N. SN, QUADRA 518 LOTE 35",
-   "preco": 98252.18,
-   "valor_avaliacao": 165800.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Casa, 49.48 de área total, 49.48 de área privativa, 300.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415673829",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.8816681,
-    "lng": -52.3294539
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444417236957",
    "uf": "MT",
    "cidade": "BARRA DO GARCAS",
@@ -286,9 +202,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417236957",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.8816681,
-    "lng": -52.3294539,
-    "fonte": "google"
+    "lng": -52.3294539
    },
    "geo_pendente": false
   },
@@ -440,27 +356,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444423557603",
-   "uf": "MT",
-   "cidade": "BARRA DO GARCAS",
-   "bairro": "JARDIM PARAISO",
-   "endereco": "RUA DAS ORQUIDEAS, N. SN, QUADRA 06 LOTE 19",
-   "preco": 113750.62,
-   "valor_avaliacao": 188200.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Casa, 62.00 de área total, 62.00 de área privativa, 225.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423557603",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.8836187,
-    "lng": -52.2402306
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444434643840",
    "uf": "MT",
    "cidade": "BARRA DO GARCAS",
@@ -538,9 +433,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555500339451",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.8916202,
-    "lng": -52.2618826,
-    "fonte": "google"
+    "lng": -52.2618826
    },
    "geo_pendente": false
   },
@@ -643,9 +538,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415377740",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -15.8816681,
-    "lng": -52.3294539,
-    "fonte": "google"
+    "lng": -52.3294539
    },
    "geo_pendente": false
   },
@@ -748,9 +643,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418921639",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -14.5471074,
-    "lng": -52.7948375,
-    "fonte": "google"
+    "lng": -52.7948375
    },
    "geo_pendente": false
   },
@@ -790,9 +685,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444408143366",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -13.7214725,
-    "lng": -59.26035400000001,
-    "fonte": "google"
+    "lng": -59.26035400000001
    },
    "geo_pendente": false
   },
@@ -811,9 +706,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707146120",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -13.5620777,
-    "lng": -52.2551994,
-    "fonte": "google"
+    "lng": -52.2551994
    },
    "geo_pendente": false
   },
@@ -937,9 +832,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444422904148",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -10.6483593,
-    "lng": -51.5698917,
-    "fonte": "google"
+    "lng": -51.5698917
    },
    "geo_pendente": false
   },
@@ -975,7 +870,7 @@
    "desconto": 54.8,
    "financiamento": "Não",
    "descricao": "Casa, 0.00 de área total, 32.00 de área privativa, 171.21 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412142016",
    "tipo": "casa",
    "geo": {
@@ -996,7 +891,7 @@
    "desconto": 51.16,
    "financiamento": "Sim",
    "descricao": "Casa, 94.71 de área total, 94.71 de área privativa, 360.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421182876",
    "tipo": "casa",
    "geo": {
@@ -1038,7 +933,7 @@
    "desconto": 42.65,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 14500.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555527412290",
    "tipo": "terreno",
    "geo": {
@@ -1070,27 +965,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444434254810",
-   "uf": "MT",
-   "cidade": "CUIABA",
-   "bairro": "RESIDENCIAL SANTA INES",
-   "endereco": "RUA A, N. SN, Apto 301, BL 45",
-   "preco": 89575.84,
-   "valor_avaliacao": 153000.0,
-   "desconto": 41.46,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 46.85 de área total, 46.85 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444434254810",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6260211,
-    "lng": -56.0542739
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444412137421",
    "uf": "MT",
    "cidade": "CUIABA",
@@ -1112,27 +986,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8555527261141",
-   "uf": "MT",
-   "cidade": "CUIABA",
-   "bairro": "RESIDENCIAL COXIPO",
-   "endereco": "RUA 12, N. SN, QD D10 CS 08 TP E",
-   "preco": 101926.27,
-   "valor_avaliacao": 172000.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Casa, 36.76 de área total, 36.76 de área privativa, 200.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555527261141",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6516693,
-    "lng": -56.0318033
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444427442525",
    "uf": "MT",
    "cidade": "CUIABA",
@@ -1147,51 +1000,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427442525",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.561827,
-    "lng": -56.0819033,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444432891901",
-   "uf": "MT",
-   "cidade": "CUIABA",
-   "bairro": "RESIDENCIAL SANTA INES",
-   "endereco": "RUA H, N. 0, Apto 202, BL.04",
-   "preco": 94910.54,
-   "valor_avaliacao": 160161.0,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 46.85 de área total, 46.85 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444432891901",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.5869042,
-    "lng": -56.06533469999999
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444410085171",
-   "uf": "MT",
-   "cidade": "CUIABA",
-   "bairro": "RESIDENCIAL SAO CARLOS",
-   "endereco": "RUA A, N. SN, Apto 401, BL 09",
-   "preco": 68199.69,
-   "valor_avaliacao": 114000.0,
-   "desconto": 40.18,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 98.34 de área total, 46.85 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410085171",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.5834643,
-    "lng": -56.0534473
+    "lng": -56.0819033
    },
    "geo_pendente": false
   },
@@ -1399,9 +1210,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712385936",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.6232218,
-    "lng": -56.0431155,
-    "fonte": "google"
+    "lng": -56.0431155
    },
    "geo_pendente": false
   },
@@ -1420,30 +1231,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787712555912",
    "tipo": "apartamento",
    "geo": {
-    "lat": -15.6232218,
-    "lng": -56.0431155,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8555523811589",
-   "uf": "MT",
-   "cidade": "CUIABA",
-   "bairro": "PARQUE RESIDENCIAL DAS NACOES INDIGENAS",
-   "endereco": "RUA SEIS E SETE, N. 154, Apto 33, 3º ANDAR, TORRE 3, QD 5",
-   "preco": 114838.57,
-   "valor_avaliacao": 190000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 45.92 de área total, 45.92 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523811589",
-   "tipo": "apartamento",
-   "geo": {
     "fonte": "google",
-    "lat": -15.5833945,
-    "lng": -56.0605783
+    "lat": -15.6232218,
+    "lng": -56.0431155
    },
    "geo_pendente": false
   },
@@ -1462,9 +1252,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444431837806",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.5781908,
-    "lng": -56.0906302,
-    "fonte": "google"
+    "lng": -56.0906302
    },
    "geo_pendente": false
   },
@@ -1525,9 +1315,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713645699",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.5579023,
-    "lng": -56.0995157,
-    "fonte": "google"
+    "lng": -56.0995157
    },
    "geo_pendente": false
   },
@@ -1546,9 +1336,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787711526412",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.6099875,
-    "lng": -56.0327445,
-    "fonte": "google"
+    "lng": -56.0327445
    },
    "geo_pendente": false
   },
@@ -1563,7 +1353,7 @@
    "desconto": 38.24,
    "financiamento": "Não",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 270.78 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300071",
    "tipo": "terreno",
    "geo": {
@@ -1609,9 +1399,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702004052",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.6195732,
-    "lng": -56.0432977,
-    "fonte": "google"
+    "lng": -56.0432977
    },
    "geo_pendente": false
   },
@@ -1630,9 +1420,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701783031",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.5579023,
-    "lng": -56.0995157,
-    "fonte": "google"
+    "lng": -56.0995157
    },
    "geo_pendente": false
   },
@@ -1651,9 +1441,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701438962",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.6336978,
-    "lng": -56.0470896,
-    "fonte": "google"
+    "lng": -56.0470896
    },
    "geo_pendente": false
   },
@@ -1693,9 +1483,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701088066",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.6066876,
-    "lng": -56.010355,
-    "fonte": "google"
+    "lng": -56.010355
    },
    "geo_pendente": false
   },
@@ -1735,9 +1525,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10305208",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -15.5887676,
-    "lng": -56.05389659999999,
-    "fonte": "google"
+    "lng": -56.05389659999999
    },
    "geo_pendente": false
   },
@@ -2029,72 +1819,30 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444422777369",
    "tipo": "casa",
    "geo": {
-    "lat": -15.6256528,
-    "lng": -56.05346369999999,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444411663080",
-   "uf": "MT",
-   "cidade": "JACIARA",
-   "bairro": "LOTEAMENTO ZÉ ARAÇA",
-   "endereco": "RUA 10, N. 35, LT 35, QD 07",
-   "preco": 126322.42,
-   "valor_avaliacao": 220000.0,
-   "desconto": 42.59,
-   "financiamento": "Sim",
-   "descricao": "Casa, 90.75 de área total, 50.75 de área privativa, 200.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411663080",
-   "tipo": "casa",
-   "geo": {
     "fonte": "google",
-    "lat": -15.9449671,
-    "lng": -54.96811810000001
+    "lat": -15.6256528,
+    "lng": -56.05346369999999
    },
    "geo_pendente": false
   },
   {
-   "id": "8555517343870",
+   "id": "8444427427445",
    "uf": "MT",
-   "cidade": "JACIARA",
-   "bairro": "Centro",
-   "endereco": "RUA B, N. SN, LT 20 QD 05",
-   "preco": 128833.07,
-   "valor_avaliacao": 213153.86,
+   "cidade": "DIAMANTINO",
+   "bairro": "JD TROPICAL",
+   "endereco": "AVENIDA PERIMETRAL, N. SN, QD F  LT 15",
+   "preco": 114838.57,
+   "valor_avaliacao": 190000.0,
    "desconto": 39.56,
    "financiamento": "Não",
-   "descricao": "Casa, 51.69 de área total, 51.69 de área privativa, 250.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s).",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555517343870",
+   "descricao": "Casa, 49.26 de área total, 49.26 de área privativa, 250.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427427445",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
-    "lat": -15.9654534,
-    "lng": -54.9537574
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444419791054",
-   "uf": "MT",
-   "cidade": "JACIARA",
-   "bairro": "CENTRO",
-   "endereco": "RUA DOS GUAIANAZES, N. SN, LOTE 14A QUADRA 101",
-   "preco": 484389.29,
-   "valor_avaliacao": 760047.73,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Casa, 201.17 de área total, 201.17 de área privativa, 450.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419791054",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.9677362,
-    "lng": -54.9677015
+    "lat": -14.4054009,
+    "lng": -56.4335262
    },
    "geo_pendente": false
   },
@@ -2197,9 +1945,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10305209",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -13.2842072,
-    "lng": -54.2545757,
-    "fonte": "google"
+    "lng": -54.2545757
    },
    "geo_pendente": false
   },
@@ -2225,27 +1973,6 @@
    "geo_pendente": false
   },
   {
-   "id": "1444404752643",
-   "uf": "MT",
-   "cidade": "POCONE",
-   "bairro": "CENTRO",
-   "endereco": "RUA PROJETADA, N. SN, LT 013",
-   "preco": 100051.91,
-   "valor_avaliacao": 162000.0,
-   "desconto": 38.24,
-   "financiamento": "Não",
-   "descricao": "Casa, 96.00 de área total, 96.00 de área privativa, 111.09 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444404752643",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -16.2652976,
-    "lng": -56.62754040000001
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1444415303152",
    "uf": "MT",
    "cidade": "PONTAL DO ARAGUAIA",
@@ -2256,7 +1983,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Casa, 103.11 de área total, 57.11 de área privativa, 165.00 de área do terreno,  1 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415303152",
    "tipo": "casa",
    "geo": {
@@ -2302,9 +2029,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418741690",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.8143692,
-    "lng": -54.40797329999999,
-    "fonte": "google"
+    "lng": -54.40797329999999
    },
    "geo_pendente": false
   },
@@ -2414,48 +2141,6 @@
    "geo_pendente": false
   },
   {
-   "id": "10306595",
-   "uf": "MT",
-   "cidade": "RONDONOPOLIS",
-   "bairro": "PARQUE SAGRADA FAMILIA",
-   "endereco": "RUA BALTAZAR MATIAS DOS REIS, N. s/n, Qd 226, lt29",
-   "preco": 79161.06,
-   "valor_avaliacao": 131000.0,
-   "desconto": 39.58,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 267.79 de área do terreno.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10306595",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -16.4843173,
-    "lng": -54.5994012
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "10306596",
-   "uf": "MT",
-   "cidade": "RONDONOPOLIS",
-   "bairro": "PARQUE SAGRADA FAMILIA",
-   "endereco": "RUA BALTAZAR MATIAS DOS REIS, N. s/n, Qd 226, lt28",
-   "preco": 81578.19,
-   "valor_avaliacao": 135000.0,
-   "desconto": 39.58,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 276.75 de área do terreno.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10306596",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -16.4843173,
-    "lng": -54.5994012
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444412019672",
    "uf": "MT",
    "cidade": "RONDONOPOLIS",
@@ -2491,9 +2176,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701450014",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -16.4235793,
-    "lng": -54.6878642,
-    "fonte": "google"
+    "lng": -54.6878642
    },
    "geo_pendente": false
   },
@@ -2508,34 +2193,13 @@
    "desconto": 39.46,
    "financiamento": "Sim",
    "descricao": "Casa, 174.00 de área total, 98.23 de área privativa, 250.00 de área do terreno,  2 qto(s), 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421080577",
    "tipo": "casa",
    "geo": {
     "fonte": "google",
     "lat": -16.4803216,
     "lng": -54.6097798
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "10306594",
-   "uf": "MT",
-   "cidade": "RONDONOPOLIS",
-   "bairro": "PARQUE SAGRADA FAMILIA",
-   "endereco": "RUA BALTAZAR MATIAS DOS REIS, N. s/n, Qd 226, lt30",
-   "preco": 89739.5,
-   "valor_avaliacao": 147000.0,
-   "desconto": 38.96,
-   "financiamento": "Não",
-   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 306.64 de área do terreno.",
-   "modalidade": "Venda Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10306594",
-   "tipo": "terreno",
-   "geo": {
-    "fonte": "google",
-    "lat": -16.4843173,
-    "lng": -54.5994012
    },
    "geo_pendente": false
   },
@@ -2571,7 +2235,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Casa, 81.95 de área total, 81.95 de área privativa, 360.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418057861",
    "tipo": "casa",
    "geo": {
@@ -2592,7 +2256,7 @@
    "desconto": 36.27,
    "financiamento": "Sim",
    "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 3000.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10298830",
    "tipo": "terreno",
    "geo": {
@@ -2701,9 +2365,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704358828",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -16.4210711,
-    "lng": -54.6743719,
-    "fonte": "google"
+    "lng": -54.6743719
    },
    "geo_pendente": false
   },
@@ -2750,27 +2414,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444424026474",
-   "uf": "MT",
-   "cidade": "SANTO ANTONIO DO LEVERGER",
-   "bairro": "LOT RES MARAZUL",
-   "endereco": "RUA PROJETADA 02, N. S/N, QD 03 LT 15",
-   "preco": 77866.57,
-   "valor_avaliacao": 140000.0,
-   "desconto": 44.39,
-   "financiamento": "Não",
-   "descricao": "Casa, 59.01 de área total, 59.01 de área privativa, 200.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444424026474",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.8637445,
-    "lng": -56.0793581
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "1555507476390",
    "uf": "MT",
    "cidade": "SINOP",
@@ -2785,9 +2428,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555507476390",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -11.8627666,
-    "lng": -55.5198707,
-    "fonte": "google"
+    "lng": -55.5198707
    },
    "geo_pendente": false
   },
@@ -2827,9 +2470,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444421835608",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -11.843723,
-    "lng": -55.4972193,
-    "fonte": "google"
+    "lng": -55.4972193
    },
    "geo_pendente": false
   },
@@ -2869,9 +2512,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10314871",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -11.863226,
-    "lng": -55.530133,
-    "fonte": "google"
+    "lng": -55.530133
    },
    "geo_pendente": false
   },
@@ -2974,9 +2617,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10311521",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -14.6235159,
-    "lng": -57.483057,
-    "fonte": "google"
+    "lng": -57.483057
    },
    "geo_pendente": false
   },
@@ -2995,9 +2638,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419535139",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -14.6212828,
-    "lng": -57.4913668,
-    "fonte": "google"
+    "lng": -57.4913668
    },
    "geo_pendente": false
   },
@@ -3023,27 +2666,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444425748929",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "SAO MATHEUS",
-   "endereco": "RUA 05, N. 01, QD 10 AR 01B",
-   "preco": 117860.63,
-   "valor_avaliacao": 200000.0,
-   "desconto": 41.07,
-   "financiamento": "Não",
-   "descricao": "Casa, 56.54 de área total, 56.54 de área privativa, 182.60 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425748929",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6962956,
-    "lng": -56.1241402
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8444436917581",
    "uf": "MT",
    "cidade": "VARZEA GRANDE",
@@ -3061,48 +2683,6 @@
     "fonte": "google",
     "lat": -15.6587503,
     "lng": -56.1927925
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444406195065",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "SAO SIMAO",
-   "endereco": "RUA LAURITO NASSARDEN, N. SN, LT 01 QD 70 AREA 01A",
-   "preco": 93886.58,
-   "valor_avaliacao": 158433.06,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 64.29 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406195065",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6829306,
-    "lng": -56.1606787
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444429440040",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "SAO SIMAO",
-   "endereco": "RUA CANDIDO DA SILVA, N. SN, LOTE 17B  QUADRA 02",
-   "preco": 102863.46,
-   "valor_avaliacao": 173581.5,
-   "desconto": 40.75,
-   "financiamento": "Não",
-   "descricao": "Casa, 69.59 de área total, 49.59 de área privativa, 180.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429440040",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6825244,
-    "lng": -56.1585204
    },
    "geo_pendente": false
   },
@@ -3149,27 +2729,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8444427785422",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "JARDIM AEROPORTO",
-   "endereco": "RUA SANTA GENOVEVA, N. SN, Apto 403, QD 09 BL A-5 SECAO II",
-   "preco": 114838.57,
-   "valor_avaliacao": 190000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 57.77 de área total, 57.77 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427785422",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6183907,
-    "lng": -56.1056798
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787713982024",
    "uf": "MT",
    "cidade": "VARZEA GRANDE",
@@ -3184,30 +2743,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713982024",
    "tipo": "casa",
    "geo": {
-    "lat": -15.6859193,
-    "lng": -56.1616623,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787717367022",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "PONTE NOVA",
-   "endereco": "RUA HUNGRIA, N. 271, Apto 303, BL 01 3º PAVIMENTO",
-   "preco": 126926.84,
-   "valor_avaliacao": 210000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 0.00 de área total, 39.95 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787717367022",
-   "tipo": "apartamento",
-   "geo": {
     "fonte": "google",
-    "lat": -15.6282936,
-    "lng": -56.10864609999999
+    "lat": -15.6859193,
+    "lng": -56.1616623
    },
    "geo_pendente": false
   },
@@ -3268,9 +2806,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427433607",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.6678533,
-    "lng": -56.1683636,
-    "fonte": "google"
+    "lng": -56.1683636
    },
    "geo_pendente": false
   },
@@ -3310,9 +2848,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444435825780",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.6716087,
-    "lng": -56.1672448,
-    "fonte": "google"
+    "lng": -56.1672448
    },
    "geo_pendente": false
   },
@@ -3331,9 +2869,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715369168",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.6733408,
-    "lng": -56.1660694,
-    "fonte": "google"
+    "lng": -56.1660694
    },
    "geo_pendente": false
   },
@@ -3352,9 +2890,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427925798",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.6320393,
-    "lng": -56.2062556,
-    "fonte": "google"
+    "lng": -56.2062556
    },
    "geo_pendente": false
   },
@@ -3373,9 +2911,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433023938",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.6250396,
-    "lng": -56.1897339,
-    "fonte": "google"
+    "lng": -56.1897339
    },
    "geo_pendente": false
   },
@@ -3418,27 +2956,6 @@
     "fonte": "google",
     "lat": -15.6556397,
     "lng": -56.1241557
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444421262843",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "SAO SIMAO",
-   "endereco": "RUA CARINO JOSE DA SILVA, N. SN, QD 38 ÁREA 18A",
-   "preco": 125718.01,
-   "valor_avaliacao": 208000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Casa, 54.44 de área total, 54.44 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444421262843",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6949013,
-    "lng": -56.1603541
    },
    "geo_pendente": false
   },
@@ -3499,9 +3016,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418354643",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.6743519,
-    "lng": -56.1562674,
-    "fonte": "google"
+    "lng": -56.1562674
    },
    "geo_pendente": false
   },
@@ -3520,30 +3037,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425368980",
    "tipo": "casa",
    "geo": {
-    "lat": -15.6885192,
-    "lng": -56.1506563,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8444413638074",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "IKARAY",
-   "endereco": "RUA CURITIBA, N. SN, LT 10 QD 02",
-   "preco": 117860.63,
-   "valor_avaliacao": 195000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Casa, 52.86 de área total, 52.86 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413638074",
-   "tipo": "casa",
-   "geo": {
     "fonte": "google",
-    "lat": -15.5782596,
-    "lng": -56.0901413
+    "lat": -15.6885192,
+    "lng": -56.1506563
    },
    "geo_pendente": false
   },
@@ -3562,9 +3058,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419684760",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.6337409,
-    "lng": -56.1267999,
-    "fonte": "google"
+    "lng": -56.1267999
    },
    "geo_pendente": false
   },
@@ -3586,48 +3082,6 @@
     "fonte": "google",
     "lat": -15.6764335,
     "lng": -56.144484
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787701485837",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "ALAMEDA",
-   "endereco": "ALAMEDA JULIO MULLER, N. SN, Apto 303, BL 22 BOX 478",
-   "preco": 120882.7,
-   "valor_avaliacao": 200000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 47.53 de área total, 39.96 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701485837",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6225879,
-    "lng": -56.0986252
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787701986305",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "ALAMEDA",
-   "endereco": "ALAMEDA JULIO MULLER, N. SN, Apto 203, BL 25 PAV 02 LT 03 QD 174 VG 457",
-   "preco": 123904.77,
-   "valor_avaliacao": 205000.0,
-   "desconto": 39.56,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 39.96 de área total, 39.96 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787701986305",
-   "tipo": "apartamento",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6256457,
-    "lng": -56.0957909
    },
    "geo_pendente": false
   },
@@ -3709,9 +3163,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444423040007",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.6667257,
-    "lng": -56.1674409,
-    "fonte": "google"
+    "lng": -56.1674409
    },
    "geo_pendente": false
   },
@@ -3730,9 +3184,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444433755190",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.6598255,
-    "lng": -56.1298228,
-    "fonte": "google"
+    "lng": -56.1298228
    },
    "geo_pendente": false
   },
@@ -3800,48 +3254,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787719352421",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "NOVO MUNDO",
-   "endereco": "AVENIDA PERU, N. SN, AREA B8 QUADRA 11",
-   "preco": 100669.52,
-   "valor_avaliacao": 163000.0,
-   "desconto": 38.24,
-   "financiamento": "Não",
-   "descricao": "Casa, 0.00 de área total, 50.42 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719352421",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6562664,
-    "lng": -56.1998076
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "8787719621120",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "NOVO MUNDO",
-   "endereco": "RUA INGLATERRA, N. SN, QD 03",
-   "preco": 111168.79,
-   "valor_avaliacao": 180000.0,
-   "desconto": 38.24,
-   "financiamento": "Não",
-   "descricao": "Casa, 50.42 de área total, 50.42 de área privativa, 180.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719621120",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.6621541,
-    "lng": -56.2087936
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787719857582",
    "uf": "MT",
    "cidade": "VARZEA GRANDE",
@@ -3856,9 +3268,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719857582",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.6457801,
-    "lng": -56.2091237,
-    "fonte": "google"
+    "lng": -56.2091237
    },
    "geo_pendente": false
   },
@@ -3884,27 +3296,6 @@
    "geo_pendente": false
   },
   {
-   "id": "8787719550363",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "PAIAGUAS",
-   "endereco": "RUA PEDRO, N. SN, AREA 30B QUADRA 106",
-   "preco": 125884.66,
-   "valor_avaliacao": 200000.0,
-   "desconto": 37.06,
-   "financiamento": "Não",
-   "descricao": "Casa, 59.84 de área total, 59.84 de área privativa, 180.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719550363",
-   "tipo": "casa",
-   "geo": {
-    "fonte": "google",
-    "lat": -15.672864,
-    "lng": -56.1651161
-   },
-   "geo_pendente": false
-  },
-  {
    "id": "8787719148123",
    "uf": "MT",
    "cidade": "VARZEA GRANDE",
@@ -3919,9 +3310,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719148123",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.6524967,
-    "lng": -56.201371,
-    "fonte": "google"
+    "lng": -56.201371
    },
    "geo_pendente": false
   },
@@ -3940,30 +3331,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719665110",
    "tipo": "casa",
    "geo": {
-    "lat": -15.6617478,
-    "lng": -56.2082061,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1787700079357",
-   "uf": "MT",
-   "cidade": "VARZEA GRANDE",
-   "bairro": "CENTRO-SUL",
-   "endereco": "RUA JOSE LUIZ COELHO, N. SN, Apto 402, BL 06",
-   "preco": 125884.66,
-   "valor_avaliacao": 200000.0,
-   "desconto": 37.06,
-   "financiamento": "Não",
-   "descricao": "Apartamento, 53.97 de área total, 53.97 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787700079357",
-   "tipo": "apartamento",
-   "geo": {
     "fonte": "google",
-    "lat": -15.668279,
-    "lng": -56.1167542
+    "lat": -15.6617478,
+    "lng": -56.2082061
    },
    "geo_pendente": false
   },
