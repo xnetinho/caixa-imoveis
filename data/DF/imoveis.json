@@ -1,9 +1,9 @@
 {
  "uf": "DF",
- "data_geracao_caixa": "25/11/2026",
- "coletado_em": "26/11/2026 11:58",
+ "data_geracao_caixa": "27/11/2026",
+ "coletado_em": "28/11/2026 00:13",
  "fonte": "https://venda-imoveis.caixa.gov.br/listaweb/Lista_imoveis_DF.csv",
- "total": 93,
+ "total": 118,
  "colunas": [
   "id",
   "uf",
@@ -20,6 +20,21 @@
  ],
  "imoveis": [
   {
+   "id": "8787700240300",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "SAMAMBAIA SUL",
+   "endereco": "QUADRA QS 305, N. SN, Apto 2, .",
+   "preco": 79804.95,
+   "valor_avaliacao": 175000.0,
+   "desconto": 54.4,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 0.00 de área total, 32.65 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700240300",
+   "tipo": "apartamento"
+  },
+  {
    "id": "10278243",
    "uf": "DF",
    "cidade": "BRASILIA",
@@ -30,7 +45,7 @@
    "desconto": 44.24,
    "financiamento": "Sim",
    "descricao": "Sala, 0.00 de área total, 600.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10278243",
    "tipo": "sala",
    "geo": {
@@ -97,9 +112,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707200788",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.7826951,
-    "lng": -47.989051,
-    "fonte": "google"
+    "lng": -47.989051
    },
    "geo_pendente": false
   },
@@ -139,9 +154,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704376249",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.8121492,
-    "lng": -48.105491,
-    "fonte": "google"
+    "lng": -48.105491
    },
    "geo_pendente": false
   },
@@ -303,7 +318,7 @@
    "desconto": 37.06,
    "financiamento": "Não",
    "descricao": "Loja, 0.00 de área total, 50.00 de área privativa, 0.00 de área do terreno.",
-   "modalidade": "Venda Online",
+   "modalidade": "Venda Direta Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10300590",
    "tipo": "loja",
    "geo": {
@@ -496,9 +511,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444402476002",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.8349006,
-    "lng": -48.0125994,
-    "fonte": "google"
+    "lng": -48.0125994
    },
    "geo_pendente": false
   },
@@ -517,9 +532,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414386534",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.8383109,
-    "lng": -48.0231307,
-    "fonte": "google"
+    "lng": -48.0231307
    },
    "geo_pendente": false
   },
@@ -566,6 +581,27 @@
    "geo_pendente": false
   },
   {
+   "id": "10305200",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "ASA NORTE",
+   "endereco": "S SRTVN  CONJ P, N. 0, UN 2131",
+   "preco": 286791.44,
+   "valor_avaliacao": 450000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Sala, 0.00 de área total, 68.77 de área privativa, 0.00 de área do terreno.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10305200",
+   "tipo": "sala",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.7857367,
+    "lng": -47.8895599
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1787702678916",
    "uf": "DF",
    "cidade": "BRASILIA",
@@ -580,9 +616,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787702678916",
    "tipo": "casa",
    "geo": {
+    "fonte": "google",
     "lat": -15.9093102,
-    "lng": -48.0648157,
-    "fonte": "google"
+    "lng": -48.0648157
    },
    "geo_pendente": false
   },
@@ -769,9 +805,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1787701779140",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -15.7081513,
-    "lng": -47.9146951,
-    "fonte": "google"
+    "lng": -47.9146951
    },
    "geo_pendente": false
   },
@@ -965,6 +1001,36 @@
    "geo_pendente": false
   },
   {
+   "id": "10322131",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "COND. MORADA DE DEUS RUA CAMINHO DO RIO JORDÃO, N. 0, LT 35",
+   "preco": 543947.78,
+   "valor_avaliacao": 326000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 589.45 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322131",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322136",
+   "uf": "DF",
+   "cidade": "BRASILIA",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "COND. MORADA DE DEUS RUA CAMINHO DO RIO JORDÃO, N. 0, LT 33",
+   "preco": 543947.78,
+   "valor_avaliacao": 326000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 589.45 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322136",
+   "tipo": "terreno"
+  },
+  {
    "id": "1444418398464",
    "uf": "DF",
    "cidade": "BRASILIA",
@@ -979,9 +1045,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418398464",
    "tipo": "terreno",
    "geo": {
+    "fonte": "google",
     "lat": -15.7904852,
-    "lng": -47.8804792,
-    "fonte": "google"
+    "lng": -47.8804792
    },
    "geo_pendente": false
   },
@@ -1007,6 +1073,27 @@
    "geo_pendente": false
   },
   {
+   "id": "1444418600590",
+   "uf": "DF",
+   "cidade": "CEILANDIA",
+   "bairro": "CEILANDIA NORTE",
+   "endereco": "QNQ 5, N. SN, CJ 05 LT 13",
+   "preco": 194540.19,
+   "valor_avaliacao": 330000.0,
+   "desconto": 41.05,
+   "financiamento": "Sim",
+   "descricao": "Casa, 132.75 de área total, 130.00 de área privativa, 144.00 de área do terreno,  4 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444418600590",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.8059008,
+    "lng": -48.1472944
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "8555518781405",
    "uf": "DF",
    "cidade": "CEILANDIA",
@@ -1021,30 +1108,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555518781405",
    "tipo": "apartamento",
    "geo": {
-    "lat": -15.8051898,
-    "lng": -48.11841949999999,
-    "fonte": "google"
-   },
-   "geo_pendente": false
-  },
-  {
-   "id": "1444416889304",
-   "uf": "DF",
-   "cidade": "CEILANDIA",
-   "bairro": "CEILANDIA NORTE",
-   "endereco": "QNO 19, N. SN, CJ 33  LOT 11",
-   "preco": 165701.72,
-   "valor_avaliacao": 260000.0,
-   "desconto": 36.27,
-   "financiamento": "Sim",
-   "descricao": "Casa, 115.00 de área total, 115.00 de área privativa, 126.00 de área do terreno.",
-   "modalidade": "Venda Direta Online",
-   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416889304",
-   "tipo": "casa",
-   "geo": {
     "fonte": "google",
-    "lat": -15.7923664,
-    "lng": -48.1385915
+    "lat": -15.8051898,
+    "lng": -48.11841949999999
    },
    "geo_pendente": false
   },
@@ -1066,6 +1132,27 @@
     "fonte": "google",
     "lat": -15.8192776,
     "lng": -48.2153405
+   },
+   "geo_pendente": false
+  },
+  {
+   "id": "1555534558989",
+   "uf": "DF",
+   "cidade": "CEILANDIA",
+   "bairro": "CEILANDIA NORTE",
+   "endereco": "ÁREA ESPECIAL C, N. SN, Apto 102, QNO 12 TR L EDF VIOLETA  QNO 12 V BOX",
+   "preco": 172074.86,
+   "valor_avaliacao": 270000.0,
+   "desconto": 36.27,
+   "financiamento": "Sim",
+   "descricao": "Apartamento, 109.53 de área total, 51.51 de área privativa, 0.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555534558989",
+   "tipo": "apartamento",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.7918399,
+    "lng": -48.1319661
    },
    "geo_pendente": false
   },
@@ -1231,9 +1318,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10182242",
    "tipo": "loja",
    "geo": {
+    "fonte": "google",
     "lat": -16.0270651,
-    "lng": -48.0669583,
-    "fonte": "google"
+    "lng": -48.0669583
    },
    "geo_pendente": false
   },
@@ -1252,11 +1339,266 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444415874940",
    "tipo": "sala",
    "geo": {
+    "fonte": "google",
     "lat": -15.7970801,
-    "lng": -47.9527001,
-    "fonte": "google"
+    "lng": -47.9527001
    },
    "geo_pendente": false
+  },
+  {
+   "id": "10322130",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "CONDOMÍNIO MORADA DE DEUS RUA ASAFE, N. 0, LT 26",
+   "preco": 537119.98,
+   "valor_avaliacao": 323000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 583.51 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322130",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322129",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "CONDOMÍNIO MORADA DE DEUS RUA ASAFE, N. 0, LT 18",
+   "preco": 556465.41,
+   "valor_avaliacao": 333000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 604.81 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322129",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322134",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "COND. MORADA DE DEUS RUA CAMINHO DO RIO JORDÃO, N. 0, LT 98",
+   "preco": 533706.09,
+   "valor_avaliacao": 319000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 575.40 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322134",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322133",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "COND. MORADA DE DEUS RUA CAMINHO DO RIO JORDÃO, N. 0, LT 44",
+   "preco": 570121.0,
+   "valor_avaliacao": 340000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 619.33 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322133",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322132",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "COND. MORADA DE DEUS RUA CAMINHO DO RIO JORDÃO, N. 0, LT 37",
+   "preco": 587190.49,
+   "valor_avaliacao": 350000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 639.31 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322132",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322121",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "CONDOMÍNIO MORADA DE DEUS RUA ASAFE, N. 0, LT 14",
+   "preco": 575810.83,
+   "valor_avaliacao": 343000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 624.72 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322121",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322123",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "COND. MORADA DE DEUS RUA CAMINHO DO RIO JORDÃO, N. 0, LT 97",
+   "preco": 554189.48,
+   "valor_avaliacao": 330000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 598.97 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322123",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322124",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "COND. MORADA DE DEUS RUA CAMINHO DO RIO JORDÃO, N. 0, LT 99",
+   "preco": 554189.48,
+   "valor_avaliacao": 330000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 598.90 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322124",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322128",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "CONDOMÍNIO MORADA DE DEUS RUA ASAFE, N. 0, LT 16",
+   "preco": 597432.19,
+   "valor_avaliacao": 355000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 649.06 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322128",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322126",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "COND. MORADA DE DEUS RUA CAMINHO DO RIO JORDÃO, N. 0, LT 96",
+   "preco": 565569.14,
+   "valor_avaliacao": 336000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 609.73 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322126",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322125",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "COND. MORADA DE DEUS RUA CAMINHO DO RIO JORDÃO, N. 0, LT 103",
+   "preco": 621329.47,
+   "valor_avaliacao": 369000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 677.79 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322125",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322137",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "COND. MORADA DE DEUS RUA CAMINHO DO RIO JORDÃO, N. 0, LT 123",
+   "preco": 644088.79,
+   "valor_avaliacao": 382000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 704.85 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322137",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322119",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "COND. MORADA DE DEUS RUA CAMINHO DO RIO JORDÃO, N. 0, LT 105",
+   "preco": 661158.29,
+   "valor_avaliacao": 391000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 723.46 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322119",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322120",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "CONDOMÍNIO MORADA DE DEUS RUA CANAÃ, N. 0, LT 05",
+   "preco": 716918.62,
+   "valor_avaliacao": 421000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 787.60 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322120",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322127",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "COND. MORADA DE DEUS RUA CAMINHO DO RIO JORDÃO, N. 0, LT 107",
+   "preco": 753333.54,
+   "valor_avaliacao": 440000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 829.19 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322127",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322122",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "CONDOMÍNIO MORADA DE DEUS RUA SAMARIA, N. 0, LT 09",
+   "preco": 567845.07,
+   "valor_avaliacao": 330000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 599.35 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322122",
+   "tipo": "terreno"
+  },
+  {
+   "id": "10322135",
+   "uf": "DF",
+   "cidade": "LAGO SUL",
+   "bairro": "SETOR HABITACIONAL JARDIM BOTANICO",
+   "endereco": "COND. MORADA DE DEUS RUA CAMINHO DO RIO JORDÃO, N. 0, LT 121",
+   "preco": 695297.27,
+   "valor_avaliacao": 392000.0,
+   "desconto": 0.0,
+   "financiamento": "Sim",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 726.00 de área do terreno.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10322135",
+   "tipo": "terreno"
   },
   {
    "id": "8787716250849",
@@ -1322,17 +1664,38 @@
    "geo_pendente": false
   },
   {
+   "id": "8444430252766",
+   "uf": "DF",
+   "cidade": "SAMAMBAIA",
+   "bairro": "SAMAMBAIA NORTE",
+   "endereco": "QR 421, N. SN,  LT 30",
+   "preco": 221041.92,
+   "valor_avaliacao": 361000.0,
+   "desconto": 38.77,
+   "financiamento": "Sim",
+   "descricao": "Casa, 126.00 de área total, 84.90 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 2 sala(s), cozinha.",
+   "modalidade": "Venda Online",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444430252766",
+   "tipo": "casa",
+   "geo": {
+    "fonte": "google",
+    "lat": -15.8747533,
+    "lng": -48.0892751
+   },
+   "geo_pendente": false
+  },
+  {
    "id": "1444419158416",
    "uf": "DF",
    "cidade": "SAMAMBAIA",
    "bairro": "SAMAMBAIA SUL",
    "endereco": "QUADRA QR 325, N. SN, LT 19 CJ 04",
-   "preco": 170162.92,
+   "preco": 165908.84,
    "valor_avaliacao": 267000.0,
-   "desconto": 36.27,
+   "desconto": 37.87,
    "financiamento": "Sim",
    "descricao": "Casa, 115.00 de área total, 100.00 de área privativa, 126.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
-   "modalidade": "Venda Direta Online",
+   "modalidade": "Venda Online",
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444419158416",
    "tipo": "casa",
    "geo": {
@@ -1532,6 +1895,21 @@
    "geo_pendente": false
   },
   {
+   "id": "1444402566460",
+   "uf": "DF",
+   "cidade": "SAMAMBAIA",
+   "bairro": "SAMAMBAIA",
+   "endereco": "QUADRA QS 308, N. SN, Apto 705, CJ05 LT01 VG55",
+   "preco": 252770.19,
+   "valor_avaliacao": 252770.19,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 86.07 de área total, 47.32 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444402566460",
+   "tipo": "apartamento"
+  },
+  {
    "id": "1555525172003",
    "uf": "DF",
    "cidade": "SAMAMBAIA",
@@ -1551,6 +1929,21 @@
     "lng": -48.06034349999999
    },
    "geo_pendente": false
+  },
+  {
+   "id": "1555531592922",
+   "uf": "DF",
+   "cidade": "SAMAMBAIA",
+   "bairro": "SAMAMBAIA",
+   "endereco": "QUADRA QN 404, N. SN, Apto 1107, LT02E03 CJE VG68",
+   "preco": 267000.0,
+   "valor_avaliacao": 267000.0,
+   "desconto": 0.0,
+   "financiamento": "Não",
+   "descricao": "Apartamento, 81.32 de área total, 45.60 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "modalidade": "Leilão SFI - Edital Único",
+   "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555531592922",
+   "tipo": "apartamento"
   },
   {
    "id": "8444429636076",
@@ -1714,9 +2107,9 @@
    "link": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787707195288",
    "tipo": "apartamento",
    "geo": {
+    "fonte": "google",
     "lat": -16.031069,
-    "lng": -47.9875602,
-    "fonte": "google"
+    "lng": -47.9875602
    },
    "geo_pendente": false
   },
